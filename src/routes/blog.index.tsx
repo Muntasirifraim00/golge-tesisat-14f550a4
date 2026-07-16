@@ -43,7 +43,7 @@ export const Route = createFileRoute("/blog/")({
       meta: [
         { title },
         { name: "description", content: desc },
-        { name: "keywords", content: "tesisat blog, petek temizliği, kombi bakımı, tıkanıklık açma, su kaçağı" },
+        { name: "keywords", content: "tesisat blog, petek temizliği, kombi bakımı, tıkanıklık açma, su kaçağı, su borusu patladı, acil tesisat" },
         { property: "og:title", content: title },
         { property: "og:description", content: desc },
         { property: "og:type", content: "website" },
@@ -150,26 +150,33 @@ function BlogIndex() {
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Yazılarda ara..."
             aria-label="Blog yazılarında ara"
-            className="w-full rounded-xl border border-border bg-surface py-2.5 pl-9 pr-9 text-[13px] outline-none focus:border-brand-red"
+            className="w-full rounded-xl border border-border bg-surface py-2.5 pl-9 pr-9 text-[13px] outline-none shadow-sm transition focus:border-brand-red focus:ring-2 focus:ring-brand-red/20 md:py-3 md:text-[14px]"
           />
           {query && (
             <button
               type="button"
               onClick={() => setQuery("")}
               aria-label="Aramayı temizle"
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
+              className="absolute right-3 top-1/2 -translate-y-1/2 rounded p-1 text-muted-foreground transition hover:bg-muted hover:text-foreground"
             >
               <X className="h-4 w-4" />
             </button>
           )}
         </div>
+        {query && (
+          <div className="mt-2 text-center text-[12px] text-muted-foreground md:text-[13px]">
+            {filtered.length} sonuç bulundu
+          </div>
+        )}
       </section>
 
-      <section className="px-4 pt-4">
-        <div className="space-y-3">
+      <section className="px-4 pt-6 md:pt-10">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3">
           {filtered.length === 0 ? (
-            <p className="rounded-xl border border-border bg-surface p-4 text-center text-[13px] text-muted-foreground">
-              "{query}" için sonuç bulunamadı.
+            <p className="col-span-full rounded-2xl border border-border bg-surface p-8 text-center text-[13px] text-muted-foreground md:p-12">
+              <Search className="mx-auto mb-3 h-8 w-8 opacity-50" />
+              "{query}" için sonuç bulunamadı. <br />
+              <span className="text-[12px]">Farklı bir arama terimi deneyin.</span>
             </p>
           ) : (
             filtered.map((p) => (
@@ -177,31 +184,45 @@ function BlogIndex() {
               key={p.slug}
               to="/blog/$slug"
               params={{ slug: p.slug }}
-              className="block overflow-hidden rounded-xl border border-border bg-surface hover:border-brand-red"
+              className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-brand-red hover:shadow-2xl hover:shadow-brand-red/10"
             >
               {p.featuredImage && (
-                <img
-                  src={p.featuredImage.src}
-                  alt={p.featuredImage.alt}
-                  width={1280}
-                  height={720}
-                  loading="lazy"
-                  className="h-40 w-full object-cover"
-                />
-              )}
-              <div className="p-4">
-                <div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-brand-red">
-                  <span>{p.category}</span>
-                  <span className="text-muted-foreground">•</span>
-                  <span className="flex items-center gap-1 text-muted-foreground"><Clock className="h-3 w-3" /> {p.readMin} dk</span>
+                <div className="relative aspect-[16/10] w-full overflow-hidden bg-muted">
+                  <img
+                    src={p.featuredImage.src}
+                    alt={p.featuredImage.alt}
+                    width={1280}
+                    height={720}
+                    loading="lazy"
+                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent" />
                 </div>
-                <h2 className="mt-2 text-[16px] font-extrabold leading-tight">{p.title}</h2>
-                <p className="mt-1.5 text-[12px] leading-relaxed text-muted-foreground">{p.excerpt}</p>
-                <span className="mt-2 inline-flex items-center gap-1 text-[11px] font-bold text-brand-red">
-                  Devamını oku <ArrowRight className="h-3 w-3" />
+              )}
+              <div className="flex flex-1 flex-col gap-3 p-4 md:p-5">
+                <div className="flex flex-wrap items-center gap-2">
+                  <span className="inline-flex items-center gap-1.5 rounded-full bg-brand-red/10 px-2 py-1 text-[10px] font-bold uppercase tracking-widest text-brand-red">
+                    {p.category}
+                  </span>
+                  <span className="flex items-center gap-1 text-[10px] font-semibold text-muted-foreground">
+                    <Clock className="h-3 w-3" /> {p.readMin} dk
+                  </span>
+                </div>
+                <h2 className="text-[16px] font-extrabold leading-tight transition-colors group-hover:text-brand-red md:text-[17px]">
+                  {p.title}
+                </h2>
+                <p className="line-clamp-2 text-[12px] leading-relaxed text-muted-foreground md:text-[13px]">
+                  {p.excerpt}
+                </p>
+                <span className="mt-auto inline-flex items-center gap-1 text-[11px] font-bold text-brand-red transition-transform group-hover:gap-2">
+                  Devamını oku <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1" />
                 </span>
               </div>
             </Link>
+            ))
+          )}
+        </div>
+      </section>
 
             ))
           )}
