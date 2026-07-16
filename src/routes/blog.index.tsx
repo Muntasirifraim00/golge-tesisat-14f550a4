@@ -223,12 +223,8 @@ function BlogIndex() {
           )}
         </div>
       </section>
-
-            ))
-          )}
-        </div>
-      </section>
       </main>
+
       <SiteFooter />
       <StickyCallBar />
     </div>
