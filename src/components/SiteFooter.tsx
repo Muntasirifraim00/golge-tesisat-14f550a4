@@ -27,11 +27,13 @@ export function SiteFooter() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="mt-12 border-t border-border bg-surface">
+    <footer className="mt-12 bg-surface">
       {/* ===== Top emergency CTA band ===== */}
-      <div className="relative overflow-hidden bg-gradient-to-br from-brand-red to-brand-red/70 px-4 py-7 md:py-9">
+      <div className="px-4 pt-2 md:px-8 md:pt-3">
+        <div className="relative mx-auto max-w-[1320px] overflow-hidden rounded-2xl bg-gradient-to-br from-brand-red via-brand-red to-brand-red/70 px-5 py-6 shadow-xl shadow-brand-red/20 md:rounded-3xl md:px-10 md:py-8">
         <div className="pointer-events-none absolute -right-16 -top-16 h-40 w-40 rounded-full bg-white/10 blur-3xl" />
-        <div className="relative z-10 mx-auto flex max-w-[1320px] flex-col gap-5 md:flex-row md:items-center md:justify-between md:px-8">
+        <div className="pointer-events-none absolute -bottom-20 -left-12 h-40 w-40 rounded-full bg-black/10 blur-3xl" />
+        <div className="relative z-10 flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
           <div>
             <div className="flex items-center gap-2.5">
               <span className="relative flex h-3 w-3">
@@ -50,7 +52,7 @@ export function SiteFooter() {
           <div className="grid shrink-0 grid-cols-2 gap-3 md:flex">
             <a
               href={BUSINESS.phoneHref}
-              className="inline-flex items-center justify-center gap-2 rounded-xl bg-white px-4 py-3 text-[13px] font-extrabold text-brand-red shadow-lg transition hover:bg-white/90"
+              className="inline-flex items-center justify-center gap-2 rounded-xl bg-white px-5 py-3 text-[13px] font-extrabold text-brand-red shadow-lg transition hover:bg-white/90 md:text-[14px]"
             >
               <Phone className="h-4 w-4" /> Hemen Ara
             </a>
@@ -58,11 +60,12 @@ export function SiteFooter() {
               href={BUSINESS.whatsappHref}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-xl bg-brand-green px-4 py-3 text-[13px] font-bold text-brand-green-foreground shadow-lg transition hover:brightness-110"
+              className="inline-flex items-center justify-center gap-2 rounded-xl bg-brand-green px-5 py-3 text-[13px] font-bold text-brand-green-foreground shadow-lg transition hover:brightness-110 md:text-[14px]"
             >
               <MessageCircle className="h-4 w-4" /> WhatsApp
             </a>
           </div>
+        </div>
         </div>
       </div>
 
