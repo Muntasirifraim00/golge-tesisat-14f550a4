@@ -1,0 +1,27 @@
+# Gölge Tesisat
+
+> İstanbul'un tüm ilçelerinde 7/24 acil tesisatçı: su kaçağı tespiti, tıkanıklık açma, kombi servisi, petek temizliği ve doğalgaz tesisatı. Ortalama 30 dakikada kapınızda, ücretsiz keşif ve garantili işçilik.
+
+Gölge Tesisat İstanbul genelinde profesyonel su tesisatı hizmeti sunar. Acil hat: 0533 896 05 03.
+
+## Pages
+
+- [Ana Sayfa](/): 7/24 acil tesisatçı hizmetleri ve hizmet bölgeleri.
+- [Hizmetler](/hizmetler): Tüm tesisat hizmetlerinin listesi ve detayları.
+- [Acil Tesisatçı](/acil-tesisatci): 7/24 acil su tesisatçısı, ortalama 30 dk müdahale.
+- [İlçeler](/tesisatci): İstanbul ilçelerine göre tesisat hizmeti.
+- [Blog](/blog): Petek, kombi ve tıkanıklık konusunda uzman rehberler.
+
+## Hizmetler
+
+- [Su Kaçağı Tespiti](/hizmet/su-kacagi-tespiti): Cihazla noktasal su kaçağı tespiti.
+- [Tıkanıklık Açma](/hizmet/tikaniklik-acma): Gider ve kanal tıkanıklığı açma.
+- [Kombi Servisi](/hizmet/kombi-servisi): Kombi arıza, bakım ve onarım.
+- [Petek Temizliği](/hizmet/petek-temizligi): Petek temizliği ve hava alma.
+- [Doğalgaz Tesisatı](/hizmet/dogalgaz-tesisati): Doğalgaz tesisat ve montaj.
+
+## Blog
+
+- [Petek Temizliği Nasıl Yapılır](/blog/petek-temizligi-nasil-yapilir): Adım adım petek temizliği rehberi.
+- [Kombi Bakımı Nasıl Yapılır](/blog/kombi-bakimi-nasil-yapilir): Kombi bakım ipuçları.
+- [Su Kaçağı Nasıl Anlaşılır](/blog/su-kacagi-nasil-anlasilir): Su kaçağı belirtileri ve çözümleri.

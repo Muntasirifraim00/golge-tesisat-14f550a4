@@ -1,0 +1,1 @@
+DROP POLICY IF EXISTS "Bootstrap first admin" ON public.app_roles;

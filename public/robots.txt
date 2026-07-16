@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Private/internal routes (/admin, /studio, /google-ads, /Desktop-view,
+# /SEO-overview) are kept out of search via a `noindex, nofollow` meta tag
+# in each route's head(). They are intentionally NOT Disallowed here:
+# Google must be able to crawl a page to see its noindex tag. Blocking them
+# in robots.txt would prevent that and could cause them to be indexed as
+# URL-only ("Indexed, though blocked by robots.txt"). noindex is the correct
+# and sufficient mechanism for reliable de-indexing.
+
+Sitemap: https://golgetesisat.com/sitemap.xml

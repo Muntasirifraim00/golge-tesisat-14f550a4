@@ -1,0 +1,13 @@
+CREATE TABLE public.tracked_links (id uuid NOT NULL DEFAULT gen_random_uuid() PRIMARY KEY, code text NOT NULL UNIQUE, name text NOT NULL, destination_url text NOT NULL, target_url text NOT NULL, utm_source text, utm_medium text, utm_campaign text, utm_term text, utm_content text, platform text NOT NULL DEFAULT 'both', post_id uuid REFERENCES public.social_posts(id) ON DELETE SET NULL, clicks integer NOT NULL DEFAULT 0, last_clicked_at timestamptz, created_at timestamptz NOT NULL DEFAULT now(), updated_at timestamptz NOT NULL DEFAULT now());
+GRANT SELECT, INSERT, UPDATE, DELETE ON public.tracked_links TO authenticated;
+GRANT ALL ON public.tracked_links TO service_role;
+ALTER TABLE public.tracked_links ENABLE ROW LEVEL SECURITY;
+CREATE POLICY "Admins manage tracked links" ON public.tracked_links FOR ALL TO authenticated USING (public.has_role(auth.uid(), 'admin')) WITH CHECK (public.has_role(auth.uid(), 'admin'));
+CREATE TABLE public.link_clicks (id uuid NOT NULL DEFAULT gen_random_uuid() PRIMARY KEY, link_id uuid NOT NULL REFERENCES public.tracked_links(id) ON DELETE CASCADE, referrer text, user_agent text, created_at timestamptz NOT NULL DEFAULT now());
+GRANT SELECT, INSERT, UPDATE, DELETE ON public.link_clicks TO authenticated;
+GRANT ALL ON public.link_clicks TO service_role;
+ALTER TABLE public.link_clicks ENABLE ROW LEVEL SECURITY;
+CREATE POLICY "Admins read link clicks" ON public.link_clicks FOR SELECT TO authenticated USING (public.has_role(auth.uid(), 'admin'));
+CREATE INDEX idx_link_clicks_link_id ON public.link_clicks(link_id);
+CREATE INDEX idx_tracked_links_post_id ON public.tracked_links(post_id);
+CREATE TRIGGER update_tracked_links_updated_at BEFORE UPDATE ON public.tracked_links FOR EACH ROW EXECUTE FUNCTION public.update_updated_at_column();
