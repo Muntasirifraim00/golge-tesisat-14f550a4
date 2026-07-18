@@ -19078,11 +19078,19 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   },
 ];
 
+// Hybrid mode: merge markdown-authored posts (src/content/blog/*.md) with the
+// legacy inline TS array. MD posts are appended AFTER the TS array so — thanks
+// to the lastIndexOf dedupe below — a same-slug MD file transparently overrides
+// its TS counterpart. This lets us gradually migrate posts (or override a TS
+// post with a rewrite) without touching this file.
+import { MD_BLOG_POSTS } from "@/lib/blog-md";
+
 // Deduplicate by slug so the sitemap, blog index and related-post lists never
 // emit the same /blog/<slug> URL twice — duplicate <loc> entries confuse
 // crawlers and split indexing signals. Keep the LAST occurrence, which is the
-// most recently rewritten/expanded version of each guide.
-export const BLOG_POSTS: BlogPost[] = RAW_BLOG_POSTS.filter(
+// most recently rewritten/expanded version of each guide (or the MD override).
+const ALL_RAW_POSTS: BlogPost[] = [...RAW_BLOG_POSTS, ...MD_BLOG_POSTS];
+export const BLOG_POSTS: BlogPost[] = ALL_RAW_POSTS.filter(
   (p, i, arr) => arr.map((q) => q.slug).lastIndexOf(p.slug) === i,
 );
 
