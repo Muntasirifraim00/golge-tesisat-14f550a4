@@ -45,8 +45,9 @@ export function DesktopTopBar() {
           </div>
         </div>
 
-        {/* Center nav */}
-        <nav className="absolute left-1/2 -translate-x-1/2 flex items-center gap-1 rounded-full border border-white/[0.07] bg-white/[0.03] px-2 py-1.5 text-[13px] font-semibold text-slate-300">
+        {/* Center nav — flex-based (was absolute-centered, which overlapped the right toggle at ~1180–1260px viewports) */}
+        <nav className="mx-6 flex items-center gap-1 rounded-full border border-white/[0.07] bg-white/[0.03] px-2 py-1.5 text-[13px] font-semibold text-slate-300">
+
           {nav.map((n) => (
             <a
               key={n.href}
