@@ -101,7 +101,7 @@ export function DesktopHero() {
   const en = lang === "en";
 
   const stats = [
-    { v: "10.000+", l: en ? "Happy customers" : "Mutlu müşteri" },
+    { v: "2380+", l: en ? "Happy customers" : "Mutlu müşteri" },
     { v: "4.9", l: en ? "Google rating" : "Google puanı", star: true },
     { v: en ? "30 min" : "30 dk", l: en ? "Average arrival" : "Ortalama varış" },
     { v: "100%", l: en ? "Workmanship warranty" : "İşçilik garantisi" },
@@ -189,7 +189,7 @@ export function DesktopHero() {
                   ))}
                 </div>
                 <div className="mt-0.5 text-[12px] text-slate-400">
-                  <span className="font-bold text-white">10.000+</span> {en ? "satisfied customers" : "memnun müşteri"}
+                  <span className="font-bold text-white">2380+</span> {en ? "satisfied customers" : "memnun müşteri"}
                 </div>
               </div>
             </div>

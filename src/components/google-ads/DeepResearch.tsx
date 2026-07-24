@@ -199,7 +199,7 @@ const TEARDOWNS: AdTeardown[] = [
     headline3: { en: "Get Quotes in Minutes", tr: "Dakikalar İçinde Teklif Al" },
     description: {
       en: "10,000+ verified plumbers. Get a free quote, pick by reviews. Secure payment.",
-      tr: "10.000+ onaylı tesisatçı. Ücretsiz teklif al, yorumlara göre seç. Güvenli ödeme.",
+      tr: "2380+ onaylı tesisatçı. Ücretsiz teklif al, yorumlara göre seç. Güvenli ödeme.",
     },
     cta: { en: "Get a Quote", tr: "Teklif Al" },
     sitelinks: [

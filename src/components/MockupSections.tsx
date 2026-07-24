@@ -148,7 +148,7 @@ const T = {
     },
     bigCta: { eyebrow: "HEMEN İLETİŞİME GEÇİN", title: "Sorunlarınız İçin Çözüm Bizde!", desc: "Uzman ekibimiz en kısa sürede size ulaşsın, içiniz rahat olsun." },
     stats: [
-      { v: "10.000+", l: "Mutlu Müşteri" },
+      { v: "2380+", l: "Mutlu Müşteri" },
       { v: "20.000+", l: "Tamamlanan İş" },
       { v: "Tüm İstanbul", l: "Avrupa & Anadolu Yakası" },
       { v: "15+", l: "Yıllık Deneyim" },

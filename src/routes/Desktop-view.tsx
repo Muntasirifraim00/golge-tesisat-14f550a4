@@ -149,7 +149,7 @@ function Hero() {
               <img src={techHasan} className="h-11 w-11 rounded-full border-2 border-white object-cover" alt="" />
             </div>
             <div>
-              <div className="text-[20px] font-extrabold">10.000+</div>
+              <div className="text-[20px] font-extrabold">2380+</div>
               <div className="text-[12px] text-slate-500">Mutlu Müşteri</div>
             </div>
           </div>

@@ -138,7 +138,7 @@ export function DesktopInstantQuote() {
               </span>
               <div className="leading-tight">
                 <div className="text-[15px] font-black text-white">4.9 / 5 · Google</div>
-                <div className="text-[12px] text-slate-400">{en ? "From 10.000+ jobs" : "10.000+ iş üzerinden"}</div>
+                <div className="text-[12px] text-slate-400">{en ? "From 2380+ jobs" : "2380+ iş üzerinden"}</div>
               </div>
             </div>
           </div>
