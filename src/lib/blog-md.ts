@@ -2,42 +2,38 @@
 // Markdown-mode blog loader (hybrid with legacy TS array in src/data/blog.ts)
 // ---------------------------------------------------------------------------
 // Loads every *.md file under src/content/blog/ at build time via
-// import.meta.glob (eager + ?raw), parses YAML frontmatter with gray-matter,
-// and returns fully-formed BlogPost objects. These get merged into BLOG_POSTS
-// so every downstream consumer (findPost, INLINE_LINK_INDEX, relatedPostsFor,
-// sitemap.xml, blog index page, hub pages) picks them up automatically — the
-// site does NOT care whether a post came from TS or MD.
-//
-// Authoring: drop a new file at src/content/blog/<slug>.md following the
-// example in src/content/blog/README.md. Images go in public/blog-images/
-// and are referenced by absolute URL path like "/blog-images/foo.jpg".
+// import.meta.glob (eager + ?raw), parses YAML frontmatter with js-yaml
+// (browser-safe — gray-matter requires Node's Buffer which is not defined
+// in Vite's browser bundle), and returns fully-formed BlogPost objects.
 // ---------------------------------------------------------------------------
 
-import matter from "gray-matter";
+import yaml from "js-yaml";
 import type { BlogPost } from "@/data/blog";
 
-// Raw string contents of every markdown file, keyed by absolute path.
-// { eager: true, query: '?raw', import: 'default' } inlines the file body
-// into the bundle at build time — no runtime fetch, works in SSR + client.
 const RAW_MD_FILES = import.meta.glob("/src/content/blog/*.md", {
   eager: true,
   query: "?raw",
   import: "default",
 }) as Record<string, string>;
 
+// Minimal frontmatter splitter: expects a file starting with `---\n`,
+// followed by YAML, then a closing `---` on its own line.
+function extractFrontmatter(raw: string): string | null {
+  if (!raw.startsWith("---")) return null;
+  const rest = raw.slice(3).replace(/^\r?\n/, "");
+  const end = rest.search(/\r?\n---\s*(\r?\n|$)/);
+  if (end === -1) return null;
+  return rest.slice(0, end);
+}
+
 function parseOne(path: string, raw: string): BlogPost | null {
   try {
-    const { data } = matter(raw);
-    // Skip files without a slug (e.g. README, _example templates).
+    const fm = extractFrontmatter(raw);
+    if (!fm) return null;
+    const data = yaml.load(fm) as Record<string, unknown> | null;
     if (!data || typeof data.slug !== "string" || !data.slug) return null;
-    // Trust the frontmatter shape — authors follow the template. Any missing
-    // required field will surface as a build/runtime error at the consumer,
-    // which is the correct signal (we do NOT want to silently render a broken
-    // post).
     return data as unknown as BlogPost;
   } catch (err) {
-    // Log but don't throw — one malformed MD shouldn't take down the whole
-    // site build. The missing post simply won't appear.
     // eslint-disable-next-line no-console
     console.error(`[blog-md] Failed to parse ${path}:`, err);
     return null;
