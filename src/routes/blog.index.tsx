@@ -95,7 +95,13 @@ function BlogIndex() {
   const allPosts = useMemo(() => {
     const staticSlugs = new Set(BLOG_POSTS.map((p) => p.slug));
     const extras = generated.filter((p: BlogPost) => !staticSlugs.has(p.slug));
-    return [...extras, ...BLOG_POSTS];
+    const combined = [...extras, ...BLOG_POSTS];
+    // Sort by published date descending (newest first)
+    return combined.sort((a, b) => {
+      const dateA = a.published ? new Date(a.published).getTime() : 0;
+      const dateB = b.published ? new Date(b.published).getTime() : 0;
+      return dateB - dateA;
+    });
   }, [generated]);
   const filtered = useMemo(() => {
     const q = normalizeTr(query);
