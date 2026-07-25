@@ -1,21 +1,4 @@
----
-slug: dogalgaz-kacagi
-title: Doğalgaz Kaçağı Nasıl Anlaşılır? 6 Belirti ve Acil Müdahale (2026)
-seoTitle: Doğalgaz Kaçağı Nasıl Anlaşılır?
-keyword: doğalgaz kaçağı nasıl anlaşılır
-volume: 120
-kdi: 22
-category: Doğalgaz & Güvenlik
-readMin: 8
-published: 2026-07-19
-excerpt: Doğalgaz kaçağı tehlikelidir. 6 acil belirti, 7 adımlık müdahale protokolü ve sabun köpüğü testiyle anlık teşhis yapın.
-metaDescription: Doğalgaz kaçağı nasıl anlaşılır? 6 acil belirti, 7 adımlık acil protokolü, sabun köpüğü testi ve önlemler. Acil durum: 0533 896 05 03.
-serviceSlug: dogalgaz-tesisati
-inlineLinks:
-  - { slug: "dogalgaz-faturasi-nasil-dusurulur", anchor: "doğalgaz fatura tasarrufu" }
-  - { slug: "dogalgaz-dedektoru-nedir-ne-ise-yarar", anchor: "doğalgaz dedektörü" }
-  - { slug: "dogalgaz-sayaci-nasil-okunur", anchor: "doğalgaz sayacı nasıl okunur" }
----
+# Doğalgaz Kaçağı Nasıl Anlaşılır? 6 Belirti ve Acil Müdahale (2026)
 
 Mutfağa girdiğinizde tanıdık olmayan çürük yumurta kokusu... İşte o an **doğalgaz kaçağı** olma ihtimali %80'in üzerindedir. Kaçak sadece patlama değil; **karbonmonoksit zehirlenmesi** ile 15 dakikada bilinç kaybına da yol açabilir. Türkiye'de her yıl 200'den fazla ev doğalgaz kaçağı kaynaklı yangın raporlanıyor ve bu vakaların çoğu erken belirtileri tanımamaktan kaynaklanıyor.
 

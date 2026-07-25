@@ -1,24 +1,3 @@
----
-slug: gider-tikanikligi-nasil-acilir
-title: Gider Tıkanıklığı Nasıl Açılır? Lavabo, Klozet ve Banyo Rehberi (2026)
-seoTitle: Gider Tıkanıklığı Nasıl Açılır?
-keyword: gider tıkanıklığı nasıl açılır
-volume: 200
-kdi: 18
-category: Tıkanıklık & Tesisat
-readMin: 12
-published: 2026-07-18
-excerpt: Gider tıkanıklıklarının %80'i evde çözülebilir. Yanlış müdahale boruyu deforme edip 8.000 TL tamira yol açar. Doğru yöntemler ve acil protokol.
-metaDescription: Gider tıkanıklığı nasıl açılır? Lavabo, klozet, banyo tıkanıklıkları için ev tipi yöntemler, profesyonel fiyatlar ve 2026 acil servis.
-serviceSlug: tikaniklik-acma
-inlineLinks:
-  - { slug: "tikaniklik-acma", anchor: "tıkanıklık açma" }
-  - { slug: "klozet-tikanikligi-nasil-acilir", anchor: "klozet tıkanıklığı" }
-  - { slug: "lavabo-tikanikligi-nasil-acilir", anchor: "lavabo tıkanıklığı" }
-  - { slug: "su-kacagi-tespiti", anchor: "su kaçağı tespiti" }
-  - { slug: "kanal-goruntuleme-nedir-nasil-yapilir", anchor: "kanal görüntüleme" }
----
-
 # Gider Tıkanıklığı Nasıl Açılır? Lavabo, Klozet ve Banyo Rehberi (2026)
 
 **Gider tıkanıklıklarının %80'i** saç, sabun kalıntısı, yağ ve tuvalet kağıdı yığılmasından kaynaklanır ve **evde 15 dakikada** çözülebilir. Ancak yanlış müdahale — özellikle **kostik soda + sıcak su** — boruyu deforme edip 8.000 TL'lik bir tamir faturasına dönüşebilir. Bu rehberde tıkanma tipine göre doğru yöntem, ev tipi çözümler ve profesyonel servis eşiğini bulacaksınız.
