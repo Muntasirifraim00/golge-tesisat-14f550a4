@@ -11,6 +11,11 @@ published: 2026-07-24
 excerpt: Yoğuşmalı %15-20 daha verimli — baca gazından ek ısı geri kazanır. Fiyat farkı 8-15 bin ₺; 3-5 yılda amorti, sonra saf tasarruf.
 metaDescription: Yoğuşmalı kombi verim karşılaştırması, fatura tasarrufu, modülasyon, kondens tahliyesi ve marka bazlı 24 kW analizi.
 serviceSlug: kombi-servisi
+inlineLinks:
+  - { slug: "kombi-bacasi-nedir-cesitleri-montaji", anchor: "kombi bacası" }
+  - { slug: "kombi-montaji-nasil-yapilir-baglanti-rehberi", anchor: "kombi montajı" }
+  - { slug: "kombi-ideal-sicaklik-ayari", anchor: "kombi ideal sıcaklık ayarı" }
+  - { slug: "kombi-kac-kw-olmali", anchor: "kombi kaç kW olmalı" }
 ---
 
 # Yoğuşmalı Kombi vs Konvansiyonel Kombi: Fark, Verim ve Fatura Karşılaştırması (2026)

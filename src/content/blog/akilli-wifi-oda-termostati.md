@@ -1,3 +1,24 @@
+---
+slug: akilli-wifi-oda-termostati
+title: Akıllı WiFi Oda Termostatı: Kurulum, Kombi Uyumu ve Fatura Etkisi (2026)
+seoTitle: Akıllı WiFi Oda Termostatı: Kurulum, Kombi Uyumu ve Fatura Etkisi (2026)
+keyword: akıllı wifi oda termostatı
+volume: 320
+kdi: 28
+category: Akıllı Ev & Isıtma
+readMin: 12
+published: 2026-07-20
+excerpt: Akıllı WiFi oda termostatı, evin sıcaklığını öğrenerek ve program üzerinden yönetir; kombiyi sadece gerektiğinde çalıştırır. Ortalama %15–25 doğalgaz tasarrufu sağlar.
+metaDescription: Akıllı WiFi oda termostatı kurulumu, kombi uyumu, fatura etkisi ve marka karşılaştırması. %15-25 tasarruf, 1-2 kış sezonunda amorti.
+serviceSlug: akilli-ev-urunleri
+inlineLinks:
+  - { slug: "kombi-ideal-sicaklik-ayari", anchor: "kombi ideal sıcaklık ayarı" }
+  - { slug: "kombi-bacasi-nedir-cesitleri-montaji", anchor: "kombi bacası" }
+  - { slug: "kombi-montaji-nasil-yapilir-baglanti-rehberi", anchor: "kombi montajı" }
+  - { slug: "kombi-kac-kw-olmali", anchor: "kombi kaç kW olmalı" }
+  - { slug: "yerden-isitma-sistemi-rehberi", anchor: "yerden ısıtma sistemi" }
+---
+
 # Akıllı WiFi Oda Termostatı: Kurulum, Kombi Uyumu ve Fatura Etkisi (2026)
 
 **Kısa cevap:** Akıllı WiFi oda termostatı, evin sıcaklığını **öğrenerek ve program üzerinden** yönetir; kombiyi sadece gerektiğinde çalıştırır. Ortalama bir dairede **%15–25 doğalgaz tasarrufu** sağlar, kendini **1–2 kış sezonunda** amorti eder. Kurulum sadece **2 kablo** işidir; her modern yoğuşmalı kombiye takılır. En büyük hata, cihazı **kombiyi gördüğü duvara** ya da **güneşe** monte etmektir — o zaman ne ölçüm doğru olur, ne tasarruf.
