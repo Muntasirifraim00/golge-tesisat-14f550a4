@@ -200,6 +200,48 @@ export type BlogChart = {
 // An inline image/diagram within a section.
 export type BlogImage = { src: string; alt: string; caption?: string };
 
+// --- Rich block types (all optional inside a section) ---
+export type BlogCallout = {
+  variant?: "info" | "tip" | "warning" | "danger" | "success";
+  title?: string;
+  body: string;
+};
+export type BlogSteps = {
+  title?: string;
+  steps: { title: string; body?: string; image?: BlogImage }[];
+};
+export type BlogProsCons = { title?: string; pros: string[]; cons: string[] };
+export type BlogChecklist = { title?: string; items: string[] };
+export type BlogVideo = { youtubeId: string; title?: string; caption?: string };
+export type BlogQuote = { text: string; author?: string; role?: string };
+export type BlogGallery = { images: BlogImage[] };
+export type BlogBeforeAfter = { before: BlogImage; after: BlogImage; caption?: string };
+export type BlogPriceTable = {
+  caption?: string;
+  rows: { service: string; price: string; note?: string }[];
+};
+export type BlogMaterials = {
+  title?: string;
+  items: { name: string; note?: string }[];
+};
+export type BlogTimeline = {
+  title?: string;
+  items: { time: string; title: string; body?: string }[];
+};
+export type BlogAccordion = { items: { q: string; a: string }[] };
+export type BlogKeyTakeaways = { title?: string; points: string[] };
+export type BlogCta = {
+  title: string;
+  body?: string;
+  phone?: boolean;
+  whatsapp?: boolean;
+};
+export type BlogSources = {
+  title?: string;
+  items: { label: string; url: string }[];
+};
+export type BlogRawHtml = { html: string };
+
 export type BlogSection = {
   heading: string;
   paragraphs: string[];
@@ -207,6 +249,23 @@ export type BlogSection = {
   image?: BlogImage; // optional inline figure
   table?: BlogTable; // optional comparison/spec table
   chart?: BlogChart; // optional simple bar chart
+  // Rich blocks (all optional; render in this order below chart)
+  callout?: BlogCallout;
+  keyTakeaways?: BlogKeyTakeaways;
+  steps?: BlogSteps;
+  checklist?: BlogChecklist;
+  prosCons?: BlogProsCons;
+  materials?: BlogMaterials;
+  timeline?: BlogTimeline;
+  quote?: BlogQuote;
+  video?: BlogVideo;
+  gallery?: BlogGallery;
+  beforeAfter?: BlogBeforeAfter;
+  priceTable?: BlogPriceTable;
+  accordion?: BlogAccordion;
+  cta?: BlogCta;
+  sources?: BlogSources;
+  rawHtml?: BlogRawHtml;
 };
 
 export type BlogPost = {
