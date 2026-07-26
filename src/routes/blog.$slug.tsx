@@ -430,7 +430,7 @@ function BlogPostPage() {
                   </div>
                 </figure>
               )}
-              )}
+
 
               <BlogRichBlocks section={sec} />
             </section>
