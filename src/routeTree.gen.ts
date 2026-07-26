@@ -19,6 +19,7 @@ import { Route as HizmetlerRouteImport } from './routes/hizmetler'
 import { Route as GoogleAdsRouteImport } from './routes/google-ads'
 import { Route as DisavowRouteImport } from './routes/disavow'
 import { Route as CerezPolitikasiRouteImport } from './routes/cerez-politikasi'
+import { Route as BlogYazmaRehberiRouteImport } from './routes/blog-yazma-rehberi'
 import { Route as AdminRouteImport } from './routes/admin'
 import { Route as AcilTesisatciRouteImport } from './routes/acil-tesisatci'
 import { Route as SEOOverviewBanglaRouteImport } from './routes/SEO-overview-bangla'
@@ -106,6 +107,11 @@ const DisavowRoute = DisavowRouteImport.update({
 const CerezPolitikasiRoute = CerezPolitikasiRouteImport.update({
   id: '/cerez-politikasi',
   path: '/cerez-politikasi',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogYazmaRehberiRoute = BlogYazmaRehberiRouteImport.update({
+  id: '/blog-yazma-rehberi',
+  path: '/blog-yazma-rehberi',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AdminRoute = AdminRouteImport.update({
@@ -314,6 +320,7 @@ export interface FileRoutesByFullPath {
   '/SEO-overview-bangla': typeof SEOOverviewBanglaRoute
   '/acil-tesisatci': typeof AcilTesisatciRoute
   '/admin': typeof AdminRouteWithChildren
+  '/blog-yazma-rehberi': typeof BlogYazmaRehberiRoute
   '/cerez-politikasi': typeof CerezPolitikasiRoute
   '/disavow': typeof DisavowRoute
   '/google-ads': typeof GoogleAdsRoute
@@ -363,6 +370,7 @@ export interface FileRoutesByTo {
   '/SEO-overview': typeof SEOOverviewRoute
   '/SEO-overview-bangla': typeof SEOOverviewBanglaRoute
   '/acil-tesisatci': typeof AcilTesisatciRoute
+  '/blog-yazma-rehberi': typeof BlogYazmaRehberiRoute
   '/cerez-politikasi': typeof CerezPolitikasiRoute
   '/disavow': typeof DisavowRoute
   '/google-ads': typeof GoogleAdsRoute
@@ -412,6 +420,7 @@ export interface FileRoutesById {
   '/SEO-overview-bangla': typeof SEOOverviewBanglaRoute
   '/acil-tesisatci': typeof AcilTesisatciRoute
   '/admin': typeof AdminRouteWithChildren
+  '/blog-yazma-rehberi': typeof BlogYazmaRehberiRoute
   '/cerez-politikasi': typeof CerezPolitikasiRoute
   '/disavow': typeof DisavowRoute
   '/google-ads': typeof GoogleAdsRoute
@@ -464,6 +473,7 @@ export interface FileRouteTypes {
     | '/SEO-overview-bangla'
     | '/acil-tesisatci'
     | '/admin'
+    | '/blog-yazma-rehberi'
     | '/cerez-politikasi'
     | '/disavow'
     | '/google-ads'
@@ -513,6 +523,7 @@ export interface FileRouteTypes {
     | '/SEO-overview'
     | '/SEO-overview-bangla'
     | '/acil-tesisatci'
+    | '/blog-yazma-rehberi'
     | '/cerez-politikasi'
     | '/disavow'
     | '/google-ads'
@@ -561,6 +572,7 @@ export interface FileRouteTypes {
     | '/SEO-overview-bangla'
     | '/acil-tesisatci'
     | '/admin'
+    | '/blog-yazma-rehberi'
     | '/cerez-politikasi'
     | '/disavow'
     | '/google-ads'
@@ -612,6 +624,7 @@ export interface RootRouteChildren {
   SEOOverviewBanglaRoute: typeof SEOOverviewBanglaRoute
   AcilTesisatciRoute: typeof AcilTesisatciRoute
   AdminRoute: typeof AdminRouteWithChildren
+  BlogYazmaRehberiRoute: typeof BlogYazmaRehberiRoute
   CerezPolitikasiRoute: typeof CerezPolitikasiRoute
   DisavowRoute: typeof DisavowRoute
   GoogleAdsRoute: typeof GoogleAdsRoute
@@ -708,6 +721,13 @@ declare module '@tanstack/react-router' {
       path: '/cerez-politikasi'
       fullPath: '/cerez-politikasi'
       preLoaderRoute: typeof CerezPolitikasiRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog-yazma-rehberi': {
+      id: '/blog-yazma-rehberi'
+      path: '/blog-yazma-rehberi'
+      fullPath: '/blog-yazma-rehberi'
+      preLoaderRoute: typeof BlogYazmaRehberiRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/admin': {
@@ -1059,6 +1079,7 @@ const rootRouteChildren: RootRouteChildren = {
   SEOOverviewBanglaRoute: SEOOverviewBanglaRoute,
   AcilTesisatciRoute: AcilTesisatciRoute,
   AdminRoute: AdminRouteWithChildren,
+  BlogYazmaRehberiRoute: BlogYazmaRehberiRoute,
   CerezPolitikasiRoute: CerezPolitikasiRoute,
   DisavowRoute: DisavowRoute,
   GoogleAdsRoute: GoogleAdsRoute,
@@ -1087,13 +1108,3 @@ const rootRouteChildren: RootRouteChildren = {
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
-
-import type { getRouter } from './router.tsx'
-import type { startInstance } from './start.ts'
-declare module '@tanstack/react-start' {
-  interface Register {
-    ssr: true
-    router: Awaited<ReturnType<typeof getRouter>>
-    config: Awaited<ReturnType<typeof startInstance.getOptions>>
-  }
-}

@@ -6,6 +6,7 @@ import { StickyCallBar } from "@/components/StickyCallBar";
 import { UrgencyCTA } from "@/components/UrgencyCTA";
 import { ReadingProgress } from "@/components/ReadingProgress";
 import { ArticleToc, type TocItem } from "@/components/ArticleToc";
+import { BlogRichBlocks } from "@/components/BlogRichBlocks";
 import { relatedPostsFor, findPost, howToFromPost, INLINE_LINK_INDEX, type BlogPost, type InlinePhrase } from "@/data/blog";
 import { findInlineMatch } from "@/lib/inline-linker";
 import { getGeneratedPost } from "@/lib/seo-writer/blog-public.functions";
@@ -430,6 +431,9 @@ function BlogPostPage() {
                   </div>
                 </figure>
               )}
+
+
+              <BlogRichBlocks section={sec} />
             </section>
           ))}
 
