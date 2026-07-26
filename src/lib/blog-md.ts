@@ -41,5 +41,7 @@ function parseOne(path: string, raw: string): BlogPost | null {
 }
 
 export const MD_BLOG_POSTS: BlogPost[] = Object.entries(RAW_MD_FILES)
+  // Skip templates & files whose basename starts with "_" (drafts / examples).
+  .filter(([path]) => !path.includes("/_templates/") && !/\/_[^/]+\.md$/.test(path))
   .map(([path, raw]) => parseOne(path, raw))
   .filter((p): p is BlogPost => p !== null);
