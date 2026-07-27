@@ -72,6 +72,10 @@ sections:
   - heading: "Sık Yapılan Hatalar"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/isi-pompasi-belirtiler.jpg"
+      alt: "Isı pompası yaygın sorun belirtileri"
+      caption: "Buzlanma, düşük ısı, ses ve arıza kodları."
   - heading: "Isı Pompası Boyutlandırma: Isı Yükü Hesabı"
     paragraphs:
       - "Doğru boyutlandırma, ısı pompası projesinin en kritik adımıdır. **Aşırı büyük** cihaz kısa çevrim (short-cycle) yapar; kompresör dakikada 4-6 kez başlar-durur, tüketim %20-30 artar, ömür yarıya iner. **Küçük** cihaz ise en soğuk günlerde hedef sıcaklığa ulaşamaz ve elektrikli yedek ısıtıcı devreye girer — SCOP 4.0 olan cihaz pratikte SCOP 2.5'a düşer."
@@ -105,6 +109,10 @@ sections:
       - "**Senaryo A: İstanbul, 110 m², mantolamalı yeni bina** - Isı yükü: 8 kW; ısıtma sezonu 1.850 saat - SCOP: 4.2; elektrik ihtiyacı 3.520 kWh - Elektrik birim (mesken): 3.20 ₺/kWh - Yıllık ısıtma: **11.264 ₺** - Karşılaştırma: doğalgaz kombi ~19.500 ₺ → **%42 tasarruf**"
       - "**Senaryo B: İstanbul, 140 m², orta yalıtım** - Isı yükü: 12 kW; sezon 2.100 saat - SCOP: 3.6; elektrik 6.998 kWh - Yıllık: **22.394 ₺** - Doğalgaz kombi eşdeğeri ~27.800 ₺ → **%19 tasarruf**"
       - "**Senaryo C: Erzurum, 130 m², hibrit** - 60 % ısı pompası + 40 % kombi - Isı pompası elektriği: 4.100 kWh × 3.20 = 13.120 ₺ - Kombi doğalgaz: 750 m³ × 10 ₺ = 7.500 ₺ - Toplam: **20.620 ₺** (saf kombi 33.000 ₺ → **%38 tasarruf**)"
+    image:
+      src: "/blog-images/isi-pompasi-maliyet-grafik.jpg"
+      alt: "Yıllık ısıtma maliyeti karşılaştırma grafiği"
+      caption: "Isı pompası, yoğuşmalı kombi, elektrikli ve klasik kombi yıllık maliyet (₺)."
   - heading: "Yaygın Arızalar ve Servis Maliyetleri"
     paragraphs:
       - "Yıllık bakım (temizlik, basınç, elektrik kontrolü) 2026 fiyatı ortalama **1.500-2.200 ₺**. Sözleşmeli yıllık paket alan kullanıcı 5 yılda ortalama %30 tasarruf sağlar."
