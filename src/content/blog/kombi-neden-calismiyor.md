@@ -32,12 +32,24 @@ sections:
   - heading: "Kombi Neden Çalışmaz? 8 Gerçek Neden"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/kombi-neden-calismiyor-infographic.jpg"
+      alt: "Kombi teşhis akış şeması"
+      caption: "Kombi çalışmıyor teşhis akış şeması."
   - heading: "Arıza Kodları — Marka Bazlı Tam Liste"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/kombi-neden-calismiyor-comparison.jpg"
+      alt: "Marka bazlı arıza karşılaştırması"
+      caption: "Bosch, Vaillant, Baymak, Demirdöküm arıza karşılaştırması."
   - heading: "Evde Yapabileceğiniz 5 Kontrol"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/kombi-neden-calismiyor-symptoms.jpg"
+      alt: "Kombi çalışmama nedenleri"
+      caption: "Kombinin çalışmamasının 4 ana nedeni."
   - heading: "Ne Zaman Kesinlikle Servis?"
     paragraphs:
       - "Detay: [evde gaz kokusu](/preview/gaz-kokusu-acil-mudahale)."
@@ -53,6 +65,10 @@ sections:
   - heading: "Sonuç"
     paragraphs:
       - "**Hata kodunu fotoğrafla → markanı bul → basınç + gaz + reset (1 kez).** İstanbul 7/24: **0533 896 05 03**."
+    image:
+      src: "/blog-images/kombi-neden-calismiyor-chart.jpg"
+      alt: "Kombi arıza yüzdeleri"
+      caption: "Kombi arıza nedenlerinin yüzdelik dağılımı."
   - heading: "Gölge Tesisat İstanbul — Acil Servis"
     paragraphs:
       - "İstanbul geneli 7/24 tesisat servisimiz Kadıköy, Beşiktaş, Ümraniye, Başakşehir dahil tüm ilçelerde 45 dakika içinde adresinize gelir. Fiyat aralıklarımız arıza türüne göre değişir; net teklif için telefonla ulaşın."
