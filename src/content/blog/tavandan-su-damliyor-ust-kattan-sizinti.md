@@ -30,15 +30,31 @@ sections:
   - heading: "İlk 5 Dakika Kritik Protokolü"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/tavandan-su-damliyor-ust-kattan-sizinti-infographic.jpg"
+      alt: "Tavandan su sızıntısı infografik"
+      caption: "Tavan sızıntısı infografik."
   - heading: "Üst Komşuya Bildirim Doğru Protokol"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/tavandan-su-damliyor-ust-kattan-sizinti-comparison.jpg"
+      alt: "Tavandan su sızıntısı karşılaştırma"
+      caption: "Tavan sızıntısı karşılaştırma."
   - heading: "Sızıntı Nereden Geldi? — 5 Tip"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/tavandan-su-damliyor-ust-kattan-sizinti-symptoms.jpg"
+      alt: "Tavandan su sızıntısı belirtiler"
+      caption: "Tavan sızıntısı belirtiler."
   - heading: "KMK Madde 42 — Kim Öder?"
     paragraphs:
       - "**Üst komşu ödemeyi reddederse:** ihtar → **Sulh Hukuk Mahkemesi** (KMK 33). Kanıt: fotoğraf, video, uzman raporu, servis faturaları, WhatsApp yazışması."
+    image:
+      src: "/blog-images/tavandan-su-damliyor-ust-kattan-sizinti-chart.jpg"
+      alt: "Tavandan su sızıntısı grafik"
+      caption: "Tavan sızıntısı grafik."
   - heading: "Konut Sigortası Talep Süreci"
     paragraphs:
       - "**İpucu:** \"Su hasarı ek klozu\" (250–800 TL/yıl), tavanın **komşu dairesinden** sızıntı istisnasını kaldırır — çok değerli."

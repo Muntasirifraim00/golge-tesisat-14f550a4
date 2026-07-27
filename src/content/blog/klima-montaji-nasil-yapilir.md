@@ -32,19 +32,35 @@ sections:
   - heading: "Montaj Öncesi Hazırlık"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/klima-montaji-nasil-yapilir-infographic.jpg"
+      alt: "Klima montajı infografik"
+      caption: "Klima montaj infografik."
   - heading: "Adım Adım Klima Montajı"
     paragraphs:
       - "Bakır boru **yumuşak, dikişsiz, DIN EN 12735** olmalı. Kesim sonrası:"
       - "Torkmetre kullanılmadan yapılan sıkma en yaygın gaz kaçağı nedenidir."
       - "Bu adım atlanır veya kısa tutulursa sistem 6–18 ay içinde bozulur."
       - "``` Hedef basınç: 500 mikron (0,067 mbar) altı Süre (9-12k): min. 15 dakika Süre (18-24k): min. 25 dakika Süre (30k+): min. 40 dakika Kapama testi: Vakum pompasını kapatın, 5 dakika bekleyin. Basınç yükseliyorsa → kaçak var, havşayı tekrar kontrol edin. ```"
+    image:
+      src: "/blog-images/klima-montaji-nasil-yapilir-comparison.jpg"
+      alt: "Klima montajı karşılaştırma"
+      caption: "Klima montaj karşılaştırma."
   - heading: "Gaz Türleri: R32 vs R410A"
     paragraphs:
       - "2026 itibarıyla yeni satılan split klimaların **%95'i R32**'dir. R32 hafif yanıcıdır; iç mekanda **min. hacim** koşulu vardır (12k BTU için ~10 m³)."
+    image:
+      src: "/blog-images/klima-montaji-nasil-yapilir-symptoms.jpg"
+      alt: "Klima montajı belirtiler"
+      caption: "Klima montaj belirtiler."
   - heading: "Klima Kaç BTU Olmalı?"
     paragraphs:
       - "**Formül:** ``` BTU ≈ oda m² × 600 (normal yalıtım) BTU ≈ oda m² × 800 (güney/yüksek pencereli) ```"
       - "Detaylı hesap için [klima BTU hesaplama](/preview/klima-btu-hesaplama) rehberimize bakın. Kombi seçimindeki benzer mantık için [kombi kaç kW olmalı](/preview/kombi-kac-kw-olmali)."
+    image:
+      src: "/blog-images/klima-montaji-nasil-yapilir-chart.jpg"
+      alt: "Klima montajı grafik"
+      caption: "Klima montaj grafik."
   - heading: "Sık Yapılan Montaj Hataları"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."

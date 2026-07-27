@@ -30,18 +30,34 @@ sections:
   - heading: "3 Tıkanıklık Tipi — Doğru Teşhis"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/klozet-tikandi-diy-yontemler-infographic.jpg"
+      alt: "Klozet tıkanıklığı DIY infografik"
+      caption: "Klozet tıkanıklığı infografik."
   - heading: "İlk 60 Saniye — Güvenlik"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/klozet-tikandi-diy-yontemler-comparison.jpg"
+      alt: "Klozet tıkanıklığı DIY karşılaştırma"
+      caption: "Klozet tıkanıklığı karşılaştırma."
   - heading: "7 DIY Yöntem — Doğru Sırayla"
     paragraphs:
       - "**Kubbeli klozet pompası** (sıradan lavabo pompası değil):"
       - "1 çay bardağı deterjan + 5 dk bekle + 3–5 litre **60°C ılık su**. **Kaynar su asla** — porselen çatlar."
       - "1 bardak karbonat + 2 bardak sirke + 15 dk + sıcak su."
       - "Yarım bardak tuz + 2 litre 50°C su + 30 dk."
+    image:
+      src: "/blog-images/klozet-tikandi-diy-yontemler-symptoms.jpg"
+      alt: "Klozet tıkanıklığı DIY belirtiler"
+      caption: "Klozet tıkanıklığı belirtiler."
   - heading: "Neyi ASLA Yapmamalısınız"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/klozet-tikandi-diy-yontemler-chart.jpg"
+      alt: "Klozet tıkanıklığı DIY grafik"
+      caption: "Klozet tıkanıklığı grafik."
   - heading: "Servis Ne Zaman Şart?"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."

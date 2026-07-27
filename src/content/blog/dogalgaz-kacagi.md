@@ -37,22 +37,38 @@ sections:
       - "Doğalgaz kaçağı, tesisat hattı, sayaç, esnek hortum, ocak/kombi bağlantısı veya kolon borusundaki bir noktadan gazın kontrolsüz olarak ortama sızmasıdır. Doğalgaz doğada kokusuzdur; ancak dağıtım şirketleri güvenlik gereği içine **THT (tetrahidrotiyofen)** adlı kükürtlü koku katkı maddesi ekler — bu yüzden \"çürük yumurta\" gibi hissedersiniz."
       - "Sahada karşılaştığımız kaçak sebeplerinin dağılımı:"
       - "Doğalgaz havadan hafiftir (özgül ağırlık ~0.55), bu yüzden **tavana doğru yükselir**. LPG (tüpgaz) ise havadan ağırdır ve zemine çöker — iki gazın kaçak müdahalesi tamamen farklıdır."
+    image:
+      src: "/blog-images/dogalgaz-kacagi-infographic.jpg"
+      alt: "Doğalgaz kaçağı infografik"
+      caption: "Doğalgaz kaçak infografik."
   - heading: "Doğalgaz Kaçağının 6 Kesin Belirtisi"
     paragraphs:
       - "Belirtileri tekli değil, **iki veya daha fazlasını aynı anda** görürseniz kesin kaçak varsayarak müdahale edin."
       - "En yaygın belirti. THT katkısı sayesinde 0.5 ppm konsantrasyonda bile burun tarafından fark edilir — patlama alt limitinin (5% v/v) çok altında. Kokuyu ocak, sayaç veya kombiye yaklaştığınızda daha yoğun hissediyorsanız kaynak oradadır."
       - "Gevşek rakor ya da delinmiş hortumdan yüksek basınçla çıkan gaz keskin bir \"sss\" sesi verir. Özellikle sessiz gece saatlerinde duyulur. Ocak veya sayaca kulak dayamayın; 1–2 metre mesafeden dinleyin."
       - "Ana vanayı kapatıp 15 dakika bekleyin, sayaçtaki rakam sabit kalmalıdır. Ana vana kapalıyken sayaç ile ana vana arası bir kaçak varsa yine döner — bu servis borusu kaçağıdır ve **acilen 187'yi aramanız gerekir**."
+    image:
+      src: "/blog-images/dogalgaz-kacagi-comparison.jpg"
+      alt: "Doğalgaz kaçağı karşılaştırma"
+      caption: "Doğalgaz kaçak karşılaştırma."
   - heading: "İlk 60 Saniye: 7 Adımlık Acil Protokol"
     paragraphs:
       - "Sıralama kritiktir. Yanlış sırayla yapılan doğru adımlar patlamaya yol açabilir."
       - "Doğalgaz + hava karışımı **kıvılcım** ile patlar. Işık düğmesini açıp kapatmak, priz takmak, cep telefonu tuşlarına basmak, elektrikli aleti çalıştırmak — hepsi kıvılcım üretir. Ortamda ne varsa **olduğu gibi bırakın**."
       - "Ellerinizle pencere kollarını mekanik olarak açın (elektrikli motorlu pencere varsa kesinlikle dokunmayın). Doğalgaz havadan hafif olduğu için üst pencereler öncelikli."
       - "Ana vana **daire girişindeki sayaç kutusunun yanında** ya da **mutfak balkonunda sayacın önünde**dir. Sarı renkli kelebek vana kolunu boruya **dik pozisyona** getirin — bu kapalı demektir. Kolu paralel = açık. Vanayı bulamıyorsanız apartman bodrumundaki kolon vanasına inebilirsiniz."
+    image:
+      src: "/blog-images/dogalgaz-kacagi-symptoms.jpg"
+      alt: "Doğalgaz kaçağı belirtiler"
+      caption: "Doğalgaz kaçak belirtiler."
   - heading: "Kaçak Tespit Yöntemleri Karşılaştırması"
     paragraphs:
       - "Kaçaktan şüpheleniyorsanız ama akut patlama riski yoksa, kaynağı doğrulamak için 4 yöntem kullanılır. Her yöntemin hassasiyeti ve maliyet profili farklıdır:"
       - "**Sabun köpüğü** ev kullanıcısı için en hızlı yöntemdir: bir kap suya 2 damla bulaşık deterjanı, karışımı süngerle rakor ve hortum ekleri üzerine sürün. **Kabarcık büyümesi = kaçak.** Ancak bu yöntem sadece görünür bağlantılarda işe yarar; duvar içi kolon veya sıva altı boru için manometre şart."
+    image:
+      src: "/blog-images/dogalgaz-kacagi-chart.jpg"
+      alt: "Doğalgaz kaçağı grafik"
+      caption: "Doğalgaz kaçak grafik."
   - heading: "Kaçak Kaynak Dağılımı (Saha Verisi)"
     paragraphs:
       - "İstanbul'daki 320 vakalık son 3 yıllık sahamızdan derlediğimiz yaklaşık dağılım:"

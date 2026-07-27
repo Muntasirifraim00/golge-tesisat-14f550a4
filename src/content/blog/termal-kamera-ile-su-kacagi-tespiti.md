@@ -34,16 +34,32 @@ sections:
       - "**Kızılötesi (IR)** ışınları yakalar — her cisim ısısına göre farklı IR yayar. Su kaçağı 3 termal iz bırakır:"
       - "**Çözünürlük hassasiyeti:**"
       - "**Doğru servis:** min 320×240 çözünürlük."
+    image:
+      src: "/blog-images/termal-kamera-ile-su-kacagi-tespiti-infographic.jpg"
+      alt: "Termal kamera kaçak tespiti infografik"
+      caption: "Termal kamera infografik."
   - heading: "Termal Kamera Ne Zaman Doğru Yöntem?"
     paragraphs:
       - "Detay: [su sayacı dönüyor](/preview/su-sayaci-donuyor-gizli-kacak)."
+    image:
+      src: "/blog-images/termal-kamera-ile-su-kacagi-tespiti-comparison.jpg"
+      alt: "Termal kamera kaçak tespiti karşılaştırma"
+      caption: "Termal kamera karşılaştırma."
   - heading: "Termal Kamera Ölçüm Prosedürü"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/termal-kamera-ile-su-kacagi-tespiti-symptoms.jpg"
+      alt: "Termal kamera kaçak tespiti belirtiler"
+      caption: "Termal kamera belirtiler."
   - heading: "Sigorta Uyumlu Rapor Formatı"
     paragraphs:
       - "**SBGM** kabul kriterleri:"
       - "**Rapor eksik kalırsa:** sigorta %50–100 red hakkına sahiptir. Muhakkak alın."
+    image:
+      src: "/blog-images/termal-kamera-ile-su-kacagi-tespiti-chart.jpg"
+      alt: "Termal kamera kaçak tespiti grafik"
+      caption: "Termal kamera grafik."
   - heading: "İstanbul 2026 Termal Kamera Fiyatları"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."

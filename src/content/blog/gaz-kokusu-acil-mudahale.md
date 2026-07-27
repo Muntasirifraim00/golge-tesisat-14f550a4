@@ -35,18 +35,34 @@ sections:
     paragraphs:
       - "Doğalgaz büyük ölçüde **metan (CH₄)** gazından oluşur; renksiz, kokusuz ve havadan hafiftir. LPG ise **propan-bütan** karışımıdır ve havadan ağırdır. Her ikisine de **etil merkaptan** eklenir — çürük yumurta / lahana benzeri koku bundandır. İnsan burnu bu kokuyu **havadaki 1 ppm** yoğunlukta bile algılar; doğalgazın patlama alt sınırı (LEL) **hacimce %5**'tir."
       - "Evde en sık kaçak yapan 5 nokta:"
+    image:
+      src: "/blog-images/gaz-kokusu-acil-mudahale-infographic.jpg"
+      alt: "Gaz kokusu acil müdahale infografik"
+      caption: "Gaz kokusu infografik."
   - heading: "5 Dakikada Gaz Kokusu Acil Müdahale — 7 Adım"
     paragraphs:
       - "**Süre: 0 saniye. En kritik adım.** Elektrik düğmesine bastığınızda oluşan **mikro kıvılcım**, ortamdaki gaz-hava karışımını tutuşturabilir:"
       - "Mutfak penceresini, balkon kapısını, salonun karşıt yönlü camlarını **sonuna kadar açın**."
       - "Sayaç çıkışındaki **sarı ya da turuncu kollu ana vanayı** boruya **dik** pozisyona getirin."
       - "Yanan ocak, mum, sigara, tütsü — hemen söndürün. **Çakmak / kibrit ile \"kaçak var mı\" testi ASLA yapmayın**."
+    image:
+      src: "/blog-images/gaz-kokusu-acil-mudahale-comparison.jpg"
+      alt: "Gaz kokusu acil müdahale karşılaştırma"
+      caption: "Gaz kokusu karşılaştırma."
   - heading: "Sabun Köpüğü ile Gaz Kaçağı Testi"
     paragraphs:
       - "Ana vana kapalı iken:"
+    image:
+      src: "/blog-images/gaz-kokusu-acil-mudahale-symptoms.jpg"
+      alt: "Gaz kokusu acil müdahale belirtiler"
+      caption: "Gaz kokusu belirtiler."
   - heading: "Doğalgaz Kaçağı vs Karbonmonoksit (CO) Zehirlenmesi"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/gaz-kokusu-acil-mudahale-chart.jpg"
+      alt: "Gaz kokusu acil müdahale grafik"
+      caption: "Gaz kokusu grafik."
   - heading: "En Sık 5 Kaçak Sebebi"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."

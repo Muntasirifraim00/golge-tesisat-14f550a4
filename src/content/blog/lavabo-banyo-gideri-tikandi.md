@@ -31,20 +31,36 @@ sections:
   - heading: "Gider Tipi × Doğru Yöntem"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/lavabo-banyo-gideri-tikandi-infographic.jpg"
+      alt: "Lavabo gider tıkanıklığı infografik"
+      caption: "Lavabo tıkanıklığı infografik."
   - heading: "Lavabo (Banyo) — 5 Adımda DIY Açma"
     paragraphs:
       - "Süzgeç türü: - **Pop-up** → mengene ile gevşet - **Çevirmeli** → saat yönünün tersine - **Basmalı** → yukarı çek + pense"
       - "**Zip-It / hair snake:** 60 cm plastik şerit, 30–80 TL. Süzgeç deliğinden yavaşça indir, döndür-çek."
       - "**Krom / plastik sifon:** max 60°C ılık su. Kaynar YASAK."
       - "Taşma deliğini **ıslak bezle kapat** (yoksa vakum kaçar)."
+    image:
+      src: "/blog-images/lavabo-banyo-gideri-tikandi-comparison.jpg"
+      alt: "Lavabo gider tıkanıklığı karşılaştırma"
+      caption: "Lavabo tıkanıklığı karşılaştırma."
   - heading: "Duş & Küvet Gideri — Saç Yumağı"
     paragraphs:
       - "**%90 sorunu saç.** Stopper türleri:"
       - "**Ne YAPMAMALI:** - Sülfürik asit + kaustik soda (silikon fugalar, akrilik küvet) - Kaynar su (akrilik 80°C+ deforme) - Vakumlu emici (patlatabilir)"
+    image:
+      src: "/blog-images/lavabo-banyo-gideri-tikandi-symptoms.jpg"
+      alt: "Lavabo gider tıkanıklığı belirtiler"
+      caption: "Lavabo tıkanıklığı belirtiler."
   - heading: "Mutfak Eviye — Yağ Katılaşması"
     paragraphs:
       - "**%70 yemek yağı.** Yağ soğukta katılaşır."
       - "**Önleme:** - Yağı asla lavaboya dökme - Ayda 1 sıcak su flush - Süzgeç sepeti (100–250 TL)"
+    image:
+      src: "/blog-images/lavabo-banyo-gideri-tikandi-chart.jpg"
+      alt: "Lavabo gider tıkanıklığı grafik"
+      caption: "Lavabo tıkanıklığı grafik."
   - heading: "Yer Süzgeci — Sifon Fincanı"
     paragraphs:
       - "Fincan koku bariyeridir; **kuruduğunda kanalizasyon kokusu**."

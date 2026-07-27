@@ -27,24 +27,40 @@ sections:
   - heading: "Sistem Türü Ayırt"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/sicak-su-gelmiyor-tesis-infographic.jpg"
+      alt: "Sıcak su gelmiyor teşhis infografik"
+      caption: "Sıcak su infografik."
   - heading: "Kombi-DHW: \"Kalorifer Var, Sıcak Su Yok\" — 5 Neden"
     paragraphs:
       - "5–8 yıl sonra kalsiyum tortusu. Belirti: **10 sn sıcak → aniden soğuk**."
       - "Musluk açıksa bile kombi tetiklenmiyor. Servis: 600–1.200 TL. Kodlar: Bosch E4, Baymak E13, Vaillant F75."
       - "Kalorifer sürekli çalışır, sıcak su ısıya kayıp gelmiyor. Motor 800–1.500 TL, gövde 1.500–2.800 TL."
       - "**DIY:** panelde musluk simgesini 45–55°C'ye ayarlayın."
+    image:
+      src: "/blog-images/sicak-su-gelmiyor-tesis-comparison.jpg"
+      alt: "Sıcak su gelmiyor teşhis karşılaştırma"
+      caption: "Sıcak su karşılaştırma."
   - heading: "Şofben: 6 Yaygın Arıza"
     paragraphs:
       - "Termokupl kirlenmiş. **DIY:** ince zımpara ile temizle. Değişim 400–800 TL."
       - "Su akış diyaframı yırtık. 350–700 TL."
       - "Gaz düşük / eşanjör tıkalı. 800–1.500 TL."
       - "Kireç birikimi. 900–1.800 TL."
+    image:
+      src: "/blog-images/sicak-su-gelmiyor-tesis-symptoms.jpg"
+      alt: "Sıcak su gelmiyor teşhis belirtiler"
+      caption: "Sıcak su belirtiler."
   - heading: "Termosifon: 5 Yaygın Arıza"
     paragraphs:
       - "Multimetre ile test (10–30 Ω, sonsuz = yanık). Değişim 800–2.000 TL."
       - "400–900 TL."
       - "3–5 yılda ciddi tortu. 1.200–2.500 TL, 3 saat."
       - "2–3 yılda tükenirse tank paslanır (6.000–15.000 TL). 3 yılda kontrol, 600–1.400 TL."
+    image:
+      src: "/blog-images/sicak-su-gelmiyor-tesis-chart.jpg"
+      alt: "Sıcak su gelmiyor teşhis grafik"
+      caption: "Sıcak su grafik."
   - heading: "\"Kısmen Sıcak\" Senaryoları"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."

@@ -36,18 +36,34 @@ sections:
     paragraphs:
       - "Su borusu patlaması, tesisat borusundaki basıncın borunun dayanım sınırını aşması sonucu boru cidarının yırtılması ya da ek yerinin ayrılmasıdır. Türkiye'de en sık görülen 4 sebep:"
       - "Boru tipine göre risk profili değişir. Bu konuyu detaylı ele aldığımız [tesisat borusu çeşitleri (PPRC, PVC, PEX) karşılaştırması](/blog/tesisat-borusu-cesitleri-pprc-pvc-pex) rehberine göz atabilirsiniz."
+    image:
+      src: "/blog-images/su-patlamasi-ilk-mudahale-infographic.jpg"
+      alt: "Su patlaması müdahale infografik"
+      caption: "Su patlaması infografik."
   - heading: "7 Adımda Su Patlaması İlk Müdahale"
     paragraphs:
       - "**Süre: 30 saniye. En kritik adım budur.** Ana vana genelde şu 3 yerden birindedir:"
       - "Vanayı **saat yönünde** sonuna kadar çevirin. Kollu (kelebek) vanalarda kolu boruya dik pozisyona getirmek kapalı demektir."
       - "Su + elektrik = ölümcül. Özellikle **tavan ışıklıkları, prizler ve beyaz eşya kablolarına** su ulaştıysa sigorta kutusunu bulup ana şalteri indirin. Eğer sigorta kutusu suyun aktığı bölgedeyse, **kuru bir tahta parçası ile** şaltere dokunun; asla ıslak elle temas etmeyin."
       - "Ana vana kapalı olmasına rağmen su akmaya devam ediyorsa, boruda kalan **statik su hacmi** boşalıyordur (normal olarak 2–5 dakika içinde kesilir). Bu süre içinde ses ve akış yönünü takip ederek patlamanın hangi duvar/zemin arkasında olduğunu belirleyin. Belirleyemiyorsanız [su kaçağı tespiti](/blog/su-kacagi-tespiti) yöntemleri ile termal kamera + akustik cihaz kullanılabilir."
+    image:
+      src: "/blog-images/su-patlamasi-ilk-mudahale-comparison.jpg"
+      alt: "Su patlaması müdahale karşılaştırma"
+      caption: "Su patlaması karşılaştırma."
   - heading: "PPRC, PVC ve PEX: Patlama Riski Karşılaştırması"
     paragraphs:
       - "Detaylı boru seçim rehberi: [tesisat borusu çeşitleri karşılaştırması](/blog/tesisat-borusu-cesitleri-pprc-pvc-pex)."
+    image:
+      src: "/blog-images/su-patlamasi-ilk-mudahale-symptoms.jpg"
+      alt: "Su patlaması müdahale belirtiler"
+      caption: "Su patlaması belirtiler."
   - heading: "Kaçak Neden Oldu? 5 Belirti ile Erken Tespit"
     paragraphs:
       - "Su patlamadan önce boru genelde **7–14 gün** sinyal verir. Aşağıdakilerden 2'sini görürseniz [su kaçağı tespiti](/blog/su-kacagi-tespiti) uygulaması yaptırın:"
+    image:
+      src: "/blog-images/su-patlamasi-ilk-mudahale-chart.jpg"
+      alt: "Su patlaması müdahale grafik"
+      caption: "Su patlaması grafik."
   - heading: "Yapılan En Sık 6 Hata — Tesisatçı Ne Zaman Şart?"
     paragraphs:
       - "Sahada gördüğümüz can yakan hatalar:"

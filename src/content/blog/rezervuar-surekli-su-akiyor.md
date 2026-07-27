@@ -28,17 +28,33 @@ sections:
   - heading: "Rezervuar Su Kaçağını Nasıl Anlarsınız? (5 Belirti)"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/rezervuar-surekli-su-akiyor-infographic.jpg"
+      alt: "Rezervuar sürekli akıyor infografik"
+      caption: "Rezervuar sızıntısı infografik."
   - heading: "6 Neden"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/rezervuar-surekli-su-akiyor-comparison.jpg"
+      alt: "Rezervuar sürekli akıyor karşılaştırma"
+      caption: "Rezervuar sızıntısı karşılaştırma."
   - heading: "5 Adımda Kendi Başınıza Tamir"
     paragraphs:
       - "Rezervuar altındaki **köşe vanası** saat yönünde. Sifon çekip boşaltın."
       - "İçinde iki ana parça: - **Dolum ventili / flatör** - **Alt tapa (flush valve)**"
       - "Alt vanayı açın, 30–90 sn dolma. 15 dk bekle, sızıntı yok = tamam. Boyalı test tekrarla."
+    image:
+      src: "/blog-images/rezervuar-surekli-su-akiyor-symptoms.jpg"
+      alt: "Rezervuar sürekli akıyor belirtiler"
+      caption: "Rezervuar sızıntısı belirtiler."
   - heading: "Su Faturası Etkisi (İSKİ 2026)"
     paragraphs:
       - "200–400 TL tamir **6–12 ayda 20–50 kat** geri döner."
+    image:
+      src: "/blog-images/rezervuar-surekli-su-akiyor-chart.jpg"
+      alt: "Rezervuar sürekli akıyor grafik"
+      caption: "Rezervuar sızıntısı grafik."
   - heading: "Ne Zaman Profesyonel?"
     paragraphs:
       - "**İstanbul 2026 servis:**"

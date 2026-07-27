@@ -30,18 +30,34 @@ sections:
   - heading: "Kombi kW Ne Anlama Gelir?"
     paragraphs:
       - "Kombinin üzerinde yazan **24 kW, 28 kW, 35 kW** gibi rakamlar iki farklı gücü ifade eder:"
+    image:
+      src: "/blog-images/kombi-kac-kw-olmali-infographic.jpg"
+      alt: "Kombi kW seçimi infografik"
+      caption: "Kombi kW infografik."
   - heading: "m²'ye Göre Kombi kW Hesabı"
     paragraphs:
       - "Aşağıdaki tablo **standart yalıtımlı, 2.7 m tavanlı, İstanbul/İstanbul iklimi** için hazırlanmıştır."
       - "``` Gerekli ısıtma kW = m² × 0.10 (iyi yalıtımlı) Gerekli ısıtma kW = m² × 0.13 (orta yalıtım) Gerekli ısıtma kW = m² × 0.15 (kötü yalıtım / köşe daire / son kat) ```"
       - "Örnek: 120 m², orta yalıtım, ara kat → 120 × 0.13 = **15.6 kW ısıtma** → **28 kW kombi** yeterli."
+    image:
+      src: "/blog-images/kombi-kac-kw-olmali-comparison.jpg"
+      alt: "Kombi kW seçimi karşılaştırma"
+      caption: "Kombi kW karşılaştırma."
   - heading: "Petek Sayısına Göre Kontrol"
     paragraphs:
       - "m² hesabını **petek sayısı** ile doğrulamak gerekir. Bir petek dilimi (kolon) yaklaşık **80–120 W** ısı verir. 10 panelli standart bir petek ≈ 1 kW."
+    image:
+      src: "/blog-images/kombi-kac-kw-olmali-symptoms.jpg"
+      alt: "Kombi kW seçimi belirtiler"
+      caption: "Kombi kW belirtiler."
   - heading: "Kullanım Suyu: Kaç Musluk Aynı Anda?"
     paragraphs:
       - "Kullanım suyu tarafı **kaç noktanın aynı anda kullanılacağına** göre seçilir:"
       - "**Pratik kural:** Türkiye şebeke suyu kışın 8–10 °C girer, 40 °C çıkar. 30 °C'lik ısınmayı 24 kW kombi dakikada ~11 L, 28 kW ise ~14 L olarak yapar."
+    image:
+      src: "/blog-images/kombi-kac-kw-olmali-chart.jpg"
+      alt: "Kombi kW seçimi grafik"
+      caption: "Kombi kW grafik."
   - heading: "Yalıtım ve İklim Düzeltmesi"
     paragraphs:
       - "Aynı 100 m² daire, konumuna göre farklı kW ister:"
