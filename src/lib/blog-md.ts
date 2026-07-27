@@ -37,6 +37,124 @@ const REQUIRED_FIELDS = [
   "sections", "faq",
 ] as const;
 
+type MutableRecord = Record<string, unknown>;
+
+function isRecord(value: unknown): value is MutableRecord {
+  return typeof value === "object" && value !== null && !Array.isArray(value);
+}
+
+function toText(value: unknown): string {
+  if (typeof value === "string") return value;
+  if (value === undefined || value === null) return "";
+  if (value instanceof Date) return value.toISOString().slice(0, 10);
+  return String(value);
+}
+
+function toTextArray(value: unknown): string[] {
+  if (Array.isArray(value)) return value.map(toText).filter(Boolean);
+  if (typeof value === "string" && value.trim()) return [value];
+  return [];
+}
+
+function normalizeSteps(block: unknown): void {
+  if (!isRecord(block)) return;
+  const source = Array.isArray(block.steps)
+    ? block.steps
+    : Array.isArray(block.items)
+      ? block.items
+      : [];
+  block.steps = source
+    .filter(isRecord)
+    .map((item, index) => {
+      const body = toText(item.body ?? item.detail ?? item.text ?? item.description);
+      return {
+        title: toText(item.title ?? item.name) || `Adım ${index + 1}`,
+        ...(body ? { body } : {}),
+        ...(isRecord(item.image) ? { image: item.image } : {}),
+      };
+    });
+}
+
+function normalizeTimeline(block: unknown): void {
+  if (!isRecord(block) || !Array.isArray(block.items)) return;
+  block.items = block.items
+    .filter(isRecord)
+    .map((item, index) => {
+      const time = toText(item.time ?? item.date ?? item.month ?? item.label);
+      const title = toText(item.title ?? item.text ?? item.name) || `Aşama ${index + 1}`;
+      const body = toText(item.body ?? item.detail ?? item.description);
+      return {
+        time: time || `${index + 1}`,
+        title,
+        ...(body && body !== title ? { body } : {}),
+      };
+    });
+}
+
+function normalizePriceTable(block: unknown): void {
+  if (!isRecord(block) || !Array.isArray(block.rows)) return;
+  block.rows = block.rows
+    .map((row) => {
+      if (Array.isArray(row)) {
+        const note = toText(row[2]);
+        return {
+          service: toText(row[0]),
+          price: toText(row[1]),
+          ...(note ? { note } : {}),
+        };
+      }
+      if (isRecord(row)) {
+        const note = toText(row.note ?? row.detail ?? row.description);
+        return {
+          service: toText(row.service ?? row.label ?? row.name ?? row.title),
+          price: toText(row.price ?? row.amount ?? row.cost),
+          ...(note ? { note } : {}),
+        };
+      }
+      return { service: toText(row), price: "" };
+    })
+    .filter((row) => isRecord(row) && (Boolean(row.service) || Boolean(row.price)));
+}
+
+function normalizeSections(sections: unknown): unknown {
+  if (!Array.isArray(sections)) return sections;
+  return sections.filter(isRecord).map((section) => {
+    const normalized: MutableRecord = { ...section };
+    normalized.heading = toText(normalized.heading) || "Bölüm";
+    normalized.paragraphs = toTextArray(normalized.paragraphs);
+
+    if (normalized.bullets !== undefined) normalized.bullets = toTextArray(normalized.bullets);
+    if (isRecord(normalized.keyTakeaways)) {
+      normalized.keyTakeaways = {
+        ...normalized.keyTakeaways,
+        points: toTextArray(normalized.keyTakeaways.points),
+      };
+    }
+    if (isRecord(normalized.checklist)) {
+      normalized.checklist = {
+        ...normalized.checklist,
+        items: toTextArray(normalized.checklist.items),
+      };
+    }
+    normalizeSteps(normalized.steps);
+    normalizeTimeline(normalized.timeline);
+    normalizePriceTable(normalized.priceTable);
+
+    return normalized;
+  });
+}
+
+function normalizeFaq(faq: unknown): unknown {
+  if (!Array.isArray(faq)) return faq;
+  return faq
+    .filter(isRecord)
+    .map((item) => ({
+      q: toText(item.q ?? item.question ?? item.title),
+      a: toText(item.a ?? item.answer ?? item.body ?? item.text),
+    }))
+    .filter((item) => item.q && item.a);
+}
+
 function parseOne(path: string, raw: string): BlogPost | null {
   try {
     const fm = extractFrontmatter(raw);
@@ -66,6 +184,25 @@ function parseOne(path: string, raw: string): BlogPost | null {
       );
       return null;
     }
+
+    if (!Array.isArray(data.sections) || !Array.isArray(data.faq)) {
+      // eslint-disable-next-line no-console
+      console.error(
+        `[blog-md] Skipping ${path} — \`sections\` and \`faq\` must be YAML arrays.`,
+      );
+      return null;
+    }
+
+    // ---- Shape normalization --------------------------------------------
+    // External AI/manual MD files often use friendly aliases like
+    // `steps.items[].detail`, `timeline.items[].date/text`, or price-table
+    // string rows. Convert those to the exact render shape once at load time so
+    // a single block typo can never crash `/blog/$slug` again.
+    data.sections = normalizeSections(data.sections);
+    data.faq = normalizeFaq(data.faq);
+    data.published = toText(data.published);
+    if (data.updated !== undefined) data.updated = toText(data.updated);
+    if (data.intro === undefined) data.intro = toText(data.excerpt);
 
     return data as unknown as BlogPost;
   } catch (err) {
