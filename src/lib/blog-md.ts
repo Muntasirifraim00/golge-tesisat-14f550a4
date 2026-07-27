@@ -30,7 +30,10 @@ function parseOne(path: string, raw: string): BlogPost | null {
   try {
     const fm = extractFrontmatter(raw);
     if (!fm) return null;
-    const data = yaml.load(fm) as Record<string, unknown> | null;
+    // Use JSON_SCHEMA so unquoted ISO dates (e.g. 2026-01-15) stay as strings
+    // instead of being auto-converted to JS Date objects, which would break
+    // downstream `.localeCompare()` calls on `published` / `updated`.
+    const data = yaml.load(fm, { schema: yaml.JSON_SCHEMA }) as Record<string, unknown> | null;
     if (!data || typeof data.slug !== "string" || !data.slug) return null;
     return data as unknown as BlogPost;
   } catch (err) {
