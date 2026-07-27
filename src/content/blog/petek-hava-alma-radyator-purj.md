@@ -28,9 +28,17 @@ sections:
   - heading: "Peteğe hava neden kaçar?"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/petek-hava-alma-radyator-purj-infographic.jpg"
+      alt: "Purj adım adım"
+      caption: "Adım adım radyatör hava alma rehberi."
   - heading: "Hava alma zamanı — 5 belirti"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/petek-hava-alma-radyator-purj-symptoms.jpg"
+      alt: "Purj belirtileri"
+      caption: "Purj gerektiğini gösteren 5 belirti."
   - heading: "Purj için gerekli ekipman"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
@@ -45,6 +53,10 @@ sections:
   - heading: "Fatura etkisi — küçük hesap"
     paragraphs:
       - "Purj + [petek alttan soğuk çözümü](/preview/petek-alttan-sicak-ustten-soguk) birlikte yapılırsa verim %25–30'a çıkar."
+    image:
+      src: "/blog-images/petek-hava-alma-radyator-purj-chart.jpg"
+      alt: "Purj sonrası tasarruf grafiği"
+      caption: "Purj sonrası aylık doğalgaz tasarrufu."
   - heading: "Purj sonrası basınç neden düşer?"
     paragraphs:
       - "Radyatörden çıkan her 100 mL su, sistemde ~0.05 bar basınç düşümü yaratır. Bir dairede 6–8 petek varsa ~0.3–0.4 bar düşüş normaldir. Doldurma vanasıyla **yavaşça** 1.5 bar'a tamamla — hızlı doldurmak yeniden hava katar."
@@ -66,6 +78,10 @@ sections:
     paragraphs:
       - "Manuel purjı yılda 3-4 kez yapmak yerine sisteme **auto vent valfleri** takılabilir. Şamandıralı bu vanalar hava biriktiğinde otomatik boşaltır. Yerleri: - Ana kolon en yüksek noktası (çatı odası) - Her dağıtım kolektörü çıkışı - Yerden ısıtma bölge dolapları - Pompa girişi (sirkülasyon)"
       - "2026 fiyatları: 380-950 ₺ + montaj. 5 katlı bina için toplam 6-8 adet, 4.500-8.000 ₺ tesisat."
+    image:
+      src: "/blog-images/petek-hava-alma-radyator-purj-comparison.jpg"
+      alt: "Vana tipleri karşılaştırma"
+      caption: "Manuel purj vanası vs otomatik hava atıcı."
   - heading: "Su Kalitesi ve Korozyon"
     paragraphs:
       - "Hava kaçağı sürekli tekrarlıyorsa su kalitesi problemi olabilir. Kalorifer suyu **VDI 2035** standartında olmalıdır: - pH: 8.2-9.5 - İletkenlik: < 200 μS/cm - Klorür: < 30 mg/L - Sertlik: < 3 °dH - Oksijen: < 0.1 mg/L"

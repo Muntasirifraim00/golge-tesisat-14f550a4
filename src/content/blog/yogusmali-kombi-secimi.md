@@ -31,16 +31,32 @@ sections:
     paragraphs:
       - "**Karar:** 100 m² üstü, günde 8+ saat ısınma → **yoğuşmalı zorunlu** (yasal olarak da 2015'ten beri)."
       - "Detay: [yoğuşmalı kombi vs konvansiyonel](/preview/yogusmali-kombi-vs-konvansiyonel)."
+    image:
+      src: "/blog-images/yogusmali-kombi-secimi-infographic.jpg"
+      alt: "Kombi seçim rehberi"
+      caption: "Yoğuşmalı kombi seçim rehberi."
   - heading: "Kaç kW Alınmalı? Doğru Hesap"
     paragraphs:
       - "Detay: [kombi kaç kW olmalı](/preview/kombi-kac-kw-olmali)."
+    image:
+      src: "/blog-images/yogusmali-kombi-secimi-symptoms.jpg"
+      alt: "kW seçim rehberi"
+      caption: "kW kapasitesine göre daire büyüklüğü rehberi."
   - heading: "Marka × Ömür × Fiyat (2026)"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/yogusmali-kombi-secimi-comparison.jpg"
+      alt: "Kombi marka karşılaştırma"
+      caption: "Bosch, Vaillant, Baymak, Demirdöküm, Buderus karşılaştırması."
   - heading: "Yakıt Tasarrufu Analizi (İstanbul 2026, 3,85 TL/m³)"
     paragraphs:
       - "**Yıllık:** ~1.635 TL. **10 yıllık:** ~19.500 TL (enflasyonla ~30.000 TL)."
       - "**Optimum:** 8.000–12.000 TL fiyat farkı (Baymak/DemirDöküm/ECA) → 5–7 yıl."
+    image:
+      src: "/blog-images/yogusmali-kombi-secimi-chart.jpg"
+      alt: "10 yıllık maliyet grafiği"
+      caption: "10 yıllık maliyet: yoğuşmalı vs geleneksel kombi."
   - heading: "Marka Seçim Kılavuzu"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."

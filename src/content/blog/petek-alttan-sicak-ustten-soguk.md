@@ -28,6 +28,10 @@ sections:
   - heading: "Hızlı Teşhis Tablosu"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/petek-alttan-sicak-ustten-soguk-infographic.jpg"
+      alt: "Radyatör hava kilidi infografiği"
+      caption: "Radyator altı sıcak üstü soğuk teşhis şeması."
   - heading: "Senaryo 1 — Alttan Sıcak, Üstten Soğuk (Hava Kilidi)"
     paragraphs:
       - "**Neden:** Suyun içindeki hava zamanla üste toplanır. Kabarcık; sıcak suyun peteğin üst yarısına ulaşmasını fiziksel olarak engeller. Alt yarı sıcak, üst kısım soğuk kalır."
@@ -39,6 +43,10 @@ sections:
       - "**Tetikleyiciler:**"
       - "**Çözüm — Kimyasal Temizlik (Power Flush):**"
       - "**Ev tipi kısa çözüm (hafif tortu):**"
+    image:
+      src: "/blog-images/petek-alttan-sicak-ustten-soguk-symptoms.jpg"
+      alt: "Radyatör ısı belirtileri"
+      caption: "Eşit olmayan ısı dağılımı belirtileri."
   - heading: "Senaryo 3 — Ortadan Sıcak, Uçlar Soğuk (Debi)"
     paragraphs:
       - "Sirkülasyon pompası **kademesi düşük** veya **kanatları çamurdan yorulmuş**. Su peteğin ortasından hızlı geçip uçlara yayılamıyor."
@@ -56,6 +64,10 @@ sections:
   - heading: "Sistem Yıkama Yöntemleri (Karşılaştırma)"
     paragraphs:
       - "En etkili çözüm **powerflush + mıknatıslı filtre**. Yıkama sonrası sistem 5 yıl boyunca çamur biriktirmez."
+    image:
+      src: "/blog-images/petek-alttan-sicak-ustten-soguk-comparison.jpg"
+      alt: "Radyatör problemleri karşılaştırma"
+      caption: "Hava kilidi vs çamur vs debi problemi karşılaştırması."
   - heading: "Mıknatıslı Filtre (Magnetic Filter)"
     paragraphs:
       - "Fernox TF1, Sentinel Eliminator gibi cihazlar kolektöre ya da kombi dönüşüne monte edilir. İçindeki güçlü neodim mıknatıs demir tozunu tutar. Her 6 ayda bir küçük vidayla açılıp temizlenir."
@@ -78,6 +90,10 @@ sections:
     paragraphs:
       - "Radyatör sıcaklık dağılımı bozukluğunun %25'i kombi basıncı ve pompa problemidir: - Manometre 1.0 bar altındaysa hava emişi başlar - Genleşme tankı basıncı fabrika 1 bar değil, işletme 1.5-2 bar olmalı - Pompa 3 kademe seçicide 2 veya 3'te olmalı (1 kademe küçük daireler için) - ErP pompa modülasyonu \"Δp constant\" moda ayarlanmalı"
       - "Kombi yaşı 8+ ise pompa rotoru manyetit ile kaplanmış olabilir; basit temizlik problemi çözer."
+    image:
+      src: "/blog-images/petek-alttan-sicak-ustten-soguk-chart.jpg"
+      alt: "Yıkama yöntemleri etkinliği"
+      caption: "Sistem yıkama yöntemleri etkinlik karşılaştırması."
   - heading: "Isı Kamera Teşhisi"
     paragraphs:
       - "Profesyonel teşhis için FLIR One veya termal kamera kullanılır. Her radyatör 15 dk çalıştıktan sonra: - Üst-alt sıcaklık farkı > 15 °C → hava - Sol-sağ sıcaklık farkı > 10 °C → çamur - Merkez sıcak-uçlar soğuk → debi düşük - Genel soğuk → tesisat hattı problemi"

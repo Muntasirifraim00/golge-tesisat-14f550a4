@@ -36,6 +36,10 @@ sections:
   - heading: "5 Aşamalı Süreç — Bir Bakışta"
     paragraphs:
       - "**Toplam gerçekçi süre:** 3–6 hafta (kış yoğun dönem 8 haftaya çıkabilir). **Toplam maliyet 2+1 daire ortalama:** 12.000–22.000 TL (kombi hariç)."
+    image:
+      src: "/blog-images/dogalgaz-tesisati-yaptirma-abonelik-infographic.jpg"
+      alt: "Doğalgaz kurulum süreci"
+      caption: "Doğalgaz kurulum süreci 5 aşamada."
   - heading: "Aşama 1 — Abonelik Başvurusu"
     paragraphs:
       - "**Güvence bedeli** 900–1.400 TL. Sadece dağıtım şirketinin resmi hesabına yatırın."
@@ -49,18 +53,30 @@ sections:
   - heading: "Aşama 4 — Tesisat İmalatı"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/dogalgaz-tesisati-yaptirma-abonelik-chart.jpg"
+      alt: "Kurulum maliyet dağılımı"
+      caption: "İstanbul 2026 doğalgaz kurulum maliyeti dağılımı."
   - heading: "Aşama 5 — Kontrol ve Gaz Açma"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
   - heading: "Kaçak Tesisat = Ağır Yaptırım"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/dogalgaz-tesisati-yaptirma-abonelik-symptoms.jpg"
+      alt: "Kaçak tesisat sonuçları"
+      caption: "Kaçak doğalgaz tesisatının 4 sonucu."
   - heading: "Sıkça Yapılan 6 Hata"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
   - heading: "Yeni Bina vs Mevcut Bina Farkı"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/dogalgaz-tesisati-yaptirma-abonelik-comparison.jpg"
+      alt: "Yeni vs mevcut bina"
+      caption: "Yeni bina vs mevcut bina doğalgaz kurulum farkı."
   - heading: "Otoriter Kaynaklar"
     paragraphs:
       - "Detaylı keşif + yetkili bağlantı için: **0533 896 05 03**. Yazılı teklif + fatura + garanti belgesi ile çalışıyoruz."
