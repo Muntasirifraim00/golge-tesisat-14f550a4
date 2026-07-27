@@ -32,6 +32,10 @@ sections:
     paragraphs:
       - "**En yaygın (%55).**"
       - "**Kural:** **En uzak / en yüksek kattaki** petekten başla, kombiye doğru in."
+    image:
+      src: "/blog-images/petek-isinmiyor-hava-alma-infographic.jpg"
+      alt: "Radyatör teşhis akış şeması"
+      caption: "Radyatör ısınmıyor teşhis akış şeması."
   - heading: "Senaryo 2 — Alt Soğuk, Üst Sıcak (Çamur / Kireç)"
     paragraphs:
       - "**%20 vakada.** 8–15 yıllık sistemlerde tipik."
@@ -43,12 +47,20 @@ sections:
   - heading: "Senaryo 4 — Tüm Petekler Soğuk"
     paragraphs:
       - "**%10 vakada.**"
+    image:
+      src: "/blog-images/petek-isinmiyor-hava-alma-symptoms.jpg"
+      alt: "Radyatör soğuk senaryoları"
+      caption: "4 farklı radyatör soğukluk senaryosu."
   - heading: "Sirkülasyon Pompası Arıza Sinyalleri"
     paragraphs:
       - "**Pompa hız ayarı:** Büyük daire → III, küçük → II."
   - heading: "TRV vs Manuel Vana"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/petek-isinmiyor-hava-alma-comparison.jpg"
+      alt: "TRV vs manuel vana"
+      caption: "TRV termostatik vs manuel vana karşılaştırma."
   - heading: "Hidrolik Denge — Uzak Petekler"
     paragraphs:
       - "**Çözüm — Lockshield Ayarı:** - **Yakın petekler:** ¼–½ tur açık - **Uzak petekler:** tam açık"
@@ -62,6 +74,10 @@ sections:
   - heading: "İstanbul 2026 Servis Fiyatları"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/petek-isinmiyor-hava-alma-chart.jpg"
+      alt: "Radyatör servis fiyatları"
+      caption: "İstanbul 2026 radyatör servis fiyatları."
   - heading: "Önleyici 6 İpucu"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."

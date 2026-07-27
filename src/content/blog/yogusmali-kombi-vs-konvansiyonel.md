@@ -33,14 +33,26 @@ sections:
     paragraphs:
       - "**Konvansiyonel kombi** (klasik / bacalı): Doğalgazı yakar, açığa çıkan sıcak baca gazını (~180 °C) doğrudan bacaya gönderir. Bu gazın içindeki su buharı da ısıyla birlikte dışarı çıkar — yani enerji **kaybolur**."
       - "**Yoğuşmalı kombi** (condensing): Baca gazını (~55 °C'ye kadar) soğutarak içindeki su buharını **yoğuşturur** (condense eder). Yoğuşma sırasında açığa çıkan gizli ısı (latent heat) sisteme geri kazanılır. Bu yüzden verimi teorik olarak %100'ü geçer."
+    image:
+      src: "/blog-images/yogusmali-kombi-vs-konvansiyonel-infographic.jpg"
+      alt: "Kombi teknoloji karşılaştırma"
+      caption: "Yoğuşmalı vs konvansiyonel eşanjör farkı."
   - heading: "Verim ve Fatura Karşılaştırması"
     paragraphs:
       - "``` Konvansiyonel 24 kW → yıllık ~1450 m³ doğalgaz Yoğuşmalı 24 kW → yıllık ~1150 m³ doğalgaz Fark: 300 m³ × birim fiyat ≈ %20 tasarruf ```"
       - "Yoğuşmalı kombi başlangıçta 3.000–5.000 TL daha pahalıdır, ancak fark ortalama **2–3 kış sezonunda** faturadan geri döner."
+    image:
+      src: "/blog-images/yogusmali-kombi-vs-konvansiyonel-comparison.jpg"
+      alt: "Verim karşılaştırma"
+      caption: "Yoğuşmalı %108 vs konvansiyonel %78 verim."
   - heading: "Modülasyon: En Az Bilinen ama En Kritik Fark"
     paragraphs:
       - "**Modülasyon**, kombinin gerçek ısı ihtiyacına göre alevi kısıp açma kabiliyetidir."
       - "Aç-kapa döngüsü konvansiyonelin ömrünü kısaltan en büyük faktördür. Yoğuşmalıda bu sorun büyük ölçüde çözülür."
+    image:
+      src: "/blog-images/yogusmali-kombi-vs-konvansiyonel-symptoms.jpg"
+      alt: "Kombi tipi 4 farkı"
+      caption: "Modülasyon, kondens, baca, ömür farkları."
   - heading: "Baca Tipi ve Kurulum Şartları"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
@@ -62,6 +74,10 @@ sections:
   - heading: "Marka Bazlı Yoğuşmalı Karşılaştırma (24 kW, 2026)"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/yogusmali-kombi-vs-konvansiyonel-chart.jpg"
+      alt: "Aylık fatura grafiği"
+      caption: "Aylık doğalgaz faturası: 100 m² daire karşılaştırması."
   - heading: "Sık Yapılan 4 Hata"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."

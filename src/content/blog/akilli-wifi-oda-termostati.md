@@ -35,6 +35,10 @@ sections:
       - "OpenTherm / eBUS ile modülasyon kontrolü (aleve kısıp açar)"
       - "Ses asistanı (Alexa, Google, Siri) entegrasyonu"
       - "Aylık fatura raporu ve kullanım grafiği"
+    image:
+      src: "/blog-images/akilli-wifi-oda-termostati-infographic.jpg"
+      alt: "Akıllı termostat infografiği"
+      caption: "Akıllı termostat mobil uygulama ve zon kontrolü."
   - heading: "Klasik vs WiFi Termostat: Rakamsal Fark"
     paragraphs:
       - "Aşağıdaki karşılaştırma, aynı 100 m² dairede üç farklı termostat tipiyle bir kış sezonunda gözlenen tipik farkları özetler."
@@ -50,6 +54,10 @@ sections:
         - ["Ortalama tasarruf", "Referans", "%8–12", "%15–25"]
         - ["Fiyat aralığı", "300–800 TL", "800–1.500 TL", "2.500–7.000 TL"]
         - ["Amorti süresi", "—", "2–3 sezon", "1–2 sezon"]
+    image:
+      src: "/blog-images/akilli-wifi-oda-termostati-comparison.jpg"
+      alt: "Termostat karşılaştırma"
+      caption: "Klasik kadranlı vs akıllı WiFi termostat."
   - heading: "Bağlantı Tipleri: Aç-Kapa vs OpenTherm/eBUS"
     paragraphs:
       - "Termostatın kombiye nasıl konuştuğu, tasarrufun neredeyse yarısını belirler. Üç ana bağlantı tipi vardır."
@@ -85,6 +93,10 @@ sections:
         - "Mutfak veya banyo — nem ve pişirme ısısı yanıltır"
         - "Ana giriş kapısı yanı — her açılışta soğuk hava vurur"
         - "TV, kombi, fırın gibi ısı yayan cihazın yanı"
+    image:
+      src: "/blog-images/akilli-wifi-oda-termostati-symptoms.jpg"
+      alt: "Termostat montaj yerleri"
+      caption: "Doğru montaj yeri ve 3 yanlış konum örneği."
   - heading: "Fatura Etkisi: 100 m² Örnek Hesap"
     paragraphs:
       - "100 m² tipik bir dairede tek değişken termostat tipi olduğunda kış sezonu gaz tüketimi belirgin biçimde farklılaşır."
@@ -97,6 +109,10 @@ sections:
         - "100 m² dairede yıllık ~2.310 TL kazanç (2026 fiyatı)"
         - "3.500 TL'lik termostat 1.5 sezonda amorti"
         - "Yerden ısıtmalı evde amorti daha da hızlı"
+    image:
+      src: "/blog-images/akilli-wifi-oda-termostati-chart.jpg"
+      alt: "Akıllı termostat fatura tasarrufu"
+      caption: "Akıllı vs klasik termostat aylık fatura karşılaştırması."
   - heading: "Marka Karşılaştırma (2026)"
     paragraphs:
       - "Kombi hangi markaysa aynı marka termostat en yüksek tasarrufu verir (eBUS/BUS protokolü açılır). Farklı marka kullanılacaksa OT+ desteğini şart koşun."

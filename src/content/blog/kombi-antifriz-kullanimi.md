@@ -32,6 +32,10 @@ sections:
   - heading: "Kombi Antifrizi Nedir? Araba Antifrizinden Farkı"
     paragraphs:
       - "Kombi antifrizi **propilen glikol (PG)** bazlıdır ve içme suyu ile temas etse bile toksik değildir. Araba antifrizi ise **etilen glikol (EG)** bazlıdır — **zehirlidir**, kombi contalarını ve pompayı bozar, kesinlikle kullanılmaz."
+    image:
+      src: "/blog-images/kombi-antifriz-kullanimi-comparison.jpg"
+      alt: "Antifriz karşılaştırma"
+      caption: "Araba antifrizi vs kombi antifrizi karşılaştırması."
   - heading: "Ne Zaman Antifriz Gerekir?"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
@@ -41,6 +45,10 @@ sections:
       - "**Kural:** **%50'nin üstüne çıkma.** %50 üzerindeki karışım ısı transferini dramatik düşürür, pompa yorulur ve yoğuşmalı verimi biter."
       - "``` Toplam su: 100 L Antifriz miktarı: 100 × 0.30 = 30 L konsantre antifriz Kalan su: 70 L (yumuşatılmış / demineralize) ```"
       - "Tesisat hacmi bilinmiyorsa yaklaşık hesap: **kombi + petek başına 3–4 L** kabul edin (12 petekli bir daire ≈ 40–50 L)."
+    image:
+      src: "/blog-images/kombi-antifriz-kullanimi-infographic.jpg"
+      alt: "Antifriz koruma tablosu"
+      caption: "Propilen glikol antifriz koruma seviyeleri."
   - heading: "Antifriz Nasıl Doldurulur? Adım Adım"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
@@ -62,6 +70,10 @@ sections:
   - heading: "Donma Noktası vs Konsantrasyon (Detaylı Tablo)"
     paragraphs:
       - "Türkiye iç kesim ve doğu için standart %30, Doğu Anadolu yüksek rakım için %35-40 önerilir. %40 üstü artık verim kaybı avantajı gölgeler."
+    image:
+      src: "/blog-images/kombi-antifriz-kullanimi-chart.jpg"
+      alt: "Donma noktası vs konsantrasyon"
+      caption: "Donma noktası vs antifriz konsantrasyonu grafiği."
   - heading: "Sistem Hacmi Hesaplama"
     paragraphs:
       - "Doğru antifriz miktarı için sistem su hacmi bilinmeli. Kaba hesap:"
@@ -75,6 +87,10 @@ sections:
     paragraphs:
       - "Ne zaman değiştirmeli? 1. **Renk**: berrak açık pembe/sarı → koyu kahverengi = değiştir. 2. **pH**: 8.0 altına düştüyse asitli, sistem korozyon yapıyor. 3. **Koku**: yanık plastik / metalik = inhibitör tükendi. 4. **Konsantrasyon**: refraktometre değeri fabrika değerinden %5+ farklıysa (su ekleme veya buharlaşma). 5. **Süre**: kalite antifriz 5-10 yıl, ucuz PG 2-3 yıl. Marka önerisini kaçırma."
       - "Yılda bir kez ölçüm, 5 yılda bir yenileme standart uygulamadır."
+    image:
+      src: "/blog-images/kombi-antifriz-kullanimi-symptoms.jpg"
+      alt: "Antifriz değişim belirtileri"
+      caption: "Antifrizin değişmesi gereken 4 belirti."
   - heading: "Antifriz Kullanan Sistemin Verim Kaybı"
     paragraphs:
       - "Antifriz eklenmiş sistem saf suya göre: - Yıllık gaz tüketimi +%6-10 - Pompa elektrik tüketimi +%12-18 - Isınma süresi (soğuk başlangıç) +8-15 dk"

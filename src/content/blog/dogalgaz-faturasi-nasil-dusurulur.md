@@ -28,9 +28,17 @@ sections:
   - heading: "Türkiye'de doğalgaz fiyatı (2026)"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/dogalgaz-faturasi-nasil-dusurulur-infographic.jpg"
+      alt: "Fatura düşürme infografiği"
+      caption: "Doğalgaz faturasını düşürme yolları."
   - heading: "15 yöntem — fatura etkisi tablosu"
     paragraphs:
       - "*280 m³/ay tüketim ve 2. kademe fiyat üzerinden hesaplanmıştır."
+    image:
+      src: "/blog-images/dogalgaz-faturasi-nasil-dusurulur-comparison.jpg"
+      alt: "15 tasarruf yöntemi"
+      caption: "15 tasarruf yöntemi ve fatura etkisi karşılaştırması."
   - heading: "En kritik 5 ayar (yatırımsız)"
     paragraphs:
       - "Her 1°C fazla ısıtma **~%6 daha fazla gaz** tüketir. 24°C yerine 21°C, faturanın %18'ini keser. Yatak odaları için 18–19°C yeterlidir."
@@ -64,6 +72,10 @@ sections:
   - heading: "Sık Karşılaşılan Fatura Şoku Sebepleri"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/dogalgaz-faturasi-nasil-dusurulur-symptoms.jpg"
+      alt: "Fatura şoku sebepleri"
+      caption: "Fatura şokuna neden olan 4 durum."
   - heading: "Yıllık Bakım ve Servis Getirisi"
     paragraphs:
       - "Yıllık bakım yapılmayan kombi 4. yıldan itibaren verim kaybı yaşar: - 1. yıl: %98 verim, yıllık gaz 1.400 m³ - 3. yıl (bakımsız): %92 verim, 1.500 m³ - 5. yıl (bakımsız): %85 verim, 1.640 m³ - 7. yıl (bakımsız): %78 verim, 1.790 m³"
@@ -93,6 +105,10 @@ sections:
     paragraphs:
       - "**Öncesi:** 24°C sabit, klasik termostat, 2 yıldır bakım yok, petekte hava. - Tüketim: 380 m³/ay → **2.740 TL/ay**"
       - "**Sonrası:** 21°C, akıllı termostat + gece 18°C, petek purjı, kombi bakımı, 55/45°C ayar. - Tüketim: 245 m³/ay → **1.760 TL/ay** - **Aylık tasarruf: 980 TL** — 5 aylık kış sezonunda **4.900 TL**."
+    image:
+      src: "/blog-images/dogalgaz-faturasi-nasil-dusurulur-chart.jpg"
+      alt: "12 aylık fatura trendi"
+      caption: "12 aylık İstanbul fatura trendi: optimizasyon öncesi/sonrası."
   - heading: "Sıkça sorulan sorular"
     paragraphs:
       - "---"

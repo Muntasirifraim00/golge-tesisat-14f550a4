@@ -32,6 +32,10 @@ sections:
   - heading: "Çalışma Prensibi"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/yerden-isitma-sistemi-rehberi-infographic.jpg"
+      alt: "Yerden ısıtma katmanları"
+      caption: "Yerden ısıtma sistemi kesit görünümü."
   - heading: "Kombi Uyumu — Kritik Detay"
     paragraphs:
       - "Yerden ısıtma **düşük gidiş sıcaklığı (35–45 °C)** ister. Bu bantta çalışan tek verimli kombi tipi **yoğuşmalı kombi**dir; konvansiyonel kombi yoğuşma yapmayacağı için verimini kaybeder."
@@ -39,9 +43,17 @@ sections:
     paragraphs:
       - "**100 m² daire örneği (sulu sistem):**"
       - "**Yıllık tasarruf (kombi + yalıtım normalse):** ~4.500 – 7.000 TL doğalgaz. **Geri ödeme:** Yeni bir eve monte edildiğinde, radyatör + boru maliyet farkı ~40.000 TL olduğundan **6–8 yıl**da amorti eder."
+    image:
+      src: "/blog-images/yerden-isitma-sistemi-rehberi-chart.jpg"
+      alt: "Yerden ısıtma maliyet grafiği"
+      caption: "İstanbul 2026 yerden ısıtma maliyet ve geri ödeme."
   - heading: "Avantajlar"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/yerden-isitma-sistemi-rehberi-comparison.jpg"
+      alt: "Yerden ısıtma vs radyatör"
+      caption: "Yerden ısıtma vs radyatör karşılaştırması."
   - heading: "Dezavantajlar & Riskler"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
@@ -61,6 +73,10 @@ sections:
       - "**Salyangoz (spiral)**: soğuk pencere kenarları sıcak → merkeze doğru. En dengeli sıcaklık dağılımı."
       - "**Yılan (menderes)**: gidiş 45 °C ile başlar → dönüş 30 °C'de biter. Bir kenar sıcak, karşı kenar hafif serin — cephe pencerelerine paralel yapılırsa avantajlı."
       - "**Çift yılan**: gidiş ve dönüş boruları paralel. Salyangoz kadar dengeli, uygulaması daha kolay."
+    image:
+      src: "/blog-images/yerden-isitma-sistemi-rehberi-symptoms.jpg"
+      alt: "Yerden ısıtma serim şablonları"
+      caption: "4 farklı boru serim şablonu: spiral, yılan, çift serpentin, hibrit."
   - heading: "Isı Yayıcı Levhalar (Kuru Sistem)"
     paragraphs:
       - "Beton dökümlü ıslak sistem 6-8 hafta kuruma ister. Alternatif: **kuru sistem** — 3 cm alçıpan içine gömülü alüminyum yayıcı plaka. Avantajlar: - 1 günde kuru - 45 kg/m² ağırlık (ıslak 120 kg/m²) - Ahşap zemin altına uygun - Sonradan onarılabilir"
