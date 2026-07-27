@@ -95,8 +95,22 @@ sections:
       phone: true
       whatsapp: true
 faq:
-  - q: "dogalgaz kacagi konusunda ne yapmalıyım?"
-    a: "Yazıdaki adımları uygulayın; sonuç alamazsanız İstanbul geneli 7/24 servis hattımızı arayın."
+  - q: "Doğalgaz kaçağı olduğunu nasıl anlarım?"
+    a: "En net belirti çürük yumurta (merkaptan) kokusudur. Ayrıca sayaçtan/ekipmandan tıslama sesi, ocak alevinin sarı yanması, evde baş ağrısı-baş dönmesi ve saksı bitkilerinin nedensiz sararması da güçlü işaretlerdir."
+  - q: "Gaz kokusu aldığımda ilk ne yapmalıyım?"
+    a: "Sırasıyla: (1) hiçbir elektrik düğmesine dokunmayın, (2) tüm pencereleri açın, (3) ana gaz vanasını kapatın, (4) evi terk edin, (5) dışarıdan İGDAŞ 187'yi arayın. Kesinlikle çakmak, kibrit, elektrik anahtarı veya cep telefonu kullanmayın."
+  - q: "İGDAŞ 187 ücretli mi, kaç dakikada gelir?"
+    a: "187 Acil ihbar hattı tamamen ücretsizdir. İstanbul içinde ekipler ortalama 20–40 dakika içinde adrese ulaşır; kaçak teyit edilirse gaz kesilir, tespit ve mühürleme yapılır."
+  - q: "Sabun köpüğü testi güvenli mi?"
+    a: "Evet, en güvenli DIY yöntemdir. Sıvı bulaşık deterjanını su ile 1:3 karıştırıp bağlantı noktalarına sürün. Kabarcık oluşuyorsa kaçak vardır. Alev veya çakmakla asla test etmeyin."
+  - q: "Karbonmonoksit (CO) kaçağı ile doğalgaz kaçağı aynı mı?"
+    a: "Hayır. Doğalgaz kokuludur ve patlayıcıdır; CO ise kokusuz, renksiz ve zehirleyicidir. Kombi/şofben eksik yanınca CO oluşur. İkisi için de ayrı dedektör bulundurun (kombi olan her evde CO dedektörü zorunludur)."
+  - q: "Gaz dedektörü nereye monte edilmeli?"
+    a: "Doğalgaz havadan hafiftir; dedektör tavana en fazla 30 cm mesafeye, gaz kullanan cihazdan 1–4 m uzağa monte edilir. LPG (tüp) dedektörü tam tersine yere yakın takılır."
+  - q: "Kombi bağlantı hortumu ne sıklıkla değişmeli?"
+    a: "Beyaz esnek hortumlar 2 yılda bir, körüklü metal (inox) hortumlar 5 yılda bir değişmelidir. Üzerinde son kullanma tarihi kabartma olarak yazılıdır."
+  - q: "Gaz kaçağı sonrası eve ne zaman girebilirim?"
+    a: "Yalnızca İGDAŞ ekibi ölçüm yapıp 'temiz' raporu verdikten sonra. Genellikle vana kapatma + 30–60 dk havalandırma sonrası güvenli seviyeye iner, ama teyit yetkili kurumundur."
 ---
 
 # Doğalgaz Kaçağı Nasıl Anlaşılır? 6 Belirti ve Acil Müdahale (2026)

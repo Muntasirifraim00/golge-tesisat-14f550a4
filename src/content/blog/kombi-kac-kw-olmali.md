@@ -77,8 +77,22 @@ sections:
       phone: true
       whatsapp: true
 faq:
-  - q: "kombi kac kw olmali konusunda ne yapmalıyım?"
-    a: "Yazıdaki adımları uygulayın; sonuç alamazsanız İstanbul geneli 7/24 servis hattımızı arayın."
+  - q: "Kombi kW hesabı için pratik formül nedir?"
+    a: "İstanbul için pratik kural: net m² × 0,10 kW ısıtma + 8–12 kW sıcak su payı. Örn. 100 m² daire → 10 kW ısıtma + 14 kW sıcak su = 24 kW kombi yeterli."
+  - q: "24 kW mı 28 kW mı almalıyım?"
+    a: "0–120 m² ve tek banyo için 24 kW yeterlidir. 120–160 m², iki banyo veya küvet varsa 28–31 kW seçin. Aksi halde duşta sıcak su debisi düşer."
+  - q: "Yüksek kW almak daha mı iyi ısıtır?"
+    a: "Hayır. Fazla kW modülasyon aralığını daraltır, kombi sürekli aç-kapa yapar (short-cycling), verim düşer ve fatura %10–20 artar. Doğru kW her zaman en verimli seçimdir."
+  - q: "Petek sayısı kW seçimini nasıl etkiler?"
+    a: "Ortalama bir dilim petek 0,10–0,13 kW ister. 60 dilim petek ≈ 6–8 kW ısıtma yükü. Buna sıcak su ihtiyacını (10–14 kW) ekleyerek toplam kW belirlenir."
+  - q: "Tavan yüksekliği hesabı değiştirir mi?"
+    a: "Evet. Standart 2,7 m tavan için m² × 0,10 kW geçerli. 3,2 m ve üzeri tavanlarda %15–20 ekleme yapın; çatı katı/kuzey cephe için ayrıca %10 ekleyin."
+  - q: "Yoğuşmalı kombi kW'ı düşük seçilebilir mi?"
+    a: "Yoğuşmalı kombi %108'e varan verim sağlar ama toplam kW ihtiyacı yalıtımla ilgilidir, teknoloji ile değil. Yoğuşmalı diye kW'ı düşürmeyin; doğru kW + yoğuşmalı = maksimum tasarruf."
+  - q: "Yer sofbeni olan evde kW hesabı farklı mı?"
+    a: "Evet. Sıcak suyu ayrı termosifon/şofben karşılıyorsa kombiden sadece ısıtma kW'ı istenir: net m² × 0,10 kW. Böylece 14–18 kW kombi bile yeterli olur."
+  - q: "Kombi kW seçimini yanlış yaptıysam ne olur?"
+    a: "Küçük kW: eve ısı yetişmez, sıcak su ince akar. Büyük kW: sık yanıp söner, sensörler yorulur, fatura artar. Her iki durumda da kombi ömrü 3–5 yıl kısalır."
 ---
 
 # Kombi Kaç kW Olmalı? Ev m² ve Petek Sayısına Göre Doğru Seçim (2026)

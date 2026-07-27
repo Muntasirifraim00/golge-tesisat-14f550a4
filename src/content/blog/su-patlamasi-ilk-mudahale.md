@@ -78,8 +78,24 @@ sections:
       phone: true
       whatsapp: true
 faq:
-  - q: "su patlamasi ilk mudahale konusunda ne yapmalıyım?"
-    a: "Yazıdaki adımları uygulayın; sonuç alamazsanız İstanbul geneli 7/24 servis hattımızı arayın."
+  - q: "Su borusu patladığında ilk 60 saniyede ne yapmalıyım?"
+    a: "1) Dairenin ana su vanasını (kolonu) kapatın. 2) Sigortayı indirin (özellikle patlak alanın üstündeki priz/aydınlatma hattı). 3) Kombiyi kapatın. 4) Ardından hasar kontrolü ve alt komşuya haber."
+  - q: "Ana su vanası nerede olur?"
+    a: "Genellikle mutfak lavabosu altında, banyo giriş tavanında veya balkon rögarında bulunur. Apartmanlarda ayrıca bodrumda kolon vanaları vardır — her ev sahibi kendi kolon vanasının yerini önceden öğrenmelidir."
+  - q: "Vanayı kapattım ama su hâlâ akıyor, neden?"
+    a: "Borularda basınçlı kalan su 30–90 saniye daha akar (normal). Devam ederse yanlış vanayı kapattınız, ikinci bir kaçak var veya vana arızalı (kapanmıyor). Bina ana vanasını kapatın."
+  - q: "Elektriği kapatmam şart mı?"
+    a: "Evet, su ile temas eden priz/aydınlatma hattının sigortasını mutlaka indirin. Elektrik çarpması riski yangından daha yakın tehlikedir. Şüphedeyseniz tüm sigortayı kapatın."
+  - q: "Alt komşuya su indi, ne yapmalıyım?"
+    a: "Hemen kapıyı çalın, haber verin ve fotoğraf/video çekin (kendi dairenizde ve komşuda). DASK/konut sigortası için tutanak ve tarihli fotoğraflar zorunludur. Suçlama değil, çözüm odaklı yaklaşın."
+  - q: "Sigorta patlamayı karşılar mı?"
+    a: "Zorunlu DASK depremi karşılar, su baskınını değil. İsteğe bağlı konut sigortası 'iç su hasarı' teminatı varsa kendi + komşu hasarını öder. Poliçenizi kontrol edin."
+  - q: "Geçici olarak boruyu kendim tamir edebilir miyim?"
+    a: "Küçük çatlaklar için epoksi macun veya kelepçeli lastik yama 1–3 gün dayanır. Ancak sadece ana vana kapalıyken geçicidir; kalıcı çözüm için tesisatçı şarttır."
+  - q: "Kış aylarında donan boru patlarsa farklı ne yapmalıyım?"
+    a: "Vanayı kapatın ama donan boruyu asla açık alevle (çakmak/hava tabancası) ısıtmayın — patlar. Saç kurutma makinesi veya sıcak havlu ile ılıtın; buz çözüldükçe basıncı boşaltmak için musluğu açık tutun."
+  - q: "Ekip ne kadar sürede gelir, ücret nedir?"
+    a: "İstanbul geneli acil servisimiz ortalama 30–45 dakikada adreste. Gece/hafta sonu +%30–50 tarife uygulanır. Patlak tespit + geçici müdahale 800–1.500 TL, kalıcı tamir arıza tipine göre değişir."
 ---
 
 # Su Borusu Patladı Ne Yapmalı? 7 Adımda İlk Müdahale (2026)
