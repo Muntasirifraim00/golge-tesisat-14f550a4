@@ -86,7 +86,12 @@ export const TIER1_KEYWORDS: KeywordEntry[] = [
   { keyword: "fancoil nedir", volume: 1600, kdi: 11, intent: "informational", target: "/blog/fan-coil-nedir-nasil-calisir", cluster: "kombi", status: "building" },
   { keyword: "fancoil fiyatları", volume: 720, kdi: 18, intent: "informational", target: "/blog/fan-coil-nedir-nasil-calisir", cluster: "kombi", status: "building" },
   { keyword: "fancoil ünitesi", volume: 590, kdi: 18, intent: "informational", target: "/blog/fan-coil-nedir-nasil-calisir", cluster: "kombi", status: "building" },
-  { keyword: "gömme rezervuar", volume: 14800, kdi: 17, intent: "informational", target: "/blog/gomme-rezervuar-nedir-montaji", cluster: "banyo-vitrifiye", status: "building" },
+  // Gömme rezervuar rehberi (Jul 2026) — banyo-vitrifiye kümesinin top-funnel 14.8k/ay ana yazısı. Top-10 SERP tamamen üretici/e-ticaret (VitrA/Geberit/ECA/Kale/Trendyol/Akakçe) + Eksisozluk + banyome blog; ev sahibine yönelik nedir + çeşitler (alçıpan/tuğla) + montaj adımları + arıza teşhisi + 2026 İstanbul fiyat + marka karşılaştırması + DIY iç takım — hepsini birleştiren tarafsız servis rehberi yok. Rakiplerin 5x üstü: 13 bölüm, 8 tablo, 1 grafik, 5 orijinal görsel, 10 SSS, 4 callout, timeline + priceTable + steps. dusakabin-vitrifiye-montaji hub'a köprülü. ✅ YAZILDI.
+  { keyword: "gömme rezervuar", volume: 14800, kdi: 17, intent: "informational", target: "/blog/gomme-rezervuar-nedir-montaji", cluster: "banyo-vitrifiye", status: "completed" },
+  { keyword: "gömme rezervuar montajı", volume: 590, kdi: 20, intent: "informational", target: "/blog/gomme-rezervuar-nedir-montaji", cluster: "banyo-vitrifiye", status: "completed" },
+  { keyword: "gömme rezervuar iç takımı", volume: 4400, kdi: 20, intent: "informational", target: "/blog/gomme-rezervuar-nedir-montaji", cluster: "banyo-vitrifiye", status: "completed" },
+  { keyword: "alçıpan tipi gömme rezervuar", volume: 1300, kdi: 17, intent: "informational", target: "/blog/gomme-rezervuar-nedir-montaji", cluster: "banyo-vitrifiye", status: "completed" },
+  { keyword: "gömme rezervuar fiyatları", volume: 880, kdi: 20, intent: "commercial", target: "/blog/gomme-rezervuar-nedir-montaji", cluster: "banyo-vitrifiye", status: "completed" },
   { keyword: "lavabo çeşitleri", volume: 2400, kdi: 21, intent: "informational", target: "/blog/lavabo-cesitleri-secim-rehberi", cluster: "banyo-vitrifiye", status: "building" },
   { keyword: "bidet nedir", volume: 1300, kdi: 32, intent: "informational", target: "/blog/bidet-taharet-muslugu-nedir", cluster: "banyo-vitrifiye", status: "building" },
   { keyword: "evye nedir", volume: 1300, kdi: 9, intent: "informational", target: "/blog/eviye-cesitleri-nedir-secim", cluster: "banyo-vitrifiye", status: "building" },
