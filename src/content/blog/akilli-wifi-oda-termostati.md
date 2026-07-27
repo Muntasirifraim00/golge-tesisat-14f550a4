@@ -10,7 +10,7 @@ readMin: 12
 published: 2026-07-20
 updated: 2026-07-20
 excerpt: "Akıllı WiFi oda termostatı, evin sıcaklığını öğrenerek ve program üzerinden yönetir; kombiyi sadece gerektiğinde çalıştırır. Ortalama %15–25 doğalgaz tasarrufu sağlar."
-metaDescription: "Akıllı WiFi oda termostatı kurulumu, kombi uyumu, fatura etkisi ve marka karşılaştırması. %15-25 tasarruf, 1-2 kış sezonunda amorti."
+metaDescription: "Akıllı WiFi oda termostatı kurulumu, kombi uyumu, OT+/eBUS bağlantı, fatura etkisi ve marka karşılaştırması. %15-25 doğalgaz tasarrufu, 1-2 kış sezonunda amorti."
 serviceSlug: kombi-servisi
 inlineLinks:
   - { slug: "kombi-ideal-sicaklik-ayari", anchor: "kombi ideal sıcaklık ayarı" }
