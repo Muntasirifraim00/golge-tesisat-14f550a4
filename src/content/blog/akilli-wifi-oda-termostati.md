@@ -1,7 +1,7 @@
 ---
 slug: akilli-wifi-oda-termostati
-title: Akıllı WiFi Oda Termostatı: Kurulum, Kombi Uyumu ve Fatura Etkisi (2026)
-seoTitle: Akıllı WiFi Oda Termostatı: Kurulum, Kombi Uyumu ve Fatura Etkisi (2026)
+title: "Akıllı WiFi Oda Termostatı: Kurulum, Kombi Uyumu ve Fatura Etkisi (2026)"
+seoTitle: "Akıllı WiFi Termostat 2026 Rehberi"
 keyword: akıllı wifi oda termostatı
 volume: 320
 kdi: 28
