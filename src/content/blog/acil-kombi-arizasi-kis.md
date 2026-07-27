@@ -39,12 +39,20 @@ sections:
     paragraphs:
       - "Kombi arızalarının **%60'ı Aralık–Şubat** aylarında yaşanır. Bunun nedeni tesadüf değil — soğuk hava kombinin tüm parçalarını aynı anda strese sokar:"
       - "Kombinin kışın nasıl korunacağı ile ilgili detaylı önlemler için: [kombi donmaya karşı koruma](/preview/kombi-donma-korumasi)."
+    image:
+      src: "/blog-images/acil-kombi-arizasi-kis-infographic.jpg"
+      alt: "Kış acil durum: kombi arıza türleri"
+      caption: "Kış aylarında kombi arıza sıklığı — İstanbul saha verileri."
   - heading: "10 Dakikada Evde Deneyebileceğiniz 7 Güvenli Müdahale"
     paragraphs:
       - "Servis çağırmadan önce sırayla bu adımları deneyin. **%70 vakada arıza bu 7 adımda çözülür.**"
       - "Kombi ekranı **E01, F28, A02, ER03** gibi bir kod gösteriyorsa bu **arızanın kimliğidir**. Fotoğrafını çekin. En sık görülenler:"
       - "Markaya göre kod anlamları farklıdır. [Kombi arıza kodları rehberi](/preview/kombi-neden-calismiyor)'nde marka bazında tam liste var."
       - "Kombinin üzerindeki **reset / restart / R** butonuna **1 kez** basın ve 30 saniye bekleyin. Cihaz kendini sıfırlar, ateşleme denemesi yapar. **KRİTİK KURAL:** Peş peşe 3'ten fazla reset **asla yapmayın** — her başarısız reset yakılamayan gazı yanma odasında biriktirir ve **patlama riski** yaratır. 2 deneme sonrası hâlâ ateşleme yoksa Adım 3'e geçin."
+    image:
+      src: "/blog-images/acil-kombi-arizasi-kis-symptoms.jpg"
+      alt: "Kombi acil belirtileri"
+      caption: "En sık görülen 4 acil belirti."
   - heading: "Bu Belirtilerde ASLA Beklemeyin — Hemen Servis Çağırın"
     paragraphs:
       - "Gaz kokusu şüphesinde tam güvenlik prosedürü için: [evde gaz kokusu acil müdahale](/preview/gaz-kokusu-acil-mudahale)."
@@ -54,6 +62,10 @@ sections:
   - heading: "Acil Kombi Servisi vs Yetkili Servis"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/acil-kombi-arizasi-kis-comparison.jpg"
+      alt: "Acil servis karşılaştırma"
+      caption: "Acil servis vs kendin yap karşılaştırması."
   - heading: "En Sık 6 Ölümcül Hata"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
@@ -64,6 +76,10 @@ sections:
     paragraphs:
       - "Kış ortasında kombiniz durduğunda sırayla: **hata kodunu oku → reset dene (1 kez) → basınç kontrol → hava al → gaz ve elektriği kontrol et.** Bu 10 dakika %70 vakayı çözer."
       - "İstanbul'da kalıcı onarım için 7/24 acil kombi servisi: **0533 896 05 03** — Çankaya, Yenimahalle, Keçiören, Etimesgut, Mamak öncelikli servis bölgeleri, 25–45 dk içinde adresinizde, EPDK sertifikalı ekip."
+    image:
+      src: "/blog-images/acil-kombi-arizasi-kis-chart.jpg"
+      alt: "Aylık kombi acil çağrı grafiği"
+      caption: "İstanbul aylık acil kombi çağrı sıklığı."
   - heading: "Gölge Tesisat İstanbul — Acil Servis"
     paragraphs:
       - "İstanbul geneli 7/24 tesisat servisimiz Kadıköy, Beşiktaş, Ümraniye, Başakşehir dahil tüm ilçelerde 45 dakika içinde adresinize gelir. Fiyat aralıklarımız arıza türüne göre değişir; net teklif için telefonla ulaşın."

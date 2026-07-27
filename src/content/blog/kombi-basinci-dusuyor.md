@@ -31,9 +31,17 @@ sections:
   - heading: "Doğru Kombi Basıncı Kaç Bar Olmalı?"
     paragraphs:
       - "**Altın kural:** Kombi kapalı ve soğukken **1,2 bar** hedefleyin."
+    image:
+      src: "/blog-images/kombi-basinci-dusuyor-infographic.jpg"
+      alt: "Kombi basıncı infografiği"
+      caption: "Kombi basınç göstergesi ve çalışma prensibi."
   - heading: "Basınç Düşmesinin 8 Nedeni"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/kombi-basinci-dusuyor-symptoms.jpg"
+      alt: "Düşük basınç belirtileri"
+      caption: "Düşük basınç belirtileri: soğuk petek, hata kodu F22."
   - heading: "5 Adımda Güvenli Su Ekleme (Marka Bazlı)"
     paragraphs:
       - "**Bosch Condens / Buderus:** İki sarı kolu 90° çevirin."
@@ -47,6 +55,10 @@ sections:
   - heading: "Marka Bazlı Basınç Hataları"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/kombi-basinci-dusuyor-comparison.jpg"
+      alt: "Normal vs düşük basınç"
+      caption: "Normal 1.5 bar vs düşük 0.5 bar karşılaştırma."
   - heading: "Sık Yapılan 6 Hata"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
@@ -56,6 +68,10 @@ sections:
   - heading: "İstanbul 2026 Servis Fiyatları"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/kombi-basinci-dusuyor-chart.jpg"
+      alt: "Basınç düşüş grafiği"
+      caption: "Zamanla kombi basıncının düşüş trendi."
   - heading: "Kaynaklar (E-E-A-T)"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."

@@ -32,9 +32,17 @@ sections:
     paragraphs:
       - "Yoğuşmalı ve modern konvansiyonel kombilerde standart olarak bulunan bir güvenlik fonksiyonudur. Kombi, iki sensörle sürekli sıcaklık ölçer:"
       - "Bu döngü tüm kış boyunca otomatik çalışır ve **saatte sadece 3–5 dk** brülör açar. Tüketimi bir gecede 0.2 m³ gazdan azdır — yani kış ayı boyunca donma koruması **~15 m³ ≈ 200 TL**."
+    image:
+      src: "/blog-images/kombi-donma-korumasi-infographic.jpg"
+      alt: "Donma koruması modu"
+      caption: "Frost Protection modu nasıl çalışır?"
   - heading: "Kışın Kombiyi Kapatmak vs Açık Bırakmak"
     paragraphs:
       - "**Karar:** Kısa (1–3 gün) tatilde radyatörü 40 °C, oda termostatını 15 °C'ye ayarlayıp **fişte bırakın**. 1 haftadan uzun süre için aşağıdaki uzun süreli protokolü uygulayın."
+    image:
+      src: "/blog-images/kombi-donma-korumasi-comparison.jpg"
+      alt: "Donma koruması karşılaştırma"
+      caption: "Donma koruması AÇIK vs KAPALI sonuçları."
   - heading: "Uzun Süreli Tatil (1 Haftadan Fazla)"
     paragraphs:
       - "İki güvenli seçenek var:"
@@ -63,10 +71,18 @@ sections:
       - "**Müstakil ev (bahçe içi kombi):** En yüksek risk. Dış duvara asılı kombi -8 °C altında iç eşanjör suyu 4 saatte donar. Sıcak su borusu balkonda geçiyorsa 2 saatte patlar. Zorunlu önlem: kombi kutusu + rüzgar kesici + boru izolasyonu (13 mm elastomer)."
       - "**Apartman dairesi (iç mekan kombi):** Balkon veya mutfak duvarında yer alan kombiler iç sıcaklığın 8 °C altına düşmediği apartmanlarda güvenli. Ancak uzun tatilde ısıtma tam kapalı → apartman 5 °C'ye kadar iner, balkon kombi donar."
       - "**Yazlık ve dağ evi:** Kışın kullanılmayan evler için en akılcı çözüm sistemi **tam boşaltmak** veya %35 antifriz doldurmaktır."
+    image:
+      src: "/blog-images/kombi-donma-korumasi-symptoms.jpg"
+      alt: "Kombi donma risk faktörleri"
+      caption: "Kombiyi donma riskine sokan 4 durum."
   - heading: "Isı Kaybı Fiziği (Boru Neden Donuyor?)"
     paragraphs:
       - "Su 0 °C'de donar ancak bunun için ısının tamamen çıkması gerekir. Yalıtımsız 22 mm bakır boruda 5 metrelik bir hat -5 °C dış havada: - İlk 1 saat: 12 °C → 5 °C - 2 saat: 5 °C → 1 °C - 3 saat: donma başlar (statik su)"
       - "**Anahtar:** su akıyorsa donmaz. Bu yüzden kombi bekleme modunda pompayı 15 dk'da bir 3 dk çalıştırır."
+    image:
+      src: "/blog-images/kombi-donma-korumasi-chart.jpg"
+      alt: "Sıcaklık vs koruma eşiği grafiği"
+      caption: "Dış hava sıcaklığı ve donma koruması aktivasyon eşiği."
   - heading: "Kondens Hortumu Detay Önlemleri"
     paragraphs:
       - "Yoğuşmalı kombide kondens hortumu asit tuzu içeren su (pH 3.5) taşır ve dışarıya iner. Bu hortum donarsa kombi hata kodu verir ve kapanır."

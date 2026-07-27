@@ -32,9 +32,17 @@ sections:
     paragraphs:
       - "Her kombinin panelinde iki ayrı düğme (veya iki ayrı ekran değeri) vardır:"
       - "Bu iki değer **birbirinden bağımsızdır**. Radyatörü kısıp kullanım suyunu yüksek tutabilirsiniz — hatta ideal ayar tam olarak budur."
+    image:
+      src: "/blog-images/kombi-ideal-sicaklik-ayari-infographic.jpg"
+      alt: "İdeal sıcaklık ayarları"
+      caption: "İdeal kombi sıcaklık ayarları: radyatör 60 °C, kullanım suyu 45 °C."
   - heading: "İdeal Sıcaklık Tablosu (2026)"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/kombi-ideal-sicaklik-ayari-comparison.jpg"
+      alt: "Sıcaklık ayarı karşılaştırma"
+      caption: "Yüksek 80 °C vs optimal 60 °C vs düşük 40 °C."
   - heading: "Radyatör Suyunu Neden 80 °C'ye Kadar Açmamalı?"
     paragraphs:
       - "Panelin sonuna kadar açmak (Max / 80 °C) yaygın bir hatadır:"
@@ -58,6 +66,10 @@ sections:
       - "Modern yoğuşmalı kombilerde **dış sensör** takılırsa kombi kalorifer suyu sıcaklığını dış havaya göre kendi ayarlar:"
       - "``` Dış hava 0 °C → gidiş suyu ~65 °C Dış hava 5 °C → gidiş suyu ~58 °C Dış hava 10 °C → gidiş suyu ~48 °C Dış hava 15 °C → gidiş suyu ~40 °C ```"
       - "Bu \"eğri\" (heating curve) sayesinde bahar ve güz aylarında kombi hep düşük sıcaklıkta çalışır, yoğuşma sürekli olur. Fatura tasarrufu **%15–20** ek olarak gelir. Vaillant, Bosch, Buderus, Viessmann yeni serileri dış sensörle uyumludur."
+    image:
+      src: "/blog-images/kombi-ideal-sicaklik-ayari-symptoms.jpg"
+      alt: "Mevsimsel kombi ayarları"
+      caption: "Mevsime göre önerilen kombi sıcaklıkları."
   - heading: "Sabit mi Yakılmalı, Aç-Kapa mı?"
     paragraphs:
       - "Türkiye'de en tartışmalı konu: \"Sürekli düşük mü yaksam, gündüz kapatıp akşam mı açsam?\""
@@ -70,6 +82,10 @@ sections:
   - heading: "5 Sık Yapılan Hata"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/kombi-ideal-sicaklik-ayari-chart.jpg"
+      alt: "Sıcaklık × doğalgaz tasarrufu grafiği"
+      caption: "Sıcaklık ayarına göre aylık doğalgaz tasarrufu."
   - heading: "Sıkça Sorulan Sorular"
     paragraphs:
       - "---"
