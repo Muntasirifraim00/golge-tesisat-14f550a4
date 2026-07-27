@@ -34,6 +34,10 @@ sections:
   - heading: "Isı Pompası Nasıl Çalışır?"
     paragraphs:
       - "Isı pompası, bir buzdolabının **tersine** çalışan bir termodinamik döngüdür. Dört ana bileşenden oluşur:"
+    image:
+      src: "/blog-images/isi-pompasi-nasil-calisir-infografik.jpg"
+      alt: "Isı pompası çalışma prensibi infografiği"
+      caption: "Dış ünite, soğutucu döngüsü ve iç ünite ile ısı transferi."
   - heading: "COP ve SCOP: Verim Nasıl Ölçülür?"
     paragraphs:
       - "**Örnek:** SCOP 4.0 olan bir cihaz, 1 kWh elektrik harcadığında **4 kWh ısı** üretir. Yani doğrudan elektrik ısıtıcıya göre **%75 daha az elektrik** tüketir."
@@ -44,6 +48,10 @@ sections:
   - heading: "Isı Pompası vs Yoğuşmalı Kombi (Kıyaslama)"
     paragraphs:
       - "Detaylı fatura karşılaştırması için bkz. [yoğuşmalı kombi vs konvansiyonel](/preview/yogusmali-kombi-vs-konvansiyonel)."
+    image:
+      src: "/blog-images/isi-pompasi-karsilastirma-tablo.jpg"
+      alt: "Isı pompası, yoğuşmalı kombi ve elektrikli ısıtıcı karşılaştırma tablosu"
+      caption: "Verim, yıllık maliyet, kurulum ve ömür kıyaslaması."
   - heading: "Geri Ödeme Süresi (Türkiye 2026)"
     paragraphs:
       - "``` Ek yatırım: 220.000 − 55.000 = 165.000 TL Yıllık tasarruf: 21.000 − 10.000 = 11.000 TL Basit geri ödeme: 165.000 / 11.000 ≈ 15 yıl ```"
