@@ -26,6 +26,17 @@ function extractFrontmatter(raw: string): string | null {
   return rest.slice(0, end);
 }
 
+// Required top-level frontmatter keys for a renderable post. If any are
+// missing, we log a clear warning and skip the file instead of letting the
+// blog detail route crash at click-time (e.g. `p.faq.map` when `faq` is
+// undefined). Keep this list in sync with what src/routes/blog.$slug.tsx
+// and src/data/blog.ts actually read.
+const REQUIRED_FIELDS = [
+  "slug", "title", "seoTitle", "keyword", "category", "readMin",
+  "published", "excerpt", "metaDescription", "serviceSlug",
+  "sections", "faq",
+] as const;
+
 function parseOne(path: string, raw: string): BlogPost | null {
   try {
     const fm = extractFrontmatter(raw);
@@ -35,6 +46,27 @@ function parseOne(path: string, raw: string): BlogPost | null {
     // downstream `.localeCompare()` calls on `published` / `updated`.
     const data = yaml.load(fm, { schema: yaml.JSON_SCHEMA }) as Record<string, unknown> | null;
     if (!data || typeof data.slug !== "string" || !data.slug) return null;
+
+    // ---- Field-name aliasing --------------------------------------------
+    // Accept common plural/singular variants so a typo in one MD file never
+    // crashes the whole blog. Add new aliases here rather than in the route.
+    if (data.faq === undefined && Array.isArray(data.faqs)) data.faq = data.faqs;
+    if (data.section === undefined && Array.isArray(data.sections)) {
+      // no-op — canonical name is already `sections`; kept for symmetry
+    }
+    if (data.sections === undefined && Array.isArray(data.section)) data.sections = data.section;
+
+    // ---- Required-field validation --------------------------------------
+    const missing = REQUIRED_FIELDS.filter((k) => data[k] === undefined || data[k] === null);
+    if (missing.length > 0) {
+      // eslint-disable-next-line no-console
+      console.error(
+        `[blog-md] Skipping ${path} — missing required frontmatter field(s): ${missing.join(", ")}. ` +
+          `Fix the YAML (note: use singular \`faq:\`, not \`faqs:\`) and reload.`,
+      );
+      return null;
+    }
+
     return data as unknown as BlogPost;
   } catch (err) {
     // eslint-disable-next-line no-console
@@ -42,6 +74,7 @@ function parseOne(path: string, raw: string): BlogPost | null {
     return null;
   }
 }
+
 
 export const MD_BLOG_POSTS: BlogPost[] = Object.entries(RAW_MD_FILES)
   // Skip templates & files whose basename starts with "_" (drafts / examples).
