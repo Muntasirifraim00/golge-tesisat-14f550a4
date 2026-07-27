@@ -17,6 +17,10 @@ inlineLinks:
   - { slug: "kombi-montaji-nasil-yapilir", anchor: "kombi montajı" }
   - { slug: "kombi-kac-kw-olmali", anchor: "kombi kaç kW olmalı" }
   - { slug: "yerden-isitma-sistemi-rehberi", anchor: "yerden ısıtma sistemi" }
+featuredImage:
+  src: "/blog-images/akilli-wifi-oda-termostati-infographic.jpg"
+  alt: "Akıllı WiFi oda termostatı ve mobil uygulama kontrolü"
+  caption: "Akıllı WiFi termostat: her odada konfor, akıllı programla tasarruf."
 intro: "Akıllı WiFi oda termostatı, evin sıcaklığını öğrenerek ve program üzerinden yönetir; kombiyi sadece gerektiğinde çalıştırır. Ortalama bir dairede %15–25 doğalgaz tasarrufu sağlar, kendini 1–2 kış sezonunda amorti eder. Kurulum sadece 2 kablo işidir; her modern yoğuşmalı kombiye takılır. En büyük hata, cihazı kombiyi gördüğü duvara ya da güneşe monte etmektir — o zaman ne ölçüm doğru olur, ne tasarruf. Bu rehberde WiFi termostatın nasıl çalıştığını, hangi kombilere hangi bağlantı ile takıldığını, doğru montaj yerini, ayar mantığını ve marka bazlı karşılaştırmayı net biçimde anlatıyoruz."
 sections:
   - heading: "Akıllı WiFi Termostat Nedir? Klasikten Farkı"
