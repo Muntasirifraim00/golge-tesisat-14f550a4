@@ -28,17 +28,33 @@ sections:
   - heading: "BTU nedir?"
     paragraphs:
       - "**BTU (British Thermal Unit)** bir saatte transfer edilen ısı miktarıdır. Klimalarda 9.000, 12.000, 18.000, 24.000 BTU/h standart kademeler kullanılır. 1 kW ≈ 3.412 BTU/h."
+    image:
+      src: "/blog-images/klima-btu-hesaplama-infographic.jpg"
+      alt: "Klima BTU hesaplama infografik"
+      caption: "BTU hesaplama infografik."
   - heading: "Temel formül"
     paragraphs:
       - "``` Gerekli BTU = Alan (m²) × Yükseklik katsayısı × İklim katsayısı × Ek yükler"
       - "Baz: ≈ 600 BTU/m² (İstanbul standart, 2.7 m tavan, tek cephe) ```"
       - "Basit hesap için: **Oda m² × 600**. Ancak gerçek seçimde aşağıdaki düzeltmeler zorunludur."
+    image:
+      src: "/blog-images/klima-btu-hesaplama-comparison.jpg"
+      alt: "Klima BTU hesaplama karşılaştırma"
+      caption: "BTU hesaplama karşılaştırma."
   - heading: "m² → BTU hızlı tablo"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/klima-btu-hesaplama-symptoms.jpg"
+      alt: "Klima BTU hesaplama belirtiler"
+      caption: "BTU hesaplama belirtiler."
   - heading: "Düzeltme katsayıları"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/klima-btu-hesaplama-chart.jpg"
+      alt: "Klima BTU hesaplama grafik"
+      caption: "BTU hesaplama grafik."
   - heading: "Örnek hesap — 25 m² salon"
     paragraphs:
       - "``` Alan: 25 m² Baz: 25 × 600 = 15.000 BTU Güney cephe: ×1.20 = 18.000 Cam %35: ×1.15 = 20.700 3 kişi: +1.800 = 22.500 BTU"

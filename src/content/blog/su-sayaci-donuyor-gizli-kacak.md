@@ -30,15 +30,31 @@ sections:
   - heading: "Ortalama Türk Hanesinde Gizli Kaçak"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/su-sayaci-donuyor-gizli-kacak-infographic.jpg"
+      alt: "Su sayacı gizli kaçak infografik"
+      caption: "Gizli kaçak infografik."
   - heading: "5 Dakikalık Sızıntı Testi"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/su-sayaci-donuyor-gizli-kacak-comparison.jpg"
+      alt: "Su sayacı gizli kaçak karşılaştırma"
+      caption: "Gizli kaçak karşılaştırma."
   - heading: "6 Yaygın Gizli Kaçak Noktası"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/su-sayaci-donuyor-gizli-kacak-symptoms.jpg"
+      alt: "Su sayacı gizli kaçak belirtiler"
+      caption: "Gizli kaçak belirtiler."
   - heading: "Kaçak Tespit Yöntemleri × Doğruluk"
     paragraphs:
       - "**Termal kamera** — bkz: [termal kamera ile su kaçağı tespiti](/preview/termal-kamera-ile-su-kacagi-tespiti)."
+    image:
+      src: "/blog-images/su-sayaci-donuyor-gizli-kacak-chart.jpg"
+      alt: "Su sayacı gizli kaçak grafik"
+      caption: "Gizli kaçak grafik."
   - heading: "Sızıntı Şiddet × Servis Aciliyet"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."

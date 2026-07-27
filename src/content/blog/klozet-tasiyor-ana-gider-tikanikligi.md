@@ -33,18 +33,34 @@ sections:
     paragraphs:
       - "Kanalizasyon geri basması **biyolojik tehlike** (E. coli, hepatit A, giardia) içerir:"
       - "**YAPMA:** kaynar su dökme, tuz ruhu/sülfürik asit dökme, pompa ile sertçe basma."
+    image:
+      src: "/blog-images/klozet-tasiyor-ana-gider-tikanikligi-infographic.jpg"
+      alt: "Klozet taşması ana gider infografik"
+      caption: "Klozet taşması infografik."
   - heading: "Ayırt Matrisi — Senin Sorunun mu, Binanın mı?"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/klozet-tasiyor-ana-gider-tikanikligi-comparison.jpg"
+      alt: "Klozet taşması ana gider karşılaştırma"
+      caption: "Klozet taşması karşılaştırma."
   - heading: "Sorumluluk — Kim Öder?"
     paragraphs:
       - "**KMK madde 42 ve 4:** ana kolon + bina ana gideri + rögar **ortak alan** → tüm daireler ortak öder. Daire içi yatay hat + sifon + klozet **daire sahibinin**."
       - "**Önemli:** Standart konut sigortası **kanalizasyon geri tepmesi**ni hariç tutar. Ek \"geri tepme klozu\" (200–600 TL/yıl)."
+    image:
+      src: "/blog-images/klozet-tasiyor-ana-gider-tikanikligi-symptoms.jpg"
+      alt: "Klozet taşması ana gider belirtiler"
+      caption: "Klozet taşması belirtiler."
   - heading: "Nokta Tıkanıklık — DIY 30 Dakika"
     paragraphs:
       - "Flanşlı klozet pompası kullanın (düz kauçuk lavabo pompası değil):"
       - "1 bardak deterjan + 15 dk bekle + 5 lt **max 45°C** ılık su."
       - "**YAPMA:** - Tuz ruhu / sülfürik asit - Bikarbonat + sirke (mit) - Elle basınçlı çubuk - Bahçe hortumu ile yüksek basınç"
+    image:
+      src: "/blog-images/klozet-tasiyor-ana-gider-tikanikligi-chart.jpg"
+      alt: "Klozet taşması ana gider grafik"
+      caption: "Klozet taşması grafik."
   - heading: "Ana Kolon Tıkanıklığı — Servis Şart"
     paragraphs:
       - "Birden fazla armatür + apartman ortak = DIY YASAK."

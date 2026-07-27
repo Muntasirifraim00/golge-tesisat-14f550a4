@@ -29,15 +29,31 @@ sections:
   - heading: "Koku Tipine Göre Teşhis"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/klima-kokusu-nasil-gecer-infographic.jpg"
+      alt: "Klima kokusu çözüm infografik"
+      caption: "Klima kokusu infografik."
   - heading: "Neden Kokar? — Kök Neden"
     paragraphs:
       - "Klima soğuturken evaporatör peteği **yoğuşma suyu** üretir. Toz + rutubet + karanlık = **biyofilm** (bakteri + küf kolonisi). Cihaz kapandıktan sonra petek nemli kalırsa 24 saatte koku başlar. Ana tetikleyiciler:"
+    image:
+      src: "/blog-images/klima-kokusu-nasil-gecer-comparison.jpg"
+      alt: "Klima kokusu çözüm karşılaştırma"
+      caption: "Klima kokusu karşılaştırma."
   - heading: "Adım Adım Derin Temizlik (60 dk)"
     paragraphs:
       - "**Gerekli:** Enzimli klima köpüğü, yumuşak fırça, plastik örtü, spreyli su şişesi, mikrofiber bez, çamaşır suyu (drenaj için, seyreltilmiş)."
+    image:
+      src: "/blog-images/klima-kokusu-nasil-gecer-symptoms.jpg"
+      alt: "Klima kokusu çözüm belirtiler"
+      caption: "Klima kokusu belirtiler."
   - heading: "Kimyasallar: Ne, Ne Zaman?"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/klima-kokusu-nasil-gecer-chart.jpg"
+      alt: "Klima kokusu çözüm grafik"
+      caption: "Klima kokusu grafik."
   - heading: "Kokuyu Önleme — Uzun Vadeli Protokol"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."

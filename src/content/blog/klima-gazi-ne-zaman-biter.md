@@ -27,15 +27,31 @@ sections:
   - heading: "Klima gazı gerçekten \"biter\" mi?"
     paragraphs:
       - "Klima gazı (soğutucu akışkan) kompresör → evaporatör → kondenser → genleşme valfi arasında sonsuz döner. Yakıt gibi tüketilmez. Gaz azalıyorsa **sistemde bir kaçak** var demektir; sadece gaz basmak semptomu 3–6 ay geciktirir, sızıntı bulunmalıdır."
+    image:
+      src: "/blog-images/klima-gazi-ne-zaman-biter-infographic.jpg"
+      alt: "Klima gazı bitme infografik"
+      caption: "Klima gazı infografik."
   - heading: "Gaz azalmasının 7 belirtisi"
     paragraphs:
       - "En az 2 belirti üst üste varsa gaz seviyesi kontrol edilmelidir."
+    image:
+      src: "/blog-images/klima-gazi-ne-zaman-biter-comparison.jpg"
+      alt: "Klima gazı bitme karşılaştırma"
+      caption: "Klima gazı karşılaştırma."
   - heading: "Gaz tipi ve ömür"
     paragraphs:
       - "R22 cihazlar 2024 sonrası tamamen fazla-out; sızıntı halinde **cihaz komple değişir**, gaz eklenmez."
+    image:
+      src: "/blog-images/klima-gazi-ne-zaman-biter-symptoms.jpg"
+      alt: "Klima gazı bitme belirtiler"
+      caption: "Klima gazı belirtiler."
   - heading: "Şarj süreci — adım adım"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/klima-gazi-ne-zaman-biter-chart.jpg"
+      alt: "Klima gazı bitme grafik"
+      caption: "Klima gazı grafik."
   - heading: "Gram cinsinden şarj hesabı"
     paragraphs:
       - "``` Toplam gaz = fabrika dolumu + (boru uzunluğu − 5 m) × gram/m"

@@ -27,15 +27,31 @@ sections:
   - heading: "Musluk Damlıyor mu? 5 Damla Tipi"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/musluk-damliyor-tamiri-infographic.jpg"
+      alt: "Damlayan musluk tamiri infografik"
+      caption: "Musluk tamiri infografik."
   - heading: "3 Musluk Tipi"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/musluk-damliyor-tamiri-comparison.jpg"
+      alt: "Damlayan musluk tamiri karşılaştırma"
+      caption: "Musluk tamiri karşılaştırma."
   - heading: "Tamir Öncesi Genel Kurallar"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/musluk-damliyor-tamiri-symptoms.jpg"
+      alt: "Damlayan musluk tamiri belirtiler"
+      caption: "Musluk tamiri belirtiler."
   - heading: "Tip A — Salmastra Değişimi"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/musluk-damliyor-tamiri-chart.jpg"
+      alt: "Damlayan musluk tamiri grafik"
+      caption: "Musluk tamiri grafik."
   - heading: "Tip B — Kartuş Değişimi"
     paragraphs:
       - "**İpucu:** Orijinal marka kartuş (150–350 TL) muadilden çok daha uzun ömürlü."

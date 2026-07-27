@@ -29,18 +29,34 @@ sections:
   - heading: "Çalışma Prensibi Farkı"
     paragraphs:
       - "**Kısa devir (short cycling):** Standart klima hedef sıcaklığa ulaşınca tamamen kapanır, 3–5 dk sonra tekrar tam güçte başlar. Bu döngü hem elektrik hem kompresör aşınması demektir."
+    image:
+      src: "/blog-images/inverter-vs-standart-klima-infographic.jpg"
+      alt: "Inverter vs standart klima infografik"
+      caption: "Klima karşılaştırma infografik."
   - heading: "2026 Elektrik Tüketimi Karşılaştırması"
     paragraphs:
       - "*(12.000 BTU, günde 8 saat kullanım, 2026 mesken tarifesi ~3,15 TL/kWh)*"
       - "**Fark:** A+++ inverter, A on/off'a göre yılda **~2.760 TL** daha az fatura üretir."
+    image:
+      src: "/blog-images/inverter-vs-standart-klima-comparison.jpg"
+      alt: "Inverter vs standart klima karşılaştırma"
+      caption: "Klima karşılaştırma karşılaştırma."
   - heading: "Fiyat & Geri Ödeme (2026)"
     paragraphs:
       - "**Geri ödeme formülü:**"
       - "``` Geri ödeme yılı = (Inverter fiyat − On/off fiyat) / Yıllık tasarruf Örnek: (28.000 − 18.000) / 2.760 ≈ 3.6 yıl ```"
       - "Klima ortalama 10–12 yıl kullanıldığından, inverter kendisini **2.5 kat** amorti eder."
+    image:
+      src: "/blog-images/inverter-vs-standart-klima-symptoms.jpg"
+      alt: "Inverter vs standart klima belirtiler"
+      caption: "Klima karşılaştırma belirtiler."
   - heading: "Konfor & Ses"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/inverter-vs-standart-klima-chart.jpg"
+      alt: "Inverter vs standart klima grafik"
+      caption: "Klima karşılaştırma grafik."
   - heading: "Kullanım Senaryolarına Göre Seçim"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."

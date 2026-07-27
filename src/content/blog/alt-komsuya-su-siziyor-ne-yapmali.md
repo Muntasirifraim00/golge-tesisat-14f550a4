@@ -39,18 +39,34 @@ sections:
       - "Su + priz = **elektrik çarpması + yangın**. Panodan ıslanan odaların sigortasını düşürün."
       - "Bu adım **hukuki olarak en önemli** olan:"
       - "Aynısını **altkat komşudan da isteyin**. WhatsApp ile karşılıklı gönderim = tarih-saat mühürü sağlar."
+    image:
+      src: "/blog-images/alt-komsuya-su-siziyor-ne-yapmali-infographic.jpg"
+      alt: "Alt komşuya su sızıntısı infografik"
+      caption: "Su sızıntısı infografik."
   - heading: "Kaçak Kaynağı ve Sorumluluk Matrisi"
     paragraphs:
       - "**Kritik kural:** Tespit edilmeden hiçbir ödemede bulunmayın, hiçbir yazılı kabul yapmayın."
+    image:
+      src: "/blog-images/alt-komsuya-su-siziyor-ne-yapmali-comparison.jpg"
+      alt: "Alt komşuya su sızıntısı karşılaştırma"
+      caption: "Su sızıntısı karşılaştırma."
   - heading: "DASK, Konut Sigortası ve Site Aidat Sigortası"
     paragraphs:
       - "**Su kaçağı hasarını KARŞILAMAZ.** Sadece deprem hasarını kapsar."
       - "**Ana ürün.** Genelde 3 başlık:"
       - "Standart poliçelerde yıllık **10.000–50.000 TL** teminat."
       - "Ortak alanlar için. Kaçak **ortak kolondan** ise devreye giren budur."
+    image:
+      src: "/blog-images/alt-komsuya-su-siziyor-ne-yapmali-symptoms.jpg"
+      alt: "Alt komşuya su sızıntısı belirtiler"
+      caption: "Su sızıntısı belirtiler."
   - heading: "Komşu ile Anlaşmazlık: Hukuki Süreç"
     paragraphs:
       - "Kiracı iseniz farklı: silikon / hortum kaçağı = kiracı; sıva altı boru patlaması = ev sahibi. Bkz. [su patlaması ilk müdahale](/preview/su-patlamasi-ilk-mudahale)."
+    image:
+      src: "/blog-images/alt-komsuya-su-siziyor-ne-yapmali-chart.jpg"
+      alt: "Alt komşuya su sızıntısı grafik"
+      caption: "Su sızıntısı grafik."
   - heading: "Servis Gelene Kadar Hasarı Sınırlama"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."

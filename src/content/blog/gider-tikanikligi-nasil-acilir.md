@@ -28,18 +28,34 @@ sections:
   - heading: "Tıkanma Tipine Göre Teşhis"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/gider-tikanikligi-nasil-acilir-infographic.jpg"
+      alt: "Gider tıkanıklığı açma infografik"
+      caption: "Gider tıkanıklığı infografik."
   - heading: "Ev Tipi Çözümler (Doğru Sırayla)"
     paragraphs:
       - "Mutfak lavabo tıkandıysa **ilk deneme**: 2 lt kaynar su yavaşça dökün. Yağ eriyip akar. **Klozete kaynar su DÖKMEYİN** — porselen çatlar."
       - "``` 1 su bardağı karbonat → gider deliğine + 1 su bardağı beyaz sirke + ağzı kapat, 15 dk bekle + 2 lt sıcak su ```"
       - "CO₂ reaksiyonu köpük basıncı yaratır, hafif sabun/yağ tıkanmalarını çözer. Metal borulara zararsızdır."
       - "**Klozet tıkanmalarında altın standart.** Piston lastiğini deliğe tam oturtun, düz basıp çekin — hava emmesi kağıdı parçalar."
+    image:
+      src: "/blog-images/gider-tikanikligi-nasil-acilir-comparison.jpg"
+      alt: "Gider tıkanıklığı açma karşılaştırma"
+      caption: "Gider tıkanıklığı karşılaştırma."
   - heading: "Yapmayın: 6 Tehlikeli Hata"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
+    image:
+      src: "/blog-images/gider-tikanikligi-nasil-acilir-symptoms.jpg"
+      alt: "Gider tıkanıklığı açma belirtiler"
+      caption: "Gider tıkanıklığı belirtiler."
   - heading: "2026 Servis Fiyatları"
     paragraphs:
       - "**Ana kolonda tekrarlayan tıkanma** kök tıkanması, çökme veya yanlış eğim demektir → **kamera görüntüleme** şart."
+    image:
+      src: "/blog-images/gider-tikanikligi-nasil-acilir-chart.jpg"
+      alt: "Gider tıkanıklığı açma grafik"
+      caption: "Gider tıkanıklığı grafik."
   - heading: "Ne Zaman Profesyonel Servis?"
     paragraphs:
       - "Detaylar için aşağıdaki bölümü inceleyin."
