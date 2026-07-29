@@ -23,6 +23,10 @@ import type { BlogSection } from "@/data/blog";
 const PHONE_HREF = "tel:+905338960503";
 const WA_HREF = "https://wa.me/905338960503";
 
+function list<T>(value: T[] | undefined): T[] {
+  return Array.isArray(value) ? value : [];
+}
+
 const CALLOUT_STYLES = {
   info: { icon: Info, ring: "border-blue-500/30 bg-blue-500/8", text: "text-blue-600 dark:text-blue-400" },
   tip: { icon: Lightbulb, ring: "border-amber-500/30 bg-amber-500/8", text: "text-amber-600 dark:text-amber-400" },
@@ -46,13 +50,15 @@ function Callout({ block }: { block: NonNullable<BlogSection["callout"]> }) {
 }
 
 function KeyTakeaways({ block }: { block: NonNullable<BlogSection["keyTakeaways"]> }) {
+  const points = list(block.points);
+  if (points.length === 0) return null;
   return (
     <aside className="mt-5 rounded-xl border border-brand-red/25 bg-brand-red/6 p-4">
       <div className="flex items-center gap-2 text-[11px] font-bold uppercase tracking-[0.15em] text-brand-red">
         <Sparkles className="h-3.5 w-3.5" /> {block.title ?? "Özet"}
       </div>
       <ul className="mt-2.5 space-y-1.5">
-        {block.points.map((p, i) => (
+        {points.map((p, i) => (
           <li key={i} className="flex items-start gap-2 text-[13.5px] leading-snug">
             <Check className="mt-0.5 h-3.5 w-3.5 shrink-0 text-brand-red" /> {p}
           </li>
@@ -63,11 +69,13 @@ function KeyTakeaways({ block }: { block: NonNullable<BlogSection["keyTakeaways"
 }
 
 function Steps({ block }: { block: NonNullable<BlogSection["steps"]> }) {
+  const steps = list(block.steps);
+  if (steps.length === 0) return null;
   return (
     <div className="mt-5">
       {block.title && <div className="mb-3 text-[13px] font-extrabold uppercase tracking-wide text-muted-foreground">{block.title}</div>}
       <ol className="space-y-3">
-        {block.steps.map((s, i) => (
+        {steps.map((s, i) => (
           <li key={i} className="flex gap-3 rounded-xl border border-border bg-surface p-4">
             <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-brand-red text-[13px] font-black text-white">{i + 1}</span>
             <div className="min-w-0 flex-1">
@@ -88,11 +96,13 @@ function Steps({ block }: { block: NonNullable<BlogSection["steps"]> }) {
 }
 
 function Checklist({ block }: { block: NonNullable<BlogSection["checklist"]> }) {
+  const items = list(block.items);
+  if (items.length === 0) return null;
   return (
     <div className="mt-5 rounded-xl border border-border bg-surface p-4">
       {block.title && <div className="mb-2 text-[13px] font-extrabold">{block.title}</div>}
       <ul className="space-y-1.5">
-        {block.items.map((it, i) => (
+        {items.map((it, i) => (
           <li key={i} className="flex items-start gap-2 text-[13.5px]">
             <span className="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded border border-brand-red/40 bg-background">
               <Check className="h-3 w-3 text-brand-red" />
@@ -106,6 +116,9 @@ function Checklist({ block }: { block: NonNullable<BlogSection["checklist"]> }) 
 }
 
 function ProsCons({ block }: { block: NonNullable<BlogSection["prosCons"]> }) {
+  const pros = list(block.pros);
+  const cons = list(block.cons);
+  if (pros.length === 0 && cons.length === 0) return null;
   return (
     <div className="mt-5">
       {block.title && <div className="mb-3 text-[13px] font-extrabold uppercase tracking-wide text-muted-foreground">{block.title}</div>}
@@ -115,7 +128,7 @@ function ProsCons({ block }: { block: NonNullable<BlogSection["prosCons"]> }) {
             <Check className="h-3.5 w-3.5" /> Artılar
           </div>
           <ul className="space-y-1.5">
-            {block.pros.map((p, i) => (
+            {pros.map((p, i) => (
               <li key={i} className="flex items-start gap-2 text-[13px]">
                 <Check className="mt-0.5 h-3.5 w-3.5 shrink-0 text-brand-green" /> {p}
               </li>
@@ -127,7 +140,7 @@ function ProsCons({ block }: { block: NonNullable<BlogSection["prosCons"]> }) {
             <X className="h-3.5 w-3.5" /> Eksiler
           </div>
           <ul className="space-y-1.5">
-            {block.cons.map((c, i) => (
+            {cons.map((c, i) => (
               <li key={i} className="flex items-start gap-2 text-[13px]">
                 <X className="mt-0.5 h-3.5 w-3.5 shrink-0 text-brand-red" /> {c}
               </li>
@@ -140,13 +153,15 @@ function ProsCons({ block }: { block: NonNullable<BlogSection["prosCons"]> }) {
 }
 
 function Materials({ block }: { block: NonNullable<BlogSection["materials"]> }) {
+  const items = list(block.items);
+  if (items.length === 0) return null;
   return (
     <div className="mt-5 rounded-xl border border-border bg-surface p-4">
       <div className="mb-3 flex items-center gap-1.5 text-[12px] font-extrabold uppercase tracking-wide text-muted-foreground">
         <Wrench className="h-3.5 w-3.5" /> {block.title ?? "Gerekli Malzemeler"}
       </div>
       <div className="grid gap-2 sm:grid-cols-2">
-        {block.items.map((it, i) => (
+        {items.map((it, i) => (
           <div key={i} className="flex items-start gap-2 rounded-lg border border-border bg-background/50 p-2.5">
             <span className="mt-0.5 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-red" />
             <div className="min-w-0">
@@ -161,11 +176,13 @@ function Materials({ block }: { block: NonNullable<BlogSection["materials"]> }) 
 }
 
 function Timeline({ block }: { block: NonNullable<BlogSection["timeline"]> }) {
+  const items = list(block.items);
+  if (items.length === 0) return null;
   return (
     <div className="mt-5">
       {block.title && <div className="mb-3 text-[13px] font-extrabold uppercase tracking-wide text-muted-foreground">{block.title}</div>}
       <ol className="relative space-y-4 border-l-2 border-brand-red/30 pl-5">
-        {block.items.map((it, i) => (
+        {items.map((it, i) => (
           <li key={i} className="relative">
             <span className="absolute -left-[27px] top-1 flex h-4 w-4 items-center justify-center rounded-full bg-brand-red text-white ring-4 ring-background" />
             <div className="text-[11px] font-bold uppercase tracking-wide text-brand-red">{it.time}</div>
@@ -195,6 +212,7 @@ function Quote({ block }: { block: NonNullable<BlogSection["quote"]> }) {
 
 function Video({ block }: { block: NonNullable<BlogSection["video"]> }) {
   const [play, setPlay] = useState(false);
+  if (!block.youtubeId) return null;
   const thumb = `https://img.youtube.com/vi/${block.youtubeId}/hqdefault.jpg`;
   return (
     <figure className="mt-5">
@@ -224,10 +242,12 @@ function Video({ block }: { block: NonNullable<BlogSection["video"]> }) {
 }
 
 function Gallery({ block }: { block: NonNullable<BlogSection["gallery"]> }) {
-  const cols = block.images.length === 2 ? "sm:grid-cols-2" : block.images.length === 3 ? "sm:grid-cols-3" : "sm:grid-cols-2 md:grid-cols-3";
+  const images = list(block.images).filter((im) => im.src && im.alt);
+  if (images.length === 0) return null;
+  const cols = images.length === 2 ? "sm:grid-cols-2" : images.length === 3 ? "sm:grid-cols-3" : "sm:grid-cols-2 md:grid-cols-3";
   return (
     <div className={`mt-5 grid gap-2 ${cols}`}>
-      {block.images.map((im, i) => (
+      {images.map((im, i) => (
         <figure key={i} className="overflow-hidden rounded-lg border border-border">
           <img src={im.src} alt={im.alt} loading="lazy" className="aspect-[4/3] w-full object-cover" />
           {im.caption && <figcaption className="border-t border-border bg-surface px-2 py-1 text-[10.5px] italic text-muted-foreground">{im.caption}</figcaption>}
@@ -238,6 +258,7 @@ function Gallery({ block }: { block: NonNullable<BlogSection["gallery"]> }) {
 }
 
 function BeforeAfter({ block }: { block: NonNullable<BlogSection["beforeAfter"]> }) {
+  if (!block.before?.src || !block.after?.src) return null;
   return (
     <figure className="mt-5">
       <div className="grid gap-2 sm:grid-cols-2">
@@ -257,6 +278,8 @@ function BeforeAfter({ block }: { block: NonNullable<BlogSection["beforeAfter"]>
 }
 
 function PriceTable({ block }: { block: NonNullable<BlogSection["priceTable"]> }) {
+  const rows = list(block.rows);
+  if (rows.length === 0) return null;
   return (
     <figure className="mt-5 overflow-x-auto rounded-xl border border-brand-red/25">
       <table className="w-full border-collapse text-left text-[13px]">
@@ -267,7 +290,7 @@ function PriceTable({ block }: { block: NonNullable<BlogSection["priceTable"]> }
           </tr>
         </thead>
         <tbody>
-          {block.rows.map((r, i) => (
+          {rows.map((r, i) => (
             <tr key={i} className="border-t border-border odd:bg-surface">
               <td className="px-3.5 py-2.5">
                 <div className="font-semibold">{r.service}</div>
@@ -284,9 +307,11 @@ function PriceTable({ block }: { block: NonNullable<BlogSection["priceTable"]> }
 }
 
 function Accordion({ block }: { block: NonNullable<BlogSection["accordion"]> }) {
+  const items = list(block.items);
+  if (items.length === 0) return null;
   return (
     <div className="mt-5 space-y-2">
-      {block.items.map((it, i) => (
+      {items.map((it, i) => (
         <details key={i} className="group rounded-xl border border-border bg-surface">
           <summary className="flex cursor-pointer list-none items-center justify-between gap-2 px-4 py-3 text-[13.5px] font-bold [&::-webkit-details-marker]:hidden">
             {it.q}
@@ -321,11 +346,13 @@ function Cta({ block }: { block: NonNullable<BlogSection["cta"]> }) {
 }
 
 function Sources({ block }: { block: NonNullable<BlogSection["sources"]> }) {
+  const items = list(block.items);
+  if (items.length === 0) return null;
   return (
     <div className="mt-5 rounded-xl border border-border bg-surface p-4">
       <div className="mb-2 text-[11px] font-extrabold uppercase tracking-wide text-muted-foreground">{block.title ?? "Kaynaklar"}</div>
       <ul className="space-y-1">
-        {block.items.map((it, i) => (
+        {items.map((it, i) => (
           <li key={i}>
             <a href={it.url} target="_blank" rel="noopener nofollow" className="inline-flex items-center gap-1 text-[12.5px] text-brand-red hover:underline">
               <ExternalLink className="h-3 w-3" /> {it.label}

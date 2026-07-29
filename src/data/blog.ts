@@ -19311,14 +19311,16 @@ export function howToFromPost(
 ): { name: string; steps: { name: string; text: string }[] } | null {
   const isHowTo = /nas[ıi]l|ad[ıi]m|aç[ıi]l[ıi]r|çöz[üu]l[üu]r|temizlen|resetle|s[ıi]f[ıi]rla/i.test(post.keyword);
   if (!isHowTo) return null;
+  const sections = Array.isArray(post.sections) ? post.sections : [];
   // Prefer a section that explicitly lists steps ("Adımları", "Aşamaları").
   const stepSection =
-    post.sections.find((s) => /ad[ıi]m|aşama/i.test(s.heading) && s.bullets && s.bullets.length > 1) ??
-    post.sections.find((s) => s.bullets && s.bullets.length > 2);
-  if (!stepSection?.bullets) return null;
+    sections.find((s) => /ad[ıi]m|aşama/i.test(s.heading) && Array.isArray(s.bullets) && s.bullets.length > 1) ??
+    sections.find((s) => Array.isArray(s.bullets) && s.bullets.length > 2);
+  const bullets = Array.isArray(stepSection?.bullets) ? stepSection.bullets : [];
+  if (bullets.length === 0) return null;
   return {
     name: post.title,
-    steps: stepSection.bullets.map((b) => {
+    steps: bullets.map((b) => {
       const [head, ...rest] = b.split(/[:–-]/);
       const name = head.trim().slice(0, 70);
       return { name: name || b.trim().slice(0, 70), text: b.trim() };

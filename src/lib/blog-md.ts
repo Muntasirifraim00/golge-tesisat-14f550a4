@@ -56,6 +56,99 @@ function toTextArray(value: unknown): string[] {
   return [];
 }
 
+function toNumber(value: unknown): number {
+  if (typeof value === "number" && Number.isFinite(value)) return value;
+  if (typeof value === "string") {
+    const parsed = Number(value.replace(",", ".").replace(/[^0-9.-]/g, ""));
+    return Number.isFinite(parsed) ? parsed : 0;
+  }
+  return 0;
+}
+
+function normalizeTable(block: unknown): void {
+  if (!isRecord(block)) return;
+  block.headers = toTextArray(block.headers);
+  const rows = Array.isArray(block.rows) ? block.rows : [];
+  block.rows = rows
+    .map((row) => {
+      if (Array.isArray(row)) return row.map(toText).filter(Boolean);
+      if (isRecord(row)) return Object.values(row).map(toText).filter(Boolean);
+      const text = toText(row);
+      return text ? [text] : [];
+    })
+    .filter((row) => row.length > 0);
+}
+
+function normalizeChart(block: unknown): void {
+  if (!isRecord(block)) return;
+  const source = Array.isArray(block.bars)
+    ? block.bars
+    : Array.isArray(block.data)
+      ? block.data
+      : [];
+  block.bars = source
+    .map((item) => {
+      if (Array.isArray(item)) {
+        const label = toText(item[0]);
+        return { label, value: toNumber(item[1]) };
+      }
+      if (isRecord(item)) {
+        const label = toText(item.label ?? item.name ?? item.title);
+        const value = toNumber(item.value ?? item.amount ?? item.count ?? item.percent);
+        const note = toText(item.note ?? item.description);
+        return { label, value, ...(note ? { note } : {}) };
+      }
+      return { label: "", value: 0 };
+    })
+    .filter((item) => item.label && Number.isFinite(item.value));
+}
+
+function normalizeProsCons(block: unknown): void {
+  if (!isRecord(block)) return;
+  block.pros = toTextArray(block.pros);
+  block.cons = toTextArray(block.cons);
+}
+
+function normalizeMaterials(block: unknown): void {
+  if (!isRecord(block)) return;
+  const items = Array.isArray(block.items) ? block.items : [];
+  block.items = items
+    .map((item) => {
+      if (isRecord(item)) {
+        const name = toText(item.name ?? item.title ?? item.label);
+        const note = toText(item.note ?? item.body ?? item.description);
+        return { name, ...(note ? { note } : {}) };
+      }
+      return { name: toText(item) };
+    })
+    .filter((item) => item.name);
+}
+
+function normalizeQuestionList(block: unknown): void {
+  if (!isRecord(block)) return;
+  const items = Array.isArray(block.items) ? block.items : [];
+  block.items = items
+    .map((item) => {
+      if (!isRecord(item)) return { q: toText(item), a: "" };
+      return {
+        q: toText(item.q ?? item.question ?? item.title),
+        a: toText(item.a ?? item.answer ?? item.body ?? item.text),
+      };
+    })
+    .filter((item) => item.q && item.a);
+}
+
+function normalizeSources(block: unknown): void {
+  if (!isRecord(block)) return;
+  const items = Array.isArray(block.items) ? block.items : [];
+  block.items = items
+    .map((item) => {
+      if (!isRecord(item)) return { label: toText(item), url: "" };
+      return { label: toText(item.label ?? item.title ?? item.name), url: toText(item.url ?? item.href) };
+    })
+    .filter((item) => item.label && item.url);
+}
+
 function normalizeSteps(block: unknown): void {
   if (!isRecord(block)) return;
   const source = Array.isArray(block.steps)
@@ -124,6 +217,8 @@ function normalizeSections(sections: unknown): unknown {
     normalized.paragraphs = toTextArray(normalized.paragraphs);
 
     if (normalized.bullets !== undefined) normalized.bullets = toTextArray(normalized.bullets);
+    if (isRecord(normalized.table)) normalizeTable(normalized.table);
+    if (isRecord(normalized.chart)) normalizeChart(normalized.chart);
     if (isRecord(normalized.keyTakeaways)) {
       normalized.keyTakeaways = {
         ...normalized.keyTakeaways,
@@ -136,6 +231,11 @@ function normalizeSections(sections: unknown): unknown {
         items: toTextArray(normalized.checklist.items),
       };
     }
+    if (isRecord(normalized.prosCons)) normalizeProsCons(normalized.prosCons);
+    if (isRecord(normalized.materials)) normalizeMaterials(normalized.materials);
+    if (isRecord(normalized.gallery) && !Array.isArray(normalized.gallery.images)) normalized.gallery.images = [];
+    if (isRecord(normalized.accordion)) normalizeQuestionList(normalized.accordion);
+    if (isRecord(normalized.sources)) normalizeSources(normalized.sources);
     normalizeSteps(normalized.steps);
     normalizeTimeline(normalized.timeline);
     normalizePriceTable(normalized.priceTable);
