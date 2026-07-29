@@ -366,8 +366,15 @@ export const TIER3_KEYWORDS: KeywordEntry[] = [
   { keyword: "kombi nasıl açılır", volume: 1900, kdi: 28, intent: "informational", target: "/blog/$slug", cluster: "petek", status: "building" },
   // Su kaçağı bilgilendirici blog — su-kacagi-tespiti hizmetine köprü. Üst küme "su kaçağı tespiti" 18.100/ay.
   { keyword: "su kaçağı bulma", volume: 2400, kdi: 14, intent: "informational", target: "/blog/$slug", cluster: "su-kacagi", status: "building" },
-  { keyword: "kırmadan su kaçağı tespiti", volume: 1600, kdi: 14, intent: "informational", target: "/blog/$slug", cluster: "su-kacagi", status: "building" },
-  { keyword: "cihaz olmadan su kaçağı tespiti", volume: 590, kdi: 14, intent: "informational", target: "/blog/$slug", cluster: "su-kacagi", status: "building" },
+  // Kırmadan (tahribatsız) su kaçağı tespiti — YAZILDI (Tem 2026). Semrush tr: "kırmadan su kaçağı tespiti" 1.600/ay, KDI 10, CPC $2,32 (kümenin en yüksek ticari değerli bilgi amaçlı terimi). SERP tamamen ince hizmet sayfası (tufantesisat / istanbultesisat / armut / guneytesisat); yöntem karşılaştırma tablosu, doğruluk oranı, saha veri grafiği ve sorumluluk hukuku içeren tarafsız rehber yok. 11 bölüm, 8 tablo, 5 premium görsel, 12 SSS. Köprü: /hizmet/su-kacagi-tespiti. ✅ YAZILDI → /blog/kirmadan-su-kacagi-tespiti
+  { keyword: "kırmadan su kaçağı tespiti", volume: 1600, kdi: 10, intent: "informational", target: "/blog/kirmadan-su-kacagi-tespiti", cluster: "su-kacagi", status: "ranking" },
+  { keyword: "cihaz olmadan su kaçağı tespiti", volume: 590, kdi: 14, intent: "informational", target: "/blog/kirmadan-su-kacagi-tespiti", cluster: "su-kacagi", status: "ranking" },
+  { keyword: "kırmadan su kaçağı tamiri", volume: 480, kdi: 12, intent: "informational", target: "/blog/kirmadan-su-kacagi-tespiti", cluster: "su-kacagi", status: "ranking" },
+  { keyword: "fayans altında su kaçağı tespit", volume: 390, kdi: 12, intent: "informational", target: "/blog/kirmadan-su-kacagi-tespiti", cluster: "su-kacagi", status: "ranking" },
+  { keyword: "cihazla su kaçağı tespiti", volume: 390, kdi: 12, intent: "informational", target: "/blog/kirmadan-su-kacagi-tespiti", cluster: "su-kacagi", status: "ranking" },
+  { keyword: "kameralı su kaçağı tespiti", volume: 880, kdi: 14, intent: "informational", target: "/blog/kirmadan-su-kacagi-tespiti", cluster: "su-kacagi", status: "ranking" },
+  { keyword: "su kaçak tespit fiyatları", volume: 1000, kdi: 12, intent: "transactional", target: "/blog/kirmadan-su-kacagi-tespiti", cluster: "su-kacagi", status: "ranking" },
+
   { keyword: "su kaçağı nasıl anlaşılır", volume: 480, kdi: 14, intent: "informational", target: "/blog/$slug", cluster: "su-kacagi", status: "building" },
   // Viessmann cluster — DERINLESTIRILDI (Jul 2026). Marka reset kümesini tamamlar; ince yazı → tam kaynak: featured görsel + 2 diyagram (reset adımları, panel sembolleri) + F2 neden grafiği + 9 satırlık arıza kodları tablosu + Vitopend/Vitodens karşılaştırma tablosu, 11 bölüm, 9 SSS. F2/F4/F5/F.67 + semboller + basınç niyetlerini kapsar. SERP YouTube + üretici (mayor/viessmann.com.tr) + Yandex/forum; yapılandırılmış tarafsız servis rehberi yoktu. İç link: bosch/eca/buderus/demirdöküm reset + kombi arıza kodları + genleşme tankı. ~7.500+/ay birleşik niyet. ✅ DERINLESTIRILDI → /blog/viessmann-kombi-resetleme
   { keyword: "viessmann kombi resetleme", volume: 2900, kdi: 31, intent: "informational", target: "/blog/viessmann-kombi-resetleme", cluster: "kombi", status: "ranking" },
