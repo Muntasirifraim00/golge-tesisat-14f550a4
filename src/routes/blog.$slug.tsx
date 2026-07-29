@@ -7,7 +7,7 @@ import { UrgencyCTA } from "@/components/UrgencyCTA";
 import { ReadingProgress } from "@/components/ReadingProgress";
 import { ArticleToc, type TocItem } from "@/components/ArticleToc";
 import { BlogRichBlocks } from "@/components/BlogRichBlocks";
-import { relatedPostsFor, findPost, howToFromPost, INLINE_LINK_INDEX, type BlogPost, type InlinePhrase } from "@/data/blog";
+import { relatedPostsFor, findPost, howToFromPost, INLINE_LINK_INDEX, type BlogPost, type BlogSection, type InlinePhrase } from "@/data/blog";
 import { findInlineMatch } from "@/lib/inline-linker";
 import { getGeneratedPost } from "@/lib/seo-writer/blog-public.functions";
 import { findService } from "@/data/services";
@@ -39,6 +39,7 @@ const REDIRECTS: Record<string, string> = {
 type LinkifyCtx = { currentSlug: string; used: Set<string>; budget: { left: number } };
 
 function linkifyParagraph(text: string, index: InlinePhrase[], ctx: LinkifyCtx): ReactNode {
+  if (typeof text !== "string") return "";
   if (ctx.budget.left <= 0) return text;
   const best = findInlineMatch(
     text,
@@ -66,6 +67,50 @@ function linkifyParagraph(text: string, index: InlinePhrase[], ctx: LinkifyCtx):
   );
 }
 
+function list<T>(value: T[] | undefined): T[] {
+  return Array.isArray(value) ? value : [];
+}
+
+function postSections(post: BlogPost): BlogSection[] {
+  return list(post.sections);
+}
+
+function postFaq(post: BlogPost): BlogPost["faq"] {
+  return list(post.faq).filter((item) => item.q && item.a);
+}
+
+function sectionParagraphs(section: BlogSection): string[] {
+  return list(section.paragraphs).filter(Boolean);
+}
+
+function sectionBullets(section: BlogSection): string[] {
+  return list(section.bullets).filter(Boolean);
+}
+
+function tableHeaders(section: BlogSection): string[] {
+  return list(section.table?.headers).filter(Boolean);
+}
+
+function tableRows(section: BlogSection): string[][] {
+  return list(section.table?.rows).filter((row) => Array.isArray(row) && row.length > 0);
+}
+
+function isChartBar(value: unknown): value is { label: string; value: number; note?: string } {
+  if (!value || typeof value !== "object") return false;
+  if (!("label" in value) || !("value" in value)) return false;
+  return typeof value.label === "string" && typeof value.value === "number" && Number.isFinite(value.value);
+}
+
+function chartBars(chart: BlogSection["chart"]): { label: string; value: number; note?: string }[] {
+  if (!chart) return [];
+  const source = Array.isArray(chart.bars)
+    ? chart.bars
+    : "data" in chart && Array.isArray(chart.data)
+      ? chart.data
+      : [];
+  return source.filter(isChartBar);
+}
+
 export const Route = createFileRoute("/blog/$slug")({
   loader: async ({ params }) => {
     const target = REDIRECTS[params.slug];
@@ -83,6 +128,7 @@ export const Route = createFileRoute("/blog/$slug")({
   head: ({ loaderData }) => {
     const p = loaderData?.post;
     if (!p) return { meta: [{ title: "Blog — Gölge Tesisat" }] };
+    const faq = postFaq(p);
     const title = `${p.seoTitle} | Gölge Tesisat`;
     const url = `https://golgetesisat.com/blog/${p.slug}`;
     const ogImage = `https://golgetesisat.com/og/${p.serviceSlug}.jpg`;
@@ -142,7 +188,7 @@ export const Route = createFileRoute("/blog/$slug")({
           children: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            mainEntity: p.faq.map((f: { q: string; a: string }) => ({
+            mainEntity: faq.map((f) => ({
               "@type": "Question",
               name: f.q,
               acceptedAnswer: { "@type": "Answer", text: f.a },
@@ -200,6 +246,8 @@ function BlogPostPage() {
   const { post: p } = Route.useLoaderData() as { post: BlogPost };
   const service = findService(p.serviceSlug);
   const related = relatedPostsFor(p, 4);
+  const sections = postSections(p);
+  const faq = postFaq(p);
   // Locally relevant districts to deep-link from the guide (intent → local money
   // page). Rotated deterministically by slug so all 27 districts receive inlinks
   // across the blog rather than only the first four (Internal Linking — Step 6).
@@ -212,8 +260,8 @@ function BlogPostPage() {
   // anchors (#adim-N) line up with the HowToStep urls emitted in head().
   const howTo = howToFromPost(p);
   const stepHeading = howTo
-    ? (p.sections.find((s) => /ad[ıi]m|aşama/i.test(s.heading) && s.bullets && s.bullets.length > 1) ??
-        p.sections.find((s) => s.bullets && s.bullets.length > 2))?.heading
+    ? (sections.find((s) => /ad[ıi]m|aşama/i.test(s.heading) && sectionBullets(s).length > 1) ??
+        sections.find((s) => sectionBullets(s).length > 2))?.heading
     : undefined;
 
   const updatedLabel = new Date(p.updated ?? p.published).toLocaleDateString("tr-TR", {
@@ -224,7 +272,7 @@ function BlogPostPage() {
 
   // Build the table of contents from section headings + the FAQ anchor.
   const tocItems: TocItem[] = [
-    ...p.sections.map((s, i) => ({ id: `sec-${i}`, label: s.heading })),
+    ...sections.map((s, i) => ({ id: `sec-${i}`, label: s.heading })),
     { id: "sss", label: "Sıkça Sorulan Sorular" },
   ];
 
@@ -309,7 +357,7 @@ function BlogPostPage() {
 
           {/* Lead / intro with drop cap */}
           <p className="mt-6 max-w-[720px] text-[16.5px] leading-[1.75] text-foreground/90 first-letter:float-left first-letter:mr-2.5 first-letter:mt-1 first-letter:text-[52px] first-letter:font-extrabold first-letter:leading-[0.8] first-letter:text-brand-red">
-            {linkifyParagraph(p.intro, INLINE_LINK_INDEX, linkCtx)}
+            {linkifyParagraph(p.intro || p.excerpt || "", INLINE_LINK_INDEX, linkCtx)}
           </p>
 
           {/* Mobile table of contents */}
@@ -330,7 +378,7 @@ function BlogPostPage() {
           </details>
 
           {/* Body sections */}
-          {p.sections.map((sec, i) => (
+          {sections.map((sec, i) => (
             <section key={sec.heading} id={`sec-${i}`} className="scroll-mt-24 pt-10">
               <h2 className="flex items-start gap-3 text-[21px] font-extrabold leading-tight tracking-tight">
                 <span className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-brand-red/15 text-[12px] font-black text-brand-red">
@@ -340,14 +388,14 @@ function BlogPostPage() {
               </h2>
 
               <div className="mt-3 max-w-[720px] space-y-3.5">
-                {sec.paragraphs.map((para, pi) => (
+                {sectionParagraphs(sec).map((para, pi) => (
                   <p key={pi} className="text-[15.5px] leading-[1.78] text-foreground/80">{linkifyParagraph(para, INLINE_LINK_INDEX, linkCtx)}</p>
                 ))}
               </div>
 
-              {sec.bullets && (
+              {sectionBullets(sec).length > 0 && (
                 <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-                  {sec.bullets.map((b, bi) => (
+                  {sectionBullets(sec).map((b, bi) => (
                     <li
                       key={b}
                       id={sec.heading === stepHeading ? `adim-${bi + 1}` : undefined}
@@ -382,18 +430,18 @@ function BlogPostPage() {
               )}
 
               {/* Comparison / spec table */}
-              {sec.table && (
+              {sec.table && tableHeaders(sec).length > 0 && tableRows(sec).length > 0 && (
                 <figure className="mt-5 overflow-x-auto rounded-xl border border-border">
                   <table className="w-full border-collapse text-left text-[12.5px]">
                     <thead>
                       <tr className="bg-surface-2">
-                        {sec.table.headers.map((h) => (
+                        {tableHeaders(sec).map((h) => (
                           <th key={h} className="border-b border-border px-3.5 py-2.5 font-extrabold">{h}</th>
                         ))}
                       </tr>
                     </thead>
                     <tbody>
-                      {sec.table.rows.map((row, ri) => (
+                      {tableRows(sec).map((row, ri) => (
                         <tr key={ri} className="odd:bg-surface">
                           {row.map((cell, ci) => (
                             <td key={ci} className={`border-b border-border px-3.5 py-2.5 align-top ${ci === 0 ? "font-semibold text-foreground/90" : "text-muted-foreground"}`}>{cell}</td>
@@ -409,28 +457,30 @@ function BlogPostPage() {
               )}
 
               {/* Simple bar chart */}
-              {sec.chart && (
-                <figure className="mt-5 rounded-xl border border-border bg-surface p-4">
-                  {sec.chart.title && <figcaption className="mb-3 text-[12.5px] font-extrabold">{sec.chart.title}</figcaption>}
-                  <div className="space-y-3">
-                    {(() => {
-                      const max = Math.max(...sec.chart.bars.map((b) => b.value)) || 1;
-                      return sec.chart.bars.map((b) => (
+              {sec.chart && (() => {
+                const bars = chartBars(sec.chart);
+                if (bars.length === 0) return null;
+                const max = Math.max(...bars.map((b) => b.value)) || 1;
+                return (
+                  <figure className="mt-5 rounded-xl border border-border bg-surface p-4">
+                    {sec.chart.title && <figcaption className="mb-3 text-[12.5px] font-extrabold">{sec.chart.title}</figcaption>}
+                    <div className="space-y-3">
+                      {bars.map((b) => (
                         <div key={b.label}>
                           <div className="flex items-center justify-between text-[11.5px]">
                             <span className="font-semibold">{b.label}</span>
-                            <span className="font-extrabold text-brand-red">{b.value}{sec.chart!.unit}</span>
+                            <span className="font-extrabold text-brand-red">{b.value}{sec.chart?.unit}</span>
                           </div>
                           <div className="mt-1 h-2.5 w-full overflow-hidden rounded-full bg-surface-2">
                             <div className="h-full rounded-full bg-gradient-to-r from-brand-red to-brand-red/70" style={{ width: `${(b.value / max) * 100}%` }} />
                           </div>
                           {b.note && <div className="mt-0.5 text-[10px] text-muted-foreground">{b.note}</div>}
                         </div>
-                      ));
-                    })()}
-                  </div>
-                </figure>
-              )}
+                      ))}
+                    </div>
+                  </figure>
+                );
+              })()}
 
 
               <BlogRichBlocks section={sec} />
@@ -468,7 +518,7 @@ function BlogPostPage() {
           <section id="sss" className="scroll-mt-24 pt-12">
             <h2 className="text-[21px] font-extrabold tracking-tight">Sıkça Sorulan Sorular</h2>
             <div className="mt-4 space-y-2.5">
-              {p.faq.map((f) => (
+              {faq.map((f) => (
                 <details key={f.q} className="group rounded-xl border border-border bg-surface transition-colors open:border-brand-red/40 open:bg-surface-2">
                   <summary className="flex cursor-pointer list-none items-center justify-between gap-3 p-4 [&::-webkit-details-marker]:hidden">
                     <h3 className="text-[14px] font-bold leading-snug">{f.q}</h3>
