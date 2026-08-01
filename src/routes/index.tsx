@@ -915,7 +915,7 @@ function BookingBanner() {
                   {en ? "Next 7 days" : "Önümüzdeki 7 gün"}
                 </div>
                 <div className="text-[10px] font-bold text-white/40">
-                  {today.toLocaleDateString(en ? "en-GB" : "tr-TR", { month: "short", year: "numeric" })}
+                  {today.toLocaleDateString(en ? "en-GB" : "tr-TR", { month: "short", year: "numeric", timeZone: "UTC" })}
                 </div>
               </div>
 
