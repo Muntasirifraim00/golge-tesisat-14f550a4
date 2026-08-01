@@ -846,18 +846,28 @@ function BookingBanner() {
   const { lang } = useLang();
   const en = lang === "en";
 
-  // Build the next 7 days for the mini date strip
-  const today = new Date();
+  // Build the next 7 days for the mini date strip.
+  // Anchored to Europe/Istanbul so SSR and client render identically.
   const dayShortEN = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
   const dayShortTR = ["PAZ", "PZT", "SAL", "ÇAR", "PER", "CUM", "CMT"];
+  // en-CA gives YYYY-MM-DD, so the anchor is identical on server and client.
+  const istanbulToday = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Istanbul",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(new Date());
+  const istanbulNow = new Date(`${istanbulToday}T00:00:00Z`);
+  const today = istanbulNow;
+
   const days = Array.from({ length: 7 }, (_, i) => {
-    const d = new Date(today);
-    d.setDate(today.getDate() + i);
+    const d = new Date(istanbulNow.getTime() + i * 86400000);
     return {
-      wd: (en ? dayShortEN : dayShortTR)[d.getDay()],
-      dn: d.getDate(),
+      wd: (en ? dayShortEN : dayShortTR)[d.getUTCDay()],
+      dn: d.getUTCDate(),
     };
   });
+
   const selectedDayIdx = 2;
   const slots = ["09:00", "11:00", "13:00", "15:00", "17:00", "19:00"];
   const bookedIdx = [0, 3];
@@ -905,7 +915,7 @@ function BookingBanner() {
                   {en ? "Next 7 days" : "Önümüzdeki 7 gün"}
                 </div>
                 <div className="text-[10px] font-bold text-white/40">
-                  {today.toLocaleDateString(en ? "en-GB" : "tr-TR", { month: "short", year: "numeric" })}
+                  {today.toLocaleDateString(en ? "en-GB" : "tr-TR", { month: "short", year: "numeric", timeZone: "UTC" })}
                 </div>
               </div>
 
