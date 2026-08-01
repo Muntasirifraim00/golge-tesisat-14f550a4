@@ -846,18 +846,35 @@ function BookingBanner() {
   const { lang } = useLang();
   const en = lang === "en";
 
-  // Build the next 7 days for the mini date strip
-  const today = new Date();
+  // Build the next 7 days for the mini date strip.
+  // Anchored to Europe/Istanbul so SSR and client render identically.
   const dayShortEN = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
   const dayShortTR = ["PAZ", "PZT", "SAL", "ÇAR", "PER", "CUM", "CMT"];
+  const istanbulNow = new Date(
+    new Intl.DateTimeFormat("en-US", {
+      timeZone: "Europe/Istanbul",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+    })
+      .formatToParts(new Date())
+      .reduce<Record<string, string>>((acc, p) => ({ ...acc, [p.type]: p.value }), {} as Record<string, string>)
+      .year +
+      "-" +
+      new Intl.DateTimeFormat("en-US", { timeZone: "Europe/Istanbul", month: "2-digit" }).format(new Date()) +
+      "-" +
+      new Intl.DateTimeFormat("en-US", { timeZone: "Europe/Istanbul", day: "2-digit" }).format(new Date()) +
+      "T00:00:00Z",
+  );
+  const today = istanbulNow;
   const days = Array.from({ length: 7 }, (_, i) => {
-    const d = new Date(today);
-    d.setDate(today.getDate() + i);
+    const d = new Date(istanbulNow.getTime() + i * 86400000);
     return {
-      wd: (en ? dayShortEN : dayShortTR)[d.getDay()],
-      dn: d.getDate(),
+      wd: (en ? dayShortEN : dayShortTR)[d.getUTCDay()],
+      dn: d.getUTCDate(),
     };
   });
+
   const selectedDayIdx = 2;
   const slots = ["09:00", "11:00", "13:00", "15:00", "17:00", "19:00"];
   const bookedIdx = [0, 3];
