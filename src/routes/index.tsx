@@ -850,23 +850,16 @@ function BookingBanner() {
   // Anchored to Europe/Istanbul so SSR and client render identically.
   const dayShortEN = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
   const dayShortTR = ["PAZ", "PZT", "SAL", "ÇAR", "PER", "CUM", "CMT"];
-  const istanbulNow = new Date(
-    new Intl.DateTimeFormat("en-US", {
-      timeZone: "Europe/Istanbul",
-      year: "numeric",
-      month: "2-digit",
-      day: "2-digit",
-    })
-      .formatToParts(new Date())
-      .reduce<Record<string, string>>((acc, p) => ({ ...acc, [p.type]: p.value }), {} as Record<string, string>)
-      .year +
-      "-" +
-      new Intl.DateTimeFormat("en-US", { timeZone: "Europe/Istanbul", month: "2-digit" }).format(new Date()) +
-      "-" +
-      new Intl.DateTimeFormat("en-US", { timeZone: "Europe/Istanbul", day: "2-digit" }).format(new Date()) +
-      "T00:00:00Z",
-  );
+  // en-CA gives YYYY-MM-DD, so the anchor is identical on server and client.
+  const istanbulToday = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Istanbul",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(new Date());
+  const istanbulNow = new Date(`${istanbulToday}T00:00:00Z`);
   const today = istanbulNow;
+
   const days = Array.from({ length: 7 }, (_, i) => {
     const d = new Date(istanbulNow.getTime() + i * 86400000);
     return {
