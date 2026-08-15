@@ -1698,14 +1698,28 @@ export function DesktopBookingBanner() {
   const { lang } = useLang();
   const en = lang === "en";
 
+  // Compute in a fixed timezone so SSR and client render identical values
+  const istanbulParts = (d: Date) => {
+    const f = new Intl.DateTimeFormat("en-CA", {
+      timeZone: "Europe/Istanbul",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      weekday: "short",
+    });
+    const p = f.formatToParts(d);
+    const get = (t: string) => p.find((x) => x.type === t)?.value ?? "";
+    const wdIdx = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].indexOf(get("weekday"));
+    return { day: Number(get("day")), wdIdx: wdIdx < 0 ? 0 : wdIdx };
+  };
   const today = new Date();
   const dayShortEN = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
   const dayShortTR = ["PAZ", "PZT", "SAL", "ÇAR", "PER", "CUM", "CMT"];
   const days = Array.from({ length: 7 }, (_, i) => {
-    const d = new Date(today);
-    d.setDate(today.getDate() + i);
-    return { wd: (en ? dayShortEN : dayShortTR)[d.getDay()], dn: d.getDate() };
+    const { day, wdIdx } = istanbulParts(new Date(today.getTime() + i * 86400000));
+    return { wd: (en ? dayShortEN : dayShortTR)[wdIdx], dn: day };
   });
+
   const selectedDayIdx = 2;
   const slots = ["09:00", "11:00", "13:00", "15:00", "17:00", "19:00"];
   const bookedIdx = [0, 3];
