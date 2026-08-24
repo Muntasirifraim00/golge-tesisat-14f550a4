@@ -16,6 +16,7 @@ import { Route as OgImageDotjpgRouteImport } from './routes/og-image[.]jpg'
 import { Route as KvkkRouteImport } from './routes/kvkk'
 import { Route as IndexDurumuBanglaRouteImport } from './routes/index-durumu-bangla'
 import { Route as HizmetlerRouteImport } from './routes/hizmetler'
+import { Route as GoogleAdsKurulumRouteImport } from './routes/google-ads-kurulum'
 import { Route as GoogleAdsRouteImport } from './routes/google-ads'
 import { Route as DisavowRouteImport } from './routes/disavow'
 import { Route as CerezPolitikasiRouteImport } from './routes/cerez-politikasi'
@@ -92,6 +93,11 @@ const IndexDurumuBanglaRoute = IndexDurumuBanglaRouteImport.update({
 const HizmetlerRoute = HizmetlerRouteImport.update({
   id: '/hizmetler',
   path: '/hizmetler',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GoogleAdsKurulumRoute = GoogleAdsKurulumRouteImport.update({
+  id: '/google-ads-kurulum',
+  path: '/google-ads-kurulum',
   getParentRoute: () => rootRouteImport,
 } as any)
 const GoogleAdsRoute = GoogleAdsRouteImport.update({
@@ -324,6 +330,7 @@ export interface FileRoutesByFullPath {
   '/cerez-politikasi': typeof CerezPolitikasiRoute
   '/disavow': typeof DisavowRoute
   '/google-ads': typeof GoogleAdsRoute
+  '/google-ads-kurulum': typeof GoogleAdsKurulumRoute
   '/hizmetler': typeof HizmetlerRoute
   '/index-durumu-bangla': typeof IndexDurumuBanglaRoute
   '/kvkk': typeof KvkkRoute
@@ -374,6 +381,7 @@ export interface FileRoutesByTo {
   '/cerez-politikasi': typeof CerezPolitikasiRoute
   '/disavow': typeof DisavowRoute
   '/google-ads': typeof GoogleAdsRoute
+  '/google-ads-kurulum': typeof GoogleAdsKurulumRoute
   '/hizmetler': typeof HizmetlerRoute
   '/index-durumu-bangla': typeof IndexDurumuBanglaRoute
   '/kvkk': typeof KvkkRoute
@@ -424,6 +432,7 @@ export interface FileRoutesById {
   '/cerez-politikasi': typeof CerezPolitikasiRoute
   '/disavow': typeof DisavowRoute
   '/google-ads': typeof GoogleAdsRoute
+  '/google-ads-kurulum': typeof GoogleAdsKurulumRoute
   '/hizmetler': typeof HizmetlerRoute
   '/index-durumu-bangla': typeof IndexDurumuBanglaRoute
   '/kvkk': typeof KvkkRoute
@@ -477,6 +486,7 @@ export interface FileRouteTypes {
     | '/cerez-politikasi'
     | '/disavow'
     | '/google-ads'
+    | '/google-ads-kurulum'
     | '/hizmetler'
     | '/index-durumu-bangla'
     | '/kvkk'
@@ -527,6 +537,7 @@ export interface FileRouteTypes {
     | '/cerez-politikasi'
     | '/disavow'
     | '/google-ads'
+    | '/google-ads-kurulum'
     | '/hizmetler'
     | '/index-durumu-bangla'
     | '/kvkk'
@@ -576,6 +587,7 @@ export interface FileRouteTypes {
     | '/cerez-politikasi'
     | '/disavow'
     | '/google-ads'
+    | '/google-ads-kurulum'
     | '/hizmetler'
     | '/index-durumu-bangla'
     | '/kvkk'
@@ -628,6 +640,7 @@ export interface RootRouteChildren {
   CerezPolitikasiRoute: typeof CerezPolitikasiRoute
   DisavowRoute: typeof DisavowRoute
   GoogleAdsRoute: typeof GoogleAdsRoute
+  GoogleAdsKurulumRoute: typeof GoogleAdsKurulumRoute
   HizmetlerRoute: typeof HizmetlerRoute
   IndexDurumuBanglaRoute: typeof IndexDurumuBanglaRoute
   KvkkRoute: typeof KvkkRoute
@@ -700,6 +713,13 @@ declare module '@tanstack/react-router' {
       path: '/hizmetler'
       fullPath: '/hizmetler'
       preLoaderRoute: typeof HizmetlerRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/google-ads-kurulum': {
+      id: '/google-ads-kurulum'
+      path: '/google-ads-kurulum'
+      fullPath: '/google-ads-kurulum'
+      preLoaderRoute: typeof GoogleAdsKurulumRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/google-ads': {
@@ -1083,6 +1103,7 @@ const rootRouteChildren: RootRouteChildren = {
   CerezPolitikasiRoute: CerezPolitikasiRoute,
   DisavowRoute: DisavowRoute,
   GoogleAdsRoute: GoogleAdsRoute,
+  GoogleAdsKurulumRoute: GoogleAdsKurulumRoute,
   HizmetlerRoute: HizmetlerRoute,
   IndexDurumuBanglaRoute: IndexDurumuBanglaRoute,
   KvkkRoute: KvkkRoute,
