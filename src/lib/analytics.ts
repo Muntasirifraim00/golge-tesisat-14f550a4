@@ -86,6 +86,8 @@ export function trackEvent(
       });
 
     maybeSendContactAlert(event_name, label, country);
+    fireAdsConversion(event_name, { event_label: label ?? undefined });
+
 
   } catch (err) {
     console.warn("[analytics] failed", err);
