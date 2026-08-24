@@ -202,6 +202,7 @@ function RootComponent() {
       <LanguageProvider>
         {!isAdmin && !hasOwnToggle && <GlobalLangToggle />}
         {!isAdmin && <GlobalClickTracker />}
+        {!isAdmin && <GoogleAdsLoader />}
         <Outlet />
       </LanguageProvider>
     </QueryClientProvider>
