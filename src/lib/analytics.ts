@@ -1,4 +1,5 @@
 import { supabase } from "@/integrations/supabase/client";
+import { fireAdsConversion } from "@/lib/google-ads";
 
 // De-dupe alert emails: one click can fire trackEvent from several code paths.
 const lastAlertAt: Record<string, number> = {};
