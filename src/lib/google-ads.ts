@@ -10,7 +10,7 @@
  * Etiketler girilene kadar hiçbir şey gönderilmez; site normal çalışır.
  */
 
-export const GOOGLE_ADS_CONVERSION_ID = "AW-XXXXXXXXXX"; // TODO: replace
+export const GOOGLE_ADS_CONVERSION_ID = "AW-18366033946"; // আপনার Google Ads Conversion ID
 
 /** Site içi olay adı -> Google Ads dönüşüm etiketi + varsayılan değer (TRY) */
 export const GOOGLE_ADS_CONVERSIONS: Record<
