@@ -18,13 +18,13 @@ export const GOOGLE_ADS_CONVERSIONS: Record<
   { label: string; value: number; currency: string }
 > = {
   // 1) Telefon araması (tel: tıklaması)
-  cta_call: { label: "CALL_LABEL", value: 300, currency: "TRY" },
+  cta_call: { label: "FCjVCP_u3-YcEJrgzbVE", value: 300, currency: "TRY" },
   // 2) WhatsApp tıklaması
-  cta_whatsapp: { label: "WHATSAPP_LABEL", value: 200, currency: "TRY" },
+  cta_whatsapp: { label: "39fZCP_m4OYJrgzbVE", value: 200, currency: "TRY" },
   // 3) "Sizi arayalım" formu gönderimi
-  callback_submit: { label: "CALLBACK_LABEL", value: 250, currency: "TRY" },
+  callback_submit: { label: "8fAMCJn77uYcEJrgzbVE", value: 250, currency: "TRY" },
   // 4) Randevu formu gönderimi
-  booking_submit: { label: "BOOKING_LABEL", value: 400, currency: "TRY" },
+  booking_submit: { label: "dLluCISB4eYcEJrgzbVE", value: 400, currency: "TRY" },
 };
 
 const PLACEHOLDER = /X{6,}|_LABEL$/;
