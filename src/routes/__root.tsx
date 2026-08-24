@@ -12,6 +12,7 @@ import {
 import appCss from "../styles.css?url";
 import { LanguageProvider, GlobalLangToggle } from "@/i18n/LanguageProvider";
 import { GlobalClickTracker } from "@/lib/GlobalClickTracker";
+import { GoogleAdsLoader } from "@/components/GoogleAdsLoader";
 import { buildLocalBusinessSchema } from "@/data/business";
 
 function NotFoundComponent() {
@@ -202,6 +203,7 @@ function RootComponent() {
       <LanguageProvider>
         {!isAdmin && !hasOwnToggle && <GlobalLangToggle />}
         {!isAdmin && <GlobalClickTracker />}
+        {!isAdmin && <GoogleAdsLoader />}
         <Outlet />
       </LanguageProvider>
     </QueryClientProvider>
