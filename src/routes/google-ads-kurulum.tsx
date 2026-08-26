@@ -44,6 +44,13 @@ const FILES = [
   },
 ];
 
+const GTM_FILE = {
+  file: "golgetesisat-gtm-container.json",
+  title: "Google Tag Manager Container (JSON)",
+  desc: "GTM-M89R8DRZ için hazır container: Conversion Linker, Remarketing ve 4 dönüşüm etiketi (Telefon, WhatsApp, Geri Arama, Randevu) + tetikleyiciler ve dataLayer değişkenleri.",
+};
+
+
 const SERVICES = [
   ["Acil Tesisatçı / 7/24", "/acil-tesisatci", "₺500/gün"],
   ["Su Kaçağı Tespiti / Kırmadan", "/hizmet/su-kacagi-tespiti", "₺600/gün"],
