@@ -94,6 +94,8 @@ export function fireAdsConversion(eventName: string, metadata?: Record<string, u
     initGoogleAds();
 
     if (USE_GTM) {
+      const path = window.location.pathname;
+      const { service, district, blogSlug } = segmentsFor(path);
       window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({
         event: eventName,
@@ -101,7 +103,11 @@ export function fireAdsConversion(eventName: string, metadata?: Record<string, u
         conv_currency: conv.currency,
         transaction_id: `${eventName}-${now}`,
         event_label: (metadata?.["event_label"] as string) ?? "",
-        page_path: window.location.pathname,
+        page_path: path,
+        content_group: contentGroupFor(path),
+        service,
+        district,
+        blog_slug: blogSlug,
       });
       return;
     }
