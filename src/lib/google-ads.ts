@@ -27,6 +27,11 @@ export const GOOGLE_ADS_CONVERSIONS: Record<
   booking_submit: { label: "dLluCISB4eYcEJrgzbVE", value: 400, currency: "TRY" },
 };
 
+/** Google Tag Manager container — tüm dönüşümler GTM üzerinden yönetilir. */
+export const GTM_CONTAINER_ID = "GTM-M89R8DRZ";
+/** true iken dönüşümler gtag yerine GTM dataLayer'a gönderilir (çift sayım olmaz). */
+export const USE_GTM = true;
+
 const PLACEHOLDER = /X{6,}|_LABEL$/;
 
 export function isAdsConfigured() {
@@ -40,11 +45,23 @@ declare global {
   }
 }
 
-/** Loads gtag.js once, on the client. Safe to call multiple times. */
+/** Loads GTM (or gtag.js fallback) once, on the client. Safe to call multiple times. */
 export function initGoogleAds() {
   if (typeof window === "undefined" || !isAdsConfigured()) return;
-  if (window.gtag) return;
 
+  if (USE_GTM) {
+    if (document.getElementById("gtm-script")) return;
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ "gtm.start": Date.now(), event: "gtm.js" });
+    const s = document.createElement("script");
+    s.id = "gtm-script";
+    s.async = true;
+    s.src = `https://www.googletagmanager.com/gtm.js?id=${GTM_CONTAINER_ID}`;
+    document.head.appendChild(s);
+    return;
+  }
+
+  if (window.gtag) return;
   window.dataLayer = window.dataLayer || [];
   window.gtag = function gtag() {
     // eslint-disable-next-line prefer-rest-params
@@ -75,6 +92,20 @@ export function fireAdsConversion(eventName: string, metadata?: Record<string, u
     lastSent[eventName] = now;
 
     initGoogleAds();
+
+    if (USE_GTM) {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: eventName,
+        conv_value: conv.value,
+        conv_currency: conv.currency,
+        transaction_id: `${eventName}-${now}`,
+        event_label: (metadata?.["event_label"] as string) ?? "",
+        page_path: window.location.pathname,
+      });
+      return;
+    }
+
     window.gtag?.("event", "conversion", {
       send_to: `${GOOGLE_ADS_CONVERSION_ID}/${conv.label}`,
       value: conv.value,
@@ -86,3 +117,4 @@ export function fireAdsConversion(eventName: string, metadata?: Record<string, u
     /* tracking must never break the UI */
   }
 }
+
