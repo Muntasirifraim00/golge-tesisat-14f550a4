@@ -897,13 +897,13 @@ const RAW_BLOG_POSTS: BlogPost[] = [
     volume: 880,
     kdi: 15,
     category: "Kombi & Isıtma",
-    readMin: 13,
+    readMin: 17,
     published: "2026-06-27",
-    updated: "2026-06-27",
+    updated: "2026-08-26",
     excerpt:
-      "Kombi montajı nasıl yapılır, kombinin alt bağlantı setinde hangi boru nereye gider ve montaj sırasında nelere dikkat edilir? Gaz, soğuk su, kullanım sıcak su, kalorifer gidiş-dönüş, yoğuşma tahliyesi ve baca bağlantılarının doğru kurulumu; ürün satıcısının değil, sahada kombi montajı yapan yetkili bir ekibin tarafsız gözüyle, adım adım.",
+      "Kombi montajı nasıl yapılır, alt bağlantı setinde hangi boru nereye gider, yoğuşma tahliyesi ile emniyet ventili hortumu neden karıştırılır ve montaj fiyatını ne belirler? Gaz, su, kalorifer, yoğuşma, emniyet ventili, elektrik ve baca bağlantılarının doğru kurulumu; ürün satıcısının değil, sahada kombi montajı yapan yetkili bir ekibin tarafsız gözüyle, adım adım, tablo ve grafiklerle.",
     metaDescription:
-      "Kombi montajı nasıl yapılır? Alt bağlantı seti, gaz-su-kalorifer-yoğuşma-baca bağlantı şeması ve dikkat edilecekler. İstanbul yetkili kombi montaj servisi: 0533 896 05 03.",
+      "Kombi montajı nasıl yapılır? Alt bağlantı seti, bağlantı şeması, emniyet ventili farkı, sık hatalar ve 2026 fiyat aralığı. İstanbul yetkili kombi montaj servisi: 0533 896 05 03.",
     serviceSlug: "kombi-montaji",
     featuredImage: {
       src: kombiMontajiFeatured,
@@ -912,14 +912,14 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         "Kombi montajı; doğru duvar konumu, terazide askı ve gaz-su-kalorifer-baca bağlantılarının kurallara uygun yapılmasıyla başlar.",
     },
     intro:
-      "Kombi montajı, ilk bakışta 'duvara as, boruları bağla' gibi görünse de aslında gaz, su, ısıtma ve atık gaz hatlarının bir arada doğru kurulmasını gerektiren, kısmen yasal zorunluluğa tabi bir iştir. İnternette 'kombi montajı' aratıldığında çıkan sonuçların neredeyse tamamı ya kombi markalarının tanıtım sayfaları ya da bağlantı seti satan ürün listeleridir; montajın gerçekte hangi adımlardan oluştuğunu, alt bağlantı setinde hangi borunun nereye gittiğini ve nelerin yetkili kişi tarafından yapılması gerektiğini tarafsız anlatan kaynak azdır. Bu rehberde kombi montajının nasıl yapıldığını, bağlantı noktalarını (gaz girişi, soğuk su girişi, kullanım sıcak su çıkışı, kalorifer gidiş-dönüş, yoğuşma tahliyesi ve baca), montaj öncesi hazırlıkları ve sık yapılan hataları; ürün satmaya değil güvenli ve sağlıklı bir kuruluma odaklanan, sahada kombi montajı yapan yetkili bir ekibin gözüyle açıklıyoruz. Önemli not: doğal gaz bağlantısı, yetki belgesi olan kişilerce yapılması gereken bir işlemdir; bu yazı bilgilendirme amaçlıdır, gazlı işlemleri kendiniz yapmayın.",
+      "Kombi montajı, ilk bakışta 'duvara as, boruları bağla' gibi görünse de aslında gaz, su, ısıtma, atık gaz ve elektrik hatlarının bir arada doğru kurulmasını gerektiren, kısmen yasal zorunluluğa tabi bir iştir. İnternette 'kombi montajı' aratıldığında çıkan sonuçların neredeyse tamamı ya kombi markalarının tanıtım sayfaları ya da bağlantı seti satan ürün listeleridir; montajın gerçekte hangi adımlardan oluştuğunu, alt bağlantı setinde hangi borunun nereye gittiğini, yoğuşma tahliyesi ile emniyet ventili hortumunun neden karıştırıldığını ve nelerin yetkili kişi tarafından yapılması gerektiğini tarafsız anlatan kaynak azdır. Bu rehberde kombi montajının nasıl yapıldığını, tüm bağlantı noktalarını, montaj öncesi hazırlıkları, sık yapılan hataları ve 2026 fiyat aralığını; ürün satmaya değil güvenli ve sağlıklı bir kuruluma odaklanan, sahada kombi montajı yapan yetkili bir ekibin gözüyle, adım adım, tablo ve grafiklerle açıklıyoruz. Önemli not: doğal gaz bağlantısı, yetki belgesi olan kişilerce yapılması gereken bir işlemdir; bu yazı bilgilendirme amaçlıdır, gazlı işlemleri kendiniz yapmayın.",
     sections: [
       {
         heading: "Kombi Montajı Nedir, Hangi Bağlantılardan Oluşur?",
         paragraphs: [
           "Montajdan sonra verimi korumak için kış öncesi kombi bakımı rehberimizi uygulayın; Bosch cihazlarda hata sonrası bosch kombi resetleme adımlarını da hazırladık.",
           "Kombi montajı; duvara sabitlenen kombi cihazının gaz, su, ısıtma (kalorifer) ve atık gaz (baca) hatlarına kurallara uygun şekilde bağlanması işlemidir. Modern yoğuşmalı kombilerde bu bağlantıların çoğu cihazın altındaki 'alt bağlantı seti' üzerinden yapılır; bu set, her hat için ayrı bir rakor ve genellikle ara kesme vanaları içerir. Doğru kurulan bir montajda her hat hem sızdırmaz hem de ileride bakım/değişim için kolay sökülebilir olur.",
-          "Bir kombide tipik olarak altı bağlantı noktası bulunur: gaz girişi, soğuk su (şebeke) girişi, kullanım sıcak su çıkışı, kalorifer (ısıtma) gidiş, kalorifer dönüş ve yoğuşma suyu tahliyesi. Bunlara ek olarak cihazın üstünden çıkan baca (hermetik veya bacalı) bağlantısı vardır. Montajın kalitesi, bu yedi hattın doğru sıralama, doğru çap ve doğru sızdırmazlıkla bağlanmasına bağlıdır; bir tanesinin yanlış olması bile su kaçağı, verim düşüşü veya güvenlik riski doğurabilir.",
+          "Bir kombide tipik olarak sekiz bağlantı noktası bulunur: gaz girişi, soğuk su (şebeke) girişi, kullanım sıcak su çıkışı, kalorifer (ısıtma) gidiş, kalorifer dönüş, yoğuşma suyu tahliyesi ve — çoğu rehberde atlanan ama en az diğerleri kadar kritik olan — emniyet ventili taşma hortumu. Bunlara ek olarak cihazın üstünden çıkan baca (hermetik veya bacalı) bağlantısı ve yan tarafındaki elektrik bağlantısı vardır. Montajın kalitesi, bu sekiz hattın doğru sıralama, doğru çap ve doğru sızdırmazlıkla bağlanmasına bağlıdır; bir tanesinin yanlış olması bile su kaçağı, verim düşüşü veya güvenlik riski doğurabilir.",
         ],
         bullets: [
           "Gaz girişi — yalnızca yetkili kişi tarafından bağlanır",
@@ -927,8 +927,9 @@ const RAW_BLOG_POSTS: BlogPost[] = [
           "Kullanım sıcak su çıkışı (musluk/duş hattı)",
           "Kalorifer gidiş — peteklere giden sıcak su",
           "Kalorifer dönüş — peteklerden cihaza dönen su",
-          "Yoğuşma (kondens) suyu tahliyesi — gidere",
-          "Baca / hermetik atık gaz çıkışı — cihazın üstünden",
+          "Yoğuşma (kondens) suyu tahliyesi — sürekli akan asidik su, gidere",
+          "Emniyet ventili taşma hortumu — yalnızca basınç yükselince akar, ayrı bir hat",
+          "Baca (hermetik/bacalı) ve elektrik bağlantısı — cihazın üstü ve yan tarafı",
         ],
         image: {
           src: kombiMontajiBaglantiDiagram,
@@ -936,12 +937,28 @@ const RAW_BLOG_POSTS: BlogPost[] = [
           caption:
             "Kombi alt bağlantı seti: soldan sağa gaz, soğuk su, kullanım sıcak su, kalorifer gidiş ve dönüş; ayrıca yoğuşma tahliyesi ve üstte baca bağlantısı.",
         },
+        keyTakeaways: {
+          title: "Bu Yazıda Öne Çıkanlar",
+          points: [
+            "Kombide 8 bağlantı noktası vardır — çoğu kaynak yalnızca 6-7'sinden bahseder",
+            "Yoğuşma tahliyesi ile emniyet ventili hortumu farklı iki hattır, karıştırılmamalı",
+            "Gaz bağlantısı ve devreye alma yalnızca yetkili kişi tarafından yapılabilir",
+            "Terazisiz askı ve eksik ara vana, en sık rastlanan iki montaj hatasıdır",
+            "2026'da standart montaj işçiliği İstanbul genelinde ortalama 4.000-6.500 ₺ aralığındadır",
+          ],
+        },
+        callout: {
+          variant: "danger",
+          title: "Gaz bağlantısı yasal bir zorunluluktur",
+          body: "Doğal gaz hattının kombiye bağlanması ve ilk açılışı, yalnızca ilgili gaz dağıtım şirketinden yetki belgesi almış kişilerce, sızdırmazlık (kaçak) testi yapılarak gerçekleştirilebilir. Bu işlemi kendiniz yapmak hem yasal değildir hem de gaz kaçağı, yangın ve zehirlenme riski taşır; çoğu markada ayrıca garantiyi de geçersiz kılar.",
+        },
       },
       {
-        heading: "Montaj Öncesi: Yer Seçimi ve Hazırlık",
+        heading: "Montaj Öncesi: Yer Seçimi, Hazırlık ve Elektrik Bağlantısı",
         paragraphs: [
           "Kombinin nereye monte edileceği, hem verim hem güvenlik açısından kritiktir. Cihaz; taşıyıcı, sağlam bir duvara, servis ve bakım için etrafında yeterli boşluk kalacak şekilde asılmalıdır. Yatak odası ve banyo gibi mekânlara kombi montajı, ilgili gaz dağıtım kurallarınca kısıtlıdır; genellikle mutfak, balkon (kapalı/kombi dolabı) veya havalandırması uygun bir hacim tercih edilir. Baca çıkışının dışarıya uygun mesafe ve yönde verilebilmesi de yer seçimini belirler.",
-          "Montaj öncesinde duvar işaretlenir, askı askısı (montaj sacı) su terazisiyle tam yatay olacak şekilde sabitlenir; cihazın eğik asılması, su tahliyesi ve hava atımı sorunlarına yol açabilir. Mevcut tesisatta kalorifer ve su hatlarının çapları, gaz hattının uygunluğu ve giderin yoğuşma suyunu alabilecek konumda olup olmadığı kontrol edilir. Eski bir kombinin yerine montaj yapılıyorsa, hatların temizlenmesi (özellikle kalorifer tesisatının çamur/kireçten arındırılması) yeni cihazın ömrü için önemlidir.",
+          "Montaj öncesinde duvar işaretlenir, askı sacı su terazisiyle tam yatay olacak şekilde sabitlenir; cihazın eğik asılması, su tahliyesi ve hava atımı sorunlarına yol açabilir. Mevcut tesisatta kalorifer ve su hatlarının çapları, gaz hattının uygunluğu ve giderin yoğuşma suyunu alabilecek konumda olup olmadığı kontrol edilir. Eski bir kombinin yerine montaj yapılıyorsa, hatların temizlenmesi (özellikle kalorifer tesisatının çamur/kireçten arındırılması) yeni cihazın ömrü için önemlidir.",
+          "Sık atlanan bir detay: kombinin elektrik bağlantı noktası, cihazın altında değil yan tarafında (genelde sağ altında ayrı bir kablo çıkışıyla) bulunur ve topraklı bir prize bağlanmalıdır. Fişin cihazın hemen altına, su/yoğuşma hatlarının yakınına alınması nem kaynaklı kısa devre riskini artırır; uzatma kablosu ve çoklu priz kullanılmamalı, priz kombiye kolay erişilebilir ama su sıçramayacak bir noktada olmalıdır.",
         ],
         bullets: [
           "Taşıyıcı, sağlam duvar; çevresinde servis boşluğu bırakın",
@@ -949,23 +966,42 @@ const RAW_BLOG_POSTS: BlogPost[] = [
           "Askı sacını su terazisiyle tam yatay sabitleyin",
           "Su ve kalorifer hattı çaplarını, gider konumunu kontrol edin",
           "Eski cihaz değişiminde tesisatı temizletin (çamur/kireç)",
+          "Elektrik fişini cihazın yan tarafına, topraklı ve kuru bir prize alın",
         ],
+        materials: {
+          title: "Montaj İçin Gerekli Malzeme ve Ekipman Listesi",
+          items: [
+            { name: "Askı sacı + uygun dübel", note: "duvar tipine göre (beton/tuğla/gazbeton)" },
+            { name: "Su terazisi", note: "askının tam yatay olması için" },
+            { name: "Ayarlı İngiliz anahtarı + boru anahtarı", note: "rakor sıkma" },
+            { name: "Teflon bant / conta seti", note: "sızdırmazlık" },
+            { name: "Ara kesme vanası (4 adet)", note: "her su/kalorifer hattına bir tane" },
+            { name: "Pislik tutucu filtre", note: "soğuk su girişine" },
+            { name: "Manyetik filtre", note: "kalorifer dönüş hattına, eşanjörü korur" },
+            { name: "Yoğuşma tahliye hortumu + sifon", note: "asidik suyu gidere taşır" },
+            { name: "Kaçak dedektör spreyi/köpüğü", note: "gaz sızdırmazlık testi için" },
+            { name: "Darbeli matkap + uçlar", note: "askı ve baca deliği" },
+          ],
+        },
       },
       {
-        heading: "Bağlantı Sırası: Hangi Boru Nereye Gider?",
+        heading: "Montaj Adımları: Bağlantılar Hangi Sırayla Yapılır?",
         paragraphs: [
           "Alt bağlantı setinde her hattın kendine ait bir konumu vardır ve kombi markaları genelde aynı sıralamayı kullanır: dışta gaz, ortada su (soğuk giriş + sıcak çıkış) ve kalorifer gidiş-dönüş hatları yer alır. Su ve kalorifer bağlantılarında her hatta bir ara kesme vanası takılması, ileride cihazı tüm tesisatın suyunu boşaltmadan sökebilmeyi sağlar. Soğuk su girişine bir filtre (pislik tutucu), kalorifer dönüşüne ise tortu/çamur tutmak için manyetik filtre takılması, yoğuşmalı kombilerde eşanjör ömrünü uzatır.",
-          "Yoğuşmalı kombiler çalışırken asidik karakterde 'yoğuşma suyu' üretir; bu su, ayrı bir tahliye hortumuyla doğrudan gidere verilmelidir. Tahliyenin sifonlu ve uygun eğimde olması, hem koku geri tepmesini önler hem de donma/tıkanma riskini azaltır. Baca bağlantısı ise hermetik kombilerde eş eksenli (iç içe) boruyla dışarıya verilir; baca uzunluğu, dirsek sayısı ve bina cephesine mesafe üretici sınırları ve yönetmelik içinde kalmalıdır. Yanlış baca, en ciddi güvenlik riskidir.",
+          "Yoğuşmalı kombiler çalışırken asidik karakterde 'yoğuşma suyu' üretir; bu su, ayrı bir tahliye hortumuyla doğrudan gidere verilmelidir. Tahliyenin sifonlu ve uygun eğimde (iniş-çıkış yapmadan, sürekli aşağı doğru) olması hem koku geri tepmesini önler hem de donma/tıkanma riskini azaltır; hatta havalandırma sağlayan küçük bir T-parçası eklenmesi, gider tıkandığında suyun cihaza dolmadan dışarı taşmasına yardımcı olur. Baca bağlantısı ise hermetik kombilerde eş eksenli (iç içe) boruyla dışarıya verilir; baca uzunluğu, dirsek sayısı ve bina cephesine mesafe üretici sınırları ve yönetmelik içinde kalmalıdır. Yanlış baca, en ciddi güvenlik riskidir.",
         ],
         bullets: [
-          "Her su/kalorifer hattına ara kesme vanası takın",
-          "Soğuk su girişine filtre, kalorifer dönüşüne manyetik filtre",
-          "Yoğuşma suyunu sifonlu, eğimli bir hortumla gidere verin",
-          "Baca uzunluğu/dirsek sayısı üretici ve yönetmelik sınırında olmalı",
-          "Tüm rakorları uygun sızdırmazlık (conta/teflon) ile sıkın",
+          "Duvarı işaretleyin, askı sacını su terazisiyle tam yatay sabitleyin",
+          "Gaz girişini yalnızca yetkili kişi bağlasın, sızdırmazlık testi yapılsın",
+          "Soğuk su girişine pislik tutucu filtre ve ara kesme vanası takın",
+          "Kalorifer dönüşüne manyetik filtre, gidiş ve dönüşe ara vana ekleyin",
+          "Kullanım sıcak su çıkışını doğru çapta, ölü hat bırakmadan bağlayın",
+          "Yoğuşma hortumunu sifonlu ve eğimli döşeyin, T-parçasıyla havalandırın",
+          "Emniyet ventili taşma hortumunu görünür, açık ve ayrı bir hat olarak gidere yönlendirin",
+          "Baca/hermetik bağlantısını üretici ve yönetmelik sınırları içinde kurun",
         ],
         table: {
-          caption: "Kombi bağlantı noktaları ve işlevleri",
+          caption: "Kombinin tüm bağlantı noktaları — tek bakışta",
           headers: ["Bağlantı", "Ne taşır?", "Dikkat edilecek"],
           rows: [
             ["Gaz girişi", "Doğal gaz / LPG", "Yalnızca yetkili kişi bağlar; dedektör/sızdırmazlık testi"],
@@ -973,9 +1009,34 @@ const RAW_BLOG_POSTS: BlogPost[] = [
             ["Kullanım sıcak su", "Musluk/duş sıcak suyu", "Doğru çap; ölü hat olmamalı"],
             ["Kalorifer gidiş", "Peteklere sıcak su", "Ara vana; hava atımı için uygun"],
             ["Kalorifer dönüş", "Petekten dönen su", "Manyetik/çamur filtresi önerilir"],
-            ["Yoğuşma tahliyesi", "Asidik kondens suyu", "Sifonlu, eğimli, gidere bağlı"],
+            ["Yoğuşma tahliyesi", "Sürekli akan asidik kondens suyu", "Sifonlu, eğimli, T-parçalı, gidere bağlı"],
+            ["Emniyet ventili hortumu", "Yalnızca basınç yükselince taşan su", "Ayrı hat; asla tıkanmaz, açık bırakılır"],
             ["Baca / hermetik", "Atık gaz", "Yönetmelik + üretici sınırı; en kritik güvenlik"],
+            ["Elektrik bağlantısı", "220V güç", "Yan tarafta, topraklı priz; suya yakın olmamalı"],
           ],
+        },
+      },
+      {
+        heading: "Yoğuşma Tahliyesi ile Emniyet Ventili Hortumu: Farkı Nedir?",
+        paragraphs: [
+          "Kombi montajında en sık karıştırılan iki nokta, cihazın altından çıkan yoğuşma tahliye hortumu ile emniyet ventili taşma hortumudur. İkisi de görünüşte benzer birer plastik hortum olduğu ve genelde aynı gidere yönlendirildiği için tek bir hat sanılır; oysa görevleri tamamen farklıdır ve bu farkı bilmemek, montajda veya sonradan yapılan bir 'tamirde' ciddi güvenlik hatasına yol açabilir.",
+          "Yoğuşma hortumu, yoğuşmalı kombinin normal çalışması sırasında sürekli üretilen asidik kondens suyunu tahliye eder — cihaz çalıştığı sürece az miktarda su akması normaldir. Emniyet ventili hortumu ise sistemin bir parçası değil, bir güvenlik cihazının çıkışıdır: tesisat basıncı, genleşme tankı arızası veya aşırı ısınma gibi bir nedenle güvenli sınırın (genelde ~3 bar) üzerine çıktığında otomatik olarak açılır ve fazla suyu/basıncı dışarı atarak kombinin patlamasını önler. Normal şartlarda bu hortumdan su akmaz; aktıysa bu bir arıza belirtisidir, hortumun kendisinde bir sorun değildir.",
+        ],
+        table: {
+          caption: "Yoğuşma tahliyesi ile emniyet ventili hortumu karşılaştırması",
+          headers: ["Özellik", "Yoğuşma Tahliyesi", "Emniyet Ventili Hortumu"],
+          rows: [
+            ["Ne zaman akar?", "Cihaz çalışırken sürekli, az miktarda", "Yalnızca basınç aşırı yükselirse"],
+            ["Suyun özelliği", "Asidik kondens suyu", "Normal tesisat suyu"],
+            ["Akması normal mi?", "Evet, beklenen bir durumdur", "Hayır — akıyorsa arıza var demektir"],
+            ["Tıkanırsa ne olur?", "Kombi arıza verir, taşma riski", "Basınç tahliye edilemez, patlama riski"],
+            ["Doğru müdahale", "Sifon + eğim + T-parça ile kurulum", "Asla kapatmayın; nedenini bulup giderin"],
+          ],
+        },
+        callout: {
+          variant: "danger",
+          title: "Emniyet ventili hortumunu asla tıkamayın",
+          body: "Su damlatıyor diye emniyet ventili hortumunu kör tapayla kapatmak, poşetle bağlamak veya bantlamak, karşılaştığımız en tehlikeli 'kendin yap' hatalarından biridir. Bu hortum tıkanırsa, tesisat basıncı yükseldiğinde fazla basıncı tahliye edecek hiçbir yol kalmaz; sonuç ciddi bir patlama riskidir. Hortumdan su geliyorsa sorun hortum değil, genelde tesisat basıncı veya genleşme tankıdır — nedenini bulup gidermek gerekir, hortumu kapatmak değil.",
         },
       },
       {
@@ -991,14 +1052,89 @@ const RAW_BLOG_POSTS: BlogPost[] = [
           "Gaz açılışı + kaçak testi yalnızca yetkili kişi tarafından",
           "İlk çalıştırma/garanti için yetkili servis devreye alır",
         ],
+        checklist: {
+          title: "Devreye Almadan Önce Son Kontrol Listesi",
+          items: [
+            "Askı terazide mi, cihaz sabit mi asılı?",
+            "Tüm rakorlar sıkıldı mı, sızdırmazlık malzemesi kullanıldı mı?",
+            "Her su/kalorifer hattında ara kesme vanası var mı?",
+            "Yoğuşma hortumu sifonlu, eğimli ve gidere bağlı mı?",
+            "Emniyet ventili hortumu açık, tıkalı olmayan bir uçla gidere yönlendirilmiş mi?",
+            "Elektrik fişi yan tarafta, topraklı ve kuru bir prizde mi?",
+            "Gaz kaçak testi yetkili kişi tarafından yapıldı mı?",
+          ],
+        },
         chart: {
           title: "Kombi montajında tipik adım süreleri (yaklaşık)",
           unit: " dk",
           bars: [
             { label: "Yer seçimi + askı montajı", value: 30, note: "hazırlık" },
             { label: "Su/kalorifer bağlantıları", value: 60, note: "tesisat" },
-            { label: "Baca + yoğuşma hattı", value: 30, note: "tahliye" },
+            { label: "Baca + yoğuşma + emniyet hattı", value: 35, note: "tahliye" },
             { label: "Devreye alma + test", value: 45, note: "yetkili" },
+          ],
+        },
+      },
+      {
+        heading: "Sık Yapılan Montaj Hataları ve Doğrusu",
+        paragraphs: [
+          "Sahada en sık karşılaştığımız montaj hataları, çoğu zaman görünürde küçük ama sonuçları büyük olan detaylardır. Aşağıdaki tablo, en yaygın sekiz hatayı, doğurduğu sonucu ve doğru uygulamayı bir arada gösteriyor.",
+        ],
+        table: {
+          caption: "En sık 8 montaj hatası ve doğrusu",
+          headers: ["Hata", "Sonucu", "Doğrusu"],
+          rows: [
+            ["Yatak odası/banyoya montaj", "Yönetmelik ihlali, güvenlik riski", "Mutfak, balkon veya uygun havalandırmalı hacim"],
+            ["Askı terazisiz sabitlenmiş", "Hava/su tahliye sorunu, gürültü", "Su terazisiyle tam yatay montaj"],
+            ["Ara kesme vanası atlanmış", "Bakımda tüm tesisatın suyu boşalır", "Her su/kalorifer hattına ayrı vana"],
+            ["Manyetik filtre takılmamış", "Eşanjörde tortu birikimi, ömür kısalır", "Kalorifer dönüşüne manyetik filtre"],
+            ["Yoğuşma hattı eğimsiz/sifonsuz", "Koku geri tepmesi, donma, taşma", "Sifonlu, sürekli aşağı eğimli hat"],
+            ["Emniyet ventili hortumu kapatılmış", "Basınç tahliye edilemez, patlama riski", "Hortum daima açık ve görünür bırakılır"],
+            ["Elektrik fişi cihaz altında/nemde", "Kısa devre, elektrik çarpması riski", "Yan tarafta, topraklı, kuru bir priz"],
+            ["Gaz bağlantısı kendi yapılmış", "Yasal değil, kaçak/zehirlenme riski", "Yalnızca yetkili kişi, kaçak testiyle"],
+          ],
+        },
+      },
+      {
+        heading: "Kombi Montaj Fiyatını Ne Belirler? 2026 Fiyat Aralığı",
+        paragraphs: [
+          "Kombi montaj fiyatı; standart işçilik ücretinin yanında binanın mevcut tesisat durumuna, baca ihtiyacına, eski cihazın sökülüp sökülmeyeceğine ve kullanılan malzemenin kalitesine göre değişir. Aşağıdaki tablo 2026 İstanbul geneli için yaklaşık piyasa aralıklarını gösteriyor; kesin fiyat, cihazın markası ve mevcut tesisatın durumu görülmeden söylenemez.",
+        ],
+        bullets: [
+          "Mevcut tesisatın uygunluğu — hazır alt bağlantı seti varsa işçilik daha kısa sürer",
+          "Baca ihtiyacı — yeni baca deliği veya uzun baca hattı ek maliyet getirir",
+          "Eski cihaz sökümü — özellikle kalorifer hattı çamurluysa temizlik gerekir",
+          "Kat/bina tipi — merdivensiz üst kat veya dış cephe erişimi süreyi etkiler",
+        ],
+        priceTable: {
+          caption:
+            "2026 İstanbul geneli yaklaşık piyasa aralıkları; markaya, binaya ve mevcut tesisata göre değişir. Gölge Tesisat'ta kesin fiyat, yerinde ücretsiz keşifle belirlenir — sürpriz ek ücret yoktur.",
+          rows: [
+            { service: "Standart montaj (askı + bağlantılar + devreye alma)", price: "4.000–6.500 ₺", note: "mevcut tesisat uygunsa, işçilik" },
+            { service: "Alt bağlantı seti (malzeme)", price: "800–1.800 ₺", note: "marka/kaliteye göre" },
+            { service: "Baca ilavesi / uzatması", price: "500–2.000 ₺", note: "mesafe ve dirsek sayısına göre" },
+            { service: "Eski kombi sökümü + tesisat temizliği", price: "300–1.000 ₺", note: "hat çamurlu/kireçliyse artabilir" },
+          ],
+        },
+      },
+      {
+        heading: "Kendiniz mi Yapmalısınız, Yetkili Ekibe mi Yaptırmalısınız?",
+        paragraphs: [
+          "Alt bağlantı setindeki bazı su vidalarını sıkmak veya montaj öncesi ölçüm/hazırlık yapmak el becerisi olan biri için mümkün olsa da, işin bütünü — özellikle gaz bağlantısı, kaçak testi ve devreye alma — teknik bilgi, özel ekipman ve yasal yetki gerektirir. Aşağıda kendiniz yapmanın gerçekçi riskleri ile yetkili bir ekibe yaptırmanın somut avantajlarını karşılaştırdık.",
+        ],
+        prosCons: {
+          title: "Yetkili Ekibe Yaptırmanın Artıları ve Kendi Başınıza Yapmanın Riskleri",
+          pros: [
+            "Gaz kaçak testi ve yetki belgesiyle yasal güvence",
+            "Marka garantisi, ilk çalıştırmanın yetkili serviste yapılmasına bağlıdır",
+            "Doğru malzeme (filtre, manyetik filtre, vana) seçimi ve montajı",
+            "Devreye alma dahil 2-3 saatte tamamlanan, test edilmiş bir kurulum",
+          ],
+          cons: [
+            "Gaz bağlantısını kendiniz yapmak yasal değildir, ceza ve iptal riski taşır",
+            "Hatalı montaj su/gaz kaçağına, verim düşüşüne veya yangına yol açabilir",
+            "Garanti, yetkisiz montajda büyük olasılıkla geçersiz kalır",
+            "Emniyet ventili/yoğuşma hattı karışırsa güvenlik riski doğar",
           ],
         },
       },
@@ -1010,7 +1146,19 @@ const RAW_BLOG_POSTS: BlogPost[] = [
       },
       {
         q: "Kombinin alt bağlantı setinde hangi boru nereye gider?",
-        a: "Tipik sıralama; dışta gaz girişi, ortada soğuk su girişi ve kullanım sıcak su çıkışı, yanında kalorifer gidiş ve dönüş hatlarıdır. Ayrıca cihazın altından yoğuşma suyu tahliyesi, üstünden ise baca (hermetik) çıkışı bulunur. Her su/kalorifer hattına ara kesme vanası takılması, ileride bakım ve değişimi kolaylaştırır.",
+        a: "Tipik sıralama; dışta gaz girişi, ortada soğuk su girişi ve kullanım sıcak su çıkışı, yanında kalorifer gidiş ve dönüş hatlarıdır. Ayrıca cihazın altından yoğuşma suyu tahliyesi ve emniyet ventili taşma hortumu, üstünden ise baca (hermetik) çıkışı bulunur. Her su/kalorifer hattına ara kesme vanası takılması, ileride bakım ve değişimi kolaylaştırır.",
+      },
+      {
+        q: "Yoğuşma tahliyesi ile emniyet ventili hortumu aynı şey mi?",
+        a: "Hayır, ikisi farklı hatlardır. Yoğuşma hortumu, kombi çalışırken sürekli üretilen asidik kondens suyunu tahliye eder ve az miktarda su akması normaldir. Emniyet ventili hortumu ise yalnızca tesisat basıncı güvenli sınırın üzerine çıktığında açılan bir güvenlik cihazının çıkışıdır; normal şartlarda akmaz. Akıyorsa hortumda değil, tesisat basıncında veya genleşme tankında bir sorun vardır.",
+      },
+      {
+        q: "Emniyet ventili hortumundan su damlıyor, tıkayabilir miyim?",
+        a: "Kesinlikle hayır. Emniyet ventili hortumunu kör tapayla kapatmak, poşetle bağlamak veya bantlamak çok tehlikelidir; hortum tıkanırsa tesisat basıncı yükseldiğinde fazlalığı tahliye edecek yol kalmaz ve patlama riski doğar. Damlama genelde tesisat basıncının yüksek olmasından veya genleşme tankı arızasından kaynaklanır; nedenini yetkili bir ekibe buldurup gidermek gerekir.",
+      },
+      {
+        q: "Kombinin elektrik fişi nereye takılmalı?",
+        a: "Kombinin elektrik bağlantısı cihazın altına değil, genelde sağ yan tarafındaki ayrı bir kablo çıkışına gelir ve topraklı bir prize takılmalıdır. Fişin su/yoğuşma hatlarına yakın, nemli bir noktada olması kısa devre riski taşır; uzatma kablosu veya çoklu priz kullanılmamalıdır.",
       },
       {
         q: "Kombi nereye monte edilmeli?",
@@ -1018,17 +1166,33 @@ const RAW_BLOG_POSTS: BlogPost[] = [
       },
       {
         q: "Yoğuşma (kondens) suyu nereye bağlanır?",
-        a: "Yoğuşmalı kombiler çalışırken asidik karakterde yoğuşma suyu üretir; bu su ayrı bir tahliye hortumuyla doğrudan gidere verilir. Hattın sifonlu ve uygun eğimde olması, koku geri tepmesini ve tıkanma/donma riskini önler. Yoğuşma gideri tıkanırsa cihaz arıza verebilir; bu yüzden tahliyenin doğru kurulması önemlidir.",
+        a: "Yoğuşmalı kombiler çalışırken asidik karakterde yoğuşma suyu üretir; bu su ayrı bir tahliye hortumuyla doğrudan gidere verilir. Hattın sifonlu, sürekli aşağı eğimli ve mümkünse havalandırma T-parçalı olması, koku geri tepmesini ve tıkanma/donma riskini önler. Yoğuşma gideri tıkanırsa cihaz arıza verebilir; bu yüzden tahliyenin doğru kurulması önemlidir.",
       },
       {
         q: "Kombi montajı ne kadar sürer?",
-        a: "Standart bir daire montajı, mevcut tesisat uygunsa yaklaşık 2-3 saatte tamamlanır: yer seçimi ve askı montajı, su/kalorifer bağlantıları, baca ve yoğuşma hattı, ardından devreye alma ve testler. Eski cihaz değişimi, tesisat temizliği veya baca düzenlemesi gerekiyorsa süre uzayabilir.",
+        a: "Standart bir daire montajı, mevcut tesisat uygunsa yaklaşık 2-3 saatte tamamlanır: yer seçimi ve askı montajı, su/kalorifer bağlantıları, baca ve yoğuşma/emniyet hattı, ardından devreye alma ve testler. Eski cihaz değişimi, tesisat temizliği veya baca düzenlemesi gerekiyorsa süre uzayabilir.",
+      },
+      {
+        q: "Kombi montaj fiyatı 2026'da ne kadar?",
+        a: "İstanbul genelinde standart montaj işçiliği (askı + bağlantılar + devreye alma) 2026'da yaklaşık 4.000-6.500 ₺ aralığındadır. Baca ilavesi, eski cihaz sökümü veya tesisat temizliği gerekiyorsa fiyat artar. Kesin fiyat, mevcut tesisatın durumu ve cihazın markası görülmeden söylenemez; bu yüzden ücretsiz yerinde keşif öneriyoruz.",
+      },
+      {
+        q: "Baca ile hermetik kombi montajı arasında fark var mı?",
+        a: "Evet. Bacalı kombide yanma havası oda içinden alınır ve atık gaz geleneksel bir bacadan atılır; hermetik kombide ise hem hava girişi hem atık gaz çıkışı, dış cepheye açılan eş eksenli (iç içe) tek bir boruyla sağlanır. Günümüzde konutlarda daha güvenli ve verimli kabul edildiği için hermetik montaj tercih edilir; baca uzunluğu ve dirsek sayısı üretici sınırları içinde kalmalıdır.",
       },
       {
         q: "İstanbul'da kombi montajı için destek alabilir miyim?",
-        a: "Evet. İstanbul genelinde yeni kombi montajı, eski cihaz değişimi, alt bağlantı seti kurulumu, baca ve yoğuşma hattı düzenlemesi ile devreye alma için 0533 896 05 03 numaralı 7/24 hattımızdan destek alabilirsiniz. Gaz işlemleri yetkili ekibimizce, kaçak testi yapılarak gerçekleştirilir.",
+        a: "Evet. İstanbul genelinde yeni kombi montajı, eski cihaz değişimi, alt bağlantı seti kurulumu, baca, yoğuşma ve emniyet ventili hattı düzenlemesi ile devreye alma için 0533 896 05 03 numaralı 7/24 hattımızdan destek alabilirsiniz. Gaz işlemleri yetkili ekibimizce, kaçak testi yapılarak gerçekleştirilir.",
       },
     ],
+    manualRelated: [
+      "kombi-nedir-nasil-calisir",
+      "hermetik-kombi-nedir-bacali-fark",
+      "emniyet-ventili-nedir",
+      "kombi-kac-kw-olmali",
+      "dogalgaz-tesisati-yaptirma-abonelik",
+    ],
+    linkAliases: ["kombi bağlantı seti", "kombi tesisatı", "kombi bağlantı şeması", "kombi alt bağlantı seti", "kombi yoğuşma tahliye hortumu"],
   },
   {
     slug: "radyator-nedir-cesitleri-secim-rehberi",
@@ -19309,7 +19473,11 @@ export const INLINE_LINK_INDEX: InlinePhrase[] = (() => {
 export function howToFromPost(
   post: BlogPost,
 ): { name: string; steps: { name: string; text: string }[] } | null {
-  const isHowTo = /nas[ıi]l|ad[ıi]m|aç[ıi]l[ıi]r|çöz[üu]l[üu]r|temizlen|resetle|s[ıi]f[ıi]rla/i.test(post.keyword);
+  // Checked against title too: a post's `keyword` is often a bare noun phrase
+  // ("kombi montajı") even when the post itself is a step-by-step "nasıl
+  // yapılır" guide — the title reliably carries that intent when the keyword doesn't.
+  const howToPattern = /nas[ıi]l|ad[ıi]m|aç[ıi]l[ıi]r|çöz[üu]l[üu]r|temizlen|resetle|s[ıi]f[ıi]rla/i;
+  const isHowTo = howToPattern.test(post.keyword) || howToPattern.test(post.title);
   if (!isHowTo) return null;
   const sections = Array.isArray(post.sections) ? post.sections : [];
   // Prefer a section that explicitly lists steps ("Adımları", "Aşamaları").
