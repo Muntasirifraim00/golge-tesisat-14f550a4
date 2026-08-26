@@ -313,3 +313,95 @@
   }
 }
 
+/* =====================================================================
+   Desktop hero (dh-*) — used ONLY by <DesktopHero /> which is gated
+   behind `hidden md:block`. Never referenced by the mobile <Hero />.
+   Static styling lives outside the reduced-motion query so the design
+   holds up with animations disabled.
+   ===================================================================== */
+
+/* Grid that dissolves toward the edges instead of hard-stopping */
+.dh-grid-mask {
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 35%, #000 20%, transparent 75%);
+  -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 35%, #000 20%, transparent 75%);
+}
+
+/* Fine film grain — keeps the large flat areas from banding */
+.dh-noise {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='0.42'/%3E%3C/svg%3E");
+}
+
+/* Animated gradient border wrapper (1px conic ring).
+   The angle is animated via a registered custom property rather than by
+   rotating a pseudo-element — rotating a non-square box leaves corner gaps. */
+@property --dh-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+.dh-ring {
+  background-image: conic-gradient(
+    from var(--dh-angle, 0deg),
+    transparent 0deg,
+    color-mix(in oklab, var(--brand-red) 90%, transparent) 55deg,
+    transparent 130deg,
+    transparent 215deg,
+    color-mix(in oklab, var(--brand-gold) 80%, transparent) 290deg,
+    transparent 360deg
+  );
+}
+
+/* Gradient headline text */
+.dh-sheen {
+  background-image: linear-gradient(
+    100deg,
+    var(--brand-red) 0%,
+    oklch(0.68 0.2 40) 32%,
+    var(--brand-gold) 52%,
+    oklch(0.68 0.2 40) 72%,
+    var(--brand-red) 100%
+  );
+  background-size: 220% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes dh-aurora {
+    0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+    33%      { transform: translate3d(5%, -4%, 0) scale(1.12); }
+    66%      { transform: translate3d(-4%, 5%, 0) scale(0.94); }
+  }
+  @keyframes dh-sheen-move {
+    0%   { background-position: 0% 50%; }
+    100% { background-position: 220% 50%; }
+  }
+  @keyframes dh-angle-spin { to { --dh-angle: 360deg; } }
+  @keyframes dh-rise {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes dh-scan {
+    0%   { transform: translateY(-100%); opacity: 0; }
+    12%  { opacity: 1; }
+    88%  { opacity: 1; }
+    100% { transform: translateY(900%); opacity: 0; }
+  }
+
+  .dh-aurora-a { animation: dh-aurora 20s ease-in-out infinite; }
+  .dh-aurora-b { animation: dh-aurora 26s ease-in-out infinite reverse; }
+  .dh-aurora-c { animation: dh-aurora 32s ease-in-out infinite 2s; }
+
+  .dh-sheen { animation: dh-sheen-move 7s linear infinite; }
+
+  .dh-ring { animation: dh-angle-spin 9s linear infinite; }
+
+  .dh-rise {
+    animation: dh-rise 0.85s cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation-delay: var(--d, 0ms);
+  }
+
+  .dh-scan { animation: dh-scan 5.5s ease-in-out infinite; }
+}
+
