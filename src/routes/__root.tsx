@@ -13,6 +13,7 @@ import appCss from "../styles.css?url";
 import { LanguageProvider, GlobalLangToggle } from "@/i18n/LanguageProvider";
 import { GlobalClickTracker } from "@/lib/GlobalClickTracker";
 import { GoogleAdsLoader } from "@/components/GoogleAdsLoader";
+import { GA4Tracker } from "@/components/GA4Tracker";
 import { buildLocalBusinessSchema } from "@/data/business";
 
 function NotFoundComponent() {
@@ -204,6 +205,7 @@ function RootComponent() {
         {!isAdmin && !hasOwnToggle && <GlobalLangToggle />}
         {!isAdmin && <GlobalClickTracker />}
         {!isAdmin && <GoogleAdsLoader />}
+        {!isAdmin && <GA4Tracker />}
         <Outlet />
       </LanguageProvider>
     </QueryClientProvider>
