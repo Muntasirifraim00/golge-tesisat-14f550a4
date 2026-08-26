@@ -46,8 +46,8 @@ const FILES = [
 
 const GTM_FILE = {
   file: "golgetesisat-gtm-container.json",
-  title: "Google Tag Manager Container (JSON)",
-  desc: "GTM-M89R8DRZ için hazır container: Conversion Linker, Remarketing ve 4 dönüşüm etiketi (Telefon, WhatsApp, Geri Arama, Randevu) + tetikleyiciler ve dataLayer değişkenleri.",
+  title: "Google Tag Manager Container (Google Ads + GA4)",
+  desc: "GTM-M89R8DRZ için hazır container: Conversion Linker, Remarketing, 4 Google Ads dönüşümü ve GA4 (G-PYX3G19381) kurulumu — SPA page_view, scroll derinliği, outbound tıklama, 30 sn etkileşim, form_start, generate_lead, phone/whatsapp click, quote_calculated, blog_read_complete, review_submit.",
 };
 
 
