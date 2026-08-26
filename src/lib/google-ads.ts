@@ -10,6 +10,8 @@
  * Etiketler girilene kadar hiçbir şey gönderilmez; site normal çalışır.
  */
 
+import { contentGroupFor, segmentsFor } from "@/lib/ga4";
+
 export const GOOGLE_ADS_CONVERSION_ID = "AW-18366033946"; // আপনার Google Ads Conversion ID
 
 /** Site içi olay adı -> Google Ads dönüşüm etiketi + varsayılan değer (TRY) */
