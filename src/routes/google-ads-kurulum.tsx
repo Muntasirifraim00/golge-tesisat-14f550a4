@@ -98,7 +98,39 @@ function Page() {
             </a>
           ))}
         </div>
+
+        <a
+          href={`/gtm/${GTM_FILE.file}`}
+          download
+          className="mt-4 flex items-start gap-3 rounded-lg border-2 border-primary/40 bg-primary/5 p-4 hover:bg-primary/10 transition-colors"
+        >
+          <Download className="h-5 w-5 mt-0.5 shrink-0 text-primary" />
+          <span>
+            <span className="block font-semibold">{GTM_FILE.title}</span>
+            <span className="block text-sm text-muted-foreground">{GTM_FILE.desc}</span>
+            <span className="block text-xs mt-1 font-mono text-primary">
+              /gtm/{GTM_FILE.file}
+            </span>
+          </span>
+        </a>
+
+        <div className="mt-4 rounded-lg border border-border bg-card p-4 text-sm">
+          <p className="font-semibold">GTM içe aktarma adımları</p>
+          <ol className="mt-2 list-decimal space-y-1 pl-5 text-muted-foreground">
+            <li>tagmanager.google.com → <strong>Golgetesisat-1 (GTM-M89R8DRZ)</strong> konteynerini aç.</li>
+            <li>Admin → <strong>Import Container</strong> → yukarıdaki JSON dosyasını seç.</li>
+            <li>Workspace: <em>Default Workspace</em> · Import option: <strong>Merge → Overwrite conflicting tags</strong>.</li>
+            <li>Preview ile test et (telefon/WhatsApp/form tıklamaları), sonra <strong>Submit → Publish</strong>.</li>
+          </ol>
+          <p className="mt-3 text-muted-foreground">
+            Not: Sitede GTM snippet'i (GTM-M89R8DRZ) otomatik yüklenir ve dönüşümler
+            dataLayer olaylarıyla gönderilir: <code>cta_call</code>, <code>cta_whatsapp</code>,{" "}
+            <code>callback_submit</code>, <code>booking_submit</code>. Çift sayım olmaması için
+            doğrudan gtag dönüşümü kapatıldı.
+          </p>
+        </div>
       </section>
+
 
       {/* Structure */}
       <section className="mt-12">
