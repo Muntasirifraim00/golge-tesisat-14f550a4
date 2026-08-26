@@ -1,0 +1,339 @@
+{
+  "exportFormatVersion": 2,
+  "exportTime": "2026-08-26 07:00:00",
+  "containerVersion": {
+    "path": "accounts/6373435072/containers/262318542/versions/2",
+    "accountId": "6373435072",
+    "containerId": "262318542",
+    "containerVersionId": "2",
+    "name": "Golge Tesisat - Google Ads Conversions",
+    "description": "Google Ads (AW-18366033946) donusum takibi: telefon, WhatsApp, geri arama formu, randevu formu.",
+    "container": {
+      "path": "accounts/6373435072/containers/262318542",
+      "accountId": "6373435072",
+      "containerId": "262318542",
+      "name": "Golgetesisat-1",
+      "publicId": "GTM-M89R8DRZ",
+      "usageContext": ["WEB"],
+      "fingerprint": "1787726251901",
+      "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6373435072/containers/262318542/workspaces?apiLink=container",
+      "features": {
+        "supportUserPermissions": true,
+        "supportEnvironments": true,
+        "supportWorkspaces": true,
+        "supportGtagConfigs": false,
+        "supportBuiltInVariables": true,
+        "supportClients": false,
+        "supportFolders": true,
+        "supportTags": true,
+        "supportTemplates": true,
+        "supportTriggers": true,
+        "supportVariables": true,
+        "supportVersions": true,
+        "supportZones": true,
+        "supportTransformations": false
+      },
+      "tagIds": ["GTM-M89R8DRZ"]
+    },
+    "builtInVariable": [
+      { "accountId": "6373435072", "containerId": "262318542", "type": "PAGE_URL", "name": "Page URL" },
+      { "accountId": "6373435072", "containerId": "262318542", "type": "PAGE_HOSTNAME", "name": "Page Hostname" },
+      { "accountId": "6373435072", "containerId": "262318542", "type": "PAGE_PATH", "name": "Page Path" },
+      { "accountId": "6373435072", "containerId": "262318542", "type": "REFERRER", "name": "Referrer" },
+      { "accountId": "6373435072", "containerId": "262318542", "type": "EVENT", "name": "Event" },
+      { "accountId": "6373435072", "containerId": "262318542", "type": "CLICK_URL", "name": "Click URL" },
+      { "accountId": "6373435072", "containerId": "262318542", "type": "CLICK_TEXT", "name": "Click Text" },
+      { "accountId": "6373435072", "containerId": "262318542", "type": "CLICK_ELEMENT", "name": "Click Element" }
+    ],
+    "folder": [
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "folderId": "1",
+        "name": "Google Ads",
+        "fingerprint": "1787726251901"
+      }
+    ],
+    "variable": [
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "variableId": "1",
+        "name": "DLV - conv_value",
+        "type": "v",
+        "parameter": [
+          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
+          { "type": "BOOLEAN", "key": "setDefaultValue", "value": "true" },
+          { "type": "TEMPLATE", "key": "name", "value": "conv_value" },
+          { "type": "TEMPLATE", "key": "defaultValue", "value": "0" }
+        ],
+        "parentFolderId": "1",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "variableId": "2",
+        "name": "DLV - conv_currency",
+        "type": "v",
+        "parameter": [
+          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
+          { "type": "BOOLEAN", "key": "setDefaultValue", "value": "true" },
+          { "type": "TEMPLATE", "key": "name", "value": "conv_currency" },
+          { "type": "TEMPLATE", "key": "defaultValue", "value": "TRY" }
+        ],
+        "parentFolderId": "1",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "variableId": "3",
+        "name": "DLV - transaction_id",
+        "type": "v",
+        "parameter": [
+          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
+          { "type": "BOOLEAN", "key": "setDefaultValue", "value": "true" },
+          { "type": "TEMPLATE", "key": "name", "value": "transaction_id" },
+          { "type": "TEMPLATE", "key": "defaultValue", "value": "" }
+        ],
+        "parentFolderId": "1",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "variableId": "4",
+        "name": "DLV - event_label",
+        "type": "v",
+        "parameter": [
+          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
+          { "type": "BOOLEAN", "key": "setDefaultValue", "value": "true" },
+          { "type": "TEMPLATE", "key": "name", "value": "event_label" },
+          { "type": "TEMPLATE", "key": "defaultValue", "value": "" }
+        ],
+        "parentFolderId": "1",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "variableId": "5",
+        "name": "CONST - Google Ads Conversion ID",
+        "type": "c",
+        "parameter": [{ "type": "TEMPLATE", "key": "value", "value": "AW-18366033946" }],
+        "parentFolderId": "1",
+        "fingerprint": "1787726251901"
+      }
+    ],
+    "trigger": [
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "triggerId": "1",
+        "name": "CE - cta_call",
+        "type": "CUSTOM_EVENT",
+        "customEventFilter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
+              { "type": "TEMPLATE", "key": "arg1", "value": "cta_call" }
+            ]
+          }
+        ],
+        "parentFolderId": "1",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "triggerId": "2",
+        "name": "CE - cta_whatsapp",
+        "type": "CUSTOM_EVENT",
+        "customEventFilter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
+              { "type": "TEMPLATE", "key": "arg1", "value": "cta_whatsapp" }
+            ]
+          }
+        ],
+        "parentFolderId": "1",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "triggerId": "3",
+        "name": "CE - callback_submit",
+        "type": "CUSTOM_EVENT",
+        "customEventFilter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
+              { "type": "TEMPLATE", "key": "arg1", "value": "callback_submit" }
+            ]
+          }
+        ],
+        "parentFolderId": "1",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "triggerId": "4",
+        "name": "CE - booking_submit",
+        "type": "CUSTOM_EVENT",
+        "customEventFilter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
+              { "type": "TEMPLATE", "key": "arg1", "value": "booking_submit" }
+            ]
+          }
+        ],
+        "parentFolderId": "1",
+        "fingerprint": "1787726251901"
+      }
+    ],
+    "tag": [
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "tagId": "1",
+        "name": "Google Ads - Conversion Linker",
+        "type": "gclidw",
+        "parameter": [
+          { "type": "BOOLEAN", "key": "enableCrossDomain", "value": "false" },
+          { "type": "BOOLEAN", "key": "enableUrlPassthrough", "value": "true" },
+          { "type": "BOOLEAN", "key": "acceptIncoming", "value": "true" },
+          { "type": "TEMPLATE", "key": "linkerScope", "value": "AUTO_LINK_DOMAINS" }
+        ],
+        "firingTriggerId": ["2147479553"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "parentFolderId": "1",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "tagId": "2",
+        "name": "Ads Conversion - Phone Click",
+        "type": "awct",
+        "parameter": [
+          { "type": "BOOLEAN", "key": "enableConversionLinker", "value": "true" },
+          { "type": "TEMPLATE", "key": "conversionId", "value": "18366033946" },
+          { "type": "TEMPLATE", "key": "conversionLabel", "value": "FCjVCP_u3-YcEJrgzbVE" },
+          { "type": "TEMPLATE", "key": "conversionValue", "value": "{{DLV - conv_value}}" },
+          { "type": "TEMPLATE", "key": "currencyCode", "value": "{{DLV - conv_currency}}" },
+          { "type": "TEMPLATE", "key": "orderId", "value": "{{DLV - transaction_id}}" },
+          { "type": "TEMPLATE", "key": "conversionCookiePrefix", "value": "_gcl" },
+          { "type": "BOOLEAN", "key": "enableProductReportingCheckbox", "value": "false" },
+          { "type": "BOOLEAN", "key": "enableShippingData", "value": "false" },
+          { "type": "BOOLEAN", "key": "enableNewCustomerReporting", "value": "false" },
+          { "type": "BOOLEAN", "key": "rdp", "value": "false" }
+        ],
+        "firingTriggerId": ["1"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "parentFolderId": "1",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "tagId": "3",
+        "name": "Ads Conversion - WhatsApp Click",
+        "type": "awct",
+        "parameter": [
+          { "type": "BOOLEAN", "key": "enableConversionLinker", "value": "true" },
+          { "type": "TEMPLATE", "key": "conversionId", "value": "18366033946" },
+          { "type": "TEMPLATE", "key": "conversionLabel", "value": "39fZCP_m4OYJrgzbVE" },
+          { "type": "TEMPLATE", "key": "conversionValue", "value": "{{DLV - conv_value}}" },
+          { "type": "TEMPLATE", "key": "currencyCode", "value": "{{DLV - conv_currency}}" },
+          { "type": "TEMPLATE", "key": "orderId", "value": "{{DLV - transaction_id}}" },
+          { "type": "TEMPLATE", "key": "conversionCookiePrefix", "value": "_gcl" },
+          { "type": "BOOLEAN", "key": "enableProductReportingCheckbox", "value": "false" },
+          { "type": "BOOLEAN", "key": "enableShippingData", "value": "false" },
+          { "type": "BOOLEAN", "key": "enableNewCustomerReporting", "value": "false" },
+          { "type": "BOOLEAN", "key": "rdp", "value": "false" }
+        ],
+        "firingTriggerId": ["2"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "parentFolderId": "1",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "tagId": "4",
+        "name": "Ads Conversion - Callback Form",
+        "type": "awct",
+        "parameter": [
+          { "type": "BOOLEAN", "key": "enableConversionLinker", "value": "true" },
+          { "type": "TEMPLATE", "key": "conversionId", "value": "18366033946" },
+          { "type": "TEMPLATE", "key": "conversionLabel", "value": "8fAMCJn77uYcEJrgzbVE" },
+          { "type": "TEMPLATE", "key": "conversionValue", "value": "{{DLV - conv_value}}" },
+          { "type": "TEMPLATE", "key": "currencyCode", "value": "{{DLV - conv_currency}}" },
+          { "type": "TEMPLATE", "key": "orderId", "value": "{{DLV - transaction_id}}" },
+          { "type": "TEMPLATE", "key": "conversionCookiePrefix", "value": "_gcl" },
+          { "type": "BOOLEAN", "key": "enableProductReportingCheckbox", "value": "false" },
+          { "type": "BOOLEAN", "key": "enableShippingData", "value": "false" },
+          { "type": "BOOLEAN", "key": "enableNewCustomerReporting", "value": "false" },
+          { "type": "BOOLEAN", "key": "rdp", "value": "false" }
+        ],
+        "firingTriggerId": ["3"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "parentFolderId": "1",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "tagId": "5",
+        "name": "Ads Conversion - Booking Form",
+        "type": "awct",
+        "parameter": [
+          { "type": "BOOLEAN", "key": "enableConversionLinker", "value": "true" },
+          { "type": "TEMPLATE", "key": "conversionId", "value": "18366033946" },
+          { "type": "TEMPLATE", "key": "conversionLabel", "value": "dLluCISB4eYcEJrgzbVE" },
+          { "type": "TEMPLATE", "key": "conversionValue", "value": "{{DLV - conv_value}}" },
+          { "type": "TEMPLATE", "key": "currencyCode", "value": "{{DLV - conv_currency}}" },
+          { "type": "TEMPLATE", "key": "orderId", "value": "{{DLV - transaction_id}}" },
+          { "type": "TEMPLATE", "key": "conversionCookiePrefix", "value": "_gcl" },
+          { "type": "BOOLEAN", "key": "enableProductReportingCheckbox", "value": "false" },
+          { "type": "BOOLEAN", "key": "enableShippingData", "value": "false" },
+          { "type": "BOOLEAN", "key": "enableNewCustomerReporting", "value": "false" },
+          { "type": "BOOLEAN", "key": "rdp", "value": "false" }
+        ],
+        "firingTriggerId": ["4"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "parentFolderId": "1",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "tagId": "6",
+        "name": "Google Ads - Remarketing (All Pages)",
+        "type": "sp",
+        "parameter": [
+          { "type": "BOOLEAN", "key": "enableConversionLinker", "value": "true" },
+          { "type": "TEMPLATE", "key": "conversionId", "value": "18366033946" },
+          { "type": "TEMPLATE", "key": "conversionCookiePrefix", "value": "_gcl" },
+          { "type": "BOOLEAN", "key": "enableDynamicRemarketing", "value": "false" },
+          { "type": "BOOLEAN", "key": "rdp", "value": "false" }
+        ],
+        "firingTriggerId": ["2147479553"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "parentFolderId": "1",
+        "fingerprint": "1787726251901"
+      }
+    ],
+    "fingerprint": "1787726251951",
+    "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6373435072/containers/262318542/versions/2?apiLink=version"
+  }
+}
