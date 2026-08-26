@@ -2,12 +2,12 @@
   "exportFormatVersion": 2,
   "exportTime": "2026-08-26 07:00:00",
   "containerVersion": {
-    "path": "accounts/6373435072/containers/262318542/versions/2",
+    "path": "accounts/6373435072/containers/262318542/versions/3",
     "accountId": "6373435072",
     "containerId": "262318542",
-    "containerVersionId": "2",
-    "name": "Golge Tesisat - Google Ads Conversions",
-    "description": "Google Ads (AW-18366033946) donusum takibi: telefon, WhatsApp, geri arama formu, randevu formu.",
+    "containerVersionId": "3",
+    "name": "Golge Tesisat - Google Ads + GA4",
+    "description": "Google Ads (AW-18366033946) donusumleri + GA4 (G-PYX3G19381) sayfa goruntuleme, etkilesim, scroll, outbound tiklama ve lead olaylari.",
     "container": {
       "path": "accounts/6373435072/containers/262318542",
       "accountId": "6373435072",
@@ -43,7 +43,15 @@
       { "accountId": "6373435072", "containerId": "262318542", "type": "EVENT", "name": "Event" },
       { "accountId": "6373435072", "containerId": "262318542", "type": "CLICK_URL", "name": "Click URL" },
       { "accountId": "6373435072", "containerId": "262318542", "type": "CLICK_TEXT", "name": "Click Text" },
-      { "accountId": "6373435072", "containerId": "262318542", "type": "CLICK_ELEMENT", "name": "Click Element" }
+      { "accountId": "6373435072", "containerId": "262318542", "type": "CLICK_ELEMENT", "name": "Click Element" },
+      { "accountId": "6373435072", "containerId": "262318542", "type": "CLICK_CLASSES", "name": "Click Classes" },
+      { "accountId": "6373435072", "containerId": "262318542", "type": "CLICK_ID", "name": "Click ID" },
+      { "accountId": "6373435072", "containerId": "262318542", "type": "SCROLL_DEPTH_THRESHOLD", "name": "Scroll Depth Threshold" },
+      { "accountId": "6373435072", "containerId": "262318542", "type": "SCROLL_DEPTH_UNITS", "name": "Scroll Depth Units" },
+      { "accountId": "6373435072", "containerId": "262318542", "type": "SCROLL_DIRECTION", "name": "Scroll Direction" },
+      { "accountId": "6373435072", "containerId": "262318542", "type": "FORM_ID", "name": "Form ID" },
+      { "accountId": "6373435072", "containerId": "262318542", "type": "NEW_HISTORY_FRAGMENT", "name": "New History Fragment" },
+      { "accountId": "6373435072", "containerId": "262318542", "type": "OLD_HISTORY_FRAGMENT", "name": "Old History Fragment" }
     ],
     "folder": [
       {
@@ -51,6 +59,13 @@
         "containerId": "262318542",
         "folderId": "1",
         "name": "Google Ads",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "folderId": "2",
+        "name": "GA4",
         "fingerprint": "1787726251901"
       }
     ],
@@ -123,6 +138,136 @@
         "type": "c",
         "parameter": [{ "type": "TEMPLATE", "key": "value", "value": "AW-18366033946" }],
         "parentFolderId": "1",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "variableId": "6",
+        "name": "CONST - GA4 Measurement ID",
+        "type": "c",
+        "parameter": [{ "type": "TEMPLATE", "key": "value", "value": "G-PYX3G19381" }],
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "variableId": "7",
+        "name": "DLV - page_path",
+        "type": "v",
+        "parameter": [
+          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
+          { "type": "BOOLEAN", "key": "setDefaultValue", "value": "true" },
+          { "type": "TEMPLATE", "key": "name", "value": "page_path" },
+          { "type": "TEMPLATE", "key": "defaultValue", "value": "" }
+        ],
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "variableId": "8",
+        "name": "DLV - page_title",
+        "type": "v",
+        "parameter": [
+          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
+          { "type": "BOOLEAN", "key": "setDefaultValue", "value": "true" },
+          { "type": "TEMPLATE", "key": "name", "value": "page_title" },
+          { "type": "TEMPLATE", "key": "defaultValue", "value": "" }
+        ],
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "variableId": "9",
+        "name": "DLV - service",
+        "type": "v",
+        "parameter": [
+          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
+          { "type": "BOOLEAN", "key": "setDefaultValue", "value": "true" },
+          { "type": "TEMPLATE", "key": "name", "value": "service" },
+          { "type": "TEMPLATE", "key": "defaultValue", "value": "(not set)" }
+        ],
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "variableId": "10",
+        "name": "DLV - district",
+        "type": "v",
+        "parameter": [
+          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
+          { "type": "BOOLEAN", "key": "setDefaultValue", "value": "true" },
+          { "type": "TEMPLATE", "key": "name", "value": "district" },
+          { "type": "TEMPLATE", "key": "defaultValue", "value": "(not set)" }
+        ],
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "variableId": "11",
+        "name": "DLV - content_group",
+        "type": "v",
+        "parameter": [
+          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
+          { "type": "BOOLEAN", "key": "setDefaultValue", "value": "true" },
+          { "type": "TEMPLATE", "key": "name", "value": "content_group" },
+          { "type": "TEMPLATE", "key": "defaultValue", "value": "other" }
+        ],
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "variableId": "12",
+        "name": "DLV - form_name",
+        "type": "v",
+        "parameter": [
+          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
+          { "type": "BOOLEAN", "key": "setDefaultValue", "value": "true" },
+          { "type": "TEMPLATE", "key": "name", "value": "form_name" },
+          { "type": "TEMPLATE", "key": "defaultValue", "value": "" }
+        ],
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "variableId": "13",
+        "name": "DLV - user_data.sha256_phone_number",
+        "type": "v",
+        "parameter": [
+          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
+          { "type": "BOOLEAN", "key": "setDefaultValue", "value": "true" },
+          { "type": "TEMPLATE", "key": "name", "value": "user_data.sha256_phone_number" },
+          { "type": "TEMPLATE", "key": "defaultValue", "value": "" }
+        ],
+        "parentFolderId": "1",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "variableId": "14",
+        "name": "DLV - blog_slug",
+        "type": "v",
+        "parameter": [
+          { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" },
+          { "type": "BOOLEAN", "key": "setDefaultValue", "value": "true" },
+          { "type": "TEMPLATE", "key": "name", "value": "blog_slug" },
+          { "type": "TEMPLATE", "key": "defaultValue", "value": "" }
+        ],
+        "parentFolderId": "2",
         "fingerprint": "1787726251901"
       }
     ],
@@ -197,6 +342,161 @@
           }
         ],
         "parentFolderId": "1",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "triggerId": "5",
+        "name": "CE - virtual_page_view (SPA)",
+        "type": "CUSTOM_EVENT",
+        "customEventFilter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
+              { "type": "TEMPLATE", "key": "arg1", "value": "virtual_page_view" }
+            ]
+          }
+        ],
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "triggerId": "6",
+        "name": "Scroll Depth - 25/50/75/90",
+        "type": "SCROLL_DEPTH",
+        "parameter": [
+          { "type": "BOOLEAN", "key": "verticalThresholdOn", "value": "true" },
+          { "type": "TEMPLATE", "key": "verticalThresholdUnits", "value": "PERCENT" },
+          { "type": "TEMPLATE", "key": "verticalThresholdsPercent", "value": "25,50,75,90" },
+          { "type": "TEMPLATE", "key": "triggerStartOption", "value": "WINDOW_LOAD" }
+        ],
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "triggerId": "7",
+        "name": "Click - Outbound Link",
+        "type": "LINK_CLICK",
+        "filter": [
+          {
+            "type": "CONTAINS",
+            "parameter": [
+              { "type": "TEMPLATE", "key": "arg0", "value": "{{Click URL}}" },
+              { "type": "TEMPLATE", "key": "arg1", "value": "http" }
+            ]
+          },
+          {
+            "type": "CSS_SELECTOR",
+            "parameter": [
+              { "type": "TEMPLATE", "key": "arg0", "value": "{{Click Element}}" },
+              { "type": "TEMPLATE", "key": "arg1", "value": "a[href^=\"http\"]:not([href*=\"golgetesisat.com\"]):not([href*=\"wa.me\"])" }
+            ]
+          }
+        ],
+        "waitForTags": [{ "type": "BOOLEAN", "key": "waitForTags", "value": "false" }],
+        "checkValidation": [{ "type": "BOOLEAN", "key": "checkValidation", "value": "false" }],
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "triggerId": "8",
+        "name": "Timer - 30 sn etkilesim",
+        "type": "TIMER",
+        "parameter": [
+          { "type": "TEMPLATE", "key": "eventName", "value": "gtm.timer" },
+          { "type": "TEMPLATE", "key": "interval", "value": "30000" },
+          { "type": "TEMPLATE", "key": "limit", "value": "1" }
+        ],
+        "filter": [
+          {
+            "type": "MATCH_REGEX",
+            "parameter": [
+              { "type": "TEMPLATE", "key": "arg0", "value": "{{Page Path}}" },
+              { "type": "TEMPLATE", "key": "arg1", "value": ".*" }
+            ]
+          }
+        ],
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "triggerId": "9",
+        "name": "CE - form_start",
+        "type": "CUSTOM_EVENT",
+        "customEventFilter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
+              { "type": "TEMPLATE", "key": "arg1", "value": "form_start" }
+            ]
+          }
+        ],
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "triggerId": "10",
+        "name": "CE - quote_calculated",
+        "type": "CUSTOM_EVENT",
+        "customEventFilter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
+              { "type": "TEMPLATE", "key": "arg1", "value": "quote_calculated" }
+            ]
+          }
+        ],
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "triggerId": "11",
+        "name": "CE - blog_read_complete",
+        "type": "CUSTOM_EVENT",
+        "customEventFilter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
+              { "type": "TEMPLATE", "key": "arg1", "value": "blog_read_complete" }
+            ]
+          }
+        ],
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "triggerId": "12",
+        "name": "CE - review_submit",
+        "type": "CUSTOM_EVENT",
+        "customEventFilter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
+              { "type": "TEMPLATE", "key": "arg1", "value": "review_submit" }
+            ]
+          }
+        ],
+        "parentFolderId": "2",
         "fingerprint": "1787726251901"
       }
     ],
@@ -331,9 +631,532 @@
         "tagFiringOption": "ONCE_PER_EVENT",
         "parentFolderId": "1",
         "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "tagId": "7",
+        "name": "GA4 - Google Tag (Config)",
+        "type": "googtag",
+        "parameter": [
+          { "type": "TEMPLATE", "key": "tagId", "value": "{{CONST - GA4 Measurement ID}}" },
+          {
+            "type": "LIST",
+            "key": "configSettingsTable",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "send_page_view" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "true" }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "content_group" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - content_group}}" }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "LIST",
+            "key": "eventSettingsTable",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "service" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - service}}" }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "district" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - district}}" }
+                ]
+              }
+            ]
+          }
+        ],
+        "firingTriggerId": ["2147479553"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "tagId": "8",
+        "name": "GA4 Event - page_view (SPA)",
+        "type": "gaawe",
+        "parameter": [
+          { "type": "TEMPLATE", "key": "eventName", "value": "page_view" },
+          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Google Tag (Config)" },
+          {
+            "type": "LIST",
+            "key": "eventSettingsTable",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "page_path" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - page_path}}" }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "page_title" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - page_title}}" }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "content_group" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - content_group}}" }
+                ]
+              }
+            ]
+          }
+        ],
+        "firingTriggerId": ["5"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "tagId": "9",
+        "name": "GA4 Event - phone_call_click",
+        "type": "gaawe",
+        "parameter": [
+          { "type": "TEMPLATE", "key": "eventName", "value": "phone_call_click" },
+          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Google Tag (Config)" },
+          {
+            "type": "LIST",
+            "key": "eventSettingsTable",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "value" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - conv_value}}" }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "currency" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - conv_currency}}" }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "event_label" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - event_label}}" }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "service" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - service}}" }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "district" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - district}}" }
+                ]
+              }
+            ]
+          }
+        ],
+        "firingTriggerId": ["1"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "tagId": "10",
+        "name": "GA4 Event - whatsapp_click",
+        "type": "gaawe",
+        "parameter": [
+          { "type": "TEMPLATE", "key": "eventName", "value": "whatsapp_click" },
+          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Google Tag (Config)" },
+          {
+            "type": "LIST",
+            "key": "eventSettingsTable",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "value" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - conv_value}}" }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "currency" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - conv_currency}}" }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "service" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - service}}" }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "district" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - district}}" }
+                ]
+              }
+            ]
+          }
+        ],
+        "firingTriggerId": ["2"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "tagId": "11",
+        "name": "GA4 Event - generate_lead (Callback)",
+        "type": "gaawe",
+        "parameter": [
+          { "type": "TEMPLATE", "key": "eventName", "value": "generate_lead" },
+          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Google Tag (Config)" },
+          {
+            "type": "LIST",
+            "key": "eventSettingsTable",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "value" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - conv_value}}" }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "currency" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - conv_currency}}" }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "lead_type" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "callback" }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "transaction_id" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - transaction_id}}" }
+                ]
+              }
+            ]
+          }
+        ],
+        "firingTriggerId": ["3"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "tagId": "12",
+        "name": "GA4 Event - generate_lead (Booking)",
+        "type": "gaawe",
+        "parameter": [
+          { "type": "TEMPLATE", "key": "eventName", "value": "generate_lead" },
+          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Google Tag (Config)" },
+          {
+            "type": "LIST",
+            "key": "eventSettingsTable",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "value" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - conv_value}}" }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "currency" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - conv_currency}}" }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "lead_type" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "booking" }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "transaction_id" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - transaction_id}}" }
+                ]
+              }
+            ]
+          }
+        ],
+        "firingTriggerId": ["4"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "tagId": "13",
+        "name": "GA4 Event - scroll_depth",
+        "type": "gaawe",
+        "parameter": [
+          { "type": "TEMPLATE", "key": "eventName", "value": "scroll_depth" },
+          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Google Tag (Config)" },
+          {
+            "type": "LIST",
+            "key": "eventSettingsTable",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "percent_scrolled" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{Scroll Depth Threshold}}" }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "content_group" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - content_group}}" }
+                ]
+              }
+            ]
+          }
+        ],
+        "firingTriggerId": ["6"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "tagId": "14",
+        "name": "GA4 Event - outbound_click",
+        "type": "gaawe",
+        "parameter": [
+          { "type": "TEMPLATE", "key": "eventName", "value": "outbound_click" },
+          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Google Tag (Config)" },
+          {
+            "type": "LIST",
+            "key": "eventSettingsTable",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "link_url" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{Click URL}}" }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "link_text" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{Click Text}}" }
+                ]
+              }
+            ]
+          }
+        ],
+        "firingTriggerId": ["7"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "tagId": "15",
+        "name": "GA4 Event - engaged_30s",
+        "type": "gaawe",
+        "parameter": [
+          { "type": "TEMPLATE", "key": "eventName", "value": "engaged_30s" },
+          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Google Tag (Config)" },
+          {
+            "type": "LIST",
+            "key": "eventSettingsTable",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "content_group" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - content_group}}" }
+                ]
+              }
+            ]
+          }
+        ],
+        "firingTriggerId": ["8"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "tagId": "16",
+        "name": "GA4 Event - form_start",
+        "type": "gaawe",
+        "parameter": [
+          { "type": "TEMPLATE", "key": "eventName", "value": "form_start" },
+          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Google Tag (Config)" },
+          {
+            "type": "LIST",
+            "key": "eventSettingsTable",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "form_name" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - form_name}}" }
+                ]
+              }
+            ]
+          }
+        ],
+        "firingTriggerId": ["9"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "tagId": "17",
+        "name": "GA4 Event - quote_calculated",
+        "type": "gaawe",
+        "parameter": [
+          { "type": "TEMPLATE", "key": "eventName", "value": "quote_calculated" },
+          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Google Tag (Config)" },
+          {
+            "type": "LIST",
+            "key": "eventSettingsTable",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "service" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - service}}" }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "value" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - conv_value}}" }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "currency" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - conv_currency}}" }
+                ]
+              }
+            ]
+          }
+        ],
+        "firingTriggerId": ["10"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "tagId": "18",
+        "name": "GA4 Event - blog_read_complete",
+        "type": "gaawe",
+        "parameter": [
+          { "type": "TEMPLATE", "key": "eventName", "value": "blog_read_complete" },
+          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Google Tag (Config)" },
+          {
+            "type": "LIST",
+            "key": "eventSettingsTable",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "blog_slug" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - blog_slug}}" }
+                ]
+              }
+            ]
+          }
+        ],
+        "firingTriggerId": ["11"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
+      },
+      {
+        "accountId": "6373435072",
+        "containerId": "262318542",
+        "tagId": "19",
+        "name": "GA4 Event - review_submit",
+        "type": "gaawe",
+        "parameter": [
+          { "type": "TEMPLATE", "key": "eventName", "value": "review_submit" },
+          { "type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Google Tag (Config)" },
+          {
+            "type": "LIST",
+            "key": "eventSettingsTable",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "event_label" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DLV - event_label}}" }
+                ]
+              }
+            ]
+          }
+        ],
+        "firingTriggerId": ["12"],
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "parentFolderId": "2",
+        "fingerprint": "1787726251901"
       }
     ],
-    "fingerprint": "1787726251951",
-    "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6373435072/containers/262318542/versions/2?apiLink=version"
+    "fingerprint": "1787726251952",
+    "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6373435072/containers/262318542/versions/3?apiLink=version"
   }
 }
