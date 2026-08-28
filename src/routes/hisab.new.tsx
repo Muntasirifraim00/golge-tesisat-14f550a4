@@ -36,6 +36,7 @@ import {
   Select,
   Textarea,
 } from "@/components/hisab/ui";
+import { Autocomplete } from "@/components/hisab/autocomplete";
 
 export const Route = createFileRoute("/hisab/new")({
   validateSearch: (search: Record<string, unknown>): { type?: InvoiceType } =>
@@ -59,6 +60,8 @@ type FormState = {
   invoice_date: string;
   memo_no: string;
   party_name: string;
+  customer_id?: string;
+  supplier_id?: string;
   details: string;
   total_amount: string;
   paid_amount: string;
@@ -103,6 +106,50 @@ function initialState(type: InvoiceType): FormState {
     items: [],
     expenses: [],
   };
+}
+
+interface Customer {
+  id: string;
+  name: string;
+}
+
+interface Supplier {
+  id: string;
+  name: string;
+}
+
+function CustomerSelector({ value, onChange }: { value: string; onChange: (id: string) => void }) {
+  return (
+    <Autocomplete
+      placeholder="গ্রাহক খুঁজুন..."
+      value={value}
+      onChange={onChange}
+      queryKey={["customers"]}
+      fetchItems={async () => {
+        const res = await fetch("/api/hisab/customers");
+        const customers: Customer[] = await res.json();
+        return customers.map((c) => ({ id: c.id, name: c.name }));
+      }}
+      onSelect={(item) => {}}
+    />
+  );
+}
+
+function SupplierSelector({ value, onChange }: { value: string; onChange: (id: string) => void }) {
+  return (
+    <Autocomplete
+      placeholder="বিক্রেতা খুঁজুন..."
+      value={value}
+      onChange={onChange}
+      queryKey={["suppliers"]}
+      fetchItems={async () => {
+        const res = await fetch("/api/hisab/suppliers");
+        const suppliers: Supplier[] = await res.json();
+        return suppliers.map((s) => ({ id: s.id, name: s.name }));
+      }}
+      onSelect={(item) => {}}
+    />
+  );
 }
 
 function NewEntry() {
@@ -270,6 +317,8 @@ function NewEntry() {
       invoice_date: form.invoice_date,
       memo_no: form.memo_no.trim() || null,
       party_name: form.party_name.trim() || null,
+      customer_id: form.type === "sale" ? form.customer_id : null,
+      supplier_id: form.type === "purchase" ? form.supplier_id : null,
       details: form.details.trim() || null,
       total_amount: total,
       paid_amount: form.nothing_paid ? 0 : num(form.paid_amount),
@@ -500,22 +549,47 @@ function NewEntry() {
           </Field>
         </div>
 
-        <Field
-          label={
-            form.type === "sale"
-              ? "ক্রেতার নাম"
-              : form.type === "purchase"
-                ? "সরবরাহকারীর নাম"
-                : "কাকে দেওয়া হলো"
-          }
-        >
-          <Input
-            value={form.party_name}
-            onChange={(e) => patch({ party_name: e.target.value })}
-            placeholder="পার্টির নাম"
-            list="hisab-parties"
-          />
-        </Field>
+        <div className="grid grid-cols-2 gap-3">
+          <Field
+            label={
+              form.type === "sale"
+                ? "ক্রেতা নির্বাচন"
+                : form.type === "purchase"
+                  ? "বিক্রেতা নির্বাচন"
+                  : "পক্ষ নির্বাচন"
+            }
+            hint="ঐচ্ছিক"
+          >
+            {form.type === "sale" ? (
+              <CustomerSelector
+                value={form.customer_id || ""}
+                onChange={(id) => patch({ customer_id: id })}
+              />
+            ) : form.type === "purchase" ? (
+              <SupplierSelector
+                value={form.supplier_id || ""}
+                onChange={(id) => patch({ supplier_id: id })}
+              />
+            ) : null}
+          </Field>
+
+          <Field
+            label={
+              form.type === "sale"
+                ? "ক্রেতার নাম"
+                : form.type === "purchase"
+                  ? "সরবরাহকারীর নাম"
+                  : "কাকে দেওয়া হলো"
+            }
+          >
+            <Input
+              value={form.party_name}
+              onChange={(e) => patch({ party_name: e.target.value })}
+              placeholder="পার্টির নাম"
+              list="hisab-parties"
+            />
+          </Field>
+        </div>
         <datalist id="hisab-parties">
           {[...new Set((recent.data ?? []).map((r) => r.party_name).filter(Boolean))].map((p) => (
             <option key={p as string} value={p as string} />

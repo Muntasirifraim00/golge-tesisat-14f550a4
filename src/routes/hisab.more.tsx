@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import {
   Activity,
-  Bank,
+  PiggyBank,
   ChevronRight,
   FileBarChart,
   FolderOpen,
@@ -35,7 +35,7 @@ const LINKS = [
     to: "/hisab/capital",
     label: "ব্যবসায়িক পুঁজি",
     hint: "শুরুর পুঁজি, যুক্ত পুঁজি, লাভ, বিক্রয়",
-    icon: Bank,
+    icon: PiggyBank,
   },
   {
     to: "/hisab/warehouses",
