@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import * as React from "react";
 import { useQuery } from "@tanstack/react-query";
-import { Download, Printer } from "lucide-react";
+import { Download, Printer, TrendingUp } from "lucide-react";
 import { listLiveInvoices } from "@/lib/hisab/api";
 import { bnDate, bnMonthName, money, num, toBn } from "@/lib/hisab/format";
 import { methodLabel, typeLabel } from "@/lib/hisab/constants";
@@ -11,6 +11,32 @@ import type { Invoice } from "@/lib/hisab/types";
 export const Route = createFileRoute("/hisab/reports")({
   component: ReportsPage,
 });
+
+interface ProductSalesReport {
+  id: string;
+  product_name: string;
+  total_qty_sold: number;
+  total_sales_amount: number;
+  total_profit: number;
+  profit_margin_percent: number;
+  transaction_count: number;
+}
+
+interface CustomerSalesAnalysis {
+  customer_name: string;
+  total_transactions: number;
+  total_purchase_amount: number;
+  current_due: number;
+  avg_transaction_amount: number;
+  days_since_last_purchase: number;
+}
+
+interface StockValuation {
+  product_name: string;
+  total_qty_in_stock: number;
+  total_stock_value: number;
+  number_of_lots: number;
+}
 
 function monthBounds(year: number, month: number) {
   const from = `${year}-${String(month + 1).padStart(2, "0")}-01`;
@@ -25,12 +51,37 @@ function ReportsPage() {
   const now = new Date();
   const [year, setYear] = React.useState(now.getFullYear());
   const [month, setMonth] = React.useState(now.getMonth());
+  const [activeTab, setActiveTab] = React.useState("monthly");
 
   const { from, to } = monthBounds(year, month);
 
   const query = useQuery({
     queryKey: ["hisab", "report", from, to],
     queryFn: () => listLiveInvoices(from, to),
+  });
+
+  const productSalesQuery = useQuery({
+    queryKey: ["reports", "product-sales"],
+    queryFn: async () => {
+      const res = await fetch("/api/hisab/reports?type=product-sales");
+      return res.json() as Promise<ProductSalesReport[]>;
+    },
+  });
+
+  const customerSalesQuery = useQuery({
+    queryKey: ["reports", "customer-sales"],
+    queryFn: async () => {
+      const res = await fetch("/api/hisab/reports?type=customer-sales");
+      return res.json() as Promise<CustomerSalesAnalysis[]>;
+    },
+  });
+
+  const stockValuationQuery = useQuery({
+    queryKey: ["reports", "stock-valuation"],
+    queryFn: async () => {
+      const res = await fetch("/api/hisab/reports?type=stock-valuation");
+      return res.json() as Promise<StockValuation[]>;
+    },
   });
 
   const rows = query.data ?? [];
@@ -115,6 +166,28 @@ function ReportsPage() {
 
   return (
     <div className="space-y-3">
+      {/* Report Tabs */}
+      <div className="flex gap-2 overflow-x-auto pb-2 print:hidden">
+        {[
+          { id: "monthly", label: "মাসিক" },
+          { id: "products", label: "পণ্য বিক্রয়" },
+          { id: "customers", label: "গ্রাহক বিশ্লেষণ" },
+          { id: "stock", label: "স্টক মূল্য" },
+        ].map((tab) => (
+          <button
+            key={tab.id}
+            onClick={() => setActiveTab(tab.id)}
+            className={`whitespace-nowrap rounded-lg px-4 py-2 text-sm font-semibold transition ${
+              activeTab === tab.id
+                ? "bg-blue-600 text-white"
+                : "border border-slate-300 bg-white text-slate-700 dark:border-slate-600 dark:bg-slate-900 dark:text-slate-300"
+            }`}
+          >
+            {tab.label}
+          </button>
+        ))}
+      </div>
+
       <Card className="print:hidden">
         <SectionTitle title="মাস বাছুন" />
         <div className="grid grid-cols-2 gap-3">
@@ -155,11 +228,13 @@ function ReportsPage() {
         </div>
       </Card>
 
-      {query.isLoading ? (
-        <Loading />
-      ) : (
-        <>
-          <Card>
+      {/* Monthly Report */}
+      {activeTab === "monthly" && (
+        query.isLoading ? (
+          <Loading />
+        ) : (
+          <>
+            <Card>
             <SectionTitle
               title={`${bnMonthName(month)} ${toBn(year)}`}
               right={
@@ -237,8 +312,118 @@ function ReportsPage() {
                 </tbody>
               </table>
             </div>
+            </Card>
+          </>
+        )
+      )}
+
+      {/* Product Sales Report */}
+      {activeTab === "products" && (
+        <div className="space-y-3">
+          <Card>
+            <SectionTitle title="পণ্য বিক্রয় বিশ্লেষণ" />
+            {productSalesQuery.isLoading ? (
+              <Loading />
+            ) : (productSalesQuery.data ?? []).length === 0 ? (
+              <p className="text-center text-slate-500">কোনো বিক্রয় ডেটা নেই</p>
+            ) : (
+              <div className="space-y-2">
+                {(productSalesQuery.data ?? []).slice(0, 15).map((product) => (
+                  <div key={product.id} className="flex items-start justify-between border-b border-slate-200 pb-2 dark:border-slate-800">
+                    <div className="min-w-0 flex-1">
+                      <p className="font-medium text-slate-900 dark:text-slate-100">{product.product_name}</p>
+                      <p className="text-xs text-slate-600 dark:text-slate-400">
+                        {product.total_qty_sold} ইউনিট • {product.transaction_count} বিক্রয়
+                      </p>
+                    </div>
+                    <div className="text-right">
+                      <p className="font-semibold text-slate-900 dark:text-slate-100">
+                        {money(product.total_profit)}
+                      </p>
+                      <p className="text-xs text-green-600 dark:text-green-400">
+                        {product.profit_margin_percent.toFixed(1)}%
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
           </Card>
-        </>
+        </div>
+      )}
+
+      {/* Customer Sales Analysis */}
+      {activeTab === "customers" && (
+        <div className="space-y-3">
+          <Card>
+            <SectionTitle title="শীর্ষ গ্রাহক" />
+            {customerSalesQuery.isLoading ? (
+              <Loading />
+            ) : (customerSalesQuery.data ?? []).length === 0 ? (
+              <p className="text-center text-slate-500">কোনো গ্রাহক ডেটা নেই</p>
+            ) : (
+              <div className="space-y-2">
+                {(customerSalesQuery.data ?? []).slice(0, 10).map((customer) => (
+                  <div key={customer.customer_name} className="flex items-start justify-between border-b border-slate-200 pb-2 dark:border-slate-800">
+                    <div className="min-w-0 flex-1">
+                      <p className="font-medium text-slate-900 dark:text-slate-100">{customer.customer_name}</p>
+                      <p className="text-xs text-slate-600 dark:text-slate-400">
+                        {customer.total_transactions} লেনদেন • গড় {money(customer.avg_transaction_amount)}
+                      </p>
+                      {customer.days_since_last_purchase !== null && (
+                        <p className="text-xs text-slate-600 dark:text-slate-400">
+                          {customer.days_since_last_purchase} দিন আগে ক্রয়
+                        </p>
+                      )}
+                    </div>
+                    <div className="text-right">
+                      <p className="font-semibold text-slate-900 dark:text-slate-100">
+                        {money(customer.total_purchase_amount)}
+                      </p>
+                      {customer.current_due > 0 && (
+                        <p className="text-xs text-rose-600 dark:text-rose-400">
+                          বকেয়া: {money(customer.current_due)}
+                        </p>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </Card>
+        </div>
+      )}
+
+      {/* Stock Valuation */}
+      {activeTab === "stock" && (
+        <div className="space-y-3">
+          <Card>
+            <SectionTitle title="স্টক মূল্য মূল্যায়ন" />
+            {stockValuationQuery.isLoading ? (
+              <Loading />
+            ) : (stockValuationQuery.data ?? []).length === 0 ? (
+              <p className="text-center text-slate-500">কোনো স্টক ডেটা নেই</p>
+            ) : (
+              <div className="space-y-2">
+                {(stockValuationQuery.data ?? []).slice(0, 15).map((stock) => (
+                  <div key={stock.product_name} className="flex items-start justify-between border-b border-slate-200 pb-2 dark:border-slate-800">
+                    <div className="min-w-0 flex-1">
+                      <p className="font-medium text-slate-900 dark:text-slate-100">{stock.product_name}</p>
+                      <p className="text-xs text-slate-600 dark:text-slate-400">
+                        {stock.total_qty_in_stock} ইউনিট • {stock.number_of_lots} লট
+                      </p>
+                    </div>
+                    <div className="text-right">
+                      <p className="font-semibold text-slate-900 dark:text-slate-100">
+                        {money(stock.total_stock_value)}
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </Card>
+        </div>
       )}
     </div>
   );
