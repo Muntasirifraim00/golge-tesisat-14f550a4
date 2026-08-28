@@ -1,12 +1,14 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import {
   Activity,
+  Bank,
   ChevronRight,
   FileBarChart,
   FolderOpen,
   HelpCircle,
   LogOut,
   Package,
+  Warehouse,
   Users,
 } from "lucide-react";
 import { useHisabSession } from "@/components/hisab/session";
@@ -25,6 +27,24 @@ const LINKS = [
     icon: Package,
   },
   { to: "/hisab/parties", label: "পার্টি", hint: "কার কাছে কত পাওনা, কাকে কত দেনা", icon: Users },
+  {
+    to: "/hisab/capital",
+    label: "ব্যবসায়িক পুঁজি",
+    hint: "শুরুর পুঁজি, যুক্ত পুঁজি, লাভ, বিক্রয়",
+    icon: Bank,
+  },
+  {
+    to: "/hisab/warehouses",
+    label: "গুদাম/দোকান",
+    hint: "একাধিক গুদামে স্টক ট্র্যাক করুন",
+    icon: Warehouse,
+  },
+  {
+    to: "/hisab/warehouse-stock",
+    label: "গুদামের স্টক",
+    hint: "প্রতিটা গুদামে কত মাল আছে",
+    icon: Warehouse,
+  },
   {
     to: "/hisab/reports",
     label: "রিপোর্ট",
