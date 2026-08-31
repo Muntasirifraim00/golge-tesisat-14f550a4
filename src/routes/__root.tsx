@@ -14,6 +14,7 @@ import { LanguageProvider, GlobalLangToggle } from "@/i18n/LanguageProvider";
 import { GlobalClickTracker } from "@/lib/GlobalClickTracker";
 import { GoogleAdsLoader } from "@/components/GoogleAdsLoader";
 import { GA4Tracker } from "@/components/GA4Tracker";
+import { AdTrafficRedirect } from "@/components/AdTrafficRedirect";
 import { buildLocalBusinessSchema } from "@/data/business";
 
 function NotFoundComponent() {
@@ -206,6 +207,7 @@ function RootComponent() {
         {!isAdmin && <GlobalClickTracker />}
         {!isAdmin && <GoogleAdsLoader />}
         {!isAdmin && <GA4Tracker />}
+        {!isAdmin && <AdTrafficRedirect />}
         <Outlet />
       </LanguageProvider>
     </QueryClientProvider>
