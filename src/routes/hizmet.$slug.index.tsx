@@ -149,7 +149,7 @@ export const Route = createFileRoute("/hizmet/$slug/")({
     <div className="flex min-h-screen items-center justify-center px-4 text-center">
       <div>
         <h1 className="text-xl font-bold">Bir hata oluştu</h1>
-        <p className="mt-2 text-sm text-muted-foreground">{error.message}</p>
+        <p className="mt-2 text-sm text-muted-foreground">{error instanceof Error ? error.message : String(error)}</p>
       </div>
     </div>
   ),
