@@ -58,9 +58,24 @@ function NotFoundComponent() {
   );
 }
 
-function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
+function ErrorComponent({ error, reset }: { error: unknown; reset: () => void }) {
   console.error(error);
   const router = useRouter();
+
+  // Stale files after a new publish or a translate-extension DOM conflict:
+  // reload the page once automatically instead of showing the error.
+  if (typeof window !== "undefined") {
+    const msg = error instanceof Error ? error.message : String(error);
+    const recoverable =
+      /dynamically imported module|Failed to fetch|Importing a module script|removeChild|insertBefore|not a child of this node/i.test(
+        msg,
+      );
+    const key = "auto-reload-" + window.location.pathname;
+    if (recoverable && !sessionStorage.getItem(key)) {
+      sessionStorage.setItem(key, "1");
+      window.location.reload();
+    }
+  }
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">

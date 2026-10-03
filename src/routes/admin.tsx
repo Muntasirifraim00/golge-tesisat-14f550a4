@@ -98,6 +98,18 @@ function AdminLayout() {
   const router = useRouter();
   const isLogin = location.pathname === "/admin/login";
   const [state, setState] = useState<GateState>("checking");
+
+  // Browser auto-translate (e.g. Chrome "Translate page") rewrites the DOM and
+  // crashes React on the admin panel. Disable translation while in admin.
+  useEffect(() => {
+    const html = document.documentElement;
+    html.setAttribute("translate", "no");
+    html.classList.add("notranslate");
+    return () => {
+      html.removeAttribute("translate");
+      html.classList.remove("notranslate");
+    };
+  }, []);
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [collapsed, setCollapsed] = useState(false);
   const [email, setEmail] = useState<string | null>(null);
