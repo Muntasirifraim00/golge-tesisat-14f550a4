@@ -9,135 +9,60 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as StudioRouteImport } from './routes/studio'
-import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
-import { Route as RandevuRouteImport } from './routes/randevu'
-import { Route as OgImageDotjpgRouteImport } from './routes/og-image[.]jpg'
-import { Route as KvkkRouteImport } from './routes/kvkk'
-import { Route as IndexDurumuBanglaRouteImport } from './routes/index-durumu-bangla'
-import { Route as HizmetlerRouteImport } from './routes/hizmetler'
-import { Route as GoogleAdsKurulumRouteImport } from './routes/google-ads-kurulum'
-import { Route as GoogleAdsRouteImport } from './routes/google-ads'
-import { Route as DisavowRouteImport } from './routes/disavow'
-import { Route as CerezPolitikasiRouteImport } from './routes/cerez-politikasi'
-import { Route as BlogYazmaRehberiRouteImport } from './routes/blog-yazma-rehberi'
-import { Route as AdminRouteImport } from './routes/admin'
-import { Route as AcilTesisatciRouteImport } from './routes/acil-tesisatci'
-import { Route as SEOOverviewBanglaRouteImport } from './routes/SEO-overview-bangla'
-import { Route as SEOOverviewRouteImport } from './routes/SEO-overview'
-import { Route as DesktopViewRouteImport } from './routes/Desktop-view'
 import { Route as IndexRouteImport } from './routes/index'
-import { Route as TesisatciIndexRouteImport } from './routes/tesisatci.index'
-import { Route as BlogIndexRouteImport } from './routes/blog.index'
+import { Route as DesktopViewRouteImport } from './routes/Desktop-view'
+import { Route as SEOOverviewRouteImport } from './routes/SEO-overview'
+import { Route as SEOOverviewBanglaRouteImport } from './routes/SEO-overview-bangla'
+import { Route as AcilTesisatciRouteImport } from './routes/acil-tesisatci'
+import { Route as AdminRouteImport } from './routes/admin'
+import { Route as BlogYazmaRehberiRouteImport } from './routes/blog-yazma-rehberi'
+import { Route as CerezPolitikasiRouteImport } from './routes/cerez-politikasi'
+import { Route as DisavowRouteImport } from './routes/disavow'
+import { Route as GoogleAdsRouteImport } from './routes/google-ads'
+import { Route as GoogleAdsKurulumRouteImport } from './routes/google-ads-kurulum'
+import { Route as HizmetlerRouteImport } from './routes/hizmetler'
+import { Route as IndexDurumuBanglaRouteImport } from './routes/index-durumu-bangla'
+import { Route as KvkkRouteImport } from './routes/kvkk'
+import { Route as OgImageDotjpgRouteImport } from './routes/og-image[.]jpg'
+import { Route as RandevuRouteImport } from './routes/randevu'
+import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
+import { Route as StudioRouteImport } from './routes/studio'
 import { Route as AdminIndexRouteImport } from './routes/admin.index'
-import { Route as TesisatciSlugRouteImport } from './routes/tesisatci.$slug'
-import { Route as StudioLoginRouteImport } from './routes/studio.login'
-import { Route as HizmetSlugRouteImport } from './routes/hizmet.$slug'
-import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
-import { Route as AdminSeoWriterRouteImport } from './routes/admin.seo-writer'
-import { Route as AdminSeoDataRouteImport } from './routes/admin.seo-data'
-import { Route as AdminSearchConsoleRouteImport } from './routes/admin.search-console'
-import { Route as AdminReviewsRouteImport } from './routes/admin.reviews'
-import { Route as AdminPipelineRouteImport } from './routes/admin.pipeline'
-import { Route as AdminLoginRouteImport } from './routes/admin.login'
-import { Route as AdminKeywordsRouteImport } from './routes/admin.keywords'
-import { Route as AdminEventsRouteImport } from './routes/admin.events'
-import { Route as AdminContactClicksRouteImport } from './routes/admin.contact-clicks'
-import { Route as AdminCallbacksRouteImport } from './routes/admin.callbacks'
 import { Route as AdminBookingsRouteImport } from './routes/admin.bookings'
-import { Route as TesisatciSlugIndexRouteImport } from './routes/tesisatci.$slug.index'
+import { Route as AdminCallbacksRouteImport } from './routes/admin.callbacks'
+import { Route as AdminContactClicksRouteImport } from './routes/admin.contact-clicks'
+import { Route as AdminEventsRouteImport } from './routes/admin.events'
+import { Route as AdminKeywordsRouteImport } from './routes/admin.keywords'
+import { Route as AdminLoginRouteImport } from './routes/admin.login'
+import { Route as AdminPipelineRouteImport } from './routes/admin.pipeline'
+import { Route as AdminReviewsRouteImport } from './routes/admin.reviews'
+import { Route as AdminSearchConsoleRouteImport } from './routes/admin.search-console'
+import { Route as AdminSeoDataRouteImport } from './routes/admin.seo-data'
+import { Route as AdminSeoWriterRouteImport } from './routes/admin.seo-writer'
+import { Route as BlogIndexRouteImport } from './routes/blog.index'
+import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
+import { Route as HizmetSlugRouteImport } from './routes/hizmet.$slug'
+import { Route as StudioLoginRouteImport } from './routes/studio.login'
+import { Route as TesisatciIndexRouteImport } from './routes/tesisatci.index'
+import { Route as TesisatciSlugRouteImport } from './routes/tesisatci.$slug'
 import { Route as HizmetSlugIndexRouteImport } from './routes/hizmet.$slug.index'
-import { Route as TesisatciSlugServiceRouteImport } from './routes/tesisatci.$slug.$service'
 import { Route as HizmetSlugFiyatRouteImport } from './routes/hizmet.$slug.fiyat'
-import { Route as TesisatciSlugMahalleNeighborhoodRouteImport } from './routes/tesisatci.$slug.mahalle.$neighborhood'
-import { Route as LovableEmailQueueProcessRouteImport } from './routes/lovable/email/queue/process'
-import { Route as ApiPublicRCodeRouteImport } from './routes/api/public/r/$code'
-import { Route as ApiPublicHooksRefreshAnalyticsRouteImport } from './routes/api/public/hooks/refresh-analytics'
-import { Route as ApiPublicHooksPublishSocialRouteImport } from './routes/api/public/hooks/publish-social'
-import { Route as ApiPublicHooksMetaWebhookRouteImport } from './routes/api/public/hooks/meta-webhook'
-import { Route as ApiPublicHooksKeywordSnapshotRouteImport } from './routes/api/public/hooks/keyword-snapshot'
-import { Route as ApiPublicHooksContactAlertRouteImport } from './routes/api/public/hooks/contact-alert'
-import { Route as ApiPublicHooksAutopilotRouteImport } from './routes/api/public/hooks/autopilot'
+import { Route as TesisatciSlugIndexRouteImport } from './routes/tesisatci.$slug.index'
+import { Route as TesisatciSlugServiceRouteImport } from './routes/tesisatci.$slug.$service'
 import { Route as ApiPublicHooksAutomationRouteImport } from './routes/api/public/hooks/automation'
+import { Route as ApiPublicHooksAutopilotRouteImport } from './routes/api/public/hooks/autopilot'
+import { Route as ApiPublicHooksContactAlertRouteImport } from './routes/api/public/hooks/contact-alert'
+import { Route as ApiPublicHooksKeywordSnapshotRouteImport } from './routes/api/public/hooks/keyword-snapshot'
+import { Route as ApiPublicHooksMetaWebhookRouteImport } from './routes/api/public/hooks/meta-webhook'
+import { Route as ApiPublicHooksPublishSocialRouteImport } from './routes/api/public/hooks/publish-social'
+import { Route as ApiPublicHooksRefreshAnalyticsRouteImport } from './routes/api/public/hooks/refresh-analytics'
+import { Route as ApiPublicRCodeRouteImport } from './routes/api/public/r/$code'
+import { Route as LovableEmailQueueProcessRouteImport } from './routes/lovable/email/queue/process'
+import { Route as TesisatciSlugMahalleNeighborhoodRouteImport } from './routes/tesisatci.$slug.mahalle.$neighborhood'
 
-const StudioRoute = StudioRouteImport.update({
-  id: '/studio',
-  path: '/studio',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
-  id: '/sitemap.xml',
-  path: '/sitemap.xml',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const RandevuRoute = RandevuRouteImport.update({
-  id: '/randevu',
-  path: '/randevu',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const OgImageDotjpgRoute = OgImageDotjpgRouteImport.update({
-  id: '/og-image.jpg',
-  path: '/og-image.jpg',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const KvkkRoute = KvkkRouteImport.update({
-  id: '/kvkk',
-  path: '/kvkk',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const IndexDurumuBanglaRoute = IndexDurumuBanglaRouteImport.update({
-  id: '/index-durumu-bangla',
-  path: '/index-durumu-bangla',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const HizmetlerRoute = HizmetlerRouteImport.update({
-  id: '/hizmetler',
-  path: '/hizmetler',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const GoogleAdsKurulumRoute = GoogleAdsKurulumRouteImport.update({
-  id: '/google-ads-kurulum',
-  path: '/google-ads-kurulum',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const GoogleAdsRoute = GoogleAdsRouteImport.update({
-  id: '/google-ads',
-  path: '/google-ads',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const DisavowRoute = DisavowRouteImport.update({
-  id: '/disavow',
-  path: '/disavow',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const CerezPolitikasiRoute = CerezPolitikasiRouteImport.update({
-  id: '/cerez-politikasi',
-  path: '/cerez-politikasi',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const BlogYazmaRehberiRoute = BlogYazmaRehberiRouteImport.update({
-  id: '/blog-yazma-rehberi',
-  path: '/blog-yazma-rehberi',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const AdminRoute = AdminRouteImport.update({
-  id: '/admin',
-  path: '/admin',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const AcilTesisatciRoute = AcilTesisatciRouteImport.update({
-  id: '/acil-tesisatci',
-  path: '/acil-tesisatci',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SEOOverviewBanglaRoute = SEOOverviewBanglaRouteImport.update({
-  id: '/SEO-overview-bangla',
-  path: '/SEO-overview-bangla',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SEOOverviewRoute = SEOOverviewRouteImport.update({
-  id: '/SEO-overview',
-  path: '/SEO-overview',
+const IndexRoute = IndexRouteImport.update({
+  id: '/',
+  path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const DesktopViewRoute = DesktopViewRouteImport.update({
@@ -145,19 +70,84 @@ const DesktopViewRoute = DesktopViewRouteImport.update({
   path: '/Desktop-view',
   getParentRoute: () => rootRouteImport,
 } as any)
-const IndexRoute = IndexRouteImport.update({
-  id: '/',
-  path: '/',
+const SEOOverviewRoute = SEOOverviewRouteImport.update({
+  id: '/SEO-overview',
+  path: '/SEO-overview',
   getParentRoute: () => rootRouteImport,
 } as any)
-const TesisatciIndexRoute = TesisatciIndexRouteImport.update({
-  id: '/tesisatci/',
-  path: '/tesisatci/',
+const SEOOverviewBanglaRoute = SEOOverviewBanglaRouteImport.update({
+  id: '/SEO-overview-bangla',
+  path: '/SEO-overview-bangla',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BlogIndexRoute = BlogIndexRouteImport.update({
-  id: '/blog/',
-  path: '/blog/',
+const AcilTesisatciRoute = AcilTesisatciRouteImport.update({
+  id: '/acil-tesisatci',
+  path: '/acil-tesisatci',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AdminRoute = AdminRouteImport.update({
+  id: '/admin',
+  path: '/admin',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogYazmaRehberiRoute = BlogYazmaRehberiRouteImport.update({
+  id: '/blog-yazma-rehberi',
+  path: '/blog-yazma-rehberi',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CerezPolitikasiRoute = CerezPolitikasiRouteImport.update({
+  id: '/cerez-politikasi',
+  path: '/cerez-politikasi',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DisavowRoute = DisavowRouteImport.update({
+  id: '/disavow',
+  path: '/disavow',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GoogleAdsRoute = GoogleAdsRouteImport.update({
+  id: '/google-ads',
+  path: '/google-ads',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GoogleAdsKurulumRoute = GoogleAdsKurulumRouteImport.update({
+  id: '/google-ads-kurulum',
+  path: '/google-ads-kurulum',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HizmetlerRoute = HizmetlerRouteImport.update({
+  id: '/hizmetler',
+  path: '/hizmetler',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const IndexDurumuBanglaRoute = IndexDurumuBanglaRouteImport.update({
+  id: '/index-durumu-bangla',
+  path: '/index-durumu-bangla',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const KvkkRoute = KvkkRouteImport.update({
+  id: '/kvkk',
+  path: '/kvkk',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OgImageDotjpgRoute = OgImageDotjpgRouteImport.update({
+  id: '/og-image.jpg',
+  path: '/og-image.jpg',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RandevuRoute = RandevuRouteImport.update({
+  id: '/randevu',
+  path: '/randevu',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
+  id: '/sitemap.xml',
+  path: '/sitemap.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const StudioRoute = StudioRouteImport.update({
+  id: '/studio',
+  path: '/studio',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AdminIndexRoute = AdminIndexRouteImport.update({
@@ -165,69 +155,9 @@ const AdminIndexRoute = AdminIndexRouteImport.update({
   path: '/',
   getParentRoute: () => AdminRoute,
 } as any)
-const TesisatciSlugRoute = TesisatciSlugRouteImport.update({
-  id: '/tesisatci/$slug',
-  path: '/tesisatci/$slug',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const StudioLoginRoute = StudioLoginRouteImport.update({
-  id: '/login',
-  path: '/login',
-  getParentRoute: () => StudioRoute,
-} as any)
-const HizmetSlugRoute = HizmetSlugRouteImport.update({
-  id: '/hizmet/$slug',
-  path: '/hizmet/$slug',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const BlogSlugRoute = BlogSlugRouteImport.update({
-  id: '/blog/$slug',
-  path: '/blog/$slug',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const AdminSeoWriterRoute = AdminSeoWriterRouteImport.update({
-  id: '/seo-writer',
-  path: '/seo-writer',
-  getParentRoute: () => AdminRoute,
-} as any)
-const AdminSeoDataRoute = AdminSeoDataRouteImport.update({
-  id: '/seo-data',
-  path: '/seo-data',
-  getParentRoute: () => AdminRoute,
-} as any)
-const AdminSearchConsoleRoute = AdminSearchConsoleRouteImport.update({
-  id: '/search-console',
-  path: '/search-console',
-  getParentRoute: () => AdminRoute,
-} as any)
-const AdminReviewsRoute = AdminReviewsRouteImport.update({
-  id: '/reviews',
-  path: '/reviews',
-  getParentRoute: () => AdminRoute,
-} as any)
-const AdminPipelineRoute = AdminPipelineRouteImport.update({
-  id: '/pipeline',
-  path: '/pipeline',
-  getParentRoute: () => AdminRoute,
-} as any)
-const AdminLoginRoute = AdminLoginRouteImport.update({
-  id: '/login',
-  path: '/login',
-  getParentRoute: () => AdminRoute,
-} as any)
-const AdminKeywordsRoute = AdminKeywordsRouteImport.update({
-  id: '/keywords',
-  path: '/keywords',
-  getParentRoute: () => AdminRoute,
-} as any)
-const AdminEventsRoute = AdminEventsRouteImport.update({
-  id: '/events',
-  path: '/events',
-  getParentRoute: () => AdminRoute,
-} as any)
-const AdminContactClicksRoute = AdminContactClicksRouteImport.update({
-  id: '/contact-clicks',
-  path: '/contact-clicks',
+const AdminBookingsRoute = AdminBookingsRouteImport.update({
+  id: '/bookings',
+  path: '/bookings',
   getParentRoute: () => AdminRoute,
 } as any)
 const AdminCallbacksRoute = AdminCallbacksRouteImport.update({
@@ -235,64 +165,116 @@ const AdminCallbacksRoute = AdminCallbacksRouteImport.update({
   path: '/callbacks',
   getParentRoute: () => AdminRoute,
 } as any)
-const AdminBookingsRoute = AdminBookingsRouteImport.update({
-  id: '/bookings',
-  path: '/bookings',
+const AdminContactClicksRoute = AdminContactClicksRouteImport.update({
+  id: '/contact-clicks',
+  path: '/contact-clicks',
   getParentRoute: () => AdminRoute,
 } as any)
-const TesisatciSlugIndexRoute = TesisatciSlugIndexRouteImport.update({
-  id: '/',
-  path: '/',
-  getParentRoute: () => TesisatciSlugRoute,
+const AdminEventsRoute = AdminEventsRouteImport.update({
+  id: '/events',
+  path: '/events',
+  getParentRoute: () => AdminRoute,
+} as any)
+const AdminKeywordsRoute = AdminKeywordsRouteImport.update({
+  id: '/keywords',
+  path: '/keywords',
+  getParentRoute: () => AdminRoute,
+} as any)
+const AdminLoginRoute = AdminLoginRouteImport.update({
+  id: '/login',
+  path: '/login',
+  getParentRoute: () => AdminRoute,
+} as any)
+const AdminPipelineRoute = AdminPipelineRouteImport.update({
+  id: '/pipeline',
+  path: '/pipeline',
+  getParentRoute: () => AdminRoute,
+} as any)
+const AdminReviewsRoute = AdminReviewsRouteImport.update({
+  id: '/reviews',
+  path: '/reviews',
+  getParentRoute: () => AdminRoute,
+} as any)
+const AdminSearchConsoleRoute = AdminSearchConsoleRouteImport.update({
+  id: '/search-console',
+  path: '/search-console',
+  getParentRoute: () => AdminRoute,
+} as any)
+const AdminSeoDataRoute = AdminSeoDataRouteImport.update({
+  id: '/seo-data',
+  path: '/seo-data',
+  getParentRoute: () => AdminRoute,
+} as any)
+const AdminSeoWriterRoute = AdminSeoWriterRouteImport.update({
+  id: '/seo-writer',
+  path: '/seo-writer',
+  getParentRoute: () => AdminRoute,
+} as any)
+const BlogIndexRoute = BlogIndexRouteImport.update({
+  id: '/blog/',
+  path: '/blog/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogSlugRoute = BlogSlugRouteImport.update({
+  id: '/blog/$slug',
+  path: '/blog/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HizmetSlugRoute = HizmetSlugRouteImport.update({
+  id: '/hizmet/$slug',
+  path: '/hizmet/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const StudioLoginRoute = StudioLoginRouteImport.update({
+  id: '/login',
+  path: '/login',
+  getParentRoute: () => StudioRoute,
+} as any)
+const TesisatciIndexRoute = TesisatciIndexRouteImport.update({
+  id: '/tesisatci/',
+  path: '/tesisatci/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TesisatciSlugRoute = TesisatciSlugRouteImport.update({
+  id: '/tesisatci/$slug',
+  path: '/tesisatci/$slug',
+  getParentRoute: () => rootRouteImport,
 } as any)
 const HizmetSlugIndexRoute = HizmetSlugIndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => HizmetSlugRoute,
 } as any)
-const TesisatciSlugServiceRoute = TesisatciSlugServiceRouteImport.update({
-  id: '/$service',
-  path: '/$service',
-  getParentRoute: () => TesisatciSlugRoute,
-} as any)
 const HizmetSlugFiyatRoute = HizmetSlugFiyatRouteImport.update({
   id: '/fiyat',
   path: '/fiyat',
   getParentRoute: () => HizmetSlugRoute,
 } as any)
-const TesisatciSlugMahalleNeighborhoodRoute =
-  TesisatciSlugMahalleNeighborhoodRouteImport.update({
-    id: '/mahalle/$neighborhood',
-    path: '/mahalle/$neighborhood',
-    getParentRoute: () => TesisatciSlugRoute,
-  } as any)
-const LovableEmailQueueProcessRoute =
-  LovableEmailQueueProcessRouteImport.update({
-    id: '/lovable/email/queue/process',
-    path: '/lovable/email/queue/process',
+const TesisatciSlugIndexRoute = TesisatciSlugIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => TesisatciSlugRoute,
+} as any)
+const TesisatciSlugServiceRoute = TesisatciSlugServiceRouteImport.update({
+  id: '/$service',
+  path: '/$service',
+  getParentRoute: () => TesisatciSlugRoute,
+} as any)
+const ApiPublicHooksAutomationRoute =
+  ApiPublicHooksAutomationRouteImport.update({
+    id: '/api/public/hooks/automation',
+    path: '/api/public/hooks/automation',
     getParentRoute: () => rootRouteImport,
   } as any)
-const ApiPublicRCodeRoute = ApiPublicRCodeRouteImport.update({
-  id: '/api/public/r/$code',
-  path: '/api/public/r/$code',
+const ApiPublicHooksAutopilotRoute = ApiPublicHooksAutopilotRouteImport.update({
+  id: '/api/public/hooks/autopilot',
+  path: '/api/public/hooks/autopilot',
   getParentRoute: () => rootRouteImport,
 } as any)
-const ApiPublicHooksRefreshAnalyticsRoute =
-  ApiPublicHooksRefreshAnalyticsRouteImport.update({
-    id: '/api/public/hooks/refresh-analytics',
-    path: '/api/public/hooks/refresh-analytics',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const ApiPublicHooksPublishSocialRoute =
-  ApiPublicHooksPublishSocialRouteImport.update({
-    id: '/api/public/hooks/publish-social',
-    path: '/api/public/hooks/publish-social',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const ApiPublicHooksMetaWebhookRoute =
-  ApiPublicHooksMetaWebhookRouteImport.update({
-    id: '/api/public/hooks/meta-webhook',
-    path: '/api/public/hooks/meta-webhook',
+const ApiPublicHooksContactAlertRoute =
+  ApiPublicHooksContactAlertRouteImport.update({
+    id: '/api/public/hooks/contact-alert',
+    path: '/api/public/hooks/contact-alert',
     getParentRoute: () => rootRouteImport,
   } as any)
 const ApiPublicHooksKeywordSnapshotRoute =
@@ -301,22 +283,40 @@ const ApiPublicHooksKeywordSnapshotRoute =
     path: '/api/public/hooks/keyword-snapshot',
     getParentRoute: () => rootRouteImport,
   } as any)
-const ApiPublicHooksContactAlertRoute =
-  ApiPublicHooksContactAlertRouteImport.update({
-    id: '/api/public/hooks/contact-alert',
-    path: '/api/public/hooks/contact-alert',
+const ApiPublicHooksMetaWebhookRoute =
+  ApiPublicHooksMetaWebhookRouteImport.update({
+    id: '/api/public/hooks/meta-webhook',
+    path: '/api/public/hooks/meta-webhook',
     getParentRoute: () => rootRouteImport,
   } as any)
-const ApiPublicHooksAutopilotRoute = ApiPublicHooksAutopilotRouteImport.update({
-  id: '/api/public/hooks/autopilot',
-  path: '/api/public/hooks/autopilot',
+const ApiPublicHooksPublishSocialRoute =
+  ApiPublicHooksPublishSocialRouteImport.update({
+    id: '/api/public/hooks/publish-social',
+    path: '/api/public/hooks/publish-social',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ApiPublicHooksRefreshAnalyticsRoute =
+  ApiPublicHooksRefreshAnalyticsRouteImport.update({
+    id: '/api/public/hooks/refresh-analytics',
+    path: '/api/public/hooks/refresh-analytics',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ApiPublicRCodeRoute = ApiPublicRCodeRouteImport.update({
+  id: '/api/public/r/$code',
+  path: '/api/public/r/$code',
   getParentRoute: () => rootRouteImport,
 } as any)
-const ApiPublicHooksAutomationRoute =
-  ApiPublicHooksAutomationRouteImport.update({
-    id: '/api/public/hooks/automation',
-    path: '/api/public/hooks/automation',
+const LovableEmailQueueProcessRoute =
+  LovableEmailQueueProcessRouteImport.update({
+    id: '/lovable/email/queue/process',
+    path: '/lovable/email/queue/process',
     getParentRoute: () => rootRouteImport,
+  } as any)
+const TesisatciSlugMahalleNeighborhoodRoute =
+  TesisatciSlugMahalleNeighborhoodRouteImport.update({
+    id: '/mahalle/$neighborhood',
+    path: '/mahalle/$neighborhood',
+    getParentRoute: () => TesisatciSlugRoute,
   } as any)
 
 export interface FileRoutesByFullPath {
@@ -666,116 +666,11 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/studio': {
-      id: '/studio'
-      path: '/studio'
-      fullPath: '/studio'
-      preLoaderRoute: typeof StudioRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/sitemap.xml': {
-      id: '/sitemap.xml'
-      path: '/sitemap.xml'
-      fullPath: '/sitemap.xml'
-      preLoaderRoute: typeof SitemapDotxmlRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/randevu': {
-      id: '/randevu'
-      path: '/randevu'
-      fullPath: '/randevu'
-      preLoaderRoute: typeof RandevuRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/og-image.jpg': {
-      id: '/og-image.jpg'
-      path: '/og-image.jpg'
-      fullPath: '/og-image.jpg'
-      preLoaderRoute: typeof OgImageDotjpgRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/kvkk': {
-      id: '/kvkk'
-      path: '/kvkk'
-      fullPath: '/kvkk'
-      preLoaderRoute: typeof KvkkRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/index-durumu-bangla': {
-      id: '/index-durumu-bangla'
-      path: '/index-durumu-bangla'
-      fullPath: '/index-durumu-bangla'
-      preLoaderRoute: typeof IndexDurumuBanglaRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/hizmetler': {
-      id: '/hizmetler'
-      path: '/hizmetler'
-      fullPath: '/hizmetler'
-      preLoaderRoute: typeof HizmetlerRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/google-ads-kurulum': {
-      id: '/google-ads-kurulum'
-      path: '/google-ads-kurulum'
-      fullPath: '/google-ads-kurulum'
-      preLoaderRoute: typeof GoogleAdsKurulumRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/google-ads': {
-      id: '/google-ads'
-      path: '/google-ads'
-      fullPath: '/google-ads'
-      preLoaderRoute: typeof GoogleAdsRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/disavow': {
-      id: '/disavow'
-      path: '/disavow'
-      fullPath: '/disavow'
-      preLoaderRoute: typeof DisavowRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/cerez-politikasi': {
-      id: '/cerez-politikasi'
-      path: '/cerez-politikasi'
-      fullPath: '/cerez-politikasi'
-      preLoaderRoute: typeof CerezPolitikasiRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/blog-yazma-rehberi': {
-      id: '/blog-yazma-rehberi'
-      path: '/blog-yazma-rehberi'
-      fullPath: '/blog-yazma-rehberi'
-      preLoaderRoute: typeof BlogYazmaRehberiRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/admin': {
-      id: '/admin'
-      path: '/admin'
-      fullPath: '/admin'
-      preLoaderRoute: typeof AdminRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/acil-tesisatci': {
-      id: '/acil-tesisatci'
-      path: '/acil-tesisatci'
-      fullPath: '/acil-tesisatci'
-      preLoaderRoute: typeof AcilTesisatciRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/SEO-overview-bangla': {
-      id: '/SEO-overview-bangla'
-      path: '/SEO-overview-bangla'
-      fullPath: '/SEO-overview-bangla'
-      preLoaderRoute: typeof SEOOverviewBanglaRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/SEO-overview': {
-      id: '/SEO-overview'
-      path: '/SEO-overview'
-      fullPath: '/SEO-overview'
-      preLoaderRoute: typeof SEOOverviewRouteImport
+    '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/Desktop-view': {
@@ -785,25 +680,116 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DesktopViewRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/': {
-      id: '/'
-      path: '/'
-      fullPath: '/'
-      preLoaderRoute: typeof IndexRouteImport
+    '/SEO-overview': {
+      id: '/SEO-overview'
+      path: '/SEO-overview'
+      fullPath: '/SEO-overview'
+      preLoaderRoute: typeof SEOOverviewRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/tesisatci/': {
-      id: '/tesisatci/'
-      path: '/tesisatci'
-      fullPath: '/tesisatci/'
-      preLoaderRoute: typeof TesisatciIndexRouteImport
+    '/SEO-overview-bangla': {
+      id: '/SEO-overview-bangla'
+      path: '/SEO-overview-bangla'
+      fullPath: '/SEO-overview-bangla'
+      preLoaderRoute: typeof SEOOverviewBanglaRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blog/': {
-      id: '/blog/'
-      path: '/blog'
-      fullPath: '/blog/'
-      preLoaderRoute: typeof BlogIndexRouteImport
+    '/acil-tesisatci': {
+      id: '/acil-tesisatci'
+      path: '/acil-tesisatci'
+      fullPath: '/acil-tesisatci'
+      preLoaderRoute: typeof AcilTesisatciRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/admin': {
+      id: '/admin'
+      path: '/admin'
+      fullPath: '/admin'
+      preLoaderRoute: typeof AdminRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog-yazma-rehberi': {
+      id: '/blog-yazma-rehberi'
+      path: '/blog-yazma-rehberi'
+      fullPath: '/blog-yazma-rehberi'
+      preLoaderRoute: typeof BlogYazmaRehberiRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/cerez-politikasi': {
+      id: '/cerez-politikasi'
+      path: '/cerez-politikasi'
+      fullPath: '/cerez-politikasi'
+      preLoaderRoute: typeof CerezPolitikasiRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/disavow': {
+      id: '/disavow'
+      path: '/disavow'
+      fullPath: '/disavow'
+      preLoaderRoute: typeof DisavowRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/google-ads': {
+      id: '/google-ads'
+      path: '/google-ads'
+      fullPath: '/google-ads'
+      preLoaderRoute: typeof GoogleAdsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/google-ads-kurulum': {
+      id: '/google-ads-kurulum'
+      path: '/google-ads-kurulum'
+      fullPath: '/google-ads-kurulum'
+      preLoaderRoute: typeof GoogleAdsKurulumRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/hizmetler': {
+      id: '/hizmetler'
+      path: '/hizmetler'
+      fullPath: '/hizmetler'
+      preLoaderRoute: typeof HizmetlerRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/index-durumu-bangla': {
+      id: '/index-durumu-bangla'
+      path: '/index-durumu-bangla'
+      fullPath: '/index-durumu-bangla'
+      preLoaderRoute: typeof IndexDurumuBanglaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/kvkk': {
+      id: '/kvkk'
+      path: '/kvkk'
+      fullPath: '/kvkk'
+      preLoaderRoute: typeof KvkkRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/og-image.jpg': {
+      id: '/og-image.jpg'
+      path: '/og-image.jpg'
+      fullPath: '/og-image.jpg'
+      preLoaderRoute: typeof OgImageDotjpgRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/randevu': {
+      id: '/randevu'
+      path: '/randevu'
+      fullPath: '/randevu'
+      preLoaderRoute: typeof RandevuRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap.xml': {
+      id: '/sitemap.xml'
+      path: '/sitemap.xml'
+      fullPath: '/sitemap.xml'
+      preLoaderRoute: typeof SitemapDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/studio': {
+      id: '/studio'
+      path: '/studio'
+      fullPath: '/studio'
+      preLoaderRoute: typeof StudioRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/admin/': {
@@ -813,95 +799,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AdminIndexRouteImport
       parentRoute: typeof AdminRoute
     }
-    '/tesisatci/$slug': {
-      id: '/tesisatci/$slug'
-      path: '/tesisatci/$slug'
-      fullPath: '/tesisatci/$slug'
-      preLoaderRoute: typeof TesisatciSlugRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/studio/login': {
-      id: '/studio/login'
-      path: '/login'
-      fullPath: '/studio/login'
-      preLoaderRoute: typeof StudioLoginRouteImport
-      parentRoute: typeof StudioRoute
-    }
-    '/hizmet/$slug': {
-      id: '/hizmet/$slug'
-      path: '/hizmet/$slug'
-      fullPath: '/hizmet/$slug'
-      preLoaderRoute: typeof HizmetSlugRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/blog/$slug': {
-      id: '/blog/$slug'
-      path: '/blog/$slug'
-      fullPath: '/blog/$slug'
-      preLoaderRoute: typeof BlogSlugRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/admin/seo-writer': {
-      id: '/admin/seo-writer'
-      path: '/seo-writer'
-      fullPath: '/admin/seo-writer'
-      preLoaderRoute: typeof AdminSeoWriterRouteImport
-      parentRoute: typeof AdminRoute
-    }
-    '/admin/seo-data': {
-      id: '/admin/seo-data'
-      path: '/seo-data'
-      fullPath: '/admin/seo-data'
-      preLoaderRoute: typeof AdminSeoDataRouteImport
-      parentRoute: typeof AdminRoute
-    }
-    '/admin/search-console': {
-      id: '/admin/search-console'
-      path: '/search-console'
-      fullPath: '/admin/search-console'
-      preLoaderRoute: typeof AdminSearchConsoleRouteImport
-      parentRoute: typeof AdminRoute
-    }
-    '/admin/reviews': {
-      id: '/admin/reviews'
-      path: '/reviews'
-      fullPath: '/admin/reviews'
-      preLoaderRoute: typeof AdminReviewsRouteImport
-      parentRoute: typeof AdminRoute
-    }
-    '/admin/pipeline': {
-      id: '/admin/pipeline'
-      path: '/pipeline'
-      fullPath: '/admin/pipeline'
-      preLoaderRoute: typeof AdminPipelineRouteImport
-      parentRoute: typeof AdminRoute
-    }
-    '/admin/login': {
-      id: '/admin/login'
-      path: '/login'
-      fullPath: '/admin/login'
-      preLoaderRoute: typeof AdminLoginRouteImport
-      parentRoute: typeof AdminRoute
-    }
-    '/admin/keywords': {
-      id: '/admin/keywords'
-      path: '/keywords'
-      fullPath: '/admin/keywords'
-      preLoaderRoute: typeof AdminKeywordsRouteImport
-      parentRoute: typeof AdminRoute
-    }
-    '/admin/events': {
-      id: '/admin/events'
-      path: '/events'
-      fullPath: '/admin/events'
-      preLoaderRoute: typeof AdminEventsRouteImport
-      parentRoute: typeof AdminRoute
-    }
-    '/admin/contact-clicks': {
-      id: '/admin/contact-clicks'
-      path: '/contact-clicks'
-      fullPath: '/admin/contact-clicks'
-      preLoaderRoute: typeof AdminContactClicksRouteImport
+    '/admin/bookings': {
+      id: '/admin/bookings'
+      path: '/bookings'
+      fullPath: '/admin/bookings'
+      preLoaderRoute: typeof AdminBookingsRouteImport
       parentRoute: typeof AdminRoute
     }
     '/admin/callbacks': {
@@ -911,19 +813,110 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AdminCallbacksRouteImport
       parentRoute: typeof AdminRoute
     }
-    '/admin/bookings': {
-      id: '/admin/bookings'
-      path: '/bookings'
-      fullPath: '/admin/bookings'
-      preLoaderRoute: typeof AdminBookingsRouteImport
+    '/admin/contact-clicks': {
+      id: '/admin/contact-clicks'
+      path: '/contact-clicks'
+      fullPath: '/admin/contact-clicks'
+      preLoaderRoute: typeof AdminContactClicksRouteImport
       parentRoute: typeof AdminRoute
     }
-    '/tesisatci/$slug/': {
-      id: '/tesisatci/$slug/'
-      path: '/'
-      fullPath: '/tesisatci/$slug/'
-      preLoaderRoute: typeof TesisatciSlugIndexRouteImport
-      parentRoute: typeof TesisatciSlugRoute
+    '/admin/events': {
+      id: '/admin/events'
+      path: '/events'
+      fullPath: '/admin/events'
+      preLoaderRoute: typeof AdminEventsRouteImport
+      parentRoute: typeof AdminRoute
+    }
+    '/admin/keywords': {
+      id: '/admin/keywords'
+      path: '/keywords'
+      fullPath: '/admin/keywords'
+      preLoaderRoute: typeof AdminKeywordsRouteImport
+      parentRoute: typeof AdminRoute
+    }
+    '/admin/login': {
+      id: '/admin/login'
+      path: '/login'
+      fullPath: '/admin/login'
+      preLoaderRoute: typeof AdminLoginRouteImport
+      parentRoute: typeof AdminRoute
+    }
+    '/admin/pipeline': {
+      id: '/admin/pipeline'
+      path: '/pipeline'
+      fullPath: '/admin/pipeline'
+      preLoaderRoute: typeof AdminPipelineRouteImport
+      parentRoute: typeof AdminRoute
+    }
+    '/admin/reviews': {
+      id: '/admin/reviews'
+      path: '/reviews'
+      fullPath: '/admin/reviews'
+      preLoaderRoute: typeof AdminReviewsRouteImport
+      parentRoute: typeof AdminRoute
+    }
+    '/admin/search-console': {
+      id: '/admin/search-console'
+      path: '/search-console'
+      fullPath: '/admin/search-console'
+      preLoaderRoute: typeof AdminSearchConsoleRouteImport
+      parentRoute: typeof AdminRoute
+    }
+    '/admin/seo-data': {
+      id: '/admin/seo-data'
+      path: '/seo-data'
+      fullPath: '/admin/seo-data'
+      preLoaderRoute: typeof AdminSeoDataRouteImport
+      parentRoute: typeof AdminRoute
+    }
+    '/admin/seo-writer': {
+      id: '/admin/seo-writer'
+      path: '/seo-writer'
+      fullPath: '/admin/seo-writer'
+      preLoaderRoute: typeof AdminSeoWriterRouteImport
+      parentRoute: typeof AdminRoute
+    }
+    '/blog/': {
+      id: '/blog/'
+      path: '/blog'
+      fullPath: '/blog/'
+      preLoaderRoute: typeof BlogIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog/$slug': {
+      id: '/blog/$slug'
+      path: '/blog/$slug'
+      fullPath: '/blog/$slug'
+      preLoaderRoute: typeof BlogSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/hizmet/$slug': {
+      id: '/hizmet/$slug'
+      path: '/hizmet/$slug'
+      fullPath: '/hizmet/$slug'
+      preLoaderRoute: typeof HizmetSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/studio/login': {
+      id: '/studio/login'
+      path: '/login'
+      fullPath: '/studio/login'
+      preLoaderRoute: typeof StudioLoginRouteImport
+      parentRoute: typeof StudioRoute
+    }
+    '/tesisatci/': {
+      id: '/tesisatci/'
+      path: '/tesisatci'
+      fullPath: '/tesisatci/'
+      preLoaderRoute: typeof TesisatciIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/tesisatci/$slug': {
+      id: '/tesisatci/$slug'
+      path: '/tesisatci/$slug'
+      fullPath: '/tesisatci/$slug'
+      preLoaderRoute: typeof TesisatciSlugRouteImport
+      parentRoute: typeof rootRouteImport
     }
     '/hizmet/$slug/': {
       id: '/hizmet/$slug/'
@@ -932,13 +925,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof HizmetSlugIndexRouteImport
       parentRoute: typeof HizmetSlugRoute
     }
-    '/tesisatci/$slug/$service': {
-      id: '/tesisatci/$slug/$service'
-      path: '/$service'
-      fullPath: '/tesisatci/$slug/$service'
-      preLoaderRoute: typeof TesisatciSlugServiceRouteImport
-      parentRoute: typeof TesisatciSlugRoute
-    }
     '/hizmet/$slug/fiyat': {
       id: '/hizmet/$slug/fiyat'
       path: '/fiyat'
@@ -946,60 +932,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof HizmetSlugFiyatRouteImport
       parentRoute: typeof HizmetSlugRoute
     }
-    '/tesisatci/$slug/mahalle/$neighborhood': {
-      id: '/tesisatci/$slug/mahalle/$neighborhood'
-      path: '/mahalle/$neighborhood'
-      fullPath: '/tesisatci/$slug/mahalle/$neighborhood'
-      preLoaderRoute: typeof TesisatciSlugMahalleNeighborhoodRouteImport
+    '/tesisatci/$slug/': {
+      id: '/tesisatci/$slug/'
+      path: '/'
+      fullPath: '/tesisatci/$slug/'
+      preLoaderRoute: typeof TesisatciSlugIndexRouteImport
       parentRoute: typeof TesisatciSlugRoute
     }
-    '/lovable/email/queue/process': {
-      id: '/lovable/email/queue/process'
-      path: '/lovable/email/queue/process'
-      fullPath: '/lovable/email/queue/process'
-      preLoaderRoute: typeof LovableEmailQueueProcessRouteImport
-      parentRoute: typeof rootRouteImport
+    '/tesisatci/$slug/$service': {
+      id: '/tesisatci/$slug/$service'
+      path: '/$service'
+      fullPath: '/tesisatci/$slug/$service'
+      preLoaderRoute: typeof TesisatciSlugServiceRouteImport
+      parentRoute: typeof TesisatciSlugRoute
     }
-    '/api/public/r/$code': {
-      id: '/api/public/r/$code'
-      path: '/api/public/r/$code'
-      fullPath: '/api/public/r/$code'
-      preLoaderRoute: typeof ApiPublicRCodeRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/api/public/hooks/refresh-analytics': {
-      id: '/api/public/hooks/refresh-analytics'
-      path: '/api/public/hooks/refresh-analytics'
-      fullPath: '/api/public/hooks/refresh-analytics'
-      preLoaderRoute: typeof ApiPublicHooksRefreshAnalyticsRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/api/public/hooks/publish-social': {
-      id: '/api/public/hooks/publish-social'
-      path: '/api/public/hooks/publish-social'
-      fullPath: '/api/public/hooks/publish-social'
-      preLoaderRoute: typeof ApiPublicHooksPublishSocialRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/api/public/hooks/meta-webhook': {
-      id: '/api/public/hooks/meta-webhook'
-      path: '/api/public/hooks/meta-webhook'
-      fullPath: '/api/public/hooks/meta-webhook'
-      preLoaderRoute: typeof ApiPublicHooksMetaWebhookRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/api/public/hooks/keyword-snapshot': {
-      id: '/api/public/hooks/keyword-snapshot'
-      path: '/api/public/hooks/keyword-snapshot'
-      fullPath: '/api/public/hooks/keyword-snapshot'
-      preLoaderRoute: typeof ApiPublicHooksKeywordSnapshotRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/api/public/hooks/contact-alert': {
-      id: '/api/public/hooks/contact-alert'
-      path: '/api/public/hooks/contact-alert'
-      fullPath: '/api/public/hooks/contact-alert'
-      preLoaderRoute: typeof ApiPublicHooksContactAlertRouteImport
+    '/api/public/hooks/automation': {
+      id: '/api/public/hooks/automation'
+      path: '/api/public/hooks/automation'
+      fullPath: '/api/public/hooks/automation'
+      preLoaderRoute: typeof ApiPublicHooksAutomationRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/api/public/hooks/autopilot': {
@@ -1009,12 +960,61 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ApiPublicHooksAutopilotRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/api/public/hooks/automation': {
-      id: '/api/public/hooks/automation'
-      path: '/api/public/hooks/automation'
-      fullPath: '/api/public/hooks/automation'
-      preLoaderRoute: typeof ApiPublicHooksAutomationRouteImport
+    '/api/public/hooks/contact-alert': {
+      id: '/api/public/hooks/contact-alert'
+      path: '/api/public/hooks/contact-alert'
+      fullPath: '/api/public/hooks/contact-alert'
+      preLoaderRoute: typeof ApiPublicHooksContactAlertRouteImport
       parentRoute: typeof rootRouteImport
+    }
+    '/api/public/hooks/keyword-snapshot': {
+      id: '/api/public/hooks/keyword-snapshot'
+      path: '/api/public/hooks/keyword-snapshot'
+      fullPath: '/api/public/hooks/keyword-snapshot'
+      preLoaderRoute: typeof ApiPublicHooksKeywordSnapshotRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/public/hooks/meta-webhook': {
+      id: '/api/public/hooks/meta-webhook'
+      path: '/api/public/hooks/meta-webhook'
+      fullPath: '/api/public/hooks/meta-webhook'
+      preLoaderRoute: typeof ApiPublicHooksMetaWebhookRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/public/hooks/publish-social': {
+      id: '/api/public/hooks/publish-social'
+      path: '/api/public/hooks/publish-social'
+      fullPath: '/api/public/hooks/publish-social'
+      preLoaderRoute: typeof ApiPublicHooksPublishSocialRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/public/hooks/refresh-analytics': {
+      id: '/api/public/hooks/refresh-analytics'
+      path: '/api/public/hooks/refresh-analytics'
+      fullPath: '/api/public/hooks/refresh-analytics'
+      preLoaderRoute: typeof ApiPublicHooksRefreshAnalyticsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/public/r/$code': {
+      id: '/api/public/r/$code'
+      path: '/api/public/r/$code'
+      fullPath: '/api/public/r/$code'
+      preLoaderRoute: typeof ApiPublicRCodeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/lovable/email/queue/process': {
+      id: '/lovable/email/queue/process'
+      path: '/lovable/email/queue/process'
+      fullPath: '/lovable/email/queue/process'
+      preLoaderRoute: typeof LovableEmailQueueProcessRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/tesisatci/$slug/mahalle/$neighborhood': {
+      id: '/tesisatci/$slug/mahalle/$neighborhood'
+      path: '/mahalle/$neighborhood'
+      fullPath: '/tesisatci/$slug/mahalle/$neighborhood'
+      preLoaderRoute: typeof TesisatciSlugMahalleNeighborhoodRouteImport
+      parentRoute: typeof TesisatciSlugRoute
     }
   }
 }
