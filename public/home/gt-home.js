@@ -138,7 +138,7 @@ if(FINE)hero.addEventListener('mousemove',e=>{const r=hero.getBoundingClientRect
 
 /* ---------- 3. Photo card ---------- */
 const PHOTOS=[
-  {img:'bath',tag:'Belgeli iş',t:'Tam Restorasyon',s:'Banyo Alt Zemin Onarımı',loc:'Maltepe',when:'bugün • belgeli iş',pos:'50% 40%'},{img:'boilerShell',tag:'Ticari',t:'Kombi Devreye Alma',s:'Plaza girişindeki ticari kombi',loc:'Levent',when:'Saha standardı',pos:'40% 20%'},{img:'floor',tag:'Disiplin',t:'Zemin Koruma Protokolü',s:'Ekipmandan önce markalı zemin koruması',loc:'Etiler',when:'Her ziyarette',pos:'60% 80%'},{img:'mainline',tag:'Ana hat',t:'Dış Ana Hat Müdahalesi',s:'Karot + noktasal hassasiyet',loc:'Sarıyer',when:'Saha standardı',pos:'20% 50%'},{img:'ceiling',tag:'Gizli hat',t:'Tavan Açma · Hat Tespiti',s:'Termal + akustik ölçüm, minimum kırım',loc:'Kadıköy',when:'Saha standardı',pos:'50% 0%'},{img:'gasDig',tag:'Doğalgaz',t:'Doğalgaz Hattı Onarımı',s:'Sertifikalı doğalgaz hattı işi',loc:'Sancaktepe',when:'Saha standardı',pos:'80% 60%'}];
+  {img:'bath',tag:'Belgeli iş',t:'Tam Restorasyon',s:'Banyo Alt Zemin Onarımı',loc:'Maltepe',when:'bugün • belgeli iş',pos:'50% 40%'},{img:'boilerShell',tag:'Ticari',t:'Kombi Devreye Alma',s:'Plaza girişindeki ticari kombi',loc:'Levent',when:'Saha standardı',pos:'40% 20%'},{img:'floor',tag:'Disiplin',t:'Zemin Koruma Protokolü',s:'Ekipmandan önce markalı zemin koruması',loc:'Etiler',when:'Her ziyarette',pos:'60% 80%'},{img:'mainline',tag:'Ana hat',t:'Dış Ana Hat Müdahalesi',s:'Karot + noktasal hassasiyet',loc:'Sarıyer',when:'Saha standardı',pos:'20% 50%'},{img:'ceiling',tag:'Gizli hat',t:'Tavan Açma · Hat Tespiti',s:'Termal + akustik ölçüm, minimum kırım',loc:'Kadıköy',when:'Saha standardı',pos:'50% 0%'},{img:'gasDig',tag:'Doğalgaz',t:'Doğalgaz Hattı Onarımı',s:'Doğalgaz hattı işi',loc:'Sancaktepe',when:'Saha standardı',pos:'80% 60%'}];
 const DUR=5500,card=$('#card'),slides=$('#slides'),segs=$('#segs'),thumbs=$('#thumbs'),cap=$('#cap');
 card.style.setProperty('--dur',DUR+'ms');thumbs.style.setProperty('--dur',DUR+'ms');
 PHOTOS.forEach((p,i)=>{
@@ -257,7 +257,7 @@ hero.addEventListener('pointerdown',e=>{if(RM)return;const r=hero.getBoundingCli
 
 /* 3. Photo card */
 const PHOTOS=[
-  {img:'bath',tag:'Belgeli iş',t:'Tam Restorasyon',s:'Banyo Alt Zemin Onarımı',loc:'Maltepe',when:'bugün • belgeli iş',pos:'50% 40%'},{img:'boilerShell',tag:'Ticari',t:'Kombi Devreye Alma',s:'Plaza girişindeki ticari kombi',loc:'Levent',when:'Saha standardı',pos:'40% 20%'},{img:'floor',tag:'Disiplin',t:'Zemin Koruma Protokolü',s:'Ekipmandan önce markalı zemin koruması',loc:'Etiler',when:'Her ziyarette',pos:'60% 80%'},{img:'mainline',tag:'Ana hat',t:'Dış Ana Hat Müdahalesi',s:'Karot + noktasal hassasiyet',loc:'Sarıyer',when:'Saha standardı',pos:'20% 50%'},{img:'ceiling',tag:'Gizli hat',t:'Tavan Açma · Hat Tespiti',s:'Termal + akustik ölçüm, minimum kırım',loc:'Kadıköy',when:'Saha standardı',pos:'50% 0%'},{img:'gasDig',tag:'Doğalgaz',t:'Doğalgaz Hattı Onarımı',s:'Sertifikalı doğalgaz hattı işi',loc:'Sancaktepe',when:'Saha standardı',pos:'80% 60%'}];
+  {img:'bath',tag:'Belgeli iş',t:'Tam Restorasyon',s:'Banyo Alt Zemin Onarımı',loc:'Maltepe',when:'bugün • belgeli iş',pos:'50% 40%'},{img:'boilerShell',tag:'Ticari',t:'Kombi Devreye Alma',s:'Plaza girişindeki ticari kombi',loc:'Levent',when:'Saha standardı',pos:'40% 20%'},{img:'floor',tag:'Disiplin',t:'Zemin Koruma Protokolü',s:'Ekipmandan önce markalı zemin koruması',loc:'Etiler',when:'Her ziyarette',pos:'60% 80%'},{img:'mainline',tag:'Ana hat',t:'Dış Ana Hat Müdahalesi',s:'Karot + noktasal hassasiyet',loc:'Sarıyer',when:'Saha standardı',pos:'20% 50%'},{img:'ceiling',tag:'Gizli hat',t:'Tavan Açma · Hat Tespiti',s:'Termal + akustik ölçüm, minimum kırım',loc:'Kadıköy',when:'Saha standardı',pos:'50% 0%'},{img:'gasDig',tag:'Doğalgaz',t:'Doğalgaz Hattı Onarımı',s:'Doğalgaz hattı işi',loc:'Sancaktepe',when:'Saha standardı',pos:'80% 60%'}];
 const DUR=5500,card=$('#card'),slides=$('#slides'),segs=$('#segs'),thumbs=$('#thumbs'),cap=$('#cap');
 card.style.setProperty('--dur',DUR+'ms');thumbs.style.setProperty('--dur',DUR+'ms');
 PHOTOS.forEach((p,i)=>{
@@ -673,7 +673,7 @@ function pick(i,fromMap){const e=els[i];els.forEach(o=>o.g.classList.remove('sel
   const sideName=e.side==='eu'?'Avrupa Yakası':'Anadolu Yakası',avg=e.side==='eu'?'28 dk':'32 dk',vn=e.side==='eu'?'4 vehicles':'3 vehicles';
   const wa='https://wa.me/905338960503?text='+encodeURIComponent('Merhaba Gölge Tesisat, şu ilçedeyim: '+e.name+' ('+sideName+') ve tesisatçıya ihtiyacım var.');
   $('#result').innerHTML='<div class="r-card"><div class="r-ok"><svg class="ck" viewBox="0 0 52 52"><circle cx="26" cy="26" r="22"/><path d="M15 27l7 7 15-16"/></svg><div><small>Evet, hizmet var</small><b>'+e.name+'</b></div></div>'+
-    '<div class="r-rows"><div class="r-row"><span>Yaka</span><b>'+sideName+'</b></div><div class="r-row"><span>Ortalama varış</span><b>'+avg+'</b></div><div class="r-row"><span>Şu an bu yakada</span><b>'+vn+'</b></div></div>'+
+    '<div class="r-rows"><div class="r-row"><span>Yaka</span><b>'+sideName+'</b></div><div class="r-row"><span>Ortalama varış</span><b>'+avg+'</b></div></div>'+
     '<div class="r-road" style="margin-top:10px" aria-hidden="true"><span class="v"><svg><use href="#i-van"/></svg></span><svg class="p"><use href="#i-pin"/></svg></div></div>'+
     '<div class="r-acts"><a class="btn btn-red" href="tel:+905338960503"><svg class="ico"><use href="#i-phone"/></svg>Ara</a><a class="btn btn-wa" href="'+wa+'"><svg class="ico"><use href="#i-wa"/></svg>WhatsApp</a></div>';
   $('#dq').value=e.name;$('#sugg').classList.remove('on');
@@ -873,7 +873,7 @@ addEventListener('resize',()=>tip(cur));
 
 /* ===== GALLERY ===== */
 const G=[
- {img:'boilerCommercial',cat:'TİCARİ',t:'Ofis Girişindeki Kombi',sz:'big',pos:'40% 25%'},{img:'gasInstall',cat:'DOĞALGAZ',t:'Sertifikalı Kaynak',sz:'tall',pos:'20% 50%'},{img:'bathLeak',cat:'KAÇAK',t:'Banyo Altı Kaçak',sz:'',pos:'50% 80%'},{img:'villa',cat:'VİLLA',t:'İç Hatların Açılması',sz:'',pos:'80% 40%'},{img:'storefront',cat:'DIŞ CEPHE',t:'Sayaçtan Cihaza Hat',sz:'wide',pos:'70% 60%'},{img:'floorEntry',cat:'DİSİPLİN',t:'Önce Zemin Koruma',sz:'wide',pos:'50% 95%'}];
+ {img:'boilerCommercial',cat:'TİCARİ',t:'Ofis Girişindeki Kombi',sz:'big',pos:'40% 25%'},{img:'gasInstall',cat:'DOĞALGAZ',t:'Doğalgaz Kaynağı',sz:'tall',pos:'20% 50%'},{img:'bathLeak',cat:'KAÇAK',t:'Banyo Altı Kaçak',sz:'',pos:'50% 80%'},{img:'villa',cat:'VİLLA',t:'İç Hatların Açılması',sz:'',pos:'80% 40%'},{img:'storefront',cat:'DIŞ CEPHE',t:'Sayaçtan Cihaza Hat',sz:'wide',pos:'70% 60%'},{img:'floorEntry',cat:'DİSİPLİN',t:'Önce Zemin Koruma',sz:'wide',pos:'50% 95%'}];
 const grid=$('#grid'),gf=$('#gfil');
 ['ALL'].concat(G.map(g=>g.cat)).forEach((c,i)=>{const b=document.createElement('button');b.type='button';b.textContent=i?c.charAt(0)+c.slice(1).toLowerCase():'Tüm fotoğraflar';if(!i)b.classList.add('on');b.dataset.c=c;
   b.addEventListener('click',()=>{$$('button',gf).forEach(x=>x.classList.remove('on'));b.classList.add('on');buzz();
@@ -950,15 +950,15 @@ T.forEach((m,i)=>{const w=document.createElement('div');w.className='bwrap'+(RM?
    '<span class="face front"><span class="hd"><span class="brand">GT · GÖLGE TESİSAT<small>SAHA TEKNİSYENİ</small></span></span>'+
    (GTI(m.img)?'<span class="photo" style="background:#3A2E2E url('+GTI(m.img)+') center 18%/cover no-repeat"></span>':'<span class="photo"><span>'+m.ini+'</span></span>')+
    '<span class="bd"><b class="nm">'+m.n+'</b><span class="role">'+m.role+'</span>'+
-   '<span class="row"><span class="st">★ '+m.r+'</span><span>'+m.y+' years</span><span>'+m.j+' jobs</span></span></span>'+
+   '<span class="row"><span class="st">★ '+m.r+'</span><span>'+m.y+' yıl</span><span>'+m.j+' iş</span></span></span>'+
    '<span class="tap"><svg><use href="#i-flip"/></svg>Çevirmek için dokunun</span>'+
-   '<span class="ft"><span>ID '+m.id+'</span><span>TSE · SİGORTALI</span><span class="holo"></span></span></span>'+
+   '<span class="ft"><span>ID '+m.id+'</span><span>SİGORTALI · KİMLİKLİ</span><span class="holo"></span></span></span>'+
    '<span class="face back"><span class="bh"><b>'+m.n+'</b><small>'+m.id+'</small></span>'+
    '<span class="meter"><small><span>Deneyim</span><span>'+m.y+' years</span></small><i style="--w:'+Math.round(m.y/22*100)+'%"></i></span>'+
    '<span class="meter"><small><span>Tamamlanan iş</span><span>'+m.j+'</span></small><i style="--w:'+Math.round(m.jn/3400*100)+'%"></i></span>'+
    '<span class="meter"><small><span>Puan</span><span>★ '+m.r+'</span></small><i style="--w:'+Math.round(+m.r/5*100)+'%"></i></span>'+
    '<span class="skills">'+m.sk.map(s=>'<span>'+s+'</span>').join('')+'</span>'+
-   '<span class="ul"><span class="li"><svg><use href="#i-check"/></svg>TSE belgeli</span><span class="li"><svg><use href="#i-check"/></svg>Sigortalı</span><span class="li"><svg><use href="#i-check"/></svg>Şirket kimliği taşır</span></span>'+
+   '<span class="ul"><span class="li"><svg><use href="#i-check"/></svg>Sigortalı</span><span class="li"><svg><use href="#i-check"/></svg>Şirket kimliği taşır</span></span>'+
    '<a class="call" href="tel:+905338960503"><svg class="ico" style="width:16px;height:16px"><use href="#i-phone"/></svg>Ekibimizi arayın</a></span>'+
   '</div></div>';
   bg.appendChild(w);const b=$('.badge',w);
@@ -973,14 +973,6 @@ const tGo=d=>{const ws=$$('.bwrap',bg);const i=Math.max(0,Math.min(ws.length-1,t
 $('#tPrev').addEventListener('click',()=>tGo(-1));$('#tNext').addEventListener('click',()=>tGo(1));
 bg.addEventListener('scroll',()=>requestAnimationFrame(tSync),{passive:true});tSync();
 io($('#totals'),()=>{const bs=$$('#totals b[data-to]');count(bs[0],53,'');count(bs[1],8270,'+');});
-
-/* ===== BRANDS ===== */
-const B=[['01','Konut','KONUT SİTELERİ'],['02','Sigorta','SİGORTA HASAR'],['03','Emlak','EMLAK OFİSLERİ'],['04','Kamu','KAMU BİNALARI'],['05','Sanayi','SANAYİ TESİSLERİ'],['06','Belediye','BELEDİYE BİNALARI']];
-const bgr=$('#bgrid');
-B.forEach(([n,s,name])=>{const d=document.createElement('div');d.className='bt';d.innerHTML='<span class="sec"><span>'+n+' · '+s+'</span><i></i></span><b>'+name+'</b><span class="ln"></span>';
-  d.addEventListener('pointermove',e=>{const r=d.getBoundingClientRect();d.style.setProperty('--mx',(e.clientX-r.left)+'px');d.style.setProperty('--my',(e.clientY-r.top)+'px');});bgr.appendChild(d);});
-const row=B.map(([n,s,name])=>'<span>'+name+' <em>'+s.toUpperCase()+'</em></span>').join('');$('#mtrack').innerHTML=row+row;
-io($('#contract'),()=>{$('#contract').classList.add('on');count($('#cN'),120,'+',1500);});
 
 /* ===== PROCESS WHEEL ===== */
 const P=[['İletişim','Bizi arayın ya da formu doldurun.'],['Keşif & Analiz','Uzman ekibimiz adresinizi inceler.'],['Teklif','Size özel çözüm ve fiyat sunulur.'],['Uygulama','Profesyonel ekibimiz hızla uygular.'],['Kontrol & Teslim','Kontrol edilir ve size teslim edilir.']];
@@ -1042,7 +1034,7 @@ const CASES=[
  {tab:'03 · BOILER',cat:'Kombi Servisi',job:'Kombi bakımı ve onarımı.',loc:'Maltepe / İstanbul',res:'Kombi bakımı · garantili'}];
 
 /* ticker */
-const tk='<span><b>DOSYA 01</b> SU KAÇAĞI TESPİTİ · KADIKÖY</span><span><b>DOSYA 02</b> PETEK TEMİZLİĞİ · ÜSKÜDAR</span><span><b>DOSYA 03</b> KOMBİ SERVİSİ · MALTEPE</span><span><b>20,000+</b> TAMAMLANAN İŞ</span><span><b>7/24</b> KESİNTİSİZ HİZMET</span><span><b>15+</b> YILLIK DENEYİM</span>';
+const tk='<span><b>DOSYA 01</b> SU KAÇAĞI TESPİTİ · KADIKÖY</span><span><b>DOSYA 02</b> PETEK TEMİZLİĞİ · ÜSKÜDAR</span><span><b>DOSYA 03</b> KOMBİ SERVİSİ · MALTEPE</span><span><b>7/24</b> KESİNTİSİZ HİZMET</span><span><b>15+</b> YILLIK DENEYİM</span>';
 $('#tick').innerHTML=tk+tk;
 
 /* tabs + thumbs */
@@ -1116,7 +1108,7 @@ $('#nextc').addEventListener('click',()=>{open((cur+1)%3);buzz();$('#stage').scr
 addEventListener('resize',()=>{setR();moveBlob();});
 (document.fonts&&document.fonts.ready?document.fonts.ready:Promise.resolve()).then(moveBlob);
 setR();moveBlob();open(0);
-io($('#ev'),()=>{$('#ev').classList.add('on');$$('#ev b[data-to]').forEach(b=>count(b,+b.dataset.to,b.dataset.suf));count($('#hugeN'),20000,'+',1800);});
+io($('#ev'),()=>{$('#ev').classList.add('on');$$('#ev b[data-to]').forEach(b=>count(b,+b.dataset.to,b.dataset.suf));});
 })();
 
 });
@@ -1193,28 +1185,6 @@ const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const buzz=()=>{try{navigator.vibrate&&navigator.vibrate(8)}catch(e){}};
 const io=(el,fn,th)=>{if(!('IntersectionObserver' in window))return fn();new IntersectionObserver((es,o)=>{if(es.some(x=>x.isIntersecting)){fn();o.disconnect();}},{threshold:th||.3}).observe(el);};
 const count=(b,to,suf,dur)=>{if(RM)return;const t0=performance.now();const f=t=>{const k=Math.min(1,(t-t0)/(dur||1400));b.textContent=Math.round(to*(1-Math.pow(1-k,3)))+(suf||'');if(k<1)requestAnimationFrame(f)};requestAnimationFrame(f);};
-
-/* ===== certificates ===== */
-const C=[
- ['c-tse','TSE Belgeli','Türk Standardları Enstitüsü','TSE','İşlerimiz Türk ulusal standartlarına uyar — ülke genelinde kaliteyi ölçmek için kullanılan aynı ölçüt.'],
- ['c-gas','Doğalgaz Yetkili','İGDAŞ yetkili tesisatçı','İGDAŞ','Doğalgaz hatlarına ve sayaçlara yalnızca yetkili tesisatçı dokunur. Bu hem güvenlik hem de gaz şirketi onayı için önemlidir.'],
- ['c-iso','ISO 9001','Kalite yönetimi','ISO','Belgelenmiş bir kalite sistemi: her iş ilk aramadan teslime kadar aynı kontrollü süreci izler.'],
- ['c-ins','Sigortalı Hizmet','Sorumluluk sigortası','INS','İş sırasında bir şey ters giderse sorumluluk sigortası karşılar — siz değil.'],
- ['c-awd','Ödül 2024','Müşteri memnuniyeti','2024','2024’te müşteri memnuniyetiyle tanındı — reklamla değil, gerçek müşterilerle kazanıldı.'],
- ['c-ch','Oda Üyesi','Tesisatçılar Odası','CHB','Meslek odasının kayıtlı üyesi, mesleğin kendi kurallarına karşı sorumlu.']];
-const wall=$('#wall');
-C.forEach(([ic,t,s,seal,why],i)=>{const b=document.createElement('div');b.className='cert';b.tabIndex=0;b.setAttribute('role','button');b.setAttribute('aria-label',t+' — '+s+'. Çevirmek için dokunun.');
-  b.innerHTML='<div class="face front"><div class="frame"><span class="no"><span>BLG-0'+(i+1)+'</span><span>GÖLGE TESİSAT</span></span><span class="ic"><svg><use href="#'+ic+'"/></svg></span><h3>'+t+'</h3><p>'+s+'</p><span class="seal"><b>'+seal+'</b></span><span class="stamp">DOĞRULANDI</span><span class="beam"></span><span class="sheen"></span></div><span class="fliptag"><svg><use href="#i-flip"/></svg>Çevir</span></div>'+
-   '<div class="face back"><small>BLG-0'+(i+1)+' · SİZİN İÇİN ANLAMI</small><h4>'+t+'</h4><p>'+why+'</p><span class="ft"><svg><use href="#i-check"/></svg>'+s+'</span></div>';
-  const fl=()=>{b.classList.toggle('flip');buzz();};b.addEventListener('click',fl);b.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();fl();}});
-  if(matchMedia('(pointer:fine)').matches&&!RM){b.addEventListener('pointermove',e=>{if(b.classList.contains('flip'))return;const r=b.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;b.style.transform='rotateY('+(x*10)+'deg) rotateX('+(-y*10)+'deg)';});b.addEventListener('pointerleave',()=>{b.style.transform='';});}
-  wall.appendChild(b);});
-let scanT=[];
-function scanAll(){scanT.forEach(clearTimeout);scanT=[];const cs=$$('.cert');cs.forEach(c=>c.classList.remove('ok','scanning'));$('#verN').textContent='0 / 6';$('#verF').style.strokeDashoffset=201;
-  cs.forEach((c,i)=>{scanT.push(setTimeout(()=>{c.classList.add('scanning');if(innerWidth<=640)wall.scrollTo({left:c.offsetLeft-12,behavior:RM?'auto':'smooth'});},RM?0:i*700));
-    scanT.push(setTimeout(()=>{c.classList.remove('scanning');c.classList.add('ok');$('#verN').textContent=(i+1)+' / 6';$('#verF').style.strokeDashoffset=201*(1-(i+1)/6);if(i===5&&innerWidth<=640)wall.scrollTo({left:0,behavior:RM?'auto':'smooth'});},RM?0:i*700+900));});}
-$('#scanAll').addEventListener('click',()=>{scanAll();buzz();});
-io(wall,scanAll,.25);
 
 /* ===== why ===== */
 // dial ticks + arcs

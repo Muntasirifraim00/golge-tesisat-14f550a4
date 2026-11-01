@@ -134,7 +134,7 @@ function loadRuntime() {
   if (scriptPromise) return scriptPromise;
   scriptPromise = new Promise((resolve, reject) => {
     const s = document.createElement("script");
-    s.src = "/home/gt-home.js?v=2";
+    s.src = "/home/gt-home.js?v=3";
     s.async = true;
     s.onload = () => resolve();
     s.onerror = () => { scriptPromise = null; reject(new Error("gt-home runtime failed to load")); };
