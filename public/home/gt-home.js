@@ -251,8 +251,7 @@ function draw(t){cx.clearRect(0,0,W,H);cx.lineCap='round';cx.lineJoin='round';
   ripples=ripples.filter(r=>r.a>0.01);ripples.forEach(r=>{r.r+=1.8;r.a*=.94;cx.strokeStyle='rgba(213,10,10,'+r.a+')';cx.lineWidth=1.5;cx.beginPath();cx.arc(r.x,r.y,r.r,0,Math.PI*2);cx.stroke();});}
 let heroVis=true;if('IntersectionObserver' in window)new IntersectionObserver(e=>{heroVis=e[0].isIntersecting}).observe(hero);
 const loop=t=>{if(heroVis)draw(t);requestAnimationFrame(loop)};
-build();let rz;addEventListener('resize',()=>{clearTimeout(rz);rz=setTimeout(build,150)});
-if(!RM)requestAnimationFrame(loop);
+build();
 hero.addEventListener('pointerdown',e=>{if(RM)return;const r=hero.getBoundingClientRect();for(let i=0;i<3;i++)ripples.push({x:e.clientX-r.left,y:e.clientY-r.top,r:4+i*10,a:.4-i*.1});});
 
 /* 3. Photo card */
