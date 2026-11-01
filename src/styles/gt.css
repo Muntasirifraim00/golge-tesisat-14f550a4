@@ -830,3 +830,8 @@ footer.gtf.gt{padding:0;font-size:1rem;background:var(--ink);color:#EFE7E5;margi
 .gt-sim{position:relative;width:100%;border-radius:30px;min-width:0}
 .gt-sim iframe{display:block;width:100%;height:600px;border:0;background:transparent;color-scheme:normal}
 @media (max-width:640px){.gt-sim iframe{height:480px}}
+/* ===== Homepage (approved design, src/components/home/GtHome.tsx) ===== */
+.gt-home{background:#F7F3F2;overflow-x:clip}
+.gt-home .sec{display:block}
+#topM{display:none}
+@media (max-width:768px){#topD{display:none}#topM{display:block}}

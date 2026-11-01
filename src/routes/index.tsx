@@ -1,6 +1,13 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { SiteFooter } from "@/components/SiteFooter";
-import { SpHome, HOME_FAQ } from "@/components/home/SpHome";
+import { GtHome } from "@/components/home/GtHome";
+
+// Same questions and answers as the FAQ section in the homepage design (keep them identical).
+const HOME_FAQ = [
+  { q: "7/24 acil hizmet veriyor musunuz?", a: "Evet. Acil müdahale ekiplerimiz İstanbul'un iki yakasında 7/24 hazır; ortalama müdahale süremiz 30 dakikadır." },
+  { q: "Keşif ücretli mi?", a: "Keşif ücretsizdir ve taahhüt gerektirmez. KDV dahil şeffaf bir fiyat alırsınız ve iş başlamadan önce onaylarsınız." },
+  { q: "İşçilik garantisi var mı?", a: "Evet. Her iş işçilik ve parçayı kapsayan 2 yıl yazılı garantiyle gelir." },
+  { q: "Ödeme seçenekleri neler?", a: "Şeffaf, sabit fiyatla nakit veya kartla ödeyebilirsiniz. Her hizmet faturalanır; kurumsal ve sigorta faturalandırması mümkündür." },
+];
 
 const SITE_URL = "https://golgetesisat.com";
 // Sitewide LocalBusiness JSON-LD lives in __root.tsx; the homepage only adds its FAQ.
@@ -32,6 +39,8 @@ export const Route = createFileRoute("/")({
     ],
     links: [
       { rel: "canonical", href: SITE_URL },
+      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" },
+      { rel: "preload", as: "script", href: "/home/gt-home.js?v=1" },
     ],
     scripts: [
       { type: "application/ld+json", children: JSON.stringify(FAQ_JSONLD) },
@@ -42,9 +51,8 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <main className="min-h-screen w-full overflow-x-clip">
-      <SpHome />
-      <SiteFooter />
+    <main className="w-full">
+      <GtHome />
     </main>
   );
 }
