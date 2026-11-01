@@ -15,3 +15,5 @@
 - Service hero animations live as self-contained Turkish widgets in `public/sim/{slug}.html` (canvas + own CSS/JS) and are embedded with `ServiceSim` (`src/components/gt/ServiceSim.tsx`); a slug without a widget falls back to the photo card.
 - `src/data/market-prices.ts` holds published market reference ranges (Armut.com averages) shown on price pages — they are labelled "not our price"; set an entry to null to hide it. Our own prices are never shown as numbers: every price page promises free survey + fixed price before work.
 - `SiteFooter` is the new dark footer used sitewide; its link directory stays collapsed behind one disclosure.
+
+- Blog posts without a dedicated `*Editorial.tsx` component render through `src/components/blog/GtPost.tsx` (new design, CSS scoped under `.gt-post`, generated from `/home/claude/site/work/post/*.css` into `src/styles/gt.css`). `bosch-kombi-resetleme` keeps its bespoke variant of the old template. Keep all internal-linking blocks (guide links, siblings, pillar hub, district chips, related) when editing it.

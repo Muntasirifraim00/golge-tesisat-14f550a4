@@ -2,6 +2,7 @@ import { createFileRoute, Link, notFound, redirect } from "@tanstack/react-route
 import logoImg from "@/assets/logo.jpg";
 import { Phone, MessageCircle, ArrowRight, Clock, Check, ShieldCheck, BookOpen, MapPin, ChevronDown, CalendarDays, ArrowUpRight, Menu, Home } from "lucide-react";
 import { GtChrome } from "@/components/gt/GtShell";
+import { GtPost } from "@/components/blog/GtPost";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SuVanasiEditorial } from "@/components/SuVanasiEditorial";
 import { TaharetMusluguEditorial } from "@/components/TaharetMusluguEditorial";
@@ -122,6 +123,13 @@ function linkifyParagraph(text: string, index: InlinePhrase[], ctx: LinkifyCtx):
       {linkifyParagraph(tail, index, ctx)}
     </>
   );
+}
+
+// Markdown-style **bold** inside post text → <strong>; each piece still goes through the auto-linker.
+function withBold(text: string, link: (t: string) => ReactNode): ReactNode {
+  if (typeof text !== "string" || !text.includes("**")) return link(text);
+  const parts = text.split(/\*\*(.+?)\*\*/g);
+  return parts.map((part, i) => (part ? (i % 2 ? <strong key={i}>{link(part)}</strong> : <span key={i}>{link(part)}</span>) : null));
 }
 
 function list<T>(value: T[] | undefined): T[] {
@@ -585,6 +593,63 @@ function BlogPostPage() {
       <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <DusakabinEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
+        <SiteFooter />
+      </article>
+    );
+  }
+
+  // New design template for every post without its own editorial layout (Bosch keeps its bespoke variant below).
+  if (!isBoschEditorial) {
+    const intro = (() => { const n = withBold(p.intro || p.excerpt || "", (x) => linkifyParagraph(x, linkIndex, introCtx)); linkCtx.budget.left -= 1 - introCtx.budget.left; return n; })();
+    const canon = CANONICAL_TARGET[p.slug] ? findPost(CANONICAL_TARGET[p.slug]) : undefined;
+    const pillarOf = Object.keys(PILLAR_HUBS).find((k) => k !== p.slug && PILLAR_HUBS[k].includes(p.slug));
+    const pillar = pillarOf ? findPost(pillarOf) : undefined;
+    const guideLinks = [canon && { post: canon, label: "Bu sorunun ayrıntılı rehberi" }, pillar && pillar.slug !== canon?.slug && { post: pillar, label: "Konunun ana rehberi" }].filter(Boolean) as { post: BlogPost; label: string }[];
+    guideLinks.forEach((g) => linkCtx.used.add(g.post.slug));
+    const siblings = () => {
+      if (!pillarOf) return [] as BlogPost[];
+      const ring = PILLAR_HUBS[pillarOf].filter((s) => !CANONICAL_TARGET[s] && !PILLAR_HUBS[s]);
+      const idx = ring.indexOf(p.slug);
+      const picks: BlogPost[] = [];
+      for (let k = 1; k < ring.length && picks.length < 2; k++) {
+        const s = ring[((idx < 0 ? 0 : idx) + k) % ring.length];
+        if (s === p.slug || linkCtx.used.has(s)) continue;
+        const post = findPost(s);
+        if (post) picks.push(post);
+      }
+      const boost = CLUSTER_BOOST[pillarOf];
+      if (boost && boost !== p.slug && !linkCtx.used.has(boost) && !picks.some((x) => x.slug === boost)) {
+        const bp = findPost(boost);
+        if (bp) picks.push(bp);
+      }
+      const rescue = PILLAR_HUBS[pillarOf].filter((s) => BOOST_RESCUE.has(s) && s !== p.slug && !linkCtx.used.has(s) && !picks.some((x) => x.slug === s));
+      if (rescue.length) {
+        const hash = [...p.slug].reduce((a, c) => a + c.charCodeAt(0), 0);
+        const rp = findPost(rescue[hash % rescue.length]);
+        if (rp) picks.push(rp);
+      }
+      return picks;
+    };
+    const hub = [...new Set(PILLAR_HUBS[p.slug] ?? [])].map((s) => findPost(s)).filter((x): x is BlogPost => !!x);
+    return (
+      <article className="min-h-screen bg-white">
+        <GtChrome current="/blog" />
+        <GtPost
+          p={p}
+          sections={sections}
+          faq={faq}
+          service={service}
+          related={related}
+          silo={silo}
+          nearbyDistricts={nearbyDistricts}
+          intro={intro}
+          lk={(t) => withBold(t, (x) => linkifyParagraph(x, linkIndex, linkCtx))}
+          guideLinks={guideLinks}
+          siblings={siblings}
+          hub={hub}
+          updatedLabel={`Güncelleme: ${updatedLabel}`}
+          dateIso={p.updated ?? p.published}
+        />
         <SiteFooter />
       </article>
     );
