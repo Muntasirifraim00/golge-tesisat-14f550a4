@@ -1551,24 +1551,5 @@ buildDates();buildSlots();update();
 });
 
 
-(function(){
-var KEY='gt-consent',DRAFT='gt-booking-draft',MAX=365*24*3600e3;
-var card=document.getElementById('gtcCard'),sw=document.getElementById('gtcF'),more=document.getElementById('gtcMore');
-function read(){try{var c=JSON.parse(localStorage.getItem(KEY)||'null');if(c&&c.v===1&&Date.now()-c.ts<MAX)return c;}catch(e){}return null;}
-function write(f){var c={v:1,necessary:true,functional:!!f,ts:Date.now()};try{localStorage.setItem(KEY,JSON.stringify(c));if(!f)localStorage.removeItem(DRAFT);}catch(e){}window.gtConsent=c;try{window.dispatchEvent(new CustomEvent('gt-consent',{detail:c}));}catch(e){}return c;}
-function show(open){var c=read();sw.setAttribute('aria-checked',c&&c.functional?'true':'false');card.classList.toggle('gtc-open',!!open);more.setAttribute('aria-expanded',!!open);more.textContent=open?'Tercihlerimi kaydet':'Ayarlar';card.classList.add('on');}
-function hide(){card.classList.remove('on','gtc-open');var s=document.getElementById('gtcSaved');s.classList.add('on');setTimeout(function(){s.classList.remove('on');},1800);}
-document.getElementById('gtcAcc').addEventListener('click',function(){write(true);hide();});
-document.getElementById('gtcRej').addEventListener('click',function(){write(false);hide();});
-sw.addEventListener('click',function(){sw.setAttribute('aria-checked',sw.getAttribute('aria-checked')==='true'?'false':'true');});
-more.addEventListener('click',function(){if(card.classList.contains('gtc-open')){write(sw.getAttribute('aria-checked')==='true');hide();}else show(true);});
-window.gtCookies={open:function(){show(true);},get:read};
-window.gtConsent=read();
-if(!window.__gtCookieOnce)document.addEventListener('click',function(e){var p=e.composedPath?e.composedPath():[e.target];for(var i=0;i<p.length;i++){var n=p[i];if(n&&n.hasAttribute&&n.hasAttribute('data-cookie-settings')){e.preventDefault();show(true);return;}}});
-if(!window.gtConsent)setTimeout(function(){show(false);},900);
-})();
-
-window.__gtCookieOnce=1;
-
 }};
 if(window.__gtHomeAuto!==false&&document.getElementById('topD'))window.GTHome.init();
