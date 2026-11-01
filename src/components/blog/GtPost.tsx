@@ -7,6 +7,8 @@ import {
   ArrowRight, CalendarDays, Clock, Link2, MapPin, MessageCircle, Phone, Play, Printer, Share2, Wrench,
 } from "lucide-react";
 import type { BlogPost, BlogSection } from "@/data/blog";
+import { fieldJobFor, type FieldJob } from "@/data/field-jobs";
+import { findService } from "@/data/services";
 
 const PHONE = "0533 896 05 03";
 const PHONE_HREF = "tel:+905338960503";
@@ -257,6 +259,106 @@ function WithFx({ toc, readMin, children }: { toc: { id: string; label: string }
   return <>{children(fx)}</>;
 }
 
+
+/* ---------------- "Sahadan" card: a real job of ours, matched to the post topic ---------------- */
+const FJ_ICONS: Record<string, string> = {
+  find: "M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM20 20l-4-4",
+  fix: "M14.7 6.3a4 4 0 0 0-5 5L3 18l3 3 6.7-6.7a4 4 0 0 0 5-5l-2.5 2.5-2.5-2.5z",
+  result: "M5 12l5 5L20 7",
+};
+function FieldJobCard({ job, postTitle }: { job: FieldJob; postTitle: string }) {
+  const svc = findService(job.serviceSlug);
+  const steps = (svc?.process ?? []).slice(0, 4);
+  const ref = useRef<HTMLElement>(null);
+  const baRef = useRef<HTMLDivElement>(null);
+  const [inView, setIn] = useState(false);
+  const [x, setX] = useState(50);
+  const [pic, setPic] = useState(0);
+  const user = useRef(false);
+  const drag = useRef(false);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const go = () => {
+      setIn(true);
+      if (!job.before || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+      const t0 = performance.now();
+      const f = (t: number) => { if (user.current) return; const k = (t - t0) / 1000; if (k > 3.2) { setX(50); return; } setX(50 + Math.sin(k * 2) * 30); requestAnimationFrame(f); };
+      requestAnimationFrame(f);
+    };
+    if (!("IntersectionObserver" in window)) { go(); return; }
+    const io = new IntersectionObserver((es) => { if (es[0].isIntersecting) { go(); io.disconnect(); } }, { threshold: 0.3 });
+    io.observe(el);
+    return () => io.disconnect();
+  }, [job]);
+  const at = (cx: number) => { const r = baRef.current?.getBoundingClientRect(); if (r) setX(Math.max(0, Math.min(100, ((cx - r.left) / r.width) * 100))); };
+  const wa = `${WA}?text=${encodeURIComponent(`Merhaba Gölge Tesisat, "${postTitle}" rehberinizi okudum — bende de benzer bir sorun var (${svc?.name ?? "tesisat"}).`)}`;
+  const photos = job.photos ?? [];
+  return (
+    <aside ref={ref} className={`fj${inView ? " in" : ""}`} aria-label="Ekibimizden gerçek bir iş">
+      <div className="fj-top"><span className="fj-badge"><i />SAHADAN · GERÇEK İŞ</span><span className="fj-note">REHBERİN PARÇASI DEĞİL · GÖLGE TESİSAT</span></div>
+      <h3 dangerouslySetInnerHTML={{ __html: job.title }} />
+      <div className="fj-chips">
+        {svc && <span><Wrench />{svc.name}</span>}
+        {job.location && <span><MapPin />{job.location}</span>}
+        <span><Clock />Ort. {svc?.responseMin ?? 30} dk varış</span>
+      </div>
+      <div className="fj-g">
+        <div>
+          {job.before && job.after ? (
+            <div
+              ref={baRef} className="ba" role="slider" tabIndex={0} aria-label="Önce ve sonra" aria-valuemin={0} aria-valuemax={100} aria-valuenow={Math.round(x)}
+              style={{ ["--x" as string]: `${x}%` }}
+              onPointerDown={(e) => { drag.current = true; user.current = true; e.currentTarget.setPointerCapture(e.pointerId); at(e.clientX); }}
+              onPointerMove={(e) => { if (drag.current) at(e.clientX); }}
+              onPointerUp={() => { drag.current = false; }}
+              onPointerCancel={() => { drag.current = false; }}
+              onKeyDown={(e) => { if (e.key === "ArrowLeft") { user.current = true; setX((v) => Math.max(0, v - 5)); } if (e.key === "ArrowRight") { user.current = true; setX((v) => Math.min(100, v + 5)); } }}
+            >
+              <div className="lay"><img src={job.before.src} alt={job.before.alt} loading="lazy" /></div>
+              <div className="lay aft"><img src={job.after.src} alt={job.after.alt} loading="lazy" /></div>
+              <span className="tg b">ÖNCE</span><span className="tg a">SONRA</span><span className="bar" /><span className="knob">⇆</span>
+            </div>
+          ) : photos.length > 0 ? (
+            <>
+              <div className="fj-photo"><img src={photos[pic].src} alt={photos[pic].alt} loading="lazy" /></div>
+              {photos.length > 1 && (
+                <div className="fj-thumbs">
+                  {photos.map((ph, i) => <button key={i} type="button" className={i === pic ? "on" : ""} aria-label={`Fotoğraf ${i + 1}`} onClick={() => setPic(i)}><img src={ph.src} alt="" loading="lazy" /></button>)}
+                </div>
+              )}
+            </>
+          ) : null}
+          <p className="ba-cap">{job.photoNote}</p>
+        </div>
+        {steps.length > 0 && (
+          <div>
+            <div className="fj-h">BU İŞTE İZLEDİĞİMİZ YÖNTEM</div>
+            <ol className="fj-steps">
+              <span className="pf" />
+              {steps.map((s, i) => {
+                const t = i === steps.length - 1 ? "result" : i === 0 ? "find" : "fix";
+                return (
+                  <li key={i} data-t={t}>
+                    <span className="k"><Ico d={FJ_ICONS[t]} /></span>
+                    <div><small>{`${i + 1}. ADIM`}</small><b>{s.step}</b><p>{s.detail}</p></div>
+                  </li>
+                );
+              })}
+            </ol>
+          </div>
+        )}
+      </div>
+      <div className="fj-cta">
+        <div><b>Aynı sorun sizde de mi var?</b><span>Fotoğraf gönderin, ücretsiz keşif ve işe başlamadan net fiyat alın.</span></div>
+        <Link className="btn btn-red" to="/randevu">Randevu al</Link>
+        <a className="btn btn-wa" href={wa} target="_blank" rel="noopener noreferrer">Fotoğraf gönder</a>
+      </div>
+      {svc && <Link className="fj-more" to="/hizmet/$slug" params={{ slug: svc.slug }}>{svc.name} hizmetimizi inceleyin →</Link>}
+    </aside>
+  );
+}
+
 /* ---------------- static blocks ---------------- */
 const CALL: Record<string, { cls: string; ic: string; t: string }> = {
   info: { cls: "tip", ic: "i", t: "Bilgi" },
@@ -412,6 +514,8 @@ export function GtPost(ctx: GtPostCtx) {
   const resp = service?.responseMin ?? 30;
   const showShort = !!(p.intro && p.excerpt && p.excerpt.trim() !== p.intro.trim());
   const bookHref = "/randevu";
+  const job = fieldJobFor(p);
+  const fjAt = sections.length >= 4 ? Math.min(sections.length - 2, Math.max(3, Math.floor(sections.length / 2))) : sections.length - 1;
   const svcWa = `${WA}?text=${encodeURIComponent(`Merhaba Gölge Tesisat, "${p.title}" rehberinizi okudum. Destek almak istiyorum.`)}`;
   return (
     <WithFx toc={toc} readMin={p.readMin || 5}>
@@ -429,6 +533,7 @@ export function GtPost(ctx: GtPostCtx) {
                 </div>
               </div>
             )}
+            {i === fjAt && <FieldJobCard job={job} postTitle={p.title} />}
           </div>
         ));
         const faqNode = faq.length > 0 ? (
