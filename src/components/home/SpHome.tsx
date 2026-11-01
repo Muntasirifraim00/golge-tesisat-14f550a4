@@ -71,6 +71,7 @@ function Header() {
   const nav = [
     { to: "/hizmetler", label: "Hizmetler" },
     { to: "/tesisatci", label: "Bölgeler" },
+    { to: "/fiyatlar", label: "Fiyatlar" },
     { to: "/blog", label: "Blog" },
     { to: "/randevu", label: "Randevu" },
   ] as const;

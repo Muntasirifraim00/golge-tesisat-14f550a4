@@ -1,6 +1,7 @@
 import { createFileRoute, Link, notFound, redirect } from "@tanstack/react-router";
 import logoImg from "@/assets/logo.jpg";
 import { Phone, MessageCircle, ArrowRight, Clock, Check, ShieldCheck, BookOpen, MapPin, ChevronDown, CalendarDays, ArrowUpRight, Menu, Home } from "lucide-react";
+import { GtChrome } from "@/components/gt/GtShell";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SuVanasiEditorial } from "@/components/SuVanasiEditorial";
 import { TaharetMusluguEditorial } from "@/components/TaharetMusluguEditorial";
@@ -333,7 +334,7 @@ function BlogPostPage() {
 
   if (p.slug === "su-vanasi-nasil-kapatilir-acilir") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <SuVanasiEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -343,7 +344,7 @@ function BlogPostPage() {
 
   if (p.slug === "taharet-muslugu-nasil-takilir-degistirilir") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <TaharetMusluguEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -353,7 +354,7 @@ function BlogPostPage() {
 
   if (p.slug === "camasir-makinesi-nasil-baglanir") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <CamasirMakinesiEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -363,7 +364,7 @@ function BlogPostPage() {
 
   if (p.slug === "lavabo-sifonu-nasil-takilir") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <LavaboSifonuEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -373,7 +374,7 @@ function BlogPostPage() {
 
   if (p.slug === "dogalgaz-sayaci-nasil-okunur") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <DogalgazSayaciEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -383,7 +384,7 @@ function BlogPostPage() {
 
   if (p.slug === "musluk-batarya-tamiri-baslik-kartus-degisimi") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <MuslukBataryaEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -393,7 +394,7 @@ function BlogPostPage() {
 
   if (p.slug === "banyoya-sicak-su-az-akiyor-nedenleri") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <BanyoSicakSuEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -403,7 +404,7 @@ function BlogPostPage() {
 
   if (p.slug === "klozet-montaji-nasil-yapilir") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <KlozetMontajiEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -413,7 +414,7 @@ function BlogPostPage() {
 
   if (p.slug === "klozet-ic-takimi-degisimi") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <KlozetIcTakimiEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -423,7 +424,7 @@ function BlogPostPage() {
 
   if (p.slug === "viessmann-kombi-resetleme") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <ViessmannResetlemeEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -433,7 +434,7 @@ function BlogPostPage() {
 
   if (p.slug === "su-sayaci-nasil-okunur") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <SuSayaciEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -443,7 +444,7 @@ function BlogPostPage() {
 
   if (p.slug === "yer-suzgeci-nedir-cesitleri-koku-onleme") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <YerSuzgeciEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -453,7 +454,7 @@ function BlogPostPage() {
 
   if (p.slug === "tuvalet-klozet-kokusu-nasil-giderilir") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <TuvaletKokusuEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -463,7 +464,7 @@ function BlogPostPage() {
 
   if (p.slug === "kombi-basinci-dusuyor") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <KombiBasinciEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -472,7 +473,7 @@ function BlogPostPage() {
   }
   if (p.slug === "gider-tikanikligi-nasil-acilir") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <GiderEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -481,7 +482,7 @@ function BlogPostPage() {
   }
   if (p.slug === "kombi-calisiyor-ama-petekler-isinmiyor") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <PetekIsinmiyorEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -490,7 +491,7 @@ function BlogPostPage() {
   }
   if (p.slug === "kombi-sicak-su-vermiyor") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <KombiSicakSuEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -499,7 +500,7 @@ function BlogPostPage() {
   }
   if (p.slug === "kombi-neden-calismiyor") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <KombiCalismiyorEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -508,7 +509,7 @@ function BlogPostPage() {
   }
   if (p.slug === "giderden-gelen-lagim-kokusu-nasil-giderilir") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <LagimKokusuEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -517,7 +518,7 @@ function BlogPostPage() {
   }
   if (p.slug === "lavabo-tikanikligi-nasil-acilir") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <LavaboTikanikEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -526,7 +527,7 @@ function BlogPostPage() {
   }
   if (p.slug === "mutfak-tikanikligi-nasil-acilir") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <MutfakTikanikEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -535,7 +536,7 @@ function BlogPostPage() {
   }
   if (p.slug === "petek-alttan-sicak-ustten-soguk") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <PetekSicakSogukEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -544,7 +545,7 @@ function BlogPostPage() {
   }
   if (p.slug === "camasir-makinesi-su-bosaltmiyor") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <CamasirSuEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -553,7 +554,7 @@ function BlogPostPage() {
   }
   if (p.slug === "kirmadan-su-kacagi-tespiti") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <SuKacagiEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -562,7 +563,7 @@ function BlogPostPage() {
   }
   if (p.slug === "petek-isinmiyor-hava-alma") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <PetekHavaEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -571,7 +572,7 @@ function BlogPostPage() {
   }
   if (p.slug === "kombi-genlesme-tanki-ne-ise-yarar") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <GenlesmeTankiEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -581,7 +582,7 @@ function BlogPostPage() {
 
   if (p.slug === "dusakabin-montaji-nasil-yapilir") {
     return (
-      <article className="min-h-screen bg-background">
+      <article className="sp-light min-h-screen bg-background">
         <ReadingProgress />
         <DusakabinEditorial faq={faq} updatedLabel={updatedLabel} readMin={p.readMin} />
         <SiteFooter />
@@ -590,33 +591,10 @@ function BlogPostPage() {
   }
 
   return (
-    <article className={`min-h-screen bg-background pb-24 ${isBoschEditorial ? "bosch-editorial" : ""}`}>
+    <article className={`sp-light min-h-screen bg-background pb-24 ${isBoschEditorial ? "bosch-editorial" : ""}`}>
       <ReadingProgress />
 
-      <header className={`sticky top-0 z-40 grid grid-cols-[minmax(0,1fr)_auto] items-center border-b border-border bg-background/85 px-4 py-3 backdrop-blur-md ${isBoschEditorial ? "bosch-topbar sm:px-6" : ""}`}>
-        <Link to="/" className="flex min-w-0 items-center gap-2.5">
-          <img src={logoImg} alt="Gölge Tesisat" width={44} height={44} className={`${isBoschEditorial ? "h-11 w-11" : "h-9 w-9"} shrink-0 rounded-lg object-contain`} />
-          <div className="leading-tight">
-            <div className={`${isBoschEditorial ? "text-[15px] sm:text-[17px]" : "text-[14px]"} truncate font-extrabold tracking-wide`}>GÖLGE TESİSAT</div>
-            <div className="truncate text-[9.5px] text-muted-foreground">Güvenilir. Hızlı. Garantili.</div>
-          </div>
-        </Link>
-        {isBoschEditorial ? (
-          <div className="flex shrink-0 items-center gap-2">
-            <div className="hidden rounded-full border border-border bg-surface p-1 text-[11px] font-extrabold sm:flex">
-              <span className="rounded-full bg-brand-red px-3 py-1.5 text-brand-red-foreground">TR</span><span className="px-3 py-1.5 text-muted-foreground">EN</span>
-            </div>
-            <a href={PHONE_HREF} className="flex h-10 items-center gap-2 rounded-full bg-brand-red px-4 text-[12px] font-extrabold text-brand-red-foreground transition-transform hover:scale-105">
-              <Phone className="h-4 w-4" /> <span className="hidden min-[390px]:inline">7/24 ARA</span>
-            </a>
-            <span aria-label="Menü" className="hidden h-10 w-10 items-center justify-center rounded-full border border-border bg-surface sm:flex"><Menu className="h-5 w-5" /></span>
-          </div>
-        ) : (
-          <a href={PHONE_HREF} className="flex items-center gap-1.5 rounded-lg bg-brand-red px-3 py-2 text-[12px] font-bold text-brand-red-foreground transition-transform hover:scale-105">
-            <Phone className="h-3.5 w-3.5" /> Ara
-          </a>
-        )}
-      </header>
+      <GtChrome current="/blog" />
 
       <div className={`mx-auto grid gap-x-12 px-4 lg:grid-cols-[minmax(0,1fr)_220px] lg:px-6 ${isBoschEditorial ? "max-w-[1180px]" : "max-w-5xl"}`}>
         {/* ---------- Main reading column ---------- */}

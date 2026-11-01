@@ -5,6 +5,7 @@ import { DISTRICTS, findDistrict, slugifyTr } from "@/data/districts";
 import { SERVICES, findService, type ServiceIcon, type Service } from "@/data/services";
 import type { District } from "@/data/districts";
 import { buildMatrixContent } from "@/lib/matrix-seo";
+import { GtChrome } from "@/components/gt/GtShell";
 import { SiteFooter } from "@/components/SiteFooter";
 import { StickyCallBar } from "@/components/StickyCallBar";
 import { UrgencyCTA } from "@/components/UrgencyCTA";
@@ -180,20 +181,9 @@ function MatrixPage() {
   const faqAll = enrich ? [...c.faq, ...enrich.faq] : c.faq;
 
   return (
-    <div className="min-h-screen bg-background pb-24">
+    <div className="sp-light min-h-screen bg-background pb-24">
       {/* TopBar */}
-      <header className="flex items-center justify-between px-4 pt-5 pb-3">
-        <Link to="/" className="flex items-center gap-2">
-          <img src={logoImg} alt="Gölge Tesisat" width={40} height={40} className="h-10 w-10 rounded-lg object-contain" />
-          <div className="leading-tight">
-            <div className="text-[15px] font-extrabold tracking-wide">GÖLGE TESİSAT</div>
-            <div className="text-[10px] text-muted-foreground">Güvenilir. Hızlı. Garantili.</div>
-          </div>
-        </Link>
-        <a href={PHONE_HREF} className="flex items-center gap-1.5 rounded-lg bg-brand-red px-3 py-2 text-[12px] font-bold text-white">
-          <Phone className="h-3.5 w-3.5" /> Ara
-        </a>
-      </header>
+      <GtChrome />
 
       {/* Breadcrumb */}
       <nav className="px-4 text-[11px] text-muted-foreground" aria-label="Breadcrumb">

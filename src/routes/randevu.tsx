@@ -268,7 +268,7 @@ function BookingPage() {
   const waHref = `https://wa.me/${WA_NUMBER}`;
 
   return (
-    <div className="relative min-h-screen overflow-hidden bg-[#0a0a0a] text-white">
+    <div className="relative min-h-screen overflow-hidden bg-[#110D0D] text-white" style={{ fontFamily: "Archivo, system-ui, sans-serif" }}>
       {/* Atmospheric layers */}
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(60%_40%_at_85%_-10%,rgba(220,38,38,0.18),transparent_70%),radial-gradient(50%_35%_at_10%_10%,rgba(220,38,38,0.10),transparent_70%)]" />
       <div className="pointer-events-none absolute inset-0 opacity-[0.04] [background-image:linear-gradient(rgba(255,255,255,0.6)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.6)_1px,transparent_1px)] [background-size:40px_40px]" />

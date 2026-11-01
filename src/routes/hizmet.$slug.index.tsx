@@ -14,6 +14,7 @@ import {
 import { SERVICES, findService, relatedServicesFor, type ServiceIcon, type Service } from "@/data/services";
 import { DISTRICTS } from "@/data/districts";
 import { guidesForService } from "@/data/blog";
+import { ServiceSim } from "@/components/gt/ServiceSim";
 import { SiteFooter } from "@/components/SiteFooter";
 import { UrgencyCTA } from "@/components/UrgencyCTA";
 import { buildReviews, reviewsToSchema } from "@/data/reviews";
@@ -223,6 +224,7 @@ function ServicePage() {
             <a href="#adim-1" className="px-3 py-2 hover:text-[var(--sp-ink)]">Süreç</a>
             <Link to="/hizmetler" className="px-3 py-2 hover:text-[var(--sp-ink)]">Hizmetler</Link>
             <Link to="/tesisatci" className="px-3 py-2 hover:text-[var(--sp-ink)]">Bölgeler</Link>
+            <Link to="/hizmet/$slug/fiyat" params={{ slug: s.slug }} className="px-3 py-2 hover:text-[var(--sp-ink)]">Fiyat</Link>
             <Link to="/blog" className="px-3 py-2 hover:text-[var(--sp-ink)]">Rehber</Link>
           </nav>
           <div className="flex items-center gap-2">
@@ -262,6 +264,7 @@ function ServicePage() {
                 ))}
               </div>
             </div>
+            <ServiceSim slug={s.slug} title={`${s.name} — sorun ve çözüm animasyonu`} fallback={(
             <div className="rounded-[28px] bg-[var(--sp-ink)] p-4 text-[var(--sp-paper)] shadow-2xl">
               <div className="sp-mono flex justify-between px-1 pb-3 text-[11px] font-bold"><span className="flex items-center gap-1.5 text-[var(--sp-red-hot)]"><span className="h-2 w-2 animate-pulse rounded-full bg-[var(--sp-red-hot)]" />Saha · canlı</span><span className="opacity-60">{String(SERVICES.findIndex((x) => x.slug === s.slug) + 1).padStart(2, "0")} / {SERVICES.length}</span></div>
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
@@ -274,6 +277,7 @@ function ServicePage() {
                 ))}
               </div>
             </div>
+            )} />
           </div>
           <div className="overflow-hidden bg-[var(--sp-ink)] py-4 text-[var(--sp-paper)]">
             <div className="sp-display flex w-max animate-[sp-marquee_40s_linear_infinite] gap-10 whitespace-nowrap text-[22px] md:text-[26px]">

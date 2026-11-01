@@ -1,13 +1,15 @@
 import { Link } from "@tanstack/react-router";
 import { ArrowLeft, Phone, ShieldCheck } from "lucide-react";
 import type { ReactNode } from "react";
+import { GtChrome } from "@/components/gt/GtShell";
+import { SiteFooter } from "@/components/SiteFooter";
 
 type Props = { kicker: string; title: string; updated: string; children: ReactNode };
 
 export function LegalLayout({ kicker, title, updated, children }: Props) {
   return (
-    <div className="sp min-h-screen pb-16">
-      <div className="sp-btn-ink sp-mono px-4 py-2 text-center text-[10px]">Gölge Tesisat · Yasal Bilgilendirme</div>
+    <div className="sp min-h-screen">
+      <GtChrome />
       <section className="sp-hero px-4 pb-10 pt-6">
         <div className="mx-auto max-w-3xl">
           <Link to="/" className="sp-mono inline-flex items-center gap-1 text-[10px] opacity-80 hover:opacity-100">
@@ -35,6 +37,7 @@ export function LegalLayout({ kicker, title, updated, children }: Props) {
           </a>
         </div>
       </div>
+      <div className="mt-16"><SiteFooter /></div>
     </div>
   );
 }

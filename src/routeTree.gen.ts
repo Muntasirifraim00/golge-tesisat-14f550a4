@@ -23,6 +23,7 @@ import { Route as GoogleAdsKurulumRouteImport } from './routes/google-ads-kurulu
 import { Route as HizmetlerRouteImport } from './routes/hizmetler'
 import { Route as IndexDurumuBanglaRouteImport } from './routes/index-durumu-bangla'
 import { Route as KvkkRouteImport } from './routes/kvkk'
+import { Route as FiyatlarRouteImport } from './routes/fiyatlar'
 import { Route as OgImageDotjpgRouteImport } from './routes/og-image[.]jpg'
 import { Route as RandevuRouteImport } from './routes/randevu'
 import { Route as SearchConsoleAnalizBanglaRouteImport } from './routes/search-console-analiz-bangla'
@@ -130,6 +131,11 @@ const IndexDurumuBanglaRoute = IndexDurumuBanglaRouteImport.update({
 const KvkkRoute = KvkkRouteImport.update({
   id: '/kvkk',
   path: '/kvkk',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FiyatlarRoute = FiyatlarRouteImport.update({
+  id: '/fiyatlar',
+  path: '/fiyatlar',
   getParentRoute: () => rootRouteImport,
 } as any)
 const OgImageDotjpgRoute = OgImageDotjpgRouteImport.update({
@@ -348,6 +354,7 @@ export interface FileRoutesByFullPath {
   '/hizmetler': typeof HizmetlerRoute
   '/index-durumu-bangla': typeof IndexDurumuBanglaRoute
   '/kvkk': typeof KvkkRoute
+  '/fiyatlar': typeof FiyatlarRoute
   '/og-image.jpg': typeof OgImageDotjpgRoute
   '/randevu': typeof RandevuRoute
   '/search-console-analiz-bangla': typeof SearchConsoleAnalizBanglaRoute
@@ -401,6 +408,7 @@ export interface FileRoutesByTo {
   '/hizmetler': typeof HizmetlerRoute
   '/index-durumu-bangla': typeof IndexDurumuBanglaRoute
   '/kvkk': typeof KvkkRoute
+  '/fiyatlar': typeof FiyatlarRoute
   '/og-image.jpg': typeof OgImageDotjpgRoute
   '/randevu': typeof RandevuRoute
   '/search-console-analiz-bangla': typeof SearchConsoleAnalizBanglaRoute
@@ -454,6 +462,7 @@ export interface FileRoutesById {
   '/hizmetler': typeof HizmetlerRoute
   '/index-durumu-bangla': typeof IndexDurumuBanglaRoute
   '/kvkk': typeof KvkkRoute
+  '/fiyatlar': typeof FiyatlarRoute
   '/og-image.jpg': typeof OgImageDotjpgRoute
   '/randevu': typeof RandevuRoute
   '/search-console-analiz-bangla': typeof SearchConsoleAnalizBanglaRoute
@@ -510,6 +519,7 @@ export interface FileRouteTypes {
     | '/hizmetler'
     | '/index-durumu-bangla'
     | '/kvkk'
+    | '/fiyatlar'
     | '/og-image.jpg'
     | '/randevu'
     | '/search-console-analiz-bangla'
@@ -563,6 +573,7 @@ export interface FileRouteTypes {
     | '/hizmetler'
     | '/index-durumu-bangla'
     | '/kvkk'
+    | '/fiyatlar'
     | '/og-image.jpg'
     | '/randevu'
     | '/search-console-analiz-bangla'
@@ -615,6 +626,7 @@ export interface FileRouteTypes {
     | '/hizmetler'
     | '/index-durumu-bangla'
     | '/kvkk'
+    | '/fiyatlar'
     | '/og-image.jpg'
     | '/randevu'
     | '/search-console-analiz-bangla'
@@ -670,6 +682,7 @@ export interface RootRouteChildren {
   HizmetlerRoute: typeof HizmetlerRoute
   IndexDurumuBanglaRoute: typeof IndexDurumuBanglaRoute
   KvkkRoute: typeof KvkkRoute
+  FiyatlarRoute: typeof FiyatlarRoute
   OgImageDotjpgRoute: typeof OgImageDotjpgRoute
   RandevuRoute: typeof RandevuRoute
   SearchConsoleAnalizBanglaRoute: typeof SearchConsoleAnalizBanglaRoute
@@ -790,6 +803,13 @@ declare module '@tanstack/react-router' {
       path: '/kvkk'
       fullPath: '/kvkk'
       preLoaderRoute: typeof KvkkRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/fiyatlar': {
+      id: '/fiyatlar'
+      path: '/fiyatlar'
+      fullPath: '/fiyatlar'
+      preLoaderRoute: typeof FiyatlarRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/og-image.jpg': {
@@ -1149,6 +1169,7 @@ const rootRouteChildren: RootRouteChildren = {
   HizmetlerRoute: HizmetlerRoute,
   IndexDurumuBanglaRoute: IndexDurumuBanglaRoute,
   KvkkRoute: KvkkRoute,
+  FiyatlarRoute: FiyatlarRoute,
   OgImageDotjpgRoute: OgImageDotjpgRoute,
   RandevuRoute: RandevuRoute,
   SearchConsoleAnalizBanglaRoute: SearchConsoleAnalizBanglaRoute,

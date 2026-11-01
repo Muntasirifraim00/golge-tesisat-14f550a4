@@ -1,6 +1,7 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import logoImg from "@/assets/logo.jpg";
 import { Phone, MessageCircle, MapPin, Clock, ShieldCheck, Star, Check, ArrowRight, Droplet, Waves, Flame, Thermometer, Wind, ScanLine, ShowerHead, Droplets, Gauge } from "lucide-react";
+import { GtChrome } from "@/components/gt/GtShell";
 import { SiteFooter } from "@/components/SiteFooter";
 import { StickyCallBar } from "@/components/StickyCallBar";
 import { UrgencyCTA } from "@/components/UrgencyCTA";
@@ -171,25 +172,8 @@ function DistrictPage() {
 
   return (
     <div className="sp service-page district-page min-h-screen bg-background pb-24">
-      {/* Top strip */}
-      <div className="sp-btn-ink sp-mono flex items-center justify-center gap-2 px-4 py-2 text-[10px]">
-        <span className="h-2 w-2 animate-pulse rounded-full bg-emerald-400" aria-hidden="true" />
-        {d.name} · 7/24 açık · ort. {d.responseMin} dk varış
-      </div>
-
       {/* Header */}
-      <header className="mx-auto flex max-w-6xl items-center justify-between border-b border-border px-4 py-3">
-        <Link to="/" className="flex items-center gap-2">
-          <img src={logoImg} alt="Gölge Tesisat" width={40} height={40} className="h-10 w-10 rounded-lg object-contain" />
-          <div className="leading-tight">
-            <div className="sp-display text-[20px]">GÖLGE TESİSAT</div>
-            <div className="sp-mono text-[9px] text-muted-foreground">{d.side}</div>
-          </div>
-        </Link>
-        <a href={PHONE_HREF} className="sp-btn-red flex items-center gap-1.5 rounded-full px-4 py-2 text-[12px] font-bold">
-          <Phone className="h-3.5 w-3.5" /> Ara
-        </a>
-      </header>
+      <GtChrome current="/tesisatci" top={{ left: `${d.name} · 7/24 açık`, mid: <>Ort. varış <b>~{d.responseMin} dk</b> · Ücretsiz keşif · 2 yıl garanti</> }} />
 
       {/* Breadcrumb */}
       <nav className="sp-mono mx-auto max-w-6xl px-4 pt-3 text-[10px] text-muted-foreground" aria-label="Breadcrumb">

@@ -1,6 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import logoImg from "@/assets/logo.jpg";
 import { Phone, MapPin, Clock, ShieldCheck, Zap, ArrowRight } from "lucide-react";
+import { GtChrome } from "@/components/gt/GtShell";
+import { ServiceSim } from "@/components/gt/ServiceSim";
 import { SiteFooter } from "@/components/SiteFooter";
 import { StickyCallBar } from "@/components/StickyCallBar";
 import { DISTRICTS } from "@/data/districts";
@@ -119,52 +121,32 @@ function AcilHub() {
   const sides = ["Anadolu Yakası", "Avrupa Yakası"] as const;
 
   return (
-    <div className="min-h-screen bg-background pb-24">
-      <header className="flex items-center justify-between px-4 pt-5 pb-3">
-        <Link to="/" className="flex items-center gap-2">
-          <img src={logoImg} alt="Gölge Tesisat" width={40} height={40} className="h-10 w-10 rounded-lg object-contain" />
-          <div className="leading-tight">
-            <div className="text-[15px] font-extrabold tracking-wide">GÖLGE TESİSAT</div>
-            <div className="text-[10px] text-muted-foreground">Güvenilir. Hızlı. Garantili.</div>
-          </div>
-        </Link>
-        <a
-          href={PHONE_HREF}
-          className="flex items-center gap-1.5 rounded-lg bg-brand-red px-3 py-2 text-[12px] font-bold text-white"
-        >
-          <Phone className="h-3.5 w-3.5" /> Ara
-        </a>
-      </header>
+    <div className="sp-light min-h-screen bg-background pb-24">
+      <GtChrome current="/acil-tesisatci" />
 
-      <nav className="px-4 text-[11px] text-muted-foreground" aria-label="Breadcrumb">
-        <ol className="flex items-center gap-1">
-          <li>
-            <Link to="/" className="hover:text-foreground">
-              Ana Sayfa
-            </Link>
-          </li>
-          <li>›</li>
-          <li className="font-semibold text-foreground">Acil Tesisatçı</li>
-        </ol>
-      </nav>
 
       <main>
-        {/* Hero with immediate call CTA */}
-        <section className="px-4 pt-4">
-          <span className="inline-flex items-center gap-1.5 rounded-full bg-brand-red/10 px-3 py-1 text-[11px] font-bold text-brand-red">
-            <span className="h-2 w-2 animate-pulse rounded-full bg-brand-red" /> 7/24 ŞU AN AÇIK
-          </span>
-          <h1 className="mt-3 text-[26px] font-extrabold leading-tight">
-            Acil Tesisatçı İstanbul — En Yakın Su Tesisatçısı
-          </h1>
-          <p className="mt-2 text-[13px] leading-relaxed text-muted-foreground">{DESC}</p>
-          <a
-            href={PHONE_HREF}
-            className="mt-4 flex items-center justify-center gap-2 rounded-lg bg-brand-red py-3.5 text-[15px] font-extrabold tracking-wider text-white"
-          >
-            <Phone className="h-4 w-4" /> HEMEN ARA — {PHONE}
-          </a>
-        </section>
+        {/* Hero — new design with live emergency scene */}
+        <div className="gt" style={{ background: "transparent" }}>
+          <section className="hero" style={{ paddingBottom: 40 }}>
+            <div className="wrap">
+              <nav className="crumbs" aria-label="Breadcrumb"><ol><li><Link to="/">Ana Sayfa</Link></li><li aria-current="page">Acil Tesisatçı</li></ol></nav>
+              <div className="hero-g">
+                <div>
+                  <span className="tag"><b>7/24</b>Şu an açık · İstanbul</span>
+                  <h1>Acil tesisatçı İstanbul <em>en yakın ekip yolda.</em><small>Gece · hafta sonu · bayram</small></h1>
+                  <p className="lead">{DESC}</p>
+                  <div className="cta">
+                    <a className="btn btn-red" href={PHONE_HREF}><Phone className="ico gt-ring" />HEMEN ARA — {PHONE}</a>
+                    <a className="btn btn-wa" href="https://wa.me/905338960503" target="_blank" rel="noopener">WhatsApp</a>
+                  </div>
+                </div>
+                <ServiceSim slug="acil-tesisatci" title="Acil tesisat müdahalesi animasyonu" />
+              </div>
+            </div>
+          </section>
+        </div>
+        <div className="mx-auto max-w-[1180px] md:px-4">
 
         {/* Trust strip */}
         <section className="px-4 pt-5">
@@ -291,6 +273,7 @@ function AcilHub() {
             <Phone className="h-4 w-4" /> {PHONE}
           </a>
         </section>
+        </div>
       </main>
       <SiteFooter />
       <StickyCallBar />

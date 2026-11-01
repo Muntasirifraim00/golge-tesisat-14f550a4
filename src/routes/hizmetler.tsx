@@ -130,6 +130,7 @@ function ServiceHub() {
             <span className="rounded-lg bg-[var(--sp-mist)] px-3 py-2 text-[var(--sp-ink)]">Hizmetler</span>
             <a href="#bolgeler" className="px-3 py-2 hover:text-[var(--sp-ink)]">Bölgeler</a>
             <a href="#bul" className="px-3 py-2 hover:text-[var(--sp-ink)]">Sorunu bul</a>
+            <Link to="/fiyatlar" className="px-3 py-2 hover:text-[var(--sp-ink)]">Fiyatlar</Link>
             <Link to="/blog" className="px-3 py-2 hover:text-[var(--sp-ink)]">Rehber</Link>
           </nav>
           <div className="flex items-center gap-2">
