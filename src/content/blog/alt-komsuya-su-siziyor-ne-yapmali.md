@@ -1,222 +1,130 @@
 ---
-slug: "alt-komsuya-su-siziyor-ne-yapmali"
-title: "Alt Komşuya Su Sızıyor: Kaynak Tespiti, Sorumluluk ve İstanbul Tamir (2026)"
-seoTitle: "Alt Komşuya Su Sızıyor: Ne Yapmalı? (2026"
-keyword: "alt komşuya su sızıyor"
-volume: 200
-kdi: 30
-category: "Su Tesisatı"
-readMin: 4
-published: "2026-07-26"
-updated: "2026-07-26"
-excerpt: >
-  Kapı çalıyor, altkat komşunuz elinde telefon: "Tavanımdan su damlıyor, sizin
-  daireden geliyor.
-metaDescription: "Alt komşuya sızıntı: sorumluluk (KMK 42), sigorta talep süreci, sıva altı tespit yöntemleri ve 2026 İstanbul tamir fiyatları. Gölge Tesisat İstanbul 7/24: 05..."
-serviceSlug: "su-tesisati"
+slug: alt-komsuya-su-siziyor-ne-yapmali
+title: 'Alt Komşuya Su Sızıyor: Ne Yapmalı? Kaynak Tespiti ve Sorumluluk Rehberi'
+seoTitle: 'Alt Komşuya Su Sızıyor: Ne Yapmalı? (2026)'
+keyword: alt komşuya su sızıyor
+category: Su Tesisatı
+serviceSlug: su-kacagi-tespiti
+readMin: 9
+published: '2026-07-26'
+updated: '2026-10-03'
+excerpt: 'Alt komşuya su sızıyorsa panik yapmayın: ilk 30 dakikada yapılacak adımlar, kaçağın kimin sorumluluğunda olduğunu belirleme yöntemi, sigorta süreci ve anlaşmazlık durumunda izlenecek yol bu rehberde.'
 featuredImage:
-  src: "/blog-images/alt-komsuya-su-siziyor-ne-yapmali-hero.jpg"
-  alt: "alt komşuya su sızıyor — İstanbul saha rehberi görseli"
-  caption: "Gölge Tesisat İstanbul saha ekibi."
-intro: >
-  Kapı çalıyor, altkat komşunuz elinde telefon: "Tavanımdan su damlıyor, sizin
-  daireden geliyor." Panik, suçluluk, "acaba ne kadar tutar" hesabı ve "ama biz
-  banyo kullanmıyorduk ki" şaşkınlığı hepsi birden. İstanbul'da 15 yıldır acil
-  su kaçağı müdahalesi yapan ekip olarak söyleyebiliriz: komşuya sızan su
-  vakalarının %80'i, ilk 30 dakikada doğru yapılan 5 adım ile hem hasar hem
-  hukuki riski minimuma indirir. Bu rehberde: (1) alt komşuya su sızdığında ilk
-  30 dakikada yapılması gereken 5 kritik adım, (2) kaçağın hangi dairenin
-  sorumluluğunda olduğunu belirleme yöntemi, (3) DASK, konut sigortası ve site
-  aidat sigortasının hangi zararı karşıladığı, (4) komşuyla anlaşmazlık çıkarsa
-  hukuki süreç ve delil zinciri, (5) sık yapılan 7 pahalı hata. > Şu an altkata
-  su sızıyor mu? Önce ana su vanasını kapatın → elektrik panosunu kesin (ıslanan
-  odalarda) → fotoğraf/video çekin → tespit için 7/24 acil hat: 0533 896 05 03,
-  25–45 dk içinde adresinizde, termal kamera + akustik ile kırmadan tespit.
-sections:
-  - heading: "İlk 30 Dakikada Yapılacak 5 Kritik Adım"
-    paragraphs:
-      - "Dairenizin girişindeki **ana su vanasını saat yönünde çevirin**. Vana bulunamıyorsa binanın bodrumundaki **kolon vanasını** kesin. Vana **sıkışmışsa asla zorlamayın** — İSKİ / SUKİ acil hat 185'i arayın."
-      - "Su + priz = **elektrik çarpması + yangın**. Panodan ıslanan odaların sigortasını düşürün."
-      - "Bu adım **hukuki olarak en önemli** olan:"
-      - "Aynısını **altkat komşudan da isteyin**. WhatsApp ile karşılıklı gönderim = tarih-saat mühürü sağlar."
-    image:
-      src: "/blog-images/alt-komsuya-su-siziyor-ne-yapmali-infographic.jpg"
-      alt: "Alt komşuya su sızıntısı infografik"
-      caption: "Su sızıntısı infografik."
-  - heading: "Kaçak Kaynağı ve Sorumluluk Matrisi"
-    paragraphs:
-      - "**Kritik kural:** Tespit edilmeden hiçbir ödemede bulunmayın, hiçbir yazılı kabul yapmayın."
-    image:
-      src: "/blog-images/alt-komsuya-su-siziyor-ne-yapmali-comparison.jpg"
-      alt: "Alt komşuya su sızıntısı karşılaştırma"
-      caption: "Su sızıntısı karşılaştırma."
-  - heading: "DASK, Konut Sigortası ve Site Aidat Sigortası"
-    paragraphs:
-      - "**Su kaçağı hasarını KARŞILAMAZ.** Sadece deprem hasarını kapsar."
-      - "**Ana ürün.** Genelde 3 başlık:"
-      - "Standart poliçelerde yıllık **10.000–50.000 TL** teminat."
-      - "Ortak alanlar için. Kaçak **ortak kolondan** ise devreye giren budur."
-    image:
-      src: "/blog-images/alt-komsuya-su-siziyor-ne-yapmali-symptoms.jpg"
-      alt: "Alt komşuya su sızıntısı belirtiler"
-      caption: "Su sızıntısı belirtiler."
-  - heading: "Komşu ile Anlaşmazlık: Hukuki Süreç"
-    paragraphs:
-      - "Kiracı iseniz farklı: silikon / hortum kaçağı = kiracı; sıva altı boru patlaması = ev sahibi. Bkz. [su patlaması ilk müdahale](/preview/su-patlamasi-ilk-mudahale)."
-    image:
-      src: "/blog-images/alt-komsuya-su-siziyor-ne-yapmali-chart.jpg"
-      alt: "Alt komşuya su sızıntısı grafik"
-      caption: "Su sızıntısı grafik."
-  - heading: "Servis Gelene Kadar Hasarı Sınırlama"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "En Sık 7 Pahalı Hata"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Otoriter Kaynaklar"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Sonuç: 30 Dakika = Binlerce Lira Fark"
-    paragraphs:
-      - "Alt komşuya su sızdığında panik değil sıralı hareket: **vana kapa → elektrik kes → fotoğraf-video → profesyonel tespit → 24 saat içinde sigorta**. İstanbul 7/24: **0533 896 05 03**."
-  - heading: "Gölge Tesisat İstanbul — Acil Servis"
-    paragraphs:
-      - "İstanbul geneli 7/24 tesisat servisimiz Kadıköy, Beşiktaş, Ümraniye, Başakşehir dahil tüm ilçelerde 45 dakika içinde adresinize gelir. Fiyat aralıklarımız arıza türüne göre değişir; net teklif için telefonla ulaşın."
-    callout:
-      variant: "tip"
-      title: "Ustayı çağırmadan önce"
-      body: "Kombi/vana modelini ve fotoğrafı hazır edin; teşhis süresi kısalır, maliyet düşer."
-    cta:
-      title: "Acil tesisatçı mı arıyorsunuz?"
-      body: "İstanbul içi 45 dakikada saha ekibimizi adresinize yönlendiriyoruz."
-      phone: true
-      whatsapp: true
+  src: /blog-images/alt-komsuya-su-siziyor-ne-yapmali-hero.jpg
+  alt: Alt komşuya su sızıyor — tavandaki su lekesini inceleyen usta
+  caption: 'Tavandaki su lekesi, üst daireden gelen bir sızıntının ilk işaretidir.'
+metaDescription: 'Alt komşuya su sızıyorsa ne yapmalı? İlk müdahale adımları, sorumluluk matrisi, sigorta süreci ve kırmadan kaçak tespiti bu rehberde.'
+intro: 'Kapı çalıyor; alt kat komşunuz elinde telefon, tavanındaki su lekesini gösteriyor. Panik, suçluluk ve ''acaba ne kadar tutar'' hesabı aynı anda gelir. Oysa bu durumda en önemli şey sıralı ve sakin hareket etmektir: ilk dakikalarda atılan doğru adımlar hem hasarı hem de hukuki riski en aza indirir. Bu rehberde alt komşuya su sızdığında ilk 30 dakikada yapılması gerekenleri, kaçağın hangi dairenin sorumluluğunda olduğunu belirleme yöntemini, sigorta sürecini ve anlaşmazlık çıkarsa izlenecek yolu anlatıyoruz.'
+inlineLinks:
+  - slug: termal-kamera-ile-su-kacagi-tespiti
+    anchor: termal kamera ile su kaçağı tespiti
+  - slug: su-patlamasi-ilk-mudahale
+    anchor: su patlaması ilk müdahale
+  - slug: duvarda-rutubet-kuf-su-kacagi-mi-yogusma-mi
+    anchor: duvardaki rutubet su kaçağı mı yoğuşma mı
+manualRelated:
+  - termal-kamera-ile-su-kacagi-tespiti
+  - su-patlamasi-ilk-mudahale
+  - duvarda-rutubet-kuf-su-kacagi-mi-yogusma-mi
 faq:
-  - q: "Alt komşuya su sızıyor, sorumluluk kimin?"
-    a: "Sızıntı kendi dairenizden geliyorsa siz sorumlusunuz (KMK 42). Ana kolon ya da çatı ise apartman ortak alanı, tüm daireler öder."
-  - q: "Konut sigortası öder mi?"
-    a: "Standart konut poliçesi kendi hasarınızı karşılar. Alt komşunun zararı için \"3. şahıs mali mesuliyet\" ek klozu (200-500 TL/yıl) şart."
-  - q: "Su nereden sızıyor, nasıl bulunur?"
-    a: "Termal kamera, akustik dinleme veya boyalı test. Duvar açmadan tespit için \"termal kamera ile su kaçağı\" rehberi."
-  - q: "Alt komşu tazminat isterse ne olur?"
-    a: "İhtar → sulh hukuk mahkemesi. Rapor + fotoğraf + tesisatçı faturası kanıt olarak sunulur."
-  - q: "Sızıntı devam ederse ne yapmalı?"
-    a: "Ana daire suyunu kesin, tesisatçı çağırın, alt komşunun eşyalarını çekmesine yardım edin, tutanak tutun."
+  - question: 'Alt komşuya su sızıyor, sorumluluk kimin?'
+    answer: 'Sızıntı sizin dairenizin tesisatından, silikonundan veya cihaz hortumundan kaynaklanıyorsa sorumluluk daire sahibinindir (Kat Mülkiyeti Kanunu''na göre daire içi tesisat malikin sorumluluğundadır). Kaçak ortak kolon, çatı veya teras izolasyonundansa sorumluluk apartman yönetimine aittir. Kesin cevap ancak profesyonel tespit ile verilir.'
+  - question: Konut sigortası alt komşunun zararını öder mi?
+    answer: Standart konut poliçesi kendi dairenizdeki hasarı karşılar. Alt komşunun zararının ödenmesi için poliçede 'üçüncü şahıs mali mesuliyet' teminatının bulunması gerekir. DASK ise yalnızca deprem hasarını kapsar; su kaçağını karşılamaz.
+  - question: 'Su nereden sızıyor, nasıl bulunur?'
+    answer: 'Termal kamera, akustik dinleme cihazı ve boyalı su testi ile kaçak noktası duvarı kırmadan tespit edilir. Tespit genellikle 45-90 dakika sürer ve çıkan rapor sigorta şirketine ve gerektiğinde mahkemeye delil olarak sunulabilir.'
+  - question: Alt komşu tazminat isterse süreç nasıl işler?
+    answer: 'Önce yazılı ihbar ve arabuluculuk yolu denenir; anlaşma sağlanamazsa sulh hukuk mahkemesinde tazminat davası açılabilir. Tespit raporu, fotoğraflar, video kayıtları ve tesisatçı faturası bu süreçte temel delillerdir.'
+  - question: Kiracıysam sorumluluk bana mı ev sahibine mi ait?
+    answer: 'Kullanımdan kaynaklanan kaçaklar (eskimiş silikon, çamaşır makinesi hortumu, sifon contası) genellikle kiracının sorumluluğundadır. Sıva altı boru patlaması gibi yapısal arızalar ise ev sahibine aittir. Tespit raporu bu ayrımı netleştirir.'
+  - question: Sızıntı devam ederken ne yapmalıyım?
+    answer: 'Ana su vanasını kapalı tutun, ıslak alanların elektriğini kesin, suyu bez ve kovayla tahliye edin, komşunun eşyalarını korumasına yardım edin ve kaçak tespiti için servis çağırın. Sızıntı durana kadar dairede su kullanmayın.'
+  - question: Tespit yaptırmadan tamir ödemesi yapmalı mıyım?
+    answer: 'Hayır. Kaçağın kaynağı belli olmadan yapılan ödeme, ileride ''sorumluluğu kabul'' olarak yorumlanabilir. Önce kırmadan tespit yaptırın; rapor kaynağı gösterdikten sonra sorumluluk ve ödeme konuşulmalıdır.'
+sections:
+  - heading: Öne Çıkanlar
+    id: one-cikanlar
+    bullets:
+      - 'İlk iş: ana su vanasını kapatın, ıslak alanların elektriğini kesin, fotoğraf ve video ile delil toplayın.'
+      - Tespit yapılmadan hiçbir ödeme yapmayın ve yazılı kabul vermeyin; sorumluluk kaçağın kaynağına göre belirlenir.
+      - Daire içi tesisat kaçağında sorumluluk üst kat dairenindir; ortak kolon ve çatı kaçakları apartman yönetimine aittir.
+      - Konut sigortasının komşu zararını karşılaması için 'üçüncü şahıs mali mesuliyet' teminatı gerekir; DASK su kaçağını kapsamaz.
+      - Termal kamera ve akustik dinleme ile kaçak kırmadan tespit edilir; bu rapor sigorta ve hukuki süreçte delil sayılır.
+  - heading: İlk 30 Dakikada Yapılacak 5 Kritik Adım
+    id: ilk-30-dakika
+    paragraphs:
+      - 'Sızıntı fark edildiğinde ilk yarım saat, hasarın büyüklüğünü belirler. Sırasıyla uygulayın:'
+    image:
+      src: /blog-images/alt-komsuya-su-siziyor-tespit.jpg
+      alt: Termal kamera ve akustik dinleme cihazıyla su kaçağı tespiti
+      caption: 'Termal kamera, tavandaki lekenin arkasındaki kaçak noktasını kırmadan bulur.'
+    bullets:
+      - '**Ana su vanasını kapatın:** Dairenizin girişindeki ana su vanasını saat yönünde çevirin. Vana bulunamıyorsa binanın kolon vanasını kapatın. Vana sıkışmışsa asla zorlamayın; kırılan vana sızıntıyı sel haline getirir.'
+      - '**Islak alanların elektriğini kesin:** Su ve elektrik bir araya geldiğinde çarpma ve yangın riski doğar. Panodan ıslanan odaların sigortasını düşürün.'
+      - '**Delil toplayın: fotoğraf, video, zaman damgası:** Islanan alanların geniş açı fotoğrafını, kaçak noktasının yakın çekimini ve su akışının kısa videosunu çekin; tarih ve saat görünsün. Aynısını alt komşudan da isteyin; karşılıklı fotoğraf paylaşımı zaman kanıtı sağlar.'
+      - '**Kaçağın kaynağını tespit ettirin:** Kaçak sizin dairenizden, üst kattan, ortak kolondan veya çatı izolasyonundan kaynaklanabilir. Termal kamera ve akustik dinleme ile kırmadan tespit yaptırın; termal kamera ile su kaçağı tespiti rehberimizde yöntemin detaylarını anlattık.'
+      - '**Sigortaya 24 saat içinde bildirin:** Konut sigortanız varsa hasarı 24 saat içinde ihbar edin; geç bildirim poliçe kapsamının dışında kalabilir.'
+      - '**⚠️ Tespit öncesi ödeme yapmayın:** Kaçağın kaynağı resmi olarak belirlenmeden hiçbir ödeme yapmayın ve ''biz öderiz'' gibi yazılı ya da sözlü kabulde bulunmayın. Bu ifadeler hukuki süreçte sorumluluk kabulü sayılabilir.'
+  - heading: Kaçak Kaynağı ve Sorumluluk Matrisi
+    id: sorumluluk-matrisi
+    paragraphs:
+      - 'Sorumluluk, kaçağın nerede olduğuna göre belirlenir. Aşağıdaki tablo en yaygın senaryoları özetler:'
+      - 'Kiracı oturuyorsanız ayrım önemlidir: kullanımdan kaynaklanan kaçaklar (silikon, hortum, conta) kiracıya, yapısal arızalar (sıva altı boru patlaması) ev sahibine aittir. Ani bir boru patlaması durumunda su patlaması ilk müdahale rehberimizdeki adımları izleyin.'
+    bullets:
+      - '**Daire içi tesisat (sıva altı boru)** — Üst kat daire sahibi — Daire sahibinin konut sigortası / kendisi'
+      - '**Çamaşır-bulaşık makinesi hortumu** — Cihazı kullanan (kiracı veya malik) — Konut sigortası veya kullanıcı'
+      - '**Eskimiş silikon, sifon contası** — Daireyi kullanan — Genelde sigorta kapsamaz (bakım eksikliği)'
+      - '**Rezervuar, lavabo, batarya bağlantıları** — Daire sahibi / kullanıcı — Konut sigortası veya daire sahibi'
+      - '**Ortak kolon (bina ana borusu)** — Apartman / site yönetimi — Yönetim veya bina toplu sigortası'
+      - '**Çatı, teras izolasyonu** — Apartman / site yönetimi — Yönetim bütçesi veya bina sigortası'
+      - '**Balkon izolasyonu** — Balkonun ait olduğu daire — İlgili daire sahibi'
+  - heading: 'DASK, Konut Sigortası ve Bina Sigortası'
+    id: sigorta
+    paragraphs:
+      - 'Su kaçağında üç farklı sigorta ürünü gündeme gelir; hangisinin devreye gireceği kaçağın yerine bağlıdır:'
+      - 'Hasar ihbarını geciktirmeyin; çoğu poliçede 24-48 saat içinde bildirim şartı vardır. Tespit raporu ve fotoğraflar, sigorta eksperinin işini hızlandırır.'
+    bullets:
+      - 'DASK (Zorunlu Deprem Sigortası): su kaçağı hasarını karşılamaz; yalnızca deprem ve deprem kaynaklı hasarları kapsar.'
+      - 'Konut sigortası: daire içi tesisat kaynaklı hasarları karşılar. Alt komşunun zararının ödenmesi için poliçede ''üçüncü şahıs mali mesuliyet'' teminatı bulunmalıdır.'
+      - 'Bina / site toplu sigortası: ortak alanlar içindir. Kaçak ortak kolon veya çatıdan kaynaklanıyorsa devreye giren budur.'
+  - heading: 'Komşu ile Anlaşmazlık Çıkarsa: Hukuki Süreç'
+    id: hukuki-surec
+    paragraphs:
+      - 'Çoğu sızıntı vakası komşular arasında anlaşmayla çözülür. Anlaşma sağlanamazsa izlenecek yol genel olarak şöyledir:'
+    bullets:
+      - '**Yazılı ihbar:** Hasarın bildirimi yazılı olarak yapılır; gerekirse noter aracılığıyla ihtarname gönderilir.'
+      - '**Tespit ve bilirkişi:** Kaçak tespit raporu, fotoğraf ve video kayıtları delil olarak toplanır; dava aşamasında mahkeme bilirkişi atayabilir.'
+      - '**Arabuluculuk:** Tazminat uyuşmazlıklarında dava öncesi arabuluculuk yolu denenir; çoğu dosya bu aşamada çözülür.'
+      - '**Tazminat davası:** Anlaşma sağlanamazsa sulh hukuk mahkemesinde dava açılır; tespit raporu, fotoğraflar ve tamir faturaları temel delillerdir.'
+  - heading: Servis Gelene Kadar Hasarı Sınırlama
+    id: hasar-sinirlama
+    paragraphs:
+      - 'Tespit ekibi gelene kadar alacağınız basit önlemler hasarın büyümesini önler:'
+    bullets:
+      - Islanan mobilyaları ve halıyı kaldırın; küf oluşumu bir gün içinde başlayabilir.
+      - Elektronik cihazları fişten çekin ve ıslak bölgeden uzaklaştırın.
+      - Klima veya kombi ıslanan bölgedeyse cihazı kapatın.
+      - Biriken suyu havlu ve kovayla tahliye edin; ıslak duvarları fanla kurutmaya başlayın.
+      - Temizlik yapmadan önce tüm hasarın fotoğrafını çekin.
+    image:
+      src: /blog-images/alt-komsuya-su-siziyor-ne-yapmali-chart.jpg
+      alt: alt komsuya su siziyor ne yapmali — chart
+      caption: Durum değerlendirme grafiği
+  - heading: Sık Yapılan 7 Pahalı Hata
+    id: pahali-hatalar
+    paragraphs:
+      - 'Saha deneyimimizde en sık karşılaştığımız, sonradan pahalıya mal olan hatalar şunlardır:'
+    bullets:
+      - Su vanasını kapatmadan beklemek
+      - Komşuya sözlü 'biz öderiz' demek
+      - Tespit yaptırmadan amatör tahminle hareket etmek
+      - Sigortaya günler sonra bildirim yapmak
+      - Kaçak noktasını kırıp kendi başına tamir etmeye çalışmak
+      - Komşunun abartılı tamir talebini yazılı olarak kabul etmek
+      - Fotoğraf çekmeden temizlik ve tadilat yapmak
+  - heading: 'Tavandaki Leke Kaçak mı, Yoğuşma mı?'
+    id: kacak-mi-yogusma-mi
+    paragraphs:
+      - Her tavan lekesi üst daireden kaçak anlamına gelmez. Banyo ve mutfak gibi nemli hacimlerin üstündeki lekeler yoğuşmadan da kaynaklanabilir; yağmurlu günlerde büyüyen lekeler ise çatı veya teras izolasyonuna işaret edebilir.
+      - 'Kesin ayrım için lekenin büyüme hızına, rengine ve hangi şartlarda arttığına bakılır. Duvardaki rutubet su kaçağı mı yoğuşma mı rehberimizde bu ayrımı evde yapabileceğiniz testlerle anlattık.'
 ---
-
-# Alt Komşuya Su Sızıyor: Adım Adım Ne Yapmalı ve Zararı Kim Öder? (2026)
-
-Kapı çalıyor, altkat komşunuz elinde telefon: "Tavanımdan su damlıyor, sizin daireden geliyor." Panik, suçluluk, "acaba ne kadar tutar" hesabı ve "ama biz banyo kullanmıyorduk ki" şaşkınlığı hepsi birden. İstanbul'da 15 yıldır acil su kaçağı müdahalesi yapan ekip olarak söyleyebiliriz: **komşuya sızan su vakalarının %80'i, ilk 30 dakikada doğru yapılan 5 adım ile hem hasar hem hukuki riski minimuma indirir.**
-
-Bu rehberde: (1) alt komşuya su sızdığında **ilk 30 dakikada** yapılması gereken 5 kritik adım, (2) kaçağın **hangi dairenin sorumluluğunda** olduğunu belirleme yöntemi, (3) **DASK, konut sigortası ve site aidat sigortasının** hangi zararı karşıladığı, (4) komşuyla anlaşmazlık çıkarsa **hukuki süreç ve delil zinciri**, (5) sık yapılan **7 pahalı hata**.
-
-> **Şu an altkata su sızıyor mu?** Önce **ana su vanasını kapatın** → **elektrik panosunu kesin** (ıslanan odalarda) → **fotoğraf/video** çekin → tespit için 7/24 acil hat: **0533 896 05 03**, 25–45 dk içinde adresinizde, termal kamera + akustik ile kırmadan tespit.
-
-## İlk 30 Dakikada Yapılacak 5 Kritik Adım
-
-### Adım 1 — Ana Su Vanasını Kapatın (0–2 dk)
-
-Dairenizin girişindeki **ana su vanasını saat yönünde çevirin**. Vana bulunamıyorsa binanın bodrumundaki **kolon vanasını** kesin. Vana **sıkışmışsa asla zorlamayın** — İSKİ / SUKİ acil hat 185'i arayın.
-
-### Adım 2 — Elektriği Kesin (Islak Alanlarda)
-
-Su + priz = **elektrik çarpması + yangın**. Panodan ıslanan odaların sigortasını düşürün.
-
-### Adım 3 — Delil Toplayın: Fotoğraf, Video, Zaman Damgası
-
-Bu adım **hukuki olarak en önemli** olan:
-
-- Islanan alanların **geniş açı fotoğrafı**
-- Kaçak noktasının **yakın çekim** fotoğrafı
-- Su akışının **video** kaydı (10–20 saniye)
-- Ekranda **tarih-saat** görünecek şekilde
-- Duvarda / tavanda **eski leke** varsa mutlaka çekin
-
-Aynısını **altkat komşudan da isteyin**. WhatsApp ile karşılıklı gönderim = tarih-saat mühürü sağlar.
-
-### Adım 4 — Kaçağın Kaynağını Tespit Ettirin
-
-Kaçak kaynağı 4 farklı yerden olabilir:
-
-1. **Sizin daireniz** — tesisat, silikon, çamaşır makinesi hortumu
-2. **Üstkat daireniz**
-3. **Ortak kolon** — bina duvarındaki dikey ana boru (site yönetiminin sorumluluğu)
-4. **Çatı / teras / balkon izolasyonu**
-
-Termal kamera + akustik dinleme ile **profesyonel tespit** yaptırın. [Termal kamera ile su kaçağı tespiti](/preview/termal-kamera-ile-su-kacagi-tespiti) rehberinde detay; ortalama 45–90 dk sürer, kırma gerektirmez.
-
-### Adım 5 — Sigortacıya Bildirim (24 Saat İçinde)
-
-Hem sizin hem komşunun DASK / konut sigortası varsa **24 saat içinde** ihbar yapılmalı. Geç bildirim = poliçe kapsam dışı.
-
-## Kaçak Kaynağı ve Sorumluluk Matrisi
-
-| Kaçak Nerede               | Sorumlu                | Kim Öder                              |
-| -------------------------- | ---------------------- | ------------------------------------- |
-| Daire içi tesisat          | Daire sahibi (üst kat) | Üst dairenin konut sigortası          |
-| Çamaşır makinesi hortumu   | Cihaz sahibi           | Konut sigortası + daire sahibi        |
-| Silikon eskimesi           | Daire sahibi           | Genelde ödenmez (bakım eksikliği)     |
-| Tuvalet rezervuar / lavabo | Daire sahibi           | Konut sigortası + daire sahibi        |
-| Ortak kolon                | Site / Apartman        | Site yönetimi + toplu konut sigortası |
-| Teras / çatı izolasyonu    | Site / Apartman        | Site yönetimi                         |
-| Balkon izolasyonu          | Balkon sahibi (üst)    | Üst daire sahibi                      |
-
-**Kritik kural:** Tespit edilmeden hiçbir ödemede bulunmayın, hiçbir yazılı kabul yapmayın.
-
-## DASK, Konut Sigortası ve Site Aidat Sigortası
-
-### 1. DASK (Zorunlu Deprem Sigortası)
-
-**Su kaçağı hasarını KARŞILAMAZ.** Sadece deprem hasarını kapsar.
-
-### 2. Konut Sigortası (İhtiyari)
-
-**Ana ürün.** Genelde 3 başlık:
-
-- **Dahili su hasarı** — daire içi tesisat kaynaklı
-- **Komşuya verilen zarar (üçüncü şahıs mali mesuliyeti)** — altkatın hasarını sizin sigortanız öder
-- **Boya-badana** — tavanı yeniden boyama
-
-Standart poliçelerde yıllık **10.000–50.000 TL** teminat.
-
-### 3. Site / Apartman Toplu Konut Sigortası
-
-Ortak alanlar için. Kaçak **ortak kolondan** ise devreye giren budur.
-
-## Komşu ile Anlaşmazlık: Hukuki Süreç
-
-1. **Yazılı ihbar / ihtarname** — noter aracılığıyla (500–1.000 TL, 2026)
-2. **Bilirkişi tespiti** — Sulh Hukuk Mahkemesi (1.500–4.000 TL)
-3. **Uzlaştırma / arabuluculuk** — zorunlu arabuluculuk
-4. **Tazminat davası** — Sulh Hukuk, 8–18 ay
-
-Kiracı iseniz farklı: silikon / hortum kaçağı = kiracı; sıva altı boru patlaması = ev sahibi. Bkz. [su patlaması ilk müdahale](/preview/su-patlamasi-ilk-mudahale).
-
-## Servis Gelene Kadar Hasarı Sınırlama
-
-- **Islanan mobilyaları çekin**, halıyı toplayın (küf 24 saatte başlar)
-- **Elektronik cihazları** fişten çekin
-- **Klima / kombi altındaysa** hemen kapatın
-- **Havlu / bez ile suyu emin**
-- **Islak duvarları fanla kurutun**
-
-## En Sık 7 Pahalı Hata
-
-1. **Su vanasını kesmeden 30 dk beklemek**
-2. **Komşuya sözlü "biz öderiz" demek**
-3. **Amatör tespit kabul etmek**
-4. **Sigortaya 3 gün sonra bildirim**
-5. **Kaçak noktasını kırıp kendi kendine tamir**
-6. **Komşunun abartılı fatura talebini WhatsApp'ta kabul edip yazıya dökmek**
-7. **Fotoğraf çekmeden temizlik yapmak**
-
-## Otoriter Kaynaklar
-
-- [SEDDK](https://www.seddk.gov.tr/)
-- [Türkiye Sigorta Birliği](https://www.tsb.org.tr/)
-- [DASK](https://www.dask.gov.tr/)
-- [Adalet Bakanlığı](https://www.adalet.gov.tr/)
-
-## Sonuç: 30 Dakika = Binlerce Lira Fark
-
-Alt komşuya su sızdığında panik değil sıralı hareket: **vana kapa → elektrik kes → fotoğraf-video → profesyonel tespit → 24 saat içinde sigorta**. İstanbul 7/24: **0533 896 05 03**.

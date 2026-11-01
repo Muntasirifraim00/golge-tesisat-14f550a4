@@ -6,6 +6,7 @@ import {
   ShowerHead, Droplets, Gauge,
 } from "lucide-react";
 import { SERVICES, findService, type ServiceIcon, type Service } from "@/data/services";
+import { BLOG_POSTS } from "@/data/blog";
 import { SiteFooter } from "@/components/SiteFooter";
 import { StickyCallBar } from "@/components/StickyCallBar";
 import { BUSINESS } from "@/data/business";
@@ -58,7 +59,7 @@ export const Route = createFileRoute("/hizmet/$slug/fiyat")({
     const s = loaderData?.service;
     if (!s) return { meta: [{ title: "Fiyatlar — Gölge Tesisat" }] };
     const lc = s.name.toLowerCase();
-    const title = `${s.name} Fiyatları 2026 — İstanbul Ücret | Gölge Tesisat`;
+    const title = `${s.name} Ücreti 2026 — İstanbul Fiyatları | Gölge Tesisat`;
     const desc = `${s.name} fiyatları nasıl belirlenir? İstanbul'da ${lc} ücretini etkileyen faktörler, ücretsiz keşif ve şeffaf fiyatlandırma. Hemen arayın: ${PHONE}.`;
     const url = `https://golgetesisat.com/hizmet/${s.slug}/fiyat`;
     const ogImage = `https://golgetesisat.com/og/${s.slug}.jpg`;
@@ -165,6 +166,7 @@ function PricingPage() {
   const lc = s.name.toLowerCase();
   const faq = priceFaq(s);
   const otherServices = SERVICES.filter((x) => x.slug !== s.slug);
+  const relatedPosts = BLOG_POSTS.filter((p) => p.serviceSlug === s.slug).slice(0, 4);
 
   return (
     <div className="min-h-screen bg-background pb-24">
@@ -299,6 +301,22 @@ function PricingPage() {
           <ArrowRight className="h-3.5 w-3.5 rotate-180 text-brand-red" /> {s.name} hizmet detayları
         </Link>
       </section>
+
+      {/* Related blog guides (internal links) */}
+      {relatedPosts.length > 0 && (
+        <section className="px-4 pt-8">
+          <h2 className="text-[16px] font-extrabold">{s.name} Hakkında Faydalı Rehberler</h2>
+          <p className="mt-1 text-[12px] text-muted-foreground">Fiyatı etkileyen işleri ve kendi başınıza yapabileceklerinizi adım adım anlattık.</p>
+          <div className="mt-3 grid gap-2">
+            {relatedPosts.map((p) => (
+              <Link key={p.slug} to="/blog/$slug" params={{ slug: p.slug }} className="flex items-center justify-between gap-2 rounded-lg border border-border bg-surface p-3 hover:border-brand-red">
+                <span className="text-[13px] font-bold leading-snug">{p.title}</span>
+                <ArrowRight className="h-4 w-4 shrink-0 text-brand-red" />
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Other services' pricing */}
       <section className="px-4 pt-8">

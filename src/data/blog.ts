@@ -5,180 +5,181 @@
 
 import { lcTr as lcTrData, type InlinePhrase } from "@/lib/inline-linker";
 export type { InlinePhrase };
-import radyatorFeatured from "@/assets/blog/radyator-featured.jpg";
-import radyatorTipleriDiagram from "@/assets/blog/radyator-tipleri-diagram.jpg";
-import klimaSuAkitirFeatured from "@/assets/blog/klima-su-akitir-featured.jpg";
- import klimaDrenajDiagram from "@/assets/blog/klima-drenaj-diagram.jpg";
- import fanCoilFeatured from "@/assets/blog/fan-coil-featured.jpg";
- import fanCoilDiagram from "@/assets/blog/fan-coil-diagram.jpg";
- import fanCoil2Borulu4BoruluDiagram from "@/assets/blog/fan-coil-2-borulu-4-borulu-diagram.jpg";
-import klozetMontajiFeatured from "@/assets/blog/klozet-montaji-featured.jpg";
-import klozetCikisTipleriDiagram from "@/assets/blog/klozet-cikis-tipleri-diagram.jpg";
-import dusakabinMontajiFeatured from "@/assets/blog/dusakabin-montaji-featured.jpg";
-import dusakabinTekneliTeknesizDiagram from "@/assets/blog/dusakabin-tekneli-teknesiz-diagram.jpg";
- import muslukTamiriFeatured from "@/assets/blog/musluk-tamiri-featured.jpg";
- import muslukTamiriParcalarDiagram from "@/assets/blog/musluk-tamiri-parcalar-diagram.jpg";
- import muslukTamiriRealFeatured from "@/assets/blog/musluk-tamiri-real-featured.jpg";
- import muslukTamiriTipleriDiagram from "@/assets/blog/musluk-tamiri-tipleri-diagram.jpg";
-import kombiTemizligiFeatured from "@/assets/blog/kombi-temizligi-featured.jpg";
-import kombiTemizligiParcalarDiagram from "@/assets/blog/kombi-temizligi-parcalar-diagram.jpg";
-import dogalgazTesisatiFeatured from "@/assets/blog/dogalgaz-tesisati-featured.jpg";
-import dogalgazTesisatiAsamalarDiagram from "@/assets/blog/dogalgaz-tesisati-asamalar-diagram.jpg";
-import yerdenIsitmaFeatured from "@/assets/blog/yerden-isitma-featured.jpg";
-import yerdenIsitmaKatmanDiagram from "@/assets/blog/yerden-isitma-katman-diagram.jpg";
-import boylerFeatured from "@/assets/blog/boyler-featured.jpg";
-import boylerSerpantinDiagram from "@/assets/blog/boyler-serpantin-diagram.jpg";
-import klimaBakimiFeatured from "@/assets/blog/klima-bakimi-featured.jpg";
-import klimaBakimiParcalarDiagram from "@/assets/blog/klima-bakimi-parcalar-diagram.jpg";
-import sihhiTesisatFeatured from "@/assets/blog/sihhi-tesisat-featured.jpg";
-import sihhiTesisatSemaDiagram from "@/assets/blog/sihhi-tesisat-sema-diagram.jpg";
-import dusakabinTemizligiFeatured from "@/assets/blog/dusakabin-temizligi-featured.jpg";
-import dusakabinTemizlikYontemleriDiagram from "@/assets/blog/dusakabin-temizlik-yontemleri-diagram.jpg";
-import dogalgazSayaciFeatured from "@/assets/blog/dogalgaz-sayaci-featured.jpg";
-import dogalgazSayaciOkumaDiagram from "@/assets/blog/dogalgaz-sayaci-okuma-diagram.jpg";
-import hermetikKombiFeatured from "@/assets/blog/hermetik-kombi-featured.jpg";
-import hermetikBacaliKombiDiagram from "@/assets/blog/hermetik-bacali-kombi-diagram.jpg";
-import vidanjorFeatured from "@/assets/blog/vidanjor-featured.jpg";
-import vidanjorCalismaDiagram from "@/assets/blog/vidanjor-calisma-diagram.jpg";
-import kalorimetrePayOlcerFeatured from "@/assets/blog/kalorimetre-pay-olcer-featured.jpg";
-import kalorimetrePayOlcerDiagram from "@/assets/blog/kalorimetre-pay-olcer-diagram.jpg";
-import hidroforFeatured from "@/assets/blog/hidrofor-featured.jpg";
-import hidroforParcalarDiagram from "@/assets/blog/hidrofor-parcalar-diagram.jpg";
-import cekValfFeatured from "@/assets/blog/cek-valf-featured.jpg";
-import cekValfCalismaDiagram from "@/assets/blog/cek-valf-calisma-diagram.jpg";
-import vanaCesitleriFeatured from "@/assets/blog/vana-cesitleri-featured.jpg";
-import vanaCesitleriDiagram from "@/assets/blog/vana-cesitleri-diagram.jpg";
-import genlesmeTankiFeatured from "@/assets/blog/genlesme-tanki-featured.jpg";
-import genlesmeTankiCalismaDiagram from "@/assets/blog/genlesme-tanki-calisma-diagram.jpg";
-import sirkulasyonPompasiFeatured from "@/assets/blog/sirkulasyon-pompasi-featured.jpg";
-import sirkulasyonPompasiCalismaDiagram from "@/assets/blog/sirkulasyon-pompasi-calisma-diagram.jpg";
-import rezervuarFeatured from "@/assets/blog/rezervuar-featured.jpg";
-import rezervuarIcTakimDiagram from "@/assets/blog/rezervuar-ic-takim-diagram.jpg";
-import esanjorFeatured from "@/assets/blog/esanjor-featured.jpg";
-import esanjorCalismaDiagram from "@/assets/blog/esanjor-calisma-diagram.jpg";
-import odaTermostatiFeatured from "@/assets/blog/oda-termostati-featured.jpg";
-import odaTermostatiCalismaDiagram from "@/assets/blog/oda-termostati-calisma-diagram.jpg";
-import tesisatBorusuFeatured from "@/assets/blog/tesisat-borusu-featured.jpg";
-import tesisatBorusuCesitleriDiagram from "@/assets/blog/tesisat-borusu-cesitleri-diagram.jpg";
-import muslukBataryaCesitleriFeatured from "@/assets/blog/musluk-batarya-featured.jpg";
-import bataryaParcalarDiagram from "@/assets/blog/batarya-parcalar-diagram.jpg";
-import yerSuzgeciFeatured from "@/assets/blog/yer-suzgeci-featured.jpg";
-import yerSuzgeciKokuDiagram from "@/assets/blog/yer-suzgeci-koku-diagram.jpg";
-import klozetCesitleriFeatured from "@/assets/blog/klozet-cesitleri-featured.jpg";
-import klozetCesitleriTiplerDiagram from "@/assets/blog/klozet-cesitleri-tipler-diagram.jpg";
-import rogarFeatured from "@/assets/blog/rogar-featured.jpg";
-import rogarYapiDiagram from "@/assets/blog/rogar-yapi-diagram.jpg";
-import tuvaletKokusuFeatured from "@/assets/blog/tuvalet-kokusu-featured.jpg";
-import kokuSifonDiagram from "@/assets/blog/koku-sifon-diagram.jpg";
-import kombiNedirFeatured from "@/assets/blog/kombi-nedir-featured.jpg";
-import kombiCalismaDiagram from "@/assets/blog/kombi-calisma-diagram.jpg";
-import klozetIcTakimiFeatured from "@/assets/blog/klozet-ic-takimi-featured.jpg";
-import klozetIcTakimiDiagram from "@/assets/blog/klozet-ic-takimi-diagram.jpg";
-import klozetIcTakimiAdimlarDiagram from "@/assets/blog/klozet-ic-takimi-adimlar-diagram.jpg";
-import hidroforBasincFeatured from "@/assets/blog/hidrofor-basinc-featured.jpg";
-import hidroforSistemDiagram from "@/assets/blog/hidrofor-sistem-diagram.jpg";
-import lavaboSifonuFeatured from "@/assets/blog/lavabo-sifonu-featured.jpg";
-import lavaboSifonuTipleriDiagram from "@/assets/blog/lavabo-sifonu-tipleri-diagram.jpg";
-import lavaboSifonuMakineTahliyeDiagram from "@/assets/blog/lavabo-sifonu-makine-tahliye-diagram.jpg";
-import gommeRezervuarFeatured from "@/assets/blog/gomme-rezervuar-featured.jpg";
-import gommeRezervuarMontajDiagram from "@/assets/blog/gomme-rezervuar-montaj-diagram.jpg";
-import lavaboCesitleriFeatured from "@/assets/blog/lavabo-cesitleri-featured.jpg";
-import lavaboTipleriDiagram from "@/assets/blog/lavabo-tipleri-diagram.jpg";
-import bidetTaharetFeatured from "@/assets/blog/bidet-taharet-featured.jpg";
-import bidetTipleriDiagram from "@/assets/blog/bidet-tipleri-diagram.jpg";
-import suAritmaCihaziFeatured from "@/assets/blog/su-aritma-cihazi-featured.jpg";
-import suAritmaAsamalarDiagram from "@/assets/blog/su-aritma-asamalar-diagram.jpg";
-import suYumusatmaCihaziFeatured from "@/assets/blog/su-yumusatma-cihazi-featured.jpg";
-import suYumusatmaCalismaDiagram from "@/assets/blog/su-yumusatma-calisma-diagram.jpg";
-import suSertligiOlcegiDiagram from "@/assets/blog/su-sertligi-olcegi-diagram.jpg";
-import suYumusatmaKabinetliTandemDiagram from "@/assets/blog/su-yumusatma-kabinetli-tandem-diagram.jpg";
-import kelebekVanaFeatured from "@/assets/blog/kelebek-vana-featured.jpg";
-import kelebekVanaTipleriDiagram from "@/assets/blog/kelebek-vana-tipleri-diagram.jpg";
-import evyeCesitleriFeatured from "@/assets/blog/evye-cesitleri-featured.jpg";
-import evyeTipleriDiagram from "@/assets/blog/evye-tipleri-diagram.jpg";
-import ucYolluVanaFeatured from "@/assets/blog/uc-yollu-vana-featured.jpg";
-import ucYolluVanaCalismaDiagram from "@/assets/blog/uc-yollu-vana-calisma-diagram.jpg";
-import kombiProsestatFeatured from "@/assets/blog/kombi-prosestat-featured.jpg";
-import kombiProsestatCalismaDiagram from "@/assets/blog/kombi-prosestat-calisma-diagram.jpg";
-import kombiGazValfiFeatured from "@/assets/blog/kombi-gaz-valfi-featured.jpg";
-import kombiGazValfiCalismaDiagram from "@/assets/blog/kombi-gaz-valfi-calisma-diagram.jpg";
-import kombiFanMotoruFeatured from "@/assets/blog/kombi-fan-motoru-featured.jpg";
-import kombiFanMotoruCalismaDiagram from "@/assets/blog/kombi-fan-motoru-calisma-diagram.jpg";
-import kombiNtcSensorFeatured from "@/assets/blog/kombi-ntc-sensor-featured.jpg";
-import kombiNtcSensorCalismaDiagram from "@/assets/blog/kombi-ntc-sensor-calisma-diagram.jpg";
-import emniyetVentiliFeatured from "@/assets/blog/emniyet-ventili-featured.jpg";
-import emniyetVentiliCalismaDiagram from "@/assets/blog/emniyet-ventili-calisma-diagram.jpg";
-import dogalgazDedektoruFeatured from "@/assets/blog/dogalgaz-dedektoru-featured.jpg";
-import dogalgazDedektoruMontajDiagram from "@/assets/blog/dogalgaz-dedektoru-montaj-diagram.jpg";
-import camasirMakinesiBaglantiFeatured from "@/assets/blog/camasir-makinesi-baglanti-featured.jpg";
-import camasirMakinesiBaglantiDiagram from "@/assets/blog/camasir-makinesi-baglanti-diagram.jpg";
-import havlupanFeatured from "@/assets/blog/havlupan-featured.jpg";
-import havlupanTipleriDiagram from "@/assets/blog/havlupan-tipleri-diagram.jpg";
-import petekVanasiFeatured from "@/assets/blog/petek-vanasi-featured.jpg";
-import petekVanasiTipleriDiagram from "@/assets/blog/petek-vanasi-tipleri-diagram.jpg";
-import petekVanasiBaglantiTipleriDiagram from "@/assets/blog/petek-vanasi-baglanti-tipleri-diagram.jpg";
-import petekVanasiManuelTermostatikAkilliDiagram from "@/assets/blog/petek-vanasi-manuel-termostatik-akilli-diagram.jpg";
-import basincDusurucuFeatured from "@/assets/blog/basinc-dusurucu-featured.jpg";
-import basincDusurucuCalismaDiagram from "@/assets/blog/basinc-dusurucu-calisma-diagram.jpg";
-import kombiMontajiFeatured from "@/assets/blog/kombi-montaji-featured.jpg";
-import kombiMontajiBaglantiDiagram from "@/assets/blog/kombi-montaji-baglanti-diagram.jpg";
-import kanalGoruntulemeFeatured from "@/assets/blog/kanal-goruntuleme-featured.jpg";
-import kanalGoruntulemeAsamaDiagram from "@/assets/blog/kanal-goruntuleme-asama-diagram.jpg";
-import kombiBacasiFeatured from "@/assets/blog/kombi-bacasi-featured.jpg";
-import kombiBacasiTipleriDiagram from "@/assets/blog/kombi-bacasi-tipleri-diagram.jpg";
-import bulasikMakinesiBaglantiFeatured from "@/assets/blog/bulasik-makinesi-baglanti-featured.jpg";
-import bulasikMakinesiBaglantiDiagram from "@/assets/blog/bulasik-makinesi-baglanti-diagram.jpg";
-import taharetMusluguDegisimFeatured from "@/assets/blog/taharet-muslugu-degisim-featured.jpg";
-import taharetMusluguBaglantiDiagram from "@/assets/blog/taharet-muslugu-baglanti-diagram.jpg";
-import buderusResetlemeFeatured from "@/assets/blog/buderus-resetleme-featured.jpg";
-import buderusResetlemeAdimlarDiagram from "@/assets/blog/buderus-resetleme-adimlar-diagram.jpg";
-import buderusKombiSembollerDiagram from "@/assets/blog/buderus-kombi-semboller-diagram.jpg";
-import boschResetlemeFeatured from "@/assets/blog/bosch-resetleme-featured.jpg";
-import boschResetlemeAdimlarDiagram from "@/assets/blog/bosch-resetleme-adimlar-diagram.jpg";
-import boschKombiSembollerDiagram from "@/assets/blog/bosch-kombi-semboller-diagram.jpg";
-import ecaResetlemeFeatured from "@/assets/blog/eca-resetleme-featured.jpg";
-import ecaResetlemeAdimlarDiagram from "@/assets/blog/eca-resetleme-adimlar-diagram.jpg";
-import suVanasiFeatured from "@/assets/blog/su-vanasi-featured.jpg";
-import suVanasiYonDiagram from "@/assets/blog/su-vanasi-yon-diagram.jpg";
-import camasirMakinesiMuslukYonDiagram from "@/assets/blog/camasir-makinesi-musluk-yon-diagram.jpg";
-import dogalgazSayaciVanaDiagram from "@/assets/blog/dogalgaz-sayaci-vana-diagram.jpg";
-import viessmannResetlemeFeatured from "@/assets/blog/viessmann-resetleme-featured.jpg";
-import viessmannResetlemeAdimlarDiagram from "@/assets/blog/viessmann-resetleme-adimlar-diagram.jpg";
-import viessmannKombiSembollerDiagram from "@/assets/blog/viessmann-kombi-semboller-diagram.jpg";
-import daikinResetlemeFeatured from "@/assets/blog/daikin-resetleme-featured.jpg";
-import daikinResetlemeAdimlarDiagram from "@/assets/blog/daikin-resetleme-adimlar-diagram.jpg";
-import daikinHataKoduYapisiDiagram from "@/assets/blog/daikin-hata-kodu-yapisi-diagram.jpg";
-import baymakResetlemeFeatured from "@/assets/blog/baymak-resetleme-featured.jpg";
-import baymakResetlemeAdimlarDiagram from "@/assets/blog/baymak-resetleme-adimlar-diagram.jpg";
-import baymakApSuBasinciDiagram from "@/assets/blog/baymak-ap-su-basinci-diagram.jpg";
-import vaillantResetlemeFeatured from "@/assets/blog/vaillant-resetleme-featured.jpg";
-import vaillantResetlemeAdimlarDiagram from "@/assets/blog/vaillant-resetleme-adimlar-diagram.jpg";
-import vaillantModelResetDiagram from "@/assets/blog/vaillant-model-reset-diagram.jpg";
-import demirdokumResetlemeFeatured from "@/assets/blog/demirdokum-resetleme-featured.jpg";
-import demirdokumResetlemeAdimlarDiagram from "@/assets/blog/demirdokum-resetleme-adimlar-diagram.jpg";
-import demirdokumModelResetDiagram from "@/assets/blog/demirdokum-model-reset-diagram.jpg";
-import kombiBariFeatured from "@/assets/blog/kombi-bari-featured.jpg";
-import kombiBariIdealDegerlerDiagram from "@/assets/blog/kombi-bari-ideal-degerler-diagram.jpg";
- import kombiBariSuBasmaTahliyeDiagram from "@/assets/blog/kombi-bari-su-basma-tahliye-diagram.jpg";
-import kombiArizaKodlariFeatured from "@/assets/blog/kombi-ariza-kodlari-featured.jpg";
-import kombiArizaGruplariDiagram from "@/assets/blog/kombi-ariza-gruplari-diagram.jpg";
-import kombiArizaSembollerDiagram from "@/assets/blog/kombi-ariza-semboller-diagram.jpg";
-import kombiE01Featured from "@/assets/blog/kombi-e01-featured.jpg";
-import kombiE01ResetDiagram from "@/assets/blog/kombi-e01-reset-diagram.jpg";
-import kombiE01AteslemeDiagram from "@/assets/blog/kombi-e01-atesleme-diagram.jpg";
-import kombiBasinciDuserFeatured from "@/assets/blog/kombi-basinci-duser-featured.jpg";
-import kombiBasinciDuserNedenlerDiagram from "@/assets/blog/kombi-basinci-duser-nedenler-diagram.jpg";
-import kombiBasinciDuserTespitDiagram from "@/assets/blog/kombi-basinci-duser-tespit-diagram.jpg";
-import petekHavasiFeatured from "@/assets/blog/petek-havasi-featured.jpg";
-import petekHavasiNedenDiagram from "@/assets/blog/petek-havasi-neden-diagram.jpg";
-import petekHavasiAdimlarDiagram from "@/assets/blog/petek-havasi-adimlar-diagram.jpg";
-import bulasikSuAlmiyorFeatured from "@/assets/blog/bulasik-su-almiyor-featured.jpg";
-import bulasikSuAlmiyorAkisDiagram from "@/assets/blog/bulasik-su-almiyor-akis-diagram.jpg";
-import camasirSuAlmiyorFeatured from "@/assets/blog/camasir-su-almiyor-featured.jpg";
-import camasirSuAlmiyorAkisDiagram from "@/assets/blog/camasir-su-almiyor-akis-diagram.jpg";
-import petekTemizligiRealFeatured from "@/assets/blog/petek-temizligi-real-featured.jpg";
-import petekTemizligiBirikintiDiagram from "@/assets/blog/petek-temizligi-birikinti-diagram.jpg";
-import petekTemizligiMakineliDiagram from "@/assets/blog/petek-temizligi-makineli-diagram.jpg";
+import radyatorFeatured from "@/assets/blog/blog-radyator-featured.jpg";
+import radyatorTipleriDiagram from "@/assets/blog/blog-radyator-tipleri-diagram.jpg";
+import klimaSuAkitirFeatured from "@/assets/blog/blog-klima-su-akitir-featured.jpg";
+ import klimaDrenajDiagram from "@/assets/blog/blog-klima-drenaj-diagram.jpg";
+ import fanCoilFeatured from "@/assets/blog/blog-fan-coil-featured.jpg";
+ import fanCoilDiagram from "@/assets/blog/blog-fan-coil-diagram.jpg";
+ import fanCoil2Borulu4BoruluDiagram from "@/assets/blog/blog-fan-coil-2-borulu-4-borulu-diagram.jpg";
+import klozetMontajiFeatured from "@/assets/blog/blog-klozet-montaji-featured.jpg";
+import klozetCikisTipleriDiagram from "@/assets/blog/blog-klozet-cikis-tipleri-diagram.jpg";
+import dusakabinMontajiFeatured from "@/assets/blog/blog-dusakabin-montaji-featured.jpg";
+import dusakabinTekneliTeknesizDiagram from "@/assets/blog/blog-dusakabin-tekneli-teknesiz-diagram.jpg";
+ import muslukTamiriFeatured from "@/assets/blog/blog-musluk-tamiri-featured.jpg";
+ import muslukTamiriParcalarDiagram from "@/assets/blog/blog-musluk-tamiri-parcalar-diagram.jpg";
+ import muslukTamiriRealFeatured from "@/assets/blog/blog-musluk-tamiri-real-featured.jpg";
+ import muslukTamiriTipleriDiagram from "@/assets/blog/blog-musluk-tamiri-tipleri-diagram.jpg";
+import kombiTemizligiFeatured from "@/assets/blog/blog-kombi-temizligi-featured.jpg";
+import kombiTemizligiParcalarDiagram from "@/assets/blog/blog-kombi-temizligi-parcalar-diagram.jpg";
+import dogalgazTesisatiFeatured from "@/assets/blog/blog-dogalgaz-tesisati-featured.jpg";
+import dogalgazTesisatiAsamalarDiagram from "@/assets/blog/blog-dogalgaz-tesisati-asamalar-diagram.jpg";
+import yerdenIsitmaFeatured from "@/assets/blog/blog-yerden-isitma-featured.jpg";
+import yerdenIsitmaKatmanDiagram from "@/assets/blog/blog-yerden-isitma-katman-diagram.jpg";
+import boylerFeatured from "@/assets/blog/blog-boyler-featured.jpg";
+import boylerSerpantinDiagram from "@/assets/blog/blog-boyler-serpantin-diagram.jpg";
+import klimaBakimiFeatured from "@/assets/blog/blog-klima-bakimi-featured.jpg";
+import klimaBakimiParcalarDiagram from "@/assets/blog/blog-klima-bakimi-parcalar-diagram.jpg";
+import sihhiTesisatFeatured from "@/assets/blog/blog-sihhi-tesisat-featured.jpg";
+import sihhiTesisatSemaDiagram from "@/assets/blog/blog-sihhi-tesisat-sema-diagram.jpg";
+import dusakabinTemizligiFeatured from "@/assets/blog/blog-dusakabin-temizligi-featured.jpg";
+import dusakabinTemizlikYontemleriDiagram from "@/assets/blog/blog-dusakabin-temizlik-yontemleri-diagram.jpg";
+import dogalgazSayaciFeatured from "@/assets/blog/blog-dogalgaz-sayaci-featured.jpg";
+import dogalgazSayaciOkumaDiagram from "@/assets/blog/blog-dogalgaz-sayaci-okuma-diagram.jpg";
+import hermetikKombiFeatured from "@/assets/blog/blog-hermetik-kombi-featured.jpg";
+import hermetikBacaliKombiDiagram from "@/assets/blog/blog-hermetik-bacali-kombi-diagram.jpg";
+import vidanjorFeatured from "@/assets/blog/blog-vidanjor-featured.jpg";
+import vidanjorCalismaDiagram from "@/assets/blog/blog-vidanjor-calisma-diagram.jpg";
+import kalorimetrePayOlcerFeatured from "@/assets/blog/blog-kalorimetre-pay-olcer-featured.jpg";
+import kalorimetrePayOlcerDiagram from "@/assets/blog/blog-kalorimetre-pay-olcer-diagram.jpg";
+import hidroforFeatured from "@/assets/blog/blog-hidrofor-featured.jpg";
+import hidroforParcalarDiagram from "@/assets/blog/blog-hidrofor-parcalar-diagram.jpg";
+import cekValfFeatured from "@/assets/blog/blog-cek-valf-featured.jpg";
+import cekValfCalismaDiagram from "@/assets/blog/blog-cek-valf-calisma-diagram.jpg";
+import vanaCesitleriFeatured from "@/assets/blog/blog-vana-cesitleri-featured.jpg";
+import vanaCesitleriDiagram from "@/assets/blog/blog-vana-cesitleri-diagram.jpg";
+import genlesmeTankiFeatured from "@/assets/blog/blog-genlesme-tanki-featured.jpg";
+import genlesmeTankiCalismaDiagram from "@/assets/blog/blog-genlesme-tanki-calisma-diagram.jpg";
+import sirkulasyonPompasiFeatured from "@/assets/blog/blog-sirkulasyon-pompasi-featured.jpg";
+import sirkulasyonPompasiCalismaDiagram from "@/assets/blog/blog-sirkulasyon-pompasi-calisma-diagram.jpg";
+import rezervuarFeatured from "@/assets/blog/blog-rezervuar-featured.jpg";
+import rezervuarIcTakimDiagram from "@/assets/blog/blog-rezervuar-ic-takim-diagram.jpg";
+import esanjorFeatured from "@/assets/blog/blog-esanjor-featured.jpg";
+import esanjorCalismaDiagram from "@/assets/blog/blog-esanjor-calisma-diagram.jpg";
+import odaTermostatiFeatured from "@/assets/blog/blog-oda-termostati-featured.jpg";
+import odaTermostatiCalismaDiagram from "@/assets/blog/blog-oda-termostati-calisma-diagram.jpg";
+import tesisatBorusuFeatured from "@/assets/blog/blog-tesisat-borusu-featured.jpg";
+import tesisatBorusuCesitleriDiagram from "@/assets/blog/blog-tesisat-borusu-cesitleri-diagram.jpg";
+import muslukBataryaCesitleriFeatured from "@/assets/blog/blog-musluk-batarya-featured.jpg";
+import bataryaParcalarDiagram from "@/assets/blog/blog-batarya-parcalar-diagram.jpg";
+import yerSuzgeciFeatured from "@/assets/blog/blog-yer-suzgeci-featured.jpg";
+import yerSuzgeciKokuDiagram from "@/assets/blog/blog-yer-suzgeci-koku-diagram.jpg";
+import klozetCesitleriFeatured from "@/assets/blog/blog-klozet-cesitleri-featured.jpg";
+import klozetCesitleriTiplerDiagram from "@/assets/blog/blog-klozet-cesitleri-tipler-diagram.jpg";
+import rogarFeatured from "@/assets/blog/blog-rogar-featured.jpg";
+import rogarYapiDiagram from "@/assets/blog/blog-rogar-yapi-diagram.jpg";
+import tuvaletKokusuFeatured from "@/assets/blog/blog-tuvalet-kokusu-featured.jpg";
+import kokuSifonDiagram from "@/assets/blog/blog-koku-sifon-diagram.jpg";
+import kombiNedirFeatured from "@/assets/blog/blog-kombi-nedir-featured.jpg";
+import kombiCalismaDiagram from "@/assets/blog/blog-kombi-calisma-diagram.jpg";
+import klozetIcTakimiFeatured from "@/assets/blog/blog-klozet-ic-takimi-featured.jpg";
+import klozetIcTakimiDiagram from "@/assets/blog/blog-klozet-ic-takimi-diagram.jpg";
+import klozetIcTakimiAdimlarDiagram from "@/assets/blog/blog-klozet-ic-takimi-adimlar-diagram.jpg";
+import hidroforBasincFeatured from "@/assets/blog/blog-hidrofor-basinc-featured.jpg";
+import hidroforSistemDiagram from "@/assets/blog/blog-hidrofor-sistem-diagram.jpg";
+import lavaboSifonuFeatured from "@/assets/blog/blog-lavabo-sifonu-featured.jpg";
+import lavaboSifonuTipleriDiagram from "@/assets/blog/blog-lavabo-sifonu-tipleri-diagram.jpg";
+import lavaboSifonuMakineTahliyeDiagram from "@/assets/blog/blog-lavabo-sifonu-makine-tahliye-diagram.jpg";
+import gommeRezervuarFeatured from "@/assets/blog/blog-gomme-rezervuar-featured.jpg";
+import gommeRezervuarMontajDiagram from "@/assets/blog/blog-gomme-rezervuar-montaj-diagram.jpg";
+import lavaboCesitleriFeatured from "@/assets/blog/blog-lavabo-cesitleri-featured.jpg";
+import lavaboTipleriDiagram from "@/assets/blog/blog-lavabo-tipleri-diagram.jpg";
+import bidetTaharetFeatured from "@/assets/blog/blog-bidet-taharet-featured.jpg";
+import bidetTipleriDiagram from "@/assets/blog/blog-bidet-tipleri-diagram.jpg";
+import suAritmaCihaziFeatured from "@/assets/blog/blog-su-aritma-cihazi-featured.jpg";
+import suAritmaAsamalarDiagram from "@/assets/blog/blog-su-aritma-asamalar-diagram.jpg";
+import suYumusatmaCihaziFeatured from "@/assets/blog/blog-su-yumusatma-cihazi-featured.jpg";
+import suYumusatmaCalismaDiagram from "@/assets/blog/blog-su-yumusatma-calisma-diagram.jpg";
+import suSertligiOlcegiDiagram from "@/assets/blog/blog-su-sertligi-olcegi-diagram.jpg";
+import suYumusatmaKabinetliTandemDiagram from "@/assets/blog/blog-su-yumusatma-kabinetli-tandem-diagram.jpg";
+import kelebekVanaFeatured from "@/assets/blog/blog-kelebek-vana-featured.jpg";
+import kelebekVanaTipleriDiagram from "@/assets/blog/blog-kelebek-vana-tipleri-diagram.jpg";
+import evyeCesitleriFeatured from "@/assets/blog/blog-evye-cesitleri-featured.jpg";
+import evyeTipleriDiagram from "@/assets/blog/blog-evye-tipleri-diagram.jpg";
+import ucYolluVanaFeatured from "@/assets/blog/blog-uc-yollu-vana-featured.jpg";
+import ucYolluVanaCalismaDiagram from "@/assets/blog/blog-uc-yollu-vana-calisma-diagram.jpg";
+import kombiProsestatFeatured from "@/assets/blog/blog-kombi-prosestat-featured.jpg";
+import kombiProsestatCalismaDiagram from "@/assets/blog/blog-kombi-prosestat-calisma-diagram.jpg";
+import kombiGazValfiFeatured from "@/assets/blog/blog-kombi-gaz-valfi-featured.jpg";
+import kombiGazValfiCalismaDiagram from "@/assets/blog/blog-kombi-gaz-valfi-calisma-diagram.jpg";
+import kombiFanMotoruFeatured from "@/assets/blog/blog-kombi-fan-motoru-featured.jpg";
+import kombiFanMotoruCalismaDiagram from "@/assets/blog/blog-kombi-fan-motoru-calisma-diagram.jpg";
+import kombiNtcSensorFeatured from "@/assets/blog/blog-kombi-ntc-sensor-featured.jpg";
+import kombiNtcSensorCalismaDiagram from "@/assets/blog/blog-kombi-ntc-sensor-calisma-diagram.jpg";
+import emniyetVentiliFeatured from "@/assets/blog/blog-emniyet-ventili-featured.jpg";
+import emniyetVentiliCalismaDiagram from "@/assets/blog/blog-emniyet-ventili-calisma-diagram.jpg";
+import dogalgazDedektoruFeatured from "@/assets/blog/blog-dogalgaz-dedektoru-featured.jpg";
+import dogalgazDedektoruMontajDiagram from "@/assets/blog/blog-dogalgaz-dedektoru-montaj-diagram.jpg";
+import camasirMakinesiBaglantiFeatured from "@/assets/blog/blog-camasir-makinesi-baglanti-featured.jpg";
+import camasirMakinesiBaglantiDiagram from "@/assets/blog/blog-camasir-makinesi-baglanti-diagram.jpg";
+import havlupanFeatured from "@/assets/blog/blog-havlupan-featured.jpg";
+import havlupanTipleriDiagram from "@/assets/blog/blog-havlupan-tipleri-diagram.jpg";
+import petekVanasiFeatured from "@/assets/blog/blog-petek-vanasi-featured.jpg";
+import petekVanasiTipleriDiagram from "@/assets/blog/blog-petek-vanasi-tipleri-diagram.jpg";
+import petekVanasiBaglantiTipleriDiagram from "@/assets/blog/blog-petek-vanasi-baglanti-tipleri-diagram.jpg";
+import petekVanasiManuelTermostatikAkilliDiagram from "@/assets/blog/blog-petek-vanasi-manuel-termostatik-akilli-diagram.jpg";
+import basincDusurucuFeatured from "@/assets/blog/blog-basinc-dusurucu-featured.jpg";
+import basincDusurucuCalismaDiagram from "@/assets/blog/blog-basinc-dusurucu-calisma-diagram.jpg";
+import kombiMontajiFeatured from "@/assets/blog/blog-kombi-montaji-featured.jpg";
+import kombiMontajiBaglantiDiagram from "@/assets/blog/blog-kombi-montaji-baglanti-diagram.jpg";
+import kanalGoruntulemeFeatured from "@/assets/blog/blog-kanal-goruntuleme-featured.jpg";
+import kanalGoruntulemeAsamaDiagram from "@/assets/blog/blog-kanal-goruntuleme-asama-diagram.jpg";
+import kombiBacasiFeatured from "@/assets/blog/blog-kombi-bacasi-featured.jpg";
+import kombiBacasiTipleriDiagram from "@/assets/blog/blog-kombi-bacasi-tipleri-diagram.jpg";
+import bulasikMakinesiBaglantiFeatured from "@/assets/blog/blog-bulasik-makinesi-baglanti-featured.jpg";
+import bulasikMakinesiBaglantiDiagram from "@/assets/blog/blog-bulasik-makinesi-baglanti-diagram.jpg";
+import taharetMusluguDegisimFeatured from "@/assets/blog/blog-taharet-muslugu-degisim-featured.jpg";
+import taharetMusluguBaglantiDiagram from "@/assets/blog/blog-taharet-muslugu-baglanti-diagram.jpg";
+import buderusResetlemeFeatured from "@/assets/blog/blog-buderus-resetleme-featured.jpg";
+import buderusResetlemeAdimlarDiagram from "@/assets/blog/blog-buderus-resetleme-adimlar-diagram.jpg";
+import buderusKombiSembollerDiagram from "@/assets/blog/blog-buderus-kombi-semboller-diagram.jpg";
+import boschResetlemeFeatured from "@/assets/blog/blog-bosch-resetleme-featured.jpg";
+import boschResetlemeAdimlarDiagram from "@/assets/blog/blog-bosch-resetleme-adimlar-diagram.jpg";
+import boschKombiSembollerDiagram from "@/assets/blog/blog-bosch-kombi-semboller-diagram.jpg";
+import ecaResetlemeFeatured from "@/assets/blog/blog-eca-resetleme-featured.jpg";
+import ecaResetlemeAdimlarDiagram from "@/assets/blog/blog-eca-resetleme-adimlar-diagram.jpg";
+import suVanasiFeatured from "@/assets/blog/blog-su-vanasi-featured.jpg";
+import suVanasiYonDiagram from "@/assets/blog/blog-su-vanasi-yon-diagram.jpg";
+import petekHavaAlmaPurjor from "@/assets/blog/blog-petek-hava-alma-purjor.jpg";
+import camasirMakinesiMuslukYonDiagram from "@/assets/blog/blog-camasir-makinesi-musluk-yon-diagram.jpg";
+import dogalgazSayaciVanaDiagram from "@/assets/blog/blog-dogalgaz-sayaci-vana-diagram.jpg";
+import viessmannResetlemeFeatured from "@/assets/blog/blog-viessmann-resetleme-featured.jpg";
+import viessmannResetlemeAdimlarDiagram from "@/assets/blog/blog-viessmann-resetleme-adimlar-diagram.jpg";
+import viessmannKombiSembollerDiagram from "@/assets/blog/blog-viessmann-kombi-semboller-diagram.jpg";
+import daikinResetlemeFeatured from "@/assets/blog/blog-daikin-resetleme-featured.jpg";
+import daikinResetlemeAdimlarDiagram from "@/assets/blog/blog-daikin-resetleme-adimlar-diagram.jpg";
+import daikinHataKoduYapisiDiagram from "@/assets/blog/blog-daikin-hata-kodu-yapisi-diagram.jpg";
+import baymakResetlemeFeatured from "@/assets/blog/blog-baymak-resetleme-featured.jpg";
+import baymakResetlemeAdimlarDiagram from "@/assets/blog/blog-baymak-resetleme-adimlar-diagram.jpg";
+import baymakApSuBasinciDiagram from "@/assets/blog/blog-baymak-ap-su-basinci-diagram.jpg";
+import vaillantResetlemeFeatured from "@/assets/blog/blog-vaillant-resetleme-featured.jpg";
+import vaillantResetlemeAdimlarDiagram from "@/assets/blog/blog-vaillant-resetleme-adimlar-diagram.jpg";
+import vaillantModelResetDiagram from "@/assets/blog/blog-vaillant-model-reset-diagram.jpg";
+import demirdokumResetlemeFeatured from "@/assets/blog/blog-demirdokum-resetleme-featured.jpg";
+import demirdokumResetlemeAdimlarDiagram from "@/assets/blog/blog-demirdokum-resetleme-adimlar-diagram.jpg";
+import demirdokumModelResetDiagram from "@/assets/blog/blog-demirdokum-model-reset-diagram.jpg";
+import kombiBariFeatured from "@/assets/blog/blog-kombi-bari-featured.jpg";
+import kombiBariIdealDegerlerDiagram from "@/assets/blog/blog-kombi-bari-ideal-degerler-diagram.jpg";
+ import kombiBariSuBasmaTahliyeDiagram from "@/assets/blog/blog-kombi-bari-su-basma-tahliye-diagram.jpg";
+import kombiArizaKodlariFeatured from "@/assets/blog/blog-kombi-ariza-kodlari-featured.jpg";
+import kombiArizaGruplariDiagram from "@/assets/blog/blog-kombi-ariza-gruplari-diagram.jpg";
+import kombiArizaSembollerDiagram from "@/assets/blog/blog-kombi-ariza-semboller-diagram.jpg";
+import kombiE01Featured from "@/assets/blog/blog-kombi-e01-featured.jpg";
+import kombiE01ResetDiagram from "@/assets/blog/blog-kombi-e01-reset-diagram.jpg";
+import kombiE01AteslemeDiagram from "@/assets/blog/blog-kombi-e01-atesleme-diagram.jpg";
+import kombiBasinciDuserFeatured from "@/assets/blog/blog-kombi-basinci-duser-featured.jpg";
+import kombiBasinciDuserNedenlerDiagram from "@/assets/blog/blog-kombi-basinci-duser-nedenler-diagram.jpg";
+import kombiBasinciDuserTespitDiagram from "@/assets/blog/blog-kombi-basinci-duser-tespit-diagram.jpg";
+import petekHavasiFeatured from "@/assets/blog/blog-petek-havasi-featured.jpg";
+import petekHavasiNedenDiagram from "@/assets/blog/blog-petek-havasi-neden-diagram.jpg";
+import petekHavasiAdimlarDiagram from "@/assets/blog/blog-petek-havasi-adimlar-diagram.jpg";
+import bulasikSuAlmiyorFeatured from "@/assets/blog/blog-bulasik-su-almiyor-featured.jpg";
+import bulasikSuAlmiyorAkisDiagram from "@/assets/blog/blog-bulasik-su-almiyor-akis-diagram.jpg";
+import camasirSuAlmiyorFeatured from "@/assets/blog/blog-camasir-su-almiyor-featured.jpg";
+import camasirSuAlmiyorAkisDiagram from "@/assets/blog/blog-camasir-su-almiyor-akis-diagram.jpg";
+import petekTemizligiRealFeatured from "@/assets/blog/blog-petek-temizligi-real-featured.jpg";
+import petekTemizligiBirikintiDiagram from "@/assets/blog/blog-petek-temizligi-birikinti-diagram.jpg";
+import petekTemizligiMakineliDiagram from "@/assets/blog/blog-petek-temizligi-makineli-diagram.jpg";
 
 
 
@@ -287,7 +288,7 @@ export type BlogPost = {
   sections: BlogSection[];
   faq: { q: string; a: string }[];
   manualRelated?: string[]; // editor-curated related post slugs (highest priority in scoring)
-  inlineLinks?: { slug: string; anchor: string }[]; // explicit in-body links (override auto-linker)
+  inlineLinks?: { slug?: string; href?: string; anchor: string }[]; // explicit in-body links (override auto-linker); href allows /hizmet/ targets
   linkAliases?: string[]; // extra anchor phrases that should deep-link TO this post (anchor-text diversity)
 };
 
@@ -295,18 +296,18 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "taharet-muslugu-nasil-takilir-degistirilir",
     title: "Taharet Musluğu Nasıl Takılır, Değiştirilir ve Tamir Edilir?",
-    seoTitle: "Taharet Musluğu Nasıl Takılır?",
+    seoTitle: "Taharet Musluğu Nasıl Takılır, Değiştirilir? Ucu, Conta",
     keyword: "taharet musluğu nasıl takılır",
     volume: 480,
     kdi: 30,
     category: "Banyo & Vitrifiye",
     readMin: 11,
     published: "2026-07-01",
-    updated: "2026-07-01",
+    updated: "2026-10-03",
     excerpt:
       "Taharet (klozet) musluğu takmak ya da değiştirmek aslında üç parçanın doğru birleştirilmesinden ibarettir: duvardaki ara musluk, örgülü bağlantı hortumu ve aç-kapa kollu musluk gövdesi. Damlatma, su kaçırma ve kötü kokunun arkasında çoğu zaman eksik conta, aşırı sıkma ya da yanlış teflon sarımı yatar. Yeni musluk takmayı, eskisini sökerek değiştirmeyi, contasını yenilemeyi ve damlatmayı durdurmayı; ne zaman tesisatçı gerektiğini görselli ve adım adım anlatıyoruz.",
     metaDescription:
-      "Taharet musluğu nasıl takılır ve değiştirilir? Ara musluk, örgülü hortum, conta ve teflon ile sızdırmaz montaj; damlatma ve su kaçırma tamiri adım adım. Tesisat: 0533 896 05 03.",
+      "Taharet musluğu nasıl takılır ve değiştirilir? Montaj, söküm, conta, hortum ve damlatma tamiri adım adım görsellerle açıklanıyor.",
     serviceSlug: "dusakabin-vitrifiye-montaji",
     featuredImage: {
       src: taharetMusluguDegisimFeatured,
@@ -317,6 +318,27 @@ const RAW_BLOG_POSTS: BlogPost[] = [
     intro:
       "Taharet musluğu (klozet musluğu), banyolarımızdaki en çok kullanılan ama montajı en çok hafife alınan armatürlerden biridir. Yeni bir tane takmak, damlatan eskisini değiştirmek ya da contasını yenilemek; doğru malzeme ve birkaç temel kuralla çoğu kişinin yapabileceği bir iştir. Buna rağmen 'taharet musluğu nasıl takılır' diye arattığınızda karşınıza çıkanların neredeyse tamamı YouTube ve Instagram videoları, forum başlıkları veya ürün satış sayfalarıdır; işin mantığını sızdırmazlık ve su tasarrufu odağında, tesisatçı gözüyle anlatan tarafsız bir metin kaynağı neredeyse yoktur. Oysa bu işte hatanın bedeli; gözden kaçan ince bir damlama, faturaya yansıyan su kaybı, duvarda nem ve zamanla küftür. Bu rehberde önce taharet musluğunun parçalarını ve gereken malzemeyi tanıtıyor; ardından yeni musluk takmayı, eskisini sökerek değiştirmeyi, conta yenilemeyi ve en sık şikâyet olan damlatmayı durdurmayı adım adım anlatıyoruz. Son olarak hangi durumlarda işi bir tesisatçıya bırakmanın daha doğru olduğunu paylaşıyoruz.",
     sections: [
+      {
+        heading: "Bunu Kendiniz Yapabilir misiniz?",
+        paragraphs: ["Başlamadan önce işin zorluğunu, gereken süreyi ve riski görün; kendinize uygun olup olmadığına karar verin. Montajı bize yaptırmak isterseniz musluk ve batarya değişimi hizmetimiz devreye girer; keşif ücretsizdir."],
+        table: {
+          headers: ["Ölçüt", "Değerlendirme"],
+          rows: [["Zorluk", "Orta (3/5)"], ["Tahmini süre", "30–45 dakika"], ["Gerekli aletler", "Kurbağacık anahtar, teflon bant"], ["Ana risk", "Duvar içi bağlantıda kaçak fark edilmezse fayans arkası nemlenir."]],
+        },
+      },
+      {
+        heading: "Hangi Sorunu Yaşıyorsunuz? Hızlı Yönlendirme",
+        paragraphs: [
+          "Aradığınız cevaba doğrudan gitmek için yaşadığınız sorunu aşağıdan bulun; her madde ilgili bölümün özetidir.",
+        ],
+        bullets: [
+          "Taharet musluğu ucu (fıskiye başlığı) damlatıyor → uç dişini söküp contasını yenileyin; aşağıdaki değiştirme adımlarına bakın.",
+          "Hortum ile gövde arasından su kaçırıyor → conta eksik ya da ezilmiş; contayı değiştirip elle sıkın, aşırı sıkmayın.",
+          "Aç-kapa kolu suyu tam kesmiyor → kol içindeki conta/kartuş aşınmıştır; ara musluğu kapatıp parçayı yenileyin.",
+          "Duvar bağlantısından sızıntı → teflon sarımı yanlış yönde ya da yetersiz; ara musluğu söküp doğru yönde yeniden sarın.",
+          "Sıfırdan musluk takacaksınız → malzeme listesi ve 5 adımlı montaj bölümüyle başlayın.",
+        ],
+      },
       {
         heading: "Taharet Musluğunun Parçaları ve Gereken Malzeme",
         paragraphs: [
@@ -340,6 +362,12 @@ const RAW_BLOG_POSTS: BlogPost[] = [
       },
       {
         heading: "Yeni Taharet Musluğu Nasıl Takılır? (Adım Adım)",
+        callout: {
+          variant: "warning",
+          title: "Bu adımda zorlanıyorsanız",
+          body:
+            "Eksantrik bağlantı gevşek kalırsa veya conta tam oturmazsa duvar içinde sessiz bir kaçak başlayabilir; bu aylarca fark edilmeden alt kata sızabilir. Bağlantıdan emin olamıyorsanız profesyonel ekibimizden destek alabilirsiniz.",
+        },
         paragraphs: [
           "Sıfırdan ya da boş bir ara musluk üzerine taharet musluğu takmak, sırayı bozmadan ilerlediğinizde basittir. Önce ara musluğu (ya da yoksa evin ana su vanasını) kapatın; ardından bir bez ve kova hazır bulundurarak hattaki kalan suyu boşaltın. Ara musluğun çıkış dişine örgülü hortumun bir ucunu, contasını kontrol ederek elinizle takın. Musluk gövdesinin arka dişine ise ya kendi contasını yerleştirin ya da saat yönünde 8-12 tur teflon bandı sarın; teflonu dişin yönüne ters sararsanız sıkarken açılır ve sızdırır.",
           "Parçaları elinizle yerine oturttuktan sonra her bağlantıyı uygun bir anahtarla yalnızca çeyrek–yarım tur daha sıkın. Buradaki en yaygın hata aşırı sıkmaktır: plastik somunlarda diş sıyrılır, krom gövdede çatlak oluşur ve paradoksal biçimde tam da sızdırmaması gereken yer sızdırmaya başlar. Tüm ekler takılınca ara musluğu yavaşça açın, musluğu birkaç saniye çalıştırıp kapatın ve ardından tüm birleşim noktalarını kuru bir bezle silerek nem olup olmadığını kontrol edin. En küçük bir nem bile o ekin yeniden contalanması ya da teflonunun yenilenmesi gerektiğini gösterir.",
@@ -402,6 +430,21 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         },
       },
       {
+        heading: "Aç-Kapa Kolu Tamiri: Kol Suyu Kesmiyorsa (Adım Adım)",
+        paragraphs: [
+          "Aç-kapa kolu kapatıldığı hâlde su damlıyorsa sorun kolun içindeki conta ya da kartuştadır; iyi haber şu ki bu parça çoğu modelde gövdeyi sökmeden değişir. Önce ara musluğu kapatıp kolu bir kez açarak iç basıncı boşaltın. Kolun üstündeki renkli tapayı (kırmızı/mavi kapak) ince bir bıçak ucuyla çıkarın; altındaki vidayı uygun tornavidayla söküp kolu yukarı çekerek çıkarın. Milin üzerindeki somunu anahtarla gevşetip eski kartuşu/contayı dışarı alın.",
+          "Yeni parçayı takmadan önce yuvadaki kireci ve kum taneciklerini nemli bezle temizleyin; kartuşun altındaki oturma yüzeyinde tek bir kum tanesi bile yeni parçanın sızdırmasına yol açar. Yeni kartuşu/contayı yerine oturtup somunu sıkın, kolu ve tapayı geri takın. Ara musluğu yavaşça açıp birkaç kez aç-kapa yaparak hem suyun tam kesildiğini hem de ek yerlerinden sızma olmadığını kuru bezle kontrol edin. Markaya uygun yedek kartuş bulunamıyorsa ya da gövde kireçten kilitlenmişse, musluğun komple değişimi daha ekonomiktir; bu noktada musluk ve batarya değişimi hizmetimiz devreye girer; keşif ücretsizdir.",
+        ],
+        bullets: [
+          "1. Ara musluğu kapatın, kolu açıp basıncı boşaltın",
+          "2. Renkli tapayı çıkarıp vidayı sökün, kolu yukarı çekin",
+          "3. Mil somununu gevşetip eski kartuşu/contayı çıkarın",
+          "4. Yuvayı kireç ve kumdan temizleyin",
+          "5. Yeni parçayı takıp somunu sıkın, kolu geri monte edin",
+          "6. Suyu açıp aç-kapa testi ve kuru bezle nem kontrolü yapın",
+        ],
+      },
+      {
         heading: "Sık Yapılan Hatalar ve Ne Zaman Tesisatçı Gerekir?",
         paragraphs: [
           "Klasik (duvara monte) bir taharet musluğunu takmak, malzemesi tam ve ara musluğu sağlamsa çoğu kişinin üstesinden gelebileceği bir iştir. En sık hatalar; contayı unutmak, teflonu ters ya da az sarmak, aşırı sıkıp dişi sıyırmak ve su kapatmadan söküme başlamaktır. Bu hataların ortak sonucu damlama ve gizli nemdir. Bir diğer yaygın yanlış da kireçlenmiş eski ara musluğu zorla çevirip kırmaktır; bu noktada hat içinde kalan parça işi büyütür.",
@@ -416,7 +459,12 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         ],
       },
     ],
+    inlineLinks: [
+      { href: "/hizmet/musluk-batarya-degisimi", anchor: "musluk ve batarya değişimi" },
+      { slug: "bidet-taharet-muslugu-nedir", anchor: "bidet nedir ve nasıl kullanılır" },
+    ],
     faq: [
+        { q: "Montajı ustaya yaptırırsam ne kadar sürer?", a: "Deneyimli bir usta taharet musluğu montajını genellikle 30-45 dakikada tamamlar. Duvar içi bağlantı kontrol edilir, tesisat kaçak testi yapılır ve musluk kullanıma hazır teslim edilir. Keşif ücretsizdir." },
       {
         q: "Taharet musluğu nasıl takılır?",
         a: "Önce ara musluk (ya da ana vana) kapatılır ve hattaki su boşaltılır. Örgülü bağlantı hortumu ara musluğa contasıyla takılır; musluk gövdesinin dişine ise kendi contası konur veya saat yönünde 8-12 tur teflon bandı sarılır. Parçalar elle sıkıldıktan sonra anahtarla yalnızca çeyrek–yarım tur daha sıkılır; aşırı sıkmaktan kaçınılır. Son olarak su açılıp tüm ek yerleri kuru bezle nem kontrolünden geçirilir.",
@@ -453,7 +501,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
     category: "Tesisat",
     readMin: 11,
     published: "2026-06-30",
-    updated: "2026-06-30",
+    updated: "2026-10-01",
     excerpt:
       "Bulaşık makinesi bağlamak üç bağlantıdan oluşur: temiz su girişi (ara musluk + giriş hortumu), atık su tahliyesi (tahliye hortumu + sifon/gider bağlantısı) ve elektrik. En sık yapılan hatalar; conta/sızdırmazlık, tahliye hortumunun anti-sifon kıvrımının atlanması ve makinenin yanlışlıkla sıcak suya bağlanmasıdır. Doğru bağlantıyı, 'sıcak suya bağlanır mı' sorusunun cevabını ve sızıntıyı önlemenin yollarını görselli, adım adım anlatıyoruz.",
     metaDescription:
@@ -466,7 +514,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         "Bulaşık makinesi bağlantısı üç noktadan oluşur: ara musluk + giriş hortumu (temiz su), tahliye hortumu (sifon/gider) ve elektrik.",
     },
     intro:
-      "Yeni bir bulaşık makinesi aldığınızda kurulum aslında üç ayrı bağlantının doğru yapılmasından ibarettir: temiz su girişi (ara musluk ve giriş hortumu), kirli suyun atılması (tahliye hortumu ve sifon/gider bağlantısı) ve elektrik. Kulağa basit gelse de mutfaktaki su baskınlarının ve 'makine su almıyor / suyu boşaltmıyor' şikâyetlerinin çoğu tam da bu üç noktadaki küçük hatalardan doğar: contası eksik ya da fazla sıkılıp dişi sıyrılan rakor, tahliye hortumunun anti-sifon kıvrımı yapılmadan doğrudan gidere verilmesi, ya da makinenin bilmeden sıcak su hattına bağlanması. İnternette 'bulaşık makinesi nasıl bağlanır' aratıldığında çıkan sonuçların çoğu marka destek sayfaları veya videolardır; bağlantının mantığını tesisatçı gözüyle, sızdırmazlık ve güvenlik odağında anlatan tarafsız bir kaynak azdır. Bu rehberde bulaşık makinesini sızdırmadan ve güvenle nasıl bağlayacağınızı adım adım anlatıyor; ara musluk seçimini, 'sıcak suya bağlanır mı' sorusunu, tahliye hortumunun doğru yüksekliğini ve hangi durumda işi tesisatçıya bırakmanın daha doğru olduğunu açıklıyoruz.",
+      "Kısa cevap: Bulaşık makinesi üç bağlantıyla kurulur — ara musluğa takılan örgülü su giriş hortumu (temiz su), lavabo sifonuna kelepçeyle bağlanan ve gidere inmeden önce yaklaşık 40-60 cm yüksekliğe çıkarılan tahliye hortumu (atık su) ve topraklı bir priz (elektrik). Standart makineler soğuk su hattına bağlanır; suyu makine kendisi ısıtır. Yeni bir bulaşık makinesi aldığınızda kurulum aslında üç ayrı bağlantının doğru yapılmasından ibarettir: temiz su girişi (ara musluk ve giriş hortumu), kirli suyun atılması (tahliye hortumu ve sifon/gider bağlantısı) ve elektrik. Kulağa basit gelse de mutfaktaki su baskınlarının ve 'makine su almıyor / suyu boşaltmıyor' şikâyetlerinin çoğu tam da bu üç noktadaki küçük hatalardan doğar: contası eksik ya da fazla sıkılıp dişi sıyrılan rakor, tahliye hortumunun anti-sifon kıvrımı yapılmadan doğrudan gidere verilmesi, ya da makinenin bilmeden sıcak su hattına bağlanması. İnternette 'bulaşık makinesi nasıl bağlanır' aratıldığında çıkan sonuçların çoğu marka destek sayfaları veya videolardır; bağlantının mantığını tesisatçı gözüyle, sızdırmazlık ve güvenlik odağında anlatan tarafsız bir kaynak azdır. Bu rehberde bulaşık makinesini sızdırmadan ve güvenle nasıl bağlayacağınızı adım adım anlatıyor; ara musluk seçimini, 'sıcak suya bağlanır mı' sorusunu, tahliye hortumunun doğru yüksekliğini ve hangi durumda işi tesisatçıya bırakmanın daha doğru olduğunu açıklıyoruz.",
     sections: [
       {
         heading: "Bağlamadan Önce: Üç Bağlantı ve Gereken Malzeme",
@@ -602,7 +650,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
     category: "Kombi & Doğalgaz",
     readMin: 12,
     published: "2026-06-29",
-    updated: "2026-06-22",
+    updated: "2026-10-01",
     excerpt:
       "Kombi bacası nedir, ne işe yarar ve neden hayati önemdedir? Bacalı, hermetik ve yoğuşmalı kombi bacası farkları; baca borusu, dirsek, conta ve şapka gibi parçaları; doğru eğim ve montaj kuralları; baca tıkanması, contanın kaçırması ve karbonmonoksit (CO) riski. Ürün satan değil, sahada montaj ve servis yapan bir ekibin gözüyle güvenlik odaklı rehber.",
     metaDescription:
@@ -615,7 +663,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         "Kombi bacası, yanma sonucu oluşan atık gazları güvenle dışarı atan ve hermetik sistemlerde temiz yanma havasını içeri alan hayati bir parçadır.",
     },
     intro:
-      "Kombi bacası, bir ısıtma cihazının en çok göz ardı edilen ama can güvenliği açısından en kritik parçasıdır. Kombi, doğalgazı yakarak ısı üretirken arkasında karbonmonoksit (CO) içeren atık gazlar bırakır; bu gazların evin içine değil, kurallara uygun şekilde dışarı atılmasını sağlayan sistem işte bu bacadır. İnternette 'kombi bacası' aratıldığında çıkan sonuçların neredeyse tamamı baca borusu, dirsek ve uzatma parçası satan ürün sayfalarıdır; bacanın ne olduğunu, çeşitlerinin farkını, nasıl monte edilmesi gerektiğini ve hangi hatanın hayati tehlike yarattığını tarafsız anlatan kaynak çok azdır. Bu rehberde kombi bacasının ne işe yaradığını, bacalı–hermetik–yoğuşmalı farkını, parçalarını, montaj ve eğim kurallarını ve en önemlisi güvenlik risklerini; parça satmaya değil, sahada doğru ve güvenli montaj yapmaya odaklanan bir ekibin gözüyle açıklıyoruz.",
+      "Kısa cevap: Kombi bacası, kombinin yaktığı doğalgazdan çıkan atık gazı (karbonmonoksit dahil) dışarı atan, hermetik sistemlerde yanma havasını da içeri alan hayati bir parçadır. Üç tipi vardır: bacalı (havayı ortamdan alır, ortak bacaya verir — havalandırma şart), hermetik (eş eksenli boruyla dışarıdan hava alıp dışarı atar — en yaygın ve daha güvenli) ve yoğuşmalı (hermetik mantıkta, ama asit dayanıklı plastik/PP baca ve gider tahliyesi ister). En kritik kurallar: baca borusu dışa doğru hafif eğimli olmalı, ek yerleri contasız kalmamalı ve tıkalı/yanlış çaplı baca karbonmonoksit riski yarattığı için asla görmezden gelinmemelidir. Kombi bacası, bir ısıtma cihazının en çok göz ardı edilen ama can güvenliği açısından en kritik parçasıdır. Kombi, doğalgazı yakarak ısı üretirken arkasında karbonmonoksit (CO) içeren atık gazlar bırakır; bu gazların evin içine değil, kurallara uygun şekilde dışarı atılmasını sağlayan sistem işte bu bacadır. İnternette 'kombi bacası' aratıldığında çıkan sonuçların neredeyse tamamı baca borusu, dirsek ve uzatma parçası satan ürün sayfalarıdır; bacanın ne olduğunu, çeşitlerinin farkını, nasıl monte edilmesi gerektiğini ve hangi hatanın hayati tehlike yarattığını tarafsız anlatan kaynak çok azdır. Bu rehberde kombi bacasının ne işe yaradığını, bacalı–hermetik–yoğuşmalı farkını, parçalarını, montaj ve eğim kurallarını ve en önemlisi güvenlik risklerini; parça satmaya değil, sahada doğru ve güvenli montaj yapmaya odaklanan bir ekibin gözüyle açıklıyoruz.",
     sections: [
       {
         heading: "Kombi Bacası Nedir, Ne İşe Yarar?",
@@ -892,7 +940,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "kombi-montaji-nasil-yapilir-baglanti-rehberi",
     title: "Kombi Montajı Nasıl Yapılır? Bağlantı ve Kurulum Rehberi",
-    seoTitle: "Kombi Montajı Nasıl Yapılır?",
+    seoTitle: "Kombi Montajı Nasıl Yapılır? Bağlantı ve Kurulum Rehberi",
     keyword: "kombi montajı",
     volume: 880,
     kdi: 15,
@@ -1033,7 +1081,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "radyator-nedir-cesitleri-secim-rehberi",
     title: "Radyatör Nedir? Çeşitleri, Farkları ve Seçim Rehberi",
-    seoTitle: "Radyatör Nedir? Çeşitleri",
+    seoTitle: "Radyatör Nedir? Çeşitleri, Farkları ve Seçim Rehberi",
     keyword: "radyatör nedir",
     volume: 12100,
     kdi: 21,
@@ -1197,7 +1245,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
     category: "Petek & Kalorifer",
     readMin: 12,
     published: "2026-06-24",
-    updated: "2026-06-24",
+    updated: "2026-10-01",
     excerpt:
       "Havlupan (banyo peteği) nedir, nasıl çalışır ve çeşitleri nelerdir? Sulu, elektrikli ve karma havlupan farkları, hangi banyoya hangisinin uyduğu, ölçü ve watt/kapasite seçimi, montaj ve bağlantı tipleri ile sık yapılan hatalar; ürün satıcısının değil, sahada ısıtma tesisatı ve havlupan montajı yapan bir ekibin tarafsız gözüyle.",
     metaDescription:
@@ -1210,7 +1258,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         "Havlupan (banyo peteği), hem banyoyu ısıtan hem de havluları kurutup ısıtan, merdiven biçiminde özel bir radyatördür.",
     },
     intro:
-      "Havlupan, banyolarımızda artık standart hâle gelen, merdiven biçimindeki o şık ısıtıcının adıdır. İki işi birden görür: banyoyu ısıtır ve üzerine astığınız havluları kurutup ılık tutar. Halk arasında 'banyo peteği' ya da 'havluluk petek' olarak da bilinir. 'Havlupan nedir, nasıl çalışır, sulu mu elektrikli mi almalıyım, hangi ölçü banyoma uyar' soruları çoğu ev sahibini ve tadilat yaptıranı düşündürür. İnternette 'havlupan' aratıldığında çıkan sonuçların neredeyse tamamı ürün satış, model ve fiyat sayfasıdır; havlupanın gerçekte ne olduğunu, çeşitleri arasındaki farkı ve doğru seçimi tarafsız anlatan kaynak azdır. Bu rehberde havlupanın ne olduğunu, nasıl çalıştığını, sulu–elektrikli–karma çeşitlerini, hangi banyoya hangisinin uyduğunu, ölçü ve kapasite seçiminin mantığını, montaj ve bağlantı tiplerini ve seçerken sık yapılan hataları; ürün satmaya değil doğru ısınmanıza odaklanan, sahada ısıtma tesisatı ve havlupan montajı yapan bir ekibin gözüyle açıklıyoruz.",
+      "Kısa cevap: Havlupan (banyo peteği), banyoyu ısıtırken havluları da kurutup ılık tutan merdiven biçiminde bir radyatördür. Üç tipi vardır: sulu (kombi/kalorifer sistemine bağlanır, kışın en ekonomik), elektrikli (tesisata gerek yok, yazın da çalışır) ve karma (ikisini birden yapar, en esnek). Seçim kuralı basittir: kaloriferli evde banyo ısıtması için sulu, yazın da ılık havlu isteyen için karma, tesisatı olmayan banyo için elektrikli havlupan uygundur. Ölçüyü banyonun büyüklüğüne göre seçin; küçük banyoya 50x110 cm, orta banyoya 60x120 cm civarı yeter. Havlupan, banyolarımızda artık standart hâle gelen, merdiven biçimindeki o şık ısıtıcının adıdır. İki işi birden görür: banyoyu ısıtır ve üzerine astığınız havluları kurutup ılık tutar. Halk arasında 'banyo peteği' ya da 'havluluk petek' olarak da bilinir. 'Havlupan nedir, nasıl çalışır, sulu mu elektrikli mi almalıyım, hangi ölçü banyoma uyar' soruları çoğu ev sahibini ve tadilat yaptıranı düşündürür. İnternette 'havlupan' aratıldığında çıkan sonuçların neredeyse tamamı ürün satış, model ve fiyat sayfasıdır; havlupanın gerçekte ne olduğunu, çeşitleri arasındaki farkı ve doğru seçimi tarafsız anlatan kaynak azdır. Bu rehberde havlupanın ne olduğunu, nasıl çalıştığını, sulu–elektrikli–karma çeşitlerini, hangi banyoya hangisinin uyduğunu, ölçü ve kapasite seçiminin mantığını, montaj ve bağlantı tiplerini ve seçerken sık yapılan hataları; ürün satmaya değil doğru ısınmanıza odaklanan, sahada ısıtma tesisatı ve havlupan montajı yapan bir ekibin gözüyle açıklıyoruz.",
     sections: [
       {
         heading: "Havlupan (Banyo Peteği) Nedir, Ne İşe Yarar?",
@@ -3137,18 +3185,18 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "bidet-taharet-muslugu-nedir",
     title: "Bidet (Bide) Nedir? Taharet Musluğu Çeşitleri ve Kullanımı",
-    seoTitle: "Bidet (Bide) Nedir, Çeşitleri",
+    seoTitle: "Bide Nedir, Nasıl Kullanılır? Taharet Musluğu ve Çeşitleri",
     keyword: "bidet nedir",
     volume: 1300,
     kdi: 32,
     category: "Banyo & Vitrifiye",
     readMin: 12,
     published: "2026-06-22",
-    updated: "2026-06-22",
+    updated: "2026-10-03",
     excerpt:
       "Bidet (bide) nedir, ne işe yarar, nasıl kullanılır? Klasik bide, taharet musluğu, akıllı klozet ve abdest lavabosu çeşitlerini; bide ile taharet musluğu farkını, montaj ve hijyen ipuçlarını; ürün satıcısının değil, sahada çalışan bir tesisat servisinin tarafsız gözüyle anlatıyoruz.",
     metaDescription:
-      "Bidet (bide) nedir, ne işe yarar, nasıl kullanılır? Taharet musluğu, klasik bide ve akıllı klozet çeşitleri, montaj ve farkları. İstanbul tesisat: 0533 896 05 03.",
+      "Bidet (bide) nedir, ne işe yarar, nasıl kullanılır? Taharet musluğu, klasik bide ve akıllı klozet çeşitleri, montaj ve aralarındaki farklar.",
     serviceSlug: "su-kacagi-tespiti",
     featuredImage: {
       src: bidetTaharetFeatured,
@@ -4557,14 +4605,14 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "klozet-cesitleri-nedir-secim-rehberi",
     title: "Klozet Çeşitleri: Asma, Ayaklı, Kanalsız ve Seçim Rehberi",
-    seoTitle: "Klozet Çeşitleri ve Seçimi",
+    seoTitle: "Klozet Çeşitleri: Asma, Ayaklı, Kanalsız — Hangisi Size Uygun?",
     keyword: "klozet çeşitleri",
     volume: 1600,
     kdi: 21,
     category: "Banyo & Vitrifiye",
     readMin: 11,
     published: "2026-06-22",
-    updated: "2026-06-22",
+    updated: "2026-10-03",
     excerpt:
       "Klozet çeşitleri nelerdir ve hangisi sizin banyonuza uygun? Ayaklı (ayağa basan), asma (gömme rezervuarlı), duvara sıfır ve kanalsız (rim-off) klozetleri; klozet çıkış tiplerini (yatay/dikey), ölçüleri ve temizlik kolaylığını; ürün satıcılarının değil, montajı yapan bir tesisat servisinin bakış açısıyla karşılaştırıyoruz.",
     metaDescription:
@@ -4577,7 +4625,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         "Klozet seçimi yalnızca görünümle ilgili değildir; montaj yapısı, çıkış tipi ve temizlik kolaylığı banyodaki günlük kullanımı doğrudan etkiler.",
     },
     intro:
-      "Banyo yenilerken ya da yeni bir ev döşerken en çok kafa karıştıran kararlardan biri klozet seçimidir. Mağazada onlarca model, 'asma', 'duvara sıfır', 'kanalsız', 'rim-off' gibi birbirine karışan terimler ve birbirinden farklı fiyatlar… Oysa doğru klozet, yalnızca güzel görünen değil; banyonuzun ölçüsüne ve gider yapısına uyan, kolay temizlenen ve uzun yıllar sorunsuz çalışan klozettir. Yanlış seçim ise montajda uyumsuzluğa, sürekli sıçrayan/kokan bir tuvalete veya zor temizlenen köşelere yol açar. Bu rehberde klozet çeşitlerini montaj tipine (ayaklı, asma, duvara sıfır), iç yapısına (kanallı/kanalsız) ve gider çıkışına göre; ürün satan bir markanın değil, bu klozetleri yerine takan bir tesisat servisinin gözünden, sade ve tarafsız biçimde açıklıyoruz.",
+      "Kısa cevap: Klozet çeşitleri üç açıdan ayrılır — montaj tipi (ayaklı, asma/gömme rezervuarlı, duvara sıfır), iç yapı (kanallı veya hijyenik kanalsız/rim-off) ve gider çıkışı (yatay-duvara veya dikey-zemine). Ekonomik ve kolay montaj istiyorsanız ayaklı, kolay temizlik ve modern görünüm istiyorsanız asma, hijyen öncelikliyse kanalsız model seçin; satın almadan önce mutlaka banyonuzdaki gider çıkış yönünü kontrol edin, yoksa klozet gidere oturmaz. Banyo yenilerken ya da yeni bir ev döşerken en çok kafa karıştıran kararlardan biri klozet seçimidir. Mağazada onlarca model, 'asma', 'duvara sıfır', 'kanalsız', 'rim-off' gibi birbirine karışan terimler ve birbirinden farklı fiyatlar… Oysa doğru klozet, yalnızca güzel görünen değil; banyonuzun ölçüsüne ve gider yapısına uyan, kolay temizlenen ve uzun yıllar sorunsuz çalışan klozettir. Yanlış seçim ise montajda uyumsuzluğa, sürekli sıçrayan/kokan bir tuvalete veya zor temizlenen köşelere yol açar. Bu rehberde klozet çeşitlerini montaj tipine (ayaklı, asma, duvara sıfır), iç yapısına (kanallı/kanalsız) ve gider çıkışına göre; ürün satan bir markanın değil, bu klozetleri yerine takan bir tesisat servisinin gözünden, sade ve tarafsız biçimde açıklıyoruz.",
     sections: [
       {
         heading: "Klozet Nedir, Hangi Açılardan Çeşitlenir?",
@@ -4700,15 +4748,15 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "yer-suzgeci-nedir-cesitleri-koku-onleme",
-    title: "Yer Süzgeci Nedir? Çeşitleri ve Giderden Koku Önleme",
-    seoTitle: "Yer Süzgeci Nedir? Çeşitleri",
+    title: "Yer Süzgecinden Koku Geliyor: Nedenleri, Çözümü ve Çeşitleri",
+    seoTitle: "Yer Süzgeci Nedir? Çeşitleri, Seçimi ve Koku Önleme",
     keyword: "yer süzgeci",
     volume: 1900,
     kdi: 11,
     category: "Banyo & Gider",
     readMin: 10,
     published: "2026-06-22",
-    updated: "2026-06-22",
+    updated: "2026-10-03",
     excerpt:
       "Yer süzgeci (yer sifonu) nedir, nasıl çalışır ve neden bazen giderden kötü koku gelir? Klasik yer süzgeci, lineer (kanal) süzgeç, koku önleyici sifonlu modeller ve gider kapağı çeşitlerini; suyun nasıl tahliye edildiğini, su cebinin (sifon) kokuyu nasıl tuttuğunu ve koku/tıkanıklık sorunlarını tarafsız bir tesisat servisi bakışıyla sade biçimde açıklıyoruz.",
     metaDescription:
@@ -4721,7 +4769,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         "Yer süzgeci, banyo ve mutfak zeminindeki suyu gidere taşıyan; içindeki su cebi sayesinde kanalizasyon kokusunu da içeride tutan kritik bir parçadır.",
     },
     intro:
-      "Banyoda duş alırken zemindeki suyun nereye gittiğini çoğumuz hiç düşünmeyiz; ta ki giderden kötü bir koku yükselene ya da su zeminde birikmeye başlayana kadar. İşte bu noktada karşımıza çıkan parça yer süzgecidir (halk arasında 'yer sifonu' da denir). Yer süzgeci yalnızca suyu tahliye eden bir delik değildir: içindeki su cebi sayesinde kanalizasyondan gelen kötü kokuyu ve haşereleri eve girmekten alıkoyan akıllı bir bariyerdir. Doğru tip seçilmediğinde ya da bakımı ihmal edildiğinde ise hem koku hem de tıkanıklık sorunları kaçınılmaz olur. Bu rehberde yer süzgecinin ne olduğunu, nasıl çalıştığını, hangi çeşitlerinin bulunduğunu, giderden neden koku geldiğini ve bu kokuyu kalıcı olarak nasıl önleyeceğinizi; ürün satıcılarının pazarlama dilinden uzak, tarafsız bir tesisat servisi bakış açısıyla anlatıyoruz.",
+      "Kısa cevap: Yer süzgecinden gelen koku çoğunlukla içindeki su cebinin kurumasından veya ızgara altında biriken saç ve kirden kaynaklanır. Gidere bir kova su dökün, ızgarayı söküp gövdeyi temizleyin; koku sürüyorsa süzgeç koku önleyicili modelle değiştirilmelidir. Banyoda duş alırken zemindeki suyun nereye gittiğini çoğumuz hiç düşünmeyiz; ta ki giderden kötü bir koku yükselene ya da su zeminde birikmeye başlayana kadar. İşte bu noktada karşımıza çıkan parça yer süzgecidir (halk arasında 'yer sifonu' da denir). Yer süzgeci yalnızca suyu tahliye eden bir delik değildir: içindeki su cebi sayesinde kanalizasyondan gelen kötü kokuyu ve haşereleri eve girmekten alıkoyan akıllı bir bariyerdir. Doğru tip seçilmediğinde ya da bakımı ihmal edildiğinde ise hem koku hem de tıkanıklık sorunları kaçınılmaz olur. Bu rehberde yer süzgecinin ne olduğunu, nasıl çalıştığını, hangi çeşitlerinin bulunduğunu, giderden neden koku geldiğini ve bu kokuyu kalıcı olarak nasıl önleyeceğinizi; ürün satıcılarının pazarlama dilinden uzak, tarafsız bir tesisat servisi bakış açısıyla anlatıyoruz.",
     sections: [
       {
         heading: "Yer Süzgeci Nedir, Ne İşe Yarar?",
@@ -4737,6 +4785,30 @@ const RAW_BLOG_POSTS: BlogPost[] = [
           "Görünen ızgara (gider kapağı) işin yalnızca üst kısmıdır",
           "İki görevi var: suyu tahliye etmek + kokuyu içeride tutmak",
         ],
+      },
+      {
+        heading: "Giderden Gelen Kokunun Nedenleri ve Çözümü",
+        paragraphs: [
+          "Giderden koku geldiğinde sorun çoğu zaman kokunun kaynağında değil, koku bariyerinin (su cebinin) çalışmamasındadır. En yaygın neden, az kullanılan bir gider yüzünden su cebinin kurumasıdır; çözümü basittir: gidere bir bardak su (mümkünse birkaç damla sıvı yağ ekleyerek buharlaşmayı yavaşlatın) dökerek cebi yeniden doldurmak çoğu kokuyu anında keser.",
+          "İkinci sık neden, ızgara altında biriken saç, sabun ve kir tabakasının çürümesidir; ızgarayı söküp içini temizlemek gerekir. Üçüncü olarak, su cebi olmayan ya da bozuk/yanlış monte edilmiş bir süzgeç söz konusuysa, kalıcı çözüm süzgeci mekanik koku önleyicili bir modelle değiştirmek veya üzerine tek yönlü silikon gider kapağı eklemektir. Koku ısrarla geçmiyor, birden çok giderden geliyor veya gidere dökülen su geri tepiyorsa sorun artık süzgeçte değil, kanalizasyon hattındaki tıkanıklık ya da havalandırma sorununda olabilir; bu durumda tıkanıklık açma hizmetiyle hattın kontrol edilmesi gerekir.",
+        ],
+        bullets: [
+          "Kurumuş su cebi → gidere su (+birkaç damla yağ) dökerek doldurun",
+          "Saç/kir birikmesi → ızgarayı söküp gövdeyi temizleyin",
+          "Cebi olmayan/bozuk süzgeç → koku önleyicili modelle değiştirin",
+          "Geçici çözüm: Tek yönlü silikon gider kapağı ekleyin",
+          "Birden çok giderden koku + geri tepme → kanalizasyon hattı sorunu",
+        ],
+        chart: {
+          title: "Giderden koku şikâyetlerinin başlıca nedenleri",
+          unit: "%",
+          bars: [
+            { label: "Kurumuş / boşalmış su cebi", value: 45, note: "En sık; su dökmekle düzelir" },
+            { label: "Izgara altı kir / saç birikimi", value: 25, note: "Temizlikle çözülür" },
+            { label: "Cebi olmayan / bozuk süzgeç", value: 18, note: "Değişim gerekir" },
+            { label: "Kanalizasyon hattı tıkanıklığı", value: 12, note: "Servis gerekir" },
+          ],
+        },
       },
       {
         heading: "Su Cebi (Sifon) Kokuyu Nasıl Önler?",
@@ -4781,34 +4853,38 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         },
       },
       {
-        heading: "Giderden Gelen Kokunun Nedenleri ve Çözümü",
+        heading: "Yer Süzgeci Değişimi / Montajı Nasıl Yapılır?",
         paragraphs: [
-          "Giderden koku geldiğinde sorun çoğu zaman kokunun kaynağında değil, koku bariyerinin (su cebinin) çalışmamasındadır. En yaygın neden, az kullanılan bir gider yüzünden su cebinin kurumasıdır; çözümü basittir: gidere bir bardak su (mümkünse birkaç damla sıvı yağ ekleyerek buharlaşmayı yavaşlatın) dökerek cebi yeniden doldurmak çoğu kokuyu anında keser.",
-          "İkinci sık neden, ızgara altında biriken saç, sabun ve kir tabakasının çürümesidir; ızgarayı söküp içini temizlemek gerekir. Üçüncü olarak, su cebi olmayan ya da bozuk/yanlış monte edilmiş bir süzgeç söz konusuysa, kalıcı çözüm süzgeci mekanik koku önleyicili bir modelle değiştirmek veya üzerine tek yönlü silikon gider kapağı eklemektir. Koku ısrarla geçmiyor, birden çok giderden geliyor veya gidere dökülen su geri tepiyorsa sorun artık süzgeçte değil, kanalizasyon hattındaki tıkanıklık ya da havalandırma sorununda olabilir; bu durumda tıkanıklık açma hizmetiyle hattın kontrol edilmesi gerekir.",
+          "Eski süzgeci değiştirmek çoğu banyoda kırma gerektirmez: ızgarayı kaldırın, iç hazneyi (su cebi/çanak) çıkarıp temizleyin ve gövdenin zemine oturduğu çevreyi eski silikon ve kirden arındırın. Yeni süzgecin gövdesi eskisinin oturduğu boşluğa girmeli ve üst yüzeyi fayansla aynı hizada kalmalıdır; yüksek kalırsa su birikir, alçak kalırsa etrafına su kaçar.",
+          "Doğru çap seçimi şarttır: konut banyolarında gider çıkışı genellikle 50 mm'dir; yeni süzgecin çıkış çapı mevcut gider borusuyla uyumlu olmalı, uyumsuzsa redüksiyon parçası kullanılmalıdır. Gövdeyi oturttuktan sonra çevresini mantar önleyici silikonla sızdırmaz kapatın ve silikon kurumadan (en az 12-24 saat) su dökmeyin. Zeminde kırma gerektiren durumlarda (gövde çatlak, çıkış yönü farklı) iş profesyonel montaja geçer.",
+          "Montajda konum da önemlidir: banyoda ideal yer genellikle klozet ile duş/küvet arası, duvara yakın bir noktadır; hem sıçrayan suyu toplar hem de üzerine basılma riski azalır. Zemin eğimi süzgece doğru verilmiş olmalıdır — eğim ters ise süzgeç sağlam olsa bile su zeminde birikir.",
         ],
         bullets: [
-          "Kurumuş su cebi → gidere su (+birkaç damla yağ) dökerek doldurun",
-          "Saç/kir birikmesi → ızgarayı söküp gövdeyi temizleyin",
-          "Cebi olmayan/bozuk süzgeç → koku önleyicili modelle değiştirin",
-          "Geçici çözüm: Tek yönlü silikon gider kapağı ekleyin",
-          "Birden çok giderden koku + geri tepme → kanalizasyon hattı sorunu",
+          "Çoğu değişim kırmasız yapılır: ızgara + iç hazne sökülür, çevre temizlenir",
+          "Çıkış çapı gider borusuyla uyumlu olmalı (konutta genellikle 50 mm)",
+          "Üst yüzey fayansla aynı hizada olmalı — yüksekte su birikir, alçakta kaçırır",
+          "Çevresi mantar önleyici silikonla kapatılır, 12-24 saat su dökülmez",
+          "İdeal konum: klozet-duş arası, duvara yakın; zemin eğimi süzgece doğru",
         ],
-        chart: {
-          title: "Giderden koku şikâyetlerinin başlıca nedenleri",
-          unit: "%",
-          bars: [
-            { label: "Kurumuş / boşalmış su cebi", value: 45, note: "En sık; su dökmekle düzelir" },
-            { label: "Izgara altı kir / saç birikimi", value: 25, note: "Temizlikle çözülür" },
-            { label: "Cebi olmayan / bozuk süzgeç", value: 18, note: "Değişim gerekir" },
-            { label: "Kanalizasyon hattı tıkanıklığı", value: 12, note: "Servis gerekir" },
-          ],
-        },
+      },
+      {
+        heading: "Çek Valfli (Susuz Koku Önleyicili) Süzgeç Nedir?",
+        paragraphs: [
+          "Klasik süzgeç kokuyu içindeki su cebiyle keser; su buharlaşınca bariyer kalkar. Çek valfli (mekanik koku önleyicili) süzgeçlerde ise suyun geçişine izin veren, kapandığında gazı geri vermeyen tek yönlü bir mekanizma vardır — su kurusa bile koku çıkmaz. Az kullanılan banyolar, yazlıklar ve misafir tuvaletleri için en kalıcı çözümdür.",
+          "Seçerken iki tip arasında karar verin: sulu sistem (klasik su cebi) düzenli kullanılan banyolarda yeterlidir ve bakımı basittir; susuz/mekanik sistem (çek valfli) ise kullanılmayan giderlerde bile kokuyu keser ama mekanizması periyodik temizlik ister. Her iki tipte de çıkarılabilir ızgara ve temizlenebilir iç hazne, uzun ömür için olmazsa olmazdır.",
+        ],
+        bullets: [
+          "Çek valf suyu geçirir, kanalizasyon gazını geri vermez — su kurusa bile koku kesilir",
+          "Az kullanılan banyo/yazlık için en kalıcı çözüm susuz (mekanik) sistemdir",
+          "Düzenli kullanılan banyoda klasik sulu sistem yeterlidir",
+          "Her iki tipte çıkarılabilir ızgara + temizlenebilir hazne şart",
+        ],
       },
       {
         heading: "Yer Süzgeci Seçer ve Bakımını Yaparken Dikkat Edilmesi Gerekenler",
         paragraphs: [
           "Doğru yer süzgeci seçimi, baştan koku ve tıkanıklık derdini büyük ölçüde ortadan kaldırır. Öncelikle mutlaka su cebli veya mekanik koku önleyicili bir model tercih edin; sadece delikli kapaktan ibaret, sifonu olmayan ucuz süzgeçler kısa sürede koku sorunu yaratır. Az kullanılan banyolar, yazlıklar ve balkonlar için kuruma riskine karşı mekanik (yaylı/membranlı) koku önleyicili modeller en güvenli seçimdir.",
-          "Tahliye hızı için süzgecin debisi (litre/dakika) önemlidir; özellikle duşakabinsiz açık duş alanlarında suyu yetiştirebilen geniş çıkışlı veya lineer süzgeç tercih edin. Bakım tarafında ise ayda bir ızgarayı söküp saç ve kiri temizlemek, periyodik olarak gideri sıcak su ve uygun temizleyiciyle yıkamak ömrünü ve verimini korur. Süzgeç değişimi, sızdırmaz montaj ya da geçmeyen koku/tıkanıklık durumlarında zemini kurcalayıp su yalıtımına zarar vermek yerine; doğru ürün seçimi ve hattın kontrolü için tıkanıklık açma ve tesisat hizmetimizden yararlanabilirsiniz.",
+          "Tahliye hızı için süzgecin debisi (litre/dakika) önemlidir; özellikle duşakabinsiz açık duş alanlarında suyu yetiştirebilen geniş çıkışlı veya lineer süzgeç tercih edin. Bakım tarafında ise ayda bir ızgarayı söküp saç ve kiri temizlemek, periyodik olarak gideri sıcak su ve uygun temizleyiciyle yıkamak ömrünü ve verimini korur. Süzgeç değişimi, sızdırmaz montaj ya da geçmeyen koku/tıkanıklık durumlarında zemini kurcalayıp su yalıtımına zarar vermek yerine; doğru ürün seçimi ve hattın kontrolü için tıkanıklık açma ve tesisat hizmetimiz devreye girer; keşif ücretsizdir.",
         ],
         bullets: [
           "Mutlaka su cebli veya mekanik koku önleyicili model seçin",
@@ -4838,14 +4914,22 @@ const RAW_BLOG_POSTS: BlogPost[] = [
       },
       {
         q: "Su süzgecten yavaş iniyor / zemin su tutuyor, ne yapmalıyım?",
-        a: "Yavaş tahliye genellikle ızgara altında ve su cebinde biriken saç, sabun ve kireçten kaynaklanır; ızgarayı söküp gövdeyi temizlemek çoğu durumu çözer. Temizliğe rağmen su inmiyor, birikme sürüyorsa tıkanıklık daha derindeki gider borusunda olabilir. Bu durumda zemini ve yalıtımı zedelememek için tıkanıklık açma hizmetiyle hattın profesyonelce açılması en doğrusudur.",
+        a: "Yavaş tahliye genellikle ızgara altında ve su cebinde biriken saç, sabun ve kirden kaynaklanır. Izgarayı kaldırıp iç hazneyi çıkarın, birikintiyi temizleyin ve bol suyla durulayın. Temizliğe rağmen su yavaş iniyorsa gider borusunda kısmi tıkanıklık vardır; bu durumda profesyonel tıkanıklık açma gerekir. Zemin su tutuyorsa ayrıca zemin eğiminin süzgece doğru olup olmadığını kontrol edin.",
+      },
+      {
+        q: "Yer süzgecini kendim değiştirebilir miyim?",
+        a: "Gövde sağlam ve çıkış çapı aynıysa çoğu değişim kırma gerektirmez: ızgara ve iç hazne sökülür, çevre temizlenir, yeni süzgeç fayans hizasında oturtulup çevresi mantar önleyici silikonla kapatılır. Silikon kurumadan (12-24 saat) su dökülmemelidir. Gövde çatlaksa, çıkış yönü farklıysa ya da zemin eğiminde sorun varsa iş kırmaya ve profesyonel montaja geçer.",
+      },
+      {
+        q: "Çek valfli (koku önleyicili) süzgeç normal süzgeçten farklı mı?",
+        a: "Evet. Klasik süzgeç kokuyu içindeki su cebiyle keser; su buharlaşınca koku geri gelir. Çek valfli süzgeçte tek yönlü mekanizma suyu geçirip gazı geri vermez, su kurusa bile koku çıkmaz. Az kullanılan banyo, yazlık ve misafir tuvaletlerinde en kalıcı çözümdür; düzenli kullanılan banyoda klasik sulu sistem de yeterlidir.",
       },
     ],
   },
   {
     slug: "musluk-batarya-cesitleri-nedir",
     title: "Batarya Nedir? Musluk ve Batarya Çeşitleri (Açıklamalı Rehber)",
-    seoTitle: "Musluk ve Batarya Çeşitleri",
+    seoTitle: "Musluk ve Batarya Çeşitleri: Hangisi Nereye Takılır? (Resimli)",
     keyword: "musluk çeşitleri",
     volume: 2400,
     kdi: 21,
@@ -4977,7 +5061,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "tesisat-borusu-cesitleri-pprc-pvc-pex",
     title: "Tesisat Borusu Çeşitleri: PPRC, PVC, PEX ve Çelik Boru Nedir?",
-    seoTitle: "Tesisat Borusu Çeşitleri",
+    seoTitle: "Tesisat Borusu Çeşitleri: PPRC, PVC, PEX — Hangisi Nereye?",
     keyword: "pprc boru",
     volume: 4400,
     kdi: 13,
@@ -5743,14 +5827,14 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "genlesme-tanki-nedir-ne-ise-yarar",
     title: "Genleşme Tankı Nedir, Ne İşe Yarar ve Nasıl Çalışır?",
-    seoTitle: "Genleşme Tankı Nedir, Ne İşe Yarar?",
+    seoTitle: "Genleşme Tankı Nedir? Ne İşe Yarar?",
     keyword: "genleşme tankı nedir",
     volume: 260,
     kdi: 9,
     category: "Isıtma & Kombi",
     readMin: 9,
     published: "2026-06-22",
-    updated: "2026-06-22",
+    updated: "2026-10-03",
     excerpt:
       "Genleşme tankı (denge tankı / imbisat deposu) nedir, ne işe yarar ve nasıl çalışır? Kombi ve hidrofor sistemlerinde suyun ısınınca neden genleştiğini, tankın bu basıncı nasıl emdiğini, arıza belirtilerini ve hava basma mantığını; tarafsız bir tesisat servisi bakışıyla sade biçimde açıklıyoruz.",
     metaDescription:
@@ -5763,7 +5847,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         "Kombi genleşme tankı, ısınınca genleşen suyun basıncını emerek sistemi koruyan kırmızı çelik bir kaptır.",
     },
     intro:
-      "Kombinizin yanında ya da kalorifer tesisatınızın bir köşesinde duran o kırmızı çelik kabı çoğu zaman fark etmeyiz; ta ki kombi basıncı sürekli yükselip emniyet vanasından su damlatana ya da pompa boşa devreye girip durana kadar. Bu küçük ama kritik parça genleşme tankıdır (halk arasında denge tankı, genleşme kabı veya eski sistemlerde imbisat deposu da denir) ve görevi, suyun ısınınca kaçınılmaz olarak genleşmesinden doğan basıncı güvenle emmektir. Genleşme tankı olmadan ya da arızalıyken çalışan bir ısıtma sistemi, her ısınma-soğuma döngüsünde tehlikeli basınç dalgalanmaları yaşar. Bu rehberde genleşme tankının ne olduğunu, neden gerekli olduğunu, nasıl çalıştığını, kombi ve hidrofor sistemlerinde nerede kullanıldığını, arızalandığında hangi belirtileri verdiğini ve hava basma mantığını; ürün satıcılarının teknik jargonundan uzak, tarafsız bir tesisat servisi bakış açısıyla açıklıyoruz.",
+      "Kısa cevap: Genleşme tankı, kapalı bir tesisatta ısınan suyun genleşmesinden doğan basıncı emen, içinde lastik membran ve sıkıştırılmış hava bulunan basınçlı bir kaptır. Kombinin basıncı ısınınca hızla yükselip emniyet vanasından su damlıyorsa ya da hidroforda pompa az suda sık sık devreye giriyorsa, ilk şüpheli parça genleşme tankıdır; havası kaçmış veya membranı yırtılmış olabilir. Kombinizin yanında ya da kalorifer tesisatınızın bir köşesinde duran o kırmızı çelik kabı çoğu zaman fark etmeyiz; ta ki kombi basıncı sürekli yükselip emniyet vanasından su damlatana ya da pompa boşa devreye girip durana kadar. Bu küçük ama kritik parça genleşme tankıdır (halk arasında denge tankı, genleşme kabı veya eski sistemlerde imbisat deposu da denir) ve görevi, suyun ısınınca kaçınılmaz olarak genleşmesinden doğan basıncı güvenle emmektir. Genleşme tankı olmadan ya da arızalıyken çalışan bir ısıtma sistemi, her ısınma-soğuma döngüsünde tehlikeli basınç dalgalanmaları yaşar. Bu rehberde genleşme tankının ne olduğunu, neden gerekli olduğunu, nasıl çalıştığını, kombi ve hidrofor sistemlerinde nerede kullanıldığını, arızalandığında hangi belirtileri verdiğini ve hava basma mantığını; ürün satıcılarının teknik jargonundan uzak, tarafsız bir tesisat servisi bakış açısıyla açıklıyoruz.",
     sections: [
       {
         heading: "Genleşme Tankı Nedir?",
@@ -5870,6 +5954,20 @@ const RAW_BLOG_POSTS: BlogPost[] = [
           "Emin değilseniz işlemi tesisat servisine bırakmak en güvenlisidir",
         ],
       },
+      {
+        heading: "Genleşme Tankı Hacmi Nasıl Hesaplanır?",
+        paragraphs: [
+          "Doğru tank hacmi, sistemdeki toplam su miktarına ve suyun ulaşacağı en yüksek sıcaklığa göre belirlenir. Su, 10 °C'den 90 °C'ye ısıtıldığında hacmi yaklaşık %3,5 oranında artar; tankın bu genleşen suyu alabilecek büyüklükte olması gerekir. Pratikte ev tipi kombilerde cihazın içindeki tank 6-8 litre civarındadır ve standart bir dairenin kalorifer tesisatı için yeterlidir. Merkezi sistemlerde veya yerden ısıtmalı büyük tesisatlarda ise tesisattaki toplam su hacmi hesaplanır, genleşecek miktar bulunur ve buna uygun harici bir tank seçilir.",
+          "Tank küçük seçilirse sistem her ısındığında basınç emniyet vanasının açılma sınırına dayanır ve su tahliye olur; gereksiz büyük tank ise hem yer kaplar hem de gereksiz maliyettir. Eski tip açık imbisat depolu sistemlerde depo, en üst kattaki radyatörün üzerinde bir seviyeye konur ve genleşen suyu serbestçe alır. Kapalı (membranlı) tanka geçişte deponun yerine uygun hacimli membranlı tank ve emniyet grubu kurulması gerekir.",
+        ],
+        bullets: [
+          "Su 10 °C'den 90 °C'ye ısındığında hacmi yaklaşık %3,5 artar",
+          "Ev tipi kombilerde dahili tank genelde 6-8 litredir ve standart daireye yeter",
+          "Merkezi sistemlerde tesisattaki toplam su hacmine göre harici tank hesaplanır",
+          "Küçük tank: basınç sürekli yükselir, emniyet vanası su tahliye eder",
+          "Açık imbisat deposundan kapalı tanka geçişte emniyet grubu da kurulmalıdır",
+        ],
+      },
     ],
     faq: [
       {
@@ -5889,6 +5987,10 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         a: "Tankın üzerindeki hava sübabı (Schrader valf) üzerinden hava basılır; ancak önce sistemin suyu boşaltılıp basınç sıfırlanmalıdır. Ardından bir bisiklet/araç pompasıyla üreticinin önerdiği ön yükleme basıncına kadar hava basılır. Su boşaltmadan veya yanlış basınçla yapılan işlem tankı işe yaramaz hâle getirir; emin değilseniz tesisatçıya bırakmak en güvenlisidir.",
       },
       {
+        q: "Genleşme tankının hava basıncı kaç bar olmalı?",
+        a: "Ön yükleme (hava) basıncı, sistemin statik basıncına ve üreticinin önerisine göre ayarlanır; ev tipi kapalı sistemlerde genelde 0,8-1,0 bar civarı uygulanır. Kesin değer için tankın etiketine ve kombi/kazan üreticisinin kılavuzuna bakılmalıdır. Basınç kontrolü ve hava basma işlemi, sistem suyu boşaltılıp basınç sıfırlandıktan sonra yapılmalıdır; emin değilseniz tesisat servisinden destek alın.",
+      },
+      {
         q: "İmbisat deposu ile genleşme tankı aynı şey mi?",
         a: "Temelde ikisi de suyun genleşmesini karşılar. 'İmbisat deposu' terimi daha çok eski açık sistemlerde, çatıda/en yüksek noktada bulunan açık depo için kullanılır; modern kombi ve kalorifer sistemlerinde ise kapalı (membranlı) genleşme tankı kullanılır. 'Denge tankı' ve 'genleşme kabı' da yaygın olarak aynı parçayı tanımlar.",
       },
@@ -5897,7 +5999,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "vana-cesitleri-nedir-ev-tesisatinda-kullanimi",
     title: "Vana Nedir? Çeşitleri ve Ev Tesisatında Kullanımı",
-    seoTitle: "Vana Nedir? Vana Çeşitleri",
+    seoTitle: "Vana Nedir? Vana Çeşitleri ve Evde Hangisi Nerede Kullanılır",
     keyword: "vana çeşitleri",
     volume: 1600,
     kdi: 8,
@@ -6577,18 +6679,18 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "dogalgaz-sayaci-nasil-okunur",
     title: "Doğalgaz Sayacı Nasıl Okunur? m³ Tüketim ve Fatura Hesaplama Rehberi",
-    seoTitle: "Doğalgaz Sayacı Nasıl Okunur?",
+    seoTitle: "Doğalgaz Sayacı Nasıl Okunur? Tesisat No Nerede Yazar?",
     keyword: "doğalgaz sayacı nasıl okunur",
     volume: 720,
     kdi: 11,
     category: "Doğalgaz",
     readMin: 9,
     published: "2026-06-22",
-    updated: "2026-06-29",
+    updated: "2026-10-03",
     excerpt:
       "Doğalgaz sayacı nasıl okunur, siyah ve kırmızı haneler ne anlama gelir? m³ tüketimini doğru okuma, abone/tesisat numarasının sayaç üzerinde nerede yazdığı, m³ değerinin nasıl faturaya dönüştüğü ve sayaçta dikkat edilmesi gereken güvenlik noktaları; tarafsız bir doğalgaz servisi bakışıyla adım adım.",
     metaDescription:
-      "Doğalgaz sayacı nasıl okunur? Siyah/kırmızı haneler, m³ tüketim okuma, abone-tesisat numarası nerede yazar ve fatura hesaplama. İstanbul doğalgaz tesisat servisi: 0533 896 05 03.",
+      "Doğalgaz sayacı nasıl okunur, hangi rakamlar m³ gösterir? Kartlı ve mekanik sayaçta kalan kredi ve tüketimi örnekli, resimli olarak 1 dakikada öğrenin.",
     serviceSlug: "dogalgaz-tesisati",
     featuredImage: {
       src: dogalgazSayaciFeatured,
@@ -6597,7 +6699,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         "Doğalgaz sayacında okunan değer, siyah hanelerdeki tam sayı (m³) kısmıdır; kırmızı haneler ondalık olduğu için dikkate alınmaz.",
     },
     intro:
-      "Doğalgaz faturanızın neden o kadar tuttuğunu merak edip sayacın başına gittiğinizde, üzerindeki rakamların ve renklerin ne anlama geldiğini çözmek ilk bakışta kafa karıştırıcı olabilir. Oysa doğalgaz sayacını okumak, mantığını bir kez kavradığınızda son derece basittir; üstelik kendi tüketiminizi takip etmek, faturanızı kontrol etmek ve olası bir kaçak ya da anormal tüketimi erkenden fark etmek için en pratik yoldur. Bu rehberde doğalgaz sayacının nasıl okunduğunu; siyah ve kırmızı hanelerin farkını, m³ tüketiminin nasıl hesaplandığını, abone/tesisat numarasının sayaç üzerinde nerede yazdığını ve sayaçla ilgili güvenlik noktalarını, tarafsız bir doğalgaz servisi bakış açısıyla adım adım açıklıyoruz.",
+      "Kısa cevap: Doğalgaz sayacında siyah haneler tüketilen tam m³'ü, kırmızı haneler ondalığı gösterir; tesisat ve abone numarası ise genellikle sayaca yapıştırılmış dağıtım şirketi etiketinde ve faturanızda yazar. Doğalgaz faturanızın neden o kadar tuttuğunu merak edip sayacın başına gittiğinizde, üzerindeki rakamların ve renklerin ne anlama geldiğini çözmek ilk bakışta kafa karıştırıcı olabilir. Oysa doğalgaz sayacını okumak, mantığını bir kez kavradığınızda son derece basittir; üstelik kendi tüketiminizi takip etmek, faturanızı kontrol etmek ve olası bir kaçak ya da anormal tüketimi erkenden fark etmek için en pratik yoldur. Bu rehberde doğalgaz sayacının nasıl okunduğunu; siyah ve kırmızı hanelerin farkını, m³ tüketiminin nasıl hesaplandığını, abone/tesisat numarasının sayaç üzerinde nerede yazdığını ve sayaçla ilgili güvenlik noktalarını, tarafsız bir doğalgaz servisi bakış açısıyla adım adım açıklıyoruz.",
     sections: [
       {
         heading: "Doğalgaz Sayacı Ne İşe Yarar?",
@@ -6621,6 +6723,20 @@ const RAW_BLOG_POSTS: BlogPost[] = [
             { label: "Pişirme (ocak/fırın)", value: 10, note: "tüketimin" },
           ],
         },
+      },
+      {
+        heading: "Abone ve Tesisat Numarası Sayaçta Nerede Yazar?",
+        paragraphs: [
+          "Doğalgazla ilgili işlemlerde (online ödeme, abonelik sorgusu, arıza bildirimi) sıkça istenen abone numarası ve tesisat numarası, çoğu zaman sayacın üzerindeki etikette veya sayaca yapıştırılmış dağıtım şirketi etiketinde yer alır. Aynı etikette sayaç numarası da bulunur; bu üçü birbirine karıştırılmamalıdır.",
+          "Bu numaraları en kesin biçimde doğalgaz faturanızın üzerinde de bulabilirsiniz. Sayaç üzerindeki barkodlu etiket genellikle sayaç numarasını, dağıtım şirketinin eklediği etiket ise abone/tesisat numarasını taşır. Numaraları not ederken rakamları tam ve eksiksiz aldığınızdan emin olun.",
+        ],
+        bullets: [
+          "Abone/tesisat numarası: genelde sayaç üstü dağıtım etiketinde",
+          "Sayaç numarası: sayacın barkodlu künye etiketinde",
+          "Üçü farklı numaradır, karıştırmayın",
+          "En kesin kaynak doğalgaz faturanızdır",
+          "Rakamları eksiksiz ve doğru not edin",
+        ],
       },
       {
         heading: "Doğalgaz Sayacı Nasıl Okunur? (Siyah ve Kırmızı Haneler)",
@@ -6659,20 +6775,6 @@ const RAW_BLOG_POSTS: BlogPost[] = [
             ["5", "+ vergiler (KDV vb.)", "yasal oranlar"],
           ],
         },
-      },
-      {
-        heading: "Abone ve Tesisat Numarası Sayaçta Nerede Yazar?",
-        paragraphs: [
-          "Doğalgazla ilgili işlemlerde (online ödeme, abonelik sorgusu, arıza bildirimi) sıkça istenen abone numarası ve tesisat numarası, çoğu zaman sayacın üzerindeki etikette veya sayaca yapıştırılmış dağıtım şirketi etiketinde yer alır. Aynı etikette sayaç numarası da bulunur; bu üçü birbirine karıştırılmamalıdır.",
-          "Bu numaraları en kesin biçimde doğalgaz faturanızın üzerinde de bulabilirsiniz. Sayaç üzerindeki barkodlu etiket genellikle sayaç numarasını, dağıtım şirketinin eklediği etiket ise abone/tesisat numarasını taşır. Numaraları not ederken rakamları tam ve eksiksiz aldığınızdan emin olun.",
-        ],
-        bullets: [
-          "Abone/tesisat numarası: genelde sayaç üstü dağıtım etiketinde",
-          "Sayaç numarası: sayacın barkodlu künye etiketinde",
-          "Üçü farklı numaradır, karıştırmayın",
-          "En kesin kaynak doğalgaz faturanızdır",
-          "Rakamları eksiksiz ve doğru not edin",
-        ],
       },
       {
         heading: "Sayaçta Güvenlik: Gaz Kesme Vanası ve Dikkat Edilecekler",
@@ -7331,21 +7433,21 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "bulasik-makinesi-nasil-temizlenir",
     title: "Bulaşık Makinesi Nasıl Temizlenir? Filtre, Pervane ve Kireç Rehberi",
-    seoTitle: "Bulaşık Makinesi Nasıl Temizlenir?",
+    seoTitle: "Bulaşık Makinesi Nasıl Temizlenir? Adım Adım",
     keyword: "bulaşık makinesi temizliği",
     volume: 4400,
     kdi: 23,
     category: "Beyaz Eşya & Su Bağlantısı",
     readMin: 9,
     published: "2026-06-20",
-    updated: "2026-06-20",
+    updated: "2026-10-01",
     excerpt:
       "Bulaşıklar tam yıkanmıyor, makineden koku geliyor veya bardaklarda kireç izi kalıyorsa sorun çoğunlukla tıkalı filtre, kireçlenmiş pervane ve birikmiş yağdır. Bulaşık makinesini filtreden gider hattına kadar doğru ve güvenli şekilde nasıl temizleyeceğinizi adım adım anlatıyoruz.",
     metaDescription:
       "Bulaşık makinesi nasıl temizlenir? Filtre, pervane, kapı contası ve kireç temizliği, sirke-karbonat yöntemi ve tıkalı gider çözümü. Gider açma için: 0533 896 05 03.",
     serviceSlug: "mutfak-gider-acma",
     intro:
-      "Bulaşık makineniz bulaşıkları temizler ama içinde her gün yemek artığı, yağ ve kireç biriktirir. Zamanla bu birikim filtreyi tıkar, pervane (yıkama kolu) deliklerini kapatır ve makineden hem kötü koku hem de yetersiz yıkama olarak geri döner. Bu rehberde bulaşık makinesini filtreden pervaneye, kapı contasından gider bağlantısına kadar her bölümüyle, doğru sırayla ve güvenli yöntemlerle nasıl temizleyeceğinizi anlatıyoruz. Ayrıca sirke ve karbonat gibi doğal yöntemlerin ne zaman işe yaradığını, temizliğe rağmen geçmeyen koku ve su birikmesinin çoğu zaman mutfak gider hattındaki bir tıkanıklıktan kaynaklandığını da göstereceğiz.",
+      "Kısa cevap: Bulaşık makinesini temizlemenin en etkili sırası şudur — tabandaki filtreyi haftada bir çıkarıp ılık suda fırçalayın, pervane (yıkama kolu) deliklerini kürdanla açın, ayda bir 60°C boş programda makine temizleyici ya da 1 su bardağı sirke çalıştırın, kapı contasını ve lastiklerini nemli bezle silin. Bu rutine rağmen koku ve tabanda su birikmesi sürüyorsa sorun çoğunlukla makinede değil, mutfak gider hattındaki tıkanıklıktadır. Bu rehberde bulaşık makinesini filtreden pervaneye, kapı contasından gider bağlantısına kadar her bölümüyle, doğru sırayla ve güvenli yöntemlerle nasıl temizleyeceğinizi anlatıyoruz. Ayrıca sirke ve karbonat gibi doğal yöntemlerin ne zaman işe yaradığını, temizliğe rağmen geçmeyen koku ve su birikmesinin çoğu zaman mutfak gider hattındaki bir tıkanıklıktan kaynaklandığını da göstereceğiz.",
     sections: [
       {
         heading: "Bulaşık Makinesi Neden Kokar ve Kötü Yıkar?",
@@ -7725,7 +7827,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
     category: "Kombi",
     readMin: 9,
     published: "2026-06-20",
-    updated: "2026-06-20",
+    updated: "2026-10-03",
     excerpt:
       "Kombiniz hiç açılmıyor, ekranı sönük veya ateşleme yapmıyorsa sorun çoğu zaman basit bir nedendir. Elektrik, gaz, su basıncı ve arıza kodu gibi en sık 10 nedeni ve servis çağırmadan önce kendiniz kontrol edebileceğiniz adımları sırasıyla anlatıyoruz.",
     metaDescription:
@@ -7929,14 +8031,14 @@ const RAW_BLOG_POSTS: BlogPost[] = [
     category: "Su Tesisatı",
     readMin: 8,
     published: "2026-06-20",
-    updated: "2026-06-20",
+    updated: "2026-10-01",
     excerpt:
       "Su sayacınızı doğru okumak, faturanızı kontrol etmenin ve gizli su kaçağını erkenden yakalamanın en kolay yoludur. Mekanik, kartlı ve akıllı sayaçların nasıl okunduğunu, m³ hesabını ve anormal tüketimin ne anlama geldiğini adım adım anlatıyoruz.",
     metaDescription:
       "Su sayacı nasıl okunur? Mekanik, kartlı ve akıllı sayaç okuma, m³ ve su faturası hesaplama, kaçak belirtileri. Su kaçağı tespiti için arayın: 0533 896 05 03.",
     serviceSlug: "su-kacagi-tespiti",
     intro:
-      "Su faturanız beklenenden yüksek geldiğinde ilk yapılması gereken şey, sayacı doğru okumaktır. Çünkü su sayacı yalnızca borcunuzu değil, evinizdeki görünmeyen bir kaçağı da ele veren en güvenilir kanıttır. Bu rehberde mekanik (analog), kartlı (ön ödemeli) ve akıllı su sayaçlarının nasıl okunduğunu, rakamların ne anlama geldiğini, m³ üzerinden tüketim ve fatura hesabını ve en önemlisi sayaçtaki hareketin gizli bir su kaçağını nasıl açığa çıkardığını adım adım açıklıyoruz. Doğru okumayı öğrendiğinizde hem faturanızı denetleyebilir hem de küçük bir sızıntıyı büyük bir hasara dönüşmeden fark edebilirsiniz.",
+      "Kısa cevap: Su sayacında siyah (veya beyaz) zemindeki haneler toplam tüketimi, yani metreküpü (m³) gösterir ve faturaya yalnızca bunlar yansır; kırmızı haneler litre ve küsurattır. Aylık tüketimi bulmak için bu ayki değerden geçen ayki değeri çıkarın; 1 m³ = 1.000 litredir. Kartlı sayaçta kartı taktığınızda önce kalan bakiye, sonra toplam tüketim ekrana gelir. Su faturanız beklenenden yüksek geldiğinde ilk yapılması gereken şey, sayacı doğru okumaktır. Çünkü su sayacı yalnızca borcunuzu değil, evinizdeki görünmeyen bir kaçağı da ele veren en güvenilir kanıttır. Bu rehberde mekanik (analog), kartlı (ön ödemeli) ve akıllı su sayaçlarının nasıl okunduğunu, rakamların ne anlama geldiğini, m³ üzerinden tüketim ve fatura hesabını ve en önemlisi sayaçtaki hareketin gizli bir su kaçağını nasıl açığa çıkardığını adım adım açıklıyoruz. Doğru okumayı öğrendiğinizde hem faturanızı denetleyebilir hem de küçük bir sızıntıyı büyük bir hasara dönüşmeden fark edebilirsiniz.",
     sections: [
       {
         heading: "Su Sayacının Üzerinde Hangi Rakamlar Var?",
@@ -8049,14 +8151,14 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "sofben-nedir-nasil-calisir-baglanir",
     title: "Şofben Nedir, Nasıl Çalışır ve Nasıl Bağlanır? Hermetik, Bacalı ve Elektrikli Şofben Rehberi",
-    seoTitle: "Şofben Nedir, Nasıl Çalışır?",
+    seoTitle: "Şofben Nedir, Nasıl Çalışır? Çeşitleri",
     keyword: "şofben nedir",
     volume: 1000,
     kdi: 24,
     category: "Sıcak Su & Kombi",
     readMin: 10,
     published: "2026-06-20",
-    updated: "2026-06-20",
+    updated: "2026-10-01",
     excerpt:
       "Şofben nedir, nasıl çalışır ve evde nasıl güvenle kullanılır? Hermetik, bacalı (doğalgazlı) ve elektrikli şofben arasındaki farklar, şofbenin nasıl bağlandığı (sıcak/soğuk su ve gaz/elektrik girişi), güvenlik kuralları, sık yapılan hatalar ve şofben mi kombi mi sorusunun yanıtı — sade, güvenilir bir rehber.",
     metaDescription:
@@ -8198,18 +8300,18 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "su-vanasi-nasil-kapatilir-acilir",
     title: "Su Vanası Nasıl Kapatılır ve Açılır? Ana Vana Nerede, Hangi Yöne Çevrilir",
-    seoTitle: "Su Vanası Hangi Yöne Kapanır? Suyu Saniyede Kesin",
+    seoTitle: "Su Vanası Nasıl Kapatılır? Sağa mı Sola mı (Resimli)",
     keyword: "su vanası nasıl kapatılır",
     volume: 320,
     kdi: 24,
     category: "Su Tesisatı",
     readMin: 9,
     published: "2026-06-20",
-    updated: "2026-06-25",
+    updated: "2026-10-01",
     excerpt:
       "Su vanası nasıl kapatılır ve açılır? Ana su vanasının (su saati vanası, daire girişi, batarya altı ara musluk) yeri, hangi yöne çevrildiği, su kaçağı/patlak boru anında saniyeler içinde suyu kesme, sıkışmış vanayı zorlamadan açma ve tatile çıkarken vanayı kapatma — pratik, güvenli bir rehber.",
     metaDescription:
-      "Su vanası saat yönüne (sağa) çevrilince kapanır. Ana vananın yeri, hangi yöne döndüğü ve su kaçağında 10 saniyede suyu kesme — resimli, adım adım rehber. Acil: 0533 896 05 03.",
+      "Su vanası hangi yöne kapanır, ana vana nerede? Volanlı ve kollu vanada doğru yön, sıkışan vanayı zorlamadan açma ve kaçak anında suyu hemen kesme — resimli.",
     serviceSlug: "su-kacagi-tespiti",
     featuredImage: {
       src: suVanasiFeatured,
@@ -8218,8 +8320,16 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         "Evdeki iki yaygın vana tipi: yuvarlak volanlı (çarklı) vana çevrilerek, kırmızı kollu kelebek vana ise 90° döndürülerek kapatılır.",
     },
     intro:
-      "Su vanası, evinize gelen suyu açıp kapatmaya yarayan ve özellikle bir su kaçağı ya da patlak boru anında dakikalar içinde büyük hasarı önleyebilecek en kritik tesisat parçasıdır. Boru patladığında ya da musluk/klozet su fışkırttığında ilk yapılması gereken paniklemek değil, doğru vanayı bulup kapatmaktır; çünkü akan her dakika hem su faturasını hem de zemin, duvar ve alt komşuya verilecek hasarı büyütür. Bu rehberde evinizdeki vana türlerini (su saati ana vanası, daire girişi vanası, batarya altındaki ara musluklar, kombi vanaları), bunların nerede olduğunu, hangi yöne çevrilince kapanıp açıldığını, acil bir kaçakta suyu nasıl saniyeler içinde keseceğinizi, yıllardır kullanılmadığı için sıkışmış bir vanayı kırmadan nasıl açacağınızı ve tatile çıkarken neden ana vanayı kapatmanız gerektiğini adım adım anlatıyoruz. Amaç, su kontrolünü her zaman sizin elinizde tutmak ve bir aciliyet anında ne yapacağınızı önceden bilmektir.",
+      "Kısa cevap: Su vanası saat yönünde (sağa) çevrilince KAPANIR, saat yönünün tersine (sola) çevrilince AÇILIR. Kollu (kelebek/küresel) vanada ise kol boruya dik duruyorsa vana kapalı, boruyla aynı hizadaysa açıktır. Su vanası, evinize gelen suyu açıp kapatmaya yarayan ve özellikle bir su kaçağı ya da patlak boru anında dakikalar içinde büyük hasarı önleyebilecek en kritik tesisat parçasıdır. Boru patladığında ya da musluk/klozet su fışkırttığında ilk yapılması gereken paniklemek değil, doğru vanayı bulup kapatmaktır; çünkü akan her dakika hem su faturasını hem de zemin, duvar ve alt komşuya verilecek hasarı büyütür. Bu rehberde evinizdeki vana türlerini (su saati ana vanası, daire girişi vanası, batarya altındaki ara musluklar, kombi vanaları), bunların nerede olduğunu, hangi yöne çevrilince kapanıp açıldığını, acil bir kaçakta suyu nasıl saniyeler içinde keseceğinizi, yıllardır kullanılmadığı için sıkışmış bir vanayı kırmadan nasıl açacağınızı ve tatile çıkarken neden ana vanayı kapatmanız gerektiğini adım adım anlatıyoruz. Amaç, su kontrolünü her zaman sizin elinizde tutmak ve bir aciliyet anında ne yapacağınızı önceden bilmektir.",
     sections: [
+      {
+        heading: "Bunu Kendiniz Yapabilir misiniz?",
+        paragraphs: ["Başlamadan önce işin zorluğunu, gereken süreyi ve riski görün; kendinize uygun olup olmadığına karar verin. Su kesilemiyorsa veya vana kırıldıysa su kaçağı tespiti hizmetimiz devreye girer; keşif ücretsizdir."],
+        table: {
+          headers: ["Ölçüt", "Değerlendirme"],
+          rows: [["Zorluk", "Kolay (2/5)"], ["Tahmini süre", "5 dakika"], ["Gerekli aletler", "Alet gerekmez"], ["Ana risk", "Yıllardır kullanılmayan eski vana zorlanırsa kırılabilir; sıkışırsa zorlamayın."]],
+        },
+      },
       {
         heading: "Su Vanası Hangi Yöne Kapanır? (Kısa Cevap)",
         paragraphs: [
@@ -8332,6 +8442,12 @@ const RAW_BLOG_POSTS: BlogPost[] = [
       },
       {
         heading: "Tatile veya Uzun Süre Evden Ayrılırken Vanayı Kapatın",
+        callout: {
+          variant: "warning",
+          title: "Bu adımda zorlanıyorsanız",
+          body:
+            "Vana dönmüyorsa, paslanmışsa veya kapattığınız halde su akmaya devam ediyorsa zorlamayın; eski vanalar zorlandığında gövdeden kırılabilir ve daireyi su basabilir. Bu durumda profesyonel ekibimizden destek alabilirsiniz; vana değişimi kısa sürede tamamlanır.",
+        },
         paragraphs: [
           "Evde kimse yokken yaşanan bir hortum patlaması ya da bağlantı sızıntısı, günlerce akan suyla tüm evi ve alt katları su altında bırakabilir. Bu en pahalı tesisat felaketlerinden biridir ve önlemesi tek hareketle mümkündür.",
           "Birkaç günden uzun ayrılıyorsanız daire giriş ya da su saati ana vananızı kapatın. Dönüşte açarken suyu yavaşça verin ve birkaç dakika boyunca bağlantıları gözle kontrol edin.",
@@ -8357,7 +8473,14 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         ],
       },
     ],
+    inlineLinks: [{ href: "/hizmet/su-kacagi-tespiti", anchor: "su kaçağı tespiti hizmetimiz" }, 
+      { href: "/hizmet/su-kacagi-tespiti", anchor: "kırmadan su kaçağı tespiti" },
+      { slug: "su-patlamasi-ilk-mudahale", anchor: "su patlamasında ilk müdahale" },
+      { slug: "tesisat-borusu-cesitleri-pprc-pvc-pex", anchor: "tesisat borusu çeşitleri" },
+    ],
+    linkAliases: ["ana su vanası", "su vanası nerede", "vana hangi yöne kapanır", "musluk hangi yöne açılır"],
     faq: [
+        { q: "Vana kırıldıysa veya su bir türlü kesilemiyorsa ne yapmalıyım?", a: "Vanayı zorlamayı bırakın ve bizi hemen arayın. Ekibimiz telefonda ilk müdahale için sizi yönlendirir, ortalama 30 dakikada adrese ulaşır ve kaçak büyümeden müdahale eder. Keşif ücretsizdir, işe başlamadan önce yapılacak iş net olarak anlatılır." },
       {
         q: "Su vanası hangi yöne çevrilince kapanır?",
         a: "Yuvarlak volanlı vanalar saat yönünde (sağa) çevrilince kapanır, tersine (sola) çevrilince açılır. Kollu (kelebek/küresel) vanalarda ise kol boruya dik (90°) konumdaysa kapalı, boruyla aynı hizadaysa açıktır. Kapattıktan sonra bir musluğu açarak suyun gerçekten kesildiğini doğrulayın.",
@@ -8389,6 +8512,10 @@ const RAW_BLOG_POSTS: BlogPost[] = [
       {
         q: "Su saati (sayaç) vanası hangi yöne kapanır?",
         a: "Su saatindeki vana çoğunlukla küçük bir kelebek koldur: kolu boruya dik (90°) konuma getirince su kapanır, boruyla paralel hale getirince açılır. Eski tip volanlı sayaç vanalarında ise saat yönünde (sağa) çevirmek suyu keser.",
+      },
+      {
+        q: "Kombi vanası hangi yöne kapanır?",
+        a: "Kombinin altındaki vanalar genelde kollu (kelebek) vanadır: kol boruya dik (90°) konumdaysa kapalı, boruyla aynı hizadaysa açıktır. Mavi kol soğuk su (şebeke) girişidir; kalorifer gidiş-dönüş vanalarını kapatmak ısıtmayı durdurur ama cihaza zarar vermez. Sadece doldurma vanasını (küçük siyah/gri kol) kullanırken basıncı 1,5 bar civarında tutun.",
       },
       {
         q: "Su kesme aparatı nasıl açılır?",
@@ -9876,14 +10003,14 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "buderus-kombi-resetleme",
     title: "Buderus Kombi Resetleme: Adım Adım Sıfırlama ve 6A Hatası Rehberi",
-    seoTitle: "Buderus Kombi Resetleme: Reset Tuşu & 6A Hatası",
+    seoTitle: "Buderus Kombi Nasıl Resetlenir? Adım Adım",
     keyword: "buderus kombi resetleme",
     volume: 4400,
     kdi: 23,
     category: "Isıtma & Kombi",
     readMin: 11,
     published: "2026-06-18",
-    updated: "2026-07-13",
+    updated: "2026-10-01",
     excerpt:
       "Buderus kombinizde hata kodu mu var? Reset tuşuyla, reset tuşu olmayan modellerde ve elektrik kesip-açarak sıfırlama adımları, en sık görülen 6A hatasının çözümü, tüm Buderus arıza kodları tablosu, sembollerin anlamı ve tekrar eden arızalarda ne yapmanız gerektiği — hepsi tek rehberde.",
     metaDescription:
@@ -9896,7 +10023,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         "Çoğu geçici Buderus arızası, cihazı doğru biçimde resetleyip kodu silmekle düzelir; tekrar eden kodlar ise kalıcı arızaya işaret eder.",
     },
     intro:
-      "Buderus kombiler, bir arıza algıladığında kullanıcıyı ve cihazı korumak için kendini kapatır ve ekranda bir hata kodu ya da uyarı sembolü gösterir. Çoğu geçici hata, kombinin doğru biçimde resetlenmesiyle (sıfırlanmasıyla) ortadan kalkar. Buderus kullanıcılarının en sık karşılaştığı kod ise 6A'dır; bu genellikle ateşleme (yanma) arızasına işaret eder. Bu rehberde Buderus kombinizi üç farklı yöntemle güvenle nasıl resetleyeceğinizi, reset öncesi hangi kontrolleri yapmanız gerektiğini, en sık karşılaşılan 6A hatasını, düşük su basıncını (H07) ve basınç ayarını, ekrandaki panel sembolleriyle tüm arıza kodlarının ne anlama geldiğini ve hatanın tekrar etmesi durumunda izlenecek yolu adım adım açıklıyoruz. Reset, ekrandaki kodu silmeden önce kodu not almayı unutmayın; tekrar ederse servise iletmeniz arızanın hızlı bulunmasını sağlar. Diğer markalar için bosch kombi resetleme, viessmann kombi resetleme ve vaillant kombi resetleme rehberlerimize de bakabilirsiniz.",
+      "Kısa cevap: Buderus kombiyi resetlemek için paneldeki reset tuşuna (alev simgeli düğmeye) yaklaşık 3-5 saniye basılı tutun; reset tuşu olmayan modellerde kombinin elektriğini 30-40 saniye kesip geri açın. Resetten önce basıncın 1-1,5 bar olduğunu ve gaz vanasının açık olduğunu kontrol edin; ekrandaki kodu (örneğin 6A) not alın. Buderus kombiler, bir arıza algıladığında kullanıcıyı ve cihazı korumak için kendini kapatır ve ekranda bir hata kodu ya da uyarı sembolü gösterir. Çoğu geçici hata, kombinin doğru biçimde resetlenmesiyle (sıfırlanmasıyla) ortadan kalkar. Buderus kullanıcılarının en sık karşılaştığı kod ise 6A'dır; bu genellikle ateşleme (yanma) arızasına işaret eder. Bu rehberde Buderus kombinizi üç farklı yöntemle güvenle nasıl resetleyeceğinizi, reset öncesi hangi kontrolleri yapmanız gerektiğini, en sık karşılaşılan 6A hatasını, düşük su basıncını (H07) ve basınç ayarını, ekrandaki panel sembolleriyle tüm arıza kodlarının ne anlama geldiğini ve hatanın tekrar etmesi durumunda izlenecek yolu adım adım açıklıyoruz. Reset, ekrandaki kodu silmeden önce kodu not almayı unutmayın; tekrar ederse servise iletmeniz arızanın hızlı bulunmasını sağlar. Diğer markalar için bosch kombi resetleme, viessmann kombi resetleme ve vaillant kombi resetleme rehberlerimize de bakabilirsiniz.",
     sections: [
       {
         heading: "Resetlemeden Önce Kontrol Edin",
@@ -10074,18 +10201,18 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "bosch-kombi-resetleme",
     title: "Bosch Kombi Resetleme: Adım Adım Sıfırlama, EA ve 227 Hatası Rehberi",
-    seoTitle: "Bosch Kombi Resetleme: EA & 227 Hatası",
+    seoTitle: "Bosch Kombi Resetleme ve 227 Hatası: 10 Sn Çözüm",
     keyword: "bosch kombi resetleme",
     volume: 3600,
     kdi: 31,
     category: "Isıtma & Kombi",
     readMin: 15,
     published: "2026-07-13",
-    updated: "2026-07-13",
+    updated: "2026-10-01",
     excerpt:
       "Bosch kombinizde hata kodu mu var? Reset tuşuyla, reset tuşu olmayan modellerde ve elektrik kesip-açarak sıfırlama adımları; en sık görülen EA ateşleme ve 227 alev (iyonizasyon) hatasının çözümü, tüm Bosch arıza kodları tablosu, panel sembollerinin anlamı, açma-kapama ve yaz-kış ayarları, 'reset atmıyor / ateşleme yapmıyor' durumları — tek rehberde.",
     metaDescription:
-      "Bosch kombi resetleme nasıl yapılır? Reset tuşu, EA ve 227 hatası, arıza kodları tablosu ve ayarlar. Adım adım güvenli sıfırlama. Servis: 0533 896 05 03.",
+      "Bosch kombi nasıl resetlenir? Reset tuşuna 3 sn basın. 227 hatası alev/iyonizasyon arızasıdır; gaz açık ve basınç normalse tek resetle düzelir. Adım adım çözüm.",
     serviceSlug: "kombi-servisi",
     featuredImage: {
       src: boschResetlemeFeatured,
@@ -10094,7 +10221,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         "Çoğu geçici Bosch arızası, cihazı doğru biçimde resetleyip kodu silmekle düzelir; tekrar eden EA veya 227 kodları ise kalıcı arızaya işaret eder.",
     },
     intro:
-      "Bosch kombiler bir arıza algıladığında kullanıcıyı ve cihazı korumak için kendini kapatır, ekranda bir hata kodu ve çoğu zaman bir anahtar (servis) ya da ünlem sembolü gösterir. Geçici hataların büyük kısmı, kombinin doğru biçimde resetlenmesiyle (sıfırlanmasıyla) ortadan kalkar. Bu rehberde Bosch kombinizi üç farklı yöntemle güvenle nasıl resetleyeceğinizi, reset öncesi hangi kontrolleri yapmanız gerektiğini, en sık karşılaşılan EA (ateşleme) ve 227 (alev/iyonizasyon) hatalarını, ekrandaki sembollerin ve arıza kodlarının anlamını, açma-kapama ile yaz-kış ayarlarını ve 'kombi reset atmıyor / ateşleme yapmıyor' durumlarında izlenecek yolu adım adım anlatıyoruz. Reset öncesi ekrandaki kodu not almayı unutmayın; tekrar ederse servise iletmeniz arızanın hızlı bulunmasını sağlar. Diğer markalar için buderus kombi resetleme ve vaillant kombi resetleme rehberlerimize de bakabilirsiniz.",
+      "Kısa cevap: Bosch kombiyi resetlemek için paneldeki reset (alev simgeli) tuşu yaklaşık 3 saniye basılı tutun; reset tuşu olmayan modellerde ▲ ve ▼ tuşlarına aynı anda 3 saniye basın. 227 hatası alev/iyonizasyon arızasıdır: gaz vanası açık ve basınç 1-1,5 bar ise tek resetle çoğu zaman düzelir; tekrar ederse ateşleme elektrodu veya iyonizasyon sensörü arızalı olabilir ve servis gerekir. Bosch kombiler bir arıza algıladığında kullanıcıyı ve cihazı korumak için kendini kapatır, ekranda bir hata kodu ve çoğu zaman bir anahtar (servis) ya da ünlem sembolü gösterir. Geçici hataların büyük kısmı, kombinin doğru biçimde resetlenmesiyle (sıfırlanmasıyla) ortadan kalkar. Bu rehberde Bosch kombinizi üç farklı yöntemle güvenle nasıl resetleyeceğinizi, reset öncesi hangi kontrolleri yapmanız gerektiğini, en sık karşılaşılan EA (ateşleme) ve 227 (alev/iyonizasyon) hatalarını, ekrandaki sembollerin ve arıza kodlarının anlamını, açma-kapama ile yaz-kış ayarlarını ve 'kombi reset atmıyor / ateşleme yapmıyor' durumlarında izlenecek yolu adım adım anlatıyoruz. Reset öncesi ekrandaki kodu not almayı unutmayın; tekrar ederse servise iletmeniz arızanın hızlı bulunmasını sağlar. Diğer markalar için buderus kombi resetleme ve vaillant kombi resetleme rehberlerimize de bakabilirsiniz.",
     sections: [
       {
         heading: "Resetlemeden Önce Kontrol Edin",
@@ -10111,6 +10238,12 @@ const RAW_BLOG_POSTS: BlogPost[] = [
       },
       {
         heading: "Bosch Kombi Resetleme Adımları",
+        callout: {
+          variant: "warning",
+          title: "Bu adımda zorlanıyorsanız",
+          body:
+            "Reset sonrası hata kodu kısa sürede geri geliyorsa sorun geçici değildir; ateşleme elektrodu, iyonizasyon sensörü veya gaz valfi arızalı olabilir. Kombiyi tekrar tekrar resetlemek arızayı büyütebilir. Bu noktada kombi servis hizmetimiz devreye girer; keşif ücretsizdir.",
+        },
         paragraphs: [
           "Bosch modellerinde reset üç farklı şekilde yapılabilir. Önce cihazınızda reset tuşu olup olmadığına bakın; birçok Bosch modelinde reset, geri-dönüş oku veya alev simgeli ayrı bir tuştur. Reset tuşu yoksa alttaki ikinci ve üçüncü yöntemi kullanın. Her yöntemde ortak kural aynıdır: tuşa 3 saniyeden uzun ve ardı ardına basmayın, resetlemeyi en fazla 2 kez deneyin.",
         ],
@@ -10636,14 +10769,14 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "vaillant-kombi-resetleme",
     title: "Vaillant Kombi Resetleme: Modele Göre Adım Adım Sıfırlama, F.28 ve F.22 Hataları",
-    seoTitle: "Vaillant Kombi Resetleme & F.28 Hatası",
+    seoTitle: "Vaillant Kombi Nasıl Resetlenir? Adım Adım",
     keyword: "vaillant kombi resetleme",
     volume: 1900,
     kdi: 5,
     category: "Isıtma & Kombi",
     readMin: 13,
     published: "2026-06-18",
-    updated: "2026-07-13",
+    updated: "2026-10-01",
     excerpt:
       "Vaillant kombinizde hata kodu mu var? VCK, AtmoTec Plus, TurboTec Plus ve EcoTec modellerine göre reset adımları, reset tuşu olmayan modellerde sıfırlama, en sık görülen F.28 (ateşleme) ve F.22 (düşük basınç) hatalarının anlamı ve çözümü, tüm Vaillant arıza kodları tablosu ve tekrar eden arızada ne yapmanız gerektiği — hepsi tek rehberde.",
     metaDescription:
@@ -10656,7 +10789,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         "Vaillant kombilerde geçici arızaların çoğu doğru resetleme ile çözülür. En sık görülen F.28 ateşleme, F.22 ise düşük su basıncı hatasıdır. Reset öncesi ekrandaki kodu mutlaka not alın.",
     },
     intro:
-      "Vaillant kombiler, bir arıza algıladığında hem cihazı hem de kullanıcıyı korumak için kendini güvenlik kilidine alır ve ekranda bir hata (F) kodu gösterir. Geçici nedenlerle oluşan birçok arıza, kombinin doğru biçimde resetlenmesiyle (sıfırlanmasıyla) ortadan kalkar. Ancak Vaillant'ın VCK, AtmoTec Plus, TurboTec Plus ve EcoTec gibi serilerinde reset yöntemi modelden modele değişir; bir modelde ayrı reset tuşu varken diğerinde alev simgeli düğme veya tuş kombinasyonu kullanılır. Vaillant kullanıcılarının en sık karşılaştığı iki kod ise F.28 (ateşleme/yanma arızası) ve F.22'dir (düşük su basıncı). Bu rehberde modelinize göre Vaillant kombinizi güvenle nasıl resetleyeceğinizi, reset öncesi hangi kontrolleri yapmanız gerektiğini, F.28 ve F.22 hatalarının ne anlama geldiğini ve adım adım nasıl giderileceğini, tüm Vaillant arıza kodlarını ve hatanın tekrar etmesi durumunda izlenecek yolu açıklıyoruz. Reset, ekrandaki kodu silmeden önce kodu mutlaka not alın; tekrar ederse servise iletmeniz arızanın hızlı bulunmasını sağlar. Diğer markalar için bosch kombi resetleme ve viessmann kombi resetleme rehberlerimize de bakabilirsiniz.",
+      "Kısa cevap: Vaillant kombiyi resetlemek için modelinize göre reset tuşuna ya da alev simgeli düğmeye 3-5 saniye basılı tutun; tuş kombinasyonu isteyen modellerde ilgili tuşlara birlikte basın, hiçbiri yoksa elektriği 30-40 saniye kesip geri açın. Resetten önce basıncın 1-1,5 bar olduğunu (düşükse F.22 verir) ve gaz vanasının açık olduğunu kontrol edin; ekrandaki kodu (örneğin F.28) not alın. Vaillant kombiler, bir arıza algıladığında hem cihazı hem de kullanıcıyı korumak için kendini güvenlik kilidine alır ve ekranda bir hata (F) kodu gösterir. Geçici nedenlerle oluşan birçok arıza, kombinin doğru biçimde resetlenmesiyle (sıfırlanmasıyla) ortadan kalkar. Ancak Vaillant'ın VCK, AtmoTec Plus, TurboTec Plus ve EcoTec gibi serilerinde reset yöntemi modelden modele değişir; bir modelde ayrı reset tuşu varken diğerinde alev simgeli düğme veya tuş kombinasyonu kullanılır. Vaillant kullanıcılarının en sık karşılaştığı iki kod ise F.28 (ateşleme/yanma arızası) ve F.22'dir (düşük su basıncı). Bu rehberde modelinize göre Vaillant kombinizi güvenle nasıl resetleyeceğinizi, reset öncesi hangi kontrolleri yapmanız gerektiğini, F.28 ve F.22 hatalarının ne anlama geldiğini ve adım adım nasıl giderileceğini, tüm Vaillant arıza kodlarını ve hatanın tekrar etmesi durumunda izlenecek yolu açıklıyoruz. Reset, ekrandaki kodu silmeden önce kodu mutlaka not alın; tekrar ederse servise iletmeniz arızanın hızlı bulunmasını sağlar. Diğer markalar için bosch kombi resetleme ve viessmann kombi resetleme rehberlerimize de bakabilirsiniz.",
     sections: [
       {
         heading: "Resetlemeden Önce Kontrol Edin",
@@ -10838,14 +10971,14 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "daikin-kombi-resetleme",
     title: "Daikin Kombi Resetleme: Adım Adım Sıfırlama ve Hata Kodları Rehberi",
-    seoTitle: "Daikin Kombi Resetleme",
+    seoTitle: "Daikin Kombi Nasıl Resetlenir? Adım Adım",
     keyword: "daikin kombi resetleme",
     volume: 3600,
     kdi: 23,
     category: "Isıtma & Kombi",
     readMin: 15,
     published: "2026-06-18",
-    updated: "2026-07-13",
+    updated: "2026-10-01",
     excerpt:
       "Daikin kombinizde hata kodu mu var? Reset tuşuyla ve elektrik kesme yöntemiyle sıfırlama adımları, Daikin'e özgü iki bölümlü hata kodlarının (HJ-09, 11-64, J6-01 gibi) yapısı ve anlamı, tüm arıza kodları tablosu, en sık görülen düşük basınç ve ateşleme arızalarının çözümü, su basıncı ayarı ve tekrar eden hatalarda ne yapmanız gerektiği — görseller, grafik ve tabloyla tek rehberde.",
     metaDescription:
@@ -10858,7 +10991,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         "Daikin kombilerde ekranda HJ-09 gibi iki bölümlü bir kod belirdiğinde önce su basıncını ve gazı kontrol edip bir kez resetlemek çoğu geçici arızayı çözer. Tekrar eden kodlar ise kalıcı arızaya işaret eder ve servis gerektirir.",
     },
     intro:
-      "Daikin kombiler, bir arıza algıladığında hem cihazı hem de kullanıcıyı korumak için kendini güvenlik kilidine alır ve ekranda iki bölümden oluşan bir hata kodu (örneğin HJ-09, 11-64, J6-01) gösterir. Geçici nedenlerle oluşan birçok arıza, kombinin doğru biçimde resetlenmesiyle (sıfırlanmasıyla) ortadan kalkar. Daikin'in kod yapısı çoğu markadan farklıdır; baştaki harf/rakam arızanın grubunu, sonraki bölüm ise alt nedenini belirtir. Bu rehberde Daikin kombinizi reset tuşuyla ve reset tuşu olmayan modellerde elektrik kesme yöntemiyle nasıl güvenle resetleyeceğinizi, reset öncesi hangi kontrolleri yapmanız gerektiğini, kod yapısının nasıl okunduğunu, en sık görülen kodların ne anlama geldiğini, su basıncını nasıl ayarlayacağınızı ve hatanın tekrar etmesi durumunda izlenecek yolu adım adım açıklıyoruz. Reset, ekrandaki kodu silmeden önce kodu mutlaka not alın; tekrar ederse servise iletmeniz arızanın hızlı bulunmasını sağlar. Diğer markalar için viessmann kombi resetleme, bosch kombi resetleme ve eca kombi resetleme rehberlerimize de bakabilirsiniz.",
+      "Kısa cevap: Daikin kombiyi resetlemek için ön paneldeki reset tuşuna 3-5 saniye basılı tutun; reset tuşu olmayan modellerde kombiyi kapatıp elektriğini 30-40 saniye kesin ve yeniden açın. Resetten önce su basıncının 1-1,5 bar olduğunu ve gaz vanasının açık olduğunu kontrol edin; ekrandaki kodu (HJ-09, 11-64 gibi) not alın. Daikin kombiler, bir arıza algıladığında hem cihazı hem de kullanıcıyı korumak için kendini güvenlik kilidine alır ve ekranda iki bölümden oluşan bir hata kodu (örneğin HJ-09, 11-64, J6-01) gösterir. Geçici nedenlerle oluşan birçok arıza, kombinin doğru biçimde resetlenmesiyle (sıfırlanmasıyla) ortadan kalkar. Daikin'in kod yapısı çoğu markadan farklıdır; baştaki harf/rakam arızanın grubunu, sonraki bölüm ise alt nedenini belirtir. Bu rehberde Daikin kombinizi reset tuşuyla ve reset tuşu olmayan modellerde elektrik kesme yöntemiyle nasıl güvenle resetleyeceğinizi, reset öncesi hangi kontrolleri yapmanız gerektiğini, kod yapısının nasıl okunduğunu, en sık görülen kodların ne anlama geldiğini, su basıncını nasıl ayarlayacağınızı ve hatanın tekrar etmesi durumunda izlenecek yolu adım adım açıklıyoruz. Reset, ekrandaki kodu silmeden önce kodu mutlaka not alın; tekrar ederse servise iletmeniz arızanın hızlı bulunmasını sağlar. Diğer markalar için viessmann kombi resetleme, bosch kombi resetleme ve eca kombi resetleme rehberlerimize de bakabilirsiniz.",
     sections: [
       {
         heading: "Resetlemeden Önce Kontrol Edin",
@@ -11032,14 +11165,14 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "baymak-kombi-resetleme",
     title: "Baymak Kombi Resetleme: Adım Adım Sıfırlama, AP Hatası ve Arıza Kodları",
-    seoTitle: "Baymak Kombi Resetleme & AP Hatası",
+    seoTitle: "Baymak Kombi Nasıl Resetlenir? Adım Adım",
     keyword: "baymak kombi resetleme",
     volume: 2400,
     kdi: 21,
     category: "Isıtma & Kombi",
     readMin: 13,
     published: "2026-06-18",
-    updated: "2026-07-13",
+    updated: "2026-10-01",
     excerpt:
       "Baymak kombinizde hata mı var? Reset düğmesiyle ve düğme olmayan modellerde elektrik kesip-açarak sıfırlama adımları, kombide AP ne demek (düşük su basıncı) ve nasıl giderilir, su basıncı ayarı, tüm Baymak arıza kodları tablosu, reset öncesi kontroller ve tekrar eden arızalarda ne yapmanız gerektiği — hepsi tek rehberde.",
     metaDescription:
@@ -11052,7 +11185,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         "Baymak kombilerde en sık görülen AP uyarısı düşük su basıncını gösterir; basıncı 1-1,5 bara tamamlayıp resetlemek çoğu zaman sorunu çözer. Tekrar eden AP kodu ise kaçak veya genleşme tankı arızasına işaret eder.",
     },
     intro:
-      "Baymak kombiler, bir arıza algıladığında hem cihazı hem de kullanıcıyı korumak için kendini güvenlik kilidine alır ve ekranda bir uyarı ya da hata kodu (örneğin AP) gösterir. Geçici nedenlerle oluşan birçok arıza, kombinin doğru biçimde resetlenmesiyle (sıfırlanmasıyla) ortadan kalkar. Baymak kullanıcılarının en sık karşılaştığı durum ise ekrandaki AP yazısıdır; bu, düşük su basıncı anlamına gelir ve çoğu zaman evde güvenle çözülebilir. Bu rehberde Baymak kombinizi reset düğmesiyle ve düğme olmayan modellerde nasıl sıfırlayacağınızı, reset öncesi hangi kontrolleri yapmanız gerektiğini, kombide AP ne demek olduğunu ve adım adım nasıl giderildiğini, su basıncını nasıl ayarlayacağınızı, ekrandaki tüm Baymak arıza kodlarını ve hatanın tekrar etmesi durumunda izlenecek yolu açıklıyoruz. Reset, ekrandaki kodu silmeden önce kodu mutlaka not alın; tekrar ederse servise iletmeniz arızanın hızlı bulunmasını sağlar. Diğer markalar için eca kombi resetleme ve bosch kombi resetleme rehberlerimize de bakabilirsiniz.",
+      "Kısa cevap: Baymak kombi resetleme için paneldeki reset düğmesine (reset/alev simgeli) yaklaşık 3-5 saniye basılı tutup bırakın; düğme olmayan modellerde kombinin elektriğini 30-40 saniye kesip geri verin. Resetlemeden önce manometredeki basıncın 1-1,5 bar olduğundan, gaz vanasının açık olduğundan emin olun ve ekrandaki hata kodunu mutlaka not edin. Baymak kombiler, bir arıza algıladığında hem cihazı hem de kullanıcıyı korumak için kendini güvenlik kilidine alır ve ekranda bir uyarı ya da hata kodu (örneğin AP) gösterir. Geçici nedenlerle oluşan birçok arıza, kombinin doğru biçimde resetlenmesiyle (sıfırlanmasıyla) ortadan kalkar. Baymak kullanıcılarının en sık karşılaştığı durum ise ekrandaki AP yazısıdır; bu, düşük su basıncı anlamına gelir ve çoğu zaman evde güvenle çözülebilir. Bu rehberde Baymak kombinizi reset düğmesiyle ve düğme olmayan modellerde nasıl sıfırlayacağınızı, reset öncesi hangi kontrolleri yapmanız gerektiğini, kombide AP ne demek olduğunu ve adım adım nasıl giderildiğini, su basıncını nasıl ayarlayacağınızı, ekrandaki tüm Baymak arıza kodlarını ve hatanın tekrar etmesi durumunda izlenecek yolu açıklıyoruz. Reset, ekrandaki kodu silmeden önce kodu mutlaka not alın; tekrar ederse servise iletmeniz arızanın hızlı bulunmasını sağlar. Diğer markalar için eca kombi resetleme ve bosch kombi resetleme rehberlerimize de bakabilirsiniz.",
     sections: [
       {
         heading: "Resetlemeden Önce Kontrol Edin",
@@ -11217,14 +11350,14 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "eca-kombi-resetleme",
     title: "ECA Kombi Resetleme: Adım Adım Sıfırlama, AP ve ASE Hatası Rehberi",
-    seoTitle: "ECA Kombi Resetleme: AP & ASE Hatası",
+    seoTitle: "ECA Kombi Nasıl Resetlenir? Adım Adım",
     keyword: "eca kombi resetleme",
     volume: 2900,
     kdi: 29,
     category: "Isıtma & Kombi",
     readMin: 14,
     published: "2026-06-18",
-    updated: "2026-07-13",
+    updated: "2026-10-01",
     excerpt:
       "ECA kombinizde (Proteus Premix, Confeo Premix) hata mı var? Reset düğmesiyle ve düğme olmayan modellerde sıfırlama adımları, en sık görülen AP (düşük su basıncı) ve ASE (ateşleme/alev) hatalarının anlamı ve çözümü, E01 kodu, tüm ECA arıza kodları tablosu, su basıncı ayarı, reset öncesi kontroller ve tekrar eden arızalarda ne yapmanız gerektiği — hepsi tek rehberde.",
     metaDescription:
@@ -11237,7 +11370,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         "ECA kombilerde en sık görülen AP uyarısı düşük su basıncını gösterir; basıncı 1-1,5 bara tamamlayıp resetlemek çoğu zaman sorunu çözer. Tekrar eden AP ve ASE kodları ise kalıcı arızaya işaret eder.",
     },
     intro:
-      "ECA kombiler (özellikle Proteus Premix ve Confeo Premix serileri), bir arıza algıladığında hem cihazı hem de kullanıcıyı korumak için kendini güvenlik kilidine alır ve ekranda bir uyarı ya da hata kodu (örneğin AP, ASE, E01) gösterir. Geçici nedenlerle oluşan birçok arıza, kombinin doğru biçimde resetlenmesiyle (sıfırlanmasıyla) ortadan kalkar. ECA kullanıcılarının en sık karşılaştığı iki durum, düşük su basıncını bildiren AP yazısı ile ateşleme/alev arızasını gösteren ASE kodudur. Bu rehberde ECA kombinizi reset düğmesiyle ve düğme olmayan modellerde nasıl sıfırlayacağınızı, reset öncesi hangi kontrolleri yapmanız gerektiğini, AP ve ASE hatalarının ne anlama geldiğini ve adım adım nasıl giderildiğini, ekrandaki tüm ECA arıza kodlarını, su basıncını nasıl ayarlayacağınızı ve hatanın tekrar etmesi durumunda izlenecek yolu açıklıyoruz. Reset, ekrandaki kodu silmeden önce kodu mutlaka not alın; tekrar ederse servise iletmeniz arızanın hızlı bulunmasını sağlar. Diğer markalar için baymak kombi resetleme ve bosch kombi resetleme rehberlerimize de bakabilirsiniz.",
+      "Kısa cevap: ECA kombiyi resetlemek için paneldeki reset düğmesine 3-5 saniye basılı tutun; düğme olmayan modellerde kombinin elektriğini 30-40 saniye kesip geri açın. Resetten önce basıncın 1-1,5 bar olduğunu (düşükse ekranda AP yazar) ve gaz vanasının açık olduğunu kontrol edin; ekrandaki kodu (AP, ASE, E01 gibi) not alın. ECA kombiler (özellikle Proteus Premix ve Confeo Premix serileri), bir arıza algıladığında hem cihazı hem de kullanıcıyı korumak için kendini güvenlik kilidine alır ve ekranda bir uyarı ya da hata kodu (örneğin AP, ASE, E01) gösterir. Geçici nedenlerle oluşan birçok arıza, kombinin doğru biçimde resetlenmesiyle (sıfırlanmasıyla) ortadan kalkar. ECA kullanıcılarının en sık karşılaştığı iki durum, düşük su basıncını bildiren AP yazısı ile ateşleme/alev arızasını gösteren ASE kodudur. Bu rehberde ECA kombinizi reset düğmesiyle ve düğme olmayan modellerde nasıl sıfırlayacağınızı, reset öncesi hangi kontrolleri yapmanız gerektiğini, AP ve ASE hatalarının ne anlama geldiğini ve adım adım nasıl giderildiğini, ekrandaki tüm ECA arıza kodlarını, su basıncını nasıl ayarlayacağınızı ve hatanın tekrar etmesi durumunda izlenecek yolu açıklıyoruz. Reset, ekrandaki kodu silmeden önce kodu mutlaka not alın; tekrar ederse servise iletmeniz arızanın hızlı bulunmasını sağlar. Diğer markalar için baymak kombi resetleme ve bosch kombi resetleme rehberlerimize de bakabilirsiniz.",
     sections: [
       {
         heading: "Resetlemeden Önce Kontrol Edin",
@@ -11608,21 +11741,21 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "petekler-nasil-acilir",
     title: "Petekler Nasıl Açılır? Alttan Isıtmayan Radyatör Çözümü",
-    seoTitle: "Petekler Nasıl Açılır?",
+    seoTitle: "Petekler Nasıl Açılır? Alttan Isıtmayan Peteğin Çözümü",
     keyword: "petekler nasıl açılır",
     volume: 1900,
     kdi: 28,
     category: "Isıtma & Kombi",
     readMin: 9,
     published: "2026-06-18",
-    updated: "2026-06-18",
+    updated: "2026-10-01",
     excerpt:
       "Petekler nasıl açılır, vana hangi yöne çevrilir, üstü sıcak altı soğuk kalan radyatörün havası nasıl alınır? Petek vanası ayarı, adım adım hava alma (purjör), hava aldıktan sonra kombi barı kontrolü ve hava almaya rağmen ısınmayan peteklerde çamur/tıkanma çözümü — tek rehberde.",
     metaDescription:
       "Petekler nasıl açılır? Vana sola açılır, sağa kapanır. Üstü sıcak altı soğuk peteğin havası nasıl alınır, purjör adımları ve ısınmıyorsa ne yapılır. Servis: 0533 896 05 03.",
     serviceSlug: "petek-temizligi",
     intro:
-      "Hava soğuyunca peteklerin (radyatörlerin) düzgün ısınması, evdeki konforun belkemiğidir. Ama çoğu kullanıcı iki noktada takılır: peteği nasıl açacağı (vananın hangi yöne çevrileceği) ve açtığı hâlde peteğin neden tam ısınmadığı. En sık karşılaşılan tablo şudur: petek üstten sıcak, alttan soğuk kalır — bunun nedeni neredeyse her zaman peteğin içinde biriken havadır ve çözümü basit bir hava alma işlemidir. Bu rehberde petek vanasını doğru yöne çevirerek nasıl açacağınızı, termostatik vanaların nasıl ayarlandığını, peteğin havasını adım adım nasıl alacağınızı, hava aldıktan sonra kombi barını neden kontrol etmeniz gerektiğini ve havasını almanıza rağmen hâlâ ısınmayan peteklerde sorunun ne olduğunu (genellikle içeride biriken çamur/kireç) net biçimde açıklıyoruz. Tüm işlemler kullanıcının kendi yapabileceği güvenli adımlardır; cihaz markanız ne olursa olsun mantık aynıdır.",
+      "Kısa cevap: Petek vanasını saat yönünün tersine (sola) çevirince petek açılır; hem üstteki giriş hem alttaki dönüş vanası açık olmalı. Petek üstü sıcak altı soğuksa içinde hava vardır: kombiyi kapatıp peteğin üst köşesindeki purjör vidasını gevşetin, tısss sesi bitip kesintisiz su gelince kapatın; sonra kombi barını 1-1,5 bara tamamlayın. Hava soğuyunca peteklerin (radyatörlerin) düzgün ısınması, evdeki konforun belkemiğidir. Ama çoğu kullanıcı iki noktada takılır: peteği nasıl açacağı (vananın hangi yöne çevrileceği) ve açtığı hâlde peteğin neden tam ısınmadığı. En sık karşılaşılan tablo şudur: petek üstten sıcak, alttan soğuk kalır — bunun nedeni neredeyse her zaman peteğin içinde biriken havadır ve çözümü basit bir hava alma işlemidir. Bu rehberde petek vanasını doğru yöne çevirerek nasıl açacağınızı, termostatik vanaların nasıl ayarlandığını, peteğin havasını adım adım nasıl alacağınızı, hava aldıktan sonra kombi barını neden kontrol etmeniz gerektiğini ve havasını almanıza rağmen hâlâ ısınmayan peteklerde sorunun ne olduğunu (genellikle içeride biriken çamur/kireç) net biçimde açıklıyoruz. Tüm işlemler kullanıcının kendi yapabileceği güvenli adımlardır; cihaz markanız ne olursa olsun mantık aynıdır.",
     sections: [
       {
         heading: "Petek Vanası Hangi Yöne Açılır?",
@@ -11658,6 +11791,12 @@ const RAW_BLOG_POSTS: BlogPost[] = [
           "Evdeki tüm petekleri, kombiye en uzaktan en yakına doğru sırayla havasını alın",
           "İşlem bitince kombi barını kontrol edin (aşağıdaki bölüm) ve gerekirse su ekleyin",
         ],
+        image: {
+          src: petekHavaAlmaPurjor,
+          alt: "Peteğin üst köşesindeki purjör vidası tornavida ile gevşetilirken altında bez ve kap tutulması — petek havası alma işlemi",
+          caption:
+            "Purjörü saat yönünün tersine yavaşça gevşetin; 'tısss' sesi bitip kesintisiz su gelince tekrar sıkın. Altında mutlaka bez ve kap olsun.",
+        },
       },
       {
         heading: "Hava Aldıktan Sonra Kombi Barını Kontrol Edin",
@@ -11872,7 +12011,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
     category: "Isıtma & Kombi",
     readMin: 15,
     published: "2026-06-18",
-    updated: "2026-07-13",
+    updated: "2026-10-01",
     excerpt:
       "Viessmann kombinizde hata mı var? Vitopend ve Vitodens modellerinde reset düğmesiyle ve dijital ekranda OK tuşuyla sıfırlama adımları, en sık görülen F2 (alev/gaz) hatasının anlamı ve çözümü, F4/F5/F.67 dahil arıza kodları tablosu, su basıncı ayarı, panel sembollerinin anlamı, reset öncesi kontroller ve tekrar eden arızalarda ne yapmanız gerektiği — görseller, grafik ve tabloyla tek rehberde.",
     metaDescription:
@@ -11885,10 +12024,16 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         "Viessmann kombilerde ekranda F2 gibi bir kod belirdiğinde önce su basıncını ve gazı kontrol edip bir kez resetlemek çoğu geçici arızayı çözer. Tekrar eden kodlar ise kalıcı arızaya işaret eder ve servis gerektirir.",
     },
     intro:
-      "Viessmann kombiler (özellikle Vitopend ve Vitodens serileri), bir arıza algıladığında hem cihazı hem de kullanıcıyı korumak için kendini güvenlik kilidine alır ve ekranda bir uyarı sembolü ya da hata kodu (örneğin F2) gösterir. Geçici nedenlerle oluşan birçok arıza, kombinin doğru biçimde resetlenmesiyle (sıfırlanmasıyla) ortadan kalkar. Viessmann kullanıcılarının en sık karşılaştığı durumlardan biri ekranda görünen F2 kodudur; bu genellikle alev/gaz beslemesiyle ilgili bir arızaya işaret eder. Bu rehberde Viessmann kombinizi analog panelli modellerde reset düğmesiyle, dijital ekranlı Vitodens modellerinde ise OK (onay) tuşuyla nasıl resetleyeceğinizi, reset öncesi hangi kontrolleri yapmanız gerektiğini, F2 başta olmak üzere en sık görülen kodların ve panel sembollerinin ne anlama geldiğini, su basıncını nasıl ayarlayacağınızı ve hatanın tekrar etmesi durumunda izlenecek yolu adım adım açıklıyoruz. Reset, ekrandaki kodu sildiği için sıfırlamadan önce kodu mutlaka not alın; tekrar ederse servise iletmeniz arızanın hızlı bulunmasını sağlar. Diğer markalar için bosch kombi resetleme, eca kombi resetleme ve buderus kombi resetleme rehberlerimize de bakabilirsiniz.",
+      "Kısa cevap: Viessmann kombiyi resetlemek için analog panelli Vitopend modellerinde reset düğmesini 3-5 saniye basılı tutun; dijital ekranlı Vitodens modellerinde ise arıza ekranındaki OK (onay) tuşuna basın. Ekrandaki F2 kodu alev/ateşleme arızasıdır: gaz vanası açık ve su basıncı 1-1,5 bar ise tek resetle çoğu zaman düzelir; tekrar ederse ateşleme veya iyonizasyon elektrodu arızalı olabilir ve servis gerekir. Viessmann kombiler (özellikle Vitopend ve Vitodens serileri), bir arıza algıladığında hem cihazı hem de kullanıcıyı korumak için kendini güvenlik kilidine alır ve ekranda bir uyarı sembolü ya da hata kodu (örneğin F2) gösterir. Geçici nedenlerle oluşan birçok arıza, kombinin doğru biçimde resetlenmesiyle (sıfırlanmasıyla) ortadan kalkar. Viessmann kullanıcılarının en sık karşılaştığı durumlardan biri ekranda görünen F2 kodudur; bu genellikle alev/gaz beslemesiyle ilgili bir arızaya işaret eder. Bu rehberde Viessmann kombinizi analog panelli modellerde reset düğmesiyle, dijital ekranlı Vitodens modellerinde ise OK (onay) tuşuyla nasıl resetleyeceğinizi, reset öncesi hangi kontrolleri yapmanız gerektiğini, F2 başta olmak üzere en sık görülen kodların ve panel sembollerinin ne anlama geldiğini, su basıncını nasıl ayarlayacağınızı ve hatanın tekrar etmesi durumunda izlenecek yolu adım adım açıklıyoruz. Reset, ekrandaki kodu sildiği için sıfırlamadan önce kodu mutlaka not alın; tekrar ederse servise iletmeniz arızanın hızlı bulunmasını sağlar. Diğer markalar için bosch kombi resetleme, eca kombi resetleme ve buderus kombi resetleme rehberlerimize de bakabilirsiniz.",
     sections: [
       {
         heading: "Resetlemeden Önce Kontrol Edin",
+        callout: {
+          variant: "warning",
+          title: "Bu adımda zorlanıyorsanız",
+          body:
+            "F2 veya F4 gibi kodlar resetten sonra tekrar ediyorsa sorun kalıcıdır ve cihazı zorlamak arızayı büyütebilir. Bu durumda profesyonel kombi servis hizmetimizden destek alabilirsiniz; arıza yerinde tespit edilip çözülür.",
+        },
         paragraphs: [
           "Reset, hata hafızasını temizler; fakat arızanın kaynağı hâlâ duruyorsa kod kısa sürede geri gelir. Bu yüzden sıfırlamadan önce birkaç temel kontrol yapmak hem zaman kazandırır hem de cihazı gereksiz yere yormaktan korur. Aşağıdaki kontroller, servise ihtiyaç duymadan çözülebilecek arızaların büyük kısmını kapsar.",
         ],
@@ -12093,14 +12238,14 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "demirdokum-kombi-resetleme",
     title: "Demirdöküm Kombi Resetleme: Modele Göre (Kalisto, Neva, Vinto, Aden) Sıfırlama ve Arıza Kodları",
-    seoTitle: "Demirdöküm Kombi Resetleme & Arıza Kodları",
+    seoTitle: "Demirdöküm Kombi Nasıl Resetlenir? Adım Adım",
     keyword: "demirdöküm kombi resetleme",
     volume: 1300,
     kdi: 27,
     category: "Isıtma & Kombi",
     readMin: 13,
     published: "2026-06-18",
-    updated: "2026-07-13",
+    updated: "2026-10-01",
     excerpt:
       "Demirdöküm kombinizde hata mı var? Kalisto, Neva, Vinto ve Aden modellerine göre reset düğmesiyle ve düğme olmayan modellerde elektrik kesip-açarak sıfırlama adımları, ateşleme (E03) ve düşük su basıncı hatalarının çözümü, tüm Demirdöküm arıza kodları tablosu, su basıncı ayarı, termostat resetleme ve tekrar eden arızalarda ne yapmanız gerektiği — hepsi tek rehberde.",
     metaDescription:
@@ -12113,7 +12258,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         "Çoğu geçici Demirdöküm arızası, cihazı doğru biçimde resetleyip kodu silmekle düzelir; tekrar eden ateşleme veya düşük basınç uyarıları ise kalıcı arızaya işaret eder.",
     },
     intro:
-      "Demirdöküm kombiler, bir arıza algıladığında hem cihazı hem de kullanıcıyı korumak için kendini güvenlik kilidine alır ve ekranda bir uyarı ya da hata kodu gösterir. Geçici nedenlerle oluşan birçok arıza, kombinin doğru biçimde resetlenmesiyle (sıfırlanmasıyla) ortadan kalkar. Ancak Demirdöküm'ün Kalisto, Neva, Vinto ve Aden gibi serilerinde reset yöntemi modelden modele değişir; bir modelde ayrı reset tuşu varken diğerinde alev simgeli düğme ya da ekran menüsü kullanılır. Kullanıcıların en sık karşılaştığı iki durum, ateşleme (yanma) arızası ile düşük su basıncı uyarısıdır. Bu rehberde önce “kombiye reset ne demek ve neden gerekir” sorusunu kısaca yanıtlıyor, ardından modelinize göre Demirdöküm kombinizi güvenle nasıl resetleyeceğinizi, reset öncesi hangi kontrolleri yapmanız gerektiğini, ateşleme ve düşük basınç hatalarının nasıl giderileceğini, tüm arıza kodlarını, su basıncını nasıl ayarlayacağınızı ve hatanın tekrar etmesi durumunda izlenecek yolu adım adım açıklıyoruz. Reset, ekrandaki kodu sildiği için sıfırlamadan önce kodu mutlaka not alın; tekrar ederse servise iletmeniz arızanın hızlı bulunmasını sağlar. Diğer markalar için buderus kombi resetleme, bosch kombi resetleme ve viessmann kombi resetleme rehberlerimize de bakabilirsiniz.",
+      "Kısa cevap: Demirdöküm kombiyi resetlemek için modelinize göre reset tuşuna (veya alev simgeli düğmeye) 3-5 saniye basılı tutun; tuşu olmayan modellerde kombiyi kapatıp elektriğini 30-40 saniye kesin ve yeniden açın. Resetten önce su basıncının 1-1,5 bar olduğunu ve gaz vanasının açık olduğunu kontrol edin; ekrandaki kodu not alın. Demirdöküm kombiler, bir arıza algıladığında hem cihazı hem de kullanıcıyı korumak için kendini güvenlik kilidine alır ve ekranda bir uyarı ya da hata kodu gösterir. Geçici nedenlerle oluşan birçok arıza, kombinin doğru biçimde resetlenmesiyle (sıfırlanmasıyla) ortadan kalkar. Ancak Demirdöküm'ün Kalisto, Neva, Vinto ve Aden gibi serilerinde reset yöntemi modelden modele değişir; bir modelde ayrı reset tuşu varken diğerinde alev simgeli düğme ya da ekran menüsü kullanılır. Kullanıcıların en sık karşılaştığı iki durum, ateşleme (yanma) arızası ile düşük su basıncı uyarısıdır. Bu rehberde önce “kombiye reset ne demek ve neden gerekir” sorusunu kısaca yanıtlıyor, ardından modelinize göre Demirdöküm kombinizi güvenle nasıl resetleyeceğinizi, reset öncesi hangi kontrolleri yapmanız gerektiğini, ateşleme ve düşük basınç hatalarının nasıl giderileceğini, tüm arıza kodlarını, su basıncını nasıl ayarlayacağınızı ve hatanın tekrar etmesi durumunda izlenecek yolu adım adım açıklıyoruz. Reset, ekrandaki kodu sildiği için sıfırlamadan önce kodu mutlaka not alın; tekrar ederse servise iletmeniz arızanın hızlı bulunmasını sağlar. Diğer markalar için buderus kombi resetleme, bosch kombi resetleme ve viessmann kombi resetleme rehberlerimize de bakabilirsiniz.",
     sections: [
       {
         heading: "Kombiye Reset Ne Demek ve Ne Zaman Gerekir?",
@@ -12299,7 +12444,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
     category: "Isıtma & Kombi",
     readMin: 9,
     published: "2026-06-18",
-    updated: "2026-06-18",
+    updated: "2026-10-03",
     excerpt:
       "Kombiniz ısıtma yapıyor, petekler ısınıyor ama musluktan sıcak su gelmiyor mu? Bu, kombinin sıcak kullanım suyu (DHW) tarafındaki bir sorunu işaret eder: plakalı eşanjörün kireçlenmesi, akış (debi) sensörü arızası, üç yollu vana sıkışması veya düşük su debisi. Belirtilere göre nedenleri, evde yapabileceğiniz kontrolleri ve kalıcı çözümü adım adım anlatıyoruz.",
     metaDescription:
@@ -12394,125 +12539,6 @@ const RAW_BLOG_POSTS: BlogPost[] = [
     ],
   },
   {
-    slug: "dogalgaz-kacagi-nasil-anlasilir",
-    title: "Doğalgaz Kaçağı Nasıl Anlaşılır? Belirtileri ve Yapılması Gerekenler",
-    seoTitle: "Doğalgaz Kaçağı Nasıl Anlaşılır",
-    keyword: "doğalgaz kaçağı nasıl anlaşılır",
-    volume: 1300,
-    kdi: 19,
-    category: "Doğalgaz Tesisatı",
-    readMin: 9,
-    published: "2026-06-18",
-    updated: "2026-06-18",
-    excerpt:
-      "Evde doğalgaz kaçağı olduğunu nasıl anlarsınız? Çürük yumurta kokusu, tıslama sesi, soluk/sarı alev ve baş dönmesi gibi belirtiler, kaçaktan şüphelenince adım adım ne yapmanız (ve asla yapmamanız) gerektiği, acil ihbar hattı ve kalıcı çözüm için profesyonel tesisat kontrolü — güvenliğiniz için bilmeniz gereken her şey tek rehberde.",
-    metaDescription:
-      "Doğalgaz kaçağı nasıl anlaşılır? Koku, tıslama sesi, sarı alev gibi belirtiler ve kaçakta yapılması/yapılmaması gerekenler. Acil ihbar 187. Güvenli adımlar. Servis: 0533 896 05 03.",
-    serviceSlug: "dogalgaz-tesisati",
-    intro:
-      "Doğalgaz, doğru kullanıldığında güvenli bir enerji kaynağıdır; ancak bir kaçak söz konusu olduğunda hızlı ve doğru davranmak hayati önem taşır. Doğalgaz aslında kokusuzdur; fark edilebilmesi için içine, çürük yumurtayı andıran keskin bir koku veren merkaptan adlı bir madde eklenir. Bu yüzden doğalgaz kaçağının ilk ve en güvenilir işareti çoğu zaman bu kokudur. Ancak kaçak her zaman güçlü bir kokuyla kendini belli etmez; tıslama sesi, alevin renginin değişmesi, evdeki bitkilerin solması ya da ailede ortaya çıkan baş ağrısı ve baş dönmesi gibi belirtiler de kaçağa işaret edebilir. Bu rehberde doğalgaz kaçağını gösteren tüm belirtileri, kaçaktan şüphelendiğinizde adım adım ne yapmanız (ve kesinlikle ne yapmamanız) gerektiğini, acil durumda kimi arayacağınızı ve kaçağın kalıcı olarak nasıl giderildiğini açıklıyoruz. Unutmayın: en küçük şüphede bile temkinli davranmak, sonradan pişman olmaktan iyidir.",
-    sections: [
-      {
-        heading: "Doğalgaz Kaçağının Belirtileri",
-        paragraphs: [
-          "Erken uyarı için evinize doğalgaz dedektörü kurmanız büyük güvenlik sağlar; ayrıca yeni taşınanlar için doğalgaz aboneliği nasıl yapılır adımlarını da ayrı rehberimizde bulabilirsiniz.",
-          "Doğalgaz kaçağı genellikle birden fazla belirtiyle kendini gösterir. Aşağıdaki işaretlerden birini bile fark ederseniz ciddiye alın; özellikle koku ve ses bir aradaysa vakit kaybetmeyin.",
-        ],
-        bullets: [
-          "Koku: Çürük yumurta ya da keskin sarımsağı andıran koku (gaza eklenen merkaptan kokusu) — en güvenilir belirti",
-          "Ses: Boru, vana veya cihaz bağlantısından gelen tıslama / fışırtı sesi",
-          "Alev rengi: Kombi veya ocakta normalde mavi olan alevin sarı/turuncu yanması ya da sürekli sönmesi",
-          "Fiziksel belirtiler: Baş ağrısı, baş dönmesi, mide bulantısı, halsizlik, nefes darlığı (özellikle birden fazla kişide aynı anda)",
-          "Çevresel işaretler: Ev bitkilerinin solması, pencerelerde aşırı buğulanma, sayaç durmadığı hâlde tüketimin artması",
-          "Görünür işaret: Toprak altı hatlarda zeminden kabarcık çıkışı veya kuruyan/sararan bitki örtüsü (bahçeli evlerde)",
-        ],
-      },
-      {
-        heading: "Kaçaktan Şüphelenince Yapılması Gerekenler",
-        paragraphs: [
-          "Doğalgaz kaçağından şüphelendiğinizde panik yapmadan, sırasıyla şu adımları uygulayın. Amaç, ortamdaki gaz birikimini azaltmak ve kıvılcım oluşturabilecek her şeyden kaçınmaktır.",
-        ],
-        bullets: [
-          "Açık alevi (ocak, çakmak, sigara) hemen söndürün",
-          "Kapı ve pencereleri açarak ortamı bolca havalandırın",
-          "Ana gaz vanasını (sayaç veya kombi girişindeki vana) kapatın",
-          "Tüm aile bireylerini ve evcil hayvanları dışarı çıkarın",
-          "Telefonunuzu evin dışına çıktıktan sonra kullanarak acil hattı arayın",
-          "Komşularınızı uyarın; ortak bir tesisat sorunu olabilir",
-        ],
-      },
-      {
-        heading: "Kesinlikle Yapılmaması Gerekenler",
-        paragraphs: [
-          "Doğalgaz kaçağında en büyük tehlike, küçük bir kıvılcımın bile birikmiş gazı tutuşturmasıdır. Bu yüzden aşağıdakiler hayati önemde yasaklardır:",
-        ],
-        bullets: [
-          "Elektrik düğmelerine (açma/kapama) dokunmayın — açmak da kapatmak da kıvılcım çıkarır",
-          "Işıkları, davlumbazı, aspiratörü veya herhangi bir elektrikli cihazı çalıştırmayın",
-          "Evin içinde telefon veya kapı zili kullanmayın",
-          "Çakmak, kibrit yakmayın; sigara içmeyin",
-          "Fiş takıp çıkarmayın, priz kullanmayın",
-          "Asansör kullanmayın; merdivenleri tercih edin",
-        ],
-      },
-      {
-        heading: "Acil Durumda Kimi Aramalısınız?",
-        paragraphs: [
-          "Ortamı havalandırıp ana vanayı kapattıktan ve evden çıktıktan sonra, doğalgaz acil ihbar hattını arayın. Türkiye genelinde doğalgaz arıza ve kaçak ihbarları için 187 numaralı ücretsiz hat (Doğalgaz Acil) hizmet verir; bölgenizdeki dağıtım şirketinin (örneğin İGDAŞ) acil hattını da arayabilirsiniz.",
-          "İhbar ekipleri gelene kadar binaya girmeyin ve kimsenin girmesine izin vermeyin. Acil ekip, gazı güvenli hâle getirip kaçağın kaynağını belirler. Ancak bu ekiplerin görevi acil güvenliği sağlamaktır; iç tesisattaki arızanın kalıcı onarımı için yetkili bir doğalgaz tesisat ekibiyle çalışmanız gerekir.",
-        ],
-        bullets: [
-          "187 — Doğalgaz Acil (ücretsiz, ulusal)",
-          "Bölgenizdeki dağıtım şirketinin acil ihbar hattı (örn. İGDAŞ)",
-          "Çıkıştan sonra, evin dışından arayın",
-        ],
-      },
-      {
-        heading: "Doğalgaz Kaçağının Nedenleri",
-        paragraphs: [
-          "Kaçağın kaynağını bilmek, hem önlem almanıza hem de doğru ekibi çağırmanıza yardımcı olur. En sık görülen nedenler şunlardır:",
-        ],
-        bullets: [
-          "Esnek hortum (kombi/ocak bağlantı hortumu) eskimesi, çatlaması veya gevşemesi",
-          "Vana ve rakor (bağlantı) noktalarının zamanla gevşemesi",
-          "Hatalı veya kaçak (ruhsatsız) yapılmış iç tesisat",
-          "Ocak veya kombinin yanlış montajı, contaların yıpranması",
-          "Boru hattında korozyon (paslanma) veya darbe sonucu hasar",
-          "Pilot alevi sönen eski cihazlarda gazın kesilmeden akması",
-        ],
-      },
-      {
-        heading: "Kalıcı Çözüm: Profesyonel Tesisat Kontrolü",
-        paragraphs: [
-          "Acil ekip gazı güvenli hâle getirdikten sonra, kaçağın gerçekte nereden kaynaklandığının bulunması ve standartlara uygun biçimde onarılması gerekir. Gözle görülmeyen bağlantı kaçakları, profesyonel ekipler tarafından köpük testi ve gaz dedektörüyle noktasal olarak tespit edilir. Eskiyen hortum ve contaların değişimi, gevşeyen rakorların sızdırmazlık standardına göre sıkılması ve gerekiyorsa tesisatın yenilenmesi, ancak yetkili bir doğalgaz tesisat ekibiyle güvenle yapılır.",
-          "Düzenli bakım, kaçak riskini en baştan azaltır: esnek hortumların son kullanma tarihine dikkat etmek, yıllık kombi bakımı yaptırmak ve tesisatı yetkili ekibe periyodik kontrol ettirmek en etkili korumadır. Ekibimiz doğalgaz iç tesisat kontrolü, kaçak tespiti ve onarımını ilgili güvenlik standartlarına uygun şekilde gerçekleştirir.",
-        ],
-      },
-    ],
-    faq: [
-      {
-        q: "Doğalgaz kaçağı en kolay nasıl anlaşılır?",
-        a: "En güvenilir belirti kokudur: doğalgaza eklenen merkaptan, çürük yumurta veya keskin sarımsağı andıran bir koku verir. Buna ek olarak bağlantılardan gelen tıslama sesi, ocak/kombide alevin sarı yanması ve ailede aynı anda görülen baş dönmesi de kaçağa işaret eder.",
-      },
-      {
-        q: "Doğalgaz kaçağında ilk ne yapmalıyım?",
-        a: "Açık alevi söndürün, kapı ve pencereleri açıp havalandırın, ana gaz vanasını kapatın ve herkesi dışarı çıkarın. Elektrik düğmelerine dokunmayın, hiçbir elektrikli cihazı çalıştırmayın ve telefonu ancak evden çıktıktan sonra kullanın. Dışarıdan 187 Doğalgaz Acil hattını arayın.",
-      },
-      {
-        q: "Doğalgaz kaçağında neden elektrik düğmesine dokunulmaz?",
-        a: "Elektrik düğmesini açmak veya kapatmak küçük bir kıvılcım oluşturur. Ortamda birikmiş gaz varsa bu kıvılcım gazı tutuşturup patlamaya yol açabilir. Aynı nedenle priz, çakmak, kapı zili ve elektrikli cihazlar da kullanılmamalıdır.",
-      },
-      {
-        q: "Doğalgaz acil ihbar hattı kaç?",
-        a: "Türkiye genelinde doğalgaz arıza ve kaçak ihbarları için 187 numaralı ücretsiz Doğalgaz Acil hattı hizmet verir. Ayrıca bölgenizdeki dağıtım şirketinin (örneğin İGDAŞ) acil hattını da arayabilirsiniz. Aramayı mutlaka evin dışından yapın.",
-      },
-      {
-        q: "Doğalgaz kaçağı kalıcı olarak nasıl giderilir?",
-        a: "Acil ekip gazı güvenli hâle getirir; ancak kaçağın kaynağının bulunup standartlara uygun onarılması yetkili bir doğalgaz tesisat ekibinin işidir. Bağlantı kaçakları köpük testi ve gaz dedektörüyle tespit edilir; eskiyen hortum/conta değişimi ve rakor sıkımıyla kalıcı çözüm sağlanır.",
-      },
-    ],
-  },
-  {
     slug: "giderden-gelen-lagim-kokusu-nasil-giderilir",
     title: "Giderden Gelen Lağım Kokusu Nasıl Giderilir? Kalıcı Çözüm",
     seoTitle: "Giderden Lağım Kokusu Çözümü",
@@ -12522,14 +12548,14 @@ const RAW_BLOG_POSTS: BlogPost[] = [
     category: "Tıkanıklık & Gider",
     readMin: 10,
     published: "2026-06-18",
-    updated: "2026-06-18",
+    updated: "2026-10-01",
     excerpt:
       "Lavabodan, banyo giderinden veya klozetten gelen lağım kokusunun gerçek nedenleri ve kalıcı çözümü. Kuruyan sifon, çürük conta, tıkanıklık ve havalandırma sorununu ayırt etme, evde uygulanabilir adımlar ve koku sürekli geri geliyorsa ne yapılması gerektiği — tek rehberde.",
     metaDescription:
       "Giderden gelen lağım kokusu nasıl giderilir? Kuru sifon, çürük conta, tıkanıklık ve baca sorununu ayırın, kalıcı çözümü uygulayın. Servis: 0533 896 05 03.",
     serviceSlug: "kanal-goruntuleme",
     intro:
-      "Evde aniden beliren keskin lağım kokusu, çoğu insanın temizlik eksikliği sandığı ama aslında neredeyse her zaman tesisatla ilgili bir sorundur. Kokuya parfüm, çamaşır suyu ya da koku gidericilerle saldırmak yalnızca birkaç saat kazandırır; çünkü kokunun çıktığı yer giderin kendisidir. Bu rehberde lavabodan, banyo süzgecinden, klozetten veya mutfak giderinden gelen lağım kokusunun gerçek nedenlerini tek tek açıklıyor; hangi durumda kendiniz çözebileceğinizi, hangi durumda işin tesisat seviyesine geçtiğini net biçimde gösteriyoruz. Amacımız sadece kokuyu bastırmak değil — kaynağını bulup kalıcı olarak ortadan kaldırmaktır. İşin mantığını anladığınızda, hangi gidere müdahale edeceğinizi ve ne zaman uzman desteğine ihtiyaç duyacağınızı kolayca ayırt edebilirsiniz.",
+      "Kısa cevap: Giderden gelen lağım kokusunun en sık dört nedeni kuruyan sifon, çürümüş conta, boru içi birikinti (tıkanıklık) ve havalandırma (baca) sorunudur. Önce kokan gidere bol su döküp sifonu doldurun; koku geri geliyorsa conta ve tıkanıklık kontrolü, hâlâ sürüyorsa kanal görüntüleme ile kaynağın bulunması gerekir. Evde aniden beliren keskin lağım kokusu, çoğu insanın temizlik eksikliği sandığı ama aslında neredeyse her zaman tesisatla ilgili bir sorundur. Kokuya parfüm, çamaşır suyu ya da koku gidericilerle saldırmak yalnızca birkaç saat kazandırır; çünkü kokunun çıktığı yer giderin kendisidir. Bu rehberde lavabodan, banyo süzgecinden, klozetten veya mutfak giderinden gelen lağım kokusunun gerçek nedenlerini tek tek açıklıyor; hangi durumda kendiniz çözebileceğinizi, hangi durumda işin tesisat seviyesine geçtiğini net biçimde gösteriyoruz. Amacımız sadece kokuyu bastırmak değil — kaynağını bulup kalıcı olarak ortadan kaldırmaktır. İşin mantığını anladığınızda, hangi gidere müdahale edeceğinizi ve ne zaman uzman desteğine ihtiyaç duyacağınızı kolayca ayırt edebilirsiniz.",
     sections: [
       {
         heading: "Lağım Kokusu Nereden Gelir? Önce Mantığı Anlayın",
@@ -12576,7 +12602,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         heading: "3) Tıkanıklık ve Boru İçi Çamur: Yavaş Akış + Koku",
         paragraphs: [
           "Gider yavaş akıyor, bazen 'glu glu' ses çıkarıyor ve bununla birlikte koku da geliyorsa, sorun büyük olasılıkla boru içinde biriken yağ, saç, sabun ve organik atık tabakasıdır. Bu birikinti hem suyun akışını yavaşlatır hem de çürüyerek koku üretir. Yüzeydeki kokuyu temizlemek burada işe yaramaz; kokunun kaynağı boru cidarındaki çamurdur.",
-          "Hafif birikintilerde sıcak su + karbonat/sirke kombinasyonu ve mekanik pompa (lastik pompa) ile yağ tabakası gevşetilebilir. Ancak ana borulara yakın, tekrarlayan ya da birden fazla gideri etkileyen tıkanıklıklarda evsel yöntemler yüzeyseldir. Bu durumda spiral makinesi veya basınçlı su (hidrojet) ile borunun cidarına kadar temizlenmesi gerekir; bu hem akışı açar hem koku kaynağını kökten yok eder.",
+          "Hafif birikintilerde sıcak su + karbonat/sirke kombinasyonu ve mekanik pompa (lastik pompa) ile yağ tabakası gevşetilebilir. Ancak ana borulara yakın, tekrarlayan ya da birden fazla gideri etkileyen tıkanıklıklarda evsel yöntemler yüzeyseldir. Bu durumda spiral makinesi veya basınçlı su (hidrojet) ile borunun cidarına kadar temizlenmesi gerekir; bu hem akışı açar hem koku kaynağını kökten yok eder. Koku ve tıkanıklık tekrar ediyorsa, sorunun tam yerini ve nedenini görmek için kanal görüntüleme (kamera ile gider kontrolü) en hızlı teşhis yoludur.",
         ],
         bullets: [
           "Aşındırıcı asit bazlı açıcıları sık kullanmayın; borulara ve contalara zarar verir",
@@ -12657,21 +12683,21 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "klozet-su-kaciriyor-nasil-tamir-edilir",
     title: "Klozet Su Kaçırıyor: Nedenleri ve Adım Adım Tamiri",
-    seoTitle: "Klozet Su Kaçırıyor Tamiri",
+    seoTitle: "Klozet Su Kaçırıyor mu? Kaçağın Yerini Bulma ve Adım Adım Tamiri",
     keyword: "klozet su kaçırıyor",
     volume: 1600,
     kdi: 32,
     category: "Tıkanıklık & Gider",
     readMin: 10,
     published: "2026-06-18",
-    updated: "2026-06-18",
+    updated: "2026-10-03",
     excerpt:
       "Klozet veya gömme rezervuar sürekli su akıtıyorsa nedeni genellikle şamandıra, iç takım contası ya da taban contasıdır. Hangi arızanın hangi belirtiyi verdiğini, şamandıra ayarını ve değişimini, gömme rezervuar müdahalesini ve alttan su kaçıran klozette ne yapılması gerektiğini adım adım anlatıyoruz.",
     metaDescription:
       "Klozet su kaçırıyorsa nedeni şamandıra, iç takım veya taban contasıdır. Hazneden ve alttan su kaçırma arızalarının adım adım tamiri. Servis: 0533 896 05 03.",
     serviceSlug: "su-kacagi-tespiti",
     intro:
-      "Klozetin sürekli su akıtması, çoğu evde fark edilmeden büyüyen ama hem su faturasını şişiren hem de zamanla zemine zarar veren sinsi bir arızadır. İyi haber şu: klozet kaçaklarının büyük bölümü, arızanın kaynağını doğru teşhis ettiğinizde basit parça değişimleriyle çözülebilir. Sorun, çoğu kullanıcının kaçağın 'nereden' geldiğini ayırt edememesi ve gelişigüzel müdahale ederek durumu kötüleştirmesidir. Bu rehberde klozet su kaçaklarını iki ana gruba ayırıyoruz: hazneden klozet içine doğru sürekli akan su (şamandıra/iç takım kaynaklı) ve klozetin altından zemine doğru sızan su (taban contası/bağlantı kaynaklı). Her bir arızanın belirtisini, evde uygulayabileceğiniz çözümü ve hangi noktadan sonra işin bir tesisatçıya bırakılması gerektiğini net biçimde açıklıyoruz. Klasik asma rezervuardan modern gömme rezervuara kadar tüm sistemleri kapsıyoruz.",
+      "Kısa cevap: Klozet su kaçırıyorsa önce yerini bulun — hazneden çanağa sürekli ince su akıyorsa şamandıra veya iç takım contası, klozetin altından zemine sızıyorsa taban contası arızalıdır. Gıda boyası testiyle ayırt edin: rezervuara boya döküp sifona basmadan bekleyin; renk çanakta beliriyorsa iç takım kaçırıyor. Şamandıra ayarıyla su seviyesini taşma borusunun 2-3 cm altına alın; düzelmezse şamandıra veya iç takım değişir. Alttan sızmada klozet sökülüp taban contası yenilenir. Klozetin sürekli su akıtması, çoğu evde fark edilmeden büyüyen ama hem su faturasını şişiren hem de zamanla zemine zarar veren sinsi bir arızadır. İyi haber şu: klozet kaçaklarının büyük bölümü, arızanın kaynağını doğru teşhis ettiğinizde basit parça değişimleriyle çözülebilir. Sorun, çoğu kullanıcının kaçağın 'nereden' geldiğini ayırt edememesi ve gelişigüzel müdahale ederek durumu kötüleştirmesidir. Bu rehberde klozet su kaçaklarını iki ana gruba ayırıyoruz: hazneden klozet içine doğru sürekli akan su (şamandıra/iç takım kaynaklı) ve klozetin altından zemine doğru sızan su (taban contası/bağlantı kaynaklı). Her bir arızanın belirtisini, evde uygulayabileceğiniz çözümü ve hangi noktadan sonra işin bir tesisatçıya bırakılması gerektiğini net biçimde açıklıyoruz. Klasik asma rezervuardan modern gömme rezervuara kadar tüm sistemleri kapsıyoruz.",
     sections: [
       {
         heading: "Önce Kaçağın Yerini Belirleyin: Hazneden mi, Alttan mı?",
@@ -13313,19 +13339,20 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "musluk-batarya-tamiri-baslik-kartus-degisimi",
+    inlineLinks: [{ href: "/hizmet/musluk-batarya-degisimi", anchor: "musluk ve batarya değişimi hizmetimiz" }],
     title: "Musluk ve Batarya Tamiri: Başlık ve Kartuş Değişimi",
-    seoTitle: "Musluk Tamiri: Aç-Kapa Başlık & Kartuş Değişimi",
+    seoTitle: "Musluk Damlatıyor: Başlık ve Kartuş Nasıl Değişir?",
     keyword: "banyo bataryası tamiri",
     volume: 1600,
     kdi: 29,
     category: "Su Tesisatı",
     readMin: 13,
     published: "2026-06-18",
-    updated: "2026-06-22",
+    updated: "2026-10-03",
     excerpt:
       "Su akıtan, sertleşen ya da gevşeyen musluk ve bataryaların çoğu, ucuz bir başlık, kartuş veya conta değişimiyle dakikalar içinde tamir edilir. Aç-kapa ve tek kollu bataryalarda başlık/salmastra ile kartuş değişimini, perlatör ve taharet musluğu contası tamirini, sökülmeyen muslukların açılmasını ve hangi durumda tüm musluğu değiştirmek gerektiğini adım adım, armatürü gereksiz yere sökmeden anlatıyoruz.",
     metaDescription:
-      "Musluk ve batarya tamiri nasıl yapılır? Aç-kapa başlık/conta, tek kollu kartuş değişimi, sökülmeyen musluk ve perlatör temizliği adım adım. İstanbul servis: 0533 896 05 03.",
+      "Musluk damlatıyorsa sorun çoğu zaman başlık veya kartuştadır. Doğru parçayı seçme, sıkışan musluğu sökme ve 5 adımda batarya tamiri — resimli.",
     serviceSlug: "musluk-batarya-degisimi",
     featuredImage: {
       src: muslukTamiriRealFeatured,
@@ -13336,6 +13363,27 @@ const RAW_BLOG_POSTS: BlogPost[] = [
     intro:
       "Su akıtan bir musluk, zor dönen bir kol ya da kapalıyken bile damlayan bir batarya; çoğu evde yaşanan, ama gerçekte büyük bir tamir gerektirmeyen sorunlardır. Bu arızaların neredeyse tamamı pahalı bir armatür değişimiyle değil, içindeki birkaç liralık bir parçanın — aç-kapa musluklarda başlık (salmastra), tek kollu bataryalarda kartuş, çıkışta perlatör veya bağlantıda conta — yenilenmesiyle çözülür. Doğru parçayı tanıyıp adımları sırayla uyguladığınızda, çoğu musluk ve batarya tamirini hiçbir özel alet ya da usta gerektirmeden kendiniz yapabilirsiniz. Bu rehberde önce armatür tipini doğru teşhis etmeyi, ardından aç-kapa başlığı, tek kollu kartuşu, perlatörü ve taharet musluğu contasını adım adım değiştirmeyi; en sonunda da hangi durumlarda (özellikle duvara gömülü ankastre bataryalarda) profesyonel desteğin şart olduğunu açıklıyoruz.",
     sections: [
+      {
+        heading: "Bunu Kendiniz Yapabilir misiniz?",
+        paragraphs: ["Başlamadan önce işin zorluğunu, gereken süreyi ve riski görün; kendinize uygun olup olmadığına karar verin. Değişim gerekirse musluk ve batarya değişimi hizmetimiz devreye girer; keşif ücretsizdir."],
+        table: {
+          headers: ["Ölçüt", "Değerlendirme"],
+          rows: [["Zorluk", "Orta (3/5)"], ["Tahmini süre", "30–60 dakika"], ["Gerekli aletler", "Anahtar seti, yedek kartuş"], ["Ana risk", "Yanlış kartuş seçimi veya gevşek bağlantı kaçak yapar."]],
+        },
+      },
+      {
+        heading: "Aç-Kapa Musluk: Başlık (Salmastra) Değişimi",
+        paragraphs: [
+          "Aç-kapa bir musluk kapalıyken damlıyorsa ya da tam kapanmıyorsa neden, içindeki başlığın conta/salmastrasının aşınmasıdır. Önce musluğun üstündeki kapakçığı (genellikle kırmızı/mavi renk göstergesi) ince bir tornavidayla kaldırın; altındaki vidayı sökerek kolu/volanı çıkarın. Böylece pirinç başlık (musluk içi) görünür hâle gelir.",
+          "Başlığı uygun boy bir anahtarla (genellikle 17-19 mm) saat yönünün tersine çevirerek sökün. Eski başlığın ucundaki lastik contayı değiştirin ya da en sağlıklısı, başlığın tamamını aynı ölçüde yenisiyle değiştirin (başlıklar çok ucuzdur). Yeni başlığı elle çaprazlamadan yerine oturtup anahtarla makul sıkılıkta sıkın, kolu geri takın. Suyu açıp damlamanın bittiğini kontrol edin. Aşırı sıkmak başlığı ve yuvayı zorlar; 'sızdırmayacak kadar' yeterlidir.",
+        ],
+        bullets: [
+          "Üstteki renk göstergesini kaldırıp altındaki vidayı sökün",
+          "Volanı çıkarıp pirinç başlığı anahtarla saat tersine sökün",
+          "Conta yerine tüm başlığı aynı ölçüde yenisiyle değiştirin",
+          "Yeni başlığı çaprazlamadan, aşırı sıkmadan oturtun",
+        ],
+      },
       {
         heading: "Başlamadan Önce: Su Girişini Kapatın",
         paragraphs: [
@@ -13368,22 +13416,26 @@ const RAW_BLOG_POSTS: BlogPost[] = [
           caption:
             "Solda aç-kapa musluk: su damlaması pirinç başlıktaki salmastradan (lastik pul) olur. Sağda tek kollu batarya: damlama seramik kartuştan kaynaklanır. Doğru teşhis = doğru yedek parça.",
         },
-      },
-      {
-        heading: "Aç-Kapa Musluk: Başlık (Salmastra) Değişimi",
-        paragraphs: [
-          "Aç-kapa bir musluk kapalıyken damlıyorsa ya da tam kapanmıyorsa neden, içindeki başlığın conta/salmastrasının aşınmasıdır. Önce musluğun üstündeki kapakçığı (genellikle kırmızı/mavi renk göstergesi) ince bir tornavidayla kaldırın; altındaki vidayı sökerek kolu/volanı çıkarın. Böylece pirinç başlık (musluk içi) görünür hâle gelir.",
-          "Başlığı uygun boy bir anahtarla (genellikle 17-19 mm) saat yönünün tersine çevirerek sökün. Eski başlığın ucundaki lastik contayı değiştirin ya da en sağlıklısı, başlığın tamamını aynı ölçüde yenisiyle değiştirin (başlıklar çok ucuzdur). Yeni başlığı elle çaprazlamadan yerine oturtup anahtarla makul sıkılıkta sıkın, kolu geri takın. Suyu açıp damlamanın bittiğini kontrol edin. Aşırı sıkmak başlığı ve yuvayı zorlar; 'sızdırmayacak kadar' yeterlidir.",
-        ],
-        bullets: [
-          "Üstteki renk göstergesini kaldırıp altındaki vidayı sökün",
-          "Volanı çıkarıp pirinç başlığı anahtarla saat tersine sökün",
-          "Conta yerine tüm başlığı aynı ölçüde yenisiyle değiştirin",
-          "Yeni başlığı çaprazlamadan, aşırı sıkmadan oturtun",
-        ],
+        table: {
+          caption: "Salmastra (başlık) mı, kartuş mu? Hızlı karşılaştırma",
+          headers: ["Özellik", "Salmastralı başlık (aç-kapa)", "Seramik kartuş (tek kollu)"],
+          rows: [
+            ["Nasıl açılır?", "Birkaç tur çevrilerek", "Kol çeyrek tur / yukarı-aşağı"],
+            ["Damlatma nedeni", "Lastik pul (salmastra) aşınması", "Seramik disk çizilmesi / kireç"],
+            ["Yedek parça", "Başlık veya salmastra pulu", "Aynı ölçü ve marka kartuş"],
+            ["Ölçü nasıl alınır?", "Diş sayısı ve başlık boyu", "Çap (35/40 mm) ve diş sayısı"],
+            ["Zorluk", "Kolay", "Orta"],
+          ],
+        },
       },
       {
         heading: "Tek Kollu Batarya: Kartuş Değişimi",
+        callout: {
+          variant: "warning",
+          title: "Bu adımda zorlanıyorsanız",
+          body:
+            "Kartuş yuvasına tam oturmazsa veya sıcak-soğuk yönü karışırsa batarya ya damlatmaya devam eder ya da su ters gelir. Eski bataryalarda vida ve rekorlar paslı olabilir; zorlamayın. Profesyonel ekibimizden destek alabilirsiniz.",
+        },
         paragraphs: [
           "Tek kollu bir batarya damlıyor, kolu sertleşmiş, gevşemiş ya da sıcak-soğuğu düzgün ayarlamıyorsa sorun seramik kartuştadır. Kolun yan veya alt tarafındaki gizli vida kapağını (allen/imbus vidası) açın, kolu yukarı doğru çekerek çıkarın. Altındaki kromaj bileziği ve plastik halkayı söktüğünüzde kartuşu tutan büyük somun görünür.",
           "Bu somunu uygun pense/anahtarla sökün ve kartuşu düz biçimde yukarı çekerek çıkarın. Yenisini alırken eskisini yanınızda götürmek çok önemlidir: kartuşlar çap (ör. 35 mm, 40 mm) ve oturma şekli olarak farklıdır, yanlış ölçü uymaz. Yeni kartuşun alt contalarının yuvaya tam oturduğundan ve yön çentiğinin doğru hizalandığından emin olun; somunu sıkın, bileziği ve kolu geri takın. Suyu açıp sızdırmazlığı ve sıcak-soğuk yönünü test edin.",
@@ -13493,6 +13545,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
       },
     ],
     faq: [
+        { q: "Kartuş değişimini ustaya yaptırırsam ne olur?", a: "Usta bataryanıza uygun kartuşu temin eder, contaları kontrol eder ve montajı kaçak testiyle tamamlar. Yanlış kartuş veya zorlanmış montaj bataryayı kullanılamaz hale getirebilir. Keşif ücretsizdir, işlem genellikle 30-60 dakika sürer." },
       {
         q: "Musluk tamiri için ana suyu kapatmam şart mı?",
         a: "Evet. Tamire başlamadan önce mutlaka o armatüre giden suyu kesin: çoğu lavabo/evye altında sıcak ve soğuk için ayrı ara musluklar (köşe vanası) vardır, onları kapatın. Ara musluk yoksa dairenin ana su vanasını kapatın. Ardından musluğu açıp hattaki kalan suyu boşaltın ve kesintiyi doğrulayın.",
@@ -13537,7 +13590,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
     category: "Isıtma & Kombi",
     readMin: 11,
     published: "2026-06-18",
-    updated: "2026-06-18",
+    updated: "2026-10-03",
     excerpt:
       "Kombi çalıştığı, hatta sıcak su verdiği hâlde petekler ısınmıyorsa nedeni tek değildir: yanlış kombi modu, düşük su basıncı, hapsolmuş hava, kapalı petek vanası, çamur/kireç birikintisi ya da sirkülasyon pompası arızası. 'Tek petek mi, hepsi mi' ve 'havasını aldım yine ısınmıyor' durumlarını ayırarak doğru nedeni adım adım buluyoruz.",
     metaDescription:
@@ -14678,7 +14731,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "bulasik-makinesi-su-akitiyor-nedenleri",
     title: "Bulaşık Makinesi Su Akıtıyor: Altından Su Gelmesinin Nedenleri",
-    seoTitle: "Bulaşık Makinesi Su Akıtıyor",
+    seoTitle: "Bulaşık Makinesi Su Akıtıyor mu? Nedenleri ve Adım Adım Çözüm",
     keyword: "bulaşık makinesi su akıtıyor",
     volume: 880,
     kdi: 25,
@@ -14689,7 +14742,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
     excerpt:
       "Bulaşık makinesinin altından su gelmesi her zaman makine arızası değildir; sorun çoğu zaman temiz su hortumu, tahliye hortumu ya da tıkalı gider gibi tesisat tarafındadır. Sızıntının nereden geldiğini (tesisat mı, makine içi mi) ayırt etmeyi, kendi başınıza çözebileceklerinizi ve ne zaman beyaz eşya servisi ya da kırmadan su kaçağı tespiti gerektiğini adım adım anlatıyoruz.",
     metaDescription:
-      "Bulaşık makinesi su akıtıyor, altından su geliyorsa nedeni nedir? Temiz su hortumu, tahliye hortumu, tıkalı gider ve makine içi nedenler. Servis: 0533 896 05 03.",
+      "Bulaşık makinesi su akıtıyor, altından su geliyorsa nedeni nedir? Temiz su hortumu, tahliye hortumu, tıkalı gider ve makine içi nedenler — adım adım çözüm rehberi.",
     serviceSlug: "su-kacagi-tespiti",
     intro:
       "Bulaşık makinesinin altında ya da çevresinde su birikintisi görmek, mutfakta en çok endişe yaratan durumlardan biridir; çünkü ilk akla gelen pahalı bir makine arızasıdır. Oysa gerçek çoğu zaman daha basittir: bulaşık makinesinden gelen suyun büyük bölümü makinenin kendisinden değil, ona bağlı tesisattan — temiz su giriş hortumu, tahliye (atık su) hortumu ya da tıkalı bir gider/sifondan — kaynaklanır. Bu ayrımı yapmak çok önemlidir, çünkü tesisat kaynaklı sızıntılar genellikle bir tesisatçının kısa müdahalesiyle (hortum/rakor/conta değişimi, gider açma) çözülürken; pompa, kapak lastiği ya da hazne gibi makine içi sorunlar beyaz eşya servisini gerektirir. Bu rehberde önce sızıntının nereden geldiğini nasıl ayırt edeceğinizi; ardından temiz su hortumu, tahliye hortumu, tıkalı gider ve makine içi nedenleri tek tek; en sonunda da 'makineyi kuruladım yine zemin/alt kat ıslanıyor' gibi gizli kaçak durumunda ne yapmanız gerektiğini açıklıyoruz.",
@@ -14994,19 +15047,20 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "klozet-ic-takimi-degisimi",
+    inlineLinks: [{ href: "/hizmet/tuvalet-tikanikligi-acma", anchor: "tuvalet tıkanıklığı açma hizmetimiz" }],
     title: "Klozet İç Takımı Değişimi: Şamandıra ve Sifon Nasıl Takılır?",
-    seoTitle: "Klozet İç Takımı: Basmalı Sifon & Şamandıra Değişimi",
+    seoTitle: "Klozet İç Takımı Nasıl Değiştirilir? Şamandıra, Sifon",
     keyword: "klozet iç takımı",
     volume: 9900,
     kdi: 30,
     category: "Tıkanıklık & Gider",
     readMin: 14,
     published: "2026-06-18",
-    updated: "2026-06-29",
+    updated: "2026-10-01",
     excerpt:
       "Rezervuar sürekli su akıtıyor, şamandıra suyu kesmiyor ya da sifon doldurmuyorsa çözüm çoğu zaman iç takımı değiştirmektir. Klozet parçalarını (şamandıra + sifon takımı/boşaltma valfi) tanıyıp, klasik asma ve gömme rezervuarda iç takımın adım adım nasıl sökülüp takıldığını, sifon mekanizması ve şamandıranın nasıl takılıp ayarlandığını, klozet gider borusunun nasıl bağlandığını, hangi parçayı alacağınızı, parça/işçilik fiyat aralıklarını ve marka uyumunu (VitrA, Kale, Geberit, ECA) anlatıyoruz.",
     metaDescription:
-      "Basmalı sifon ve klozet şamandırası nasıl takılır? İç takımı sökme-takma, gömme rezervuar müdahalesi, şamandıra ayarı, parça fiyatları ve marka uyumu (VitrA, Kale, Geberit). Servis: 0533 896 05 03.",
+      "Rezervuar sürekli su mu akıtıyor? Klozet iç takımı, şamandıra ve basmalı sifon nasıl değiştirilir; parça isimleri ve seviye ayarı adım adım resimli.",
     serviceSlug: "su-kacagi-tespiti",
     featuredImage: {
       src: klozetIcTakimiFeatured,
@@ -15016,6 +15070,14 @@ const RAW_BLOG_POSTS: BlogPost[] = [
     intro:
       "Klozet rezervuarının sürekli su akıtması, şamandıranın suyu bir türlü kesmemesi ya da sifona basıldığında haznenin yeniden dolmaması, neredeyse her zaman tek bir nedene dayanır: yıpranmış iç takım. İç takım, rezervuarın içinde çalışan iki ana parçanın ortak adıdır; suyu dolduran ve seviyesini ayarlayan şamandıra (dolum valfi) ile suyu klozete boşaltan sifon mekanizması (boşaltma valfi). Bu parçaların contaları zamanla sertleşir, kireç tutar veya çatlar; sonuçta ya hazne hiç dolmaz ya da dolup boşalmayı durduramaz. İyi haber, iç takım değişiminin temel el aletleriyle evde yapılabilen bir işlem olmasıdır. Bu rehberde klasik asma rezervuardan modern gömme rezervuara kadar tüm sistemlerde iç takımın nasıl söküleceğini, doğru yedek parçanın nasıl seçileceğini, parça ve işçilik için ne kadar bütçe ayırmanız gerektiğini, hangi markada hangi parçanın uyduğunu, şamandıra ile sifonun nasıl takılacağını ve su seviyesinin nasıl ayarlanacağını adım adım anlatıyoruz. Klozet su kaçırıyorsa denenecek en basit tamiri ve hangi noktadan sonra işin bir tesisatçıya bırakılması gerektiğini de net biçimde belirtiyoruz.",
     sections: [
+      {
+        heading: "Bunu Kendiniz Yapabilir misiniz?",
+        paragraphs: ["Başlamadan önce işin zorluğunu, gereken süreyi ve riski görün; kendinize uygun olup olmadığına karar verin. Tıkanıklık şüphesi varsa tuvalet tıkanıklığı açma hizmetimiz devreye girer; keşif ücretsizdir."],
+        table: {
+          headers: ["Ölçüt", "Değerlendirme"],
+          rows: [["Zorluk", "Orta (3/5)"], ["Tahmini süre", "30–45 dakika"], ["Gerekli aletler", "Kurbağacık anahtar"], ["Ana risk", "Yanlış ayar rezervuarın sürekli su kaçırmasına neden olur."]],
+        },
+      },
       {
         heading: "Önce Arızayı Doğru Okuyun: Şamandıra mı, Sifon mu?",
         paragraphs: [
@@ -15096,6 +15158,12 @@ const RAW_BLOG_POSTS: BlogPost[] = [
       },
       {
         heading: "Klasik (Asma/Oturma) Rezervuarda İç Takım Değişimi — Adımları",
+        callout: {
+          variant: "warning",
+          title: "Bu adımda zorlanıyorsanız",
+          body:
+            "Şamandıra veya boşaltma grubu contaları tam oturmazsa rezervuar sessizce su kaçırmaya devam eder ve faturanız yükselir. Parça uyumundan emin olamıyorsanız profesyonel ekibimizden destek alabilirsiniz.",
+        },
         paragraphs: [
           "Tezgâh üstü oturan ya da duvara asılı klasik rezervuarlarda iç takım değişimi en kolay halidir; tüm parçalara kapağı açarak ulaşırsınız.",
         ],
@@ -15143,28 +15211,28 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         ],
       },
       {
-        heading: "Klozet İç Takımı Fiyatları: Parça ve İşçilik Ne Kadar?",
+        heading: "Klozet İç Takımı Maliyetini Ne Belirler? Tek Parça mı, Komple Set mi?",
         paragraphs: [
-          "İç takım değişiminde maliyet iki kalemden oluşur: yedek parça ve (kendiniz yapmıyorsanız) işçilik. Parça fiyatları markaya, tipe (klasik mi gömme mi) ve tek parça mı komple set mi aldığınıza göre değişir. Aşağıdaki tablo, 2026 yılı için İstanbul’da gördüğümüz ortalama aralıkları gösteriyor; fiyatlar bilgilendirme amaçlıdır ve dönemsel olarak değişebilir.",
-          "Pratik bir kural: Sadece şamandıra arızalıysa tek parça almak en ekonomik çözümdür. Ancak parça birkaç yaşındaysa, ikinci bir arıza için tekrar uğraşmamak adına komple iç takım seti almak çoğu zaman daha mantıklıdır; aradaki fiyat farkı küçük, kazandırdığı zaman büyüktür.",
+          "İç takım değişiminde maliyet iki kalemden oluşur: yedek parça ve (kendiniz yapmıyorsanız) işçilik. Parça maliyeti markaya, tipe (klasik mi gömme mi) ve tek parça mı komple set mi aldığınıza göre belirgin şekilde değişir; güncel fiyatı yapı market veya yetkili satıcıdan, rezervuar marka/modeliyle sorarak öğrenmek en doğrusudur.",
+          "Pratik bir kural: Sadece şamandıra arızalıysa tek parça almak en ekonomik çözümdür. Ancak parça birkaç yaşındaysa, ikinci bir arıza için tekrar uğraşmamak adına komple iç takım seti almak çoğu zaman daha mantıklıdır.",
         ],
         table: {
-          caption: "Klozet iç takımı parça ve işçilik fiyat aralıkları (İstanbul, 2026 — bilgilendirme amaçlı)",
-          headers: ["Kalem", "Tip", "Yaklaşık parça aralığı"],
+          caption: "Klozet iç takımı: hangi durumda hangi parça, maliyeti ne etkiler?",
+          headers: ["Kalem", "Tip", "Maliyeti etkileyen"],
           rows: [
-            ["Şamandıra (dolum valfi)", "Klasik (yandan/alttan girişli)", "₺120 – ₺300"],
-            ["Sifon (boşaltma valfi)", "Çekmeli / basmalı", "₺150 – ₺400"],
-            ["Komple iç takım seti", "Klasik asma/oturma rezervuar", "₺300 – ₺650"],
-            ["Gömme rezervuar iç takımı", "Orijinal (VitrA, Kale, Geberit, ECA)", "₺700 – ₺1.800"],
-            ["İşçilik (servis)", "Klasik rezervuar", "Sabit servis bedeli + parça"],
-            ["İşçilik (servis)", "Gömme rezervuar", "Klasiğin üzerinde (revizyon kapağı işçiliği)"],
+            ["Şamandıra (dolum valfi)", "Klasik (yandan/alttan girişli)", "Giriş yönü ve marka uyumu"],
+            ["Sifon (boşaltma valfi)", "Çekmeli / basmalı", "Tek/çift kademeli basma, yükseklik"],
+            ["Komple iç takım seti", "Klasik asma/oturma rezervuar", "Set içeriği ve malzeme kalitesi"],
+            ["Gömme rezervuar iç takımı", "Orijinal (VitrA, Kale, Geberit, ECA)", "Orijinal parça zorunluluğu, model"],
+            ["İşçilik (servis)", "Klasik rezervuar", "Erişim kolaylığı, parça tipi"],
+            ["İşçilik (servis)", "Gömme rezervuar", "Revizyon kapağı işçiliği"],
           ],
         },
         bullets: [
           "Sadece şamandıra arızası → tek parça (en ekonomik)",
-          "Hem dolum hem boşaltma sorunu → komple set (uzun vadede ucuz)",
+          "Hem dolum hem boşaltma sorunu → komple set (uzun vadede daha mantıklı)",
           "Gömme rezervuarda mutlaka orijinal parça → muadil oturmaz, tekrar masraf çıkarır",
-          "İşçilik için net fiyatı, parçanın tipi ve ulaşımı belirlediğinden telefonda alın",
+          "İşçilik için net bilgi, parçanın tipi ve erişim durumuna göre telefonda verilir",
         ],
       },
       {
@@ -15215,6 +15283,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
       },
     ],
     faq: [
+        { q: "İç takım değişimini ustaya yaptırırsam avantajım ne olur?", a: "Usta rezervuarınıza uygun doğru iç takımı temin eder, doldurma ve boşaltma ayarlarını yapar ve kaçak testiyle teslim eder. Yanlış parça seçimi ve ayar hatası su israfına yol açar; profesyonel değişim bu riski ortadan kaldırır." },
       {
         q: "Klozet iç takımı değişimi ne kadar sürer?",
         a: "Klasik asma/oturma rezervuarda iç takım değişimi deneyimli birinin elinde 20–30 dakikadır; ilk kez yapıyorsanız parça alımı dâhil 1 saati bulabilir. Gömme rezervuarda revizyon kapağı ve orijinal parça nedeniyle işlem biraz daha uzun sürer.",
@@ -15236,8 +15305,8 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         a: "Evet, gömme rezervuarlar servise uygun tasarlanmıştır ve duvarı kırmadan, butonun arkasındaki revizyon kapağından müdahale edilir. Tek kritik nokta, mutlaka rezervuarın markasına uygun orijinal iç takım kullanmaktır. Parça oturmuyor veya su vanası dönmüyorsa zorlamayın; bizi arayın: 0533 896 05 03.",
       },
       {
-        q: "Klozet iç takımı fiyatı ne kadar?",
-        a: "2026 İstanbul ortalamalarıyla tek şamandıra (dolum valfi) yaklaşık ₺120–₺300, sifon (boşaltma valfi) ₺150–₺400, klasik komple iç takım seti ₺300–₺650 aralığındadır. Gömme rezervuarda orijinal iç takım marka ve modele göre ₺700–₺1.800’e çıkabilir. Bunlara servis yaptırırsanız işçilik eklenir. Fiyatlar bilgilendirme amaçlıdır, dönemsel değişir.",
+        q: "Klozet iç takımı değişiminin maliyeti neye göre değişir?",
+        a: "Maliyet; rezervuarın tipine (klasik veya gömme), markasına ve tek parça mı komple set mi alındığına göre değişir. Sadece şamandıra arızalıysa tek parça en ekonomik çözümdür; gömme rezervuarda ise markaya uygun orijinal iç takım şarttır. Güncel parça fiyatını rezervuar marka ve modeliyle satıcıya sorarak öğrenebilirsiniz; servis yaptırırsanız işçilik ayrıca eklenir.",
       },
       {
         q: "Klozet su kaçırıyorsa en basit tamir nedir?",
@@ -15524,19 +15593,20 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "lavabo-sifonu-nasil-takilir",
+    inlineLinks: [{ href: "/hizmet/tikaniklik-acma", anchor: "lavabo gideri tıkanıklığı açma hizmetimiz" }],
     title: "Lavabo Sifonu ve Evye Gider Borusu Nasıl Takılır?",
-    seoTitle: "Lavabo & Evye Sifonu, Gider Borusu Nasıl Takılır?",
+    seoTitle: "Lavabo Gider Borusu ve Sifonu Nasıl Takılır? — Adım Adım Montaj ve Kaçak Testi",
     keyword: "lavabo sifonu",
     volume: 4400,
     kdi: 28,
     category: "Su Tesisatı",
     readMin: 12,
     published: "2026-06-18",
-    updated: "2026-06-29",
+    updated: "2026-10-03",
     excerpt:
       "Lavabo sifonu su kaçırıyor, koku yapıyor ya da yeni lavabo/evye mi taktınız? Sifon ve gider borusunu doğru takmak göründüğünden kolaydır. Sifon tiplerini (körüklü, şişe, ikili evye), evye süzgecini, mutfak evye gider borusunu (tek/çift gözlü), bas-stop montajını, lavabo–evye çap farkını, contaların sızdırmaz sıkılmasını ve çamaşır/bulaşık makinesi tahliyesinin bağlanmasını adım adım anlatıyoruz.",
     metaDescription:
-      "Lavabo sifonu, mutfak evye gider borusu ve çift gözlü evye sifonu nasıl takılır? Bas-stop, körüklü/şişe sifon, süzgeç, taşmalı evye, sızdırmaz conta ve makine tahliyesi adım adım. Tel: 0533 896 05 03.",
+      "Banyo lavabo ve mutfak ikili evye gider borusu nasıl takılır? Conta yönü, ölçü alma, koku ve sızıntı önleme ile adım adım resimli montaj rehberi.",
 
     serviceSlug: "su-kacagi-tespiti",
     featuredImage: {
@@ -15547,6 +15617,14 @@ const RAW_BLOG_POSTS: BlogPost[] = [
     intro:
       "Lavabo sifonu, çoğu insanın varlığını ancak su kaçırdığında ya da kötü koku yaptığında fark ettiği basit ama kritik bir parçadır. Sifon, lavabodan inen suyu gidere taşırken içinde tuttuğu su sayesinde kanalizasyon kokusunun eve geri gelmesini engeller; bu yüzden doğru takılması hem sızdırmazlık hem de hijyen açısından şarttır. Yeni bir lavabo veya mutfak evyesi taktıysanız, sifonunuz çürüyüp sızdırmaya başladıysa veya gider borusunu yenilemek istiyorsanız, bu işlem temel el aletleriyle evde yapılabilir. Bu rehberde önce sifon tiplerini tanıtıyor, doğru parçayı nasıl seçeceğinizi açıklıyor; ardından lavabo sifonu ve evye gider borusunu adım adım, sızdırmaz biçimde nasıl takacağınızı gösteriyoruz. Evye süzgecinin takılması, mutfak lavabo altı gider borusunun bağlanması, çamaşır veya bulaşık makinesi tahliyesini sifona bağlamanın doğru yöntemini ve montaj sonrası sızıntıyı nasıl test edeceğinizi de ekledik.",
     sections: [
+      {
+        heading: "Bunu Kendiniz Yapabilir misiniz?",
+        paragraphs: ["Başlamadan önce işin zorluğunu, gereken süreyi ve riski görün; kendinize uygun olup olmadığına karar verin. Giderde tıkanıklık da varsa lavabo gideri tıkanıklığı açma hizmetimiz devreye girer; keşif ücretsizdir."],
+        table: {
+          headers: ["Ölçüt", "Değerlendirme"],
+          rows: [["Zorluk", "Kolay (2/5)"], ["Tahmini süre", "20–30 dakika"], ["Gerekli aletler", "Kova ve bez yeterli"], ["Ana risk", "Conta yanlış oturursa dolap içi yavaş kaçak oluşur."]],
+        },
+      },
       {
         heading: "Sifon Tipleri ve Doğru Parça Seçimi",
         paragraphs: [
@@ -15587,6 +15665,27 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         },
       },
       {
+        heading: "Banyo Lavabo Sifonu Nasıl Takılır?",
+        paragraphs: [
+          "Banyo lavabosunda gider çapı genelde 32 mm'dir ve en çok şişe tipi ya da körüklü sifon kullanılır. Süzgeci (bas-stop veya klasik tapa) contasıyla lavaboya oturtun, sifon gövdesini süzgeç dişine elle sıkın, ardından çıkış borusunu duvardaki gider ağzına conta ile bağlayın.",
+          "Lavabonun taşma deliği varsa süzgecin taşma kanalına denk geldiğinden emin olun; aksi halde taşma deliğinden su dolaba sızar.",
+        ],
+      },
+      {
+        heading: "Mutfak İkili (Çift Gözlü) Evye Sifonu Nasıl Takılır?",
+        paragraphs: [
+          "Çift gözlü evyede iki süzgeç tek bir 40 mm gider hattında birleşir. Önce her iki süzgeci contalarıyla takın, ardından ikili sifonun yatay bağlantı borusunu boyuna göre ölçüp kesin; sifon gövdesini gider ağzına en yakın göze yerleştirin.",
+          "Bulaşık makinesi bağlanacaksa makine memesi bulunan ikili sifon seçin ve hortumu yukarıdan kavisli bağlayın; bu, kirli suyun makineye geri dönmesini önler.",
+        ],
+      },
+      {
+        heading: "Geniş Ağızlı (Büyük Süzgeçli) Sifon Ne Zaman Kullanılır?",
+        paragraphs: [
+          "Geniş ağızlı sifon, büyük süzgeç deliği olan çelik evyeler, granit evyeler ve bazı tezgah üstü (çanak) lavabolar için üretilir. Süzgeç çapını mezura ile ölçün; standart süzgeç oturmuyorsa geniş ağızlı takım almanız gerekir.",
+          "Bu tip sifonlarda süzgeç contası büyük olduğu için eşit sıkma önemlidir; tek taraftan fazla sıkılan conta zamanla kenardan sızdırır.",
+        ],
+      },
+      {
         heading: "Gerekli Malzeme ve Ölçü Alma",
         paragraphs: [
           "Doğru ölçü, sızdırmaz bir montajın yarısıdır. Lavabonun süzgeç çıkışı ile duvardaki/zemindeki gider deliği arasındaki dikey ve yatay mesafeyi ölçün; sifonun bu aralığa rahat oturduğundan emin olun.",
@@ -15600,6 +15699,12 @@ const RAW_BLOG_POSTS: BlogPost[] = [
       },
       {
         heading: "Lavabo Sifonu Montajı — Adımları",
+        callout: {
+          variant: "warning",
+          title: "Bu adımda zorlanıyorsanız",
+          body:
+            "Conta ters dönerse veya rekor somunları çapraz sıkılırsa sifon birkaç gün sonra damlatmaya başlar ve dolap içini çürütür. Sızdırmazlığı sağlayamıyorsanız profesyonel ekibimizden destek alabilirsiniz.",
+        },
         paragraphs: [
           "Aşağıdaki adımlar hem yeni montaj hem de eski sifon değişimi için geçerlidir. Eski sifonu söküyorsanız altına mutlaka kova koyun; içinde her zaman bir miktar su kalır.",
         ],
@@ -15677,6 +15782,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
       },
     ],
     faq: [
+        { q: "Sifon montajını ustaya yaptırırsam ne kazanırım?", a: "Usta doğru conta ve sifon tipini seçer, bağlantıları kaçak testiyle teslim eder. Yanlış montajdan doğan gizli kaçaklar dolap içinde çürüme ve koku yapar; profesyonel montaj bu riski ortadan kaldırır. Keşif ücretsizdir." },
       {
         q: "Körüklü sifon mu, şişe tipi sifon mu daha iyi?",
         a: "Körüklü (akordeon) sifon esnektir, lavabo ile gider arasındaki ölçü ve açı farkını kolayca tolere ettiği için montajı en pratik olandır; ancak körük kıvrımlarında zamanla kir birikebilir. Şişe (bottle) tipi sifon daha düzgün görünür ve sökülüp temizlenmesi kolaydır. Görünür tezgah altı montajlarda şişe tipi, zor ölçülerde körüklü tip daha avantajlıdır.",
@@ -15927,14 +16033,14 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "termosifon-su-isitmiyor",
     title: "Termosifon (Şofben) Su Isıtmıyor: Nedenleri ve Çözümleri",
-    seoTitle: "Termosifon Su Isıtmıyor: Nedenleri",
+    seoTitle: "Termosifon Su Isıtmıyor? Nedenleri ve Çözümü",
     keyword: "termosifon su ısıtmıyor",
     volume: 110,
     kdi: 18,
     category: "Su Tesisatı",
     readMin: 11,
     published: "2026-06-18",
-    updated: "2026-06-18",
+    updated: "2026-10-01",
     excerpt:
       "Termosifonunuz ya da elektrikli şofbeniniz su ısıtmıyor, az ısıtıyor ya da kısa sürede soğuyor mu? Çoğu zaman sorun pahalı bir arıza değil; ısı ayarı, sigorta, rezistans ya da içine biriken kireçtir. Belirti–neden tablosuyla sorunu doğru yerde aramayı, güvenle yapabileceğiniz kontrolleri ve hangi durumda uzman çağıracağınızı adım adım anlatıyoruz.",
     metaDescription:
@@ -16058,14 +16164,14 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "tuvalet-klozet-kokusu-nasil-giderilir",
     title: "Tuvalet, Klozet ve Lavabo (Gider) Kokusu Nasıl Giderilir?",
-    seoTitle: "Klozet & Tuvalet Kokusu Nasıl Giderilir?",
+    seoTitle: "Klozet ve Tuvalet Kokusu Nasıl Giderilir? Kalıcı Çözümler",
     keyword: "klozet kokusu",
     volume: 1600,
     kdi: 24,
     category: "Tıkanıklık",
     readMin: 14,
     published: "2026-06-18",
-    updated: "2026-06-22",
+    updated: "2026-10-03",
     excerpt:
       "Tuvaletinizi her temizlemenize rağmen klozetten, lavabodan ya da banyo giderinden lağım kokusu mu geliyor? Sürekli koku, oda spreyiyle örtülecek bir kötü kokudan farklıdır; neredeyse her zaman kuruyan sifon (su bariyeri), klozet tabanı contası, rezervuar ya da gider havalandırması kaynaklıdır. Klozet, lavabo, yer süzgeci ve banyo gideri kokularını tek tek ele alıyor; koku önleyici aparatın doğru montajını ve kalıcı çözümü adım adım anlatıyoruz.",
     metaDescription:
@@ -16177,6 +16283,34 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         },
       },
       {
+        heading: "5) Koku Rüzgarlı Havalarda ya da Komşu Sifon Çekince Artıyorsa: Havalandırma Bacası",
+        paragraphs: [
+          "Koku sabit değil de rüzgarlı havalarda, yağmur sonrasında ya da üst kattaki komşu sifon çektiğinde şiddetleniyorsa, sorun sizin giderinizde değil binanın gider havalandırma (baca) hattındadır. Pis su boruları çatıya kadar uzanan bir havalandırma borusuyla dışarıya açılır; bu boru tıkalıysa, çok alçaksa ya da hiç yapılmamışsa, sistemdeki basınç dengesi bozulur ve kanalizasyon gazı en zayıf noktadan — genellikle sizin klozetinizden ya da yer süzgecinizden — içeri basılır.",
+          "Aynı mekanizmanın tersi de görülür: üst katlarda büyük miktarda su hızla aktığında hatta negatif basınç oluşur ve alt katlardaki sifonlardaki suyu emer (sifonaj). Bariyeri boşalan gider, o andan itibaren açık bir kanalizasyon ağzı gibi çalışır. Bu tip kokuları daire içinde temizlikle çözmek mümkün değildir; çözüm havalandırma borusunun kontrolü ve gerekiyorsa gider ağzına koku önleyici çek valf takılmasıdır. Apartman yönetimiyle birlikte çatıdaki baca çıkışının açık ve yeterli yükseklikte olduğu teyit edilmelidir.",
+          "Sağlık notu: kanalizasyon gazı metan ve hidrojen sülfür (çürük yumurta kokusu) içerir. Kapalı ve küçük hacimlerde biriktiğinde baş ağrısı ve mide bulantısı yapabilir; bu yüzden sürekli lağım kokusu alınan bir tuvaleti 'alışılır' bir sorun saymayın — kaynağı bulunana kadar mekânı havalandırın ve sorunu ertelemeyin.",
+        ],
+        bullets: [
+          "Rüzgarlı havada/yağmur sonrası artan koku → havalandırma (baca) sorunu",
+          "Komşu sifon çekince koku basıyorsa → hatta basınç dengesizliği var",
+          "Negatif basınç alt kat sifonlarını emer (sifonaj) → bariyer boşalır",
+          "Çözüm: baca çıkışı kontrolü + gider ağzına koku önleyici çek valf",
+          "Kanalizasyon gazı (metan, hidrojen sülfür) kapalı alanda sağlık riskidir — ertelemeyin",
+        ],
+      },
+      {
+        heading: "6) Alaturka Tuvalette 'Es Sifon' Eksikliği",
+        paragraphs: [
+          "Alaturka tuvaletlerde kokunun en yaygın nedeni, taşın altındaki gider borusunda 'es sifon' (S biçimli su tutucu) bulunmamasıdır. Klozetlerde su bariyeri seramiğin içinde hazır gelir; alaturka taşlarda ise bu bariyeri yeraltındaki borunun sağlaması gerekir. Eski binalarda ve özensiz montajlarda taş doğrudan düz boruya bağlanır — sonuç: ne kadar temizlik yaparsanız yapın geri gelen kalıcı lağım kokusu.",
+          "Kontrol basittir: taşın deliğinden aşağı bakınca su görünmüyorsa es sifon yok demektir. Kalıcı çözüm, taş sökülüp gider hattına es sifon eklenmesi ya da taşın su bariyerli (sifonlu) bir modelle değiştirilmesidir. Kırma işlemi gerektirdiği için bu iş profesyonel montaj ister; doğru yapıldığında koku sorunu bir daha geri dönmez.",
+        ],
+        bullets: [
+          "Alaturka taşın altında 'es sifon' yoksa koku kalıcıdır",
+          "Kontrol: delikten bakınca su görünmüyorsa sifon yok demektir",
+          "Kalıcı çözüm: es sifon ekleme veya sifonlu taşla değiştirme",
+          "Kırma/montaj gerektirdiği için profesyonel işçilik ister",
+        ],
+      },
+      {
         heading: "Koku Önleyici Aparat (Çek Valf) Nasıl Takılır?",
         paragraphs: [
           "Su bariyerinin kuruduğu ya da olmadığı noktalarda en kalıcı çözüm, gidere tek yönlü çalışan bir koku önleyici (çek valf) aparat takmaktır. Bu aparat suyun aşağı akmasına izin verir, ancak kanalizasyon gazının yukarı çıkmasını mekanik olarak engeller; böylece bariyer kurusa bile koku gelmez.",
@@ -16242,27 +16376,49 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         q: "Tuvalette idrar / amonyak kokusu neden olur?",
         a: "Sürekli idrar/amonyak kokusu çoğunlukla klozetin tabanına, oturak menteşelerinin altına ve özellikle erkek tuvaletlerinde fayans derzlerine sinen idrarın temizlenememesinden kaynaklanır. Yüzey temizliği yetmiyorsa klozet tabanı contası da sızdırıyor olabilir. Derzleri ve taban çevresini iyice temizleyin; koku taban contasından geliyorsa klozetin sökülüp contanın yenilenmesi gerekir.",
       },
+      {
+        q: "Koku rüzgarlı havalarda veya komşu sifon çekince artıyor, neden?",
+        a: "Bu, binanın gider havalandırma (baca) hattında sorun olduğunun tipik işaretidir. Baca tıkalıysa ya da yetersizse basınç dengesi bozulur; üst katlarda akan su negatif basınç yapıp alt katların sifonundaki suyu emebilir (sifonaj). Daire içi temizlikle çözülmez; çatıdaki baca çıkışı kontrol edilmeli, gerekirse gider ağzına koku önleyici çek valf takılmalıdır.",
+      },
+      {
+        q: "Alaturka tuvaletten sürekli lağım kokusu geliyor, sebebi ne olabilir?",
+        a: "En yaygın sebep, taşın altındaki giderde 'es sifon' (S biçimli su tutucu) olmamasıdır. Delikten bakınca su görünmüyorsa sifon yok demektir; temizlikle çözülmez. Kalıcı çözüm, taş sökülüp hatta es sifon eklenmesi ya da su bariyerli (sifonlu) bir taşla değiştirilmesidir; kırma gerektirdiği için profesyonel montaj ister.",
+      },
     ],
   },
   {
     slug: "banyo-bataryasi-nasil-takilir",
     title: "Banyo Bataryası Nasıl Takılır? (Musluk Değişimi)",
-    seoTitle: "Banyo Bataryası Nasıl Takılır?",
+    seoTitle: "Banyo Bataryası Nasıl Takılır? Ölçü ve Montaj",
     keyword: "banyo bataryası nasıl takılır",
     volume: 480,
     kdi: 29,
     category: "Su Tesisatı",
     readMin: 11,
     published: "2026-06-18",
-    updated: "2026-06-18",
+    updated: "2026-10-01",
     excerpt:
       "Eski bataryanız akıtıyor, paslandı ya da banyonuzu yeniliyor ve musluğu kendiniz mi değiştirmek istiyorsunuz? Banyo/duş bataryası takmak doğru sırayla yapıldığında temel el aletleriyle başarılabilir. Aks ölçüsünü, eksantrik (rakor) hizalamayı, teflonla sızdırmazlığı ve montaj sonrası sızıntı testini adım adım anlatıyoruz.",
     metaDescription:
       "Banyo bataryası nasıl takılır? Eski bataryayı sökme, 15 cm aks, eksantrik (rakor) hizalama, teflon ile sızdırmazlık ve sızıntı testi adım adım. Tel: 0533 896 05 03.",
     serviceSlug: "musluk-batarya-degisimi",
     intro:
-      "Banyo ya da duş bataryası; her gün defalarca kullandığınız, akıttığında hem su faturasını hem sinir bozucu damla sesini büyüten kritik bir armatürdür. Eski bataryanız gövdeden sızdırıyor, kromu dökülüp paslandı ya da banyonuzu yeniliyorsanız, yeni bir batarya takmak çoğu zaman uzman gerektirmeden, temel el aletleriyle yapılabilen bir iştir. Ancak işin püf noktası montajın kendisinde değil, sızdırmazlıkta ve hizalamadadır: duvardan çıkan iki su borusunun (sıcak-soğuk) merkez aralığı ile bataryanın bağlantı aralığını uyumlandırmak, eksantrik (rakor) denilen ayar parçalarını doğru çevirmek ve dişleri teflonla sızdırmaz biçimde hazırlamak başarının anahtarıdır. Yanlış yapıldığında batarya ya duvara düzgün oturmaz ya da bağlantılardan damlatır. Bu rehberde önce ihtiyacınız olan malzemeleri ve doğru ölçüyü (aks aralığı), ardından eski bataryayı sökmeyi ve yeni bataryayı sızdırmaz biçimde takmayı adım adım anlatıyoruz; montaj sonrası sızıntı testini ve hangi durumda tesisatçı çağırmanız gerektiğini de ekledik.",
+      "Kısa cevap: Önce suyu kapatın, eski bataryayı ve eksantrikleri sökün. Duvardaki sıcak-soğuk çıkışların merkezleri arası (aks) standart 15 cm’dir; eksantrik dişine diş yönünde 4-6 tur teflon sarın, iki ucu su terazisiyle yatay hizalayın, batarya somunlarını contalarıyla önce elle sonra penseyle sıkın ve suyu açıp sızıntı kontrolü yapın. Banyo ya da duş bataryası; her gün defalarca kullandığınız, akıttığında hem su faturasını hem sinir bozucu damla sesini büyüten kritik bir armatürdür. Eski bataryanız gövdeden sızdırıyor, kromu dökülüp paslandı ya da banyonuzu yeniliyorsanız, yeni bir batarya takmak çoğu zaman uzman gerektirmeden, temel el aletleriyle yapılabilen bir iştir. Ancak işin püf noktası montajın kendisinde değil, sızdırmazlıkta ve hizalamadadır: duvardan çıkan iki su borusunun (sıcak-soğuk) merkez aralığı ile bataryanın bağlantı aralığını uyumlandırmak, eksantrik (rakor) denilen ayar parçalarını doğru çevirmek ve dişleri teflonla sızdırmaz biçimde hazırlamak başarının anahtarıdır. Yanlış yapıldığında batarya ya duvara düzgün oturmaz ya da bağlantılardan damlatır. Bu rehberde önce ihtiyacınız olan malzemeleri ve doğru ölçüyü (aks aralığı), ardından eski bataryayı sökmeyi ve yeni bataryayı sızdırmaz biçimde takmayı adım adım anlatıyoruz; montaj sonrası sızıntı testini ve hangi durumda tesisatçı çağırmanız gerektiğini de ekledik.",
     sections: [
+      {
+        heading: "Hızlı Ölçü Tablosu: Almadan Önce Kontrol Edin",
+        paragraphs: [
+          "Markete gitmeden önce şu ölçüleri kontrol edin; montajın sorunsuz olması büyük ölçüde doğru ölçüye bağlıdır.",
+        ],
+        bullets: [
+          "Aks aralığı (sıcak-soğuk çıkış merkezleri arası): standart 15 cm",
+          "Küçük sapma (birkaç mm–1 cm civarı): eksantrik çevrilerek tolere edilir",
+          "Büyük sapma: duvar çıkışı düzeltilmeli — tesisatçı gerekir",
+          "Yön: sıcak su solda, soğuk su sağda",
+          "Kullanım yeri: küvet/lavabo üstü banyo bataryası mı, duş bataryası mı?",
+          "Teflon: eksantrik dişine diş yönünde 4-6 tur; batarya somununda conta",
+        ],
+      },
       {
         heading: "Doğru Ölçü ve Batarya Tipi: Aks Aralığı",
         paragraphs: [
@@ -16862,15 +17018,26 @@ const RAW_BLOG_POSTS: BlogPost[] = [
     category: "Tesisat",
     readMin: 10,
     published: "2026-06-18",
-    updated: "2026-06-18",
+    updated: "2026-10-01",
     excerpt:
       "Sifonu çektikten sonra rezervuara su dolmuyor ya da çok yavaş mı doluyor? Bu sorun klozetin su kaçırmasının tam tersidir ve nedeni neredeyse her zaman bellidir: kapalı/kısık su giriş vanası, kireçlenmiş dolum (musluk) valfi, takılan şamandıra ya da yanlış şamandıra ayarı. Adım adım nedenlerini, kendiniz yapabileceğiniz kontrolleri ve ne zaman tesisatçı gerektiğini anlatıyoruz.",
     metaDescription:
       "Klozet su doldurmuyor, rezervuara su dolmuyor mu? Nedenleri: kapalı su vanası, kireçli dolum valfi, takılan şamandıra, yanlış ayar. Çözüm rehberi ve servis: 0533 896 05 03.",
     serviceSlug: "su-kacagi-tespiti",
     intro:
-      "Tuvalette sifonu çektikten sonra rezervuarın yeniden dolmasını beklersiniz; ama bazen hiç su dolmaz, bazen de su o kadar yavaş gelir ki bir sonraki kullanım için dakikalarca beklemek gerekir. Bu sorun, çok kişinin karıştırdığının aksine, klozetin su kaçırmasının tam tersidir: orada su gereğinden fazla akar, burada ise hazneye yeterli su girmez. İyi haber, rezervuara su dolmama nedenleri sınırlı ve büyük ölçüde mekaniktir; pahalı bir arıza değil, çoğu zaman basit bir vana, şamandıra ya da kireç sorunudur. Sorunun kaynağı ya suyun rezervuara hiç ulaşamamasıdır (kapalı/kısık ara musluk, kıvrılmış bağlantı), ya dolum (musluk) valfinin kireçten tıkanması veya arızalanmasıdır, ya da şamandıranın takılması/yanlış ayarlanmasıdır. Bu rehberde 'klozet su doldurmuyor' tablosunu mantığıyla açıklıyor; nedenleri tek tek eleyerek kaynağı nasıl bulacağınızı, kendiniz güvenle yapabileceğiniz kontrolleri ve hangi noktada tesisatçı gerektiğini adım adım gösteriyoruz.",
+      "Kısa cevap: Rezervuara su dolmamasının 3 ana nedeni vardır — kapalı/kısık ara musluk, kireçlenmiş dolum (musluk) valfi, takılan ya da düşük ayarlı şamandıra. Önce rezervuarın altındaki ara musluğu sonuna kadar açın; hâlâ dolmuyorsa kapağı açıp dolum valfinin süzgecini temizleyin ve şamandıranın serbestçe inip kalktığını kontrol edin. Bu üçünden biri neredeyse her zaman suçludur; aşağıda tek tek gösteriyoruz. Tuvalette sifonu çektikten sonra rezervuarın yeniden dolmasını beklersiniz; ama bazen hiç su dolmaz, bazen de su o kadar yavaş gelir ki bir sonraki kullanım için dakikalarca beklemek gerekir. Bu sorun, çok kişinin karıştırdığının aksine, klozetin su kaçırmasının tam tersidir: orada su gereğinden fazla akar, burada ise hazneye yeterli su girmez. İyi haber, rezervuara su dolmama nedenleri sınırlı ve büyük ölçüde mekaniktir; pahalı bir arıza değil, çoğu zaman basit bir vana, şamandıra ya da kireç sorunudur. Bu rehberde 'klozet su doldurmuyor' sorununu mantığıyla açıklıyor; nedenleri tek tek eleyerek kaynağı nasıl bulacağınızı, kendiniz güvenle yapabileceğiniz kontrolleri ve hangi noktada tesisatçı gerektiğini adım adım gösteriyoruz.",
     sections: [
+      {
+        heading: "3 Ana Neden: Hızlı Özet",
+        paragraphs: [
+          "Rezervuara su gelmemesinin ya da çok yavaş gelmesinin nedeni neredeyse her zaman aşağıdaki üçünden biridir. Karışıklığı önlemek için şunu bilin: bu sorun klozetin su kaçırmasının tam tersidir — orada su fazla akar, burada hazneye yeterli su girmez.",
+        ],
+        bullets: [
+          "1) Kapalı veya kısık ara musluk: Rezervuarın altındaki köşe vana kapalıysa su hiç gelmez, kısıksa çok yavaş dolar. Hızlı kontrol: vanayı saat yönünün tersine sonuna kadar açın.",
+          "2) Kireçlenmiş dolum (musluk) valfi: Sert suda valfin süzgeci ve memesi kireçle tıkanır; su geliyor ama hazne yavaş doluyor. Hızlı kontrol: su kesip valf başlığını söküp süzgeci temizleyin.",
+          "3) Takılan veya düşük ayarlı şamandıra: Şamandıra bir yere takılıp inemiyorsa valf suyu erkenden keser; ayarı düşükse hazne tam dolmadan su kesilir. Hızlı kontrol: şamandıranın serbest hareketini ve 'max' seviye ayarını kontrol edin.",
+        ],
+      },
       {
         heading: "Önce Mantık: Su Ya Gelmiyor Ya da Tutulamıyor",
         paragraphs: [
@@ -17255,19 +17422,20 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "camasir-makinesi-nasil-baglanir",
+    inlineLinks: [{ href: "/hizmet/tikaniklik-acma", anchor: "gider tıkanıklığı açma hizmetimiz" }],
     title: "Çamaşır Makinesi Nasıl Bağlanır? Musluk, Hortum ve Gider Bağlantısı",
-    seoTitle: "Çamaşır Makinesi Bağlantısı: Musluk Hangi Yöne Açılır?",
+    seoTitle: "Çamaşır Makinesi Nasıl Bağlanır? Musluk, Hortum, Gider",
     keyword: "çamaşır makinesi nasıl bağlanır",
     volume: 170,
     kdi: 29,
     category: "Tesisat",
     readMin: 10,
     published: "2026-06-18",
-    updated: "2026-06-29",
+    updated: "2026-10-03",
     excerpt:
       "Yeni çamaşır makinesini bağlamak üç bağlantıdan oluşur: su girişi (musluk + giriş hortumu), atık su (gider/tahliye hortumu) ve elektrik. En sık yapılan hatalar musluk seçimi, conta/sızdırmazlık ve tahliye hortumunun yanlış yüksekliğidir; bunlar sızıntıya veya makinenin su almamasına yol açar. Adım adım doğru bağlantıyı, musluğun hangi yöne ve ne kadar açılması gerektiğini, çatal (ikili) musluk seçimini ve ne zaman tesisatçı gerektiğini görselli olarak anlatıyoruz.",
     metaDescription:
-      "Çamaşır makinesi musluğu hangi yöne ve ne kadar açılır? Su girişi, hortum ve gider bağlantısı adım adım, tahliye yüksekliği ve sızıntıya yol açan sık hatalar. Tesisat: 0533 896 05 03.",
+      "Çamaşır makinesi musluğu hangi yöne açılır, giriş ve tahliye hortumu nasıl takılır? Sızdırmadan bağlama, ilk çalıştırma kontrolü ve sık hatalar resimli.",
     serviceSlug: "su-kacagi-tespiti",
     featuredImage: {
       src: camasirMakinesiBaglantiFeatured,
@@ -17278,6 +17446,35 @@ const RAW_BLOG_POSTS: BlogPost[] = [
     intro:
       "Yeni bir çamaşır makinesi aldığınızda kurulum aslında üç ayrı bağlantının doğru yapılmasından ibarettir: temiz su girişi (musluk ve giriş hortumu), kirli suyun atılması (gider/tahliye hortumu) ve elektrik. Kulağa basit gelse de en sık su baskınları ve 'makine su almıyor' şikayetleri tam da bu üç noktadaki küçük hatalardan doğar: yanlış ya da contası eksik musluk bağlantısı, fazla sıkılıp dişi sıyrılan rakor, ya da tahliye hortumunun yanlış yükseklikte/derinlikte takılması. Bu rehberde çamaşır makinesini sızdırmadan ve güvenle nasıl bağlayacağınızı adım adım anlatıyor; tek girişli ile çift (sıcak-soğuk) girişli makineler arasındaki farkı, tek musluğa iki makine bağlamak için kullanılan çatal (ikili) musluğu, musluğun hangi yöne ve ne kadar açılıp kapandığını ve hangi durumda işi tesisatçıya bırakmanın daha doğru olduğunu açıklıyoruz. Amaç, ilk yıkamada zeminde su görmemeniz ve makinenin sorunsuz dolup boşaltmasıdır.",
     sections: [
+      {
+        heading: "Bunu Kendiniz Yapabilir misiniz?",
+        paragraphs: ["Başlamadan önce işin zorluğunu, gereken süreyi ve riski görün; kendinize uygun olup olmadığına karar verin. Gider hattında sorun varsa gider tıkanıklığı açma hizmetimiz devreye girer; keşif ücretsizdir."],
+        table: {
+          headers: ["Ölçüt", "Değerlendirme"],
+          rows: [["Zorluk", "Orta (3/5)"], ["Tahmini süre", "45–60 dakika"], ["Gerekli aletler", "Pense, kova, bez"], ["Ana risk", "Yanlış gider bağlantısı su taşmasına ve makinenin arıza vermesine yol açar."]],
+        },
+      },
+      {
+        heading: "Musluk Hangi Yöne ve Ne Kadar Açılır?",
+        paragraphs: [
+          "Standart musluk ve vanalarda kural basittir: saat yönünün tersine (sola) çevirince açılır, saat yönünde (sağa) çevirince kapanır. Çamaşır makinesi musluğunda ve vanasında da bu geçerlidir; kolu sola çevirip açık konuma getirdiğinizde su makineye ulaşır. Çeyrek turlu (kelebek kollu) makine vanalarında ise kol boruyla aynı hizaya geldiğinde açık, boruya dik konuma geldiğinde kapalıdır — yani 90°'lik tek bir hareketle açılıp kapanır.",
+          "'Musluk ne kadar açılmalı?' sorusunun yaygın yanlış cevabı 'az açayım ki az su gelsin'dir. Doğrusu, çamaşır makinesi musluğunu sonuna kadar (tam) açmaktır. Makine suyu kendi içindeki valfle ölçüp alır; siz musluğu yarım bırakırsanız debi düşer, makine yavaş dolar, programlar uzar ve bazı modellerde 'su alamıyor' hatası verir. Vidalı (yuvarlak kollu) bir musluksa tam açtıktan sonra çeyrek tur geri kapatmak, kolun sıkışmasını önlemek için iyi bir alışkanlıktır; ama su yolunu kısıtlamayın.",
+          "Önemli bir alışkanlık: makineyi her kullanımdan sonra ya da en azından uzun süre evde olmayacağınızda musluğu kapatın. Sürekli basınç altında kalan giriş hortumu ve contalar zamanla yorulur; kapalı musluk, siz evde yokken oluşabilecek bir hortum patlamasının su baskınına dönüşmesini önler.",
+        ],
+        bullets: [
+          "Açmak için sola (saat yönü tersi), kapatmak için sağa (saat yönü) çevirin",
+          "Çeyrek turlu vanada kol boruyla aynı hizada = açık, dik = kapalı",
+          "Musluğu yarım değil, sonuna kadar (tam) açın — yarım açık makineyi yavaş doldurur",
+          "Vidalı kollu muslukta tam açıp çeyrek tur geri alın (su yolunu kısmadan)",
+          "Kullanım sonrası ya da uzun yokluklarda musluğu kapatın",
+        ],
+        image: {
+          src: camasirMakinesiMuslukYonDiagram,
+          alt: "Çamaşır makinesi musluğu hangi yöne açılır şeması: vidalı (çarklı) muslukta sola çevir açılır/sağa çevir kapanır, kollu (çeyrek dönüşlü) vanada kol boruyla paralel açık/dik (90°) kapalı",
+          caption:
+            "Musluk yön kuralı: vidalı muslukta sola çevir = açılır, sağa çevir = kapanır; kollu (çeyrek dönüşlü) vanada kol boruyla paralel = açık, dik (90°) = kapalı.",
+        },
+      },
       {
         heading: "Bağlamadan Önce: Neye İhtiyacınız Var?",
         paragraphs: [
@@ -17322,6 +17519,12 @@ const RAW_BLOG_POSTS: BlogPost[] = [
       },
       {
         heading: "2) Gider (Tahliye) Hortumu Bağlantısı",
+        callout: {
+          variant: "warning",
+          title: "Bu adımda zorlanıyorsanız",
+          body:
+            "Gider hortumu yanlış bağlanırsa makine suyunu geri basar veya tahliye edemez; su baskını riski oluşur. Bağlantıda tereddüt ediyorsanız profesyonel ekibimizden destek alabilirsiniz; bağlantı ve kaçak testi birlikte yapılır.",
+        },
         paragraphs: [
           "Tahliye, en sık hata yapılan kısımdır. Tahliye hortumu ya gider borusunun ağzına (sifonlu çıkışa) yerleştirilir ya da lavabo sifonunun çamaşır makinesi çıkışına bağlanır. Hangi yöntem olursa olsun iki kural önemlidir: hortum giderin içine fazla itilmemeli (geri emiş/sifonlama yaparak makineyi boşaltabilir) ve bağlantı noktasından koku/su geri gelmemesi için boşluk uygun bırakılmalıdır.",
           "Üretici çoğunlukla tahliye hortumunun belirli bir yükseklik aralığında (genelde zeminden ~60-100 cm) olmasını ister; çok alçak takılırsa makine sürekli kendiliğinden boşalır, çok yüksek takılırsa pompa suyu atamaz. Hortumun kıvrılmadığından ve giderden çıkıp taşmayacak şekilde sabitlendiğinden emin olun.",
@@ -17333,27 +17536,6 @@ const RAW_BLOG_POSTS: BlogPost[] = [
           "Hortum kıvrılmasın ve giderden fırlamayacak şekilde sabitlensin",
           "Koku gelmemesi için bağlantıda uygun hava boşluğu bırakın",
         ],
-      },
-      {
-        heading: "Musluk Hangi Yöne ve Ne Kadar Açılır?",
-        paragraphs: [
-          "Standart musluk ve vanalarda kural basittir: saat yönünün tersine (sola) çevirince açılır, saat yönünde (sağa) çevirince kapanır. Çamaşır makinesi musluğunda ve vanasında da bu geçerlidir; kolu sola çevirip açık konuma getirdiğinizde su makineye ulaşır. Çeyrek turlu (kelebek kollu) makine vanalarında ise kol boruyla aynı hizaya geldiğinde açık, boruya dik konuma geldiğinde kapalıdır — yani 90°'lik tek bir hareketle açılıp kapanır.",
-          "'Musluk ne kadar açılmalı?' sorusunun yaygın yanlış cevabı 'az açayım ki az su gelsin'dir. Doğrusu, çamaşır makinesi musluğunu sonuna kadar (tam) açmaktır. Makine suyu kendi içindeki valfle ölçüp alır; siz musluğu yarım bırakırsanız debi düşer, makine yavaş dolar, programlar uzar ve bazı modellerde 'su alamıyor' hatası verir. Vidalı (yuvarlak kollu) bir musluksa tam açtıktan sonra çeyrek tur geri kapatmak, kolun sıkışmasını önlemek için iyi bir alışkanlıktır; ama su yolunu kısıtlamayın.",
-          "Önemli bir alışkanlık: makineyi her kullanımdan sonra ya da en azından uzun süre evde olmayacağınızda musluğu kapatın. Sürekli basınç altında kalan giriş hortumu ve contalar zamanla yorulur; kapalı musluk, siz evde yokken oluşabilecek bir hortum patlamasının su baskınına dönüşmesini önler.",
-        ],
-        bullets: [
-          "Açmak için sola (saat yönü tersi), kapatmak için sağa (saat yönü) çevirin",
-          "Çeyrek turlu vanada kol boruyla aynı hizada = açık, dik = kapalı",
-          "Musluğu yarım değil, sonuna kadar (tam) açın — yarım açık makineyi yavaş doldurur",
-          "Vidalı kollu muslukta tam açıp çeyrek tur geri alın (su yolunu kısmadan)",
-          "Kullanım sonrası ya da uzun yokluklarda musluğu kapatın",
-        ],
-        image: {
-          src: camasirMakinesiMuslukYonDiagram,
-          alt: "Çamaşır makinesi musluğu hangi yöne açılır şeması: vidalı (çarklı) muslukta sola çevir açılır/sağa çevir kapanır, kollu (çeyrek dönüşlü) vanada kol boruyla paralel açık/dik (90°) kapalı",
-          caption:
-            "Musluk yön kuralı: vidalı muslukta sola çevir = açılır, sağa çevir = kapanır; kollu (çeyrek dönüşlü) vanada kol boruyla paralel = açık, dik (90°) = kapalı.",
-        },
       },
       {
         heading: "İlk Çalıştırma ve Sızdırmazlık Kontrolü",
@@ -17414,6 +17596,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
       },
     ],
     faq: [
+        { q: "Bağlantıyı servise yaptırmak istersem süreç nasıl işler?", a: "Ekibimiz su girişi ve gider bağlantısını yapar, hortumları sabitler ve ilk yıkama testini sizinle birlikte çalıştırarak kaçak olmadığını kontrol eder. İşlem genellikle 45-60 dakika sürer ve keşif ücretsizdir." },
       {
         q: "Çamaşır makinesi sıcak suya mı soğuk suya mı bağlanır?",
         a: "Türkiye'de satılan makinelerin büyük çoğunluğu tek girişlidir ve soğuk suya bağlanır; makine suyu kendi içinde ısıtır. Yalnızca çift girişli (sıcak-soğuk) modeller ayrıca sıcak su hattına bağlanır. Emin değilseniz makinenin arkasındaki giriş sayısına ve kullanım kılavuzuna bakın; tek giriş varsa soğuk suya bağlayın.",
@@ -17436,7 +17619,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
       },
       {
         q: "Çamaşır makinesi musluğu hangi yöne açılır?",
-        a: "Standart muslukta açmak için kolu saat yönünün tersine (sola), kapatmak için saat yönünde (sağa) çevirirsiniz. Çeyrek turlu (kelebek kollu) makine vanasında ise kol boruyla aynı hizaya geldiğinde açık, boruya dik durduğunda kapalıdır; yani tek bir 90°'lik hareketle açılıp kapanır. 'Vana ne tarafa açılır' diye tereddüt ederseniz: kolu boru yönüne paralel getirin, su akmaya başlar.",
+        a: "Standart muslukta açmak için kolu saat yönünün tersine (sola), kapatmak için saat yönünde (sağa) çevirirsiniz. Çeyrek turlu (kelebek kollu) makine vanasında ise kol boruyla aynı hizaya geldiğinde açık, boruya dik durduğunda kapalıdır; yani tek bir 90°'lik hareketle açılıp kapanır. 'Vana ne tarafa açılır' diye tereddüt ederseniz: kolu boru yönüne paralel getirin, su akmaya başlar. Evdeki tüm vana ve muslukların hangi yöne açılıp kapandığını detaylı anlattığımız su vanası nasıl kapatılır rehberine de göz atabilirsiniz.",
       },
       {
         q: "Çamaşır makinesi musluğu ne kadar açılmalı?",
@@ -17470,14 +17653,14 @@ const RAW_BLOG_POSTS: BlogPost[] = [
     category: "Tesisat",
     readMin: 10,
     published: "2026-06-18",
-    updated: "2026-06-18",
+    updated: "2026-10-01",
     excerpt:
       "Sallanan, kırılan ya da sararan klozet kapağını değiştirmek çoğu zaman 10 dakikalık bir iştir; yeter ki doğru ölçüyü alıp kapağın montaj tipine (üstten vidalı, alttan montaj veya gömme klozet) uygun davranın. Ölçü almayı, eski kapağı sökmeyi, yeni kapağı sağlam takmayı ve amortisörlü (yavaş kapanan) kapakların ayarını adım adım anlatıyoruz.",
     metaDescription:
       "Klozet kapağı nasıl takılır? Ölçü alma, eski kapağı sökme, üstten/alttan vidalı ve amortisörlü kapak montajı adım adım. Tesisat desteği: 0533 896 05 03.",
     serviceSlug: "su-kacagi-tespiti",
     intro:
-      "Klozet kapağı zamanla gevşeyip sallanabilir, çatlayabilir, menteşesi kırılabilir ya da rengi sararabilir; çoğu evde aslında klozetin kendisi sağlamken yalnızca kapak yenilenir. İyi haber, klozet kapağı takmak genellikle hiç alet ustalığı gerektirmeyen, 10-15 dakikalık bir iştir; başarının sırrı işlemde değil, iki hazırlıkta gizlidir: doğru ölçüyü almak ve kapağın montaj tipini doğru belirlemek. Yanlış ölçüde alınan kapak ya çok küçük kalıp boşlukta gezer ya da klozete oturmaz; yanlış tip seçilen kapak ise vida deliklerine uymaz. Bu rehberde önce kapak nasıl ölçülür ve hangi montaj tipleri (üstten vidalı, alttan montaj/standart ve gömme klozet kapakları) vardır onu netleştiriyor; ardından eski kapağı zarar vermeden sökmeyi, yeni kapağı sağlam ve sallanmadan takmayı ve son yıllarda yaygınlaşan amortisörlü (yavaş kapanan) kapakların nasıl ayarlandığını adım adım anlatıyoruz. Sonunda klozetinize tam oturan, sallanmayan ve sessizce kapanan bir kapak elde edeceksiniz.",
+      "Kısa cevap: Klozet kapağı takmak 10-15 dakikalık bir iştir — önce iki menteşe deliği arası mesafeyi, deliğin hizasından klozetin ön ucuna kadar uzunluğu ve klozetin en geniş yerindeki genişliği ölçün. Üstten vidalı kapakta vida yukarıdan girip alttan somunla sıkılır; alttan (klasik) montajda saplama vida alttan yukarı geçer. Vidaları elle sıkıp hafifçe aletle pekiştirin — porseleni çatlatacağı için asla aşırı sıkmayın. Kısa açıklama: Klozet kapağı zamanla gevşeyip sallanabilir, çatlayabilir, menteşesi kırılabilir ya da rengi sararabilir; çoğu evde aslında klozetin kendisi sağlamken yalnızca kapak yenilenir. İyi haber, klozet kapağı takmak genellikle hiç alet ustalığı gerektirmeyen, 10-15 dakikalık bir iştir; başarının sırrı işlemde değil, iki hazırlıkta gizlidir: doğru ölçüyü almak ve kapağın montaj tipini doğru belirlemek. Yanlış ölçüde alınan kapak ya çok küçük kalıp boşlukta gezer ya da klozete oturmaz; yanlış tip seçilen kapak ise vida deliklerine uymaz. Bu rehberde önce kapak nasıl ölçülür ve hangi montaj tipleri (üstten vidalı, alttan montaj/standart ve gömme klozet kapakları) vardır onu netleştiriyor; ardından eski kapağı zarar vermeden sökmeyi, yeni kapağı sağlam ve sallanmadan takmayı ve son yıllarda yaygınlaşan amortisörlü (yavaş kapanan) kapakların nasıl ayarlandığını adım adım anlatıyoruz. Sonunda klozetinize tam oturan, sallanmayan ve sessizce kapanan bir kapak elde edeceksiniz.",
     sections: [
       {
         heading: "Önce Doğru Ölçü: Yeni Kapağı Nasıl Seçersiniz?",
@@ -17504,6 +17687,18 @@ const RAW_BLOG_POSTS: BlogPost[] = [
           "Alttan montaj (klasik): saplama vida alttan yukarı geçer",
           "Gömme/asma klozette de mantık aynıdır, sadece klozet duvara asılıdır",
           "Tipini eski kapağın menteşesine ve vida yönüne bakarak anlayın",
+        ],
+      },
+      {
+        heading: "Kapak Tipe Göre Nasıl Farklı Takılır? (Üstten / Alttan / Gömme)",
+        paragraphs: [
+          "Aynı kapak takma mantığı tüm tiplerde işlese de vidanın geldiği yön ve dikkat edilecek nokta tipe göre değişir. Aşağıdaki üç özet, montaj sırasında hangi tipe nasıl davranacağınızı tek bakışta gösterir:",
+        ],
+        bullets: [
+          "Üstten vidalı kapak: Menteşe braketini deliğe oturtun, vida yukarıdan girer; alttan lastik pulu + plastik somunla sıkın. Somun elle dönene kadar sıkıp sonra yarım tur aletle pekiştirin — plastik somunu fazla sıkmayın.",
+          "Alttan montaj (klasik): Saplama vidaları klozetin altındaki delikten yukarı geçirilir; menteşeyi üstten oturtup somunla sabitleyin. Klozetin altına elinize girebilmek için gerekiyorsa klozeti hafifçe kontrol edin; vidayı çevirirken klozet porselenini korumak için pul kullanın.",
+          "Gömme/asma klozet: Klozet duvara asılı olduğu için montaj aynı mantıkta ama dik duruşta yapılır; kapak ortalama ve simetri kontrolünü göz hizasında yapmak daha kolaydır. Gizli montaj aparatlı modellerde önce braket duvara/klozete sabitlenir, kapak 'tık' diye yerine oturur.",
+          "Amortisörlü kapak (her tipte): Monte ettikten sonra kapağı 2-3 kez bırakarak kapanma hızını dinleyin; sert kapanıyorsa menteşedeki ayar kovanını çevirin.",
         ],
       },
       {
@@ -18112,19 +18307,20 @@ const RAW_BLOG_POSTS: BlogPost[] = [
     {
       slug: "banyoya-sicak-su-az-akiyor-nedenleri",
       title: "Banyoya Sıcak Su Az Akıyor: Nedenleri ve Çözümü",
-      seoTitle: "Sıcak Su Az Akıyor: Nedeni ve Çözümü",
+      seoTitle: "Sıcak Su Az Akıyor mu? 6 Neden ve Çözümü",
       keyword: "banyoya sıcak su neden az gelir",
       volume: 720,
       kdi: 13,
       category: "Su Tesisatı",
       readMin: 9,
       published: "2026-06-18",
-      updated: "2026-06-18",
+      updated: "2026-10-03",
       excerpt:
         "Soğuk su normal akarken sıcak su ince mi geliyor? Sorun çoğunlukla kombide değil, sıcak su debisini kısan basit bir noktadadır: perlatör (musluk ucu) ve duş başlığı kireci, batarya kartuşu, kombi plakalı eşanjör kireçlenmesi, çek valf veya düşük bina basıncı. Nedenleri belirtilere göre ayırmayı, evde yapabileceğiniz kontrolleri ve kalıcı çözümü adım adım anlatıyoruz.",
       metaDescription:
-        "Banyoya sıcak su neden az gelir? Soğuk normal akıp sıcak ince geliyorsa sebep genelde perlatör/duş başlığı kireci, batarya kartuşu veya kombi eşanjörüdür. Çözüm rehberi. Servis: 0533 896 05 03.",
+        "Banyoda sıcak su az akıyorsa sebep kombi, kireçli perlatör ya da vana olabilir. 6 olası nedeni ve her biri için evde deneyebileceğiniz hızlı çözümleri öğrenin.",
       serviceSlug: "kombi-servisi",
+      inlineLinks: [{ slug: "termosifon-su-isitmiyor", anchor: "termosifon su ısıtmıyor" }, { slug: "kombi-sicak-su-vermiyor", anchor: "kombi sıcak su vermiyor" }, { slug: "soguk-su-muslugundan-sicak-su-geliyor", anchor: "Sıcak su soğuk hatta kaçar" }],
       intro:
         "Soğuk su musluktan güçlü akarken sıcak su tarafı ince, zayıf veya kesik kesik geliyorsa, bu çok yaygın ve çoğu zaman basitçe çözülebilen bir sorundur. En önemli ipucu şudur: soğuk su normal akıp yalnızca sıcak su az geliyorsa, sorun genellikle evin ana su basıncında değil, sıcak su yolundaki bir daralmadadır. Bu daralma çoğu zaman musluk ucundaki perlatörde, duş başlığında, batarya içindeki kartuşta ya da kombinin sıcak su (plakalı) eşanjöründeki kireçte yaşanır. Bu rehberde sıcak suyun neden az aktığını belirtilere göre ayırt etmeyi, servis çağırmadan önce evde güvenle yapabileceğiniz kontrolleri ve hangi durumda profesyonel desteğin gerektiğini sade, güvenilir bir dille açıklıyoruz.",
       sections: [
@@ -18144,6 +18340,12 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         },
         {
           heading: "Sıcak Su Az Akmasının En Sık Nedenleri",
+          callout: {
+            variant: "warning",
+            title: "Bu adımda zorlanıyorsanız",
+            body:
+              "Kireç temizliği ve filtre kontrolünden sonra sorun devam ediyorsa neden kombi eşanjöründe, basınç düşürücüde veya tesisat içindedir; bunlar cihazla kontrol gerektirir. Profesyonel ekibimizden destek alabilirsiniz; arıza yerinde tespit edilir.",
+          },
           paragraphs: [
             "Sıcak suyun az gelmesinin arkasında genellikle aşağıdaki nedenlerden biri bulunur. Belirtiler, hangisinin sorumlu olduğunu büyük ölçüde ele verir; en olasıdan başlayarak kontrol etmek zaman kazandırır.",
           ],
@@ -18194,6 +18396,19 @@ const RAW_BLOG_POSTS: BlogPost[] = [
             "Eşanjör kireç sökme/değişimi yetkili teknisyen işidir",
             "Bozuk çek valf sıcak suyu soğuk hatta kaçırabilir",
             "Periyodik kombi bakımı kireçlenmeyi geciktirir",
+          ],
+        },
+        {
+          heading: "Termosifon veya Şofbenle Sıcak Su Az Akıyorsa",
+          paragraphs: [
+            "Evde kombi değil termosifon kullanıyorsanız, sıcak suyun az akması çoğunlukla tankın dibindeki kireç ve tortudan ya da giriş tarafındaki emniyet ventilinin tıkanmasından kaynaklanır. Önce termosifonun giriş vanasının sonuna kadar açık olduğunu kontrol edin; ardından yıllık tank temizliği ve magnezyum anot kontrolü yaptırın. Termosifon hiç ısıtmıyorsa termosifon su ısıtmıyor rehberimize bakın.",
+            "Kombili evlerde ise sıcak su hiç gelmiyorsa sorun akışta değil kombinin kendisindedir; bu durumda kombi sıcak su vermiyor rehberindeki adımları izleyin.",
+          ],
+          bullets: [
+            "Termosifon giriş vanası tam açık mı?",
+            "Tank dibinde kireç/tortu birikmiş olabilir",
+            "Emniyet ventili tıkalıysa akış düşer",
+            "Kombide hiç sıcak su yoksa ayrı bir arıza vardır",
           ],
         },
         {
@@ -18442,19 +18657,20 @@ const RAW_BLOG_POSTS: BlogPost[] = [
     },
   {
     slug: "klozet-montaji-nasil-yapilir",
+    inlineLinks: [{ href: "/hizmet/dusakabin-vitrifiye-montaji", anchor: "klozet ve vitrifiye montajı hizmetimiz" }],
     title: "Klozet Montajı Nasıl Yapılır? Alttan/Arkadan Çıkışlı, Asma Klozet ve Gider Borusu Rehberi",
-    seoTitle: "Klozet Montajı Nasıl Yapılır?",
+    seoTitle: "Klozet Montajı Nasıl Yapılır? Adım Adım Montaj ve Sızıntı Testi",
     keyword: "klozet montajı nasıl yapılır",
     volume: 480,
     kdi: 29,
     category: "Banyo & Vitrifiye",
     readMin: 14,
     published: "2026-06-22",
-    updated: "2026-06-22",
+    updated: "2026-10-03",
     excerpt:
       "Klozet montajı, doğru çıkış tipini seçmek ve sızdırmazlığı kusursuz yapmakla başlar. Alttan (yerden) çıkışlı, arkadan (duvardan) çıkışlı ve asma klozet montajını; gider borusu/körük bağlantısını, rezervuar kurulumunu, ölçüleri, eski klozetin sökülmesini ve montaj sonrası sızıntı testini adım adım anlatıyoruz.",
     metaDescription:
-      "Klozet montajı nasıl yapılır? Alttan/arkadan çıkışlı ve asma klozet montajı, gider borusu (körük) bağlantısı, rezervuar ve sızdırmazlık adım adım. İstanbul'da ücretsiz keşif: 0533 896 05 03.",
+      "Klozet nasıl takılır? Alttan ve arkadan çıkışlı klozet montajı, körük ve gider borusu bağlantısı, sızdırmazlık ve eski klozeti sökme adım adım resimli.",
     serviceSlug: "dusakabin-vitrifiye-montaji",
     featuredImage: {
       src: klozetMontajiFeatured,
@@ -18464,6 +18680,14 @@ const RAW_BLOG_POSTS: BlogPost[] = [
     intro:
       "Klozet montajı ilk bakışta basit görünse de, yanlış yapıldığında en sık karşılaşılan sorunların başında gelir: zeminden sızan koku, sallanan klozet, gider bağlantısından alt kata kaçan su ve kısa sürede gevşeyen sabitlemeler. Oysa doğru yapılan bir montaj yıllarca sorunsuz çalışır. İşin püf noktası üç başlıkta toplanır: klozetinizin çıkış tipini (alttan/yerden çıkışlı mı, arkadan/duvardan çıkışlı mı) doğru belirlemek, gider borusu ile klozet arasındaki bağlantıyı (körük veya rakor) sızdırmaz yapmak ve klozeti zemine teraziyle, doğru contalarla sabitlemek. Bu rehberde önce hangi malzemelere ihtiyacınız olduğunu, ardından eski klozetin nasıl söküleceğini ve her klozet tipi için montajın nasıl yapıldığını adım adım anlatıyoruz. Asma (gömme rezervuarlı) klozet montajını, rezervuar kurulumunu, alttan çıkışlı klozet ölçülerini ve montaj sonrası sızdırmazlık testini de ayrı ayrı ele alıyoruz. Amacımız, işi kendiniz yapacaksanız doğru yapmanızı sağlamak; profesyonel çağıracaksanız da neyin doğru yapıldığını bilmenizdir.",
     sections: [
+      {
+        heading: "Bunu Kendiniz Yapabilir misiniz?",
+        paragraphs: ["Başlamadan önce işin zorluğunu, gereken süreyi ve riski görün; kendinize uygun olup olmadığına karar verin. Montajı bize yaptırmak isterseniz klozet ve vitrifiye montajı hizmetimiz devreye girer; keşif ücretsizdir."],
+        table: {
+          headers: ["Ölçüt", "Değerlendirme"],
+          rows: [["Zorluk", "Zor (4/5)"], ["Tahmini süre", "1–2 saat"], ["Gerekli aletler", "Matkap, silikon, anahtar seti"], ["Ana risk", "Yanlış oturtma klozeti çatlatır veya giderden koku/kaçak yapar."]],
+        },
+      },
       {
         heading: "Önce Klozet Çıkış Tipini Belirleyin: Alttan mı, Arkadan mı?",
         paragraphs: [
@@ -18485,6 +18709,12 @@ const RAW_BLOG_POSTS: BlogPost[] = [
       },
       {
         heading: "Klozet Montajı İçin Gerekli Malzemeler",
+        callout: {
+          variant: "warning",
+          title: "Bu adımda zorlanıyorsanız",
+          body:
+            "Klozet tabanı tam oturmazsa veya silikon/kit yetersiz kalırsa her sifonda azar azar su kaçar; bu, fayans altına ve alt katın tavanına ulaşır. Montajı riske atmak istemiyorsanız profesyonel ekibimizden destek alabilirsiniz.",
+        },
         paragraphs: [
           "Montaja başlamadan önce tüm malzemeyi hazırlamak, işi yarıda bırakıp tekrar tekrar markete gitmenizi önler. Klozet türüne göre liste biraz değişse de temel ihtiyaçlar aynıdır.",
           "Özellikle gider bağlantı elemanı (körük veya rakor) ve sızdırmazlık malzemeleri en kritik kalemlerdir; çünkü montajın sızdırıp sızdırmayacağı doğrudan bunlara bağlıdır. Ucuz, ölçüsüz bir körük en sık yaşanan koku ve sızıntı sorununun kaynağıdır.",
@@ -18529,6 +18759,20 @@ const RAW_BLOG_POSTS: BlogPost[] = [
           "Duvarı (alçıpan/tuğla + seramik) kapatıp klozet için saplama çubuklarını bırakın",
           "Klozeti saplamalara geçirip contalarla sızdırmaz şekilde duvara çekin",
           "Kumanda panelini (basma kapağı) takıp çift kademeli sifonu test edin",
+        ],
+      },
+      {
+        heading: "Duvara Sıfır Klozet Montajı: Bilmeniz Gerekenler",
+        paragraphs: [
+          "\"Duvara sıfır klozet\" ifadesi, klozetin arka kısmının duvara tamamen yaslandığı, arkasında boşluk kalmayan modern montaj biçimini anlatır. Bu görünümü elde etmek için iki koşul gerekir: gider çıkışının duvarda (yatay) olması ve klozetin arkadan çıkışlı bir model olması. Gider deliği zemindeyse standart bir alttan çıkışlı klozetle duvara sıfır görünüm elde edilemez; klozetle duvar arasında mutlaka boşluk kalır.",
+          "Duvara sıfır montajda en kritik nokta, körük bağlantısının duvar içinde gizlenmesidir: klozet duvara yaslanırken körük hem gidere hem klozet çıkışına tam oturmalı, ezilmemeli ve kıvrılmamalıdır. Klozeti yerine iterken körüğün yerinden çıkmadığını kontrol etmek için montajın sonuna kadar bağlantıyı gözle takip edin; sızdırmazlık testini duvara tam yaslamadan önce yapın. Zeminde gider varsa ve duvara sıfır görünüm isteniyorsa çözüm, zemindeki giderin duvara taşınması (tesisat tadilatı) veya asma klozet sistemidir.",
+        ],
+        bullets: [
+          "Duvara sıfır görünüm = arkadan çıkışlı klozet + duvarda yatay gider",
+          "Gider zemindeyse duvara sıfır olmaz; ya gider duvara taşınır ya asma klozet seçilir",
+          "Klozeti iterken körüğün ezilmediğini/yerinden çıkmadığını kontrol edin",
+          "Sızdırmazlık testini klozeti duvara tam yaslamadan önce yapın",
+          "Klozet-duvar birleşimini ince bir silikonla kapatın (toz ve su girmesin)",
         ],
       },
       {
@@ -18591,6 +18835,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
       },
     ],
     faq: [
+        { q: "Klozet montajını ustaya yaptırırsam süreç nasıl işler?", a: "Ekibimiz eski klozeti söker, gider bağlantısını kontrol eder, yeni klozeti terazisinde monte eder ve silikon + sızıntı testiyle teslim eder. İşlem genellikle 1-2 saat sürer, keşif ücretsizdir." },
       {
         q: "Klozet montajı ne kadar sürer?",
         a: "Standart alttan çıkışlı bir klozetin montajı, eski klozet sökümü dahil ortalama 1-2 saatte tamamlanır. Asma (gömme rezervuarlı) klozetlerde montaj kasası ve duvar içi tesisat nedeniyle süre daha uzundur ve genellikle profesyonel işçilik gerektirir.",
@@ -18620,14 +18865,14 @@ const RAW_BLOG_POSTS: BlogPost[] = [
   {
     slug: "dusakabin-montaji-nasil-yapilir",
     title: "Duşakabin Montajı Nasıl Yapılır? Tekneli/Teknesiz, Fayans Üstü ve Sızdırmazlık Rehberi",
-    seoTitle: "Duşakabin Montajı Nasıl Yapılır?",
+    seoTitle: "Duşakabin Montajı Nasıl Yapılır? Adım Adım ve Sızdırmazlık",
     keyword: "duşakabin montajı nasıl yapılır",
     volume: 390,
     kdi: 29,
     category: "Banyo & Vitrifiye",
     readMin: 13,
     published: "2026-06-22",
-    updated: "2026-06-22",
+    updated: "2026-10-03",
     excerpt:
       "Duşakabin montajının sırrı doğru ölçü, terazi ve kusursuz sızdırmazlıktır. Tekneli ve teknesiz (fayans üstü) duşakabin montajını, profillerin tespitini, camların takılmasını, silikon çekme zamanlamasını, ölçü alma (90x90, 80x80) ve montaj sonrası su testini adım adım anlatıyoruz.",
     metaDescription:
@@ -18722,6 +18967,32 @@ const RAW_BLOG_POSTS: BlogPost[] = [
         ],
       },
       {
+        heading: "Cam Panelleri Taşırken ve Takarken: Temperli Cam Güvenliği",
+        paragraphs: [
+          "Duşakabin camları temperli (güvenlik) camdır; kırıldığında keskin parçalar yerine küçük taneciklere ayrılır. Ancak bu, taşırken dikkatsiz davranabileceğiniz anlamına gelmez: temperli camın en zayıf noktası kenarları ve köşeleridir. Camı sert zemine köşesiyle değdirmek ya da profilin içine zorla oturtmak, camın aniden patlamasına yol açabilir; bu yüzden panelleri her zaman dik taşıyın, köşelerini koruyun ve asla zorlamayın.",
+          "6-8 mm kalınlığındaki cam paneller tek kişinin taşıyacağından ağırdır; montajda mutlaka ikinci bir kişi bulundurun. Paneli profile yerleştirirken biri camı dik tutarken diğeri contayı ve profili oturtmalıdır. Camı yere koymanız gerekirse altına yumuşak bir battaniye ya da karton serin ve asla fayans üstüne doğrudan bırakmayın. Çocukları ve evcil hayvanları montaj alanından uzak tutun.",
+        ],
+        bullets: [
+          "Temperli camın zayıf noktası kenar ve köşeleridir — köşeyle zemine değdirmeyin",
+          "6-8 mm paneller ağırdır: montajda ikinci bir kişi şart",
+          "Camı asla zorlayarak profile oturtmayın — ani patlama riski",
+          "Yere koyacaksanız altına battaniye/karton serin, fayansa doğrudan bırakmayın",
+        ],
+      },
+      {
+        heading: "Küvet Üstüne Duşakabin Kurulur mu?",
+        paragraphs: [
+          "Küveti sökmek istemeyenler için küvet üstü duşakabin (küvet paravanı ya da küvet üstü kabin) pratik bir çözümdür. Montaj mantığı fayans üstü montajla aynıdır: profiller duvara teraziye alınarak sabitlenir, alt ray küvetin kenarına oturtulur. Kritik fark sızdırmazlıktadır: küvet kenarı ile duvar birleşimi ve alt ray ile küvet arası mutlaka hijyenik (mantar önleyici) silikonla kapatılmalıdır.",
+          "Dikkat edilecek iki nokta vardır: küvetin kenar genişliği alt rayı taşıyacak kadar düz ve geniş olmalı (dar ya da yuvarlak kenarlı küvetlerde ray oturmaz), ve küvetin malzemesi (akrilik küvetler esner) vida yerine yapıştırma/silikon esaslı sabitleme gerektirebilir. Küvet üstü çözümlerde suyun küvet içine doğru akması için iç/dış silikon kuralı aynen geçerlidir: silikon kabinin iç yüzüne değil, suyun kaçabileceği dış birleşimlere çekilir.",
+        ],
+        bullets: [
+          "Küvet üstü kabin, küveti sökmeden duş çözümü sağlar",
+          "Küvet kenarı düz ve rayı taşıyacak kadar geniş olmalı",
+          "Akrilik küvetlerde vida yerine silikon esaslı sabitleme gerekebilir",
+          "Silikon kuralı aynı: iç birleşimlere değil, dış kaçış noktalarına",
+        ],
+      },
+      {
         heading: "Duşakabin Tiplerine Göre Montaj Zorluğu",
         paragraphs: [
           "Hangi duşakabini seçtiğiniz, montajın ne kadar kolay ya da teknik olacağını doğrudan belirler. Aşağıdaki tablo en yaygın duşakabin tiplerini montaj yöntemi, su yalıtımı hassasiyeti ve montaj zorluğu açısından özetler.",
@@ -18794,7 +19065,15 @@ const RAW_BLOG_POSTS: BlogPost[] = [
       },
       {
         q: "Eski duşakabini söküp yenisini siz monte ediyor musunuz?",
-        a: "Evet. Eski duşakabini camlara ve seramiğe zarar vermeden söker, silikon kalıntılarını temizler, ölçüyü kontrol eder ve yeni kabini teraziye alıp sıfır sızıntı garantisiyle monte ederiz. İstanbul genelinde ücretsiz keşif için 0533 896 05 03'ü arayabilirsiniz.",
+        a: "Evet. Eski duşakabini camlara ve seramiğe zarar vermeden söker, silikon kalıntılarını temizler ve yeni kabini teraziye alınmış profillerle monte ederiz. Montaj sonrası su testi yapılır ve işçilik garantilidir; keşif ücretsizdir: 0533 896 05 03.",
+      },
+      {
+        q: "Duşakabin camı kendi kendine patlar mı, tehlikeli mi?",
+        a: "Duşakabin camları temperli güvenlik camıdır; kırıldığında keskin parçalar yerine küçük taneciklere ayrılır. Ani patlama genellikle kenar/köşeden darbe almış, profile zorla oturtulmuş ya da contasız sıkıştırılmış camlarda görülür. Bu yüzden camı köşesiyle zemine değdirmemek, zorlamamak ve ağır panellerde iki kişi çalışmak önemlidir; doğru monte edilmiş cam yıllarca sorunsuz kullanılır.",
+      },
+      {
+        q: "Küveti sökmeden üzerine duşakabin yaptırabilir miyim?",
+        a: "Evet, küvet üstü duşakabin (küvet paravanı) küveti sökmeden duş çözümü sağlar. Şartlar: küvet kenarının alt rayı taşıyacak kadar düz ve geniş olması, birleşimlerin mantar önleyici silikonla kapatılması. Akrilik küvetlerde vida yerine silikon esaslı sabitleme gerekebilir. Yerinde keşifle küvetinizin uygun olup olmadığını ücretsiz kontrol ediyoruz.",
       },
     ],
   },
@@ -18952,14 +19231,14 @@ const RAW_BLOG_POSTS: BlogPost[] = [
     category: "Acil & Kaçak Tesisatı",
     readMin: 6,
     published: "2026-01-15",
-    updated: "2026-01-15",
+    updated: "2026-10-01",
     excerpt:
-      "Gecenin bir yarısı tavandan su damladığında ya da mutfak dolabının altından su fışkırdığında panik yapmak normaldir. Ancak su borusu patladığında ilk 5 dakika hasarın büyüklüğünü belirleyen en kritik zaman dilimidir. Doğru müdahale ile 50.000 TL'lik tavan-parke-mobilya hasarı, birkaç yüz TL'lik lokal onarıma indirilebilir. Acil su patlaması durumunda yapılması gerekenler adım adım.",
+      "Su borusu patladı ne yapmalı? İlk 5 dakika hasarın büyüklüğünü belirler: ana vanayı kapatın, elektriği kesin, suyu tahliye edin, tesisatçı çağırın. 7 adımda ilk müdahale rehberi — acil tesisat: 0533 896 05 03.",
     metaDescription:
       "Su borusu patladı ne yapmalı? 7 adımda ilk müdahale rehberi: ana vana kapatma, elektrik kesme, suyu tahliye etme, tesisatçı çağırma. Acil tesisat: 0533 896 05 03.",
-    serviceSlug: "acil-tesisatci",
+    serviceSlug: "su-kacagi-tespiti",
     intro:
-      "Gecenin bir yarısı tavandan su damladığını fark ettiğinizde ya da mutfak dolabının altından fıskiye gibi su fışkırdığında panik yapmak çok normal. Ancak su borusu patladığında ilk 5 dakika, hasarın büyüklüğünü belirleyen en kritik zaman dilimidir. Doğru müdahale ile 50.000 TL'lik tavan-parke-mobilya hasarı, birkaç yüz TL'lik lokal onarıma indirilebilir. 15 yıldır Ankara'da acil tesisat müdahalesi yapan ekip olarak, sahada en sık karşılaştığımız su patlaması senaryolarında hangi adımları hangi sırayla uygulamanız gerektiğini bu rehberde adım adım anlatıyoruz. Ana vananın nerede olduğunu bilmiyor musunuz? Elektrik sigortasını kapatmadan suyla temas etmek güvenli mi? Tesisatçı gelene kadar ne yapmalısınız? Hepsinin cevabı aşağıda.",
+      "Kısa cevap: Önce ana su vanasını kapatın (saat yönünde sonuna kadar), patlayan borunun yakınında elektrik varsa sigortayı indirin, sonra kalorifer peteklerinin purjöründen ya da musluktan kalan suyu boşaltın ve en kısa sürede tesisatçıyı arayın — ilk 5 dakika, hasarın büyüklüğünü belirleyen en kritik zaman dilimidir. Gecenin bir yarısı tavandan su damladığını fark ettiğinizde ya da mutfak dolabının altından fıskiye gibi su fışkırdığında panik yapmak çok normal; doğru müdahale ile büyük maliyetli tavan-parke-mobilya hasarı, küçük bir lokal onarıma indirilebilir. 15 yıldır İstanbul'da acil tesisat müdahalesi yapan ekip olarak, sahada en sık karşılaştığımız su patlaması senaryolarında hangi adımları hangi sırayla uygulamanız gerektiğini bu rehberde adım adım anlatıyoruz. Ana vananın nerede olduğunu bilmiyor musunuz? Elektrik sigortasını kapatmadan suyla temas etmek güvenli mi? Tesisatçı gelene kadar ne yapmalısınız? Hepsinin cevabı aşağıda.",
     sections: [
       {
         heading: "Su Borusu Patlaması Nedir ve Neden Olur?",
@@ -19130,7 +19409,7 @@ const RAW_BLOG_POSTS: BlogPost[] = [
     ],
     inlineLinks: [
       { slug: "su-vanasi-nasil-kapatilir-acilir", anchor: "su vanası nasıl kapatılır" },
-      { slug: "su-kacagi-tespiti", anchor: "su kaçağı tespiti" },
+      { href: "/hizmet/su-kacagi-tespiti", anchor: "su kaçağı tespiti" },
       { slug: "tesisat-borusu-cesitleri-pprc-pvc-pex", anchor: "tesisat borusu çeşitleri" },
     ],
     linkAliases: ["su patlaması ilk müdahale", "su kaçak acil", "boru patlama", "acil su kaçağı"],
@@ -19205,6 +19484,19 @@ export function relatedPostsFor(post: BlogPost, limit = 4): BlogPost[] {
     .slice(0, limit);
 }
 
+// Silo chain: every post links to the previous and next guide in its service
+// silo (circular), so no post is ever orphaned — each receives ≥2 inlinks even
+// when the relevance scoring never picks it.
+export function siloNeighbors(post: BlogPost): { prev?: BlogPost; next?: BlogPost } {
+  const silo = [...postsForService(post.serviceSlug)].sort((a, b) => a.slug.localeCompare(b.slug));
+  if (silo.length < 2) return {};
+  const i = silo.findIndex((p) => p.slug === post.slug);
+  if (i < 0) return {};
+  const prev = silo[(i - 1 + silo.length) % silo.length];
+  const next = silo[(i + 1) % silo.length];
+  return { prev, next: next.slug === prev.slug ? undefined : next };
+}
+
 // Strip Turkish diacritics so slug tokens (ascii) can match accented body text.
 const deaccentTr = (s: string) =>
   s
@@ -19222,7 +19514,33 @@ const deaccentTr = (s: string) =>
 // Hub support guides: posts directly in the silo, topped up with topically
 // relevant guides when a hub is thin (Internal Linking — Steps 3 & 4). Highest
 // search volume first, so equity flows to the pages closest to ranking.
+// IL-17: service page → pillar + under-linked boost guides first (reverse links).
+export const SERVICE_PRIORITY_GUIDES: Record<string, string[]> = {
+  "su-kacagi-tespiti": ["kirmadan-su-kacagi-tespiti", "su-patlamasi-ilk-mudahale", "su-sayaci-nasil-okunur", "tesisat-borusu-cesitleri-pprc-pvc-pex", "vana-cesitleri-nedir-ev-tesisatinda-kullanimi"],
+  "tikaniklik-acma": ["kanal-goruntuleme-nedir-nasil-yapilir", "gider-acma-teli-spiral-nasil-kullanilir", "giderden-gelen-lagim-kokusu-nasil-giderilir"],
+  "kanal-goruntuleme": ["kanal-goruntuleme-nedir-nasil-yapilir", "vidanjor-nedir-ne-ise-yarar", "foseptik-cukuru-nedir-yapimi-temizligi"],
+  "kanalizasyon-acma": ["foseptik-cukuru-nedir-yapimi-temizligi", "vidanjor-nedir-ne-ise-yarar"],
+  "tuvalet-tikanikligi-acma": ["tuvalet-klozet-kokusu-nasil-giderilir", "klozet-rezervuar-su-dolmuyor"],
+  "petek-temizligi": ["petek-temizligi-nasil-yapilir", "petekler-nasil-acilir", "radyator-nedir-cesitleri-secim-rehberi", "havlupan-nedir-cesitleri-secim-montaj"],
+  "kombi-servisi": ["kombi-nedir-nasil-calisir", "kombi-ariza-kodlari-rehberi", "bosch-kombi-resetleme", "vaillant-kombi-resetleme", "viessmann-kombi-resetleme", "kombiden-ses-gelmesi"],
+  "kombi-montaji": ["kombi-montaji-nasil-yapilir-baglanti-rehberi", "sofben-nedir-nasil-calisir-baglanir", "termosifon-su-isitmiyor", "banyoya-sicak-su-az-akiyor-nedenleri"],
+  "dogalgaz-tesisati": ["daire-ici-dogalgaz-tesisati-nasil-yapilir", "dogalgaz-kacagi", "dogalgaz-sobasi-nasil-baglanir", "dogalgaz-sayaci-nasil-okunur"],
+  "dusakabin-vitrifiye-montaji": ["klozet-cesitleri-nedir-secim-rehberi", "dusakabin-montaji-nasil-yapilir", "klozet-kapagi-nasil-takilir", "bidet-taharet-muslugu-nedir", "rezervuar-nedir-nasil-calisir-cesitleri"],
+  "musluk-batarya-degisimi": ["musluk-batarya-cesitleri-nedir", "vana-cesitleri-nedir-ev-tesisatinda-kullanimi", "bidet-taharet-muslugu-nedir"],
+  "hidrofor-kurulumu": ["sihhi-tesisat-nedir", "hidrofor-basinc-ayari-nasil-yapilir"],
+};
+
 export function guidesForService(serviceSlug: string, limit = 6): BlogPost[] {
+  const pri = (SERVICE_PRIORITY_GUIDES[serviceSlug] ?? []).map((x) => BLOG_POSTS.find((b) => b.slug === x)).filter((b): b is BlogPost => !!b);
+  if (pri.length) {
+    const seen = new Set(pri.map((b) => b.slug));
+    const rest = guidesBase(serviceSlug, limit + pri.length).filter((b) => !seen.has(b.slug));
+    return [...pri, ...rest].slice(0, Math.max(limit, pri.length));
+  }
+  return guidesBase(serviceSlug, limit);
+}
+
+function guidesBase(serviceSlug: string, limit: number): BlogPost[] {
   const direct = postsForService(serviceSlug);
   if (direct.length >= limit) {
     return [...direct].sort((a, b) => b.volume - a.volume).slice(0, limit);
@@ -19280,6 +19598,55 @@ function aliasFromKeyword(keyword: string): string | null {
   return k;
 }
 
+// IL-7: duplicate-topic secondary → canonical post. Anchors for the shared
+// topic point at the canonical so the two pages stop competing.
+export const CANONICAL_TARGET: Record<string, string> = {
+  "kombi-atesleme-yapmiyor": "kombi-atesleme-yapmiyor",
+  "kombi-su-akitiyor": "kombi-su-akitiyor-nedenleri-cozumu",
+  "kombi-neden-su-akitir": "kombi-su-akitiyor-nedenleri-cozumu",
+  "kombi-sicak-su-vermiyor": "kombi-sicak-su-vermiyor",
+  "kombi-ariza-kodlari-rehberi": "kombi-ariza-kodlari-rehberi",
+  "foseptik-cukuru-nedir-nasil-calisir": "foseptik-cukuru-nedir-yapimi-temizligi",
+  "yerden-isitma-sistemi-rehberi": "yerden-isitma-nedir-nasil-yapilir",
+  "sofben-termosifon-suyu-isitmiyor-nedenleri-cozumu": "termosifon-su-isitmiyor",
+  "kombi-montaji-nasil-yapilir-baglanti-rehberi": "kombi-montaji-nasil-yapilir-baglanti-rehberi",
+  "kombi-basinci-neden-duser": "kombi-basinci-dusuyor",
+  "kombi-bari-kac-olmali": "kombi-bari-kac-olmali",
+  "klozet-su-kaciriyorsa-basit-tamiri": "klozet-su-kaciriyor-nasil-tamir-edilir",
+  "kombi-calisiyor-ama-petekler-isinmiyor": "kombi-calisiyor-ama-petekler-isinmiyor",
+};
+
+// IL-5/IL-6: researched anchors. Service-intent phrases → service slugs
+// (rendered as /hizmet/…); informational phrases → blog posts.
+const PLANNED_ANCHORS: Record<string, string[]> = {
+  "su-kacagi-tespiti": ["su kaçağı tespiti hizmeti", "boru ve tesisat tamiri"],
+  "tikaniklik-acma": ["tıkanıklık açma hizmeti", "gider açma hizmeti"],
+  "petek-temizligi": ["makineli petek temizliği", "petek temizleme hizmeti"],
+  "kanal-goruntuleme": ["kamera ile gider kontrolü", "kanal görüntüleme hizmeti"],
+  "kombi-servisi": ["kombi servisi"],
+  "kombi-montaji": ["kombi montajı hizmeti"],
+  "taharet-muslugu-nasil-takilir-degistirilir": ["taharet musluğu değişimi", "taharet musluğu", "klozet taharet musluğu"],
+  "su-vanasi-nasil-kapatilir-acilir": ["su vanasını kapatın", "ana su vanası"],
+  "bulasik-makinesi-nasil-baglanir": ["bulaşık makinesi bağlantısı"],
+  "kombi-bacasi-nedir-cesitleri-montaji": ["kombi bacası", "baca bağlantısı", "hermetik baca"],
+  "musluk-batarya-tamiri-baslik-kartus-degisimi": ["kartuş değişimi", "musluk başlığı", "batarya kartuşu"],
+  "kombi-montaji-nasil-yapilir-baglanti-rehberi": ["kombi montajı", "kombi bağlantısı"],
+  "radyator-nedir-cesitleri-secim-rehberi": ["panel radyatör", "radyatör çeşitleri"],
+  "klozet-ic-takimi-degisimi": ["iç takım değişimi", "rezervuar iç takımı", "klozet iç takımı"],
+  "klozet-su-kaciriyor-nasil-tamir-edilir": ["klozet su kaçırıyor"],
+  "kombi-nedir-nasil-calisir": ["kombi nasıl çalışır", "kombinin çalışma prensibi"],
+  "kombi-ariza-kodlari-rehberi": ["kombi arıza kodları", "arıza kodu"],
+  "petek-temizligi-nasil-yapilir": ["petek temizliği", "petekleri temizlemek"],
+  "kirmadan-su-kacagi-tespiti": ["kırmadan su kaçağı", "kaçak tespiti"],
+  "kanal-goruntuleme-nedir-nasil-yapilir": ["kanal görüntüleme nedir", "kamera ile gider"],
+  "klozet-cesitleri-nedir-secim-rehberi": ["klozet çeşitleri", "klozet seçimi"],
+  "musluk-batarya-cesitleri-nedir": ["batarya çeşitleri", "musluk çeşitleri"],
+  "camasir-makinesi-nasil-baglanir": ["çamaşır makinesi bağlantısı"],
+  "sihhi-tesisat-nedir": ["sıhhi tesisat"],
+  "daire-ici-dogalgaz-tesisati-nasil-yapilir": ["daire içi doğalgaz"],
+  "sofben-nedir-nasil-calisir-baglanir": ["şofben nedir", "şofben nasıl çalışır"],
+};
+
 export const INLINE_LINK_INDEX: InlinePhrase[] = (() => {
   const seen = new Set<string>();
   const list: InlinePhrase[] = [];
@@ -19291,7 +19658,10 @@ export const INLINE_LINK_INDEX: InlinePhrase[] = (() => {
     list.push({ phrase, slug });
   };
   // 1) Exact keywords first — the most specific, authoritative anchor→slug map.
-  for (const p of BLOG_POSTS) push(p.keyword, p.slug);
+  //    Cannibalization secondaries hand their keyword to the canonical post (IL-7).
+  for (const p of BLOG_POSTS) push(p.keyword, CANONICAL_TARGET[p.slug] ?? p.slug);
+  // 1b) Researched anchor plan (IL-5/IL-6) — intent-routed blog + service anchors.
+  for (const [slug, phrases] of Object.entries(PLANNED_ANCHORS)) phrases.forEach((a) => push(a, slug));
   // 2) Editor-curated aliases — high editorial trust, added before auto variants.
   for (const p of BLOG_POSTS) (p.linkAliases ?? []).forEach((a) => push(a, p.slug));
   // 3) Auto-derived shorter variants — extra coverage + anchor diversity.

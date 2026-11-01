@@ -28,7 +28,9 @@ export const Route = createFileRoute("/sitemap.xml")({
   server: {
     handlers: {
       GET: async () => {
-        const lastmod = new Date().toISOString().slice(0, 10);
+        // Fixed date for static pages: an always-"today" lastmod is ignored by
+        // Google (it looks like spam). Bump this when static pages actually change.
+        const lastmod = "2026-10-01";
         const entries: SitemapEntry[] = [
           { path: "/", changefreq: "weekly", priority: "1.0", lastmod },
           { path: "/hizmetler", changefreq: "monthly", priority: "0.8", lastmod },

@@ -1,286 +1,129 @@
 ---
-slug: "inverter-vs-standart-klima"
-title: "Inverter Klima vs Standart (On/Off) Klima: Hangisi Daha Ekonomik? (2026)"
-seoTitle: "Inverter Klima vs Standart (On/Off) Klima"
-keyword: "inverter klima vs standart"
-volume: 200
-kdi: 30
-category: "Klima"
-readMin: 6
-published: "2026-07-26"
-updated: "2026-07-26"
-excerpt: >
-  Inverter klima kompresör hızını sürekli değiştirerek oda sıcaklığını sabit
-  tutar; standart (on/off) klima ise tam güçte çalışıp durur.
-metaDescription: "Inverter vs on/off elektrik tüketimi karşılaştırması, SEER/SCOP, geri ödeme süresi ve 2026 fiyat aralıkları. İstanbul geneli 7/24 servis: 0533 896 05 03. Göl..."
-serviceSlug: "klima-servisi"
+slug: inverter-vs-standart-klima
+title: 'Inverter Klima vs Standart (On/Off) Klima: Hangisi Daha Avantajlı? (2026)'
+seoTitle: Inverter Klima vs Standart (On/Off) Klima Karşılaştırması
+keyword: inverter klima vs standart
+category: Klima
+serviceSlug: klima-servisi
+readMin: 7
+published: '2026-07-26'
+updated: '2026-10-02'
+excerpt: |
+  Inverter klima kompresör hızını sürekli ayarlayarak oda sıcaklığını sabit tutar; standart (on/off) klima ise tam güçte çalışıp durur. Çalışma prensibi, tüketim, ses, konfor ve kullanım senaryosuna göre seçim kriterleri bu rehberde.
 featuredImage:
-  src: "/blog-images/inverter-vs-standart-klima-hero.jpg"
-  alt: "inverter klima vs standart — İstanbul saha rehberi görseli"
-  caption: "Gölge Tesisat İstanbul saha ekibi."
-intro: >
-  Inverter klima kompresör hızını sürekli değiştirerek oda sıcaklığını sabit
-  tutar; standart (on/off) klima ise tam güçte çalışıp durur. Sonuç: inverter
-  modelde tüketim %30–45 daha düşük, ses seviyesi 5–8 dB daha az, kompresör ömrü
-  ise iki katına kadar çıkar. Bu rehberde 2026 elektrik tarifeleri üzerinden
-  karşılaştırma tablosu, geri ödeme süresi hesabı ve seçim kriterlerini
-  bulacaksınız.
+  src: /blog-images/inverter-vs-standart-klima-hero.jpg
+  alt: Inverter klima vs standart klima — İstanbul saha rehberi görseli
+  caption: Gölge Tesisat İstanbul — inverter ve standart klima karşılaştırma rehberi.
+metaDescription: 'Inverter klima mı standart (on/off) klima mı? Çalışma prensibi, tüketim, ses seviyesi, konfor ve kullanım senaryosuna göre seçim rehberi.'
+intro: |
+  Klima alırken karşılaşılan en temel soru şudur: inverter mi, standart (on/off) mu? Inverter klima kompresör hızını sürekli değiştirerek oda sıcaklığını sabit tutar; standart klima ise hedef sıcaklığa ulaşınca tamamen durur, sonra tekrar tam güçte başlar. Bu fark; elektrik tüketimini, ses seviyesini, konforu ve cihaz ömrünü doğrudan etkiler. Bu rehberde iki teknolojiyi çalışma prensibinden kullanım senaryolarına kadar karşılaştırıyoruz.
 sections:
-  - heading: "Çalışma Prensibi Farkı"
+  - heading: Öne Çıkanlar
+    id: one-cikanlar
+    bullets:
+      - Inverter klima hedef sıcaklığa yaklaştıkça kompresörü yavaşlatır; standart klima tamamen durup yeniden başlar.
+      - Sürekli dur-kalk döngüsü (kısa devir) standart klimada hem tüketimi hem kompresör aşınmasını artırır.
+      - Inverter modeller sıcaklığı çok daha dar bir aralıkta tutar ve iç ünitede belirgin şekilde daha sessizdir.
+      - Günde birkaç saatten uzun kullanılan her ortamda inverter tercih edilmelidir; çok seyrek kullanılan yazlıklarda standart model düşünülebilir.
+      - 'Doğru BTU seçimi ve düzenli bakım, hangi teknolojiyi alırsanız alın verimin yarısıdır.'
+  - heading: Çalışma Prensibi Farkı
+    id: calisma-prensibi
     paragraphs:
-      - "**Kısa devir (short cycling):** Standart klima hedef sıcaklığa ulaşınca tamamen kapanır, 3–5 dk sonra tekrar tam güçte başlar. Bu döngü hem elektrik hem kompresör aşınması demektir."
+      - 'Standart (on/off) klima hedef sıcaklığa ulaşınca kompresörü tamamen kapatır; oda ısınınca tekrar tam güçte başlatır. Buna kısa devir (short cycling) denir ve her başlangıç, kompresörün en çok elektrik çektiği ve en çok yıprandığı andır.'
+      - 'Inverter klima ise kompresörü kapatmak yerine yavaşlatır. Oda hedef sıcaklığa yaklaştıkça devir düşer ve sıcaklık küçük müdahalelerle sabit tutulur. Dur-kalk döngüsü ortadan kalktığı için tüketim düşer, ses azalır ve kompresör ömrü uzar.'
     image:
-      src: "/blog-images/inverter-vs-standart-klima-infographic.jpg"
-      alt: "Inverter vs standart klima infografik"
-      caption: "Klima karşılaştırma infografik."
-  - heading: "2026 Elektrik Tüketimi Karşılaştırması"
+      src: /blog-images/inverter-vs-standart-klima-infographic.jpg
+      alt: Inverter ve standart klima çalışma prensibi karşılaştırması
+      caption: Inverter teknolojisi kompresörü durdurmak yerine yavaşlatır.
+    bullets:
+      - '**Kompresör:** Değişken hızlı (DC motor) — Sabit hızlı (AC motor)'
+      - '**Sıcaklık dalgalanması:** Çok dar aralık — Belirgin dalgalanma'
+      - '**İlk açılış:** Yumuşak ve sessiz — Ani ve gürültülü'
+      - '**Kısa devir:** Yok — Sık dur-kalk döngüsü'
+      - '**Enerji sınıfı:** Genellikle A++ / A+++ — Genellikle A / A+'
+      - '**Ses seviyesi:** Daha düşük — Daha yüksek'
+  - heading: Elektrik Tüketimi ve Verim
+    id: tuketim-verim
     paragraphs:
-      - "*(12.000 BTU, günde 8 saat kullanım, 2026 mesken tarifesi ~3,15 TL/kWh)*"
-      - "**Fark:** A+++ inverter, A on/off'a göre yılda **~2.760 TL** daha az fatura üretir."
+      - 'Kısa devir döngüsü yüzünden standart klima, aynı soğutma işi için inverter modele göre belirgin şekilde daha fazla elektrik harcar. Inverter cihaz hedef sıcaklığa ulaştıktan sonra düşük devirde çalışmaya devam ettiği için toplam tüketim düşer.'
+      - 'Verim karşılaştırmasında asıl ölçüt SEER (soğutmada sezonsal verim) ve SCOP (ısıtmada sezonsal verim) değerleridir. Sadece inverter etiketine değil, enerji etiketindeki bu değerlere bakın; aynı teknolojiye sahip iki cihaz arasında bile ciddi verim farkı olabilir.'
+      - 'Kısmi yük performansı inverterin asıl güçlü olduğu alandır: gerçek kullanımda klima çoğu zaman tam kapasitede değil, kısmi yükte çalışır. Inverter bu aralıkta verimini korurken standart cihaz dur-kalk döngüsüyle verim kaybeder.'
+      - '**Geri ödeme mantığı:** Inverter cihazın fiyat farkı, kullanım süreniz uzadıkça elektrik tasarrufuyla kapanır. Günde birkaç saatten fazla kullanıyorsanız fark birkaç sezonda amorti olur; ayda birkaç gün kullanılan bir yazlıkta ise farkın kapanması çok uzun sürebilir.'
     image:
-      src: "/blog-images/inverter-vs-standart-klima-comparison.jpg"
-      alt: "Inverter vs standart klima karşılaştırma"
-      caption: "Klima karşılaştırma karşılaştırma."
-  - heading: "Fiyat & Geri Ödeme (2026)"
+      src: /blog-images/inverter-vs-standart-klima-comparison.jpg
+      alt: Inverter ve standart klima tüketim karşılaştırması
+      caption: 'Kısmi yükte çalışma, inverterin gerçek üstünlüğünü ortaya çıkarır.'
+  - heading: Konfor ve Ses
+    id: konfor-ses
     paragraphs:
-      - "**Geri ödeme formülü:**"
-      - "``` Geri ödeme yılı = (Inverter fiyat − On/off fiyat) / Yıllık tasarruf Örnek: (28.000 − 18.000) / 2.760 ≈ 3.6 yıl ```"
-      - "Klima ortalama 10–12 yıl kullanıldığından, inverter kendisini **2.5 kat** amorti eder."
+      - Standart klimada oda sıcaklığı hedef değerin altına ve üstüne salınır; bu dalgalanma özellikle uyku sırasında hissedilir. Inverter cihaz sıcaklığı dar bir bantta tuttuğu için ortam daha dengeli hisseder.
+      - 'Ses farkı da belirgindir: inverter iç ünite düşük devirde neredeyse duyulmaz seviyeye inerken standart cihaz her kompresör başlangıcında ses çıkarır. Yatak odası ve çalışma odası gibi sessizlik gereken alanlarda inverter neredeyse zorunludur.'
+      - 'Nem kontrolünde de inverter öndedir: düşük devirde uzun süre çalıştığı için oda nemini daha dengeli alır. Standart cihaz hızlı soğutup durduğu için oda soğuk ama nemli hissedilebilir.'
     image:
-      src: "/blog-images/inverter-vs-standart-klima-symptoms.jpg"
-      alt: "Inverter vs standart klima belirtiler"
-      caption: "Klima karşılaştırma belirtiler."
-  - heading: "Konfor & Ses"
+      src: /blog-images/inverter-vs-standart-klima-chart.jpg
+      alt: Inverter ve standart klima sıcaklık dalgalanması grafiği
+      caption: Inverter sıcaklığı dar bantta tutar; standart cihaz dalgalanır.
+  - heading: Isıtma Modunda Fark
+    id: isitma-modu
     paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
+      - Kışın ısıtma için klima kullanıyorsanız fark daha da önemlidir. Dış hava sıcaklığı gün içinde değiştikçe inverter cihaz devrini ayarlayarak konforu korur; standart cihaz düşük dış sıcaklıklarda verim kaybeder ve tam yükte bile zorlanır.
+      - Isıtma performansı için cihazın SCOP değerine ve çalışabildiği en düşük dış sıcaklık değerine bakın. Kışın düzenli ısıtma kullanımı planlıyorsanız inverter dışında bir seçenek düşünmeyin.
+  - heading: Kullanım Senaryosuna Göre Seçim
+    id: senaryo-secim
+    paragraphs:
+      - 'Doğru seçim, cihazı ne kadar ve hangi amaçla kullanacağınıza bağlıdır.'
+    inlineLinks:
+      - slug: klima-btu-hesaplama
+        anchor: BTU hesaplama rehberi
+    bullets:
+      - '**Günde 4+ saat, yaz + kış kullanım:** Inverter (yüksek enerji sınıfı)'
+      - '**Sadece yaz, günde birkaç saat:** Inverter'
+      - '**Ofis, dükkan, günde 8+ saat:** Kesinlikle inverter'
+      - '**Yatak odası:** Inverter (ses nedeniyle)'
+      - '**Yazlık, ayda birkaç gün:** Standart model düşünülebilir'
+      - '**Kısa vadeli kira kullanımı:** Bütçeye göre her ikisi de'
+  - heading: Sık Yapılan Hatalar
+    id: sik-hatalar
+    bullets:
+      - 'İlk maliyeti ucuz diye düşük verimli standart cihaz almak; fark, faturayla birkaç sezonda kapanır.'
+      - Küçük odaya gereğinden büyük BTU almak; aşırı kapasite kısa devire yol açar ve inverter avantajını yok eder.
+      - Enerji sınıfına ve SEER/SCOP değerine bakmadan sadece markaya göre karar vermek.
+      - Multi-split gereken durumlarda tek iç üniteyle iki odayı soğutmaya çalışmak.
+      - Bakımı ihmal etmek; kirli filtre ve kirli serpantin verim avantajının önemli kısmını siler.
     image:
-      src: "/blog-images/inverter-vs-standart-klima-chart.jpg"
-      alt: "Inverter vs standart klima grafik"
-      caption: "Klima karşılaştırma grafik."
-  - heading: "Kullanım Senaryolarına Göre Seçim"
+      src: /blog-images/inverter-vs-standart-klima-symptoms.jpg
+      alt: Klima seçiminde sık yapılan hatalar
+      caption: 'Yanlış kapasite seçimi, en iyi cihazın bile verimini düşürür.'
+  - heading: Montaj ve Bakımın Rolü
+    id: montaj-bakim
     paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Sık Yapılan 6 Hata"
+      - 'Hangi teknolojiyi seçerseniz seçin, verim ancak doğru montaj ve düzenli bakımla korunur. Yanlış konumlandırılmış iç ünite, eksik vakumlanmış tesisat veya kirli filtre, inverter cihazın avantajını büyük ölçüde ortadan kaldırır.'
+      - 'Montajda iç ünitenin hava akışının engellenmediğinden, drenaj eğiminin doğru olduğundan ve tesisatın vakumlandığından emin olun. Sezon öncesi filtre temizliği ve gaz kontrolü yaptırın.'
+    inlineLinks:
+      - slug: klima-montaji-nasil-yapilir
+        anchor: klima montajı nasıl yapılır
+      - slug: klima-gazi-ne-zaman-biter
+        anchor: klima gazı ne zaman biter
+  - heading: 'Sonuç: Hangisini Seçmeli?'
+    id: sonuc
     paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "SSS"
-    paragraphs:
-      - "**Inverter klima gerçekten %40 tasarruf sağlar mı?** SEER 8.5 vs SEER 3.6 kıyasında evet, tam olarak %42–45. SEER 6.5 vs 4.6 kıyasında ise %28–30."
-      - "**On/off klima daha mı dayanıklıdır?** Hayır, tam tersi. Sürekli açılıp kapanan kompresör 6–8 yılda yorulurken inverter DC motor 12–15 yıl gider."
-      - "**İnverter klima kışın ısıtır mı?** Evet. A+++ inverter modeller −15 °C dış sıcaklıkta bile çalışır ve doğalgaz kombiye kıyasla ısıtmada **%30 daha ucuz** olabilir (bkz. ısı pompası mantığı)."
-      - "**Kaç BTU almalıyım?** m² × 600 baz + cephe/cam düzeltmesi. Detaylı hesap için BTU rehberimize bakın."
-  - heading: "Modülasyon Aralığı ve Kısmi Yük Verimi"
-    paragraphs:
-      - "Bir inverter klima nominal kapasitesinin **%15-%110** aralığında çalışabilir. Bu inanılmaz esneklik gerçek yaşamda kritik: ilk 20 dk odayı 24 °C'ye getirmek için %110 zorlanır, sonra kompresör %25-40'a düşerek sıcaklığı tutar. On/off klima ise %100 çalış → durak → %100 döngüsünde salınır; her başlangıçta 2-3 kat elektrik çeker (start-up peak)."
-      - "Kısmi yük SEER (Part Load Value) verileri: - 24.000 BTU inverter A+++ nominal SEER 8.5, %50 yükte SEER **10.5** - 24.000 BTU on/off A+ nominal SEER 5.6, %50 yükte SEER **3.9**"
-      - "Türkiye'de sıcak yaz haftası hariç klima ortalama %30-50 yükte çalışır — inverterin gerçek üstünlüğü tam bu noktada ortaya çıkar."
-  - heading: "12 Aylık Elektrik Faturası — Gerçek Ölçüm"
-    paragraphs:
-      - "Kadıköy'de 85 m² 2+1 daire, 2 adet klima, 2025 haziran-2026 mayıs dönemi:"
-      - "10 yıllık fark: **20.800 ₺**. İnverter için ödenen ek 12.000 ₺ fiyat farkı **5. yılda amorti** oluyor."
-  - heading: "Isıtma Modunda Fark Daha Büyük"
-    paragraphs:
-      - "Soğutma modunda inverter avantajı %30-45; **ısıtma modunda %50-70**'e çıkar. Sebep: kış aylarında dış hava sıcaklığı sık değişir (gündüz 8 °C, gece -3 °C). Inverter modülasyon yaptığı için hedef sıcaklığı konforlu tutar. On/off ise -3 °C'de tam yükte çalışamaz, yardımcı ısıtıcıya (electric heater) döner — SCOP 3.5 → 1.8 seviyesine düşer."
-  - heading: "Marka Modülasyon Kalitesi"
-    paragraphs:
-      - "Tüm \"inverter\" etiketli klimalar aynı değildir. Modülasyon aralığı (turn-down ratio) markaya göre değişir:"
-      - "Aralık ne kadar geniş → o kadar iyi kısmi yük verimi. Dar aralıklı \"ekonomik inverter\" bir on/off cihazdan sadece %15 daha iyidir."
-  - heading: "Ses ve Konfor Detayları"
-    paragraphs:
-      - "Inverter iç ünitede 19-24 dB kayıt edilirken on/off 32-42 dB üretir. Fark **10 dB = akustik olarak yarı yarıya sessizlik** demektir. Yatak odasında en düşük fan hızında inverter cihazı zar zor duyulur; on/off her kompresör başlangıcında (~1 saatte bir) uykuyu böler."
-      - "Sıcaklık dalgalanması ölçümü (25 °C hedef, 3 saat kayıt): - Inverter: 24.6 - 25.4 °C aralığı - On/off: 22.8 - 27.6 °C aralığı"
-  - heading: "Yatırım Kararı: Hangisi, Ne Zaman?"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Otoriter Kaynaklar ve Referanslar"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Sonuç"
-    paragraphs:
-      - "Günde 3 saatten fazla kullanılacak her klima **inverter** olmalıdır. A+++ modeller ilk maliyeti 3–4 yılda amorti eder, sonraki 8 yıl saf tasarruf verir. Yatak odası ve ofis gibi sessizlik gereken alanlarda inverter zorunludur. Doğru [BTU hesaplama](/preview/klima-btu-hesaplama) ve profesyonel [klima montajı](/preview/klima-montaji-nasil-yapilir) ile verim garantiye alınır; yıllık [gaz kontrolü](/preview/klima-gazi-ne-zaman-biter) ise inverter avantajının kalıcı olmasını sağlar."
-  - heading: "Gölge Tesisat İstanbul — Acil Servis"
-    paragraphs:
-      - "İstanbul geneli 7/24 tesisat servisimiz Kadıköy, Beşiktaş, Ümraniye, Başakşehir dahil tüm ilçelerde 45 dakika içinde adresinize gelir. Fiyat aralıklarımız arıza türüne göre değişir; net teklif için telefonla ulaşın."
-    callout:
-      variant: "tip"
-      title: "Ustayı çağırmadan önce"
-      body: "Kombi/vana modelini ve fotoğrafı hazır edin; teşhis süresi kısalır, maliyet düşer."
-    cta:
-      title: "Acil tesisatçı mı arıyorsunuz?"
-      body: "İstanbul içi 45 dakikada saha ekibimizi adresinize yönlendiriyoruz."
-      phone: true
-      whatsapp: true
+      - 'Günde birkaç saatten fazla kullanılacak her klima için inverter doğru seçimdir: daha düşük tüketim, daha az ses, daha dengeli sıcaklık ve daha uzun kompresör ömrü sunar. Çok seyrek kullanılan yazlık gibi istisnalarda standart model bütçe açısından düşünülebilir.'
+      - 'Karar verirken inverter etiketinin ötesine geçin: enerji sınıfı, SEER/SCOP değeri, doğru BTU seçimi ve düzenli bakım, toplam maliyeti teknoloji seçimi kadar etkiler.'
 faq:
-  - q: "Inverter klima gerçekten %40 tasarruf sağlar mı?"
-    a: "SEER 8.5 vs 3.6 kıyasında evet, %42-45. SEER 6.5 vs 4.6 kıyasında %28-30."
-  - q: "On/off klima daha mı dayanıklıdır?"
-    a: "Hayır, tam tersi. On/off kompresörü 6-8 yılda yorulurken inverter DC motor 12-15 yıl gider."
-  - q: "İnverter klima kışın ısıtır mı?"
-    a: "Evet. A+++ modeller -15 °C'ye kadar çalışır, doğalgaz kombiye göre %30 daha ucuz olabilir."
-  - q: "Ucuz inverter mi, pahalı on/off mu?"
-    a: "Her zaman ucuz inverter. En düşük segment inverter bile en yüksek on/off'tan tasarrufludur."
+  - question: Inverter klima gerçekten daha az elektrik harcar mı?
+    answer: 'Evet. Kısa devir döngüsü olmadığı ve kısmi yükte verimli çalıştığı için aynı soğutma işinde standart modele göre belirgin şekilde daha az tüketir. Fark, kullanım süresi uzadıkça büyür.'
+  - question: Standart (on/off) klima daha mı dayanıklıdır?
+    answer: 'Hayır, genellikle tersidir. Sürekli dur-kalk yapan kompresör daha hızlı yıpranır; inverter cihazın değişken devirli motoru daha uzun ömürlüdür.'
+  - question: Inverter klima kışın ısıtır mı?
+    answer: Evet. İyi bir inverter model düşük dış sıcaklıklarda da ısıtabilir. Isıtma kullanımı planlıyorsanız cihazın SCOP değerine ve minimum çalışma sıcaklığına bakın.
+  - question: Kaç BTU almalıyım?
+    answer: 'Oda büyüklüğü, cephe, cam alanı ve yalıtıma göre hesaplanır. Aşırı büyük kapasite kısa devire yol açar; detaylı hesap için BTU hesaplama rehberimize bakın.'
+  - question: Inverter klima da nem alır mı?
+    answer: 'Evet, hatta standart modelden daha iyi. Düşük devirde uzun süre çalıştığı için oda nemini daha dengeli şekilde düşürür.'
+  - question: 'Ucuz inverter mi, pahalı standart mı?'
+    answer: Kullanım süreniz uzunsa ucuz segment bir inverter bile pahalı bir standart cihazdan daha mantıklıdır; tüketim ve konfor avantajı fiyat farkını kapatır.
+manualRelated:
+  - klima-btu-hesaplama
+  - klima-montaji-nasil-yapilir
+  - klima-gazi-ne-zaman-biter
 ---
-
-# Inverter Klima vs Standart (On/Off) Klima: Hangisi Daha Ekonomik? (2026)
-
-**Inverter klima** kompresör hızını sürekli değiştirerek oda sıcaklığını sabit tutar; **standart (on/off) klima** ise tam güçte çalışıp durur. Sonuç: inverter modelde tüketim **%30–45 daha düşük**, ses seviyesi **5–8 dB daha az**, kompresör ömrü ise **iki katına** kadar çıkar. Bu rehberde 2026 elektrik tarifeleri üzerinden karşılaştırma tablosu, geri ödeme süresi hesabı ve seçim kriterlerini bulacaksınız.
-
-## Çalışma Prensibi Farkı
-
-| Kriter                | Inverter                | On/Off (Standart)    |
-| --------------------- | ----------------------- | -------------------- |
-| Kompresör             | Değişken hız (DC motor) | Sabit hız (AC motor) |
-| Sıcaklık dalgalanması | ±0.5 °C                 | ±2–3 °C              |
-| İlk açılış            | Yumuşak, sessiz         | Ani, gürültülü       |
-| Kısa devir sayısı     | Yok                     | Saatte 6–10          |
-| Enerji sınıfı         | A++ / A+++              | A / A+               |
-| Ses (iç ünite)        | 19–24 dB                | 28–34 dB             |
-
-**Kısa devir (short cycling):** Standart klima hedef sıcaklığa ulaşınca tamamen kapanır, 3–5 dk sonra tekrar tam güçte başlar. Bu döngü hem elektrik hem kompresör aşınması demektir.
-
-## 2026 Elektrik Tüketimi Karşılaştırması
-
-_(12.000 BTU, günde 8 saat kullanım, 2026 mesken tarifesi ~3,15 TL/kWh)_
-
-| Model         | Sınıf    | Saatlik kWh | Aylık (240 saat) | Aylık TL   | Yıllık (5 ay) |
-| ------------- | -------- | ----------- | ---------------- | ---------- | ------------- |
-| A+++ Inverter | SEER 8.5 | 0.62        | 149              | **469 TL** | **2.345 TL**  |
-| A++ Inverter  | SEER 6.5 | 0.78        | 187              | 589 TL     | 2.945 TL      |
-| A+ On/Off     | SEER 4.6 | 1.08        | 259              | 816 TL     | 4.080 TL      |
-| A On/Off      | SEER 3.6 | 1.35        | 324              | 1.021 TL   | 5.105 TL      |
-
-**Fark:** A+++ inverter, A on/off'a göre yılda **~2.760 TL** daha az fatura üretir.
-
-## Fiyat & Geri Ödeme (2026)
-
-| Kategori                    | 12.000 BTU fiyat aralığı |
-| --------------------------- | ------------------------ |
-| A+++ Inverter (üst segment) | 32.000 – 45.000 TL       |
-| A++ Inverter (orta segment) | 22.000 – 30.000 TL       |
-| A+ On/Off                   | 16.000 – 20.000 TL       |
-
-**Geri ödeme formülü:**
-
-```
-Geri ödeme yılı = (Inverter fiyat − On/off fiyat) / Yıllık tasarruf
-Örnek: (28.000 − 18.000) / 2.760 ≈ 3.6 yıl
-```
-
-Klima ortalama 10–12 yıl kullanıldığından, inverter kendisini **2.5 kat** amorti eder.
-
-## Konfor & Ses
-
-- **Uyku:** Inverter'de gece modu 19 dB — fısıltıdan bile sessiz. On/off açılıp kapandıkça hem sesle hem sıcaklık dalgasıyla uyandırır.
-- **Nem:** Inverter düşük devirde uzun süre çalışıp nemi %45–55'e indirir. On/off nem alma yerine "flash cooling" yapar; oda soğuk-nemli hisseder.
-- **Isıtma:** Inverter −15 °C'ye kadar ısıtabilir (COP 3.5+). On/off ısıtma modelleri +2 °C altında verimini kaybeder.
-
-## Kullanım Senaryolarına Göre Seçim
-
-| Senaryo                           | Öneri                         |
-| --------------------------------- | ----------------------------- |
-| Günde 4+ saat, yaz + kış kullanım | A+++ Inverter                 |
-| Sadece yaz, günde 3–6 saat        | A++ Inverter                  |
-| Ofis, dükkan, günde 8+ saat       | A+++ Inverter (kesin)         |
-| Yazlık, ayda 10 gün               | A+ On/Off (geri ödeme çıkmaz) |
-| Yatak odası                       | Inverter (ses için zorunlu)   |
-
-## Sık Yapılan 6 Hata
-
-1. "İlk maliyet ucuz" diye A on/off almak → 3 yılda fark kapanır, 10 yılda 2× kaybedersiniz.
-2. Küçük odaya büyük BTU alıp inverter avantajını yok etmek (kısa devir başlar).
-3. Enerji sınıfına değil, sadece markaya bakmak — aynı marka A++ ve A+++ arasında %25 fark var.
-4. **SEER/SCOP** değerine bakmamak — asıl verim göstergesi budur, sadece "inverter" etiketi yeterli değildir.
-5. Multi-split yerine tek iç üniteyle iki oda soğutmaya çalışmak.
-6. Bakım yapmamak — kirli filtre inverter avantajının yarısını siler.
-
-## SSS
-
-**Inverter klima gerçekten %40 tasarruf sağlar mı?**
-SEER 8.5 vs SEER 3.6 kıyasında evet, tam olarak %42–45. SEER 6.5 vs 4.6 kıyasında ise %28–30.
-
-**On/off klima daha mı dayanıklıdır?**
-Hayır, tam tersi. Sürekli açılıp kapanan kompresör 6–8 yılda yorulurken inverter DC motor 12–15 yıl gider.
-
-**İnverter klima kışın ısıtır mı?**
-Evet. A+++ inverter modeller −15 °C dış sıcaklıkta bile çalışır ve doğalgaz kombiye kıyasla ısıtmada **%30 daha ucuz** olabilir (bkz. ısı pompası mantığı).
-
-**Kaç BTU almalıyım?**
-m² × 600 baz + cephe/cam düzeltmesi. Detaylı hesap için BTU rehberimize bakın.
-
-**Inverter klima da nem alır mı?**
-Evet, hatta on/off'tan çok daha iyi. Düşük devirde uzun çalıştığı için oda nemini %45–55 bandında sabitler.
-
-**Ucuz inverter mi, pahalı on/off mu?**
-Ucuz inverter (A++) her zaman daha mantıklıdır. En düşük segment inverter bile en yüksek on/off'tan tasarrufludur.
-
-## Modülasyon Aralığı ve Kısmi Yük Verimi
-
-Bir inverter klima nominal kapasitesinin **%15-%110** aralığında çalışabilir. Bu inanılmaz esneklik gerçek yaşamda kritik: ilk 20 dk odayı 24 °C'ye getirmek için %110 zorlanır, sonra kompresör %25-40'a düşerek sıcaklığı tutar. On/off klima ise %100 çalış → durak → %100 döngüsünde salınır; her başlangıçta 2-3 kat elektrik çeker (start-up peak).
-
-Kısmi yük SEER (Part Load Value) verileri:
-
-- 24.000 BTU inverter A+++ nominal SEER 8.5, %50 yükte SEER **10.5**
-- 24.000 BTU on/off A+ nominal SEER 5.6, %50 yükte SEER **3.9**
-
-Türkiye'de sıcak yaz haftası hariç klima ortalama %30-50 yükte çalışır — inverterin gerçek üstünlüğü tam bu noktada ortaya çıkar.
-
-## 12 Aylık Elektrik Faturası — Gerçek Ölçüm
-
-Kadıköy'de 85 m² 2+1 daire, 2 adet klima, 2025 haziran-2026 mayıs dönemi:
-
-| Cihaz                                          | Toplam saat | Tüketim (kWh) | Fatura (3.20 ₺/kWh) |
-| ---------------------------------------------- | ----------- | ------------- | ------------------- |
-| 12k BTU inverter A+++ (salon)                  | 1.850       | 620           | 1.984 ₺             |
-| 9k BTU inverter A++ (yatak)                    | 720         | 210           | 672 ₺               |
-| **Toplam inverter**                            | 2.570       | **830**       | **2.656 ₺**         |
-| Aynı kullanım, on/off A+ eşdeğeri (simülasyon) | —           | **1.480**     | **4.736 ₺**         |
-| Fark                                           |             | **-650 kWh**  | **-2.080 ₺**        |
-
-10 yıllık fark: **20.800 ₺**. İnverter için ödenen ek 12.000 ₺ fiyat farkı **5. yılda amorti** oluyor.
-
-## Isıtma Modunda Fark Daha Büyük
-
-Soğutma modunda inverter avantajı %30-45; **ısıtma modunda %50-70**'e çıkar. Sebep: kış aylarında dış hava sıcaklığı sık değişir (gündüz 8 °C, gece -3 °C). Inverter modülasyon yaptığı için hedef sıcaklığı konforlu tutar. On/off ise -3 °C'de tam yükte çalışamaz, yardımcı ısıtıcıya (electric heater) döner — SCOP 3.5 → 1.8 seviyesine düşer.
-
-## Marka Modülasyon Kalitesi
-
-Tüm "inverter" etiketli klimalar aynı değildir. Modülasyon aralığı (turn-down ratio) markaya göre değişir:
-
-| Marka               | Modülasyon aralığı |
-| ------------------- | ------------------ |
-| Daikin FTXP / FTXM  | %10-115            |
-| Mitsubishi Electric | %13-110            |
-| Panasonic Etherea   | %15-110            |
-| LG Dual Inverter    | %20-105            |
-| Samsung WindFree    | %20-100            |
-| Vestel Puro         | %30-100            |
-| Beko / Arçelik      | %35-100            |
-
-Aralık ne kadar geniş → o kadar iyi kısmi yük verimi. Dar aralıklı "ekonomik inverter" bir on/off cihazdan sadece %15 daha iyidir.
-
-## Ses ve Konfor Detayları
-
-Inverter iç ünitede 19-24 dB kayıt edilirken on/off 32-42 dB üretir. Fark **10 dB = akustik olarak yarı yarıya sessizlik** demektir. Yatak odasında en düşük fan hızında inverter cihazı zar zor duyulur; on/off her kompresör başlangıcında (~1 saatte bir) uykuyu böler.
-
-Sıcaklık dalgalanması ölçümü (25 °C hedef, 3 saat kayıt):
-
-- Inverter: 24.6 - 25.4 °C aralığı
-- On/off: 22.8 - 27.6 °C aralığı
-
-## Yatırım Kararı: Hangisi, Ne Zaman?
-
-- **Yeni ev, uzun kullanım** → mutlaka inverter A+++, geri ödeme 3-5 yıl.
-- **Kira, kısa vadeli (< 2 yıl)** → on/off kabul edilebilir; taşınırken satılabilir.
-- **Yazlık, yılda 1 ay kullanım** → A+ on/off yeterli, inverter primi çıkmaz.
-- **Home-office, günlük 10+ saat** → mutlaka A+++ inverter, ses ve fatura kritik.
-
-## Otoriter Kaynaklar ve Referanslar
-
-- [Wikipedia — Inverter kompresör](https://en.wikipedia.org/wiki/Inverter_compressor)
-- [Wikipedia — Seasonal energy efficiency ratio](https://en.wikipedia.org/wiki/Seasonal_energy_efficiency_ratio)
-- [Enerji Verimliliği Portalı — EİGM](https://enerji.gov.tr/eigm-enerji-verimliligi-genel-mudurlugu)
-- [Wikipedia — Klima](https://tr.wikipedia.org/wiki/Klima)
-
-## Sonuç
-
-Günde 3 saatten fazla kullanılacak her klima **inverter** olmalıdır. A+++ modeller ilk maliyeti 3–4 yılda amorti eder, sonraki 8 yıl saf tasarruf verir. Yatak odası ve ofis gibi sessizlik gereken alanlarda inverter zorunludur. Doğru [BTU hesaplama](/preview/klima-btu-hesaplama) ve profesyonel [klima montajı](/preview/klima-montaji-nasil-yapilir) ile verim garantiye alınır; yıllık [gaz kontrolü](/preview/klima-gazi-ne-zaman-biter) ise inverter avantajının kalıcı olmasını sağlar.

@@ -68,32 +68,15 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [lang, setLangState] = useState<Lang>("tr");
   const [userPicked, setUserPicked] = useState(false);
 
-  // Step 1: synchronous detection from storage / navigator on mount.
+  // Default is always Turkish (Istanbul plumbing business). English only
+  // shows when the visitor explicitly picked it before (stored choice).
   useEffect(() => {
     const stored = readStored();
     if (stored) {
       setLangState(stored);
       setUserPicked(true);
-      return;
     }
-    setLangState(detectFromNavigator());
   }, []);
-
-  // Step 2: async geo lookup overrides navigator default (but never overrides user choice).
-  useEffect(() => {
-    if (userPicked) return;
-    let cancelled = false;
-    detectFromGeo().then((country) => {
-      if (cancelled || !country) return;
-      // Re-check userPicked at resolution time
-      if (readStored()) return;
-      if (country === "TR") setLangState("tr");
-      else setLangState((prev) => (prev === "tr" && !readStored() ? detectFromNavigator() : prev));
-    });
-    return () => {
-      cancelled = true;
-    };
-  }, [userPicked]);
 
   useEffect(() => {
     if (typeof document !== "undefined") {
@@ -137,7 +120,7 @@ export function GlobalLangToggle({ hideOnPaths = [] }: { hideOnPaths?: string[] 
   if (hidden) return null;
 
   return (
-    <div className="fixed right-3 top-3 z-[100] hidden md:inline-flex items-center rounded-lg border border-border bg-surface/95 p-0.5 text-[11px] font-extrabold shadow-md backdrop-blur">
+    <div className="fixed right-3 top-20 z-[100] hidden md:inline-flex items-center rounded-lg border border-border bg-surface/95 p-0.5 text-[11px] font-extrabold shadow-md backdrop-blur">
       <button
         onClick={() => { setLang("tr"); void import("@/lib/analytics").then((m) => m.trackEvent("lang_toggle", "tr")); }}
         className={`rounded-md px-2 py-1 transition-colors ${lang === "tr" ? "bg-brand-red text-white" : "text-muted-foreground"}`}

@@ -1,234 +1,160 @@
 ---
-slug: "dogalgaz-tesisati-yaptirma-abonelik"
-title: "Doğalgaz Tesisatı Yaptırma ve Abonelik: 2026 Adım Adım Rehber"
-seoTitle: "Doğalgaz Tesisatı Yaptırma + Abonelik"
-keyword: "doğalgaz tesisatı yaptırma ve"
-volume: 200
-kdi: 30
-category: "Doğalgaz"
-readMin: 4
-published: "2026-07-26"
-updated: "2026-07-26"
-excerpt: >
-  Doğalgaz tesisatı yaptırmak, yeni bir daire alan, sobadan/klimadan dönüş yapan
-  ya da eski tesisatı yenilemesi gereken ev sahiplerinin en çok karıştırdığı
-  süreçtir.
-metaDescription: "İGDAŞ/İGDAŞ abonelik, proje, tesisatçı seçimi, gaz açma, maliyet ve 2026 süreleri adım adım. İstanbul geneli 7/24 servis: 0533 896 05 03. Gölge Tesisat İstan..."
-serviceSlug: "dogalgaz-tesisati"
+slug: dogalgaz-tesisati-yaptirma-abonelik
+title: 'Doğalgaz Tesisatı Yaptırma ve Abonelik: 2026 Adım Adım Rehber'
+seoTitle: Doğalgaz Tesisatı Yaptırma + Abonelik Rehberi
+keyword: doğalgaz tesisatı yaptırma ve
+secondaryKeywords:
+  - doğalgaz aboneliği nasıl alınır
+  - doğalgaz proje onayı
+  - yetkili doğalgaz firması nasıl bulunur
+  - doğalgaz gaz açma işlemi
+  - doğalgaz tesisatı gerekli belgeler
+category: Doğalgaz
+serviceSlug: dogalgaz-tesisati
+readMin: 8
+published: '2026-10-02'
+updated: '2026-10-02'
+author:
+  name: Gölge Tesisat Teknik Ekibi
+  bio: İstanbul genelinde doğalgaz ve su tesisatı alanında sahada çalışan teknisyenlerden oluşan ekip.
+  credentials: '7/24 acil tesisat servisi, İstanbul Avrupa ve Anadolu Yakası'
+excerpt: 'Doğalgaz tesisatı yaptırmak beş aşamalı bir süreçtir: başvuru, proje, onay, tesisat ve gaz açma. Yetkili firma seçimini, gerekli belgeleri ve yaygın red sebeplerini adım adım anlatıyoruz.'
 featuredImage:
-  src: "/blog-images/dogalgaz-tesisati-yaptirma-abonelik-hero.jpg"
-  alt: "doğalgaz tesisatı yaptırma ve — İstanbul saha rehberi görseli"
-  caption: "Gölge Tesisat İstanbul saha ekibi."
-intro: >
-  Doğalgaz tesisatı yaptırmak, yeni bir daire alan, sobadan/klimadan dönüş yapan
-  ya da eski tesisatı yenilemesi gereken ev sahiplerinin en çok karıştırdığı
-  süreçtir. Süreç 5 aşamalıdır: başvuru → proje → onay → tesisat → gaz açma.
-  Yanlış firma, eksik evrak veya standart dışı boru yerleşimi = ay uzayan süreç
-  + tekrar tekrar red. Bu rehber; İGDAŞ (İstanbul) / EGO (İstanbul) / İZGAZ
-  (Kocaeli) başvuru sürecini, MMO sertifikalı firma seçimini, 2026 maliyet
-  aralığını ve yaygın red sebeplerini adım adım anlatır. > Kritik uyarı:
-  Doğalgaz tesisatını sadece dağıtım şirketinin yetkilendirdiği + MMO SMM
-  belgeli firma yapabilir. "Ucuz komşu tesisatçı" ile yaptırılan hattı dağıtım
-  şirketi onaylamaz, gaz açmaz ve kaçak tespit edilirse para cezası + gaz kesimi
-  + Cumhuriyet Savcılığı bildirimi uygulanır. İstanbul için yetkili firma
-  teyidi: 0533 896 05 03.
+  src: /blog-images/dogalgaz-tesisati-yaptirma-abonelik-hero.jpg
+  alt: Doğalgaz tesisatı yaptırma ve abonelik sürecinin aşamaları
+  caption: 'Doğalgaz tesisatı beş aşamada tamamlanır: başvuru, proje, onay, imalat, gaz açma.'
+metaDescription: 'Doğalgaz tesisatı yaptırma ve abonelik süreci: başvuru, proje çizimi, onay, tesisat imalatı ve gaz açma aşamaları; gerekli belgeler, yetkili firma seçimi ve yaygın red sebepleri.'
+intro: 'Doğalgaz tesisatı yaptırmak; yeni daire alan, sobadan veya klima ile ısınmadan dönüş yapan ya da eski tesisatını yenilemesi gereken ev sahiplerinin en çok karıştırdığı süreçtir. Süreç beş aşamalıdır: başvuru → proje → onay → tesisat → gaz açma. Yanlış firma seçimi, eksik evrak veya standart dışı boru yerleşimi süreci haftalarca uzatır ve tekrar tekrar reddedilmesine yol açar. Bu rehberde abonelik başvurusunu, yetkili firma seçimini, proje onay sürecini ve yaygın red sebeplerini adım adım anlatıyoruz.'
+inlineLinks:
+  - slug: dogalgaz-tesisati-nasil-kontrol-edilir
+    anchor: doğalgaz tesisatı nasıl kontrol edilir
+  - slug: gaz-kokusu-acil-mudahale
+    anchor: gaz kokusu acil müdahale
+  - slug: kombi-bacasi-nedir-cesitleri-montaji
+    anchor: kombi bacası
+  - slug: dogalgaz-kacagi
+    anchor: doğalgaz kaçağı
+  - slug: dogalgaz-sayaci-nasil-okunur
+    anchor: doğalgaz sayacı nasıl okunur
+manualRelated:
+  - dogalgaz-tesisati-nasil-kontrol-edilir
+  - gaz-kokusu-acil-mudahale
+  - kombi-bacasi-nedir-cesitleri-montaji
+  - dogalgaz-kacagi
 sections:
-  - heading: "5 Aşamalı Süreç — Bir Bakışta"
+  - heading: Öne Çıkanlar
+    id: one-cikanlar
+    bullets:
+      - 'Kısa cevap: doğalgaz tesisatı beş aşamada tamamlanır — abonelik başvurusu, proje çizimi, proje onayı, tesisat imalatı ve kontrol + gaz açma. Her aşama dağıtım şirketi ve yetkili firma ile birlikte yürür.'
+      - 'Doğalgaz tesisatını yalnızca dağıtım şirketinin yetkilendirdiği, MMO SMM belgeli firmalar yapabilir; yetkisiz firmaya yaptırılan hat onaylanmaz ve gaz açılmaz.'
+      - 'Başvuruda tapu veya kira kontratı, kimlik, DASK poliçesi ve iskân belgesi gerekir; kiracıysanız malik muvafakati istenir.'
+      - 'En sık red sebepleri: yetersiz havalandırma menfezi, uygun olmayan baca ve açık plan mutfak.'
+      - 'Kaçak (yetkisiz) tesisat tespit edilirse gaz kesilir, hat mühürlenir ve yeniden yaptırma zorunluluğu doğar.'
+  - heading: Beş Aşamalı Süreç — Bir Bakışta
+    id: surec
     paragraphs:
-      - "**Toplam gerçekçi süre:** 3–6 hafta (kış yoğun dönem 8 haftaya çıkabilir). **Toplam maliyet 2+1 daire ortalama:** 12.000–22.000 TL (kombi hariç)."
+      - 'Doğalgaz tesisatı ve abonelik süreci beş aşamadan oluşur. Aşamaları, sorumluları ve tipik süreleri aşağıdaki tabloda özetledik:'
+      - Toplam gerçekçi süre birkaç haftadır; kış aylarındaki yoğun dönemde uzayabilir. Süreç boyunca tek yetkili muhatap dağıtım şirketi ve onun yetkilendirdiği firmadır.
+    images:
+      - src: /blog-images/dogalgaz-tesisati-yaptirma-abonelik-surec.jpg
+        alt: Doğalgaz tesisatı ve abonelik sürecinin beş aşamasını gösteren şema
+        caption: 'Beş aşama: başvuru, proje, onay, imalat, gaz açma.'
+    bullets:
+      - '**1. Abonelik başvurusu:** Ev sahibi / kiracı — 1 gün'
+      - '**2. Proje çizimi:** Yetkili firma — Birkaç gün'
+      - '**3. Proje onayı:** Dağıtım şirketi — 1–2 hafta'
+      - '**4. Tesisat imalatı:** Yetkili firma — 1–3 gün'
+      - '**5. Kontrol + gaz açma:** Dağıtım şirketi + firma — Birkaç iş günü'
+  - heading: Aşama 1 — Abonelik Başvurusu
+    id: basvuru
+    paragraphs:
+      - 'Başvuru dağıtım şirketinin online kanalından, şubesinden veya yetkili firma aracılığıyla yapılır. Gerekli belgeler:'
+      - Kimlik belgesi
+      - Tapu veya güncel kira kontratı (kiracıysanız malik muvafakati istenebilir)
+      - DASK poliçesi (zorunludur)
+      - Numarataj belgesi
+      - Yapı ruhsatı veya iskân belgesi
+      - İletişim bilgileri
+      - Başvuruda güvence bedeli alınır; bu bedel yalnızca dağıtım şirketinin resmi hesabına yatırılmalıdır ve sözleşme feshinde iade edilir. Güncel bedel ve evrak listesi için dağıtım şirketinizin resmi sitesine bakın.
+  - heading: Aşama 2 — Proje Çizimi ve Yetkili Firma Seçimi
+    id: proje
+    paragraphs:
+      - 'Yetkili firma dairenin iç tesisat projesini çizer. Projede kombi konumu, ocak ve varsa şofben noktaları, boru güzergâhı, havalandırma menfezi, baca uygunluğu ve sayaç yeri belirlenir.'
+      - 'Doğru firmayı bulmak için: dağıtım şirketinizin yetkili firma listesine bakın, firmanın MMO SMM belgesini ve sertifika numarasını doğrulayın, referans ve fatura isteyin.'
+      - '**Şu vaatleri duyarsanız uzak durun:** ''Proje ücreti bedava'', ''onay bende hemen çıkar'', ''sertifikasız da olur'', ''üç günde gaz açtırırım'' gibi vaatler yetkisiz iş yapanların klasik ifadeleridir. Yetkisiz firmaya yaptırılan tesisat onaylanmaz ve gaz açılmaz.'
+  - heading: Aşama 3 — Proje Onayı ve Yaygın Red Sebepleri
+    id: onay
+    paragraphs:
+      - 'Proje, dağıtım şirketi tarafından incelenir ve onaylanır. Reddedilirse gerekçe bildirilir; revize edilip yeniden sunulur. Sahada en sık karşılaşılan red sebepleri:'
+      - Baca kaynaklı redler en sık görülenlerdendir; baca tipleri ve montaj kuralları için kombi bacası rehberimize göz atabilirsiniz.
+    bullets:
+      - '**Havalandırma menfezi yetersiz:** Menfez ekleme veya büyütme'
+      - '**Baca uygun değil:** Hermetik kombiye geçiş veya baca yenileme'
+      - '**Kombi banyoda ve havalandırma yok:** Cihaz konum değişikliği'
+      - '**Mutfak açık plan:** Kapı veya cam bölme ile ayırma'
+      - '**Boru güzergâhı elektrik tesisatına yakın:** Güzergâh revizyonu'
+      - '**DASK veya evrak eksik:** Evrak tamamlama'
+  - heading: Aşama 4 — Tesisat İmalatı
+    id: imalat
+    paragraphs:
+      - 'Onaylı projeye göre imalat yapılır: ana hat kolonundan daire girişine bağlantı çekilir, daire içi çelik boru döşenir, ana vana ve her cihaz öncesi vanalar yerleştirilir. İmalat sonunda firma basınç testi yapar ve test tutanağını teslim eder.'
+      - 'İmalat sırasında boruların görünür ve erişilebilir döşenmesi, ileride yapılacak kontrolleri kolaylaştırır. Mevcut tesisatınızın durumunu merak ediyorsanız doğalgaz tesisatı nasıl kontrol edilir yazımıza bakabilirsiniz.'
     image:
-      src: "/blog-images/dogalgaz-tesisati-yaptirma-abonelik-infographic.jpg"
-      alt: "Doğalgaz kurulum süreci"
-      caption: "Doğalgaz kurulum süreci 5 aşamada."
-  - heading: "Aşama 1 — Abonelik Başvurusu"
+      src: /blog-images/dogalgaz-tesisati-yaptirma-imalat.jpg
+      alt: Doğalgaz tesisatı imalatı ve basınç testi
+      caption: Yetkili firma tarafından döşenen sarı gaz boruları ve yapılan basınç testi.
+  - heading: Aşama 5 — Kontrol ve Gaz Açma
+    id: gaz-acma
     paragraphs:
-      - "**Güvence bedeli** 900–1.400 TL. Sadece dağıtım şirketinin resmi hesabına yatırın."
-  - heading: "Aşama 2 — Proje Çizimi"
-    paragraphs:
-      - "Yetkili firma dairenin **iç tesisat projesini** çizer:"
-      - "**Kırmızı bayraklar:** \"proje ücreti bedava\", \"onay bende hemen çıkar\", \"sertifikasız işçi\", \"3 gün içinde gaz açtırırım\"."
-  - heading: "Aşama 3 — Proje Onayı"
-    paragraphs:
-      - "**Yaygın red sebepleri:**"
-  - heading: "Aşama 4 — Tesisat İmalatı"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
+      - 'Dağıtım şirketi ekipleri tesisatı kontrol eder: görsel kontrol, sızdırmazlık testi, baca ve havalandırma kontrolü, CO ölçümü yapılır; ardından sayaç monte edilir ve gaz açılır.'
+      - Gaz açıldıktan sonra sayacınızı düzenli takip etmeniz faturalarınızı kontrol altında tutar; doğalgaz sayacı nasıl okunur rehberimiz bu konuda yardımcı olur. Gaz kokusu alırsanız yapılacaklar için gaz kokusu acil müdahale rehberimizi okuyun.
     image:
-      src: "/blog-images/dogalgaz-tesisati-yaptirma-abonelik-chart.jpg"
-      alt: "Kurulum maliyet dağılımı"
-      caption: "İstanbul 2026 doğalgaz kurulum maliyeti dağılımı."
-  - heading: "Aşama 5 — Kontrol ve Gaz Açma"
+      src: /blog-images/dogalgaz-tesisati-yaptirma-abonelik-chart.jpg
+      alt: dogalgaz tesisati yaptirma abonelik — chart
+      caption: Durum değerlendirme grafiği
+  - heading: Kaçak (Yetkisiz) Tesisatın Sonuçları
+    id: kacak-tesisat
     paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Kaçak Tesisat = Ağır Yaptırım"
+      - 'Yetkisiz kişilere yaptırılan doğalgaz tesisatı tespit edildiğinde:'
+      - Gaz anında kesilir ve hat mühürlenir.
+      - İdari para cezası uygulanır.
+      - Tesisatın sökülüp yetkili firmaya yeniden yaptırılması zorunludur.
+      - Duruma göre savcılığa bildirim yapılabilir.
+      - 'Konut sigortası, yetkisiz tesisattan kaynaklanan hasarları karşılamayabilir.'
+      - 'Kısacası ''ucuz'' diye yetkisiz firmaya yaptırılan iş, söküm + yeniden imalat ile en pahalı seçeneğe dönüşür. Kaçak şüphesi durumunda yapılacaklar için doğalgaz kaçağı rehberimize bakın.'
+  - heading: Sıkça Yapılan Hatalar
+    id: sik-hatalar
     paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-    image:
-      src: "/blog-images/dogalgaz-tesisati-yaptirma-abonelik-symptoms.jpg"
-      alt: "Kaçak tesisat sonuçları"
-      caption: "Kaçak doğalgaz tesisatının 4 sonucu."
-  - heading: "Sıkça Yapılan 6 Hata"
+      - 'Süreçte en sık yapılan hatalar şunlardır:'
+      - Dağıtım şirketinin yetki listesini kontrol etmeden firma seçmek.
+      - Yalnızca en düşük teklifi seçmek; sertifika ve referans sormamak.
+      - 'Kombi seçimini tesisattan sonraya bırakmak — proje, cihaz tipine göre çizilir.'
+      - DASK poliçesini unutmak; eksik evrak başvuruyu durdurur.
+      - Apartman yönetimini bilgilendirmemek; kolon bağlantısı ortak alandan geçer.
+      - Faturasız iş yaptırmak; garanti ve sorumluluk açısından belge şarttır.
+  - heading: Yeni Bina ile Mevcut Bina Farkı
+    id: bina-farki
     paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Yeni Bina vs Mevcut Bina Farkı"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-    image:
-      src: "/blog-images/dogalgaz-tesisati-yaptirma-abonelik-comparison.jpg"
-      alt: "Yeni vs mevcut bina"
-      caption: "Yeni bina vs mevcut bina doğalgaz kurulum farkı."
-  - heading: "Otoriter Kaynaklar"
-    paragraphs:
-      - "Detaylı keşif + yetkili bağlantı için: **0533 896 05 03**. Yazılı teklif + fatura + garanti belgesi ile çalışıyoruz."
-  - heading: "Gölge Tesisat İstanbul — Acil Servis"
-    paragraphs:
-      - "İstanbul geneli 7/24 tesisat servisimiz Kadıköy, Beşiktaş, Ümraniye, Başakşehir dahil tüm ilçelerde 45 dakika içinde adresinize gelir. Fiyat aralıklarımız arıza türüne göre değişir; net teklif için telefonla ulaşın."
-    callout:
-      variant: "tip"
-      title: "Ustayı çağırmadan önce"
-      body: "Kombi/vana modelini ve fotoğrafı hazır edin; teşhis süresi kısalır, maliyet düşer."
+      - Yeni binalarda doğalgaz altyapısı genelde hazırdır; süreç daha kısa sürer. Eski binalarda kolon hattı yoksa apartman ortak kararı gerekebilir. İmar durumu belirsiz veya ruhsatsız yapılarda başvuru kabul edilmeyebilir; önce yasal durumun netleştirilmesi gerekir.
+      - 'Gölge Tesisat olarak İstanbul Avrupa ve Anadolu Yakası''nda doğalgaz tesisatı kontrolü, onarımı ve yetkili firma süreçlerinde yönlendirme desteği veriyoruz.'
     cta:
-      title: "Acil tesisatçı mı arıyorsunuz?"
-      body: "İstanbul içi 45 dakikada saha ekibimizi adresinize yönlendiriyoruz."
+      title: Doğalgaz tesisatı için bize ulaşın
+      body: İstanbul'un her iki yakasında 7/24 servis ekibimizle yanınızdayız. Tesisat kontrolü ve onarımı için hemen arayın veya WhatsApp'tan yazın.
       phone: true
       whatsapp: true
 faq:
-  - q: "Doğalgaz aboneliği kaç günde açılır?"
-    a: "Proje + tesisat + gaz açma toplam 15-30 iş günü. Proje onayı 5-10, tesisat 3-7, gaz açma 2-5 gün."
-  - q: "Toplam maliyet ne kadar?"
-    a: "2026 İstanbul ortalama 45.000-75.000 TL (proje 3.500, tesisat 25-45k, kombi 30-50k, sayaç güvence 5k)."
-  - q: "Tesisatçı nasıl seçilir?"
-    a: "İGDAŞ/İGDAŞ yetkili listesinden. Sertifika numarası + MMO onayı + tamamlanmış iş referansı."
-  - q: "Hangi belgeler gerekir?"
-    a: "Tapu, kimlik, DASK, tesisat projesi, kombi + baca projesi. Kiracı ise ek muvafakat."
-  - q: "Abonelik güvence bedeli iade edilir mi?"
-    a: "Evet, sözleşme fesih + tesisat söküm sonrası 30-45 gün içinde iade."
+  - q: Doğalgaz aboneliği ne kadar sürede açılır?
+    a: 'Başvuru, proje, onay, imalat ve gaz açma aşamaları toplamda birkaç hafta sürer. Kış aylarındaki yoğunluk süreyi uzatabilir.'
+  - q: Tesisatı kim yaptırabilir?
+    a: 'Doğalgaz iç tesisatını yalnızca dağıtım şirketinin yetkilendirdiği, MMO SMM belgeli firmalar yapabilir. Yetkisiz firmaya yaptırılan hat onaylanmaz ve gaz açılmaz.'
+  - q: Hangi belgeler gerekir?
+    a: 'Kimlik, tapu veya kira kontratı, DASK poliçesi, numarataj belgesi ve yapı ruhsatı/iskân belgesi gerekir. Kiracıysanız malik muvafakati istenebilir.'
+  - q: Proje neden reddedilir?
+    a: 'En sık sebepler: yetersiz havalandırma menfezi, uygun olmayan baca, açık plan mutfak, elektrik tesisatına yakın boru güzergâhı ve eksik evrak.'
+  - q: Güvence bedeli iade edilir mi?
+    a: Evet. Abonelik sözleşmesi feshedilip tesisat söküldüğünde güvence bedeli dağıtım şirketi tarafından iade edilir.
+  - q: Kombiyi tesisattan önce mi almalıyım?
+    a: Cihaz tipi (hermetik/bacalı) projeyi etkilediği için kombi seçimi proje aşamasında netleşmelidir; tesisattan sonraya bırakmayın.
+  - q: Yetkisiz firmaya yaptırırsam ne olur?
+    a: 'Tesisat onaylanmaz, gaz açılmaz. Kaçak tesisat tespit edilirse gaz kesilir, hat mühürlenir, para cezası uygulanır ve tesisatın yetkili firmaya yeniden yaptırılması gerekir.'
 ---
-
-# Doğalgaz Tesisatı Yaptırma: İGDAŞ / EGO Abonelik, Sertifikalı Firma ve Maliyet Rehberi (2026)
-
-**Doğalgaz tesisatı yaptırmak**, yeni bir daire alan, sobadan/klimadan dönüş yapan ya da eski tesisatı yenilemesi gereken ev sahiplerinin en çok karıştırdığı süreçtir. Süreç 5 aşamalıdır: **başvuru → proje → onay → tesisat → gaz açma**. Yanlış firma, eksik evrak veya standart dışı boru yerleşimi = ay uzayan süreç + tekrar tekrar red. Bu rehber; **İGDAŞ (İstanbul) / EGO (İstanbul) / İZGAZ (Kocaeli)** başvuru sürecini, MMO sertifikalı firma seçimini, 2026 maliyet aralığını ve yaygın red sebeplerini adım adım anlatır.
-
-> **Kritik uyarı:** Doğalgaz tesisatını **sadece dağıtım şirketinin yetkilendirdiği + MMO SMM belgeli** firma yapabilir. "Ucuz komşu tesisatçı" ile yaptırılan hattı dağıtım şirketi **onaylamaz, gaz açmaz** ve kaçak tespit edilirse **para cezası + gaz kesimi + Cumhuriyet Savcılığı bildirimi** uygulanır. İstanbul için yetkili firma teyidi: **0533 896 05 03**.
-
-## 5 Aşamalı Süreç — Bir Bakışta
-
-| Aşama                 | Kim yapar       | Süre         | Maliyet (2026, İstanbul)                |
-| --------------------- | --------------- | ------------ | --------------------------------------- |
-| 1. Abonelik başvurusu | Ev sahibi       | 1 gün        | Güvence bedeli 900–1.400 TL             |
-| 2. Proje çizimi       | Yetkili firma   | 3–7 gün      | 1.500–3.500 TL                          |
-| 3. Proje onayı        | EGO / İGDAŞ     | 5–15 iş günü | Proje onay harcı 400–800 TL             |
-| 4. Tesisat imalatı    | Yetkili firma   | 1–3 gün      | 6.000–18.000 TL                         |
-| 5. Kontrol + gaz açma | Dağıtım + firma | 3–10 iş günü | Kontrol 500–900 TL + sayaç 700–1.200 TL |
-
-**Toplam gerçekçi süre:** 3–6 hafta (kış yoğun dönem 8 haftaya çıkabilir). **Toplam maliyet 2+1 daire ortalama:** 12.000–22.000 TL (kombi hariç).
-
-## Aşama 1 — Abonelik Başvurusu
-
-### Gereken evraklar (İstanbul / EGO Başkent Gaz)
-
-- Nüfus cüzdanı / kimlik
-- **Tapu** veya güncel **kira kontratı**
-- **DASK poliçesi** (zorunlu)
-- **Numarataj belgesi**
-- **Yapı ruhsatı** veya iskân belgesi
-- İletişim bilgisi
-
-### Nasıl başvurulur
-
-1. **Online:** egogaz.com.tr / igdas.istanbul / izgaz.com.tr
-2. **Yetkili firma üzerinden** (ek 300–600 TL, süreç %40 hızlanır)
-3. **Şubeden**
-
-**Güvence bedeli** 900–1.400 TL. Sadece dağıtım şirketinin resmi hesabına yatırın.
-
-## Aşama 2 — Proje Çizimi
-
-Yetkili firma dairenin **iç tesisat projesini** çizer:
-
-- Kombi konumu
-- Ocak ve varsa şofben noktaları
-- **Boru güzergâhı** — 2026 standardı görünen çelik boru + krom kaplama
-- **Havalandırma menfezi** (min. 150 cm²)
-- **Baca uygunluğu**
-- **Sayaç yeri**
-
-### Doğru firma nasıl bulunur
-
-1. **Dağıtım şirketinin yetkili firma listesi**
-2. **MMO SMM belgesi** — mmo.org.tr
-3. **Referans + fatura**
-
-**Kırmızı bayraklar:** "proje ücreti bedava", "onay bende hemen çıkar", "sertifikasız işçi", "3 gün içinde gaz açtırırım".
-
-## Aşama 3 — Proje Onayı
-
-**Yaygın red sebepleri:**
-
-| Red sebebi                        | Oran | Çözüm                  |
-| --------------------------------- | ---- | ---------------------- |
-| Havalandırma menfezi yetersiz     | ~%30 | Menfez ekleme          |
-| Baca uygunsuz                     | ~%25 | Hermetik kombiye geçiş |
-| Kombi banyoda ve havalandırma yok | ~%15 | Konum değişikliği      |
-| Mutfak açık plan                  | ~%10 | Kapı / cam bölme       |
-| Boru güzergâhı elektriğe yakın    | ~%8  | Güzergâh revize        |
-| DASK / evrak eksik                | ~%7  | Evrak tamamla          |
-| Yapı ruhsatı yok                  | ~%5  | İmar affı              |
-
-## Aşama 4 — Tesisat İmalatı
-
-- **Ana hat kolonundan daire girişine bağlantı**
-- Daire içi **çelik boru** (TS EN 10255)
-- Vana konumları (ana + her cihaz öncesi)
-- **Basınç testi** — 300 mbar hava, 30 dakika
-
-### 2026 İstanbul ortalama fiyat
-
-| Daire         | Sadece ocak     | Ocak + kombi     |
-| ------------- | --------------- | ---------------- |
-| 1+1 (~50 m²)  | 5.500–8.000 TL  | 9.000–14.000 TL  |
-| 2+1 (~85 m²)  | 7.000–11.000 TL | 12.000–18.000 TL |
-| 3+1 (~120 m²) | 9.000–14.000 TL | 15.000–22.000 TL |
-
-## Aşama 5 — Kontrol ve Gaz Açma
-
-1. **Görsel kontrol**
-2. **Sızdırmazlık testi** — 300 mbar 30 dk
-3. **Baca / havalandırma testi**
-4. **CO ölçümü**
-5. **Sayaç montajı**
-6. **Gaz açma**
-
-## Kaçak Tesisat = Ağır Yaptırım
-
-- **Anında gaz kesimi** + mühürleme
-- **Para cezası** 8.000–45.000 TL
-- **Sökülüp yeniden yaptırma** — 15.000–25.000 TL
-- **Cumhuriyet Savcılığı bildirimi** (TCK 174, 6 ay–3 yıl hapis)
-- **Konut sigortası geçersiz**
-- **Evi satarken tapu işlemi durur**
-
-## Sıkça Yapılan 6 Hata
-
-1. Yetki listesini kontrol etmeden firma seçmek
-2. Ekonomik teklifi seçmek
-3. Kombi seçimini tesisattan sonraya bırakmak
-4. DASK'ı unutmak
-5. Apartman yönetimini bilgilendirmemek
-6. Faturasız iş yapmak
-
-## Yeni Bina vs Mevcut Bina Farkı
-
-- **Yeni bina (2020 sonrası):** 2–3 hafta, %20–30 daha düşük maliyet
-- **2000–2020 arası:** standart 5 aşama
-- **1990 öncesi:** apartman ortak kararı gerekir
-- **Kaçak kat / imar affı olmayan:** kabul edilmez
-
-## Otoriter Kaynaklar
-
-- [EPDK](https://www.epdk.gov.tr/)
-- [MMO](https://www.mmo.org.tr/)
-- [İGDAŞ](https://www.baskentdogalgaz.com.tr/)
-- [İGDAŞ](https://www.igdas.istanbul/)
-
-Detaylı keşif + yetkili bağlantı için: **0533 896 05 03**. Yazılı teklif + fatura + garanti belgesi ile çalışıyoruz.

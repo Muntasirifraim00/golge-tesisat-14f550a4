@@ -1,257 +1,143 @@
 ---
-slug: "termal-kamera-ile-su-kacagi-tespiti"
-title: "Termal Kamera ile Su Kaçağı Tespiti: Duvar Açmadan Sızıntı Bulma (2026)"
-seoTitle: "Termal Kamera ile Su Kaçağı Tespiti (2026)"
-keyword: "termal kamera ile su"
-volume: 200
-kdi: 30
-category: "Su Tesisatı"
-readMin: 5
-published: "2026-07-26"
-updated: "2026-07-26"
-excerpt: >
-  Duvar arkasında su kaçağı var ama gözle görünmüyorsa, klasik yöntem "duvarı
-  kör açmak" — hem 3.
-metaDescription: "Termal kamera + akustik + gaz izleme ile sıva altı sızıntı. Sigorta uyumlu rapor + fiyatlar. İstanbul geneli 7/24 servis: 0533 896 05 03. Gölge Tesisat İstan..."
-serviceSlug: "su-tesisati"
+slug: termal-kamera-ile-su-kacagi-tespiti
+title: 'Termal Kamera ile Su Kaçağı Tespiti: Duvar Açmadan Sızıntı Bulma'
+seoTitle: Termal Kamera ile Su Kaçağı Tespiti
+keyword: termal kamera ile su kaçağı tespiti
+secondaryKeywords:
+  - termal kamera su kaçak tespiti
+  - kırmadan su kaçağı bulma
+  - duvar arkası su sızıntısı tespiti
+  - su kaçağı tespit cihazı
+  - su kaçağı raporu sigorta
+category: Su Tesisatı
+serviceSlug: su-kacagi-tespiti
+readMin: 8
+published: '2026-10-02'
+updated: '2026-10-02'
+author:
+  name: Gölge Tesisat Teknik Ekibi
+  bio: İstanbul genelinde su kaçağı tespiti ve tesisat onarımı alanında sahada çalışan teknisyenlerden oluşan ekip.
+  credentials: 7/24 acil tesisat servisi, İstanbul Avrupa ve Anadolu Yakası
+excerpt: Duvar arkasındaki su kaçağını kırmadan bulmak için termal kamera, akustik dinleme ve gaz izleme yöntemleri kullanılır. Hangi yöntemin ne zaman uygun olduğunu, ölçüm sürecini ve rapor alırken dikkat edilecekleri anlattık.
 featuredImage:
-  src: "/blog-images/termal-kamera-ile-su-kacagi-tespiti-hero.jpg"
-  alt: "termal kamera ile su — İstanbul saha rehberi görseli"
-  caption: "Gölge Tesisat İstanbul saha ekibi."
-intro: >
-  Duvar arkasında su kaçağı var ama gözle görünmüyorsa, klasik yöntem "duvarı
-  kör açmak" — hem 3.500–15.000 TL zarar, hem de kaçak yerini yine
-  bulamayabilir. Termal kamera + akustik dinleme + gaz izleme üçlemesi ile sıva
-  altı sızıntıyı ±10 cm doğrulukla tespit edebilirsiniz. Bu rehber; teknolojiyi,
-  doğru şirket seçimini, sigortanın kabul ettiği rapor formatını ve maliyet
-  analizini içerir. > Ne zaman termal kamera? Kombi basıncı sürekli düşüyor, su
-  sayacı dönüyor, duvarda nem lekesi ama yer belirsiz, tavandan damla ama üst
-  komşuda görünen kaçak yok, sıcak zemin noktaları veya küf. İstanbul 7/24: 0533
-  896 05 03.
+  src: /blog-images/termal-kamera-ile-su-kacagi-tespiti-hero.jpg
+  alt: Termal kamerayla duvardaki su kaçağını tarayan teknisyen
+  caption: Termal kamera, sıva altındaki sızıntının bıraktığı sıcaklık izini görünür kılar.
+metaDescription: Termal kamera ile su kaçağı tespiti nasıl yapılır? Hangi durumlarda işe yarar, ölçüm süreci nasıldır, rapor alırken nelere dikkat edilir — adım adım rehber.
+intro: Duvar arkasında su kaçağı var ama gözle görünmüyorsa klasik yöntem duvarı tahminen açmaktır; bu da hem gereksiz kırım hem de kaçağı yine bulamama riski demektir. Termal kamera, akustik dinleme ve gaz izleme gibi cihazlı yöntemler ise sıva altındaki sızıntıyı kırmadan, nokta atışına yakın hassasiyetle tespit eder. Bu rehberde termal kameranın nasıl çalıştığını, hangi durumlarda uygun olduğunu, ölçüm sürecini ve doğru firma seçimini anlatıyoruz.
+inlineLinks:
+  - slug: su-sayaci-donuyor-gizli-kacak
+    anchor: su sayacı dönüyor
+  - slug: kirmadan-su-kacagi-tespiti
+    anchor: kırmadan su kaçağı tespiti
+  - slug: su-kacagi-nasil-anlasilir
+    anchor: su kaçağı nasıl anlaşılır
+  - slug: duvarda-rutubet-kuf-su-kacagi-mi-yogusma-mi
+    anchor: duvarda rutubet ve küf
+  - slug: tavandan-su-damliyor-ust-kattan-sizinti
+    anchor: tavandan su damlıyor
+manualRelated:
+  - kirmadan-su-kacagi-tespiti
+  - su-kacagi-nasil-anlasilir
+  - su-sayaci-donuyor-gizli-kacak
+  - duvarda-rutubet-kuf-su-kacagi-mi-yogusma-mi
 sections:
-  - heading: "Termal Kamera Nasıl Çalışır?"
+  - heading: Öne Çıkanlar
+    id: one-cikanlar
+    bullets:
+      - 'Kısa cevap: termal kamera, su kaçağının duvarda bıraktığı sıcaklık farkını görüntüleyerek kaçağın yerini kırmadan gösterir.'
+      - Termal kamera sıcak su hatlarında ve nemli yüzeylerde en iyi sonucu verir; kurumuş sızıntılarda ve kalın yalıtımlı duvarlarda tek başına yetersiz kalabilir.
+      - Güvenilir tespit için termal kamera akustik dinleme veya nem ölçerle karşı doğrulanmalıdır.
+      - Sigorta işlemleri için termal ve normal fotoğraf çiftlerini, ölçüm noktalarını ve onarım önerisini içeren yazılı rapor isteyin.
+      - Kombi basıncı sürekli düşüyor, su sayacı kendiliğinden dönüyor veya duvarda nedensiz nem lekesi varsa cihazlı tespit zamanı gelmiştir.
+  - heading: Termal Kamera Nasıl Çalışır?
+    id: nasil-calisir
     paragraphs:
-      - "**Kızılötesi (IR)** ışınları yakalar — her cisim ısısına göre farklı IR yayar. Su kaçağı 3 termal iz bırakır:"
-      - "**Çözünürlük hassasiyeti:**"
-      - "**Doğru servis:** min 320×240 çözünürlük."
+      - 'Termal kamera, cisimlerin yaydığı kızılötesi ışınımı algılayarak yüzey sıcaklıklarını görüntüye dönüştürür. Su kaçağı duvarda üç tipik termal iz bırakır:'
+      - 'Soğuk nokta: soğuk su hattındaki kaçak, çevresine göre daha düşük sıcaklıklı bir bölge oluşturur.'
+      - 'Sıcak iz: sıcak su hattındaki kaçak, hat boyunca belirgin bir sıcak şerit bırakır.'
+      - 'Buharlaşma soğuması: nemli duvar yüzeyi, buharlaşma nedeniyle kuru bölgelerden daha soğuk görünür.'
+      - Kameranın çözünürlüğü ve hassasiyeti tespit kalitesini doğrudan etkiler. Amatör cihazlar ancak büyük ve belirgin sızıntıları gösterir; profesyonel cihazlar çok daha küçük sıcaklık farklarını yakalar. Bu yüzden firma seçerken kullanılan cihazın sınıfını sormak önemlidir.
     image:
-      src: "/blog-images/termal-kamera-ile-su-kacagi-tespiti-infographic.jpg"
-      alt: "Termal kamera kaçak tespiti infografik"
-      caption: "Termal kamera infografik."
-  - heading: "Termal Kamera Ne Zaman Doğru Yöntem?"
+      src: /blog-images/termal-kamera-kacak.jpg
+      alt: 'Termal kamera ile kaçak tespiti: duvardaki sıcak su hattı ekranda görünüyor.'
+      caption: Termal kamera, kırmadan kaçağın yerini ısı farkından bulur.
+  - heading: Termal Kamera Ne Zaman Doğru Yöntem?
+    id: ne-zaman
     paragraphs:
-      - "Detay: [su sayacı dönüyor](/preview/su-sayaci-donuyor-gizli-kacak)."
+      - 'Termal kamera her kaçakta tek başına yeterli değildir. Uygun ve sınırlı olduğu durumları aşağıda özetledik:'
+      - 'Kaçağın varlığından emin değilseniz önce basit kontroller yapın: tüm musluklar kapalıyken su sayacı dönüyor ise gizli kaçak ihtimali yüksektir. Belirtileri değerlendirmek için su kaçağı nasıl anlaşılır rehberimize de göz atabilirsiniz.'
+    bullets:
+      - '**Sıcak su hattı sızıntısı:** Evet — belirgin sıcak iz bırakır'
+      - '**Yerden ısıtma hattı kaçağı:** Evet — en etkili yöntemlerden'
+      - '**Duvar arkası soğuk su kaçağı (nem varsa):** Evet — buharlaşma soğuması görünür'
+      - '**Tavan sızıntısı, üst kat şüphesi:** Evet — nem haritası çıkarılır'
+      - '**Kurumuş, aktif olmayan sızıntı:** Sınırlı — önce sistem çalıştırılmalı'
+      - '**Kalın yalıtımlı duvar veya kalın beton:** Sınırlı — akustik/gaz izleme gerekir'
+      - '**Atık su (gider) borusu kaçağı:** Genelde hayır — endoskopi daha uygun'
+  - heading: Ölçüm Süreci Nasıl İşler?
+    id: olcum-sureci
+    paragraphs:
+      - 'Profesyonel bir tespit genellikle şu sırayla ilerler:'
+    bullets:
+      - 1. **Ön bilgi ve hazırlık:** Teknisyen şikâyeti dinler, tesisat şemasını sorar. Sıcak su hattı test edilecekse sistem önceden çalıştırılır; sıcak su bir süre akıtılarak hat ısıtılır.
+      - 2. **Sistematik tarama:** Şüpheli bölge termal kamerayla taranır; kuru bir referans bölgeyle karşılaştırma yapılır.
+      - 3. **Anomali kaydı:** Şüpheli sıcaklık farkları termal ve normal fotoğrafla birlikte kaydedilir, konumları işaretlenir.
+      - 4. **Karşı doğrulama:** Termal bulgu, nem ölçer veya akustik dinleme cihazıyla teyit edilir. Tek cihaza dayanan tespit yanıltıcı olabilir.
+      - 5. **Rapor ve onarım önerisi:** Kaçağın konumu, olası nedeni ve onarım önerisi yazılı rapor hâlinde teslim edilir.
+  - heading: Sigorta İçin Rapor Alırken Nelere Dikkat Edilmeli?
+    id: sigorta-raporu
+    paragraphs:
+      - 'Kaçak komşu daireye hasar verdiyse veya konut sigortanızdan karşılama talep edecekseniz tespit raporu kritik önem taşır. Raporun işe yaraması için şunları içermesi gerekir:'
+      - Firma bilgisi, tarih ve imza
+      - Termal ve normal fotoğraf çiftleri
+      - Kaçak noktasının konum tanımı (hangi duvar, hangi yükseklik)
+      - Karşı doğrulama sonucu (nem ölçümü veya akustik dinleme)
+      - Onarım önerisi ve kapsamı
+      - Rapor almadan onarıma başlamayın; sigorta şirketleri sonradan düzenlenen belgeleri kabul etmeyebilir. Üst kattan sızıntı şüphesinde tavandan su damlıyor yazımızdaki ilk adımları da inceleyin.
+  - heading: Doğru Firma Nasıl Seçilir?
+    id: firma-secimi
+    paragraphs:
+      - 'Cihazlı kaçak tespitinde sonucu belirleyen şey cihazın kalitesi ve teknisyenin deneyimidir. Firma seçerken şunlara dikkat edin:'
+      - Profesyonel sınıf termal kamera kullanıldığını sorun; telefon eklentisi tipi amatör cihazlar küçük kaçakları kaçırır.
+      - Tespitin akustik dinleme veya nem ölçerle karşı doğrulanıp doğrulanmadığını sorun.
+      - Yazılı rapor ve fatura verildiğinden emin olun.
+      - '''Yaklaşık şurada'' diyen, rapor vermeyen veya hemen duvar açmaya yönlendiren firmalardan uzak durun.'
+      - Tespit sonrası onarımı da aynı firmanın yapabiliyor olması süreci hızlandırır. Kullanılan tüm yöntemleri kırmadan su kaçağı tespiti yazımızda karşılaştırdık.
     image:
-      src: "/blog-images/termal-kamera-ile-su-kacagi-tespiti-comparison.jpg"
-      alt: "Termal kamera kaçak tespiti karşılaştırma"
-      caption: "Termal kamera karşılaştırma."
-  - heading: "Termal Kamera Ölçüm Prosedürü"
+      src: /blog-images/termal-kamera-ile-su-kacagi-tespiti-chart.jpg
+      alt: termal kamera ile su kacagi tespiti — chart
+      caption: Durum değerlendirme grafiği
+  - heading: Sık Yapılan Hatalar
+    id: sik-hatalar
     paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-    image:
-      src: "/blog-images/termal-kamera-ile-su-kacagi-tespiti-symptoms.jpg"
-      alt: "Termal kamera kaçak tespiti belirtiler"
-      caption: "Termal kamera belirtiler."
-  - heading: "Sigorta Uyumlu Rapor Formatı"
+      - 'Amatör cihazla tespit yaptırmak: küçük kaçaklar görünmez, yanlış yer açılır.'
+      - 'Sızıntı kurumuşken ölçüm yapmak: termal iz oluşmaz; önce sistemi çalıştırmak gerekir.'
+      - 'Rapor almadan onarıma başlamak: sigorta süreci riske girer.'
+      - 'Karşı doğrulamayı atlamak: tek cihaz bulgusu yanıltıcı olabilir.'
+      - 'Nem lekesinin hemen altını açmak: su, boru boyunca yürüyüp lekeyi uzak noktada bırakabilir; duvarda rutubet ve küf yazımızda kaçak ile yoğuşma neminin farkını anlattık.'
+  - heading: Gölge Tesisat ile Cihazlı Kaçak Tespiti
+    id: servis
     paragraphs:
-      - "**SBGM** kabul kriterleri:"
-      - "**Rapor eksik kalırsa:** sigorta %50–100 red hakkına sahiptir. Muhakkak alın."
-    image:
-      src: "/blog-images/termal-kamera-ile-su-kacagi-tespiti-chart.jpg"
-      alt: "Termal kamera kaçak tespiti grafik"
-      caption: "Termal kamera grafik."
-  - heading: "İstanbul 2026 Termal Kamera Fiyatları"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Duvar Kör Açma vs Termal Kamera: Maliyet"
-    paragraphs:
-      - "**Ortalama tasarruf: %65–80.**"
-  - heading: "Şirket Seçim Kriterleri"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Sık Yapılan 5 Hata"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Kalıcı Çözüm İçin 4 İpucu"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Kaynaklar (E-E-A-T)"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Gölge Tesisat İstanbul — Acil Servis"
-    paragraphs:
-      - "İstanbul geneli 7/24 tesisat servisimiz Kadıköy, Beşiktaş, Ümraniye, Başakşehir dahil tüm ilçelerde 45 dakika içinde adresinize gelir. Fiyat aralıklarımız arıza türüne göre değişir; net teklif için telefonla ulaşın."
-    callout:
-      variant: "tip"
-      title: "Ustayı çağırmadan önce"
-      body: "Kombi/vana modelini ve fotoğrafı hazır edin; teşhis süresi kısalır, maliyet düşer."
+      - Gölge Tesisat olarak İstanbul Avrupa ve Anadolu Yakası'nda termal kamera, akustik dinleme ve nem ölçümüyle kırmadan su kaçağı tespiti yapıyor, tespit sonrası onarımı da aynı ekiple tamamlıyoruz. Raporlu çalışma için bize ulaşabilirsiniz.
     cta:
-      title: "Acil tesisatçı mı arıyorsunuz?"
-      body: "İstanbul içi 45 dakikada saha ekibimizi adresinize yönlendiriyoruz."
+      title: Su kaçağı tespiti için bize ulaşın
+      body: İstanbul'un her iki yakasında 7/24 servis ekibimizle yanınızdayız. Kırmadan, cihazlı tespit için hemen arayın veya WhatsApp'tan yazın.
       phone: true
       whatsapp: true
 faq:
-  - q: "Termal kamera her sızıntıyı bulur mu?"
-    a: "Hayır — kuru sızıntı, aşırı yalıtım, 30 cm+ beton zorluk. Sistem sıcak + son 24h aktif olmalı."
-  - q: "Kaç çözünürlük kamera lazım?"
-    a: "Min 320×240 (FLIR E-series veya Testo 875+). Amatör telefon kamerası yeterli değil."
-  - q: "Sigorta hangi raporu kabul eder?"
-    a: "Sertifikalı firma + termal+normal fotoğraf çifti + koordinat + karşı doğrulama + onarım önerisi."
-  - q: "Termal mi kör açma mı ucuz?"
-    a: "Termal 3.500-12.000 TL toplam, kör açma 12.000-55.000 TL. %65-80 tasarruf."
-  - q: "Kaç saatte sonuç alınır?"
-    a: "Temel tespit 1-2 saat, sigorta raporu +30 dk, gaz izleme (helyum) 3-4 saat."
+  - q: Termal kamera her su kaçağını bulur mu?
+    a: Hayır. Sıcak su hatlarında ve nemli yüzeylerde çok etkilidir; ancak kurumuş sızıntılarda, kalın yalıtımlı duvarlarda ve atık su borularında tek başına yetersiz kalabilir. Bu durumlarda akustik dinleme, gaz izleme veya endoskopi gerekir.
+  - q: Termal kamera tespiti duvarı kırmadan mı yapılır?
+    a: Evet. Tespit tamamen kırılmadan yapılır; kırım yalnızca kaçak noktası belirlendikten sonra onarım için küçük bir alanda uygulanır.
+  - q: Tespit ne kadar sürer?
+    a: Daire büyüklüğüne ve kaçağın konumuna göre değişir; tipik bir dairede tespit ve raporlama birkaç saat içinde tamamlanır.
+  - q: Sigorta tespit raporunu kabul eder mi?
+    a: Sigorta şirketleri genellikle termal ve normal fotoğraf, konum tanımı, karşı doğrulama ve onarım önerisi içeren yazılı raporları ister. Poliçenizin kapsamını sigorta şirketinizle teyit edin.
+  - q: Kaçak olduğundan nasıl emin olabilirim?
+    a: Tüm musluklar ve cihazlar kapalıyken su sayacı dönüyorsa, kombi basıncı sürekli düşüyorsa veya duvarda nedensiz nem ve küf varsa gizli kaçak ihtimali yüksektir.
+  - q: Termal kamera ile nem ölçer aynı şey mi?
+    a: Hayır. Termal kamera sıcaklık farkını görüntüler; nem ölçer yüzeydeki nemi sayısal olarak ölçer. Güvenilir tespitte iki cihaz birbirini doğrular.
+  - q: Gider borusu kaçağı termal kamerayla bulunur mu?
+    a: Genelde hayır; atık su borularında boru içi kamera (endoskopi) veya kanal görüntüleme daha uygundur.
 ---
-
-# Termal Kamera ile Su Kaçağı Tespiti: Duvar Açmadan Sızıntı Bulma (2026)
-
-**Duvar arkasında su kaçağı** var ama gözle görünmüyorsa, klasik yöntem "duvarı kör açmak" — hem 3.500–15.000 TL zarar, hem de kaçak yerini yine bulamayabilir. **Termal kamera + akustik dinleme + gaz izleme** üçlemesi ile sıva altı sızıntıyı **±10 cm doğrulukla** tespit edebilirsiniz. Bu rehber; teknolojiyi, doğru şirket seçimini, sigortanın kabul ettiği rapor formatını ve maliyet analizini içerir.
-
-> **Ne zaman termal kamera?** Kombi basıncı sürekli düşüyor, su sayacı dönüyor, duvarda nem lekesi ama yer belirsiz, tavandan damla ama üst komşuda görünen kaçak yok, sıcak zemin noktaları veya küf. İstanbul 7/24: **0533 896 05 03**.
-
-## Termal Kamera Nasıl Çalışır?
-
-**Kızılötesi (IR)** ışınları yakalar — her cisim ısısına göre farklı IR yayar. Su kaçağı 3 termal iz bırakır:
-
-1. **Soğuk nokta** — soğuk su, çevresine göre 3–8°C daha düşük
-2. **Sıcak iz** — sıcak su hattı, +5–15°C
-3. **Buharlaşma soğuması** — yaş duvar 2–4°C daha soğuk
-
-**Çözünürlük hassasiyeti:**
-
-| Kamera                               | Piksel  | Hassasiyet | Sızıntı Boyutu |
-| ------------------------------------ | ------- | ---------- | -------------- |
-| Amatör / telefon (FLIR One)          | 80×60   | 0,1°C      | 20 cm üstü     |
-| Yarı-pro                             | 160×120 | 0,08°C     | 10 cm üstü     |
-| **Profesyonel** (FLIR E8, Testo 875) | 320×240 | 0,04°C     | 3 cm üstü      |
-| Endüstriyel (FLIR T-series)          | 640×480 | 0,03°C     | 1 cm üstü      |
-
-**Doğru servis:** min 320×240 çözünürlük.
-
-## Termal Kamera Ne Zaman Doğru Yöntem?
-
-### ✅ Uygun
-
-- Sıcak su hattı sızıntısı — belirgin sıcak iz
-- Zemin altı yerden ısıtma
-- Duvar arkası soğuk su — nem varsa
-- Tavan sızıntı
-- Fayans altı hasar
-- Küf başlangıcı
-
-### ❌ Uygun Değil / Sınırlı
-
-- Kuru sızıntı (test öncesi son 24 saat kuru olmalı)
-- Aşırı yalıtımlı duvar (10 cm+ yalıtım)
-- Metal panel yüzey
-- Beton zemin (30 cm+)
-- Sızıntı 24 saatten uzun süredir kuru
-
-### Alternatif Yöntemler
-
-| Yöntem                       | Doğruluk | Uygunluk                |
-| ---------------------------- | -------- | ----------------------- |
-| Akustik dinleme              | %75–85   | Basınçlı temiz su hattı |
-| Gaz izleme (helyum/hidrojen) | %95–98   | Kritik, kuru sızıntı    |
-| Video endoskopi              | %90      | Boru içi                |
-| Nem ölçer (probe)            | %60      | Yüzey nem               |
-| Ultrasonik                   | %70      | Gizli boru içi ses      |
-
-Detay: [su sayacı dönüyor](/preview/su-sayaci-donuyor-gizli-kacak).
-
-## Termal Kamera Ölçüm Prosedürü
-
-### Ölçüm Öncesi
-
-- **Sistem sıcak** (banyoda önce sıcak su akıtılır, min 15 dk)
-- Isınma testleri için petekler devrede
-- **Ölçüm odasının sabit sıcaklığı**
-- İç mekan ışık kapalı — yansımayı azaltır
-
-### Ölçüm Sırasında
-
-1. Sistematik tarama (soldan sağa, tavan-duvar-zemin)
-2. **Referans nokta** — kuru bölge
-3. **Anomali** kayıt — koordinat + fotoğraf + termal görüntü
-4. **Karşı doğrulama** — nem ölçer, dinleme cihazı
-5. **Rapor** — termal + normal görüntü + koordinat + hassasiyet
-
-## Sigorta Uyumlu Rapor Formatı
-
-**SBGM** kabul kriterleri:
-
-- Firma adı, tarih, imza
-- Kaçak tespit uzmanı **sertifika numarası** (BM Kalite / TSE / TÜV)
-- **Termal + normal fotoğraf çifti** (en az 5 çift)
-- **Ölçüm koordinatları** (koordinat + duvarda mesafe)
-- **Anomali tanımı** — soğuk/sıcak/nem
-- **Ölçülen değerler** — referans vs anomali
-- **Karşı doğrulama** — akustik veya nem ölçer
-- **Onarım önerisi** — boru cinsi, uzunluk, işlem
-- **Hasar tespit** — çevredeki sıva/boya/parke
-- **Fatura tahmini** — kalem kalem
-
-**Rapor eksik kalırsa:** sigorta %50–100 red hakkına sahiptir. Muhakkak alın.
-
-## İstanbul 2026 Termal Kamera Fiyatları
-
-| Hizmet                        | Fiyat (TL)    | Süre      |
-| ----------------------------- | ------------- | --------- |
-| Termal kamera tespit (temel)  | 1.200 – 2.500 | 1–2 saat  |
-| Termal + akustik + rapor      | 2.000 – 3.500 | 2–3 saat  |
-| Termal + gaz izleme (helyum)  | 3.500 – 5.500 | 3–4 saat  |
-| Endoskopi + termal            | 2.500 – 4.500 | 2–3 saat  |
-| **Sigorta kabul raporu**      | +400 – 800    | +30 dk    |
-| **Tekrar ziyaret** (24–48 h)  | 600 – 1.200   | 1 saat    |
-| Yerden ısıtma sistemi         | 2.500 – 4.500 | 2–3 saat  |
-| Villa / büyük mekan (250+ m²) | 4.000 – 7.500 | Yarım gün |
-
-## Duvar Kör Açma vs Termal Kamera: Maliyet
-
-| Kalem                        | Kör Açma            | Termal Kamera       |
-| ---------------------------- | ------------------- | ------------------- |
-| Tespit + onarım              | 3.500–15.000        | 1.500–3.500         |
-| Boya + alçı restorasyon      | 2.500–8.000         | 800–2.500           |
-| Fayans söküm + tekrar döşeme | 5.000–20.000        | 1.500–5.000         |
-| Parke değişimi               | 3.000–12.000        | Genellikle gerekmez |
-| Kaybedilen kullanım süresi   | 3–7 gün             | 4–8 saat            |
-| **Toplam**                   | **12.000 – 55.000** | **3.500 – 12.000**  |
-
-**Ortalama tasarruf: %65–80.**
-
-## Şirket Seçim Kriterleri
-
-- ✅ Min **320×240 kamera** (FLIR E-series / Testo 875+)
-- ✅ Sertifika: **BM Kalite / TSE / TÜV Rheinland**
-- ✅ Sigorta ile geçmiş çalışma referansı
-- ✅ Rapor + fatura + garanti
-- ✅ Karşı doğrulama (akustik/nem)
-- ❌ "Yaklaşık şurada" tahmin
-- ❌ Rapor vermeyen firma
-- ❌ Fiyat 1.000 TL altı (amatör kamera)
-- ❌ Duvar açımı zorlaması
-- ❌ Sertifika sunmayan
-
-## Sık Yapılan 5 Hata
-
-1. Amatör telefon kamerası
-2. Sızıntı kurumuşken ölçüm
-3. Rapor almadan onarım
-4. Karşı doğrulama eksik
-5. Sertifikasız firma (sigorta red)
-
-## Kalıcı Çözüm İçin 4 İpucu
-
-- Yıllık basınç kontrolü
-- Akıllı su sensörü (300–800 TL)
-- 15 yaş üstü PVC boru değişimi
-- Bina sigortası + su hasarı ek klozu
-
-## Kaynaklar (E-E-A-T)
-
-- FLIR Systems — Building diagnostics
-- Testo — Bina termografi
-- TS ISO 6781 — Bina IR termografi
-- SBGM — Konut sigortası rapor kabul
-- BM Kalite — Kaçak tespit sertifikası
-- TÜV Rheinland — Termografi sertifikası

@@ -2163,6 +2163,148 @@ export const SERVICES: Service[] = [
       },
     ],
   },
+  {
+    slug: "acil-tesisatci",
+    name: "Acil Tesisatçı — 7/24 Nöbetçi Servis",
+    shortName: "Acil Tesisatçı",
+    icon: "leak",
+    responseMin: 30,
+    tagline: "Gece-gündüz, hafta sonu ve resmi tatillerde 7/24 müdahale",
+    intro:
+      "Su patlaması, gider taşması, kombi arızası veya gaz kokusu... Tesisat acili beklemez. İstanbul'un her ilçesine 7/24 hizmet veren nöbetçi ekiplerimiz, acil çağrılara ortalama 30 dakikada ulaşır. Gece yarısı da olsa, bayram günü de olsa telefonun ucundayız; sorunu yerinde çözer, hasarın büyümesini engelleriz.",
+    includes: [
+      "7/24 telefonla ulaşım ve hızlı yönlendirme",
+      "Su patlaması ve boru çatlağına acil müdahale",
+      "Gider taşması ve tıkanıklığına aynı saatte çözüm",
+      "Kombi ve petek arızalarına gece servisi",
+      "Gaz kaçağı şüphesinde güvenli ilk müdahale",
+      "Müdahale sonrası kalıcı onarım ve garanti",
+    ],
+    highlights: [
+      "Acil çağrılara ortalama 30 dakikada adresteyiz",
+      "Gece, hafta sonu ve resmi tatil farkı olmadan hizmet",
+      "Telefonda ücretsiz ilk müdahale yönlendirmesi",
+      "Tüm işçilik 2 yıl garantili",
+    ],
+    faq: [
+      {
+        q: "Gece yarısı tesisatçı bulabilir miyim?",
+        a: "Evet. Nöbetçi ekiplerimiz 7/24 görevdedir; gece 03.00'te de arasanız en yakın ekibi yönlendiririz ve ortalama 30 dakikada adresinizde oluruz.",
+      },
+      {
+        q: "Acil servis için ekstra ücret alıyor musunuz?",
+        a: "Keşif ve fiyat teklifi her saat ücretsizdir. İşe başlamadan önce net fiyatı onayınıza sunarız; onaylamadığınız hiçbir işlem ücretlendirilmez.",
+      },
+      {
+        q: "Su patlamasında siz gelene kadar ne yapmalıyım?",
+        a: "Önce dairenin ana su vanasını kapatın, su elektrikli aletlere ulaşıyorsa sigortayı indirin ve bizi arayın. Telefonda ekibimiz gelene kadar adım adım yönlendirir.",
+      },
+      {
+        q: "Hangi acil durumlara bakıyorsunuz?",
+        a: "Su patlaması ve boru çatlağı, gider taşması, tuvalet-kanalizasyon geri tepmesi, kombi arızası, petek su kaçırması, gaz kokusu ve donma kaynaklı tesisat hasarlarına 7/24 müdahale ediyoruz.",
+      },
+      {
+        q: "Hafta sonu ve resmi tatillerde çalışıyor musunuz?",
+        a: "Evet. Cumartesi-pazar, bayram ve resmi tatiller dahil yılın 365 günü kesintisiz hizmet veriyoruz.",
+      },
+      {
+        q: "Acil müdahale sonrası kalıcı onarımı da yapıyor musunuz?",
+        a: "Evet. Önce hasarı durdururuz, ardından aynı ziyarette veya planladığımız ikinci randevuda kalıcı onarımı tamamlar, işçiliği garanti altına alırız.",
+      },
+    ],
+    howTitle: "Acil Tesisat Müdahalesi Nasıl İşler?",
+    howIntro:
+      "Acil durumda panik değil, plan gerekir. Çağrınızı aldığımız andan itibaren net bir süreç işletiriz: telefonda ilk yönlendirme, hızlı ulaşım, hasarı durdurma ve kalıcı onarım.",
+    process: [
+      {
+        step: "Çağrı ve telefonda ilk yönlendirme",
+        detail:
+          "Aradığınız anda durumu dinler, ekip gelene kadar yapmanız gerekenleri (vana kapatma, elektrik kesme vb.) adım adım anlatırız.",
+      },
+      {
+        step: "En yakın nöbetçi ekibin yönlendirilmesi",
+        detail:
+          "Bölgenize en yakın donanımlı aracı görevlendirir, tahmini varış süresini size bildiririz. Acil çağrılara ortalama 30 dakikada ulaşırız.",
+      },
+      {
+        step: "Hasarı durduran ilk müdahale",
+        detail:
+          "Su basması, taşma veya kaçak ne olursa olsun önce kaynağı kontrol altına alır, hasarın binaya ve eşyalarınıza yayılmasını durdururuz.",
+      },
+      {
+        step: "Kalıcı onarım ve garanti",
+        detail:
+          "Arızanın kök nedenini giderir, değişen parçaları garantili malzemeyle yeniler ve tüm işçiliği 2 yıl garanti kapsamına alırız.",
+      },
+    ],
+    priceIntro:
+      "Acil serviste fiyat; arızanın türüne, müdahalenin kapsamına ve gereken malzemeye göre belirlenir. Keşif ve fiyat teklifi gece-gündüz ücretsizdir; onayınız olmadan işe başlamayız.",
+    priceFactors: [
+      "Arızanın türü: su patlaması, tıkanıklık, kombi veya gaz hattı",
+      "Müdahalenin kapsamı ve gereken işçilik süresi",
+      "Değişecek parça ve malzeme",
+      "Erişim zorluğu ve mevcut tesisatın durumu",
+      "Hizmet saati (gece/hafta sonu acil çağrı)",
+    ],
+    symptoms: [
+      {
+        title: "Su patlaması / boru çatlağı",
+        detail: "Duvar içinden fışkıran su, ani basınç düşüşü ve tavandan akan su, patlak borunun açık işaretidir; ana vanayı hemen kapatın.",
+      },
+      {
+        title: "Gider taşması ve geri tepme",
+        detail: "Klozetten, duş süzgecinden veya yer sifonundan pis suyun geri gelmesi ana hattın tıkandığını gösterir; her dakika hasar büyür.",
+      },
+      {
+        title: "Kombi kış gecesi çalışmıyor",
+        detail: "Donma riski olan gecelerde kombinin durması hem konforu hem tesisatı tehdit eder; gece servisimiz aynı gece müdahale eder.",
+      },
+      {
+        title: "Gaz kokusu",
+        detail: "Çürük yumurta benzeri koku gaz sızıntısı demektir. Elektrik düğmelerine dokunmayın, vanayı kapatıp ortamı havalandırın ve dışarıdan bizi arayın.",
+      },
+      {
+        title: "Petek veya vanadan şiddetli su kaçırma",
+        detail: "Petek gövdesinden veya vana bağlantısından akan su kısa sürede zemine yayılır; sistemin vanasını kapatıp bizi arayın.",
+      },
+    ],
+    emergencySteps: [
+      {
+        step: "Ana su vanasını kapatın",
+        detail: "Su saatinin yanındaki ana vanayı kapatmak, su kaynaklı acil durumların %90'ında hasarı anında durdurur.",
+      },
+      {
+        step: "Elektriği güvene alın",
+        detail: "Su prize, panoya veya elektrikli cihaza ulaştıysa ilgili sigortayı indirin; ıslak zeminde prize dokunmayın.",
+      },
+      {
+        step: "Gaz kokusunda vanayı kapatıp havalandırın",
+        detail: "Gaz vanasını kapatın, pencereleri açın, ateş ve elektrik düğmelerinden uzak durun, binanın dışından arayın.",
+      },
+      {
+        step: "Bizi arayın, telefonda yönlendirelim",
+        detail: "Ekip yoldayken telefonda yapmanız gerekenleri adım adım anlatırız; doğru ilk müdahale onarım süresini yarıya indirir.",
+      },
+    ],
+    variants: [
+      {
+        title: "Gece acil servisi",
+        detail: "22.00-08.00 arası su patlaması, taşma ve kombi arızalarına nöbetçi ekiple aynı gece müdahale.",
+      },
+      {
+        title: "Hafta sonu ve resmi tatil servisi",
+        detail: "Cumartesi-pazar ve bayram günlerinde tam donanımlı araçlarla kesintisiz hizmet.",
+      },
+      {
+        title: "İşyeri ve site acil müdahalesi",
+        detail: "Restoran, ofis, site ve apartman ortak alanlarındaki acil tesisat arızalarına öncelikli yönlendirme.",
+      },
+      {
+        title: "Donma ve kış acil durumları",
+        detail: "Donan boruların güvenli çözülmesi, çatlayan hatların onarımı ve kombi donma korumasının devreye alınması.",
+      },
+    ],
+  },
 ];
 
 
@@ -2188,6 +2330,7 @@ const RELATED_SERVICES: Record<string, string[]> = {
   "musluk-batarya-degisimi": ["dusakabin-vitrifiye-montaji", "su-kacagi-tespiti", "tikaniklik-acma"],
   "hidrofor-kurulumu": ["su-kacagi-tespiti", "petek-temizligi", "kombi-servisi"],
   "kombi-montaji": ["kombi-servisi", "dogalgaz-tesisati", "petek-temizligi"],
+  "acil-tesisatci": ["su-kacagi-tespiti", "tikaniklik-acma", "kombi-servisi"],
 };
 
 export function relatedServicesFor(slug: string, limit = 3): Service[] {

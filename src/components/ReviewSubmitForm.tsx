@@ -86,12 +86,14 @@ export function ReviewSubmitForm({
         value={name}
         onChange={(e) => setName(e.target.value.slice(0, 80))}
         placeholder="Adınız"
+        aria-label="Adınız"
         className="w-full rounded-lg border border-border bg-background px-3 py-2.5 text-sm font-semibold outline-none focus:border-brand-red"
       />
 
       <select
         value={districtSlug}
         onChange={(e) => setDistrictSlug(e.target.value)}
+        aria-label="Bölge"
         className="w-full rounded-lg border border-border bg-background px-3 py-2.5 text-sm font-semibold outline-none focus:border-brand-red"
       >
         <option value="">Bölge (opsiyonel)</option>
@@ -106,6 +108,7 @@ export function ReviewSubmitForm({
         value={body}
         onChange={(e) => setBody(e.target.value.slice(0, 1500))}
         placeholder="Aldığınız hizmeti birkaç cümleyle anlatın…"
+        aria-label="Yorumunuz"
         rows={4}
         className="w-full resize-y rounded-lg border border-border bg-background px-3 py-2.5 text-sm outline-none focus:border-brand-red"
       />

@@ -1115,38 +1115,39 @@ function Checkbox({ checked, onChange, label }: { checked: boolean; onChange: (v
 function SuccessView({
   t, service, address, date, slot, name, phone, email, notes, waHref,
 }: { t: TDict; service: string; address: string; date: string; slot: string; name: string; phone: string; email: string; notes: string; waHref: string }) {
+  const ref = `GT-${(phone.replace(/\D/g, "").slice(-4) || "0000")}`;
   return (
-    <div className="mx-auto max-w-2xl pt-4 text-center lg:pt-10">
-      <div className="relative mx-auto flex h-24 w-24 items-center justify-center">
-        <span className="absolute inset-0 rounded-full bg-emerald-500/20 blur-2xl" />
-        <span className="absolute inset-0 animate-ping rounded-full border-2 border-emerald-500/40" />
-        <div className="relative flex h-20 w-20 items-center justify-center rounded-full border-4 border-emerald-500 bg-emerald-500/10">
-          <CheckCircle2 className="h-10 w-10 text-emerald-400" />
-        </div>
+    <div className="sp mx-auto max-w-2xl bg-transparent pt-4 text-left lg:pt-10" style={{ color: "inherit", background: "transparent" }}>
+      <div className="sp-mono flex w-fit items-center gap-2 rounded-full border border-current/20 px-3 py-1 text-[10px]">
+        <span className="h-2 w-2 animate-pulse rounded-full bg-emerald-400" aria-hidden="true" /> Onaylandı · {ref}
       </div>
-      <h2 className="mt-5 text-[24px] font-extrabold lg:text-[30px]">{t.successTitle}</h2>
-      <p className="mx-auto mt-2 max-w-md text-[13px] text-white/60 lg:text-[14px]">{t.successDesc}</p>
+      <h2 className="sp-display mt-4 text-[44px] lg:text-[64px]">
+        {t.successTitle}
+      </h2>
+      <p className="mt-2 max-w-md text-[14px] opacity-70">{t.successDesc}</p>
+      <div className="sp-pipe mt-5" aria-hidden="true" />
 
-      <div className="mt-6 rounded-3xl border border-white/10 bg-white/[0.03] p-5 text-left backdrop-blur-xl lg:p-7">
-        <div className="flex items-center gap-2 text-[10px] font-extrabold uppercase tracking-[0.22em] text-brand-red">
-          <span className="h-px w-6 bg-brand-red" /> {t.summary}
+      <div className="mt-5 overflow-hidden rounded-[1.6rem] bg-[var(--sp-paper)] text-[var(--sp-ink)]">
+        <div className="flex items-center justify-between border-b border-dashed border-[var(--sp-line)] px-5 py-4">
+          <div className="sp-mono text-[10px] text-[var(--sp-red)]">{t.summary}</div>
+          <CheckCircle2 className="h-6 w-6 text-[var(--sp-red)]" />
         </div>
-        <div className="mt-4 grid gap-3 text-[12.5px] sm:grid-cols-2">
-          <Row icon={<Droplet className="h-4 w-4 text-brand-red" />} label={t.service} value={service} />
-          <Row icon={<MapPin className="h-4 w-4 text-brand-red" />} label={t.address} value={address} />
-          <Row icon={<CalIcon className="h-4 w-4 text-brand-red" />} label={t.dateTime} value={`${date}, ${slot}`} />
-          <Row icon={<User className="h-4 w-4 text-brand-red" />} label={t.nameL} value={name} />
-          <Row icon={<Phone className="h-4 w-4 text-brand-red" />} label={t.phoneL} value={phone} />
-          <Row icon={<Mail className="h-4 w-4 text-brand-red" />} label={t.emailL} value={email} />
-          {notes && <Row icon={<MessageSquare className="h-4 w-4 text-brand-red" />} label={t.extraNote} value={notes} />}
+        <div className="grid gap-px bg-[var(--sp-line)] text-[13px] sm:grid-cols-2">
+          <Row icon={<Droplet className="h-4 w-4" />} label={t.service} value={service} />
+          <Row icon={<CalIcon className="h-4 w-4" />} label={t.dateTime} value={`${date}, ${slot}`} />
+          <Row icon={<MapPin className="h-4 w-4" />} label={t.address} value={address} />
+          <Row icon={<User className="h-4 w-4" />} label={t.nameL} value={name} />
+          <Row icon={<Phone className="h-4 w-4" />} label={t.phoneL} value={phone} />
+          <Row icon={<Mail className="h-4 w-4" />} label={t.emailL} value={email} />
+          {notes && <Row icon={<MessageSquare className="h-4 w-4" />} label={t.extraNote} value={notes} />}
         </div>
       </div>
 
       <div className="mt-5 grid gap-2.5 sm:grid-cols-2">
-        <a href={waHref} target="_blank" rel="noopener" className="flex items-center justify-center gap-2 rounded-2xl bg-emerald-600 px-5 py-3.5 text-[14px] font-extrabold text-white shadow-[0_10px_28px_-12px_rgba(16,185,129,0.7)]">
+        <a href={waHref} target="_blank" rel="noopener" className="flex items-center justify-center gap-2 rounded-full border border-current/30 px-5 py-3.5 text-[14px] font-extrabold">
           <MessageSquare className="h-4 w-4" /> WhatsApp
         </a>
-        <Link to="/" className="flex items-center justify-center gap-2 rounded-2xl bg-brand-red px-5 py-3.5 text-[14px] font-extrabold text-white shadow-[0_10px_28px_-12px_rgba(220,38,38,0.7)]">
+        <Link to="/" className="sp-btn-red flex items-center justify-center gap-2 rounded-full px-5 py-3.5 text-[14px] font-extrabold">
           {t.backHome} <ArrowRight className="h-4 w-4" />
         </Link>
       </div>
@@ -1156,11 +1157,11 @@ function SuccessView({
 
 function Row({ icon, label, value }: { icon: React.ReactNode; label: string; value: string }) {
   return (
-    <div className="flex items-start gap-2.5 rounded-xl border border-white/5 bg-white/[0.02] p-3">
-      <div className="mt-0.5">{icon}</div>
+    <div className="flex items-start gap-2.5 bg-[var(--sp-paper)] p-4">
+      <div className="mt-0.5 text-[var(--sp-red)]">{icon}</div>
       <div className="min-w-0 flex-1">
-        <div className="text-[10.5px] font-extrabold uppercase tracking-wider text-white/50">{label}</div>
-        <div className="mt-0.5 break-words font-semibold text-white">{value}</div>
+        <div className="sp-mono text-[9px] text-[var(--sp-muted)]">{label}</div>
+        <div className="mt-0.5 break-words font-semibold">{value}</div>
       </div>
     </div>
   );

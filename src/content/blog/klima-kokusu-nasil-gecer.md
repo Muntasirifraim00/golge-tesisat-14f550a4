@@ -1,286 +1,151 @@
 ---
-slug: "klima-kokusu-nasil-gecer"
-title: "Klima Kokusu Nasıl Geçer? İç Ünite Küf, Bakteri ve Sigara Kokusu Çözümü (2026)"
-seoTitle: "Klima Kokusu Nasıl Geçer? Küf, Bakteri ve"
-keyword: "klima kokusu nasıl geçer"
-volume: 200
-kdi: 30
-category: "Klima"
-readMin: 7
-published: "2026-07-26"
-updated: "2026-07-26"
-excerpt: >
-  Klima açtığınızda gelen küflü, ekşi ya da çorap kokusu, iç ünitedeki
-  evaporatör peteği ve tahliye tavasında biriken nemli tozun bakteri/küf
-  üretmesinden kaynaklanır.
-metaDescription: "Koku tipine göre teşhis, adım adım derin temizlik protokolü, kimyasal seçimi ve tekrar önleme yöntemleri. İstanbul geneli 7/24 servis: 0533 896 05 03. Gölge..."
-serviceSlug: "klima-servisi"
+slug: klima-kokusu-nasil-gecer
+title: Klima Kokusu Nasıl Geçer? Küf, Bakteri ve Sigara Kokusu Çözümü (2026)
+seoTitle: Klima Kokusu Nasıl Geçer? Küf ve Bakteri
+keyword: klima kokusu nasıl geçer
+category: Klima
+serviceSlug: klima-servisi
+readMin: 9
+published: '2026-07-26'
+updated: '2026-10-02'
+excerpt: Klima açtığınızda gelen küflü, ekşi ya da çorap kokusu, iç ünitedeki evaporatör peteği ve tahliye tavasında biriken nemli tozun bakteri ve küf üretmesinden kaynaklanır. Koku tipine göre teşhis, adım adım derin temizlik ve önleme yöntemleri bu rehberde.
 featuredImage:
-  src: "/blog-images/klima-kokusu-nasil-gecer-hero.jpg"
-  alt: "klima kokusu nasıl geçer — İstanbul saha rehberi görseli"
-  caption: "Gölge Tesisat İstanbul saha ekibi."
-intro: >
-  Klima açtığınızda gelen küflü, ekşi ya da çorap kokusu, iç ünitedeki
-  evaporatör peteği ve tahliye tavasında biriken nemli tozun bakteri/küf
-  üretmesinden kaynaklanır. Çözüm; filtre yıkamak yeterli değildir — evaporatör,
-  blower fan ve drenajın derin temizliği şarttır. Bu rehberde koku tiplerine
-  göre teşhis, adım adım temizlik ve tekrarını önleme yöntemlerini bulacaksınız.
+  src: /blog-images/klima-kokusu-nasil-gecer-hero.jpg
+  alt: 'Klima iç ünitesi temizliği: evaporatör peteğine köpük uygulanıyor'
+  caption: Klima kokusunun kaynağı genelde evaporatör peteğindeki biyofilmdir.
+metaDescription: Klima kokusu nasıl geçer? Koku tipine göre teşhis, adım adım derin temizlik protokolü, kimyasal seçimi ve tekrar önleme yöntemleri bu rehberde.
+intro: Klima açtığınızda gelen küflü, ekşi ya da çorap kokusu, iç ünitedeki evaporatör peteği ve tahliye tavasında biriken nemli tozun bakteri ve küf üretmesinden kaynaklanır. Çözüm için filtre yıkamak yeterli değildir — evaporatör, blower fan ve drenajın derin temizliği şarttır. Bu rehberde koku tiplerine göre teşhisi, adım adım temizliği ve tekrarını önleme yöntemlerini bulacaksınız.
+manualRelated:
+  - klima-btu-hesaplama
+  - inverter-vs-standart-klima
+  - klima-gazi-ne-zaman-biter
 sections:
-  - heading: "Koku Tipine Göre Teşhis"
+  - heading: Öne Çıkanlar
+    id: one-cikanlar
+    bullets:
+      - Klima kokusu bir koku sorunu değil, biyofilm problemidir; kalıcı çözüm evaporatör, blower fan ve drenajın derin temizliğidir.
+      - Yanık veya plastik kokusu elektrik arızası işaretidir — cihazı hemen kapatın.
+      - Çürük yumurta kokusu çoğunlukla sifonsuz drenaj hattından gelen kanalizasyon gazıdır.
+      - Her kapatmadan önce 10 dakika fan modu çalıştırmak, küf oluşumunu büyük ölçüde önler.
+      - Ev tipi köpük temizliği hafif kokuları çözer; ilerlemiş biyofilmde profesyonel buharlı temizlik gerekir.
+  - heading: Koku Tipine Göre Teşhis
+    id: koku-teshis
     paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
+      - 'Kokunun karakteri, kaynağını ele verir. Aşağıdaki tabloyla önce teşhisi koyun:'
     image:
-      src: "/blog-images/klima-kokusu-nasil-gecer-infographic.jpg"
-      alt: "Klima kokusu çözüm infografik"
-      caption: "Klima kokusu infografik."
-  - heading: "Neden Kokar? — Kök Neden"
+      src: /blog-images/klima-kokusu-nasil-gecer-infographic.jpg
+      alt: Klima koku tipleri ve kaynakları infografik
+      caption: Kokunun karakteri kaynağı ele verir; yanık kokusu acil müdahale ister.
+    bullets:
+      - '**Küflü / rutubet:** Evaporatör peteğinde biyofilm — Orta — kısa sürede temizlik'
+      - '**Ekşi / çorap:** Drenaj tavasında durgun su — Yüksek — bakteri üremiş'
+      - '**Yanık / plastik:** Motor sargısı veya elektrik arızası — Kritik — hemen kapatın'
+      - '**Sigara / duman:** Filtre ve peteğe emilmiş katran — Derin temizlik + karbon filtre'
+      - '**Çürük yumurta:** Drenaj hortumundan kanalizasyon geri kaçışı — Yüksek — sifon kontrolü'
+      - '**Deterjan:** Önceki temizlikte durulanmamış kimyasal — Orta — bol suyla durulama'
+  - heading: Neden Kokar? Kök Neden
+    id: kok-neden
     paragraphs:
-      - "Klima soğuturken evaporatör peteği **yoğuşma suyu** üretir. Toz + rutubet + karanlık = **biyofilm** (bakteri + küf kolonisi). Cihaz kapandıktan sonra petek nemli kalırsa 24 saatte koku başlar. Ana tetikleyiciler:"
+      - 'Klima soğuturken evaporatör peteği yoğuşma suyu üretir. Toz, rutubet ve karanlık bir araya gelince biyofilm (bakteri ve küf kolonisi) oluşur. Cihaz kapandıktan sonra petek nemli kalırsa koku kısa sürede başlar. Ana tetikleyiciler:'
+    bullets:
+      - Filtreleri seyrek temizlemek
+      - Klimayı fan moduyla kurutmadan ani kapatmak
+      - Drenaj hortumunun sifonsuz olması (gider kokusu geri kaçar)
+      - Nemli iklimde sürekli düşük sıcaklıkta çalıştırmak
     image:
-      src: "/blog-images/klima-kokusu-nasil-gecer-comparison.jpg"
-      alt: "Klima kokusu çözüm karşılaştırma"
-      caption: "Klima kokusu karşılaştırma."
-  - heading: "Adım Adım Derin Temizlik (60 dk)"
+      src: /blog-images/klima-kokusu-nasil-gecer-comparison.jpg
+      alt: Temiz ve biyofilmli evaporatör karşılaştırması
+      caption: Biyofilm kaplamış petek, kokunun ana kaynağıdır.
+  - heading: Adım Adım Derin Temizlik
+    id: derin-temizlik
     paragraphs:
-      - "**Gerekli:** Enzimli klima köpüğü, yumuşak fırça, plastik örtü, spreyli su şişesi, mikrofiber bez, çamaşır suyu (drenaj için, seyreltilmiş)."
+      - 'Gerekli malzeme: enzimli klima köpüğü, yumuşak fırça, plastik örtü, spreyli su şişesi, mikrofiber bez ve drenaj için seyreltilmiş çamaşır suyu. İşlem yaklaşık bir saat sürer:'
+      - '**Basınçlı su kullanmayın: Evaporatörün alüminyum kanatlarına basınçlı su tabancasıyla asla doğrudan püskürtmeyin; kanatlar ezilir ve verim kalıcı olarak düşer. Sprey basıncı yeterlidir.**'
     image:
-      src: "/blog-images/klima-kokusu-nasil-gecer-symptoms.jpg"
-      alt: "Klima kokusu çözüm belirtiler"
-      caption: "Klima kokusu belirtiler."
-  - heading: "Kimyasallar: Ne, Ne Zaman?"
+      src: /blog-images/klima-kokusu-nasil-gecer-symptoms.jpg
+      alt: 'Klima derin temizlik adımları: filtre, köpük, blower fan ve drenaj'
+      caption: Derin temizlikte filtre tek başına yetmez; petek, fan ve drenaj birlikte ele alınır.
+    bullets:
+      - 1. **Elektriği kesin:** Klimayı prizden çekin. Elektrik güvenliği her şeyden önce gelir.
+      - 2. **Filtreleri çıkarın:** Ön kapağı açın, filtreleri ılık su ve sıvı sabunla yıkayıp gölgede kurutun.
+      - 3. **Koruma örtüsü serin:** İç üniteyi plastik örtüyle sarın, alta damlama torbası koyun.
+      - 4. **Köpüğü uygulayın:** Enzimli köpüğü evaporatör peteğine sıkın ve bekletin; biyofilmi ayrıştırır.
+      - 5. **Blower fanı temizleyin:** Fana spreyle püskürtüp yumuşak fırçayla döndürün. Küf en çok burada birikir.
+      - 6. **Durulayın:** Sprey şişesiyle bol su sıkın; su drenajdan çıkarken tavayı kontrol edin.
+      - 7. **Drenajı dezenfekte edin:** Tavaya seyreltilmiş çamaşır suyu dökün, bekletip sıcak suyla durulayın. Metal parçalara değdirmeyin.
+      - 8. **Drenaj hortumunu açın:** Hortumu dışarıdan hava veya suyla temizleyin; tıkanıklık hem koku hem su akıntısı sebebidir.
+      - 9. **Fan modunda kurutun:** Filtreleri takıp cihazı bir süre sadece fan modunda çalıştırın.
+  - heading: 'Kimyasallar: Ne, Ne Zaman?'
+    id: kimyasallar
     paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
+      - '**Kimyasalları karıştırmayın: Aynı cihaza art arda farklı kimyasallar (örneğin sirke ve çamaşır suyu) uygulamak zehirli gaz açığa çıkarabilir. Tek ürün kullanın, ardından bol suyla durulayın.**'
+    bullets:
+      - '**Enzimli klima köpüğü:** Evaporatör ve fan — Aromalı üründen kaçının; koku üstüne koku olur'
+      - '**Seyreltilmiş çamaşır suyu:** Drenaj tavası — Metal parçalara değdirmeyin'
+      - '**Sirke + su:** Hafif küf — Kalınlaşmış biyofilme yetmez'
+      - '**Aktif karbon filtre:** Sigara ve mutfak dumanı — Düzenli değiştirin'
+  - heading: 'Kokuyu Önleme: Uzun Vadeli Protokol'
+    id: onleme
+    checklist:
+      title: Koku tekrarını önleme listesi
+      items:
+        - Otomatik Dry/Self-Clean modu olan modellerde her kapatmadan önce çalıştırın; yoksa 10 dakika fan modu kullanın.
+        - Filtreleri iki haftada bir yıkayın, tamamen kurutmadan takmayın.
+        - Yılda bir kez profesyonel derin temizlik yaptırın.
+        - Drenaj hortumu binaya bağlıysa mutlaka U-sifon ekletin; kanalizasyon gazı geri kaçmaz.
+        - Sezon sonunda kapatmadan önce cihazı uzun süre sadece fan modunda kurutun.
+        - Yıllık gaz ve drenaj kontrolü için klima gazı rehberimize göz atın.
+    inlineLinks:
+      - slug: klima-gazi-ne-zaman-biter
+        anchor: klima gazı rehberimize
+  - heading: Sezonluk Bakım Takvimi
+    id: sezonluk-bakim
+    bullets:
+      - 'İlkbahar: filtreleri yıkayın, evaporatöre temizleme köpüğü uygulayın, drenaj akıntısını kontrol edin; ilk çalıştırmayı fan modunda yapın.'
+      - 'Yaz: iki haftada bir filtre temizliği, ayda bir drenaj borusuna sirke, uzun kesintiler sonrası fan modu.'
+      - 'Sonbahar: derin temizlik protokolü, cihazı fanla kurutma, kumanda pillerini çıkarma.'
+      - 'Kış: ısıtmada kullanıyorsanız ayda bir kısa fan modu; kullanmıyorsanız ünitenin kapağını koruyucu bezle örtün.'
+  - heading: Sık Yapılan Hatalar
+    id: sik-hatalar
+    bullets:
+      - Sadece filtre yıkamak — koku evaporatördedir, filtre değişse bile geçmez.
+      - Parfümlü spreyle üstünü örtmek — koku kısa sürede daha güçlü geri gelir.
+      - Basınçlı suyla petekleri ezmek — geri dönüşü olmayan verim kaybı.
+      - Drenaj hortumunu ihmal etmek — çürük yumurta kokusu çoğunlukla oradan gelir.
+      - Cihazı nemli petekle hemen kapatmak — küf için ideal ortam yaratır.
+      - Farklı kimyasalları karıştırmak — zehirli gaz riski.
+  - heading: Sağlık Açısından Önemi
+    id: saglik
+    paragraphs:
+      - Küf sporları alerji, astım krizi ve sinüziti tetikleyebilir; drenaj tavasındaki durgun su ise bakteri üremesi için uygun ortamdır. Evde küçük çocuk, hamile veya solunum hastası varsa temizlik öncelikli olmalıdır. Koku sürekli hale geldiyse biyofilm ilerlemiş demektir; ev temizliği yetmeyebilir.
+  - heading: Profesyonel Servis Ne Yapar?
+    id: profesyonel-servis
+    paragraphs:
+      - Ev tipi köpük temizliği başlangıçtır; ciddi kokularda buharlı ve biyosidal yıkama gerekir. Profesyonel servis iç ünite panelini söker, evaporatörü kuru buharla temizler, onaylı biyosidal ürün uygular, durular ve drenaj hattını basınçla açar. Bu işlem evde yapılamaz; cihazın sökülmesi ve gaz devresinin korunması uzmanlık ister.
     image:
-      src: "/blog-images/klima-kokusu-nasil-gecer-chart.jpg"
-      alt: "Klima kokusu çözüm grafik"
-      caption: "Klima kokusu grafik."
-  - heading: "Kokuyu Önleme — Uzun Vadeli Protokol"
+      src: /blog-images/klima-kokusu-nasil-gecer-chart.jpg
+      alt: Ev temizliği ve profesyonel temizlik karşılaştırma grafiği
+      caption: İlerlemiş biyofilmde profesyonel buharlı temizlik tek kalıcı çözümdür.
+  - heading: Sonuç
+    id: sonuc
     paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Sık Yapılan 6 Hata"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "SSS"
-    paragraphs:
-      - "**Klima kokusu sağlığa zararlı mı?** Evet. Küf sporları alerji, astım krizi ve sinüzit tetikler; drenajdan gelen bakteri **legionella** riski taşır. Küçük çocuk / hamile / KOAH hastası varsa öncelikli temizlik yapılmalı."
-      - "**Sirkeyle geçer mi?** Hafif kokularda yardımcı olur, ama kalınlaşmış biyofilmi çözmez. Enzimli köpük şarttır."
-      - "**Yeni klima da kokabilir mi?** Evet — montaj sırasında iç üniteye kaçan lehim/bakır talaşı nemle birlikte kokar. İlk 2 hafta içindeki koku için satıcıya bildirin."
-      - "**Klima açıkken mi, kapalıyken mi kokar daha çok?** İlk açılışta 30 sn kokar (durgun nem uçar). Sürekli kokuyorsa biyofilm ilerlemiş demektir."
-  - heading: "Küf ve Bakteri Biyolojisi (Neden Isınıyor?)"
-    paragraphs:
-      - "Klima iç ünitesinde evaporatör lamelinde yoğuşma suyu birikir (nem %90+). Ortam sıcaklığı 15-28 °C ise **Aspergillus, Cladosporium ve Penicillium** cinsi küfler 48 saatte biyofilm oluşturur. Bu biyofilm hem organik kokuya hem alerjenlere kaynaktır. WHO 2024 raporuna göre kapalı mekan küflü klima solunumu, astım şiddetlenmesini **%38** artırır."
-      - "Legionella pneumophila bakterisi ise klimanın **drenaj tavasında** durgun suda ürer. Sıcak su tesisatına sıçradığında ciddi zatürre yapar. Bu yüzden drenaj eğimi (%2 minimum) ve haftalık akıntı kontrolü sağlık için zorunludur."
-  - heading: "HEPA ve Aktif Karbon Filtreler"
-    paragraphs:
-      - "Standart klima \"toz filtresi\" 30-50 mikron partikül tutar — küf sporu (2-10 μm) ve virüs (0.1 μm) rahatça geçer. Ek filtre seçenekleri:"
-      - "HEPA + karbon kombinasyonu ev tipi cihazlar için ideal; ancak hava akışını %8-12 düşürür, cihaz seçilirken göz önüne alınmalı."
-  - heading: "Sezonluk Bakım Takvimi"
-    paragraphs:
-      - "**İlkbahar (Mart-Nisan)** — kış uykusundan uyanış: - Filtreleri çıkar, ılık suda yıka. - Evaporatörü klima temizleme köpüğü ile püskürt. - Drenaj tavasını sirkeli su ile doldur, akıntıyı kontrol et. - İlk çalıştırmayı 30 dk sadece **fan modunda** yap (nem uçsun)."
-      - "**Yaz (Haziran-Ağustos)** — yoğun kullanım: - 2 haftada bir filtre temizliği. - Her ay drenaj borusuna 50 mL beyaz sirke. - Uzun kesintiler sonrası 15 dk fan modu."
-      - "**Sonbahar (Ekim-Kasım)** — kapanış: - Derin temizlik (60 dk protokolü). - Cihazı 2 saat sadece fan ile kurut. - Uzaktan kumandayı temizle, pil çıkar."
-      - "**Kış (Aralık-Şubat)** — ısıtma modu veya bekleme: - Isıtmada kullanıyorsan ayda 1 kez fan modu 20 dk. - Kullanmıyorsan cihaz kapağını kapat (koruma bezi)."
-  - heading: "Kokunun Sağlık Etkileri"
-    paragraphs:
-      - "Küflü klima ortamında 2 saatten fazla kalan kişilerde raporlanan semptomlar: - Baş ağrısı (%42) - Gözlerde yanma (%31) - Boğaz kaşıntısı (%38) - Kuru öksürük (%22) - Deri kaşıntısı (%14)"
-      - "Astım hastalarında kriz sıklığı klima kokusuyla korelasyondadır. Alerjik rinit ile birlikte yaşayan çocuklarda haftalık HEPA filtre kontrolü zorunlu tutulmalıdır."
-  - heading: "Uzman Servis Ne Yapar?"
-    paragraphs:
-      - "Ev tipi köpük temizliği başlangıçtır; ciddi kokularda **basınçlı buhar + biyosidal yıkama** gereklidir: 1. İç ünite panel demontajı (20 dk). 2. Evaporatör 120 °C kuru buhar ile 15 dk. 3. Kuaterner amonyum tuzu bazlı biyosit (Legionella onaylı) 10 dk temas. 4. Distile su ile 3 kez durulama. 5. Foto-katalizör kaplama (opsiyonel, 2 yıl etkili). 6. Drenaj hattı hidroblast (5 bar)."
-      - "2026 fiyatı: 1.400-2.200 ₺. Yıllık paket alan kullanıcı 3 yılda %30 tasarruf sağlar."
-  - heading: "Otoriter Kaynaklar ve Referanslar"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Sonuç"
-    paragraphs:
-      - "Klima kokusu bir \"koku sorunu\" değil, **biyofilm problemidir**. Filtre yıkamak yüzeyseldir; kalıcı çözüm evaporatör + blower fan + drenaj üçlüsünün derin temizliğidir. Yılda 1 kez profesyonel servis, her sezon sonu fan-kurutma ve doğru [BTU seçimi](/preview/klima-btu-hesaplama) ile klimanız ilk günkü kokusuz havayı verir. [Inverter modellerde](/preview/inverter-vs-standart-klima) düşük devir sayesinde petek daha az yoğuşma yapar, koku riski %40 azalır. Yıllık [gaz + drenaj kontrolü](/preview/klima-gazi-ne-zaman-biter) ise küf tekrarını önler."
-  - heading: "Gölge Tesisat İstanbul — Acil Servis"
-    paragraphs:
-      - "İstanbul geneli 7/24 tesisat servisimiz Kadıköy, Beşiktaş, Ümraniye, Başakşehir dahil tüm ilçelerde 45 dakika içinde adresinize gelir. Fiyat aralıklarımız arıza türüne göre değişir; net teklif için telefonla ulaşın."
-    callout:
-      variant: "tip"
-      title: "Ustayı çağırmadan önce"
-      body: "Kombi/vana modelini ve fotoğrafı hazır edin; teşhis süresi kısalır, maliyet düşer."
-    cta:
-      title: "Acil tesisatçı mı arıyorsunuz?"
-      body: "İstanbul içi 45 dakikada saha ekibimizi adresinize yönlendiriyoruz."
-      phone: true
-      whatsapp: true
+      - Klima kokusu bir koku sorunu değil, biyofilm problemidir. Filtre yıkamak yüzeyseldir; kalıcı çözüm evaporatör, blower fan ve drenaj üçlüsünün derin temizliğidir. Yılda bir kez profesyonel servis, her sezon sonu fanla kurutma ve doğru kapasite seçimi ile klimanız ilk günkü kokusuz havayı verir. Kapasite seçimi için BTU hesaplama rehberimizi, cihaz seçimi için inverter vs standart klima yazımızı inceleyin.
+    inlineLinks:
+      - slug: klima-btu-hesaplama
+        anchor: BTU hesaplama rehberimizi
+      - slug: inverter-vs-standart-klima
+        anchor: inverter vs standart klima
 faq:
-  - q: "Klima kokusu sağlığa zararlı mı?"
-    a: "Evet. Küf sporları alerji/astım tetikler; drenaj bakterisi legionella riski taşır."
-  - q: "Sirkeyle geçer mi?"
-    a: "Hafif kokularda yardımcı olur, kalınlaşmış biyofilmi çözmez. Enzimli köpük şarttır."
-  - q: "Ne sıklıkla derin temizlik gerekir?"
-    a: "Nemli iklimde ve günlük 6+ saat kullanımda yılda 1 kez; kuru iklimde 2 yılda 1."
+  - question: Klima kokusu sağlığa zararlı mı?
+    answer: Olabilir. Küf sporları alerji ve astımı tetikleyebilir; drenajdaki durgun su bakteri üremesine zemin hazırlar. Çocuk, hamile veya solunum hastası varsa temizlik öncelikli olmalıdır.
+  - question: Sirkeyle koku geçer mi?
+    answer: Hafif kokularda yardımcı olur ama kalınlaşmış biyofilmi çözmez. İlerlemiş kokularda enzimli köpük veya profesyonel temizlik gerekir.
+  - question: Yeni klima da kokabilir mi?
+    answer: Evet. Montaj sırasında iç üniteye kaçan lehim veya bakır talaşı nemle birlikte kokabilir. İlk haftalardaki koku için satıcıya bildirin.
+  - question: Klima açıkken mi kapalıyken mi daha çok kokar?
+    answer: Genelde ilk açılışta kısa süre kokar; durgun nem uçar. Sürekli kokuyorsa biyofilm ilerlemiş demektir.
+  - question: Kendim temizleyebilir miyim?
+    answer: Duvar tipi splitlerde filtre ve yüzeysel köpük temizliği evde yapılabilir. Ancak evaporatör sökümlü derin temizlik ve gaz kontrolü profesyonel servis gerektirir.
+  - question: Ne sıklıkla derin temizlik gerekir?
+    answer: Nemli iklimde ve yoğun kullanımda yılda bir kez; kuru iklimde ve seyrek kullanımda iki yılda bir yeterlidir.
 ---
-
-# Klima Kokusu Nasıl Geçer? İç Ünite Küf, Bakteri ve Sigara Kokusu Çözümü (2026)
-
-Klima açtığınızda gelen **küflü, ekşi ya da çorap kokusu**, iç ünitedeki evaporatör peteği ve tahliye tavasında biriken **nemli tozun bakteri/küf üretmesinden** kaynaklanır. Çözüm; filtre yıkamak yeterli değildir — evaporatör, blower fan ve drenajın **derin temizliği** şarttır. Bu rehberde koku tiplerine göre teşhis, adım adım temizlik ve tekrarını önleme yöntemlerini bulacaksınız.
-
-## Koku Tipine Göre Teşhis
-
-| Koku            | Kaynak                                          | Aciliyet                       |
-| --------------- | ----------------------------------------------- | ------------------------------ |
-| Küflü / rutubet | Evaporatör peteğinde biyofilm                   | Orta — 1 hafta içi temizlik    |
-| Ekşi / çorap    | Drenaj tavasında durgun su                      | Yüksek — bakteri üremiş        |
-| Yanık / plastik | Motor sargısı, elektrik                         | **Kritik — hemen kapatın**     |
-| Sigara / duman  | Filtre + peteğe emilmiş katran                  | Derin temizlik + karbon filtre |
-| Çürük yumurta   | Drenaj hortumu tıkalı, kanalizasyon geri kaçışı | Yüksek — sifon montajı         |
-| Deterjan        | Önceki temizlikte durulanmamış kimyasal         | Orta — bol suyla durulama      |
-
-## Neden Kokar? — Kök Neden
-
-Klima soğuturken evaporatör peteği **yoğuşma suyu** üretir. Toz + rutubet + karanlık = **biyofilm** (bakteri + küf kolonisi). Cihaz kapandıktan sonra petek nemli kalırsa 24 saatte koku başlar. Ana tetikleyiciler:
-
-- Filtreleri 2 aydan seyrek temizlemek
-- Klimayı ani kapatmak (fan modu ile 10 dk kurutmadan)
-- Drenaj hortumunun **sifonsuz** olması (gider kokusu geri kaçar)
-- Nemli iklim + sürekli düşük sıcaklık (18–20 °C)
-
-## Adım Adım Derin Temizlik (60 dk)
-
-**Gerekli:** Enzimli klima köpüğü, yumuşak fırça, plastik örtü, spreyli su şişesi, mikrofiber bez, çamaşır suyu (drenaj için, seyreltilmiş).
-
-1. **Klimayı prizden çekin.** Elektrik güvenliği şart.
-2. **Ön kapağı açın, filtreleri çıkarın.** Ilık su + sıvı sabunla yıkayın, gölgede kurutun.
-3. **İç üniteyi plastik örtü ile sarın**, alta damlama torbası koyun (koruma).
-4. **Enzimli köpüğü evaporatör peteğine sıkın.** 15 dk bekleyin — biyofilmi ayrıştırır.
-5. **Blower fana** (barrel fan) sprey ile püskürtün ve yumuşak fırça ile dönderin. Küf en çok burada birikir.
-6. **Bol suyla durulayın** (sprey şişesi ile). Su drenajdan çıkacak, tavayı kontrol edin.
-7. **Drenaj tavasına** 200 ml **1:10 seyreltilmiş çamaşır suyu** dökün, 10 dk bekletin, sıcak suyla durulayın.
-8. **Drenaj hortumunu** dışarıdan hava/su ile açın — tıkanıklık koku ve akıntı sebebidir.
-9. **Filtreleri geri takın, cihazı çalıştırın**, 15 dk **sadece fan modunda** kurutun.
-
-> ⚠️ Evaporatör aluminyum kanatlarına **basınçlı su tabancası ile ASLA** doğrudan püskürtmeyin — kanat ezilir, verim düşer. Sprey basıncı yeterli.
-
-## Kimyasallar: Ne, Ne Zaman?
-
-| Ürün                             | Kullanım               | Uyarı                                |
-| -------------------------------- | ---------------------- | ------------------------------------ |
-| Enzimli klima köpüğü             | Evaporatör + fan       | Aromalıdan kaçının; koku üstüne koku |
-| Kloroform bazlı sanitizer        | Bakteri kırma          | Havalandırın, maskeli çalışın        |
-| Seyreltilmiş çamaşır suyu (1:10) | Drenaj tavası          | Metal parçalara DEĞMESİN             |
-| Sirke + su (1:1)                 | Hafif küf              | Kalınlaşmış biyofilme yetmez         |
-| Karbon filtre (aksesuar)         | Sigara / mutfak dumanı | Her 6 ayda değişir                   |
-
-## Kokuyu Önleme — Uzun Vadeli Protokol
-
-- **Otomatik "Dry / Self-Clean" modu** olan modellerde her kapatmadan önce 10 dk çalıştırın; iç üniteyi kurutur.
-- **Filtre temizliği:** 15 günde bir yıkayın, 2 ayda bir güneşte kurutun.
-- **Derin temizlik:** Yılda 1 kez profesyonel servis (evaporatör sökümlü).
-- **Sifon:** Drenaj hortumu binaya bağlıysa mutlaka **U-sifon** eklenmeli — kanalizasyon gazı geri kaçmaz.
-- **Sezon sonu:** Sonbaharda kapatmadan önce 30 dk **sadece fan** ile kurutun.
-- **UV-C lamba (opsiyonel):** Evaporatör önüne monte edilen 5 W UV-C, biyofilmi %90 azaltır.
-
-## Sık Yapılan 6 Hata
-
-1. **Sadece filtre yıkamak** — koku evaporatörde, filtre değişse bile geçmez.
-2. Parfümlü sprey ile üstünü örtmek — 2 gün sonra iki katı geri gelir.
-3. **Basınçlı su** ile petekleri ezmek — geri dönüşü olmayan verim kaybı.
-4. Drenaj hortumunu ihmal etmek — çürük yumurta kokusu %90 oradan.
-5. Cihazı hemen kapatmak — nemli petek 24 saatte küflenir.
-6. **Aynı klimaya iki farklı kimyasal** uygulamak (ör. sirke + çamaşır suyu) — zehirli gaz.
-
-## SSS
-
-**Klima kokusu sağlığa zararlı mı?**
-Evet. Küf sporları alerji, astım krizi ve sinüzit tetikler; drenajdan gelen bakteri **legionella** riski taşır. Küçük çocuk / hamile / KOAH hastası varsa öncelikli temizlik yapılmalı.
-
-**Sirkeyle geçer mi?**
-Hafif kokularda yardımcı olur, ama kalınlaşmış biyofilmi çözmez. Enzimli köpük şarttır.
-
-**Yeni klima da kokabilir mi?**
-Evet — montaj sırasında iç üniteye kaçan lehim/bakır talaşı nemle birlikte kokar. İlk 2 hafta içindeki koku için satıcıya bildirin.
-
-**Klima açıkken mi, kapalıyken mi kokar daha çok?**
-İlk açılışta 30 sn kokar (durgun nem uçar). Sürekli kokuyorsa biyofilm ilerlemiş demektir.
-
-**Kendim temizleyebilir miyim?**
-Duvar tipi split'te yüzey temizliği ev tipi. Ancak evaporatör sökümlü **derin temizlik** ve gaz kontrolü mutlaka [profesyonel klima servisi](/hizmet/kombi-servisi) gerektirir.
-
-**Ne sıklıkla derin temizlik gerekir?**
-Nem yüksek bölge (İstanbul, İzmir, sahil) ve günlük 6+ saat kullanımda **yılda 1 kez**. Kuru iklimde 2 yılda 1 yeterli.
-
-## Küf ve Bakteri Biyolojisi (Neden Isınıyor?)
-
-Klima iç ünitesinde evaporatör lamelinde yoğuşma suyu birikir (nem %90+). Ortam sıcaklığı 15-28 °C ise **Aspergillus, Cladosporium ve Penicillium** cinsi küfler 48 saatte biyofilm oluşturur. Bu biyofilm hem organik kokuya hem alerjenlere kaynaktır. WHO 2024 raporuna göre kapalı mekan küflü klima solunumu, astım şiddetlenmesini **%38** artırır.
-
-Legionella pneumophila bakterisi ise klimanın **drenaj tavasında** durgun suda ürer. Sıcak su tesisatına sıçradığında ciddi zatürre yapar. Bu yüzden drenaj eğimi (%2 minimum) ve haftalık akıntı kontrolü sağlık için zorunludur.
-
-## HEPA ve Aktif Karbon Filtreler
-
-Standart klima "toz filtresi" 30-50 mikron partikül tutar — küf sporu (2-10 μm) ve virüs (0.1 μm) rahatça geçer. Ek filtre seçenekleri:
-
-| Filtre tipi                | Yakalar         | Ömür        | Fiyat 2026       |
-| -------------------------- | --------------- | ----------- | ---------------- |
-| Toz (standart)             | > 50 μm         | Yıkanabilir | dahil            |
-| Elektrostatik              | 5-30 μm         | 3 ay        | 180 ₺            |
-| Karbon aktif               | Koku + VOC      | 4 ay        | 220 ₺            |
-| HEPA H13                   | > 0.3 μm %99.97 | 6 ay        | 480 ₺            |
-| Foto-katalizör (TiO₂ + UV) | Küf + virüs     | 24 ay       | 1.200 ₺ + montaj |
-
-HEPA + karbon kombinasyonu ev tipi cihazlar için ideal; ancak hava akışını %8-12 düşürür, cihaz seçilirken göz önüne alınmalı.
-
-## Sezonluk Bakım Takvimi
-
-**İlkbahar (Mart-Nisan)** — kış uykusundan uyanış:
-
-- Filtreleri çıkar, ılık suda yıka.
-- Evaporatörü klima temizleme köpüğü ile püskürt.
-- Drenaj tavasını sirkeli su ile doldur, akıntıyı kontrol et.
-- İlk çalıştırmayı 30 dk sadece **fan modunda** yap (nem uçsun).
-
-**Yaz (Haziran-Ağustos)** — yoğun kullanım:
-
-- 2 haftada bir filtre temizliği.
-- Her ay drenaj borusuna 50 mL beyaz sirke.
-- Uzun kesintiler sonrası 15 dk fan modu.
-
-**Sonbahar (Ekim-Kasım)** — kapanış:
-
-- Derin temizlik (60 dk protokolü).
-- Cihazı 2 saat sadece fan ile kurut.
-- Uzaktan kumandayı temizle, pil çıkar.
-
-**Kış (Aralık-Şubat)** — ısıtma modu veya bekleme:
-
-- Isıtmada kullanıyorsan ayda 1 kez fan modu 20 dk.
-- Kullanmıyorsan cihaz kapağını kapat (koruma bezi).
-
-## Kokunun Sağlık Etkileri
-
-Küflü klima ortamında 2 saatten fazla kalan kişilerde raporlanan semptomlar:
-
-- Baş ağrısı (%42)
-- Gözlerde yanma (%31)
-- Boğaz kaşıntısı (%38)
-- Kuru öksürük (%22)
-- Deri kaşıntısı (%14)
-
-Astım hastalarında kriz sıklığı klima kokusuyla korelasyondadır. Alerjik rinit ile birlikte yaşayan çocuklarda haftalık HEPA filtre kontrolü zorunlu tutulmalıdır.
-
-## Uzman Servis Ne Yapar?
-
-Ev tipi köpük temizliği başlangıçtır; ciddi kokularda **basınçlı buhar + biyosidal yıkama** gereklidir:
-
-1. İç ünite panel demontajı (20 dk).
-2. Evaporatör 120 °C kuru buhar ile 15 dk.
-3. Kuaterner amonyum tuzu bazlı biyosit (Legionella onaylı) 10 dk temas.
-4. Distile su ile 3 kez durulama.
-5. Foto-katalizör kaplama (opsiyonel, 2 yıl etkili).
-6. Drenaj hattı hidroblast (5 bar).
-
-2026 fiyatı: 1.400-2.200 ₺. Yıllık paket alan kullanıcı 3 yılda %30 tasarruf sağlar.
-
-## Otoriter Kaynaklar ve Referanslar
-
-- [Wikipedia — Legionella](https://tr.wikipedia.org/wiki/Legionella)
-- [T.C. Sağlık Bakanlığı](https://www.saglik.gov.tr/)
-- [Wikipedia — Klima](https://tr.wikipedia.org/wiki/Klima)
-- [TSE — Türk Standartları Enstitüsü](https://www.tse.org.tr/)
-
-## Sonuç
-
-Klima kokusu bir "koku sorunu" değil, **biyofilm problemidir**. Filtre yıkamak yüzeyseldir; kalıcı çözüm evaporatör + blower fan + drenaj üçlüsünün derin temizliğidir. Yılda 1 kez profesyonel servis, her sezon sonu fan-kurutma ve doğru [BTU seçimi](/preview/klima-btu-hesaplama) ile klimanız ilk günkü kokusuz havayı verir. [Inverter modellerde](/preview/inverter-vs-standart-klima) düşük devir sayesinde petek daha az yoğuşma yapar, koku riski %40 azalır. Yıllık [gaz + drenaj kontrolü](/preview/klima-gazi-ne-zaman-biter) ise küf tekrarını önler.

@@ -1,7 +1,13 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import logoImg from "@/assets/logo.jpg";
+import leakImg from "@/assets/svc2/su-kacagi-tespiti.jpg";
+import drainImg from "@/assets/svc2/tikaniklik-acma.jpg";
+import gasImg from "@/assets/svc2/dogalgaz-tesisati.jpg";
+import radiatorImg from "@/assets/svc2/petek-temizligi.jpg";
+import pipeImg from "@/assets/svc2/boru-tamiri.jpg";
+import cameraImg from "@/assets/svc2/kanal-goruntuleme.jpg";
 import {
-  Phone, MessageCircle, Clock, ShieldCheck, Check, ArrowRight,
+  Phone, MessageCircle, Clock, ShieldCheck, Check, ArrowRight, Search, Menu, Grid2X2,
   Droplet, Waves, Flame, Thermometer, ScanLine, Wind, MapPin, Tag, BookOpen,
   ShowerHead, Droplets, Gauge,
 } from "lucide-react";
@@ -9,13 +15,13 @@ import { SERVICES, findService, relatedServicesFor, type ServiceIcon, type Servi
 import { DISTRICTS } from "@/data/districts";
 import { guidesForService } from "@/data/blog";
 import { SiteFooter } from "@/components/SiteFooter";
-import { StickyCallBar } from "@/components/StickyCallBar";
 import { UrgencyCTA } from "@/components/UrgencyCTA";
 import { buildReviews, reviewsToSchema } from "@/data/reviews";
 import { ReviewsTrust } from "@/components/ReviewsTrust";
 import { CustomerReviews } from "@/components/CustomerReviews";
 import { ReviewSubmitForm } from "@/components/ReviewSubmitForm";
 import { BUSINESS } from "@/data/business";
+import { SERVICE_ITEM_IMAGES } from "@/data/service-item-images";
 
 const PHONE = "0533 896 05 03";
 const PHONE_HREF = "tel:+905338960503";
@@ -37,6 +43,18 @@ const ICONS: Record<ServiceIcon, React.ComponentType<{ className?: string }>> = 
   pump: Gauge,
 };
 
+const SERVICE_IMAGES: Record<ServiceIcon, string> = {
+  leak: leakImg,
+  clog: drainImg,
+  combi: gasImg,
+  radiator: radiatorImg,
+  gas: pipeImg,
+  camera: cameraImg,
+  shower: pipeImg,
+  faucet: leakImg,
+  pump: cameraImg,
+};
+
 export const Route = createFileRoute("/hizmet/$slug/")({
   loader: ({ params }) => {
     const service = findService(params.slug);
@@ -46,8 +64,8 @@ export const Route = createFileRoute("/hizmet/$slug/")({
   head: ({ loaderData }) => {
     const s = loaderData?.service;
     if (!s) return { meta: [{ title: "Hizmet — Gölge Tesisat" }] };
-    const title = `${s.name} — İstanbul 7/24 | Gölge Tesisat`;
-    const desc = `İstanbul ${s.name.toLowerCase()} hizmeti: ${s.tagline}. Ortalama ${s.responseMin} dakikada kapınızda, ücretsiz keşif. Telefon: ${PHONE}.`;
+    const title = `${s.name} İstanbul — ${s.responseMin} Dk'da Kapınızda, ★${RATING_VALUE}`;
+    const desc = `★${RATING_VALUE} (${REVIEW_COUNT.toLocaleString("tr-TR")} yorum) İstanbul ${s.name.toLowerCase()}: ${s.tagline}. 7/24 açık, ücretsiz keşif, garantili işçilik. Hemen arayın: ${PHONE}.`;
     const reviews = buildReviews(`hizmet:${s.slug}`, "İstanbul", s.name.toLowerCase(), s.responseMin);
     const url = `https://golgetesisat.com/hizmet/${s.slug}`;
     const ogImage = `https://golgetesisat.com/og/${s.slug}.jpg`;
@@ -123,7 +141,7 @@ export const Route = createFileRoute("/hizmet/$slug/")({
             "@type": "HowTo",
             name: s.howTitle,
             description: s.howIntro,
-            image: ogImage,
+            image: { "@type": "ImageObject", url: ogImage, width: 1200, height: 630, caption: `İstanbul ${s.name.toLowerCase()} — Gölge Tesisat`, contentLocation: { "@type": "Place", name: "İstanbul" } },
             step: s.process.map((p, i) => ({
               "@type": "HowToStep",
               position: i + 1,
@@ -156,6 +174,21 @@ export const Route = createFileRoute("/hizmet/$slug/")({
   component: ServicePage,
 });
 
+function ImgRow({ img, index, title, detail, id, reverse, stacked, alt }: { img?: string; alt?: string; index: number; title: string; detail?: string; id?: string; reverse?: boolean; stacked?: boolean }) {
+  return (
+    <li id={id} className={`svc-img-row${reverse ? " is-reverse" : ""}${stacked ? " is-stacked" : ""}`}>
+      <div className="svc-img-text">
+        <span className="svc-img-num">{String(index + 1).padStart(2, "0")}</span>
+        <h3>{title}</h3>
+        {detail && <p>{detail}</p>}
+      </div>
+      <div className="svc-img-orb">
+        {img ? <img src={img} alt={alt ? `${title} – ${alt}` : title} title={title} loading="lazy" decoding="async" width={816} height={816} /> : <Check />}
+      </div>
+    </li>
+  );
+}
+
 function ServicePage() {
   const { service: s } = Route.useLoaderData() as { service: Service };
   const reviews = buildReviews(`hizmet:${s.slug}`, "İstanbul", s.name.toLowerCase(), s.responseMin);
@@ -165,153 +198,215 @@ function ServicePage() {
   const relatedPosts = guidesForService(s.slug, 6);
   const relatedServices = relatedServicesFor(s.slug, 3);
 
+  const featuredServices = [s, ...relatedServices].slice(0, 3);
+  const itemImages = SERVICE_ITEM_IMAGES[s.slug];
+
   return (
-    <div className="min-h-screen bg-background pb-24">
-      {/* TopBar */}
-      <header className="flex items-center justify-between px-4 pt-5 pb-3">
-        <Link to="/" className="flex items-center gap-2">
-          <img src={logoImg} alt="Gölge Tesisat" width={40} height={40} className="h-10 w-10 rounded-lg object-contain" />
-          <div className="leading-tight">
-            <div className="text-[15px] font-extrabold tracking-wide">GÖLGE TESİSAT</div>
-            <div className="text-[10px] text-muted-foreground">Güvenilir. Hızlı. Garantili.</div>
+    <div className="sp service-page min-h-screen overflow-x-clip pb-24">
+      <div className="bg-[var(--sp-ink)] text-[var(--sp-paper)]">
+        <div className="mx-auto flex max-w-[1180px] items-center justify-between gap-3 px-4 py-2 text-[11px] font-semibold md:px-8 md:text-[12px]">
+          <span className="flex items-center gap-1.5 text-[var(--sp-green)]"><span className="h-2 w-2 animate-pulse rounded-full bg-[var(--sp-green)]" />7/24 · {s.shortName} ekipleri görevde</span>
+          <span className="hidden opacity-80 md:block">Ort. varış <b>~{s.responseMin} dk</b> · <b>2 yıl</b> yazılı garanti</span>
+          <a href={PHONE_HREF} className="font-bold">{PHONE}</a>
+        </div>
+      </div>
+      <header className="sticky top-0 z-40 border-b border-[var(--sp-line)] bg-[var(--sp-paper)]">
+        <div className="mx-auto flex h-[68px] max-w-[1180px] items-center justify-between gap-3 px-4 md:h-[74px] md:px-8">
+          <Link to="/" className="flex items-center gap-2.5" aria-label="Gölge Tesisat ana sayfa">
+            <img src={logoImg} alt="Gölge Tesisat" width={44} height={44} className="h-10 w-10 rounded-lg object-contain md:h-11 md:w-11" />
+            <span className="leading-tight">
+              <span className="sp-display block text-[20px]">Gölge Tesisat</span>
+              <span className="sp-mono block text-[9px] text-[var(--sp-muted)]">Shadow Plumbing</span>
+            </span>
+          </Link>
+          <nav className="hidden items-center gap-1 text-[14px] font-semibold text-[var(--sp-muted)] lg:flex">
+            <a href="#adim-1" className="px-3 py-2 hover:text-[var(--sp-ink)]">Süreç</a>
+            <Link to="/hizmetler" className="px-3 py-2 hover:text-[var(--sp-ink)]">Hizmetler</Link>
+            <Link to="/tesisatci" className="px-3 py-2 hover:text-[var(--sp-ink)]">Bölgeler</Link>
+            <Link to="/blog" className="px-3 py-2 hover:text-[var(--sp-ink)]">Rehber</Link>
+          </nav>
+          <div className="flex items-center gap-2">
+            <a href={PHONE_HREF} className="sp-btn-ink flex items-center gap-1.5 rounded-xl px-3.5 py-2.5 text-[13px] font-bold"><Phone className="h-4 w-4" /> Ara</a>
+            <Link to="/randevu" className="sp-btn-red hidden rounded-xl px-4 py-2.5 text-[13px] font-bold sm:block">Randevu al</Link>
           </div>
-        </Link>
-        <a href={PHONE_HREF} className="flex items-center gap-1.5 rounded-lg bg-brand-red px-3 py-2 text-[12px] font-bold text-white">
-          <Phone className="h-3.5 w-3.5" /> Ara
-        </a>
+        </div>
       </header>
 
-      {/* Breadcrumb */}
-      <nav className="px-4 text-[11px] text-muted-foreground" aria-label="Breadcrumb">
-        <ol className="flex items-center gap-1">
-          <li><Link to="/" className="hover:text-foreground">Ana Sayfa</Link></li>
-          <li>›</li>
-          <li><Link to="/hizmetler" className="hover:text-foreground">Hizmetler</Link></li>
-          <li>›</li>
-          <li className="font-semibold text-foreground">{s.name}</li>
-        </ol>
-      </nav>
-
       <main>
-      {/* Hero */}
-      <section className="px-4 pt-4">
-        <div className="rounded-2xl bg-gradient-to-br from-brand-red to-red-700 p-5 text-white shadow-xl">
-          <div className="inline-flex items-center gap-1.5 rounded-full bg-white/15 px-2.5 py-1 text-[10px] font-bold tracking-widest">
-            <Icon className="h-3 w-3" /> İSTANBUL 7/24
-          </div>
-          <h1 className="mt-3 text-[26px] font-extrabold leading-tight">
-            {s.name}
-            <br />
-            <span className="text-white/90 text-[18px] font-bold">{s.tagline}</span>
-          </h1>
-          <p className="mt-2 text-[13px] leading-relaxed text-white/90">{s.intro}</p>
-          <div className="mt-4 grid grid-cols-3 gap-2">
-            <div className="rounded-lg bg-white/10 px-2 py-2 text-center">
-              <div className="text-[18px] font-extrabold">{s.responseMin}<span className="text-[11px]">dk</span></div>
-              <div className="text-[9px] opacity-90">Ortalama Müdahale</div>
-            </div>
-            <div className="rounded-lg bg-white/10 px-2 py-2 text-center">
-              <div className="text-[18px] font-extrabold">7/24</div>
-              <div className="text-[9px] opacity-90">Hizmet</div>
-            </div>
-            <div className="rounded-lg bg-white/10 px-2 py-2 text-center">
-              <div className="text-[18px] font-extrabold">2 Yıl</div>
-              <div className="text-[9px] opacity-90">Garanti</div>
-            </div>
-          </div>
-          <div className="mt-4 grid grid-cols-2 gap-2">
-            <a href={PHONE_HREF} className="flex items-center justify-center gap-1.5 rounded-lg bg-white py-3 text-[13px] font-extrabold text-brand-red">
-              <Phone className="h-4 w-4" /> HEMEN ARA
-            </a>
-            <a href={WA_HREF} target="_blank" rel="noopener" className="flex items-center justify-center gap-1.5 rounded-lg bg-emerald-500 py-3 text-[13px] font-extrabold text-white">
-              <MessageCircle className="h-4 w-4" /> WHATSAPP
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* What's included */}
-      <section className="px-4 pt-6">
-        <h2 className="text-[18px] font-extrabold">{s.name} Hizmetimiz Neleri Kapsar?</h2>
-        <ul className="mt-3 space-y-2">
-          {s.includes.map((item) => (
-            <li key={item} className="flex items-start gap-2 rounded-lg border border-border bg-surface p-3">
-              <Check className="mt-0.5 h-4 w-4 shrink-0 text-brand-red" />
-              <span className="text-[13px]">{item}</span>
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      {/* Highlights */}
-      <section className="px-4 pt-6">
-        <h2 className="text-[18px] font-extrabold">Neden Gölge Tesisat?</h2>
-        <ul className="mt-3 space-y-2">
-          {s.highlights.map((h) => (
-            <li key={h} className="flex items-start gap-2 rounded-lg border border-border bg-surface p-3">
-              <ShieldCheck className="mt-0.5 h-4 w-4 shrink-0 text-emerald-600" />
-              <span className="text-[13px]">{h}</span>
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      {/* How it works — "nasıl yapılır" explainer */}
-      <section className="px-4 pt-6">
-        <h2 className="text-[18px] font-extrabold">{s.howTitle}</h2>
-        <p className="mt-2 text-[13px] leading-relaxed text-muted-foreground">{s.howIntro}</p>
-        <ol className="mt-3 space-y-2">
-          {s.process.map((p, i) => (
-            <li key={p.step} id={`adim-${i + 1}`} className="flex items-start gap-3 rounded-lg border border-border bg-surface p-3 scroll-mt-20">
-              <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-red text-[12px] font-extrabold text-white">{i + 1}</span>
-              <div>
-                <div className="text-[13px] font-extrabold">{p.step}</div>
-                <p className="mt-0.5 text-[12px] leading-relaxed text-muted-foreground">{p.detail}</p>
+        <section className="relative overflow-hidden bg-[var(--sp-paper)]">
+          <div className="relative mx-auto grid max-w-[1180px] gap-10 px-4 pb-12 pt-6 md:px-8 md:pt-8 lg:grid-cols-[1.05fr_1fr] lg:items-center">
+            <div>
+              <nav className="text-[12px] font-semibold text-[var(--sp-muted)]" aria-label="Breadcrumb">
+                <ol className="flex items-center gap-2">
+                  <li><Link to="/" className="hover:text-[var(--sp-ink)]">Ana Sayfa</Link></li><li>›</li>
+                  <li><Link to="/hizmetler" className="hover:text-[var(--sp-ink)]">Hizmetler</Link></li><li>›</li>
+                  <li className="text-[var(--sp-ink)]">{s.shortName}</li>
+                </ol>
+              </nav>
+              <div className="mt-6 inline-flex items-center gap-2 rounded-full bg-[var(--sp-red-tint)] py-1.5 pl-1.5 pr-4 text-[13px] font-bold text-[var(--sp-red)]">
+                <span className="sp-mono rounded-full bg-[var(--sp-red)] px-2 py-0.5 text-[10px] text-[var(--sp-paper)]">7/24</span> {s.shortName} · İstanbul
               </div>
-            </li>
-          ))}
-        </ol>
-      </section>
-
-      {/* Pricing factors — transparent, no fixed prices. Deep-links to /fiyat page. */}
-      <section className="px-4 pt-6">
-        <h2 className="text-[18px] font-extrabold">{s.name} Fiyatını Etkileyen Faktörler</h2>
-        <p className="mt-2 text-[13px] leading-relaxed text-muted-foreground">{s.priceIntro}</p>
-        <ul className="mt-3 space-y-2">
-          {s.priceFactors.map((f) => (
-            <li key={f} className="flex items-start gap-2 rounded-lg border border-border bg-surface p-3">
-              <Check className="mt-0.5 h-4 w-4 shrink-0 text-brand-red" />
-              <span className="text-[13px]">{f}</span>
-            </li>
-          ))}
-        </ul>
-        <Link to="/hizmet/$slug/fiyat" params={{ slug: s.slug }} className="mt-3 inline-flex items-center gap-1.5 rounded-lg border border-brand-red px-3 py-2 text-[12px] font-bold text-brand-red hover:bg-brand-red/5">
-          <Tag className="h-3.5 w-3.5" /> {s.name} fiyatları & ücret rehberi <ArrowRight className="h-3.5 w-3.5" />
-        </Link>
-      </section>
-
-      {/* FAQ */}
-
-      <section className="px-4 pt-6">
-        <h2 className="text-[18px] font-extrabold">Sıkça Sorulan Sorular</h2>
-        <div className="mt-3 space-y-2">
-          {s.faq.map((f) => (
-            <div key={f.q} className="rounded-lg border border-border bg-surface p-3">
-              <div className="text-[13px] font-extrabold">{f.q}</div>
-              <p className="mt-1 text-[12px] text-muted-foreground">{f.a}</p>
+              <h1 className="sp-display mt-5 text-[50px] md:text-[78px]">
+                {s.name.split(" — ")[0]}<br /><span className="text-[var(--sp-red)]">{s.tagline.split(" ").slice(0, 4).join(" ")}</span>
+              </h1>
+              <p className="sp-display mt-3 text-[22px] text-[var(--sp-muted)] md:text-[28px]">İstanbul · iki yaka · gece gündüz</p>
+              <p className="mt-4 max-w-[560px] text-[15px] leading-relaxed text-[var(--sp-muted)] md:text-[17px]">{s.intro}</p>
+              <div className="mt-6 flex flex-wrap gap-3">
+                <Link to="/randevu" className="sp-btn-red flex items-center gap-2 rounded-xl px-5 py-3.5 text-[15px] font-bold"><Clock className="h-4 w-4" /> Randevu al</Link>
+                <a href={PHONE_HREF} className="sp-btn-ink flex items-center gap-2 rounded-xl px-5 py-3.5 text-[15px] font-bold"><Phone className="h-4 w-4" /> {PHONE}</a>
+                <a href={WA_HREF} className="flex items-center gap-2 rounded-xl bg-[var(--sp-wa)] px-5 py-3.5 text-[15px] font-bold text-[var(--sp-paper)]"><MessageCircle className="h-4 w-4" /> WhatsApp</a>
+              </div>
+              <div className="mt-8 grid grid-cols-2 gap-4 border-t border-dashed border-[var(--sp-line)] pt-6 sm:grid-cols-4">
+                {[[`~${s.responseMin} dk`, "Ortalama varış"], ["4.9", "★★★★★ Google"], ["2 yıl", "İşçilik + parça garantisi"], [String(DISTRICTS.length), "Hizmet bölgesi"]].map(([v, l]) => (
+                  <div key={l}><div className="sp-display text-[32px]">{v}</div><div className="text-[12px] font-semibold text-[var(--sp-muted)]">{l}</div></div>
+                ))}
+              </div>
             </div>
-          ))}
-        </div>
-      </section>
+            <div className="rounded-[28px] bg-[var(--sp-ink)] p-4 text-[var(--sp-paper)] shadow-2xl">
+              <div className="sp-mono flex justify-between px-1 pb-3 text-[11px] font-bold"><span className="flex items-center gap-1.5 text-[var(--sp-red-hot)]"><span className="h-2 w-2 animate-pulse rounded-full bg-[var(--sp-red-hot)]" />Saha · canlı</span><span className="opacity-60">{String(SERVICES.findIndex((x) => x.slug === s.slug) + 1).padStart(2, "0")} / {SERVICES.length}</span></div>
+              <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
+                <img src={SERVICE_IMAGES[s.icon]} alt={`İstanbul ${s.name.toLowerCase()} — Gölge Tesisat ustası işbaşında`} title={`${s.name} İstanbul`} fetchPriority="high" decoding="async" className="h-full w-full object-cover" />
+                <span className="sp-btn-red absolute left-1/2 top-4 -translate-x-1/2 w-[88%] text-center rounded-xl px-4 py-2 text-[13px] font-bold">{s.highlights[0]}</span>
+              </div>
+              <div className="mt-3 grid grid-cols-3 gap-2">
+                {[["Varış", `~${s.responseMin} dk`], ["Keşif", "Ücretsiz"], ["Durum", "7/24"]].map(([k, v], i) => (
+                  <div key={k} className="rounded-xl border border-[var(--sp-edge)] p-3"><div className="sp-mono text-[10px] opacity-70">{k}</div><div className={`sp-display mt-1 text-[24px] ${i === 2 ? "text-[var(--sp-red-hot)]" : ""}`}>{v}</div></div>
+                ))}
+              </div>
+            </div>
+          </div>
+          <div className="overflow-hidden bg-[var(--sp-ink)] py-4 text-[var(--sp-paper)]">
+            <div className="sp-display flex w-max animate-[sp-marquee_40s_linear_infinite] gap-10 whitespace-nowrap text-[22px] md:text-[26px]">
+              {[...s.includes, ...s.includes].map((t, i) => <span key={i} className="flex items-center gap-10">{t}<span className="h-2.5 w-2.5 rounded-full bg-[var(--sp-red-hot)]" /></span>)}
+            </div>
+          </div>
+        </section>
+
+        <section className="mx-auto max-w-[1180px] px-4 py-5 md:px-8 md:py-8" aria-label="Öne çıkan hizmetler">
+          <div className="space-y-3">
+            {featuredServices.map((item, index) => {
+              const CardIcon = ICONS[item.icon];
+              return (
+                <Link key={item.slug} to="/hizmet/$slug" params={{ slug: item.slug }} className="service-feature-card group relative grid min-h-[154px] grid-cols-[92px_1fr_42px] items-center overflow-hidden border border-border p-3 md:min-h-[178px] md:grid-cols-[116px_1fr_58px] md:p-5">
+                  <img src={SERVICE_IMAGES[item.icon]} alt={`${item.name} İstanbul — Gölge Tesisat uygulaması`} title={item.name} loading={index === 0 ? "eager" : "lazy"} decoding="async" className="absolute inset-y-0 right-0 h-full w-[46%] object-cover opacity-65 transition-transform duration-700 group-hover:scale-105" />
+                  <div className="service-card-shade absolute inset-0" />
+                  <span className="relative flex h-[74px] w-[74px] items-center justify-center rounded-2xl border border-brand-red/25 bg-brand-red/15 md:h-[94px] md:w-[94px]">
+                    <CardIcon className="h-9 w-9 text-brand-red md:h-12 md:w-12" />
+                  </span>
+                  <span className="relative min-w-0 pr-1">
+                    <span className="block font-display text-[18px] font-black leading-tight md:text-[26px]">{item.name}</span>
+                    <span className="mt-1 block max-w-[430px] text-[12px] leading-snug text-muted-foreground md:text-[15px]">{item.tagline}</span>
+                    <span className="mt-3 inline-flex max-w-full items-center gap-1.5 rounded-full border border-border bg-background/70 px-3 py-1.5 text-[10px] font-semibold text-foreground md:text-xs">
+                      <Check className="h-3.5 w-3.5 shrink-0 text-brand-red" /> {index === 0 ? "Kırmadan, noktasal çözüm" : item.highlights[0]}
+                    </span>
+                  </span>
+                  <span className="relative flex h-10 w-10 items-center justify-center rounded-full border border-border bg-surface/90 text-brand-red transition-transform group-hover:translate-x-1 md:h-14 md:w-14">
+                    <ArrowRight className="h-6 w-6 md:h-8 md:w-8" />
+                  </span>
+                </Link>
+              );
+            })}
+          </div>
+
+          <Link to="/hizmetler" className="service-all-button mt-4 flex h-16 items-center justify-center gap-4 border border-brand-red px-5 font-display text-base font-black md:h-20 md:text-xl">
+            <Grid2X2 className="h-6 w-6" /> Tüm Hizmetleri Gör <ArrowRight className="ml-auto h-6 w-6 text-brand-red" />
+          </Link>
+
+          <div className="mt-5 grid grid-cols-3 divide-x divide-border py-3 text-center">
+            {[
+              [ShieldCheck, "Ücretsiz keşif", "Onaylı işlem"],
+              [Clock, `Yaklaşık ${s.responseMin} dk`, "Hızlı müdahale"],
+              [Phone, "7/24 acil", "Kesintisiz destek"],
+            ].map(([TrustIcon, title, detail]) => {
+              const TI = TrustIcon as React.ComponentType<{ className?: string }>;
+              return <div key={String(title)} className="px-2"><TI className="mx-auto h-6 w-6 text-brand-red" /><div className="mt-2 text-[11px] font-extrabold md:text-sm">{String(title)}</div><div className="mt-0.5 hidden text-[10px] text-muted-foreground sm:block">{String(detail)}</div></div>;
+            })}
+          </div>
+        </section>
+
+        <div className="service-content mx-auto max-w-[1180px] px-4 pb-10 md:px-8">
+          {itemImages ? (
+            <>
+              <section className="service-panel svc-premium">
+                <p className="service-kicker">Kapsam</p><h2>{s.name} Hizmetimiz Neleri Kapsar?</h2>
+                <ul className="svc-img-grid">{s.includes.map((item, i) => <ImgRow alt={`${s.name} İstanbul`} key={item} img={itemImages.includes[i]} index={i} title={item} />)}</ul>
+              </section>
+              <section className="service-panel svc-premium mt-4">
+                <p className="service-kicker">Güvence</p><h2>Neden Gölge Tesisat?</h2>
+                <ul className="svc-img-grid is-three">{s.highlights.map((item, i) => <ImgRow alt={`${s.name} İstanbul`} key={item} img={itemImages.highlights[i]} index={i} title={item} stacked />)}</ul>
+              </section>
+              <section className="service-panel svc-premium mt-4">
+                <p className="service-kicker">Uygulama</p><h2>{s.howTitle}</h2><p>{s.howIntro}</p>
+                <ol className="svc-img-grid svc-timeline">{s.process.map((p, i) => <ImgRow alt={`${s.name} İstanbul`} key={p.step} id={`adim-${i + 1}`} img={itemImages.process[i]} index={i} title={p.step} detail={p.detail} reverse={i % 2 === 1} />)}</ol>
+              </section>
+              <section className="service-panel svc-premium mt-4">
+                <p className="service-kicker">Şeffaf Teklif</p><h2>{s.name} Fiyatını Etkileyen Faktörler</h2><p>{s.priceIntro}</p>
+                <ul className="svc-img-grid">{s.priceFactors.map((item, i) => <ImgRow alt={`${s.name} İstanbul`} key={item} img={itemImages.priceFactors[i]} index={i} title={item} />)}</ul>
+                <Link to="/hizmet/$slug/fiyat" params={{ slug: s.slug }} className="mt-4 inline-flex items-center gap-2 rounded-full border border-brand-red px-4 py-2 text-xs font-bold text-brand-red"><Tag className="h-4 w-4" /> Fiyat ve ücret rehberi <ArrowRight className="h-4 w-4" /></Link>
+              </section>
+              {s.symptoms && s.symptoms.length > 0 && (
+                <section className="service-panel svc-premium mt-4">
+                  <p className="service-kicker">Belirtiler</p><h2>{s.name} Gerektiren Belirtiler</h2>
+                  <ul className="svc-info-grid">{s.symptoms.map((x) => <li key={x.title}><h3>{x.title}</h3><p>{x.detail}</p></li>)}</ul>
+                </section>
+              )}
+              {s.emergencySteps && s.emergencySteps.length > 0 && (
+                <section className="service-panel svc-premium svc-alert mt-4">
+                  <p className="service-kicker">İlk Müdahale</p><h2>Usta Gelene Kadar Yapmanız Gerekenler</h2>
+                  <ol className="svc-info-grid is-steps">{s.emergencySteps.map((x, i) => <li key={x.step}><span className="svc-img-num">{String(i + 1).padStart(2, "0")}</span><h3>{x.step}</h3><p>{x.detail}</p></li>)}</ol>
+                  <a href={PHONE_HREF} className="mt-4 inline-flex items-center gap-2 rounded-full bg-brand-red px-5 py-2.5 text-sm font-extrabold text-brand-red-foreground"><Phone className="h-4 w-4" /> Hemen Ara: {PHONE}</a>
+                </section>
+              )}
+              {s.tools && s.tools.length > 0 && (
+                <section className="service-panel svc-premium mt-4">
+                  <p className="service-kicker">Ekipman</p><h2>{s.name} İçin Kullandığımız Cihazlar</h2>
+                  <ul className="svc-info-grid">{s.tools.map((x) => <li key={x.name}><h3>{x.name}</h3><p>{x.detail}</p></li>)}</ul>
+                </section>
+              )}
+              {s.variants && s.variants.length > 0 && (
+                <section className="service-panel svc-premium mt-4">
+                  <p className="service-kicker">Türler</p><h2>Hangi Durumlarda Hizmet Veriyoruz?</h2>
+                  <ul className="svc-info-grid">{s.variants.map((x) => <li key={x.title}><h3>{x.title}</h3><p>{x.detail}</p></li>)}</ul>
+                </section>
+              )}
+            </>
+          ) : (<>
+          <div className="grid gap-4 lg:grid-cols-2">
+            <section className="service-panel">
+              <p className="service-kicker">Kapsam</p><h2>{s.name} Hizmetimiz Neleri Kapsar?</h2>
+              <ul className="service-check-grid">{s.includes.map((item) => <li key={item}><Check />{item}</li>)}</ul>
+            </section>
+            <section className="service-panel">
+              <p className="service-kicker">Güvence</p><h2>Neden Gölge Tesisat?</h2>
+              <ul className="service-check-grid">{s.highlights.map((item) => <li key={item}><ShieldCheck />{item}</li>)}</ul>
+            </section>
+          </div>
+
+          <section className="service-panel mt-4">
+            <p className="service-kicker">Uygulama</p><h2>{s.howTitle}</h2><p>{s.howIntro}</p>
+            <ol className="mt-5 grid gap-3 md:grid-cols-2">{s.process.map((p, i) => <li key={p.step} id={`adim-${i + 1}`} className="service-step"><span>{String(i + 1).padStart(2, "0")}</span><div><h3>{p.step}</h3><p>{p.detail}</p></div></li>)}</ol>
+          </section>
+
+          <section className="service-panel mt-4">
+            <p className="service-kicker">Şeffaf Teklif</p><h2>{s.name} Fiyatını Etkileyen Faktörler</h2><p>{s.priceIntro}</p>
+            <ul className="service-check-grid md:grid-cols-2">{s.priceFactors.map((item) => <li key={item}><Check />{item}</li>)}</ul>
+            <Link to="/hizmet/$slug/fiyat" params={{ slug: s.slug }} className="mt-4 inline-flex items-center gap-2 rounded-full border border-brand-red px-4 py-2 text-xs font-bold text-brand-red"><Tag className="h-4 w-4" /> Fiyat ve ücret rehberi <ArrowRight className="h-4 w-4" /></Link>
+          </section>
+          </>)}
+
+          <section className="service-panel mt-4">
+            <p className="service-kicker">Merak Edilenler</p><h2>Sıkça Sorulan Sorular</h2>
+            <div className="mt-4 grid gap-2 md:grid-cols-2">{s.faq.map((f) => <details key={f.q} className="service-faq group"><summary>{f.q}<span>+</span></summary><p>{f.a}</p></details>)}</div>
+          </section>
 
       {/* Rehberler — blog cluster silo for this service (internal linking) */}
       {relatedPosts.length > 0 && (
-        <section className="px-4 pt-7">
+        <section className="service-panel mt-4">
           <h2 className="text-[18px] font-extrabold">{s.name} Rehberleri</h2>
           <p className="mt-1 text-[12px] text-muted-foreground">{s.name} hakkında bilmeniz gereken her şey — uzman ekibimizden pratik rehberler.</p>
-          <div className="mt-3 space-y-2">
+           <div className="mt-3 grid gap-2 md:grid-cols-2">
             {relatedPosts.map((p) => (
-              <Link key={p.slug} to="/blog/$slug" params={{ slug: p.slug }} className="flex items-start gap-3 rounded-lg border border-border bg-surface p-3 hover:border-brand-red">
+               <Link key={p.slug} to="/blog/$slug" params={{ slug: p.slug }} className="flex items-start gap-3 rounded-lg border border-border bg-background/40 p-3 hover:border-brand-red">
                 <BookOpen className="mt-0.5 h-4 w-4 shrink-0 text-brand-red" />
                 <div>
                   <div className="text-[13px] font-extrabold">{p.title}</div>
@@ -325,10 +420,10 @@ function ServicePage() {
 
       {/* İlgili Hizmetler — horizontal hub↔hub links (internal linking) */}
       {relatedServices.length > 0 && (
-        <section className="px-4 pt-7">
+        <section className="service-panel mt-4">
           <h2 className="text-[16px] font-extrabold">İlgili Hizmetler</h2>
           <p className="mt-1 text-[12px] text-muted-foreground">{s.shortName} ile birlikte en sık talep edilen çözümler.</p>
-          <div className="mt-3 grid grid-cols-1 gap-2">
+           <div className="mt-3 grid grid-cols-1 gap-2 md:grid-cols-3">
             {relatedServices.map((r) => {
               const RIcon = ICONS[r.icon];
               return (
@@ -364,7 +459,7 @@ function ServicePage() {
 
 
       {/* CTA */}
-      <section className="mx-4 mt-6 rounded-2xl bg-foreground p-5 text-background">
+       <section className="service-cta mt-4 p-5 md:p-8">
         <div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-brand-red">
           <Clock className="h-3.5 w-3.5" /> Şu an müsaitiz
         </div>
@@ -376,9 +471,9 @@ function ServicePage() {
       </section>
 
       {/* Other services */}
-      <section className="px-4 pt-8">
+       <section className="service-panel mt-4">
         <h2 className="text-[16px] font-extrabold">Diğer Hizmetlerimiz</h2>
-        <div className="mt-3 grid grid-cols-2 gap-2">
+         <div className="mt-3 grid grid-cols-2 gap-2 md:grid-cols-4">
           {otherServices.map((o) => {
             const OIcon = ICONS[o.icon];
             return (
@@ -393,7 +488,7 @@ function ServicePage() {
       </section>
 
       {/* Service areas — deep-link to hyper-local matrix pages */}
-      <section className="px-4 pt-8">
+       <section className="service-panel mt-4">
         <h2 className="text-[16px] font-extrabold">{s.name} Hizmeti Verdiğimiz Bölgeler</h2>
         <div className="mt-3 grid grid-cols-2 gap-2">
           {popularDistricts.map((dst) => (
@@ -409,14 +504,18 @@ function ServicePage() {
       </section>
 
       {/* Phase 24 — let real customers submit a review */}
-      <section className="px-4 pt-8">
+       <section className="service-panel mt-4">
         <ReviewSubmitForm serviceSlug={s.slug} />
       </section>
 
-      <UrgencyCTA />
+          <UrgencyCTA />
+        </div>
       </main>
       <SiteFooter />
-      <StickyCallBar />
+      <div className="service-contact-bar fixed inset-x-0 bottom-0 z-50 grid grid-cols-2 gap-2 border-t border-border p-3 md:static md:mx-auto md:mb-8 md:mt-4 md:max-w-[1120px] md:rounded-2xl md:border">
+        <a href={PHONE_HREF} className="flex h-14 items-center justify-center gap-2 rounded-xl bg-brand-red font-display text-lg font-black text-brand-red-foreground"><Phone className="h-6 w-6" /> Hemen Ara</a>
+        <a href={WA_HREF} target="_blank" rel="noopener" className="flex h-14 items-center justify-center gap-2 rounded-xl bg-brand-green font-display text-lg font-black text-brand-green-foreground"><MessageCircle className="h-6 w-6" /> WhatsApp</a>
+      </div>
     </div>
   );
 }

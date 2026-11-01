@@ -62,21 +62,6 @@ function ErrorComponent({ error, reset }: { error: unknown; reset: () => void })
   console.error(error);
   const router = useRouter();
 
-  // Stale files after a new publish or a translate-extension DOM conflict:
-  // reload the page once automatically instead of showing the error.
-  if (typeof window !== "undefined") {
-    const msg = error instanceof Error ? error.message : String(error);
-    const recoverable =
-      /dynamically imported module|Failed to fetch|Importing a module script|removeChild|insertBefore|not a child of this node/i.test(
-        msg,
-      );
-    const key = "auto-reload-" + window.location.pathname;
-    if (recoverable && !sessionStorage.getItem(key)) {
-      sessionStorage.setItem(key, "1");
-      window.location.reload();
-    }
-  }
-
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
       <div className="max-w-md text-center">
@@ -137,6 +122,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         rel: "stylesheet",
         href: appCss,
+      },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Barlow+Condensed:wght@700;800;900&family=Archivo:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap",
       },
       { rel: "icon", href: "/favicon.ico", sizes: "any" },
       { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon-32.png" },
@@ -213,7 +204,7 @@ function RootComponent() {
   const isAdmin = location.pathname.startsWith("/admin");
   // These pages already render their own inline TR/EN toggle in their header,
   // so hide the global floating one there to avoid a duplicate / overlap.
-  const hasOwnToggle = location.pathname === "/" || location.pathname.startsWith("/google-ads");
+  const hasOwnToggle = location.pathname === "/" || location.pathname.startsWith("/google-ads") || location.pathname === "/blog/bosch-kombi-resetleme" || location.pathname === "/blog/su-vanasi-nasil-kapatilir-acilir" || location.pathname === "/blog/taharet-muslugu-nasil-takilir-degistirilir" || location.pathname === "/blog/camasir-makinesi-nasil-baglanir" || location.pathname === "/blog/lavabo-sifonu-nasil-takilir" || location.pathname === "/blog/dogalgaz-sayaci-nasil-okunur" || location.pathname === "/blog/musluk-batarya-tamiri-baslik-kartus-degisimi" || location.pathname === "/blog/banyoya-sicak-su-az-akiyor-nedenleri" || location.pathname === "/blog/klozet-montaji-nasil-yapilir" || location.pathname === "/blog/klozet-ic-takimi-degisimi" || location.pathname === "/blog/viessmann-kombi-resetleme" || location.pathname === "/blog/su-sayaci-nasil-okunur" || location.pathname === "/blog/yer-suzgeci-nedir-cesitleri-koku-onleme" || location.pathname === "/blog/tuvalet-klozet-kokusu-nasil-giderilir" || location.pathname === "/blog/kombi-genlesme-tanki-ne-ise-yarar" || location.pathname === "/blog/dusakabin-montaji-nasil-yapilir" || location.pathname === "/blog/kombi-basinci-dusuyor" || location.pathname === "/blog/petek-isinmiyor-hava-alma" || location.pathname === "/blog/kirmadan-su-kacagi-tespiti" || location.pathname === "/blog/camasir-makinesi-su-bosaltmiyor" || location.pathname === "/blog/gider-tikanikligi-nasil-acilir" || location.pathname === "/blog/petek-alttan-sicak-ustten-soguk" || location.pathname === "/blog/mutfak-tikanikligi-nasil-acilir" || location.pathname === "/blog/lavabo-tikanikligi-nasil-acilir" || location.pathname === "/blog/giderden-gelen-lagim-kokusu-nasil-giderilir" || location.pathname === "/blog/kombi-neden-calismiyor" || location.pathname === "/blog/kombi-sicak-su-vermiyor" || location.pathname === "/blog/kombi-calisiyor-ama-petekler-isinmiyor";
 
   return (
     <QueryClientProvider client={queryClient}>

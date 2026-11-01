@@ -1,291 +1,157 @@
 ---
-slug: "klima-montaji-nasil-yapilir"
-title: "Klima Montajı Nasıl Yapılır? İç-Dış Ünite ve Bakır Boru Rehberi (2026)"
-seoTitle: "Klima Montajı Nasıl Yapılır? İç-Dış Ünite"
-keyword: "klima montajı nasıl yapılır"
-volume: 200
-kdi: 30
-category: "Klima"
-readMin: 6
-published: "2026-07-26"
-updated: "2026-07-26"
-excerpt: >
-  Klima montajı, iç ünite ile dış ünite arasında bakır gaz hattı, drenaj hortumu
-  ve elektrik kablosunun doğru çekilip vakumlama yapılarak sistemin devreye
-  alınmasıdır.
-metaDescription: "Klima montajı adım adım: bakır boru, tork değerleri, vakumlama süresi, drenaj eğimi ve 2026 fiyatları. İstanbul geneli 7/24 servis: 0533 896 05 03. Gölge Tes..."
-serviceSlug: "klima-servisi"
+slug: klima-montaji-nasil-yapilir
+title: Klima Montajı Nasıl Yapılır? İç-Dış Ünite ve Bakır Boru Rehberi (2026)
+seoTitle: Klima Montajı Nasıl Yapılır? Adım Adım
+keyword: klima montajı nasıl yapılır
+category: Klima
+serviceSlug: klima-servisi
+readMin: 10
+published: '2026-07-26'
+updated: '2026-10-02'
+excerpt: Klima montajı, iç ünite ile dış ünite arasında bakır gaz hattı, drenaj hortumu ve elektrik kablosunun doğru çekilip vakumlama yapılarak sistemin devreye alınmasıdır. Yer seçimi, tork değerleri, vakumlama ve devreye alma adımları bu rehberde.
 featuredImage:
-  src: "/blog-images/klima-montaji-nasil-yapilir-hero.jpg"
-  alt: "klima montajı nasıl yapılır — İstanbul saha rehberi görseli"
-  caption: "Gölge Tesisat İstanbul saha ekibi."
-intro: >
-  Klima montajı, iç ünite ile dış ünite arasında bakır gaz hattı, drenaj hortumu
-  ve elektrik kablosunun doğru çekilip vakumlama yapılarak sistemin devreye
-  alınmasıdır. Yanlış montaj; gaz kaçağı, su damlatma, verim düşüşü ve kompresör
-  arızasına yol açar — cihazın kendisinden bağımsız olarak klimanın ömrünü
-  belirleyen en kritik iştir. Bu rehberde 9.000–24.000 BTU split klima montajını
-  adım adım, ölçü ve tork değerleriyle birlikte anlatıyoruz. Doğru bakır çap,
-  vakum süresi, drenaj eğimi ve elektrik hattı için 2026 TSE/EN 378 kriterleri
-  esas alınmıştır.
+  src: /blog-images/klima-montaji-nasil-yapilir-hero.jpg
+  alt: 'Klima montajı: teknisyen dış ünite konsolunu duvara sabitliyor'
+  caption: Doğru montaj, klimanın ömrünü belirleyen en kritik iştir.
+metaDescription: 'Klima montajı adım adım: yer seçimi, bakır boru ve havşa, tork değerleri, vakumlama, drenaj eğimi ve devreye alma. Yanlış montajın sonuçları ve sık yapılan hatalar bu rehberde.'
+intro: Klima montajı, iç ünite ile dış ünite arasında bakır gaz hattı, drenaj hortumu ve elektrik kablosunun doğru çekilip vakumlama yapılarak sistemin devreye alınmasıdır. Yanlış montaj; gaz kaçağı, su damlatma, verim düşüşü ve kompresör arızasına yol açar — cihazın kendisinden bağımsız olarak klimanın ömrünü belirleyen en kritik iştir. Bu rehberde split klima montajını adım adım, ölçü ve tork değerleriyle birlikte anlatıyoruz.
+manualRelated:
+  - klima-btu-hesaplama
+  - klima-gazi-ne-zaman-biter
+  - klima-kokusu-nasil-gecer
 sections:
-  - heading: "Montaj Öncesi Hazırlık"
+  - heading: Öne Çıkanlar
+    id: one-cikanlar
+    bullets:
+      - Klima montajı cihazın kendisi kadar önemlidir; yanlış montaj gaz kaçağı, su damlatma ve kompresör arızasına yol açar.
+      - Havşa somunları mutlaka torkmetreyle sıkılmalıdır; elle sıkma en yaygın gaz kaçağı nedenidir.
+      - Vakumlama atlanırsa içeride kalan nem asit oluşturur ve kompresörü eritir.
+      - Drenaj hortumu kesintisiz aşağı eğimli olmalıdır; yukarı kıvrım iç üniteden su damlatır.
+      - Montaj özel ekipman ve sertifika ister; yetkisiz montaj cihaz garantisini geçersiz kılar.
+  - heading: Montaj Öncesi Hazırlık
+    id: hazirlik
     paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
+      - 'Doğru montaj doğru malzemeyle başlar. Standart bir split klima montajında gerekenler:'
     image:
-      src: "/blog-images/klima-montaji-nasil-yapilir-infographic.jpg"
-      alt: "Klima montajı infografik"
-      caption: "Klima montaj infografik."
-  - heading: "Adım Adım Klima Montajı"
-    paragraphs:
-      - "Bakır boru **yumuşak, dikişsiz, DIN EN 12735** olmalı. Kesim sonrası:"
-      - "Torkmetre kullanılmadan yapılan sıkma en yaygın gaz kaçağı nedenidir."
-      - "Bu adım atlanır veya kısa tutulursa sistem 6–18 ay içinde bozulur."
-      - "``` Hedef basınç: 500 mikron (0,067 mbar) altı Süre (9-12k): min. 15 dakika Süre (18-24k): min. 25 dakika Süre (30k+): min. 40 dakika Kapama testi: Vakum pompasını kapatın, 5 dakika bekleyin. Basınç yükseliyorsa → kaçak var, havşayı tekrar kontrol edin. ```"
+      src: /blog-images/klima-montaji-nasil-yapilir-infographic.jpg
+      alt: 'Klima montajı infografik: iç ünite, dış ünite, bakır boru ve drenaj hattı'
+      caption: 'Montajın dört hattı: bakır gaz borusu, drenaj, elektrik ve sinyal kablosu.'
+    bullets:
+      - '**Bakır boru çifti (izoleli):** 1/4" + 3/8" (9-12k BTU), 1/4" + 1/2" (18-24k BTU)'
+      - '**Drenaj hortumu:** Ø16 mm iç çap, PVC'
+      - '**Elektrik kablosu:** 3×1,5 mm² TTR (9-12k), 3×2,5 mm² (18-24k)'
+      - '**Konsol / duvar aparatı:** Cihaz ağırlığını güvenle taşıyacak kapasitede'
+      - '**Vakum pompası:** Çift kademeli'
+      - '**Manifold takım:** Cihazın gaz tipine uyumlu'
+      - '**Havşa (flare) tabancası:** 45°'
+  - heading: Yer Seçimi
+    id: yer-secimi
+    bullets:
+      - 'İç ünite: yataktan veya koltuktan doğrudan üflemesin; tavana ve yan duvarlara yeterli boşluk bırakın.'
+      - 'Dış ünite: hava akışı önü açık bir cepheye; duvara ve önüne yeterli boşluk bırakın. Yağmur oluğunun altına koyulmamalı.'
+      - 'Boru mesafesi: standart hat birkaç metredir; üreticinin izin verdiği azami uzunluğu aşmayın, uzayan her metre için ek gaz gerekir.'
+      - Dış üniteyi yerden yükseğe monte edin; kar ve yaprak birikmesini önler.
+  - heading: Adım Adım Klima Montajı
+    id: montaj-adimlari
     image:
-      src: "/blog-images/klima-montaji-nasil-yapilir-comparison.jpg"
-      alt: "Klima montajı karşılaştırma"
-      caption: "Klima montaj karşılaştırma."
-  - heading: "Gaz Türleri: R32 vs R410A"
+      src: /blog-images/klima-montaji-nasil-yapilir-comparison.jpg
+      alt: Doğru ve yanlış klima montajı karşılaştırması
+      caption: Yatay aparat, doğru havşa ve yeterli vakum doğru montajın üç şartıdır.
+    bullets:
+      - 1. **İç ünite aparatını sabitleyin:** Aparatı su terazisiyle tam yatay yerleştirin; küçük bir sapma bile drenaj sızıntısı yapar. Dübel ve vidalarla en az dört noktadan sabitleyin. Duvar deliğini karotla açın ve dışa doğru hafif eğim verin.
+      - 2. **Dış ünite konsolunu monte edin:** Beton duvara kimyasal dübelle sabitleyin. Konsol yatay olmalı; dış ünite titreşim takozları üzerine oturmalı.
+      - 3. **Bakır boruları çekin ve havşa yapın:** Boruyu dik açıda kesin, çapağı rayba ile alın. Somunu önce boruya geçirin, sonra 45° havşa açın. Havşa yüzeyi pürüzsüz ve çatlaksız olmalı.
+      - 4. **Somunları torkmetreyle sıkın:** Her boru çapının tork değeri farklıdır; aşağıdaki tabloya bakın. Torkmetresiz sıkma en yaygın gaz kaçağı nedenidir.
+      - 5. **Drenaj ve elektriği bağlayın:** Drenaj hortumu kesintisiz aşağı eğimli olmalı. Kablo dış ünitede su geçirmez rakorla sabitlenir; toprak hattı ve kaçak akım rölesi zorunludur.
+      - 6. **Vakumlayın:** En kritik adım. Vakum pompasıyla sistemi boşaltın, ardından pompayı kapatıp bekleyin; basınç yükseliyorsa kaçak var demektir, havşayı tekrar kontrol edin.
+      - 7. **Gazı açın ve devreye alın:** Servis vanalarını açın, havşa noktalarına köpük veya dedektörle kaçak kontrolü yapın. Klimayı soğutmada çalıştırıp üfleme sıcaklığını ve boru sıcaklıklarını ölçün.
+  - heading: Havşa Somunu Tork Değerleri
+    id: tork-degerleri
     paragraphs:
-      - "2026 itibarıyla yeni satılan split klimaların **%95'i R32**'dir. R32 hafif yanıcıdır; iç mekanda **min. hacim** koşulu vardır (12k BTU için ~10 m³)."
+      - 'Bakır boru yumuşak ve dikişsiz olmalıdır. Kesim sonrası çapak mutlaka alınır, havşa 45° açılır ve somunlar aşağıdaki tork değerleriyle sıkılır:'
+      - '**Torkmetre şart: Elle ''hissettiği kadar'' sıkma ya gevşek kalır (gaz kaçağı) ya da havşayı çatlatır (gecikmeli kaçak). Her iki durumda da sistem kısa sürede gaz kaybeder.**'
+    bullets:
+      - '**1/4" (6,35 mm):** 15–17 N·m'
+      - '**3/8" (9,52 mm):** 33–42 N·m'
+      - '**1/2" (12,7 mm):** 50–62 N·m'
+      - '**5/8" (15,88 mm):** 63–77 N·m'
+  - heading: Vakumlama Neden Kritik?
+    id: vakumlama
+    paragraphs:
+      - Sistemin içinde kalan nem, soğutucuyla birleşince asit oluşturur ve kompresör bobinini eritir; bu en pahalı arıza kalemidir. Havayı gazla süpürmek (purge) yeterli değildir — nemi çıkarmaz.
+      - 'Vakum sonrası kapama testi yapılır: pompa kapatılıp bir süre beklenir. Basınç yükseliyorsa kaçak vardır ve havşa noktaları tekrar kontrol edilir. Bu adım kısaltılırsa sistem aylar içinde arızalanır.'
     image:
-      src: "/blog-images/klima-montaji-nasil-yapilir-symptoms.jpg"
-      alt: "Klima montajı belirtiler"
-      caption: "Klima montaj belirtiler."
-  - heading: "Klima Kaç BTU Olmalı?"
+      src: /blog-images/klima-montaji-nasil-yapilir-symptoms.jpg
+      alt: 'Klima vakumlama: manifold ve vakum pompası bağlantısı'
+      caption: Vakum ve kapama testi yapılmadan gaz açılmamalıdır.
+  - heading: 'Gaz Türleri: R32 ve R410A'
+    id: gaz-turleri
     paragraphs:
-      - "**Formül:** ``` BTU ≈ oda m² × 600 (normal yalıtım) BTU ≈ oda m² × 800 (güney/yüksek pencereli) ```"
-      - "Detaylı hesap için [klima BTU hesaplama](/preview/klima-btu-hesaplama) rehberimize bakın. Kombi seçimindeki benzer mantık için [kombi kaç kW olmalı](/preview/kombi-kac-kw-olmali)."
+      - Güncel cihazların büyük çoğunluğu R32 gazlıdır. R32 daha az şarj ister ve çevre etkisi daha düşüktür, ancak hafif yanıcıdır; montajda kıvılcım kaynaklarından uzak çalışılır ve oda hacmi koşullarına uyulur.
+    bullets:
+      - '**Çevre etkisi (GWP):** Yüksek — Belirgin şekilde düşük'
+      - '**Yanıcılık:** Yanmaz — Hafif yanıcı'
+      - '**Yeni cihazlarda:** Aşamalı olarak kalkıyor — Standart'
+      - '**Şarj miktarı:** Daha fazla — Daha az'
+  - heading: Klima Kaç BTU Olmalı?
+    id: btu-secimi
+    paragraphs:
+      - 'Montajdan önce doğru kapasite seçilmelidir. Kaba hesap: oda metrekaresi × 600 (normal yalıtım) veya × 800 (güney cephe, büyük pencere). Detaylı hesap için klima BTU hesaplama rehberimize bakın.'
+    inlineLinks:
+      - slug: klima-btu-hesaplama
+        anchor: klima BTU hesaplama rehberimize
     image:
-      src: "/blog-images/klima-montaji-nasil-yapilir-chart.jpg"
-      alt: "Klima montajı grafik"
-      caption: "Klima montaj grafik."
-  - heading: "Sık Yapılan Montaj Hataları"
+      src: /blog-images/klima-montaji-nasil-yapilir-chart.jpg
+      alt: Oda alanına göre klima BTU seçim grafiği
+      caption: Yetersiz BTU sürekli çalışan, fazla BTU sık açılıp kapanan cihaz demektir.
+    bullets:
+      - '**10–15 m²:** 9.000 BTU — 12.000 BTU'
+      - '**16–22 m²:** 12.000 BTU — 18.000 BTU'
+      - '**23–30 m²:** 18.000 BTU — 24.000 BTU'
+      - '**31–40 m²:** 24.000 BTU — 30.000 BTU'
+  - heading: Sık Yapılan Montaj Hataları
+    id: sik-hatalar
+    bullets:
+      - Vakum yerine gazla süpürme (purge) yapmak — nem sistemde kalır, kompresör erken arızalanır.
+      - Havşa somununu torkmetresiz sıkmak — gaz kaçağı.
+      - Drenaj hortumunu yukarı kıvırmak — iç ünite su damlatır.
+      - Bakır boruyu ezerek bükmek — akış daralır, kompresör aşırı yüklenir.
+      - Yetersiz izolasyon — terleme ve damla, boyalı duvarı bozar.
+      - Dış üniteyi duvara çok yakın monte etmek — sıcak hava geri emilir, verim düşer.
+      - Kaçak akım rölesiz bağlantı — yasal ve can güvenliği ihlali.
+  - heading: Yasal Zorunluluklar
+    id: yasal
+    checklist:
+      title: Montajda yasal kontrol listesi
+      items:
+        - Montajı yapan teknisyenin mesleki yeterlilik belgesi olmalıdır.
+        - Dış ünitenin cepheye asılması için site/apartman yönetiminden yazılı izin alınmalıdır.
+        - Elektrik hattında kaçak akım rölesi bulunmalıdır.
+        - Gaz işlemleri sertifikalı personel tarafından yapılmalıdır; gaz atmosfere salınamaz.
+  - heading: Montaj Sonrası Bakım
+    id: bakim
     paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Montaj Süresi ve Fiyatı (Türkiye 2026)"
+      - Montaj kalitesi kadar düzenli bakım da ömrü belirler. Yılda bir kez iç ünite filtre ve tahliye tavası temizliği yapın; koku sorunu başlarsa klima kokusu nasıl geçer rehberimizi inceleyin. Birkaç yılda bir dış ünite kanat yıkaması ve gaz basınç kontrolü yaptırın; detay için klima gazı ne zaman biter yazımıza bakın.
+    inlineLinks:
+      - slug: klima-kokusu-nasil-gecer
+        anchor: klima kokusu nasıl geçer
+      - slug: klima-gazi-ne-zaman-biter
+        anchor: klima gazı ne zaman biter
+  - heading: Sonuç
+    id: sonuc
     paragraphs:
-      - "Ek bakır boru metresi: **350–500 TL/m**. Karot delme (dış duvar): **400–600 TL**. Vinç gerekirse: **1.500–3.500 TL**."
-  - heading: "Yasal Zorunluluklar"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Bakım Sıklığı"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Otoriter Kaynaklar ve Referanslar"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Sonuç"
-    paragraphs:
-      - "Klima montajı, cihazın fiyatı kadar önemli bir yatırımdır. **Vakum süresini kısaltmayan**, **torkmetre kullanan**, **kaçak testi yapan** yetkili bir montajcı seçmek 10 yıllık cihaz ömrünü doğrudan belirler. Ucuz montaj + pahalı klima birleşimi 12–18 ay içinde kompresör arızasıyla sonuçlanır. Detaylı keşif ve montaj için [kombi servisi](/hizmet/kombi-servisi) ekibimiz TSE sertifikalı montaj yapmaktadır."
-  - heading: "Sık Sorulan Sorular"
-    paragraphs:
-      - "**1. Klimayı kendim monte edebilir miyim?** Hayır. R32 hafif yanıcıdır, vakumlama ve havşa özel ekipman ister. Yetkisiz montaj garantiyi geçersiz kılar."
-      - "**2. Vakumlama neden bu kadar önemli?** İçerideki nem soğutucu ile birleşip asit oluşturur; kompresör bobinini eritir. En pahalı arıza kalemidir."
-      - "**3. Bakır boru kaç metreye kadar uzatılabilir?** Standart split modellerde 15 m'ye kadar. 5 m üzeri her metre için 20–30 g ek şarj gerekir."
-      - "**4. Dış ünite balkona kurulur mu?** Evet, ancak havalandırma açık olmalı ve yönetim onayı alınmalı. Kapalı balkon → dış ünite verim kaybeder."
-  - heading: "Gölge Tesisat İstanbul — Acil Servis"
-    paragraphs:
-      - "İstanbul geneli 7/24 tesisat servisimiz Kadıköy, Beşiktaş, Ümraniye, Başakşehir dahil tüm ilçelerde 45 dakika içinde adresinize gelir. Fiyat aralıklarımız arıza türüne göre değişir; net teklif için telefonla ulaşın."
-    callout:
-      variant: "tip"
-      title: "Ustayı çağırmadan önce"
-      body: "Kombi/vana modelini ve fotoğrafı hazır edin; teşhis süresi kısalır, maliyet düşer."
-    cta:
-      title: "Acil tesisatçı mı arıyorsunuz?"
-      body: "İstanbul içi 45 dakikada saha ekibimizi adresinize yönlendiriyoruz."
-      phone: true
-      whatsapp: true
+      - Klima montajı, cihazın fiyatı kadar önemli bir yatırımdır. Vakum süresini kısaltmayan, torkmetre kullanan ve kaçak testi yapan bir montajcı seçmek cihaz ömrünü doğrudan belirler. Ucuz montaj ile pahalı klimayı birleştirmek, kısa sürede kompresör arızasıyla sonuçlanır.
 faq:
-  - q: "Klimayı kendim monte edebilir miyim?"
-    a: "Hayır. R32 hafif yanıcıdır, vakumlama ve havşa özel ekipman ister. Yetkisiz montaj garantiyi geçersiz kılar."
-  - q: "Vakumlama neden önemli?"
-    a: "Nem soğutucu ile asit oluşturur, kompresör bobinini eritir. En pahalı arıza kalemidir."
-  - q: "Bakır boru kaç metre uzatılır?"
-    a: "Standart split modellerde 15 m'ye kadar. 5 m üzeri her metre için 20-30 g ek şarj."
+  - question: Klimayı kendim monte edebilir miyim?
+    answer: Hayır. Vakumlama ve havşa özel ekipman ister, R32 hafif yanıcıdır. Yetkisiz montaj cihaz garantisini geçersiz kılar.
+  - question: Vakumlama neden bu kadar önemli?
+    answer: İçeride kalan nem soğutucuyla birleşip asit oluşturur ve kompresör bobinini eritir. En pahalı arıza kalemidir.
+  - question: Bakır boru kaç metreye kadar uzatılabilir?
+    answer: Standart split modellerde üreticinin izin verdiği sınıra kadar uzatılabilir; standart uzunluğu aşan her metre için ek gaz şarjı gerekir.
+  - question: Dış ünite balkona kurulur mu?
+    answer: Evet, ancak havalandırma açık olmalı ve yönetim onayı alınmalıdır. Kapalı balkonda dış ünite verim kaybeder.
+  - question: Montaj sonrası ne zaman çalıştırılır?
+    answer: Kaçak testi, vakum ve gaz açma tamamlandıktan hemen sonra. İlk çalıştırmada soğutma testi yapılır ve üfleme sıcaklığı ölçülür.
+  - question: Montajda gaz eklenmeli mi?
+    answer: Yeni cihazda gaz fabrika dolumundan gelir. Sadece boru hattı standarttan uzunsa veya sızıntı sonrası eklenir; gereksiz gaz basmak zararlıdır.
 ---
-
-# Klima Montajı Nasıl Yapılır? İç-Dış Ünite ve Bakır Boru Rehberi (2026)
-
-**Klima montajı**, iç ünite ile dış ünite arasında bakır gaz hattı, drenaj hortumu ve elektrik kablosunun doğru çekilip vakumlama yapılarak sistemin devreye alınmasıdır. Yanlış montaj; gaz kaçağı, su damlatma, verim düşüşü ve kompresör arızasına yol açar — cihazın kendisinden bağımsız olarak **klimanın ömrünü belirleyen** en kritik iştir.
-
-Bu rehberde 9.000–24.000 BTU split klima montajını adım adım, ölçü ve tork değerleriyle birlikte anlatıyoruz. Doğru bakır çap, vakum süresi, drenaj eğimi ve elektrik hattı için 2026 TSE/EN 378 kriterleri esas alınmıştır.
-
-## Montaj Öncesi Hazırlık
-
-### Gerekli malzemeler
-
-| Malzeme                    | Ölçü / Özellik                              |
-| -------------------------- | ------------------------------------------- |
-| Bakır boru çifti (izoleli) | 1/4" + 3/8" (9k-12k), 1/4" + 1/2" (18k-24k) |
-| Drenaj hortumu             | Ø16 mm iç çap, PVC                          |
-| Elektrik kablosu           | 3×1,5 mm² TTR (9-12k), 3×2,5 mm² (18-24k)   |
-| Konsol / duvar aparatı     | Yük kapasitesi ≥ 80 kg                      |
-| Vakum pompası              | ≥ 90 L/dk, çift kademeli                    |
-| Manifold takım             | R32/R410A uyumlu                            |
-| Havşa (flare) tabancası    | 45°                                         |
-
-### Yer seçimi
-
-- **İç ünite**: Yataktan/koltuktan doğrudan üflemesin. Tavana **min. 15 cm**, yan duvara **min. 10 cm** boşluk bırakın.
-- **Dış ünite**: Güneye/güneydoğuya, hava akışı önü açık. Duvara **min. 20 cm**, önüne **min. 60 cm** boşluk. Yağmur oluğunun altına koyulmamalı.
-- **Boru mesafesi**: Standart 3–5 m. Maksimum üretici izin verir (genellikle 15 m); her 5 m'de +30 g gaz ilavesi gerekir.
-
-## Adım Adım Klima Montajı
-
-### 1. İç Ünite Duvar Aparatını Sabitleme
-
-1. Aparatı su terazisiyle **tam yatay** yerleştirin (1 mm sapma bile drenaj sızıntısı yapar).
-2. Ø8 mm dübel + tirfon vida ile duvara sabitleyin (en az 4 nokta).
-3. Duvar deliğini **Ø65 mm karot** ile açın; dış tarafa **1–2° eğim** verin (drenaj için).
-
-### 2. Dış Ünite Konsol Montajı
-
-- Beton duvara **kimyasal dübel** (M10) ile sabitleyin.
-- Konsol yatay olmalı; dış ünite konsol üzerinde **titreşim takozu** (kauçuk) üzerine oturmalı.
-- Yerden yükseklik **min. 30 cm** (kar/yaprak birikmesin).
-
-### 3. Bakır Boruları Çekme ve Havşa Yapma
-
-Bakır boru **yumuşak, dikişsiz, DIN EN 12735** olmalı. Kesim sonrası:
-
-1. Boru kesici ile **dik açıda** kesin, çapağı **rayba** ile alın.
-2. Somunu **önce** boruya geçirin (unutulunca tüm iş baştan).
-3. Havşa tabancası ile **45°** havşa açın. Havşa yüzeyi pürüzsüz, çatlaksız olmalı.
-4. **Somun torkları:**
-
-| Boru çapı       | Sıkma torku |
-| --------------- | ----------- |
-| 1/4" (6,35 mm)  | 15–17 N·m   |
-| 3/8" (9,52 mm)  | 33–42 N·m   |
-| 1/2" (12,7 mm)  | 50–62 N·m   |
-| 5/8" (15,88 mm) | 63–77 N·m   |
-
-Torkmetre kullanılmadan yapılan sıkma en yaygın gaz kaçağı nedenidir.
-
-### 4. Drenaj Hortumu ve Elektrik Bağlantısı
-
-- Drenaj hortumu **kesintisiz aşağı doğru eğimli** olmalı (min. %1). Yukarı kıvrılırsa suyu geri iter → iç üniteden damlar.
-- Kablo dış ünite tarafında **su geçirmez rakor**la sabitlenir.
-- Toprak hattı **zorunludur**; kaçak akım rölesi (30 mA) devrede olmalı.
-
-### 5. Vakumlama (En Kritik Adım)
-
-Bu adım atlanır veya kısa tutulursa sistem 6–18 ay içinde bozulur.
-
-```
-Hedef basınç: 500 mikron (0,067 mbar) altı
-Süre (9-12k): min. 15 dakika
-Süre (18-24k): min. 25 dakika
-Süre (30k+):   min. 40 dakika
-Kapama testi:  Vakum pompasını kapatın, 5 dakika bekleyin.
-               Basınç yükseliyorsa → kaçak var, havşayı tekrar kontrol edin.
-```
-
-**Neden vakumlanır?** Sistemin içinde kalan nem soğutucu ile birleşince asit oluşturur; kompresör bobinini eritir. Havayı üflemek (purge) yeterli **değildir**.
-
-### 6. Gazı Açma ve Devreye Alma
-
-1. Dış ünitedeki servis vanalarını **imbus anahtar** ile açın (önce ince boru, sonra kalın).
-2. Havşa noktalarına **sabun köpüğü** veya elektronik dedektör ile kaçak kontrolü yapın.
-3. Elektriği verin, klimayı **soğutmada 18 °C**'de çalıştırın.
-4. **Ölçüm:** İç ünite üfleme sıcaklığı 8–12 °C aralığında olmalı. Dış ünite kalın boru **7–10 °C**, ince boru **soğuk ve terlemiş** olmalı.
-
-## Gaz Türleri: R32 vs R410A
-
-| Özellik              | R410A       | R32                |
-| -------------------- | ----------- | ------------------ |
-| GWP (küresel ısınma) | 2088        | 675                |
-| Verim                | Standart    | ~%10 daha iyi      |
-| Yanıcılık sınıfı     | A1 (yanmaz) | A2L (hafif yanıcı) |
-| 2026 yeni cihazlar   | Faz dışı    | Standart           |
-| Şarj miktarı         | Daha fazla  | ~%30 daha az       |
-
-2026 itibarıyla yeni satılan split klimaların **%95'i R32**'dir. R32 hafif yanıcıdır; iç mekanda **min. hacim** koşulu vardır (12k BTU için ~10 m³).
-
-## Klima Kaç BTU Olmalı?
-
-| Oda alanı | Yalıtımlı  | Yalıtımsız / Güney |
-| --------- | ---------- | ------------------ |
-| 10–15 m²  | 9.000 BTU  | 12.000 BTU         |
-| 16–22 m²  | 12.000 BTU | 18.000 BTU         |
-| 23–30 m²  | 18.000 BTU | 24.000 BTU         |
-| 31–40 m²  | 24.000 BTU | 30.000 BTU         |
-
-**Formül:**
-
-```
-BTU ≈ oda m² × 600  (normal yalıtım)
-BTU ≈ oda m² × 800  (güney/yüksek pencereli)
-```
-
-Detaylı hesap için [klima BTU hesaplama](/preview/klima-btu-hesaplama) rehberimize bakın. Kombi seçimindeki benzer mantık için [kombi kaç kW olmalı](/preview/kombi-kac-kw-olmali).
-
-## Sık Yapılan Montaj Hataları
-
-- **Vakum yerine "purge" (gazla süpürme):** Kompresör 1 yıl içinde yanar.
-- **Havşa somununu elle sıkmak:** Torkmetresiz sıkma → gaz kaçağı.
-- **Drenaj hortumu yukarı kıvrılmış:** İç ünite damlar.
-- **Bakır boruyu ezerek büküm:** Akış darboğazı, kompresör aşırı yüklenir.
-- **Yetersiz izolasyon:** Terleme + damla, boyalı duvarı bozar.
-- **Dış ünite duvar dibinde:** Sıcak hava geri emilir, verim %25 düşer.
-- **Kaçak akım rölesi yok:** Yasal ve can güvenliği ihlali.
-
-## Montaj Süresi ve Fiyatı (Türkiye 2026)
-
-| Kapasite   | Standart montaj (3 m) | Süre       |
-| ---------- | --------------------- | ---------- |
-| 9.000 BTU  | 2.800–3.800 TL        | 2–3 saat   |
-| 12.000 BTU | 3.200–4.200 TL        | 2,5–3 saat |
-| 18.000 BTU | 4.500–6.000 TL        | 3–4 saat   |
-| 24.000 BTU | 5.500–7.500 TL        | 4–5 saat   |
-
-Ek bakır boru metresi: **350–500 TL/m**. Karot delme (dış duvar): **400–600 TL**. Vinç gerekirse: **1.500–3.500 TL**.
-
-## Yasal Zorunluluklar
-
-- **Montajcı sertifikası:** MYK Soğutma Sistemleri Montajcısı belgesi.
-- **F-gaz kayıt:** 3 kg üstü şarjda F-gaz kaydı gerekir (VRV/VRF).
-- **Site yönetim onayı:** Dış ünitenin cepheye asılması için yazılı izin.
-- **Kaçak akım rölesi:** 30 mA RCD zorunlu.
-
-## Bakım Sıklığı
-
-- **Yılda 1 kez** iç ünite filtre + tahliye tavası temizliği. Detay: [klima kokusu nasıl geçer](/preview/klima-kokusu-nasil-gecer).
-- **2 yılda 1 kez** dış ünite kanat basınçlı yıkama, gaz basınç kontrolü. Detay: [klima gazı ne zaman biter](/preview/klima-gazi-ne-zaman-biter).
-
-## Otoriter Kaynaklar ve Referanslar
-
-- [TSE — Türk Standartları Enstitüsü](https://www.tse.org.tr/)
-- [F-Gaz Yönetmeliği — Çevre Bakanlığı](https://www.csb.gov.tr/f-gaz-yonetmeligi)
-- [Wikipedia — Klima](https://tr.wikipedia.org/wiki/Klima)
-- [T.C. Millî Eğitim Bakanlığı — Mesleki Yeterlilik](https://meslek.meb.gov.tr/)
-
-## Sonuç
-
-Klima montajı, cihazın fiyatı kadar önemli bir yatırımdır. **Vakum süresini kısaltmayan**, **torkmetre kullanan**, **kaçak testi yapan** yetkili bir montajcı seçmek 10 yıllık cihaz ömrünü doğrudan belirler. Ucuz montaj + pahalı klima birleşimi 12–18 ay içinde kompresör arızasıyla sonuçlanır. Detaylı keşif ve montaj için [kombi servisi](/hizmet/kombi-servisi) ekibimiz TSE sertifikalı montaj yapmaktadır.
-
-## Sık Sorulan Sorular
-
-**1. Klimayı kendim monte edebilir miyim?**
-Hayır. R32 hafif yanıcıdır, vakumlama ve havşa özel ekipman ister. Yetkisiz montaj garantiyi geçersiz kılar.
-
-**2. Vakumlama neden bu kadar önemli?**
-İçerideki nem soğutucu ile birleşip asit oluşturur; kompresör bobinini eritir. En pahalı arıza kalemidir.
-
-**3. Bakır boru kaç metreye kadar uzatılabilir?**
-Standart split modellerde 15 m'ye kadar. 5 m üzeri her metre için 20–30 g ek şarj gerekir.
-
-**4. Dış ünite balkona kurulur mu?**
-Evet, ancak havalandırma açık olmalı ve yönetim onayı alınmalı. Kapalı balkon → dış ünite verim kaybeder.
-
-**5. Montaj sonrası ne zaman çalıştırılır?**
-Kaçak testi + vakum + gaz açma tamamlandıktan hemen sonra. İlk çalıştırmada minimum 15 dk soğutma testi yapılır.
-
-**6. Gaz eklenmeli mi, ne zaman?**
-Yeni cihazda gaz fabrika dolumundan gelir. 5 m üzeri boruya veya sızıntı sonrası eklenir; boş yere gaz basmak zararlıdır.
-
----
-
-_Son güncelleme: 16 Temmuz 2026 · Yazar: Gölge Tesisat Teknik Ekibi_

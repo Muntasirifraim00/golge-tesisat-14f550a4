@@ -1,386 +1,148 @@
 ---
-slug: "kombi-donma-korumasi"
-title: "Kombi Donma Koruması: Kışın Kombiyi Kapatmak mı, Açık Bırakmak mı? (2026)"
-seoTitle: "Kombi Donma Koruması: Kışın Kapatmak mı"
-keyword: "kombi donma koruması kışın"
-volume: 200
-kdi: 30
-category: "Kombi & Kalorifer"
-readMin: 9
-published: "2026-07-26"
-updated: "2026-07-26"
-excerpt: >
-  Kısa cevap: Kışın evden ayrılırken kombiyi kapatmayın — düşük sıcaklıkta
-  (radyatör 40 °C, oda 12–15 °C) açık bırakın.
-metaDescription: "Donma koruması nasıl çalışır, uzun tatilde ne yapılır, antifriz vs vana kapatma, kondens hortumu koruması ve 7 kış kontrolü. Gölge Tesisat İstanbul 7/24: 053..."
-serviceSlug: "kombi-tamiri"
+slug: kombi-donma-korumasi
+title: Kombi Donma Koruması Nedir, Nasıl Çalışır? Kışın Evden Ayrılırken Ne Yapmalı (2026)
+seoTitle: Kombi Donma Koruması Nedir, Nasıl Çalışır? Kış Rehberi
+keyword: kombi donma koruması
+category: Kombi & Kalorifer
+serviceSlug: kombi-servisi
+readMin: 11
+published: '2026-07-26'
+updated: '2026-10-03'
+excerpt: Kışın evden ayrılırken kombiyi kapatmayın — düşük ayarda açık bırakın. Donma koruması yalnızca kombi fişte ve gazı açıkken çalışır. Ayarlar, kondens hortumu ve tatil kontrol listesi bu rehberde.
+metaDescription: Kombi donma koruması nasıl çalışır, ne zaman devreye girer? Kışın evden ayrılırken doğru ayarlar, kondens hortumu önlemleri ve elektrik kesintisinde yapılacaklar.
 featuredImage:
-  src: "/blog-images/kombi-donma-korumasi-hero.jpg"
-  alt: "kombi donma koruması kışın — İstanbul saha rehberi görseli"
-  caption: "Gölge Tesisat İstanbul saha ekibi."
-intro: >
-  Kısa cevap: Kışın evden ayrılırken kombiyi kapatmayın — düşük sıcaklıkta
-  (radyatör 40 °C, oda 12–15 °C) açık bırakın. Modern kombilerin donma koruması
-  (frost protection) fonksiyonu ancak kombi elektrikle fişte ve gazı açık
-  olduğunda çalışır. Fişi çektiğinizde koruma da devre dışı kalır; petek ve
-  eşanjör suyu donarak kombiyi çatlatır — tamiri 8.000–20.000 TL. Bu rehberde
-  donma korumasının nasıl çalıştığını, uzun süreli tatilde ne yapmanız
-  gerektiğini, antifriz mi vana kapatma mı sorusuna net cevabı ve 2026 kış
-  öncesi yapılması gereken 7 kontrolü bulacaksınız.
+  src: /blog-images/kombi-donma-korumasi-hero.jpg
+  alt: Kış aylarında donma koruması aktif kombi
+  caption: Gölge Tesisat İstanbul saha ekibi.
+intro: 'Kısa cevap: Kışın evden ayrılırken kombiyi kapatmayın — düşük sıcaklıkta (radyatör 40 °C, oda termostatı 12–15 °C) açık bırakın. Modern kombilerin donma koruması (frost protection) fonksiyonu ancak kombi elektrikle fişte ve gazı açık olduğunda çalışır. Fişi çektiğinizde koruma da devre dışı kalır; petek ve eşanjör suyu donarak kombiyi çatlatabilir. Bu rehberde donma korumasının nasıl çalıştığını, hangi durumlarda yetersiz kaldığını, kondens hortumu gibi en riskli noktaları ve tatile çıkmadan önce yapılacakları adım adım anlatıyoruz.'
 sections:
-  - heading: "Donma Koruması (Frost Protection) Nedir?"
+  - heading: Öne Çıkanlar
+    id: one-cikanlar
+    bullets:
+      - Donma koruması yalnızca kombi fişte, gaz vanası açık ve su basıncı normal aralıktayken çalışır; elektrik kesintisinde devre dışı kalır.
+      - Kışın evden ayrılırken kombiyi kapatmayın; radyatör ayarını 40 °C'ye, oda termostatını 12–15 °C'ye düşürün.
+      - En sık donan nokta brülör değil, dış cepheden geçen kondens (yoğuşma suyu) hortumudur; mümkünse iç mekândan geçirin.
+      - Uzun süre boş kalacak yazlık ve dağ evlerinde donma koruması yerine tesisat suyunu boşaltmak veya antifriz kullanmak gerekir.
+      - Ekim-Kasım aylarında yaptırılan kış bakımı, donma kaynaklı arıza riskini belirgin biçimde azaltır.
+  - id: donma-korumasi-nedir
+    heading: Donma Koruması Nedir, Nasıl Çalışır?
     paragraphs:
-      - "Yoğuşmalı ve modern konvansiyonel kombilerde standart olarak bulunan bir güvenlik fonksiyonudur. Kombi, iki sensörle sürekli sıcaklık ölçer:"
-      - "Bu döngü tüm kış boyunca otomatik çalışır ve **saatte sadece 3–5 dk** brülör açar. Tüketimi bir gecede 0.2 m³ gazdan azdır — yani kış ayı boyunca donma koruması **~15 m³ ≈ 200 TL**."
+      - Donma koruması, kombinin içindeki su sıcaklığı belirli bir eşiğin altına düştüğünde otomatik devreye giren bir güvenlik fonksiyonudur. Sistem önce sirkülasyon pompasını çalıştırarak suyu hareket ettirir; sıcaklık düşmeye devam ederse brülör kısa süreliğine yanar ve suyu güvenli seviyeye ısıtır.
+      - 'Bu döngü tüm kış boyunca otomatik tekrarlanır ve kullanıcı müdahalesi gerektirmez. Ancak fonksiyonun çalışması için üç koşulun aynı anda sağlanması gerekir: kombinin fişi takılı olmalı, gaz vanası açık olmalı ve tesisat su basıncı normal aralıkta (yaklaşık 1-1,5 bar) olmalıdır.'
     image:
-      src: "/blog-images/kombi-donma-korumasi-infographic.jpg"
-      alt: "Donma koruması modu"
-      caption: "Frost Protection modu nasıl çalışır?"
-  - heading: "Kışın Kombiyi Kapatmak vs Açık Bırakmak"
+      src: /blog-images/kombi-donma-korumasi-infographic.jpg
+      alt: Kombi donma koruması çalışma döngüsü şeması
+      caption: 'Donma korumasının çalışma döngüsü: sıcaklık düşer, pompa devreye girer, gerekirse brülör yanar.'
+  - id: ne-zaman-yetersiz-kalir
+    heading: Donma Koruması Ne Zaman Yetersiz Kalır?
     paragraphs:
-      - "**Karar:** Kısa (1–3 gün) tatilde radyatörü 40 °C, oda termostatını 15 °C'ye ayarlayıp **fişte bırakın**. 1 haftadan uzun süre için aşağıdaki uzun süreli protokolü uygulayın."
+      - 'Donma koruması güçlü bir güvencedir ama sihirli değildir. Aşağıdaki durumlarda koruma çalışmaz veya yetersiz kalır:'
+      - '**Kritik nokta: Donma koruması kombinin kendi iç devresini korur. Dış cepheden geçen tesisat boruları ve kondens hortumu bu korumanın kapsamı dışındadır; ayrıca önlem gerekir.**'
+    bullets:
+      - 'Elektrik kesintisi: Pompa ve brülör elektriksiz çalışmaz; uzun kesintilerde donma riski başlar.'
+      - 'Fişin çekilmesi veya sigortanın atması: Koruma tamamen devre dışı kalır.'
+      - 'Gaz kesintisi veya kapalı gaz vanası: Brülör yanamaz, yalnızca pompa çalışır; bu da yeterli olmayabilir.'
+      - 'Düşük su basıncı: Basınç emniyet alt sınırının altındaysa kombi kendini kilitler.'
+      - 'Haftalarca boş kalan yazlık ve dağ evleri: Sürekli açık bırakmak pratik değildir; bu senaryoda tesisat suyu boşaltılmalı veya antifriz kullanılmalıdır.'
+  - id: kisin-evden-ayrilirken
+    heading: Kışın Evden Ayrılırken Doğru Ayarlar
+    paragraphs:
+      - Birkaç gün ile birkaç hafta arası evden ayrılıyorsanız en güvenli yöntem kombiyi kapatmak değil, düşük ayarda çalışır bırakmaktır. Radyatör (kalorifer) suyu sıcaklığını 40 °C'ye, oda termostatını 12–15 °C'ye ayarlayın. Bu ayar hem donmayı önler hem de gereksiz tüketimi sınırlar.
+      - Kombinizde tatil (holiday) modu varsa onu kullanın; bu mod cihazı tam kış aylarındaki normal ayardan daha düşük bir seviyede ama donma koruması aktif biçimde çalıştırır.
+      - '**Ayrılık süresine göre önerilen kombi ayarları.**'
+    bullets:
+      - '**1-3 günlük ayrılık:** Normal ayar, donma koruması aktif — Kısa sürede risk düşük'
+      - '**3-10 günlük tatil:** Radyatör 40 °C, oda 12-15 °C — Dengeli koruma ve tüketim'
+      - '**Haftalarca boş yazlık:** Tesisat suyunu boşalt veya antifriz — Sürekli açık bırakmak pratik değil'
+      - '**Dış cephe borusu olan daire:** Düşük ayar + boru yalıtımı — Dış boru donma koruması dışında'
+  - id: kondens-hortumu
+    heading: 'En Riskli Nokta: Kondens (Yoğuşma Suyu) Hortumu'
+    paragraphs:
+      - Yoğuşmalı kombilerin ürettiği yoğuşma suyu, ince bir hortumla gider hattına taşınır. Bu hortum dış cepheden veya soğuk hacimden geçiyorsa kışın en sık donan nokta burasıdır. Hortum donduğunda yoğuşma suyu geri birikir ve kombi arıza moduna geçerek çalışmayı durdurur — tam da en çok ihtiyaç duyulan anda.
+      - 'Çözüm öncelik sırasına göre: hortumu mümkünse tamamen iç mekândan geçirmek, dışarıda kalan kısmı yalıtım malzemesiyle sarmak, eğimi sürekli aşağı doğru vermek (ters kıvrım olmamalı) ve gerekirse termostatlı elektrikli ısıtma bandı uygulamaktır.'
     image:
-      src: "/blog-images/kombi-donma-korumasi-comparison.jpg"
-      alt: "Donma koruması karşılaştırma"
-      caption: "Donma koruması AÇIK vs KAPALI sonuçları."
-  - heading: "Uzun Süreli Tatil (1 Haftadan Fazla)"
+      src: /blog-images/kombi-donma-korumasi-symptoms.jpg
+      alt: Donma belirtileri ve riskli noktalar
+      caption: 'Donma riskinin en yüksek olduğu noktalar: kondens hortumu, dış cephe boruları, soğuk hacimler.'
+  - id: elektrik-kesintisi
+    heading: Elektrik Kesintisinde Ne Yapmalı?
     paragraphs:
-      - "İki güvenli seçenek var:"
-      - "**Tahmini gaz tüketimi:** 10 günlük tatil için ~40 m³ ≈ 500–600 TL. Ama kombiniz sağlam kalır."
-      - "Sadece uzun süreli boş kalacak yazlık / ikinci ev için:"
-  - heading: "Antifriz mi, Donma Koruması mı?"
+      - Elektrik kesildiğinde donma koruması çalışmaz. Kısa kesintilerde (birkaç saat) evin ısı kütlesi yeterli koruma sağlar; risk uzun kesintilerde ve sert donlarda başlar.
+      - Kesinti sırasında kombiye müdahale etmeyin. Elektrik geri geldiğinde kombi çoğu modelde kendini otomatik yeniden başlatır; başlamazsa reset düğmesine bir kez basın. Tekrarlayan kilitlenmelerde servis çağırın. Kışın sık kesinti yaşanan bölgelerde kombi ve pompayı besleyebilecek küçük bir kesintisiz güç kaynağı (UPS) düşünülebilir.
+  - id: tatile-cikmadan-kontrol-listesi
+    heading: Tatile Çıkmadan Önce Kontrol Listesi
     paragraphs:
-      - "**Ana konutta antifriz gereksiz.** Sadece kışın uzun süre boş kalan yazlık ve dağ evlerinde mantıklıdır."
-  - heading: "En Riskli Nokta: Kondens Hortumu"
+      - 'Evden ayrılmadan önce şu adımları sırayla uygulayın:'
+    bullets:
+      - 1. **Su basıncını kontrol edin:** Gösterge yaklaşık 1-1,5 bar aralığında olmalı. Düşükse doldurma musluğuyla seviyeyi tamamlayın; yüksekse petekten hava alarak düşürün.
+      - 2. **Peteklerin havasını alın:** Her odada purjör vanasını açıp hava çıkışını dinleyin. Havalı petek hem verimsizdir hem de donma sırasında risklidir.
+      - 3. **Kondens hortumunu gözden geçirin:** Hortumun iç mekândan geçtiğini, eğimin sürekli aşağı olduğunu ve dışarıda kalan kısmın yalıtımlı olduğunu doğrulayın.
+      - 4. **Gaz vanasının açık olduğunu doğrulayın:** Donma koruması gaz olmadan brülörü yakamaz. Kaçak şüphesi varsa asla kendiniz müdahale etmeyin; ortamı havalandırıp servisi arayın.
+      - 5. **Baca terminalini kontrol edin:** Kuş yuvası, yaprak veya kar birikimi varsa temizletin; tıkalı baca cihazı emniyetten kilitler.
+      - 6. **Oda termostatı pilini değiştirin:** Kablosuz termostatın pili zayıfsa sinyal kesilir ve kombi komut alamaz.
+      - 7. **Kış bakımını yaptırın:** Ekim-Kasım aylarında yaptırılan yıllık bakım; brülör, eşanjör ve emniyet elemanlarının kışa hazır olmasını sağlar.
+  - id: yazlik-ve-bos-daireler
+    heading: Yazlık ve Uzun Süre Boş Kalacak Daireler
     paragraphs:
-      - "Yoğuşmalı kombilerde en sık donan parça brülör değil, **kondens (yoğuşma suyu) tahliye hortumudur**. Hortum dış cepheden geçirildiyse, hortumun içindeki su –5 °C'nin altında donar, kombi **F.29 / F.62 / kondens hatası** verip kapanır."
-      - "Çözüm:"
-  - heading: "Kış Öncesi 7 Kontrol (Ekim–Kasım)"
-    paragraphs:
-      - "``` 1. Su basıncı: 1.2–1.8 bar arası mı? ➝ değilse doldur 2. Radyatör purjı: her odada purjı aç, hava çıkışını dinle 3. Kondens hortumu: iç mekândan mı geçiyor, eğim doğru mu? 4. Gaz vanası ve gaz sızıntısı: köpük testi yap 5. Baca terminali: kuş yuvası, örümcek ağı temiz mi? 6. Sensör / termostat pili: değişti mi? 7. Yıllık bakım: brülör + eşanjör temizliği yaptır (900–1.200 TL) ```"
-      - "Bu 7 kontrolü Ekim ayında yapan bir dairenin kışın kombi arıza ihtimali **%85 azalır** (sahadan gözlem)."
-  - heading: "Elektrik Kesintisinde Ne Olur?"
-    paragraphs:
-      - "Kesinti kısa (birkaç saat) ise problem yok — su birdenbire donmaz. Ama kesinti **12 saatten uzun** sürerse ve dış sıcaklık –5 °C altındaysa:"
-      - "Uzun kesintide yapılacak: gaz vanasını kapatın, tesisatı tamamen boşaltın (kombi altı boşaltma vanası). Isınma dönünce yeniden doldurup havasını alın."
-  - heading: "Sık Yapılan 6 Hata"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Farklı Bina Tiplerinde Donma Riski"
-    paragraphs:
-      - "**Müstakil ev (bahçe içi kombi):** En yüksek risk. Dış duvara asılı kombi -8 °C altında iç eşanjör suyu 4 saatte donar. Sıcak su borusu balkonda geçiyorsa 2 saatte patlar. Zorunlu önlem: kombi kutusu + rüzgar kesici + boru izolasyonu (13 mm elastomer)."
-      - "**Apartman dairesi (iç mekan kombi):** Balkon veya mutfak duvarında yer alan kombiler iç sıcaklığın 8 °C altına düşmediği apartmanlarda güvenli. Ancak uzun tatilde ısıtma tam kapalı → apartman 5 °C'ye kadar iner, balkon kombi donar."
-      - "**Yazlık ve dağ evi:** Kışın kullanılmayan evler için en akılcı çözüm sistemi **tam boşaltmak** veya %35 antifriz doldurmaktır."
+      - 'Haftalarca boş kalacak yazlık, dağ evi veya uzun süre kapalı tutulacak dairelerde kombiyi açık bırakmak hem pratik değildir hem de elektrik kesintisi riskine açıktır. Bu senaryoda iki güvenli seçenek vardır: tesisatın suyunu tamamen boşaltmak veya tesisata kombi onaylı antifriz karışımı uygulamak.'
+      - Su boşaltma; kombi, petekler ve borulardaki suyun tahliye edilmesini gerektirir ve eksik yapılırsa kalan su cepleri yine donabilir. Antifriz uygulaması ise doğru ürün ve oranla yapılmalıdır; araba antifrizi kombide kesinlikle kullanılmaz. Her iki işlem için de profesyonel destek almanızı öneririz.
     image:
-      src: "/blog-images/kombi-donma-korumasi-symptoms.jpg"
-      alt: "Kombi donma risk faktörleri"
-      caption: "Kombiyi donma riskine sokan 4 durum."
-  - heading: "Isı Kaybı Fiziği (Boru Neden Donuyor?)"
+      src: /blog-images/kombi-donma-korumasi-comparison.jpg
+      alt: Su boşaltma ve antifriz yöntemlerinin karşılaştırması
+      caption: 'Uzun süre boş kalacak evlerde iki güvenli yöntem: su boşaltma veya antifriz.'
+  - id: donma-belirtileri
+    heading: Kombim Donmuş Olabilir mi? Belirtiler
     paragraphs:
-      - "Su 0 °C'de donar ancak bunun için ısının tamamen çıkması gerekir. Yalıtımsız 22 mm bakır boruda 5 metrelik bir hat -5 °C dış havada: - İlk 1 saat: 12 °C → 5 °C - 2 saat: 5 °C → 1 °C - 3 saat: donma başlar (statik su)"
-      - "**Anahtar:** su akıyorsa donmaz. Bu yüzden kombi bekleme modunda pompayı 15 dk'da bir 3 dk çalıştırır."
+      - 'Şu belirtiler donma veya donma sonrası hasara işaret edebilir:'
+      - '**Donma sonrası uyarı: Donduğundan şüphelendiğiniz kombiyi zorla çalıştırmayın ve sıcak suyla buz çözmeye çalışmayın. Çatlak bir eşanjör, suyun ısınma devresine karışmasına ve daha büyük hasara yol açabilir. Cihazı kapatıp servis çağırın.**'
+    bullets:
+      - Kombi hiç çalışmıyor veya sürekli arıza kodu veriyor (çoğu modelde donma kaynaklı tıkanma kodları).
+      - Peteklerden veya borulardan çatırtı, tıkırtı benzeri sesler geliyor.
+      - Kondens hortumundan su akmıyor ve kombi yoğuşma hatası veriyor.
+      - Çözülme sonrası kombi altından veya tesisat bağlantılarından su sızıyor — bu, çatlak veya conta hasarı demektir; kombiyi kapatıp servis çağırın.
     image:
-      src: "/blog-images/kombi-donma-korumasi-chart.jpg"
-      alt: "Sıcaklık vs koruma eşiği grafiği"
-      caption: "Dış hava sıcaklığı ve donma koruması aktivasyon eşiği."
-  - heading: "Kondens Hortumu Detay Önlemleri"
+      src: /blog-images/kombi-donma-korumasi-chart.jpg
+      alt: kombi donma korumasi — chart
+      caption: Durum değerlendirme grafiği
+  - id: sigorta-ve-sorumluluk
+    heading: Donma Hasarı ve Sigorta
     paragraphs:
-      - "Yoğuşmalı kombide kondens hortumu asit tuzu içeren su (pH 3.5) taşır ve dışarıya iner. Bu hortum donarsa kombi hata kodu verir ve kapanır."
-      - "Koruma yöntemleri: 1. **Hortum eğimi**: sürekli aşağı, hiç ters kıvrım yok. 2. **Elektrikli ısıtma bandı**: 15 W/m termostatlı bant sarımı (2026: 450-700 ₺, 5 m). 3. **Kondens tuzu nötralleştirici**: hortum çıkışında pH 7'ye çıkar, boruyu koruma altına alır. 4. **İç mekan drenajı**: mümkünse hortum iç sifona bağlanır → dış hava etkilenmez."
-  - heading: "Tatil Modu vs Frost Protection"
+      - Donma sonrası patlayan tesisat ve kombi hasarları zorunlu deprem sigortası (DASK) kapsamında değildir. Konut sigortası poliçenizin 'iç su tesisatı' teminatını içerip içermediğini poliçenizden kontrol edin; bu teminat hem kendi dairenizdeki hem de komşunuza verebileceğiniz su hasarını karşılayabilir.
+      - Kiracıysanız, donma nedeniyle oluşan hasarın sorumluluğu kira sözleşmenize ve kullanım şeklinize göre değişebilir; uzun ayrılıklarda ev sahibinizi bilgilendirmeniz önerilir.
+  - id: golge-tesisat-destek
+    heading: Gölge Tesisat İstanbul — Profesyonel Destek
     paragraphs:
-      - "Modern kombilerde 3 seviye vardır: - **Off**: elektrik kesilmiş gibi, sadece pompa donma sensörü çalışır. Su 4 °C'de otomatik döner. - **Frost mode**: pompa + brülör devreye girer, iç sıcaklık 5 °C'nin altına inince. - **Holiday mode**: kullanıcı gün sayısı girer, kombi minimum ısı ile odayı 10-12 °C tutar."
-      - "7 gün tatilde tercih **holiday mode 12 °C**. Elektrik faturası ~35 ₺ artar, ancak antifriz veya patlak boru maliyetinden çok ucuz."
-  - heading: "Elektrik Kesintisi Detay Planı"
-    paragraphs:
-      - "Elektrik kesintisi = pompa durur = donma başlar. Kritik bölgelerde: - **UPS (kesintisiz güç)**: kombi + pompa için 800 VA yeter, 30-45 dk kesinti kapsar. - **Jeneratör**: 2 kW benzinli jeneratör 100 m² için yeterli, 45.000-70.000 ₺. - **Pil destekli sirkülasyon pompası**: özel 24V DC modeller 12 saat çalışır, 8.000-15.000 ₺."
-      - "Elektrik kesintisi 4 saati aşacak görünüyorsa **kombi ve tesisatı boşalt**: kombi altındaki drenaj vanası açılır, kullanım suyu boşalır."
-  - heading: "Kış Öncesi Detaylı Kontrol"
-    paragraphs:
-      - "Ekim ayı ilk hafta yapılacak işler: 1. Boru izolasyonu: elastomer 13 mm bant kontrol; eksikse tamamla. 2. Kondens hortumu: 12 mm iç çap, tıkanma testi (200 mL su ile). 3. Genleşme tankı basıncı: manometre + araba lastik pompası, 1 bar hedef. 4. Antifriz gerekli mi test: -8 °C öngörülüyorsa gerek [antifriz](/preview/kombi-antifriz-kullanimi) doldurulmalı. 5. Baca gazı analizör: yoğuşma verimi ölçümü (yıllık bakımda dahil). 6. Termostat pili: yeni pil, hiç risk alma. 7. Isı kameralı kaçak taraması: dış duvarda ısı kaçakları yıl ortası bulunur."
-  - heading: "Donma Sonrası Yapılacaklar"
-    paragraphs:
-      - "Boru donmuşsa **asla açık alevle çözme**. Bakır boru bile eritilebilir ancak PPRC / PEX borular deforme olur. Doğru sıra: 1. Kombi ve elektrik hattı kapatılır. 2. Su ana vanası kapatılır. 3. Odanın ısısı 15 °C'ye yükseltilir (varsa elektrikli ısıtıcı). 4. Boru üzerine sıcak havlu / saç kurutma makinesi (soğuktan sıcağa). 5. Boru çözüldükten sonra vana yavaşça açılır, patlak var mı kontrol. 6. Patlak varsa kesme + rakor + basınç testi."
-      - "Patlayan boru mutlaka değiştirilmelidir; \"geçici tamir bandı\" kışın sonuna kadar bile dayanmaz."
-  - heading: "Sigorta ve Sorumluluk"
-    paragraphs:
-      - "Donma sonrası patlak tesisat DASK kapsamında **değildir**. Konut sigortası (ihtiyari poliçe) \"iç su tesisatı patlaması\" teminatı içermelidir. Yıllık ek prim 300-600 ₺; olası hasar (bir üst kata su verme) 20.000-80.000 ₺."
-      - "Kiracıysanız kombi ve tesisat sorumluluğu **kiracıya** aittir eğer ev sahibi teslim tarihinde çalışır durumdaysa. Bu yüzden kışın tatilde giderken: - Ev sahibine bildirim - Termostat 12 °C bırakılması - Su ana vanası kapatılması (opsiyonel)"
-  - heading: "Alternatif Isı Kaynağı Bulundurma"
-    paragraphs:
-      - "Kombi arızası sık kışlarda ekstra risk. Çözüm önerileri: - **Elektrikli konvektör**: 2 kW, 1.500-2.500 ₺. Salon için yeterli. - **Yağlı radyatör**: 2 kW, sessiz, uzun ısı tutma. 2.000-3.500 ₺. - **Katalitik gaz sobası**: doğalgaz kesintisi için LPG tüpü. - **Odun/pellet sobası**: müstakil ev için yedek plan."
-      - "Minimum bir yedek ısı kaynağı bulundurmak +10 °C acil durum konforu sağlar."
-  - heading: "Sıkça Sorulan Sorular"
-    paragraphs:
-      - "---"
-      - "**Sonuç:** Kışın kombi kapatılmaz — düşük ayarda **açık** bırakılır. Donma koruması gaz + elektrik + basınç üçlüsü sağlandığında otomatik çalışır; kış boyu maliyeti kombi tamir bedelinin %2'sinden azdır. Uzun tatilde radyatörü 40 °C, oda termostatını 12–15 °C'ye ayarlayıp fişte bırakmak en güvenli yoldur. En sık donan yer brülör değil, **dış cephedeki kondens hortumudur** — iç mekândan geçirin. Ekim ayında yaptıracağınız 900 TL'lik kış bakımı, ortalama 8.000 TL'lik bir donma tamirinin yerine geçer."
-  - heading: "Otoriter Kaynaklar ve Referanslar"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Gölge Tesisat İstanbul — Acil Servis"
-    paragraphs:
-      - "İstanbul geneli 7/24 tesisat servisimiz Kadıköy, Beşiktaş, Ümraniye, Başakşehir dahil tüm ilçelerde 45 dakika içinde adresinize gelir. Fiyat aralıklarımız arıza türüne göre değişir; net teklif için telefonla ulaşın."
-    callout:
-      variant: "tip"
-      title: "Ustayı çağırmadan önce"
-      body: "Kombi/vana modelini ve fotoğrafı hazır edin; teşhis süresi kısalır, maliyet düşer."
+      - Kış bakımı, kondens hortumu düzenlemesi, antifriz uygulaması ve donma sonrası arıza tespiti için İstanbul Avrupa ve Anadolu yakasında aynı gün hizmet veriyoruz. Net ücret, yerinde keşif sonrası belirlenir.
     cta:
-      title: "Acil tesisatçı mı arıyorsunuz?"
-      body: "İstanbul içi 45 dakikada saha ekibimizi adresinize yönlendiriyoruz."
+      title: Kışa hazırlık için bize ulaşın
+      body: Kombi bakımı ve donma önlemleri için aynı gün servis. Keşif ücretsizdir.
       phone: true
       whatsapp: true
 faq:
-  - q: "Kışın gece kombiyi kapatmak zararlı mı?"
-    a: "Zararlı değil ama gereksiz. 17 °C'de bırakmak sabah tekrar açmaktan %15-20 daha ucuz."
-  - q: "Donma koruması ne kadar gaz harcar?"
-    a: "Kış boyunca ~10-15 m³ (~150-250 TL). Kombi tamir bedeliyle kıyaslandığında ihmal edilebilir."
-  - q: "Kombi donarsa nasıl anlarım?"
-    a: "Ekranda F.28/F.29/F.62 hataları, radyatörler soğuk, borular buz gibi. Zorlamayın, servis çağırın."
+  - q: Donma koruması kombi kapalıyken çalışır mı?
+    a: Kombi stand-by konumundaysa (fiş takılı, gaz açık) evet, çalışır. Ancak fiş çekiliyse, sigorta attıysa veya gaz vanası kapalıysa koruma devreye giremez.
+  - q: Kışın tatile giderken kombiyi kapatmalı mıyım?
+    a: Hayır. Birkaç haftaya kadar olan ayrılıklarda kombiyi düşük ayarda (radyatör 40 °C, oda 12-15 °C) açık bırakmak en güvenli yöntemdir. Haftalarca boş kalacak yazlıklarda ise tesisat suyunu boşaltmak veya antifriz uygulamak gerekir.
+  - q: Donma koruması çok gaz tüketir mi?
+    a: Hayır. Koruma döngüsü yalnızca su sıcaklığı eşiğin altına düştüğünde kısa süreli çalışır; tüketim, donma kaynaklı bir arızanın yol açacağı sonuçlarla kıyaslanamayacak kadar düşüktür.
+  - q: Kondens hortumu donarsa ne olur?
+    a: Yoğuşma suyu gider hattına ulaşamaz ve kombi içinde birikir; cihaz arıza moduna geçerek çalışmayı durdurur. Hortumun iç mekândan geçirilmesi veya yalıtılması kalıcı çözümdür.
+  - q: Elektrik kesintisinde kombi donar mı?
+    a: Kısa kesintilerde evin ısı kütlesi yeterli koruma sağlar. Uzun kesintilerde ve sert donlarda risk vardır; sık kesinti yaşanan bölgelerde kesintisiz güç kaynağı düşünülebilir.
+  - q: Donan kombiye sıcak su dökerek müdahale edebilir miyim?
+    a: Kesinlikle hayır. Ani sıcaklık değişimi çatlakları büyütebilir ve eşanjöre zarar verebilir. Cihazı kapalı tutun, doğal çözülmeyi bekleyin ve servis çağırın.
+manualRelated:
+  - kombi-antifriz-kullanimi
+  - kombi-bakimi-nasil-yapilir
+  - kombi-bari-kac-olmali
+  - kombi-neden-calismiyor
+inlineLinks:
+  - anchor: kombi antifrizi
+    slug: kombi-antifriz-kullanimi
+  - anchor: kombi bakımı
+    slug: kombi-bakimi-nasil-yapilir
+  - anchor: su basıncı
+    slug: kombi-bari-kac-olmali
+  - anchor: peteklerin havasını alma
+    slug: petek-havasi-nasil-alinir
 ---
-
-# Kombi Donma Koruması: Kışın Kombiyi Kapatmak mı, Açık Bırakmak mı? (2026)
-
-**Kısa cevap:** Kışın evden ayrılırken kombiyi **kapatmayın** — düşük sıcaklıkta (radyatör 40 °C, oda 12–15 °C) açık bırakın. Modern kombilerin **donma koruması (frost protection)** fonksiyonu ancak kombi elektrikle **fişte** ve gazı **açık** olduğunda çalışır. Fişi çektiğinizde koruma da devre dışı kalır; petek ve eşanjör suyu donarak **kombiyi çatlatır** — tamiri 8.000–20.000 TL.
-
-Bu rehberde donma korumasının nasıl çalıştığını, uzun süreli tatilde ne yapmanız gerektiğini, antifriz mi vana kapatma mı sorusuna net cevabı ve 2026 kış öncesi yapılması gereken 7 kontrolü bulacaksınız.
-
-## Donma Koruması (Frost Protection) Nedir?
-
-Yoğuşmalı ve modern konvansiyonel kombilerde standart olarak bulunan bir güvenlik fonksiyonudur. Kombi, iki sensörle sürekli sıcaklık ölçer:
-
-- **Gidiş suyu sensörü** 5 °C altına inince → **pompa** devreye girer, suyu tesisatta dolaştırır.
-- Suyun sıcaklığı 3 °C'nin altına inerse → **brülör** kısa süre yanar, suyu 10–15 °C'ye çıkarır.
-
-Bu döngü tüm kış boyunca otomatik çalışır ve **saatte sadece 3–5 dk** brülör açar. Tüketimi bir gecede 0.2 m³ gazdan azdır — yani kış ayı boyunca donma koruması **~15 m³ ≈ 200 TL**.
-
-> **Kritik:** Donma koruması yalnızca (1) kombi fişte, (2) gaz vanası açık, (3) tesisatta yeterli su basıncı (1–2 bar) olduğunda çalışır. Bu üç şarttan biri eksikse kombi donar.
-
-## Kışın Kombiyi Kapatmak vs Açık Bırakmak
-
-| Senaryo                             | Sonuç                              | Risk                                 |
-| ----------------------------------- | ---------------------------------- | ------------------------------------ |
-| Fişten çekmek                       | Donma koruması kapanır             | **Yüksek** — eşanjör çatlar          |
-| Gaz vanasını kapatmak               | Brülör yanamaz, sadece pompa döner | Yüksek — 3 °C altına inerse su donar |
-| Sadece "OFF" / bekleme moduna almak | Donma koruması aktif kalır         | **Yok**                              |
-| Radyatör 40 °C, oda 12 °C ayarlamak | Ev soğuk kalmaz, gaz da tasarruflu | Yok — **önerilen**                   |
-| Kombiyi normal çalıştırmak          | Konforlu ama gaz yüksek            | Yok                                  |
-
-**Karar:** Kısa (1–3 gün) tatilde radyatörü 40 °C, oda termostatını 15 °C'ye ayarlayıp **fişte bırakın**. 1 haftadan uzun süre için aşağıdaki uzun süreli protokolü uygulayın.
-
-## Uzun Süreli Tatil (1 Haftadan Fazla)
-
-İki güvenli seçenek var:
-
-### Seçenek A — Kombi Açık, Düşük Ayar (Önerilen)
-
-1. Gaz vanasını **açık** bırakın.
-2. Elektrik fişini **takılı** bırakın.
-3. Kombiyi "**Yaz konumu**" değil, kış konumuna alın (yaz modunda sadece kullanım suyu ısınır, kalorifer donma koruması **çalışmaz** bazı modellerde).
-4. Radyatör suyunu 40 °C, oda termostatını 12–15 °C'ye ayarlayın.
-5. Su basıncını 1.5 bar'a getirin.
-6. Komşu / apartman görevlisine anahtar bırakın (elektrik kesintisi için).
-
-**Tahmini gaz tüketimi:** 10 günlük tatil için ~40 m³ ≈ 500–600 TL. Ama kombiniz sağlam kalır.
-
-### Seçenek B — Sistemi Boşaltmak
-
-Sadece uzun süreli boş kalacak yazlık / ikinci ev için:
-
-1. Gaz ve elektriği kapatın.
-2. Kombinin altındaki **doldurma / boşaltma vanasından** tesisattaki tüm suyu tahliye edin.
-3. Radyatörlerin purj musluğunu açık bırakın (hava alsın).
-4. Bahar dönüşünde suyu **antifriz karışımlı** doldurun (bkz. [kombi antifriz kullanımı](/preview/kombi-antifriz-kullanimi)).
-
-> **Uyarı:** Sistem tam boşalırsa boruların içinde **oksijen** kalır, radyatör dip kısımları paslanır. Boşaltma sadece **antifrizle doldurma** planınız varsa mantıklıdır.
-
-## Antifriz mi, Donma Koruması mı?
-
-| Kriter                | Donma Koruması | Antifriz            |
-| --------------------- | -------------- | ------------------- |
-| Ek maliyet            | Yok            | ~1.500 TL (25 L PG) |
-| Elektrik ihtiyacı     | Var            | Yok                 |
-| Gaz ihtiyacı          | Var            | Yok                 |
-| Elektrik kesintisinde | Devre dışı     | Korur               |
-| Uygun senaryo         | Ana konut      | Yazlık, dağ evi     |
-| Isı transferi         | Standart       | %5–10 daha düşük    |
-
-**Ana konutta antifriz gereksiz.** Sadece kışın uzun süre boş kalan yazlık ve dağ evlerinde mantıklıdır.
-
-## En Riskli Nokta: Kondens Hortumu
-
-Yoğuşmalı kombilerde en sık donan parça brülör değil, **kondens (yoğuşma suyu) tahliye hortumudur**. Hortum dış cepheden geçirildiyse, hortumun içindeki su –5 °C'nin altında donar, kombi **F.29 / F.62 / kondens hatası** verip kapanır.
-
-Çözüm:
-
-- Kondens hortumunu **iç mekândan** giderle birleştirin (mutfak / banyo sifonu).
-- Zorunlu olarak dış cepheden geçiyorsa, en az **22 mm çap** kullanın ve **PVC izolasyon** sarın.
-- Eğim aşağıya doğru sürekli olmalı; hortumda "U" oluşmamalı (su birikip donar).
-
-## Kış Öncesi 7 Kontrol (Ekim–Kasım)
-
-```
-1. Su basıncı: 1.2–1.8 bar arası mı?  ➝ değilse doldur
-2. Radyatör purjı: her odada purjı aç, hava çıkışını dinle
-3. Kondens hortumu: iç mekândan mı geçiyor, eğim doğru mu?
-4. Gaz vanası ve gaz sızıntısı: köpük testi yap
-5. Baca terminali: kuş yuvası, örümcek ağı temiz mi?
-6. Sensör / termostat pili: değişti mi?
-7. Yıllık bakım: brülör + eşanjör temizliği yaptır (900–1.200 TL)
-```
-
-Bu 7 kontrolü Ekim ayında yapan bir dairenin kışın kombi arıza ihtimali **%85 azalır** (sahadan gözlem).
-
-## Elektrik Kesintisinde Ne Olur?
-
-Kesinti kısa (birkaç saat) ise problem yok — su birdenbire donmaz. Ama kesinti **12 saatten uzun** sürerse ve dış sıcaklık –5 °C altındaysa:
-
-- Radyatör suyu peteklerde donmaya başlar.
-- Buz genleşir, **petek dirseklerini** çatlatır.
-- Eşanjör içi su donarsa **eşanjör patlar** (tamiri 6.000–15.000 TL).
-
-Uzun kesintide yapılacak: gaz vanasını kapatın, tesisatı tamamen boşaltın (kombi altı boşaltma vanası). Isınma dönünce yeniden doldurup havasını alın.
-
-## Sık Yapılan 6 Hata
-
-1. **Tatile çıkarken fişi çekmek.** Donma koruması ölür. Sadece "OFF" tuşuna basın.
-2. **Gaz vanasını kapatmak.** Pompa döner ama ısıtma yok — 3 °C altına inince su donar.
-3. **Yaz konumunda bırakmak.** Bazı kombilerde yaz modunda kalorifer donma koruması devre dışı.
-4. **Kondens hortumunu balkona çekmek.** –3 °C'de donar, F.29 hatası.
-5. **Su basıncı 0.5 bar iken bırakmak.** Pompa hava kilitlenir, koruma etkisiz kalır.
-6. **"Antifriz koyduk, sorun yok" düşünmek.** Yanlış oran (>%50) eşanjörü aşındırır.
-
-## Farklı Bina Tiplerinde Donma Riski
-
-**Müstakil ev (bahçe içi kombi):**
-En yüksek risk. Dış duvara asılı kombi -8 °C altında iç eşanjör suyu 4 saatte donar. Sıcak su borusu balkonda geçiyorsa 2 saatte patlar. Zorunlu önlem: kombi kutusu + rüzgar kesici + boru izolasyonu (13 mm elastomer).
-
-**Apartman dairesi (iç mekan kombi):**
-Balkon veya mutfak duvarında yer alan kombiler iç sıcaklığın 8 °C altına düşmediği apartmanlarda güvenli. Ancak uzun tatilde ısıtma tam kapalı → apartman 5 °C'ye kadar iner, balkon kombi donar.
-
-**Yazlık ve dağ evi:**
-Kışın kullanılmayan evler için en akılcı çözüm sistemi **tam boşaltmak** veya %35 antifriz doldurmaktır.
-
-## Isı Kaybı Fiziği (Boru Neden Donuyor?)
-
-Su 0 °C'de donar ancak bunun için ısının tamamen çıkması gerekir. Yalıtımsız 22 mm bakır boruda 5 metrelik bir hat -5 °C dış havada:
-
-- İlk 1 saat: 12 °C → 5 °C
-- 2 saat: 5 °C → 1 °C
-- 3 saat: donma başlar (statik su)
-
-**Anahtar:** su akıyorsa donmaz. Bu yüzden kombi bekleme modunda pompayı 15 dk'da bir 3 dk çalıştırır.
-
-## Kondens Hortumu Detay Önlemleri
-
-Yoğuşmalı kombide kondens hortumu asit tuzu içeren su (pH 3.5) taşır ve dışarıya iner. Bu hortum donarsa kombi hata kodu verir ve kapanır.
-
-Koruma yöntemleri:
-
-1. **Hortum eğimi**: sürekli aşağı, hiç ters kıvrım yok.
-2. **Elektrikli ısıtma bandı**: 15 W/m termostatlı bant sarımı (2026: 450-700 ₺, 5 m).
-3. **Kondens tuzu nötralleştirici**: hortum çıkışında pH 7'ye çıkar, boruyu koruma altına alır.
-4. **İç mekan drenajı**: mümkünse hortum iç sifona bağlanır → dış hava etkilenmez.
-
-## Tatil Modu vs Frost Protection
-
-Modern kombilerde 3 seviye vardır:
-
-- **Off**: elektrik kesilmiş gibi, sadece pompa donma sensörü çalışır. Su 4 °C'de otomatik döner.
-- **Frost mode**: pompa + brülör devreye girer, iç sıcaklık 5 °C'nin altına inince.
-- **Holiday mode**: kullanıcı gün sayısı girer, kombi minimum ısı ile odayı 10-12 °C tutar.
-
-7 gün tatilde tercih **holiday mode 12 °C**. Elektrik faturası ~35 ₺ artar, ancak antifriz veya patlak boru maliyetinden çok ucuz.
-
-## Elektrik Kesintisi Detay Planı
-
-Elektrik kesintisi = pompa durur = donma başlar. Kritik bölgelerde:
-
-- **UPS (kesintisiz güç)**: kombi + pompa için 800 VA yeter, 30-45 dk kesinti kapsar.
-- **Jeneratör**: 2 kW benzinli jeneratör 100 m² için yeterli, 45.000-70.000 ₺.
-- **Pil destekli sirkülasyon pompası**: özel 24V DC modeller 12 saat çalışır, 8.000-15.000 ₺.
-
-Elektrik kesintisi 4 saati aşacak görünüyorsa **kombi ve tesisatı boşalt**: kombi altındaki drenaj vanası açılır, kullanım suyu boşalır.
-
-## Kış Öncesi Detaylı Kontrol
-
-Ekim ayı ilk hafta yapılacak işler:
-
-1. Boru izolasyonu: elastomer 13 mm bant kontrol; eksikse tamamla.
-2. Kondens hortumu: 12 mm iç çap, tıkanma testi (200 mL su ile).
-3. Genleşme tankı basıncı: manometre + araba lastik pompası, 1 bar hedef.
-4. Antifriz gerekli mi test: -8 °C öngörülüyorsa gerek [antifriz](/preview/kombi-antifriz-kullanimi) doldurulmalı.
-5. Baca gazı analizör: yoğuşma verimi ölçümü (yıllık bakımda dahil).
-6. Termostat pili: yeni pil, hiç risk alma.
-7. Isı kameralı kaçak taraması: dış duvarda ısı kaçakları yıl ortası bulunur.
-
-## Donma Sonrası Yapılacaklar
-
-Boru donmuşsa **asla açık alevle çözme**. Bakır boru bile eritilebilir ancak PPRC / PEX borular deforme olur. Doğru sıra:
-
-1. Kombi ve elektrik hattı kapatılır.
-2. Su ana vanası kapatılır.
-3. Odanın ısısı 15 °C'ye yükseltilir (varsa elektrikli ısıtıcı).
-4. Boru üzerine sıcak havlu / saç kurutma makinesi (soğuktan sıcağa).
-5. Boru çözüldükten sonra vana yavaşça açılır, patlak var mı kontrol.
-6. Patlak varsa kesme + rakor + basınç testi.
-
-Patlayan boru mutlaka değiştirilmelidir; "geçici tamir bandı" kışın sonuna kadar bile dayanmaz.
-
-## Sigorta ve Sorumluluk
-
-Donma sonrası patlak tesisat DASK kapsamında **değildir**. Konut sigortası (ihtiyari poliçe) "iç su tesisatı patlaması" teminatı içermelidir. Yıllık ek prim 300-600 ₺; olası hasar (bir üst kata su verme) 20.000-80.000 ₺.
-
-Kiracıysanız kombi ve tesisat sorumluluğu **kiracıya** aittir eğer ev sahibi teslim tarihinde çalışır durumdaysa. Bu yüzden kışın tatilde giderken:
-
-- Ev sahibine bildirim
-- Termostat 12 °C bırakılması
-- Su ana vanası kapatılması (opsiyonel)
-
-## Alternatif Isı Kaynağı Bulundurma
-
-Kombi arızası sık kışlarda ekstra risk. Çözüm önerileri:
-
-- **Elektrikli konvektör**: 2 kW, 1.500-2.500 ₺. Salon için yeterli.
-- **Yağlı radyatör**: 2 kW, sessiz, uzun ısı tutma. 2.000-3.500 ₺.
-- **Katalitik gaz sobası**: doğalgaz kesintisi için LPG tüpü.
-- **Odun/pellet sobası**: müstakil ev için yedek plan.
-
-Minimum bir yedek ısı kaynağı bulundurmak +10 °C acil durum konforu sağlar.
-
-## Sıkça Sorulan Sorular
-
-### Kombiyi kışın gece kapatmak zararlı mı?
-
-Zararlı değil ama gereksiz. Kombiyi kapatıp sabah tekrar açmak, geceyi 17 °C'de geçirmekten **%15–20 daha pahalıdır** — ev tamamen soğuduğunda ısıtmak daha çok gaz yakar.
-
-### Donma koruması ne kadar gaz harcar?
-
-Kış boyunca ortalama **10–15 m³** (~150–250 TL). Kombi tamiri fiyatıyla kıyaslandığında ihmal edilebilir.
-
-### Uzun tatilde antifriz koyabilir miyim?
-
-Evet, sadece **propilen glikol (PG)** bazlı, %25–35 oranında. Etilen glikol içme suyu tesisatlarında yasaktır. Detay: [kombi antifriz kullanımı](/preview/kombi-antifriz-kullanimi).
-
-### "Yaz konumu" kışın kombiyi dondurur mu?
-
-Bazı modellerde evet. Yaz modunda kalorifer devresi kapalıdır ve pompa dönmez. Fişte olsa bile donma koruması radyatör devresini etkilemez. Kışın mutlaka **kış konumunda** bırakın.
-
-### Elektrik kesintisinde ne yapmalıyım?
-
-Kesinti 6 saatten kısaysa bekleyin. Uzarsa ve dış hava –5 °C altındaysa gaz vanasını kapatıp sistemi boşaltın; dönüşte doldurup purj yapın.
-
-### Kombi donarsa nasıl anlarım?
-
-Kombi çalışmaz, ekranda **F.28 / F.29 / F.62** hataları yanar. Radyatörler soğuktur, borulara dokununca buz gibidir. Zorlamayın — servis çağırın.
-
----
-
-**Sonuç:** Kışın kombi kapatılmaz — düşük ayarda **açık** bırakılır. Donma koruması gaz + elektrik + basınç üçlüsü sağlandığında otomatik çalışır; kış boyu maliyeti kombi tamir bedelinin %2'sinden azdır. Uzun tatilde radyatörü 40 °C, oda termostatını 12–15 °C'ye ayarlayıp fişte bırakmak en güvenli yoldur. En sık donan yer brülör değil, **dış cephedeki kondens hortumudur** — iç mekândan geçirin. Ekim ayında yaptıracağınız 900 TL'lik kış bakımı, ortalama 8.000 TL'lik bir donma tamirinin yerine geçer.
-
-## Otoriter Kaynaklar ve Referanslar
-
-- [İGDAŞ — İstanbul Doğalgaz](https://www.igdas.istanbul/)
-- [AFAD — Afet ve Acil Durum Yönetimi](https://www.afad.gov.tr/)
-- [Meteoroloji Genel Müdürlüğü](https://www.mgm.gov.tr/)
-- [Wikipedia — Kombi](https://tr.wikipedia.org/wiki/Kombi)
-- [TSE — Türk Standartları Enstitüsü](https://www.tse.org.tr/)

@@ -1,250 +1,152 @@
 ---
-slug: "lavabo-banyo-gideri-tikandi"
-title: "Lavabo & Banyo Gideri Tıkandı: Saç, Sabun ve Yağ Temizleme (2026)"
-seoTitle: "Lavabo/Banyo Gideri Tıkandı: DIY Rehber"
-keyword: "lavabo banyo gideri tıkandı"
-volume: 200
-kdi: 30
-category: "Tıkanıklık & Gider"
-readMin: 4
-published: "2026-07-26"
-updated: "2026-07-26"
-excerpt: >
-  Lavabo tıkandı veya duş gideri su tutuyor ise sorun %85 vakada sifon (P-trap)
-  veya süzgeç altında biriken saç + sabun + yağ karışımıdır.
-metaDescription: "Lavabo, duş, mutfak eviye, yer süzgeci tıkanıklığı için doğru DIY sırası ve kimyasal kullanım riskleri. İstanbul geneli 7/24 servis: 0533 896 05 03. Gölge Te..."
-serviceSlug: "tikaniklik-acma"
+slug: lavabo-banyo-gideri-tikandi
+title: 'Lavabo & Banyo Gideri Tıkandı: Saç, Sabun ve Yağ Temizleme Rehberi (2026)'
+seoTitle: 'Lavabo/Banyo Gideri Tıkandı: Evde Açma Rehberi'
+keyword: lavabo banyo gideri tıkandı
+secondaryKeywords:
+  - duş gideri tıkandı
+  - lavabo sifonu nasıl temizlenir
+  - gider tıkanıklığı evde nasıl açılır
+  - yer süzgeci tıkanıklığı
+  - kimyasal gider açıcı zararlı mı
+category: Tıkanıklık & Gider
+serviceSlug: tikaniklik-acma
+readMin: 8
+published: '2026-10-02'
+updated: '2026-10-02'
+author:
+  name: Gölge Tesisat Teknik Ekibi
+  bio: İstanbul genelinde su tesisatı ve tıkanıklık açma alanında sahada çalışan teknisyenlerden oluşan ekip.
+  credentials: 7/24 acil tesisat servisi, İstanbul Avrupa ve Anadolu Yakası
+excerpt: Lavabo tıkandıysa ya da duş gideri su tutuyorsa sorun çoğunlukla sifonda ve süzgeç altında biriken saç, sabun ve yağ karışımıdır. Dört gider tipi için doğru evde açma sırasını ve kimyasal açıcı risklerini anlatıyoruz.
 featuredImage:
-  src: "/blog-images/lavabo-banyo-gideri-tikandi-hero.jpg"
-  alt: "lavabo banyo gideri tıkandı — İstanbul saha rehberi görseli"
-  caption: "Gölge Tesisat İstanbul saha ekibi."
-intro: >
-  Lavabo tıkandı veya duş gideri su tutuyor ise sorun %85 vakada sifon (P-trap)
-  veya süzgeç altında biriken saç + sabun + yağ karışımıdır. Bu rehber; 4 gider
-  tipini (lavabo, duş/küvet, mutfak eviye, yer süzgeci) ayrı ayrı ele alır,
-  doğru DIY sırasını verir ve klozet açıcı kimyasalın neden lavaboya uygun
-  olmadığını açıklar. > İlk teşhis (10 saniye): Su hiç akmıyor mu, yavaş mı
-  akıyor mu, koku var mı? Yavaş + koku → saç/sabun. Hiç akmıyor + koku yok →
-  sifon dolu. Aynı katta 2+ gider tıkalı → ana hat, DIY yasak. İstanbul 7/24:
-  0533 896 05 03.
+  src: /blog-images/lavabo-banyo-gideri-tikandi-hero.jpg
+  alt: Tıkanan lavabo ve banyo giderini evde açma yöntemleri
+  caption: 'Lavabo, duş, mutfak eviyesi ve yer süzgeci: her gider tipinin kendi açma yöntemi var.'
+metaDescription: Lavabo, duş, mutfak eviyesi ve yer süzgeci tıkanıklığı için doğru evde açma sırası, sifon sökme adımları ve kimyasal açıcı kullanmanın riskleri. Adım adım rehber.
+intro: 'Lavabo tıkandıysa ya da duş gideri su tutuyorsa sorun çoğunlukla sifonda (P-trap) ve süzgeç altında biriken saç, sabun ve yağ karışımıdır. Bu rehberde dört gider tipini (lavabo, duş/küvet, mutfak eviyesi, yer süzgeci) ayrı ayrı ele alıyor, her biri için doğru evde açma sırasını veriyor ve klozet açıcı kimyasalın neden lavaboya uygun olmadığını açıklıyoruz. Önce 10 saniyelik teşhis: su hiç akmıyor mu, yavaş mı akıyor, koku var mı? Yavaş akış ve koku saç/sabun birikimine, hiç akmaması dolu sifona işaret eder. Aynı katta iki veya daha fazla gider birden tıkalıysa sorun ana hattadır; bu durumda evde müdahale etmeyin.'
+inlineLinks:
+  - slug: lavabo-tikanikligi-nasil-acilir
+    anchor: lavabo tıkanıklığı nasıl açılır
+  - slug: mutfak-gideri-tikandi-nasil-acilir
+    anchor: mutfak gideri tıkandı
+  - slug: yer-suzgeci-nedir-cesitleri-koku-onleme
+    anchor: yer süzgeci
+  - slug: klozet-tikandi-diy-yontemler
+    anchor: klozet tıkandı
+  - slug: gider-acma-teli-spiral-nasil-kullanilir
+    anchor: gider açma teli nasıl kullanılır
+manualRelated:
+  - lavabo-tikanikligi-nasil-acilir
+  - mutfak-gideri-tikandi-nasil-acilir
+  - yer-suzgeci-nedir-cesitleri-koku-onleme
+  - gider-acma-teli-spiral-nasil-kullanilir
 sections:
-  - heading: "Gider Tipi × Doğru Yöntem"
+  - heading: Öne Çıkanlar
+    id: one-cikanlar
+    bullets:
+      - 'Kısa cevap: lavabo ve duş tıkanıklığında önce süzgeci söküp plastik gider şeridi (Zip-It) ile saç yumağını çekin, ardından sıcak su + deterjan deneyin; çözülmezse sifonu söküp temizleyin.'
+      - Aynı katta iki veya daha fazla gider birden tıkalıysa sorun ana hattadır — evde yöntem denemeyin, servis çağırın.
+      - Klozet açıcı kimyasalı lavaboya dökmeyin; formülü farklıdır ve sifona zarar verir.
+      - Kaynar su plastik ve krom sifonlara zarar verir; en fazla ılık-sıcak su kullanın.
+      - Yer süzgecinin sifon fincanı koku bariyeridir; kuruduğunda banyoya kanalizasyon kokusu gelir.
+  - heading: Gider Tipine Göre Doğru Yöntem
+    id: gider-tipleri
     paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
+      - 'Her giderin tıkanma sebebi farklıdır; yanlış yöntem hem zaman kaybettirir hem de tesisata zarar verebilir. Aşağıdaki tablo dört gider tipi için en sık sebebi ve ilk denenecek yöntemi özetler:'
+      - Klozet tıkanıklığı tamamen farklı bir konudur; onun için klozet tıkandı rehberimize bakın. Bu yazı yalnızca lavabo, duş, eviye ve yer süzgeci giderlerini kapsar.
+    images:
+      - src: /blog-images/lavabo-banyo-gideri-tikandi-yontem.jpg
+        alt: Dört gider tipi ve her biri için doğru açma yöntemini gösteren şema
+        caption: 'Dört gider tipi, dört farklı tıkanma sebebi: doğru yöntem gider tipine göre seçilir.'
     image:
-      src: "/blog-images/lavabo-banyo-gideri-tikandi-infographic.jpg"
-      alt: "Lavabo gider tıkanıklığı infografik"
-      caption: "Lavabo tıkanıklığı infografik."
-  - heading: "Lavabo (Banyo) — 5 Adımda DIY Açma"
+      src: /blog-images/lavabo-banyo-gideri-tikandi-pompa.jpg
+      alt: Lavabo giderine pompa uygulaması
+      caption: Tıkanıklıkta ilk adım pompa ile açmayı denemektir.
+    bullets:
+      - '**Banyo lavabosu:** Saç + sabun + diş macunu — Plastik gider şeridi, sonra sifon sökme — Kaynar su'
+      - '**Duş / küvet:** Saç yumağı — Süzgeç kapağını söküp şerit ile çekme — Sülfürik asit bazlı açıcı'
+      - '**Mutfak eviyesi:** Donmuş yemek yağı + gıda artığı — Sıcak su + deterjan, sonra pompa — Yağı lavaboya dökmek'
+      - '**Yer süzgeci:** Saç + kir + kireç — Kapak ve sifon fincanını söküp fırçalama — Kimyasal açıcı'
+  - heading: Banyo Lavabosu — 5 Adımda Evde Açma
+    id: lavabo
     paragraphs:
-      - "Süzgeç türü: - **Pop-up** → mengene ile gevşet - **Çevirmeli** → saat yönünün tersine - **Basmalı** → yukarı çek + pense"
-      - "**Zip-It / hair snake:** 60 cm plastik şerit, 30–80 TL. Süzgeç deliğinden yavaşça indir, döndür-çek."
-      - "**Krom / plastik sifon:** max 60°C ılık su. Kaynar YASAK."
-      - "Taşma deliğini **ıslak bezle kapat** (yoksa vakum kaçar)."
+      - 'Banyo lavabosunda tıkanıklık çoğunlukla süzgecin hemen altında ve sifonda biriken saç-sabun karışımından kaynaklanır. Şu sırayla ilerleyin:'
+      - Bu adımların ayrıntılı halini lavabo tıkanıklığı nasıl açılır yazımızda da bulabilirsiniz.
+    bullets:
+      - '1. **Suyu boşaltın ve süzgeci sökün:** Süzgeç tipine göre: pop-up süzgeçleri alttaki mekanizmayı gevşeterek, çevirmeli süzgeçleri saat yönünün tersine çevirerek, basmalı süzgeçleri yukarı çekip penseyle tutarak çıkarın.'
+      - 2. **Plastik gider şeridi (Zip-It) ile saçı çekin:** Yaklaşık 60 cm'lik dişli plastik şeridi süzgeç deliğinden yavaşça indirin, birkaç kez döndürüp çekin. Saç yumağı şeride takılı çıkar; lavabo tıkanıklığında en etkili ilk yöntem budur.
+      - 3. **Sıcak su + deterjan ile yıkayın:** Bir sürahi sıcak (kaynar değil) suya bulaşık deterjanı ekleyip gidere dökün. Krom ve plastik sifonlarda kaynar su kullanmayın; contaları ve plastiği deforme eder.
+      - 4. **Kubbeli pompa uygulayın:** Lavaboyu birkaç santim suyla doldurun, taşma deliğini ıslak bezle kapatın (yoksa vakum kaçar) ve pompayı 15-20 kez güçlüce bastırıp çekin.
+      - 5. **Sifonu (P-trap) söküp temizleyin:** Lavabo altına kova ve gazete serin. Sifonun iki ucundaki büyük plastik somunları gevşetin, biriken suyu kovaya boşaltın, sifonu ve contaları fırçayla temizleyip ters sırayla takın. Somunları el sıkımı + çeyrek tur yeterlidir; aşırı sıkmayın.
+  - heading: Duş ve Küvet Gideri — Saç Yumağı
+    id: dus-kuvet
+    paragraphs:
+      - 'Duş ve küvet giderinde tıkanıklığın ana sebebi saç yumağıdır. Önce süzgeç kapağını tipine göre sökün:'
+      - Kapak çıktıktan sonra plastik gider şeridini boruya indirip döndürerek saç yumağını çekin; ardından sıcak suyla durulayın.
+      - 'Duş giderinde şunlardan kaçının: sülfürik asit ve kaustik soda bazlı açıcılar silikon fugaları ve akrilik küvet yüzeyini bozar; kaynar su akrilik malzemeyi deforme edebilir; güçlü vakumlu emiciler eski bağlantıları yerinden oynatabilir.'
+    bullets:
+      - '**Basmalı (toggle):** Yukarı çekerek'
+      - '**Pop-up (yaylı):** Yukarı çek + saat yönünün tersine çevir'
+      - '**Lift-and-turn:** Kaldırıp çeyrek tur ters çevir'
+      - '**Trip-lever (küvet kolu):** Tornavidayla kapak vidalarını sök'
+  - heading: Mutfak Eviyesi — Yağ Katılaşması
+    id: mutfak
+    paragraphs:
+      - Mutfak eviyesinde tıkanıklığın baş sebebi, soğuyunca boru iç yüzeyinde katılaşan yemek yağıdır. Yağ tabakası zamanla gıda artıklarını da tutarak sert bir tıkaç oluşturur.
+      - 'Şu sırayla deneyin: önce sıcak su + deterjan ile yıkama (yaklaşık iki litre sıcak suya yarım bardak bulaşık deterjanı), sonra karbonat + sirke karışımı (yumuşatır ama ana çözücü değildir), ardından kubbeli pompa. Bulaşık makinesi bağlıysa tahliye hortumunun bağlantısını da kontrol edin. Çözülmezse sifonu söküp temizleyin.'
+      - Konunun ayrıntıları için mutfak gideri tıkandı rehberimize bakabilirsiniz.
+      - 'Önleme: yağı asla lavaboya dökmeyin (kâğıt havluyla tavadan alıp çöpe atın), ayda bir sıcak su + deterjan yıkaması yapın ve süzgeç sepeti kullanın.'
+  - heading: Yer Süzgeci — Sifon Fincanı
+    id: yer-suzgeci
+    paragraphs:
+      - 'Banyo zeminindeki yer süzgecinin altındaki sifon fincanı koku bariyeridir; fincan kuruduğunda banyoya kanalizasyon kokusu gelir. Temizlik sırası:'
+      - Süzgeç kapağını kaldırın, sifon fincanını çıkarın, biriken saç ve kireci fırçayla temizleyin ve fincanı yerine takın. Fincanın yarısına kadar su dolu olması gerekir; az kullanılan banyolarda ara ara bir bardak su dökerek fincanın kurumasını önleyin.
+      - Yer süzgeci tipleri ve koku önleme konusundaki ayrıntılı rehberimiz yer süzgeci yazımızda.
     image:
-      src: "/blog-images/lavabo-banyo-gideri-tikandi-comparison.jpg"
-      alt: "Lavabo gider tıkanıklığı karşılaştırma"
-      caption: "Lavabo tıkanıklığı karşılaştırma."
-  - heading: "Duş & Küvet Gideri — Saç Yumağı"
+      src: /blog-images/lavabo-banyo-gideri-tikandi-chart.jpg
+      alt: lavabo banyo gideri tikandi — chart
+      caption: Durum değerlendirme grafiği
+  - heading: Kimyasal Açıcı — Kullanmalı mı?
+    id: kimyasal
     paragraphs:
-      - "**%90 sorunu saç.** Stopper türleri:"
-      - "**Ne YAPMAMALI:** - Sülfürik asit + kaustik soda (silikon fugalar, akrilik küvet) - Kaynar su (akrilik 80°C+ deforme) - Vakumlu emici (patlatabilir)"
-    image:
-      src: "/blog-images/lavabo-banyo-gideri-tikandi-symptoms.jpg"
-      alt: "Lavabo gider tıkanıklığı belirtiler"
-      caption: "Lavabo tıkanıklığı belirtiler."
-  - heading: "Mutfak Eviye — Yağ Katılaşması"
+      - 'Market tipi gider açıcılar hafif organik tıkanıklıkta işe yarayabilir ama riskleri vardır. Ürün tiplerini karşılaştıralım:'
+      - 'Kurallar: klozet açıcı ile lavabo açıcı aynı ürün değildir — klozet açıcıyı lavaboya dökmeyin. İki farklı kimyasalı asla karıştırmayın. Kullanırken pencereyi açın, eldiven ve gözlük takın. Kimyasal döktükten sonra pompa kullanacaksanız en az 30 dakika bekleyin; aksi halde sıçrayan kimyasal yanığa yol açar. Metal borulu eski tesisatlarda kaustik bazlı ürünlerin sık kullanımı boru ömrünü kısaltır.'
+      - '**Kimyasal sıçraması ve buharı tehlikelidir: Kimyasal açıcı dökülmüş bir gidere pompa ya da tel ile müdahale etmeyin; sıçrayan sıvı cilt ve göz yanığına yol açar. Çocuk ve evcil hayvanların erişemeyeceği yerde saklayın.**'
+    bullets:
+      - '**Jel/granül açıcı:** Sodyum hidroksit — Hafif organik tıkanıklık'
+      - '**Sülfürik asit bazlı:** H₂SO₄ — Yalnızca profesyonel kullanım'
+      - '**Enzimli açıcı:** Bakteri/enzim — Aylık önleyici bakım'
+      - '**Karbonat + sirke:** CO₂ reaksiyonu — Hafif koku ve birikim'
+  - heading: Ne Zaman Servis Çağırmalı?
+    id: servis
     paragraphs:
-      - "**%70 yemek yağı.** Yağ soğukta katılaşır."
-      - "**Önleme:** - Yağı asla lavaboya dökme - Ayda 1 sıcak su flush - Süzgeç sepeti (100–250 TL)"
-    image:
-      src: "/blog-images/lavabo-banyo-gideri-tikandi-chart.jpg"
-      alt: "Lavabo gider tıkanıklığı grafik"
-      caption: "Lavabo tıkanıklığı grafik."
-  - heading: "Yer Süzgeci — Sifon Fincanı"
-    paragraphs:
-      - "Fincan koku bariyeridir; **kuruduğunda kanalizasyon kokusu**."
-  - heading: "Kimyasal Açıcı — Kullan mı Kullanma mı?"
-    paragraphs:
-      - "**Uyarılar:** - **Klozet açıcı ≠ lavabo açıcı** - **Asla karıştırma** - Pencere aç, eldiven + gözlük - Pompa öncesi kimyasal → 30 dk bekle - Metal boru: kaustik soda ömrünü 20→5 yıla düşürür"
-  - heading: "Ne Zaman Servis?"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "İstanbul 2026 Servis Fiyatları"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Önleyici 6 İpucu"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Kaynaklar (E-E-A-T)"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Gölge Tesisat İstanbul — Acil Servis"
-    paragraphs:
-      - "İstanbul geneli 7/24 tesisat servisimiz Kadıköy, Beşiktaş, Ümraniye, Başakşehir dahil tüm ilçelerde 45 dakika içinde adresinize gelir. Fiyat aralıklarımız arıza türüne göre değişir; net teklif için telefonla ulaşın."
-    callout:
-      variant: "tip"
-      title: "Ustayı çağırmadan önce"
-      body: "Kombi/vana modelini ve fotoğrafı hazır edin; teşhis süresi kısalır, maliyet düşer."
+      - 'Şu durumlarda evde yöntemleri bırakıp profesyonel destek alın:'
+      - Üç farklı yöntem denediniz, sonuç yok.
+      - Aynı katta iki veya daha fazla gider birden tıkalı — sorun ana hatta demektir.
+      - Alt komşuya sızıntı riski var (tavanda ıslaklık, damlama).
+      - Duş giderinin sifonu zemin altında kaldığı için sökülemiyor.
+      - Giderden yoğun koku ve geri taşma var.
+      - Bu noktada tıkanıklık genelde borunun derinlerindedir; gider açma teli nasıl kullanılır rehberimiz tel (susta) yöntemini anlatır, ancak ana hat tıkanıklığında kamera görüntüleme ve robotla açma gerekir.
+      - Gölge Tesisat olarak İstanbul Avrupa ve Anadolu Yakası'nda lavabo, duş, eviye ve yer süzgeci tıkanıklıklarını kırmadan, kamera ile tespit edip açıyoruz.
     cta:
-      title: "Acil tesisatçı mı arıyorsunuz?"
-      body: "İstanbul içi 45 dakikada saha ekibimizi adresinize yönlendiriyoruz."
+      title: Tıkanıklık açma servisi için bize ulaşın
+      body: İstanbul'un her iki yakasında 7/24 servis ekibimizle yanınızdayız. Kırmadan tıkanıklık açma için hemen arayın veya WhatsApp'tan yazın.
       phone: true
       whatsapp: true
 faq:
-  - q: "Lavabo tıkanıklığı için ilk yöntem ne?"
-    a: "Zip-It plastik şerit (%80 başarı, saç/sabun için). Ardından sıcak su + deterjan, sonra P-trap söküm."
-  - q: "Duş gideri saçtan tıkalı, nasıl açarım?"
-    a: "Stopper sök, Zip-It ile içeri sok döndür çek. Kimyasal yerine mekanik yöntem tercih et."
-  - q: "Mutfak eviyesinde yağ katılaştı ne yapmalı?"
-    a: "Sıcak su + deterjan flush + kubbeli pompa. Süzgeç sepeti alışkanlığı kritik."
-  - q: "Klozet açıcı lavaboya dökülür mü?"
-    a: "HAYIR. Klozet açıcı farklı formül, lavabo sifonuna zarar verir."
-  - q: "Sifon (P-trap) söküm zor mu?"
-    a: "DIY %95 başarı. Kova, eldiven, boru anahtarı, yedek conta. 15-25 dk sürer."
+  - q: Lavabo tıkanıklığında ilk denenecek yöntem ne?
+    a: Süzgeci söküp plastik gider şeridi (Zip-It) ile saç yumağını çekmek. Sonra sıcak su + deterjan, ardından kubbeli pompa; çözülmezse sifon sökülüp temizlenir.
+  - q: Duş gideri saçtan tıkandı, nasıl açarım?
+    a: Süzgeç kapağını tipine göre sökün, plastik gider şeridini boruya indirip döndürerek saçı çekin ve sıcak suyla durulayın. Kimyasal yerine mekanik yöntemi tercih edin.
+  - q: Mutfak eviyesinde yağ katılaştıysa ne yapmalı?
+    a: Sıcak su + deterjan yıkaması, ardından kubbeli pompa deneyin; çözülmezse sifonu sökün. Yağı lavaboya dökmemek ve süzgeç sepeti kullanmak tekrarını önler.
+  - q: Klozet açıcı lavaboya dökülür mü?
+    a: Hayır. Klozet açıcının formülü farklıdır; lavabo sifonuna ve contalara zarar verebilir. Her ürün yalnızca etiketinde belirtilen gider için kullanılmalıdır.
+  - q: Sifon (P-trap) sökmek zor mu?
+    a: Hayır; kova, eldiven ve gerekiyorsa boru anahtarı yeterlidir. İki somunu gevşetip sifonu indirin, temizleyip ters sırayla takın. Somunları el sıkımı + çeyrek tur sıkın; conta yerinde olmalı.
+  - q: Aynı anda birden fazla gider tıkandıysa ne olur?
+    a: Bu, sorunun daire içi borularda değil ana gider hattında olduğunu gösterir. Evde yöntem işe yaramaz; kamera ile görüntüleme ve profesyonel açma gerekir.
+  - q: Yer süzgecinden koku geliyor, sebebi ne?
+    a: Çoğunlukla sifon fincanındaki suyun kurumasıdır. Fincanı çıkarıp temizleyin, yerine takın ve yarısına kadar su dolu olduğundan emin olun; az kullanılan banyolarda ara ara su ekleyin.
 ---
-
-# Lavabo & Banyo Gideri Tıkandı: Saç, Sabun ve Yağ Temizleme (2026)
-
-**Lavabo tıkandı** veya **duş gideri su tutuyor** ise sorun %85 vakada sifon (P-trap) veya süzgeç altında biriken saç + sabun + yağ karışımıdır. Bu rehber; 4 gider tipini (lavabo, duş/küvet, mutfak eviye, yer süzgeci) ayrı ayrı ele alır, doğru DIY sırasını verir ve **klozet açıcı kimyasalın neden lavaboya uygun olmadığını** açıklar.
-
-> **İlk teşhis (10 saniye):** Su **hiç akmıyor mu, yavaş mı akıyor mu, koku var mı**? Yavaş + koku → saç/sabun. Hiç akmıyor + koku yok → sifon dolu. Aynı katta 2+ gider tıkalı → **ana hat**, DIY yasak. İstanbul 7/24: **0533 896 05 03**.
-
-## Gider Tipi × Doğru Yöntem
-
-| Gider            | Yaygın tıkanıklık        | 1. yöntem                   | Yasak                                                    |
-| ---------------- | ------------------------ | --------------------------- | -------------------------------------------------------- |
-| **Lavabo**       | Saç + sabun + diş macunu | Zip-It → P-trap sök         | Kaynar su                                                |
-| **Duş / Küvet**  | Saç yumağı (%90)         | Stopper sök + Zip-It        | Sülfürik asit                                            |
-| **Mutfak eviye** | Yağ + gıda               | Sıcak su + deterjan → pompa | —                                                        |
-| **Yer süzgeci**  | Saç + kir + kireç        | Kapak sök + fırça           | Kimyasal                                                 |
-| **WC**           | Kağıt, cisim             | Kubbeli pompa               | Bkz [klozet açma](/preview/klozet-tikandi-diy-yontemler) |
-
-## Lavabo (Banyo) — 5 Adımda DIY Açma
-
-### Adım 1: Su Boşalt + Süzgeci Sök
-
-Süzgeç türü:
-
-- **Pop-up** → mengene ile gevşet
-- **Çevirmeli** → saat yönünün tersine
-- **Basmalı** → yukarı çek + pense
-
-### Adım 2: Zip-It Plastik Şerit
-
-**Zip-It / hair snake:** 60 cm plastik şerit, 30–80 TL. Süzgeç deliğinden yavaşça indir, döndür-çek.
-
-### Adım 3: Sıcak Su + Deterjan
-
-**Krom / plastik sifon:** max 60°C ılık su. Kaynar YASAK.
-
-### Adım 4: Kubbeli Pompa
-
-Taşma deliğini **ıslak bezle kapat** (yoksa vakum kaçar).
-
-### Adım 5: Sifon (P-trap) Sökme
-
-**DIY başarı %95.** Kova, eldiven, boru anahtarı, yedek conta:
-
-1. Lavabo altı zemine gazete
-2. P-trap'in iki ucundaki büyük plastik somunu gevşet
-3. Leğene boşalt
-4. Contaları kontrol et
-5. Ters sırayla mont: el sıkımı + ¼ tur
-
-## Duş & Küvet Gideri — Saç Yumağı
-
-**%90 sorunu saç.** Stopper türleri:
-
-| Tip                         | Sökme                         |
-| --------------------------- | ----------------------------- |
-| **Toggle (basmalı)**        | Yukarı çek                    |
-| **Pop-up (yay)**            | Yukarı + saat yönünün tersine |
-| **Lift-and-turn**           | Kaldır, ¼ tur ters            |
-| **Trip-lever (küvet kolu)** | Tornavida                     |
-
-**Ne YAPMAMALI:**
-
-- Sülfürik asit + kaustik soda (silikon fugalar, akrilik küvet)
-- Kaynar su (akrilik 80°C+ deforme)
-- Vakumlu emici (patlatabilir)
-
-## Mutfak Eviye — Yağ Katılaşması
-
-**%70 yemek yağı.** Yağ soğukta katılaşır.
-
-1. **Sıcak su + deterjan flush** (2 lt kaynar + yarım bardak deterjan)
-2. **Karbonat + sirke** (yumuşatır, ana çözücü değil)
-3. **Kubbeli pompa**
-4. **Bulaşık makinesi hortumu** kontrolü
-5. **P-trap sök**
-
-**Önleme:**
-
-- Yağı asla lavaboya dökme
-- Ayda 1 sıcak su flush
-- Süzgeç sepeti (100–250 TL)
-
-## Yer Süzgeci — Sifon Fincanı
-
-Fincan koku bariyeridir; **kuruduğunda kanalizasyon kokusu**.
-
-1. Süzgeç kapağını kaldır
-2. Sifon fincanını çıkar
-3. Saç + kireç fırçala
-4. Fincanı yerine (**yarıya kadar su dolmalı**)
-
-## Kimyasal Açıcı — Kullan mı Kullanma mı?
-
-| Ürün                 | Aktif madde      | Ne için                    |
-| -------------------- | ---------------- | -------------------------- |
-| **Bref / Domestos**  | Sodyum hidroksit | Organik                    |
-| **Sülfürik asit**    | H₂SO₄            | Ağır organik (profesyonel) |
-| **Enzimli açıcı**    | Bakteri          | Aylık bakım                |
-| **Karbonat + sirke** | CO₂              | Hafif                      |
-
-**Uyarılar:**
-
-- **Klozet açıcı ≠ lavabo açıcı**
-- **Asla karıştırma**
-- Pencere aç, eldiven + gözlük
-- Pompa öncesi kimyasal → 30 dk bekle
-- Metal boru: kaustik soda ömrünü 20→5 yıla düşürür
-
-## Ne Zaman Servis?
-
-- 3 DIY denendi, sonuç yok
-- Aynı katta 2+ gider (ana hat)
-- Alt komşuya sızıntı riski
-- Duş gideri (zemin altı P-trap)
-- Aşırı koku + gaz
-
-## İstanbul 2026 Servis Fiyatları
-
-| Hizmet                    | Fiyat (TL)    |
-| ------------------------- | ------------- |
-| Lavabo / eviye sifon açma | 500 – 1.100   |
-| Duş / küvet gideri        | 700 – 1.400   |
-| Sifon değişimi            | 400 – 900     |
-| Yer süzgeci fincan        | 300 – 700     |
-| Ana kolon jet yıkama      | 1.500 – 3.500 |
-| Kamera görüntüleme        | 800 – 1.800   |
-| Bina ana hat              | 3.000 – 8.000 |
-| Yıllık drain bakım        | 900 – 1.800   |
-
-## Önleyici 6 İpucu
-
-1. **Saç yakalayıcı süzgeç** (50–150 TL) — en etkili
-2. **Yağı asla dökme**
-3. **Ayda 1 sıcak su + deterjan flush**
-4. **Enzimli bakım açıcı**
-5. **Yer süzgeci fincanı düzenli su**
-6. **Kimyasal minimum** (yıl 2'yi geçmesin)
-
-## Kaynaklar (E-E-A-T)
-
-- İSKİ İstanbul
-- TS EN 274 — Sıhhi tesisat sifonları
-- TSE Yapı Malzemeleri
-- Sağlık Bakanlığı
-- İMSAD

@@ -1,217 +1,143 @@
 ---
-slug: "klozet-tasiyor-ana-gider-tikanikligi"
-title: "Klozet Taşıyor / Pis Su Geri Geliyor: Ana Gider Tıkanıklığı Acil Müdahale (2026)"
-seoTitle: "Klozet Taşıyor / Ana Gider Tıkanıklığı"
-keyword: "klozet taşıyor pis su"
-volume: 200
-kdi: 30
-category: "Tıkanıklık & Gider"
-readMin: 4
-published: "2026-07-26"
-updated: "2026-07-26"
-excerpt: >
-  Klozetten pis su taşıyor, duş giderinden pis su çıkıyor veya sifonu çektiğinde
-  lavabodan hava/su fışkırıyor ise sorun klozet kâsesi değil — ana pis su kolonu
-  veya bina ana gideri tıkalıdır.
-metaDescription: "Klozet taşıyor: DIY vs servis ayrımı, ana kolon vs nokta tıkanma, KMK sorumluluğu, İstanbul vidanjör fiyatları. İstanbul geneli 7/24 servis: 0533 896 05 03...."
-serviceSlug: "tikaniklik-acma"
+slug: klozet-tasiyor-ana-gider-tikanikligi
+title: 'Klozet Taşıyor / Pis Su Geri Geliyor: Ana Gider Tıkanıklığı Acil Müdahale Rehberi'
+seoTitle: Klozet Taşıyor / Ana Gider Tıkanıklığı
+keyword: klozet taşıyor pis su
+category: Tıkanıklık & Gider
+serviceSlug: tikaniklik-acma
+readMin: 9
+published: '2026-07-26'
+updated: '2026-10-02'
+excerpt: Klozetten pis su taşıyor, duş giderinden pis su çıkıyor veya sifonu çekince lavabodan hava fışkırıyorsa sorun klozette değil, ana gider hattındadır. İlk 5 dakikada yapılacaklar, sorumluluk ayrımı ve doğru müdahale yöntemi bu rehberde.
 featuredImage:
-  src: "/blog-images/klozet-tasiyor-ana-gider-tikanikligi-hero.jpg"
-  alt: "klozet taşıyor pis su — İstanbul saha rehberi görseli"
-  caption: "Gölge Tesisat İstanbul saha ekibi."
-intro: >
-  Klozetten pis su taşıyor, duş giderinden pis su çıkıyor veya sifonu çektiğinde
-  lavabodan hava/su fışkırıyor ise sorun klozet kâsesi değil — ana pis su kolonu
-  veya bina ana gideri tıkalıdır. Bu rehber; ilk 5 dakikada güvenlik adımları,
-  dairene mi apartmana mı ait ayrımı, sorumluluk (KMK madde 42), vidanjör vs
-  kanal robotu farkı ve 2026 İstanbul fiyatları dahil komple acil planı verir. >
-  Panik durdurma (10 sn): Suyu kullanmayı bırak — hiçbir musluk açma, sifon
-  çekme, çamaşır/bulaşık makinesi çalıştırma. Alt komşuya haber ver. Elektrik
-  prizi zeminde suya değerse sigortayı kes. İstanbul 7/24: 0533 896 05 03.
+  src: /blog-images/klozet-tasiyor-ana-gider-tikanikligi-hero.jpg
+  alt: Klozetten taşan pis suyun zemine yayıldığı acil durum görüntüsü
+  caption: Klozet taşması çoğu zaman ana gider hattı tıkanıklığının işaretidir.
+metaDescription: Klozet taşıyor ve pis su geri geliyorsa ne yapmalı? İlk 5 dakika güvenlik adımları, daire mi apartman mı ayrımı, sorumluluk kuralları ve doğru müdahale yöntemleri.
+intro: Klozetten pis su taşıyor, duş giderinden pis su çıkıyor veya sifonu çektiğinizde lavabodan hava ve su fışkırıyorsa sorun klozet kâsenizde değil — ana pis su kolonunda veya bina ana giderindedir. Bu rehberde ilk 5 dakikada yapmanız gereken güvenlik adımlarını, sorunun dairenize mi binaya mı ait olduğunu nasıl anlayacağınızı, sorumluluğun kime ait olduğunu ve hangi müdahale yönteminin ne zaman doğru olduğunu anlatıyoruz.
+manualRelated:
+  - giderden-gelen-lagim-kokusu-nasil-giderilir
+  - gider-tikanikligi-nasil-acilir
+  - lavabo-banyo-gideri-tikandi
 sections:
-  - heading: "İlk 5 Dakika — Sağlık ve Hasar Önleme"
+  - heading: Öne Çıkanlar
+    id: one-cikanlar
+    bullets:
+      - 'Kısa cevap: klozet taşıyorsa önce tüm su kullanımını durdurun — musluk açmayın, sifon çekmeyin, çamaşır ve bulaşık makinesini çalıştırmayın.'
+      - Sadece tek gider etkilendiyse sorun dairenizdedir; birden fazla gider aynı anda tıkandıysa sorun ana kolondadır ve apartmanın ortak sorumluluğundadır.
+      - Kanalizasyon geri basması biyolojik tehlike içerir; temas eden yüzeyler dezenfekte edilmeli, çocuk ve evcil hayvanlar uzak tutulmalıdır.
+      - Vidanjör birikmiş suyu çeker ama tıkanıklığı açmaz; tıkanıklığı yüksek basınçlı jet yıkama açar.
+      - Standart konut sigortaları kanalizasyon geri tepmesini genellikle kapsamaz; poliçenize geri tepme klozu eklendiğinden emin olun.
+  - heading: 'İlk 5 Dakika: Güvenlik ve Hasar Önleme'
+    id: ilk-5-dakika
     paragraphs:
-      - "Kanalizasyon geri basması **biyolojik tehlike** (E. coli, hepatit A, giardia) içerir:"
-      - "**YAPMA:** kaynar su dökme, tuz ruhu/sülfürik asit dökme, pompa ile sertçe basma."
+      - 'Kanalizasyon geri basması biyolojik tehlike içerir; pis suda bağırsak enfeksiyonlarına yol açan bakteri ve virüsler bulunur. Panik yapmadan şu adımları sırayla uygulayın:'
+      - '**Bunları asla yapmayın: Kaynar su dökmeyin, tuz ruhu veya sülfürik asit gibi güçlü kimyasallar kullanmayın, pompayla sertçe basınç uygulamayın. Ana hat tıkalıyken bu müdahaleler geri basmayı şiddetlendirir ve borulara zarar verebilir.**'
     image:
-      src: "/blog-images/klozet-tasiyor-ana-gider-tikanikligi-infographic.jpg"
-      alt: "Klozet taşması ana gider infografik"
-      caption: "Klozet taşması infografik."
-  - heading: "Ayırt Matrisi — Senin Sorunun mu, Binanın mı?"
+      src: /blog-images/klozet-tasiyor-ana-gider-tikanikligi-infographic.jpg
+      alt: Klozet taşmasında ilk 5 dakikada yapılacaklar infografiği
+      caption: Klozet taşmasında ilk 5 dakikanın acil müdahale planı.
+    bullets:
+      - 1. **Su kullanımını tamamen durdurun:** Hiçbir musluğu açmayın, sifonu çekmeyin, çamaşır ve bulaşık makinesini çalıştırmayın. Ana hat tıkalıyken kullandığınız her su, en alttaki giderden geri gelir.
+      - 2. **Alt komşuya haber verin:** Taşan su tavandan alt kata sızabilir; erken haber vermek hem hasarı azaltır hem sorumluluk tartışmasını önler.
+      - 3. **Elektrik güvenliğini sağlayın:** Pis su zemin prizlerine veya elektrikli cihazlara ulaştıysa dairenin sigortasını kapatın.
+      - 4. **Çocuk ve evcil hayvanları uzaklaştırın:** Taşan suyla temas eden herkesin ellerini yıkaması gerekir; temas eden yüzeyleri dezenfekte edin.
+      - 5. **Fotoğraf çekin:** Hasarın boyutunu, saati ve etkilenen alanları belgeleyin; sigorta ve sorumluluk süreçlerinde kanıt olur.
+  - heading: Sorun Sizde mi, Binada mı? Ayırt Matrisi
+    id: ayirt-matrisi
     paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
+      - 'Doğru müdahale için önce sorunun daire içi hattınızda mı yoksa binanın ana kolonunda mı olduğunu belirleyin. Aşağıdaki tablo en güvenilir ayrımı sağlar:'
     image:
-      src: "/blog-images/klozet-tasiyor-ana-gider-tikanikligi-comparison.jpg"
-      alt: "Klozet taşması ana gider karşılaştırma"
-      caption: "Klozet taşması karşılaştırma."
-  - heading: "Sorumluluk — Kim Öder?"
+      src: /blog-images/klozet-tasiyor-ana-gider-tikanikligi-comparison.jpg
+      alt: Daire içi tıkanıklık ile ana kolon tıkanıklığı karşılaştırma görseli
+      caption: Birden fazla giderin aynı anda tıkanması ana kolon sorununa işaret eder.
+    inlineLinks:
+      - slug: gider-tikanikligi-nasil-acilir
+        anchor: gider tıkanıklığı nasıl açılır
+    bullets:
+      - '**Sadece 1 klozet taşıyor:** Evet — Hayır'
+      - '**Klozet + banyo lavabosu tıkalı:** Evet — Hayır'
+      - '**Klozet + duş + mutfak evyesi hepsi tıkalı:** Hayır — Evet'
+      - '**Sifon çekince lavabodan hava/su geliyor:** Hayır — Evet'
+      - '**Alt komşu da aynı anda tıkalı:** Hayır — Evet'
+      - '**Zemin katta yer süzgecinden pis su çıkıyor:** Hayır — Evet (kesin işaret)'
+      - '**Yağmurdan hemen sonra başladı:** Hayır — Evet'
+  - heading: Sorumluluk Kime Ait? Kim Öder?
+    id: sorumluluk
     paragraphs:
-      - "**KMK madde 42 ve 4:** ana kolon + bina ana gideri + rögar **ortak alan** → tüm daireler ortak öder. Daire içi yatay hat + sifon + klozet **daire sahibinin**."
-      - "**Önemli:** Standart konut sigortası **kanalizasyon geri tepmesi**ni hariç tutar. Ek \"geri tepme klozu\" (200–600 TL/yıl)."
-    image:
-      src: "/blog-images/klozet-tasiyor-ana-gider-tikanikligi-symptoms.jpg"
-      alt: "Klozet taşması ana gider belirtiler"
-      caption: "Klozet taşması belirtiler."
-  - heading: "Nokta Tıkanıklık — DIY 30 Dakika"
+      - Kat Mülkiyeti Kanunu'na göre ana pis su kolonu, bina ana gideri ve rögar ortak alan sayılır; bu hatlardaki tıkanıklığın giderilme masrafı tüm daireler tarafından ortak karşılanır. Daire içi yatay hat, sifon ve klozet bağlantıları ise daire sahibinin sorumluluğundadır.
+      - '**Sigorta uyarısı: Standart konut sigortaları kanalizasyon geri tepmesini genellikle kapsam dışı tutar. Poliçenize ek geri tepme klozu eklettiğinizden emin olun; evde gizli kaçak şüphesi varsa su sayacı dönüyor gizli kaçak yazımızdaki kontrol yöntemlerini uygulayabilirsiniz.**'
+    inlineLinks:
+      - slug: su-sayaci-donuyor-gizli-kacak
+        anchor: su sayacı dönüyor gizli kaçak
+    bullets:
+      - '**Sadece sizin klozetiniz tıkalı:** Siz — Konut poliçesi geri tepme klozu'
+      - '**Ana kolon tıkalı:** Apartman (tüm daireler) — Bina sigortası'
+      - '**Sizin hattınız tıkandı, alt komşu zarar gördü:** Siz — Konut mesuliyet klozu'
+      - '**Ağaç kökü rögara girmiş:** Apartman — Bina sigortası'
+      - '**Belediye ana kanalı tıkalı:** Belediye / ilgili kurum — Konut geri tepme klozu'
+  - heading: Nokta Tıkanıklık İçin Evde Müdahale
+    id: evde-mudahale
     paragraphs:
-      - "Flanşlı klozet pompası kullanın (düz kauçuk lavabo pompası değil):"
-      - "1 bardak deterjan + 15 dk bekle + 5 lt **max 45°C** ılık su."
-      - "**YAPMA:** - Tuz ruhu / sülfürik asit - Bikarbonat + sirke (mit) - Elle basınçlı çubuk - Bahçe hortumu ile yüksek basınç"
-    image:
-      src: "/blog-images/klozet-tasiyor-ana-gider-tikanikligi-chart.jpg"
-      alt: "Klozet taşması ana gider grafik"
-      caption: "Klozet taşması grafik."
-  - heading: "Ana Kolon Tıkanıklığı — Servis Şart"
+      - 'Sorun yalnızca tek klozetteyse ve diğer giderler normal çalışıyorsa aşağıdaki yöntemleri deneyebilirsiniz:'
+      - '**Evde müdahalede kaçının: Tuz ruhu ve sülfürik asit kullanmayın, bahçe hortumuyla yüksek basınç uygulamayın, sert cisimlerle gideri zorlamayın. Bu yöntemler porseleni çatlatır, contaları bozar ve tıkanıklığı daha derine itebilir.**'
+    bullets:
+      - 1. **Flanşlı klozet pompası kullanın:** Düz kauçuk lavabo pompası değil, flanşlı klozet pompası gerekir. Su seviyesi klozetin yarısında olmalı; flanşı deliğe oturtup ilk basmayı yavaş yapın, ardından 10–15 kez sert basma-çekme uygulayın.
+      - 2. **Klozet spirali deneyin:** Plastik korumalı klozet spirali porseleni çizmez. Spirali gider deliğinden ilerletip döndürerek tıkanıklığı parçalayın veya geri çekin.
+      - 3. **Bulaşık deterjanı ve ılık su:** Bir bardak bulaşık deterjanı döküp 15 dakika bekleyin, ardından kaynar olmayan ılık su ekleyin. Yağ bazlı tıkanıklıklarda gevşeme sağlayabilir.
+  - heading: Ana Kolon Tıkanıklığında Ne Yapılmalı?
+    id: ana-kolon
     paragraphs:
-      - "Birden fazla armatür + apartman ortak = DIY YASAK."
-      - "**Apartman yöneticisine bildir (yazılı):** Fotoğraf + saat + tarih. Yönetici 30 dk içinde harekete geçmezse **kendin çağır, faturayı ortak gidere ekletirsin** (KMK madde 20)."
-  - heading: "Vidanjör mü, Jet Yıkama mı?"
+      - Birden fazla armatür aynı anda tıkandıysa veya alt komşunuz da aynı sorunu yaşıyorsa evde müdahale yasaktır; sorun binanın ortak hattındadır. Apartman yöneticisine yazılı olarak (fotoğraf, saat ve tarih ile) bildirin. Yönetici makul sürede harekete geçmezse servisi kendiniz çağırıp faturayı ortak giderlere ekletebilirsiniz.
+      - 'Ana kolon müdahalelerinde kullanılan yöntemler ve hangi durumda uygun oldukları:'
+    bullets:
+      - '**Kanal açma spirali:** Daire içi hat ve kısa mesafe tıkanıklıklar'
+      - '**Yüksek basınçlı jet yıkama:** Ana kolon; tıkanıklığı parçalar, boru iç yüzeyini temizler'
+      - '**Kamera görüntüleme:** Tekrarlayan tıkanmalarda yer ve neden tespiti'
+      - '**Vidanjör:** Foseptik ve bodrum suyu boşaltma; tıkanıklığı açmaz'
+      - '**Kök kesme:** Bahçe hattına giren ağaç kökleri'
+  - heading: Vidanjör mü, Jet Yıkama mı?
+    id: vidanjor-jet
     paragraphs:
-      - "**Vidanjör:** sıvı çeker/boşaltır. **Tıkanıklığı açmaz.**"
-      - "**Jet yıkama:** 150–350 bar su → **tıkanıklığı parçalar, boru iç yüzeyini temizler**."
-      - "**Doğru sıra:** vidanjör (bodrum boşalt) → jet yıkama (kaynağı aç) → kamera (tekrarlamayacağını doğrula)."
-  - heading: "Kanalizasyon Kokusu — Farklı Semptom"
+      - Vidanjör birikmiş sıvıyı çekip boşaltır ancak tıkanıklığın kendisini açmaz. Jet yıkama ise yüksek basınçlı su ile tıkanıklığı parçalar ve boru iç yüzeyini temizler.
+      - 'Doğru sıralama şöyledir: önce vidanjörle birikmiş su boşaltılır, ardından jet yıkama ile tıkanıklığın kaynağı açılır, son olarak kamera ile hattın tekrar tıkanmayacağı doğrulanır. Sadece vidanjör çağırmak sorunu geçici olarak erteler.'
+  - heading: Koku Var ama Taşma Yoksa
+    id: koku
     paragraphs:
-      - "Sifon fincanı boşluğu veya havalandırma bacası. Bkz. [lavabo/gider tıkanıklığı](/preview/lavabo-banyo-gideri-tikandi)."
-  - heading: "Tekrar Etmesin — 6 Önleyici Kural"
+      - 'Taşma olmadan yalnızca koku varsa sorun farklıdır: sifon suyunun kuruması veya havalandırma hattı tıkanıklığı söz konusu olabilir. Bu durumda giderlerden gelen lağım kokusu rehberimizdeki adımları izleyin; tek giderde yavaş akış varsa lavabo banyo gideri tıkandı yazımızdaki yöntemleri uygulayabilirsiniz.'
+    inlineLinks:
+      - slug: giderden-gelen-lagim-kokusu-nasil-giderilir
+        anchor: giderlerden gelen lağım kokusu
+      - slug: lavabo-banyo-gideri-tikandi
+        anchor: lavabo banyo gideri tıkandı
+  - heading: Tekrar Etmemesi İçin 6 Önleyici Kural
+    id: onleme
     paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Kaynaklar (E-E-A-T)"
+      - 'Ana gider tıkanıklıklarının büyük kısmı gidere atılmaması gereken malzemelerden kaynaklanır. Şu kuralları alışkanlık edinin:'
+    bullets:
+      - Klozete asla ıslak mendil, hijyenik ped, tampon, diş ipi ve kedi kumu atmayın.
+      - Mutfak evyesine kızartma yağı ve yemek artığı dökmeyin.
+      - Duş ve lavabo giderlerinde saç tutucu kullanın.
+      - Düzenli aralıklarla enzim bazlı bakım ürünleri kullanın.
+      - Apartman olarak yılda bir kez ana kolona jet yıkama yaptırın.
+      - Konut sigortanıza kanalizasyon geri tepme klozu ekletin.
+  - heading: Gölge Tesisat ile Acil Tıkanıklık Servisi
+    id: servis
     paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Gölge Tesisat İstanbul — Acil Servis"
-    paragraphs:
-      - "İstanbul geneli 7/24 tesisat servisimiz Kadıköy, Beşiktaş, Ümraniye, Başakşehir dahil tüm ilçelerde 45 dakika içinde adresinize gelir. Fiyat aralıklarımız arıza türüne göre değişir; net teklif için telefonla ulaşın."
-    callout:
-      variant: "tip"
-      title: "Ustayı çağırmadan önce"
-      body: "Kombi/vana modelini ve fotoğrafı hazır edin; teşhis süresi kısalır, maliyet düşer."
-    cta:
-      title: "Acil tesisatçı mı arıyorsunuz?"
-      body: "İstanbul içi 45 dakikada saha ekibimizi adresinize yönlendiriyoruz."
-      phone: true
-      whatsapp: true
+      - Klozet taşması, ana gider tıkanıklığı ve kanalizasyon geri basması durumlarında Gölge Tesisat olarak İstanbul Avrupa ve Anadolu Yakası'nda 7/24 servis veriyoruz. Kamera ile tıkanıklık tespiti, jet yıkama ve kanal açma işlemlerini aynı ekip tamamlar.
 faq:
-  - q: "Klozet taşıyor, ne yapmalıyım?"
-    a: "Suyu ve sifonu kullanmayı bırak, alt komşuya haber ver, elektriği kes, fotoğraf çek. Aynı katta birden fazla gider tıkalıysa DIY yasak — servis çağır."
-  - q: "Sorumluluk kimin, apartman mı ben mi?"
-    a: "Sadece senin gider tıkalıysa sen. Ana kolon/bina hattı ise KMK 42 gereği tüm daireler ortak öder."
-  - q: "Vidanjör mü, jet yıkama mı?"
-    a: "Vidanjör sadece siphon boşaltır. Tıkanıklığı jet yıkama (150-350 bar) açar. Doğru sıra: vidanjör → jet → kamera."
-  - q: "Kaç TL tutar?"
-    a: "Kanal spirali 700-1600, jet yıkama 1500-3500, vidanjör 2500-6000 TL (2026 İstanbul)."
-  - q: "Konut sigortası kanalizasyon geri tepmesini öder mi?"
-    a: "Standart poliçe HARIÇ tutar. Ek \"geri tepme klozu\" (200-600 TL/yıl) şart."
+  - question: Klozet taşıyor, ne yapmalıyım?
+    answer: 'Önce tüm su kullanımını durdurun: musluk açmayın, sifon çekmeyin, çamaşır ve bulaşık makinesini çalıştırmayın. Alt komşuya haber verin, pis su prize ulaştıysa elektriği kesin ve fotoğraf çekin. Birden fazla gider tıkalıysa evde müdahale etmeyin, servis çağırın.'
+  - question: Sorumluluk apartmanın mı, benim mi?
+    answer: Sadece sizin gideriniz tıkalıysa masraf size aittir. Ana kolon veya bina ana gideri tıkandıysa bu hatlar ortak alan sayılır ve masraf tüm daireler tarafından ortak karşılanır.
+  - question: Vidanjör mü, jet yıkama mı çağırmalıyım?
+    answer: 'Vidanjör yalnızca birikmiş suyu çeker, tıkanıklığı açmaz. Tıkanıklığı yüksek basınçlı jet yıkama açar. Doğru sıra: vidanjörle su boşaltılır, jet yıkama ile tıkanıklık açılır, kamera ile doğrulanır.'
+  - question: Sifonu çekince lavabodan hava geliyor, neden?
+    answer: Bu, ana pis su kolonunun tıkalı olduğunun tipik işaretidir. Sifondan giden su tıkalı hatta ilerleyemediği için basınç en yakın açık giderden geri döner. Bu durumda evde müdahale etmeyin, ana hattın açılması gerekir.
+  - question: Konut sigortası kanalizasyon geri tepmesini karşılar mı?
+    answer: Standart konut poliçeleri kanalizasyon geri tepmesini genellikle kapsam dışı tutar. Poliçenize ek geri tepme klozu eklettiğinizden emin olun ve hasar anında fotoğrafla belgeleyin.
+  - question: Klozet tıkanıklığında kimyasal açıcı kullanabilir miyim?
+    answer: Güçlü asit bazlı açıcılar (tuz ruhu, sülfürik asit) porselene, contalara ve borulara zarar verir; ana hat tıkalıyken geri basma riskini artırır. Enzim bazlı ürünler bakım amaçlı kullanılabilir ancak mevcut tıkanıklığı çözmez.
+  - question: Taşma tekrar etmemesi için ne yapmalıyım?
+    answer: Klozete ıslak mendil ve benzeri malzeme atmayın, evyeye yağ dökmeyin, giderlerde saç tutucu kullanın ve apartman olarak yılda bir kez ana kolona jet yıkama yaptırın. Tekrarlayan tıkanmalarda kamera ile hat içi inceleme yaptırın.
 ---
-
-# Klozet Taşıyor / Pis Su Geri Geliyor: Ana Gider Tıkanıklığı Acil Müdahale (2026)
-
-**Klozetten pis su taşıyor**, **duş giderinden pis su çıkıyor** veya **sifonu çektiğinde lavabodan hava/su fışkırıyor** ise sorun klozet kâsesi değil — **ana pis su kolonu veya bina ana gideri tıkalıdır**. Bu rehber; ilk 5 dakikada güvenlik adımları, dairene mi apartmana mı ait ayrımı, sorumluluk (KMK madde 42), vidanjör vs kanal robotu farkı ve 2026 İstanbul fiyatları dahil komple acil planı verir.
-
-> **Panik durdurma (10 sn):** Suyu kullanmayı bırak — hiçbir musluk açma, sifon çekme, çamaşır/bulaşık makinesi çalıştırma. Alt komşuya haber ver. Elektrik prizi zeminde suya değerse **sigortayı kes**. İstanbul 7/24: **0533 896 05 03**.
-
-## İlk 5 Dakika — Sağlık ve Hasar Önleme
-
-Kanalizasyon geri basması **biyolojik tehlike** (E. coli, hepatit A, giardia) içerir:
-
-1. **Su tüketimini tamamen durdur** — musluklar, sifon, çamaşır/bulaşık makinesi
-2. **Alt kata haber ver**
-3. **Elektrik güvenliği** — pis su prizlere ulaştıysa daire sigortasını kes
-4. **Çocuk / evcil hayvan uzaklaştır**
-5. **Fotoğraf çek** — sigorta ve komşu sorumluluğu için kanıt
-
-**YAPMA:** kaynar su dökme, tuz ruhu/sülfürik asit dökme, pompa ile sertçe basma.
-
-## Ayırt Matrisi — Senin Sorunun mu, Binanın mı?
-
-| Belirti                                    | Nokta Tıkanıklık | Ana Kolon |
-| ------------------------------------------ | ---------------- | --------- |
-| Sadece 1 klozet taşıyor                    | ✓                | —         |
-| Klozet + banyo lavabosu tıkalı             | ✓                | —         |
-| Klozet + duş + mutfak eviyesi hepsi tıkalı | —                | ✓         |
-| Sifon çekince lavabodan hava/su            | —                | ✓         |
-| Alt komşu da aynı anda tıkalı              | —                | ✓         |
-| Zemin katta yer süzgecinden pis su         | —                | ✓ (kesin) |
-| Yağmurdan hemen sonra başladı              | —                | ✓         |
-
-## Sorumluluk — Kim Öder?
-
-**KMK madde 42 ve 4:** ana kolon + bina ana gideri + rögar **ortak alan** → tüm daireler ortak öder. Daire içi yatay hat + sifon + klozet **daire sahibinin**.
-
-| Senaryo                      | Sorumlu         | Sigorta                         |
-| ---------------------------- | --------------- | ------------------------------- |
-| Sadece senin klozetin tıkalı | Sen             | Konut poliçesi geri tepme klozu |
-| Ana kolon tıkalı             | Apartman        | Bina sigortası                  |
-| Sen tıkadın, alt komşu zarar | Sen             | Konut mesuliyet klozu           |
-| Kök (ağaç) rögara girdi      | Apartman        | Bina                            |
-| Belediye ana kanalı tıkalı   | Belediye (İSKİ) | Konut geri tepme                |
-
-**Önemli:** Standart konut sigortası **kanalizasyon geri tepmesi**ni hariç tutar. Ek "geri tepme klozu" (200–600 TL/yıl).
-
-## Nokta Tıkanıklık — DIY 30 Dakika
-
-### 1. Klozet Pompası (Plunger)
-
-Flanşlı klozet pompası kullanın (düz kauçuk lavabo pompası değil):
-
-1. Su seviyesi klozet yarısında olmalı
-2. Flanşı deliğe otur, ilk basmayı yavaş
-3. 10–15 sert basma-çekme
-
-### 2. Klozet Spirali
-
-1.5–3 m spiral (300–800 TL), plastik korumalı — porselen çizmez.
-
-### 3. Bulaşık Deterjanı + Ilık Su
-
-1 bardak deterjan + 15 dk bekle + 5 lt **max 45°C** ılık su.
-
-**YAPMA:**
-
-- Tuz ruhu / sülfürik asit
-- Bikarbonat + sirke (mit)
-- Elle basınçlı çubuk
-- Bahçe hortumu ile yüksek basınç
-
-## Ana Kolon Tıkanıklığı — Servis Şart
-
-Birden fazla armatür + apartman ortak = DIY YASAK.
-
-**Apartman yöneticisine bildir (yazılı):** Fotoğraf + saat + tarih. Yönetici 30 dk içinde harekete geçmezse **kendin çağır, faturayı ortak gidere ekletirsin** (KMK madde 20).
-
-| Yöntem                       | Uygun durum         | İstanbul fiyat (2026) |
-| ---------------------------- | ------------------- | --------------------- |
-| **Kanal açma spirali**       | Ev içi hat          | 700 – 1.600 TL        |
-| **Yüksek basınç jet yıkama** | Ana kolon           | 1.500 – 3.500 TL      |
-| **Kamera görüntüleme**       | Tekrarlayan tıkanma | 800 – 1.800 TL        |
-| **Vidanjör**                 | Fosseptik, bodrum   | 2.500 – 6.000 TL      |
-| **Kök kesme**                | Bahçe hattı         | 2.000 – 5.000 TL      |
-
-## Vidanjör mü, Jet Yıkama mı?
-
-**Vidanjör:** sıvı çeker/boşaltır. **Tıkanıklığı açmaz.**
-
-**Jet yıkama:** 150–350 bar su → **tıkanıklığı parçalar, boru iç yüzeyini temizler**.
-
-**Doğru sıra:** vidanjör (bodrum boşalt) → jet yıkama (kaynağı aç) → kamera (tekrarlamayacağını doğrula).
-
-## Kanalizasyon Kokusu — Farklı Semptom
-
-Sifon fincanı boşluğu veya havalandırma bacası. Bkz. [lavabo/gider tıkanıklığı](/preview/lavabo-banyo-gideri-tikandi).
-
-## Tekrar Etmesin — 6 Önleyici Kural
-
-1. **Klozete asla atma:** ıslak mendil, hijyenik ped, tampon, diş ipi, kedi kumu
-2. **Mutfak eviyesine yağ dökme**
-3. **Duş / lavabo gideri saç filtresi**
-4. **6 ayda bir enzimli bakteriyel açıcı**
-5. **Yılda 1 apartman genel jet yıkama**
-6. **Konut sigortasında "kanalizasyon geri tepme" klozu**
-
-## Kaynaklar (E-E-A-T)
-
-- Kat Mülkiyeti Kanunu — madde 4, 20, 42
-- İSKİ İstanbul — atık su yönetmeliği
-- TS EN 12056 — Bina içi pis su tesisatı
-- Sağlık Bakanlığı — Kanalizasyon geri tepme biyolojik risk
-- SBGM — Konut poliçesi kanalizasyon geri tepme klozu

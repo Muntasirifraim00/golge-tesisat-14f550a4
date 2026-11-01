@@ -1,252 +1,133 @@
 ---
-slug: "su-patlamasi-ilk-mudahale"
-title: "Su Patlamasi Ilk Mudahale"
-seoTitle: "Su Borusu Patladı Ne Yapmalı? 7 Adımda İlk"
-keyword: "su patlamasi ilk mudahale"
-volume: 200
-kdi: 30
-category: "Kombi & Kalorifer"
-readMin: 6
-published: "2026-07-26"
-updated: "2026-07-26"
-excerpt: >
-  Gecenin bir yarısı tavandan su damladığını fark ettiğinizde ya da mutfak
-  dolabının altından fıskiye gibi su fışkırdığında panik yapmak çok normal.
-metaDescription: "Su borusu patladı, ne yapmalı? Ana vanayı kapatmadan yapılacak 7 kritik adım, sigortalı elektrik kesimi ve acil tesisatçı çağırma rehberi. 0533 896 05 03. Gö..."
-serviceSlug: "kombi-tamiri"
+slug: su-patlamasi-ilk-mudahale
+title: Su Borusu Patladı Ne Yapmalı? 7 Adımda İlk Müdahale (2026)
+seoTitle: Su Borusu Patladı Ne Yapmalı? 7 Adımda İlk Müdahale
+keyword: su borusu patladı ne yapmalı
+category: Acil & Kaçak Tesisatı
+readMin: 7
+published: '2026-07-26'
+updated: '2026-10-03'
+excerpt: 'Su borusu patladı ne yapmalı? İlk dakikalar hasarın büyüklüğünü belirler: ana vanayı kapatın, elektriği kesin, suyu tahliye edin, tesisatçı çağırın. 7 adımda ilk müdahale rehberi.'
+metaDescription: 'Su borusu patladı ne yapmalı? 7 adımda ilk müdahale rehberi: ana vana kapatma, elektrik kesme, suyu tahliye etme, tesisatçı çağırma ve sigorta bildirimi.'
+serviceSlug: su-kacagi-tespiti
 featuredImage:
-  src: "/blog-images/su-patlamasi-featured.jpg"
-  alt: "Su borusu patlaması ilk müdahale — İstanbul saha rehberi"
-  caption: "Gölge Tesisat İstanbul saha ekibi."
-intro: >
-  Gecenin bir yarısı tavandan su damladığını fark ettiğinizde ya da mutfak
-  dolabının altından fıskiye gibi su fışkırdığında panik yapmak çok normal.
-  Ancak su borusu patladığında ilk 5 dakika, hasarın büyüklüğünü belirleyen en
-  kritik zaman dilimidir. Doğru müdahale ile 50.000 TL'lik tavan-parke-mobilya
-  hasarı, birkaç yüz TL'lik lokal onarıma indirilebilir. Bu rehberde 15 yıldır
-  İstanbul'da acil tesisat müdahalesi yapan ekip olarak, sahada en sık
-  karşılaştığımız su patlaması senaryolarında hangi adımları hangi sırayla
-  uygulamanız gerektiğini adım adım anlatıyoruz. Ana vananın nerede olduğunu
-  bilmiyor musunuz? Elektrik sigortasını kapatmadan suyla temas etmek güvenli
-  mi? Tesisatçı gelene kadar ne yapmalısınız? Hepsinin cevabı aşağıda. > Acil
-  durum: Şu an aktif bir su patlaması varsa önce ana su vananızı kapatın → sonra
-  elektriği kesin → sonra bizi arayın: 0533 896 05 03 (7/24).
+  src: /blog-images/su-patlamasi-featured.jpg
+  alt: Su borusu patlaması ilk müdahale — ana vana kapatma
+  caption: İlk müdahalede en kritik adım ana su vanasını kapatmaktır.
+intro: 'Kısa cevap: Önce dairenin ana su vanasını kapatın (saat yönünde sonuna kadar çevirin), patlayan borunun yakınında elektrik hattı varsa ilgili sigortayı indirin, sonra boruda kalan suyu tahliye edin ve en kısa sürede tesisatçıyı arayın. Gecenin bir yarısı tavandan su damladığını fark ettiğinizde ya da mutfak dolabının altından su fışkırdığında panik yapmak çok normal; ancak doğru sırayla yapılan müdahale, tavan-parke-mobilya hasarını büyük ölçüde sınırlar. Bu rehberde İstanbul''da acil tesisat müdahalesi yapan ekip olarak sahada en sık karşılaştığımız su patlaması senaryolarında hangi adımları hangi sırayla uygulamanız gerektiğini anlatıyoruz: ana vana nerede olur, elektrik ne zaman kesilmeli, tesisatçı gelene kadar ne yapılmalı, sigorta süreci nasıl işler.'
 sections:
-  - heading: "Su Borusu Patlaması Nedir ve Neden Olur?"
+  - heading: Su Borusu Neden Patlar? En Sık 5 Sebep
     paragraphs:
-      - "Su borusu patlaması, tesisat borusundaki basıncın borunun dayanım sınırını aşması sonucu boru cidarının yırtılması ya da ek yerinin ayrılmasıdır. Türkiye'de en sık görülen 4 sebep:"
-      - "Boru tipine göre risk profili değişir. Bu konuyu detaylı ele aldığımız [tesisat borusu çeşitleri (PPRC, PVC, PEX) karşılaştırması](/blog/tesisat-borusu-cesitleri-pprc-pvc-pex) rehberine göz atabilirsiniz."
+      - 'Su borusu patlaması, boru içindeki basıncın borunun dayanım sınırını aşması ya da boru cidarının zamanla zayıflaması sonucu yırtılma veya ek yeri ayrılmasıdır. Sahada en sık karşılaştığımız sebepler şunlardır:'
+    bullets:
+      - 'Donma: Kışın yalıtımsız balkon, çatı ve dış cephe tesisatındaki su donar; buz hacim olarak genişlediği için boruyu içeriden çatlatır. Çözülme anında patlak ortaya çıkar.'
+      - 'Basınç dalgalanması: Şebeke basıncının ani yükselmesi (su darbesi / koç darbesi) özellikle eski ek yerlerini zorlar. Basınç düşürücü olmayan binalarda risk daha yüksektir.'
+      - 'Korozyon: Galvaniz ve metal borularda içten paslanma cidarı inceltir; boru en zayıf noktasından delinir.'
+      - 'Montaj hatası: Yanlış kaynak (PPRC''de düşük ısıda yapışmamış ek), aşırı sıkılmış rekor veya desteksiz uzun hatlar zamanla ek yerinden ayrılır.'
+      - 'Dış darbe: Delme, çivi çakma, tadilat sırasında borunun hasar görmesi; bazen hasar anında değil haftalar sonra sızıntıya dönüşür.'
+      - Boru tipine göre risk profili değişir; bu konuyu detaylı ele aldığımız boru çeşitleri karşılaştırma rehberimize göz atabilirsiniz.
+    inlineLinks:
+      - anchor: boru çeşitleri karşılaştırma rehberimize
+        slug: pprc-boru-nedir-caplari
     image:
-      src: "/blog-images/su-patlamasi-ilk-mudahale-infographic.jpg"
-      alt: "Su patlaması müdahale infografik"
-      caption: "Su patlaması infografik."
-  - heading: "7 Adımda Su Patlaması İlk Müdahale"
+      src: /blog-images/su-patlamasi-ilk-mudahale-infographic.jpg
+      alt: Su patlaması ilk müdahale adımları infografik
+      caption: Su patlamasında ilk müdahale sırası.
+    id: su-borusu-neden-patlar-en-sik-5-sebep
+  - heading: 7 Adımda Su Patlaması İlk Müdahale
     paragraphs:
-      - "**Süre: 30 saniye. En kritik adım budur.** Ana vana genelde şu 3 yerden birindedir:"
-      - "Vanayı **saat yönünde** sonuna kadar çevirin. Kollu (kelebek) vanalarda kolu boruya dik pozisyona getirmek kapalı demektir."
-      - "Su + elektrik = ölümcül. Özellikle **tavan ışıklıkları, prizler ve beyaz eşya kablolarına** su ulaştıysa sigorta kutusunu bulup ana şalteri indirin. Eğer sigorta kutusu suyun aktığı bölgedeyse, **kuru bir tahta parçası ile** şaltere dokunun; asla ıslak elle temas etmeyin."
-      - "Ana vana kapalı olmasına rağmen su akmaya devam ediyorsa, boruda kalan **statik su hacmi** boşalıyordur (normal olarak 2–5 dakika içinde kesilir). Bu süre içinde ses ve akış yönünü takip ederek patlamanın hangi duvar/zemin arkasında olduğunu belirleyin. Belirleyemiyorsanız [su kaçağı tespiti](/blog/su-kacagi-tespiti) yöntemleri ile termal kamera + akustik cihaz kullanılabilir."
+      - 'Aşağıdaki sıralama önemlidir: önce suyu durdurun, sonra elektriği güvene alın, ardından hasarı sınırlayın. Her adım bir öncekinin güvenliğini sağlar.'
+    inlineLinks:
+      - anchor: kombi nasıl kapatılır rehberimize
+        slug: kombi-nasil-kapatilir
+      - anchor: su kaçağı tespiti
+        slug: su-kacagi-nasil-anlasilir
     image:
-      src: "/blog-images/su-patlamasi-ilk-mudahale-comparison.jpg"
-      alt: "Su patlaması müdahale karşılaştırma"
-      caption: "Su patlaması karşılaştırma."
-  - heading: "PPRC, PVC ve PEX: Patlama Riski Karşılaştırması"
+      src: /blog-images/su-patlamasi-7-adim.jpg
+      alt: Su patlamasında 7 adımlık ilk müdahale sırası
+      caption: 'Müdahale sırası: önce su, sonra elektrik, sonra hasar kontrolü.'
+    id: 7-adimda-su-patlamasi-ilk-mudahale
+    bullets:
+      - 1. **Adım 1 — Ana su vanasını kapatın:** Dairenin ana vanası genelde mutfak evyesi altında, banyo girişinde veya daire girişindeki kolon dolabındadır; apartmanlarda ayrıca bodrumda ortak sayaç odası vardır. Vanayı saat yönünde sonuna kadar çevirin. Kollu (kelebek) vanalarda kolun boruya dik durması kapalı demektir. Vana paslanmış ve dönmüyorsa zorlamayın; bina ana vanasını kapatın.
+      - 2. **Adım 2 — Elektriği güvene alın:** Su; priz, aydınlatma hattı veya beyaz eşya kablolarına ulaştıysa sigorta kutusundan ilgili hattın sigortasını indirin. Sigorta kutusuna su ulaşmışsa kuru elle ve kuru zeminde durarak ana şalteri kapatın; asla ıslak elle elektrik donanımına dokunmayın. Su tavan ışıklığından damlıyorsa o hattı kullanmayın.
+      - 3. **Adım 3 — Kombiyi ve su ısıtıcısını kapatın:** Su kesildiğinde kombi ve şofben emniyet devreye girmezse zarar görebilir. Cihazı kapatın; gazlı cihazlarda gaz vanasını da kapatın. Kombiyle ilgili temel bilgiler için kombi nasıl kapatılır rehberimize bakabilirsiniz.
+      - 4. **Adım 4 — Boruda kalan suyu tahliye edin:** Ana vana kapandıktan sonra boruda kalan statik su bir süre daha akar. En alttaki muslukları açarak hattı boşaltın; böylece patlak noktasından akan su kesilir. Su hâlâ basınçlı geliyorsa yanlış vanayı kapatmış olabilirsiniz — bina ana vanasını kapatın.
+      - 5. **Adım 5 — Hasarı sınırlayın ve belgeleyin:** Değerli eşyaları, halıları ve elektronik cihazları su bölgesinden uzaklaştırın; kova ve havlularla suyun yayılmasını engelleyin. Sigorta için onarımdan önce tarihli fotoğraf ve video çekin; alt komşuya su indiyse mutlaka haber verin ve onların hasarını da belgeleyin.
+      - 6. **Adım 6 — Patlağın yerini belirleyin:** Ses ve akış yönünü takip ederek patlamanın hangi duvar veya zemin arkasında olduğunu tahmin edin. Gizli kaçaklarda nokta atışı tespit için termal kamera ve akustik dinleme cihazıyla su kaçağı tespiti yaptırmak, gereksiz kırımı önler.
+      - 7. **Adım 7 — Tesisatçıyı arayın ve sigortaya bildirin:** Patlayan boru çoğu zaman duvar veya zemin arkasındadır; profesyonel ekipman olmadan hem hasar büyür hem de yanlış nokta kırılır. Tesisatçıyı ararken vana modelini ve patlak bölgenin fotoğrafını hazır edin. Konut sigortanız varsa hasarı poliçe süresi içinde bildirin.
+  - heading: 'Boru Tipine Göre Patlama Riski: PPRC, PVC, PEX ve Metal'
     paragraphs:
-      - "Detaylı boru seçim rehberi: [tesisat borusu çeşitleri karşılaştırması](/blog/tesisat-borusu-cesitleri-pprc-pvc-pex)."
+      - 'Patlama riski borunun malzemesine ve yaşına göre değişir. Aşağıdaki tablo sahada gözlemlediğimiz tipik zayıf noktaları özetler:'
+      - '**Boru tiplerine göre patlama riski ve zayıf noktalar**'
+    bullets:
+      - 'Not: Bu tablo genel saha gözlemine dayanır; kesin risk değerlendirmesi yerinde inceleme gerektirir.'
+      - '**PPRC (plastik):** Düşük ısıda yapılmış kaynak ekleri — Donma, yanlış kaynak, basınç dalgalanması'
+      - '**PVC (atık su):** Yapıştırmalı ek yerleri, darbe — Dış darbe, güneş altında eskime'
+      - '**PEX (esnek):** Rekor ve kelepçe bağlantıları — Aşırı sıkma, UV maruziyeti'
+      - '**Galvaniz / metal:** İç korozyonla incelmiş cidar — Yaş, su sertliği, pas'
     image:
-      src: "/blog-images/su-patlamasi-ilk-mudahale-symptoms.jpg"
-      alt: "Su patlaması müdahale belirtiler"
-      caption: "Su patlaması belirtiler."
-  - heading: "Kaçak Neden Oldu? 5 Belirti ile Erken Tespit"
+      src: /blog-images/su-patlamasi-boru-karsilastirma.jpg
+      alt: Boru tiplerine göre patlama riski karşılaştırması
+      caption: Her boru tipinin zayıf noktası farklıdır.
+    id: boru-tipine-gore-patlama-riski-pprc-pvc-pex-ve-metal
+  - heading: Patlamadan Önce Borunun Verdiği 5 Erken Belirti
     paragraphs:
-      - "Su patlamadan önce boru genelde **7–14 gün** sinyal verir. Aşağıdakilerden 2'sini görürseniz [su kaçağı tespiti](/blog/su-kacagi-tespiti) uygulaması yaptırın:"
+      - 'Boru çoğu zaman aniden değil, önce sinyal vererek arızalanır. Aşağıdaki belirtilerden ikisini aynı anda görüyorsanız patlama gerçekleşmeden kaçak tespiti yaptırmanız gerekir:'
+    bullets:
+      - Duvar veya tavanda büyüyen nem lekesi, kabaran boya veya sıva dökülmesi
+      - Musluklar kapalıyken su sayacının dönmeye devam etmesi — gizli kaçağın en net işaretidir; detaylar için su sayacı dönüyor (gizli kaçak) rehberimize bakın
+      - Su faturasında açıklanamayan artış
+      - Tesisattan gelen damlama, tıslama veya su darbesi sesi
+      - Banyo veya mutfakta küf kokusu ve sürekli nemli bölgeler
+    inlineLinks:
+      - anchor: su sayacı dönüyor (gizli kaçak) rehberimize
+        slug: su-sayaci-donuyor-gizli-kacak
     image:
-      src: "/blog-images/su-patlamasi-ilk-mudahale-chart.jpg"
-      alt: "Su patlaması müdahale grafik"
-      caption: "Su patlaması grafik."
-  - heading: "Yapılan En Sık 6 Hata — Tesisatçı Ne Zaman Şart?"
+      src: /blog-images/su-patlamasi-belirtiler.jpg
+      alt: Su kaçağı erken belirtileri — nem lekesi ve kabaran boya
+      caption: Nem lekesi ve kabaran boya, gizli kaçağın ilk işaretleridir.
+    id: patlamadan-once-borunun-verdigi-5-erken-belirti
+  - heading: Yapılan En Sık 6 Hata
     paragraphs:
-      - "Sahada gördüğümüz can yakan hatalar:"
-      - "**Tesisatçı çağırmalısınız çünkü:** patlayan boru %70 oranında duvar/zemin arkasındadır; profesyonel ekipman olmadan hem hasar büyür hem de yanlış noktayı kırma riski vardır. [Acil tesisatçı hizmetimiz](/hizmet/acil-tesisatci) 7/24 aktiftir; İstanbul genelinde 25–45 dk içindeyiz."
-  - heading: "Otoriter Kaynaklar ve Referanslar"
+      - 'Sahada en sık gördüğümüz, hasarı büyüten hatalar şunlardır:'
+      - '**Elektrik güvenliği önce gelir: Su priz veya aydınlatma hattına ulaştıysa temizlikten önce sigortayı indirin. Islak zeminde elektrikli cihaz (elektrik süpürgesi dahil) kullanmayın; suyu kova ve havluyla alın.**'
+    bullets:
+      - Vanayı kapatmadan patlak noktayı bantla sarmaya çalışmak — basınçlı su bandı fırlatır ve zaman kaybettirir.
+      - Elektriği kesmeden su birikintisine girmek — elektrik çarpması riski, su hasarından daha yakın tehlikedir.
+      - Ana vana yerine sadece musluk bataryasını kapatmak — hat basıncı devam eder, patlak akmaya devam eder.
+      - Donmuş boruyu açık alevle ısıtmak — boru ani ısınmayla patlayabilir; saç kurutma makinesi veya sıcak havlu kullanın.
+      - Fotoğraf çekmeden temizliğe başlamak — sigorta hasar tespitinde belge ister.
+      - Alt komşuya haber vermemek — tavan hasarı büyür ve sigorta süreci zorlaşır.
+    id: yapilan-en-sik-6-hata
+  - heading: Tesisatçı Ne Zaman Şart?
     paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Sonuç: 5 Dakika ile Onbinlerce TL Fark"
-    paragraphs:
-      - "Su borusu patladığında sırayla: **ana vana kapat → elektriği kes → suyu tahliye et → değerli eşyayı kurtar → tesisatçı ara → sigortaya bildir.** Bu 6 adımlık disiplinli müdahale, ortalama bir daire su patlamasında hasarı 10 kat azaltır."
-      - "Şu anda aktif bir patlamanız varsa vakit kaybetmeyin: **0533 896 05 03** — 7/24 acil tesisatçı, İstanbul içi 25–45 dakika içinde adresinizde."
-  - heading: "Sıkça Sorulan Sorular (SSS)"
-    paragraphs:
-      - "Panik yapmadan 30 saniye içinde ana su vanasını kapatın (saat yönünde çevirin). Ardından suyla temas eden bölgenin elektrik sigortasını indirin. Bu iki adım hasarın %80'ini önler; sonrasında acil tesisatçıyı arayabilirsiniz (0533 896 05 03)."
-      - "Genelde üç yerden birindedir: daire girişindeki kolon dolabı, mutfak evyesi ya da banyo lavabosu altı, ya da apartman bodrumundaki ortak sayaç odası. Yeni binalarda daire içi vana standarttır; eski binalarda çoğunlukla bodrumdan kapatılır."
-      - "Hayır. Su, tavan ışıklığı ya da priz seviyesine ulaştıysa mutlaka önce ana şalteri kapatın. Sigorta kutusu sudan uzaktaysa hemen kapatın; sigorta kutusuna su geliyorsa itfaiyeye (110) haber verin."
-      - "Ana vana kapalıysa boruda kalan statik su 2–5 dakikada boşalır. Bant/tape ile sarmak kalıcı çözüm değildir ve basınç altında fırlatabilir; sadece ana vana kapalıyken damla düzeyindeki sızıntıya geçici olarak uygulanabilir."
-  - heading: "Gölge Tesisat İstanbul — Acil Servis"
-    paragraphs:
-      - "İstanbul geneli 7/24 tesisat servisimiz Kadıköy, Beşiktaş, Ümraniye, Başakşehir dahil tüm ilçelerde 45 dakika içinde adresinize gelir. Fiyat aralıklarımız arıza türüne göre değişir; net teklif için telefonla ulaşın."
-    callout:
-      variant: "tip"
-      title: "Ustayı çağırmadan önce"
-      body: "Kombi/vana modelini ve fotoğrafı hazır edin; teşhis süresi kısalır, maliyet düşer."
-    cta:
-      title: "Acil tesisatçı mı arıyorsunuz?"
-      body: "İstanbul içi 45 dakikada saha ekibimizi adresinize yönlendiriyoruz."
-      phone: true
-      whatsapp: true
+      - 'Ana vana kapandıktan sonra damla düzeyindeki küçük bir sızıntıyı epoksi macun veya kelepçeli lastik yamayla geçici olarak durdurabilirsiniz; ancak bu sadece tesisatçı gelene kadar zaman kazandırır. Şu durumlarda profesyonel müdahale zorunludur:'
+    bullets:
+      - Patlak duvar veya zemin arkasındaysa — nokta tespiti ve kırım profesyonel ekipman ister.
+      - Ana vana kapanmıyor veya paslanmışsa — vana değişimi gerekir.
+      - Sıcak su hattı veya kalorifer tesisatı patladıysa — basınç ve sıcaklık riski vardır.
+      - Bina ana hattında veya kolon hattında sorun varsa — apartman yönetimiyle koordinasyon gerekir.
+      - Ekibimiz İstanbul Avrupa ve Anadolu yakasında acil tesisat servisi vermektedir; arızayı telefonda dinleyip net bilgi veriyoruz, onayınız olmadan işe başlamıyoruz.
+    id: tesisatci-ne-zaman-sart
+    image:
+      src: /blog-images/su-patlamasi-ilk-mudahale-chart.jpg
+      alt: su patlamasi ilk mudahale — chart
+      caption: Durum değerlendirme grafiği
 faq:
-  - q: "Su borusu patladığında ilk 60 saniyede ne yapmalıyım?"
-    a: "1) Dairenin ana su vanasını (kolonu) kapatın. 2) Sigortayı indirin (özellikle patlak alanın üstündeki priz/aydınlatma hattı). 3) Kombiyi kapatın. 4) Ardından hasar kontrolü ve alt komşuya haber."
-  - q: "Ana su vanası nerede olur?"
-    a: "Genellikle mutfak lavabosu altında, banyo giriş tavanında veya balkon rögarında bulunur. Apartmanlarda ayrıca bodrumda kolon vanaları vardır — her ev sahibi kendi kolon vanasının yerini önceden öğrenmelidir."
-  - q: "Vanayı kapattım ama su hâlâ akıyor, neden?"
-    a: "Borularda basınçlı kalan su 30–90 saniye daha akar (normal). Devam ederse yanlış vanayı kapattınız, ikinci bir kaçak var veya vana arızalı (kapanmıyor). Bina ana vanasını kapatın."
-  - q: "Elektriği kapatmam şart mı?"
-    a: "Evet, su ile temas eden priz/aydınlatma hattının sigortasını mutlaka indirin. Elektrik çarpması riski yangından daha yakın tehlikedir. Şüphedeyseniz tüm sigortayı kapatın."
-  - q: "Alt komşuya su indi, ne yapmalıyım?"
-    a: "Hemen kapıyı çalın, haber verin ve fotoğraf/video çekin (kendi dairenizde ve komşuda). DASK/konut sigortası için tutanak ve tarihli fotoğraflar zorunludur. Suçlama değil, çözüm odaklı yaklaşın."
-  - q: "Sigorta patlamayı karşılar mı?"
-    a: "Zorunlu DASK depremi karşılar, su baskınını değil. İsteğe bağlı konut sigortası 'iç su hasarı' teminatı varsa kendi + komşu hasarını öder. Poliçenizi kontrol edin."
-  - q: "Geçici olarak boruyu kendim tamir edebilir miyim?"
-    a: "Küçük çatlaklar için epoksi macun veya kelepçeli lastik yama 1–3 gün dayanır. Ancak sadece ana vana kapalıyken geçicidir; kalıcı çözüm için tesisatçı şarttır."
-  - q: "Kış aylarında donan boru patlarsa farklı ne yapmalıyım?"
-    a: "Vanayı kapatın ama donan boruyu asla açık alevle (çakmak/hava tabancası) ısıtmayın — patlar. Saç kurutma makinesi veya sıcak havlu ile ılıtın; buz çözüldükçe basıncı boşaltmak için musluğu açık tutun."
-  - q: "Ekip ne kadar sürede gelir, ücret nedir?"
-    a: "İstanbul geneli acil servisimiz ortalama 30–45 dakikada adreste. Gece/hafta sonu +%30–50 tarife uygulanır. Patlak tespit + geçici müdahale 800–1.500 TL, kalıcı tamir arıza tipine göre değişir."
+  - q: Su borusu patladığında ilk 60 saniyede ne yapmalıyım?
+    a: 1) Dairenin ana su vanasını kapatın. 2) Patlak alanın üstündeki priz/aydınlatma hattının sigortasını indirin. 3) Kombiyi kapatın. 4) Ardından hasar kontrolü yapın ve alt komşuya haber verin.
+  - q: Ana su vanası nerede olur?
+    a: Genellikle mutfak evyesi altında, banyo girişinde veya daire girişindeki kolon dolabında bulunur. Apartmanlarda ayrıca bodrumda ortak sayaç odası vardır — her ev sahibi kendi vanasının yerini önceden öğrenmelidir.
+  - q: Vanayı kapattım ama su hâlâ akıyor, neden?
+    a: Borularda basınçlı kalan su bir süre daha akar, bu normaldir. Akış kesilmiyorsa yanlış vanayı kapatmış olabilirsiniz, ikinci bir kaçak olabilir veya vana arızalıdır (tam kapanmıyor). Bu durumda bina ana vanasını kapatın.
+  - q: Elektriği kapatmam şart mı?
+    a: Evet, suyla temas eden priz veya aydınlatma hattının sigortasını mutlaka indirin. Elektrik çarpması riski, su hasarından daha yakın tehlikedir. Şüphedeyseniz ana şalteri kapatın.
+  - q: Alt komşuya su indi, ne yapmalıyım?
+    a: Hemen haber verin ve hem kendi dairenizde hem komşuda tarihli fotoğraf/video çekin. Konut sigortası hasar tespitinde belge ister. Suçlama değil, çözüm odaklı yaklaşın.
+  - q: Sigorta su patlaması hasarını karşılar mı?
+    a: Zorunlu deprem sigortası (DASK) su baskınını karşılamaz. İsteğe bağlı konut sigortasında 'iç su hasarı' teminatı varsa kendi ve komşu hasarını ödeyebilir; poliçenizi kontrol edin.
+  - q: Geçici olarak boruyu kendim tamir edebilir miyim?
+    a: Küçük çatlaklar için epoksi macun veya kelepçeli lastik yama kısa süre dayanır; ancak sadece ana vana kapalıyken ve geçici olarak uygulanabilir. Kalıcı çözüm için tesisatçı şarttır.
+  - q: Kışın donan boru patlarsa farklı ne yapmalıyım?
+    a: Vanayı kapatın ama donan boruyu asla açık alevle ısıtmayın — ani ısınma boruyu patlatabilir. Saç kurutma makinesi veya sıcak havlu ile ılıtın; buz çözülürken basıncı boşaltmak için musluğu açık tutun.
 ---
-
-# Su Borusu Patladı Ne Yapmalı? 7 Adımda İlk Müdahale (2026)
-
-Gecenin bir yarısı tavandan su damladığını fark ettiğinizde ya da mutfak dolabının altından fıskiye gibi su fışkırdığında panik yapmak çok normal. Ancak **su borusu patladığında ilk 5 dakika**, hasarın büyüklüğünü belirleyen en kritik zaman dilimidir. Doğru müdahale ile 50.000 TL'lik tavan-parke-mobilya hasarı, birkaç yüz TL'lik lokal onarıma indirilebilir.
-
-Bu rehberde 15 yıldır İstanbul'da acil tesisat müdahalesi yapan ekip olarak, sahada en sık karşılaştığımız su patlaması senaryolarında **hangi adımları hangi sırayla** uygulamanız gerektiğini adım adım anlatıyoruz. Ana vananın nerede olduğunu bilmiyor musunuz? Elektrik sigortasını kapatmadan suyla temas etmek güvenli mi? Tesisatçı gelene kadar ne yapmalısınız? Hepsinin cevabı aşağıda.
-
-> **Acil durum:** Şu an aktif bir su patlaması varsa önce ana su vananızı kapatın → sonra elektriği kesin → sonra bizi arayın: **0533 896 05 03** (7/24).
-
-## Su Borusu Patlaması Nedir ve Neden Olur?
-
-Su borusu patlaması, tesisat borusundaki basıncın borunun dayanım sınırını aşması sonucu boru cidarının yırtılması ya da ek yerinin ayrılmasıdır. Türkiye'de en sık görülen 4 sebep:
-
-- **Donma-çözülme çevrimi (kış aylarında %62)** — dış duvara komşu PPRC borularda su donunca hacim %9 genişler, boru çatlar; çözülünce su patlar.
-- **Kireç ve korozyon** — 15+ yaşındaki galvanizli borularda iç çeperde delinme.
-- **Basınç dalgalanması (water hammer)** — hidrofor ya da şehir şebeke basıncının aniden 6 bar üzerine çıkması.
-- **Yanlış montaj / ek yeri hatası** — presiz olmayan PEX ekleri, gevşek PPRC kaynağı.
-
-Boru tipine göre risk profili değişir. Bu konuyu detaylı ele aldığımız [tesisat borusu çeşitleri (PPRC, PVC, PEX) karşılaştırması](/blog/tesisat-borusu-cesitleri-pprc-pvc-pex) rehberine göz atabilirsiniz.
-
-## 7 Adımda Su Patlaması İlk Müdahale
-
-![Su patlaması 7 adım infografik](/blog-images/su-patlamasi-7-adim.jpg)
-
-### Adım 1 — Ana Su Vanasını Kapatın
-
-**Süre: 30 saniye. En kritik adım budur.** Ana vana genelde şu 3 yerden birindedir:
-
-1. Daire girişindeki kolon dolabında (yeni binalar)
-2. Mutfak evyesi altında ya da banyo lavabosu altında
-3. Apartman bodrumundaki sayaç odasında (eski binalar)
-
-Vanayı **saat yönünde** sonuna kadar çevirin. Kollu (kelebek) vanalarda kolu boruya dik pozisyona getirmek kapalı demektir.
-
-> Ana vananın yerini şu an dahi bilmiyorsanız, patlama olmadan öğrenin. Detaylı görsel rehber: [su vanası nasıl kapatılır ve açılır](/blog/su-vanasi-nasil-kapatilir-acilir).
-
-### Adım 2 — Elektrik Sigortasını Kapatın
-
-Su + elektrik = ölümcül. Özellikle **tavan ışıklıkları, prizler ve beyaz eşya kablolarına** su ulaştıysa sigorta kutusunu bulup ana şalteri indirin. Eğer sigorta kutusu suyun aktığı bölgedeyse, **kuru bir tahta parçası ile** şaltere dokunun; asla ıslak elle temas etmeyin.
-
-### Adım 3 — Patlama Noktasını Tespit Edin
-
-Ana vana kapalı olmasına rağmen su akmaya devam ediyorsa, boruda kalan **statik su hacmi** boşalıyordur (normal olarak 2–5 dakika içinde kesilir). Bu süre içinde ses ve akış yönünü takip ederek patlamanın hangi duvar/zemin arkasında olduğunu belirleyin. Belirleyemiyorsanız [su kaçağı tespiti](/blog/su-kacagi-tespiti) yöntemleri ile termal kamera + akustik cihaz kullanılabilir.
-
-### Adım 4 — Suyu Tahliye Edin
-
-Zemine biriken suyu **paspas + kova** kombinasyonu ile hemen alın. 1 cm su, laminat parkeyi 4–6 saatte şişirir; halıya işleyen su 24 saat içinde küf üretir. Elektrikli su tahliye pompanız yoksa büyük havlu + kova en hızlı çözümdür.
-
-### Adım 5 — Değerli Eşyaları Uzaklaştırın
-
-Elektronik cihazlar, ahşap mobilya, halı ve kağıt evraklar öncelikli. Tavan patlamasında yatak-koltuk üzerine **naylon örtü** çekmek 5 dakikada 20.000 TL'lik hasar önler.
-
-### Adım 6 — Acil Tesisatçı Arayın
-
-**0533 896 05 03** numarasından bize ulaşın. Aramada şu 4 bilgiyi hazır tutun: (1) adres + kat, (2) boru tipi (bilmiyorsanız "bilmiyorum" yeterli), (3) patlama noktası tahmini, (4) ana vananın kapalı olup olmadığı. İstanbul içi ortalama varış süremiz 25–45 dakika.
-
-### Adım 7 — Sigortaya ve Yöneticiye Haber Verin
-
-DASK ve konut sigortanız su hasarını karşılayabilir. Ancak çoğu poliçe **48 saat içinde bildirim** şartı arar. Fotoğraf/video çekmeyi unutmayın; komşu daireye zarar verdiyse hemen apartman yöneticisine bilgi verin.
-
-## PPRC, PVC ve PEX: Patlama Riski Karşılaştırması
-
-![PPRC, PVC ve PEX boru karşılaştırma](/blog-images/su-patlamasi-boru-karsilastirma.jpg)
-
-| Boru Tipi              | Ömür   | Donma Direnci         | Patlama Riski        | Ortalama Onarım |
-| ---------------------- | ------ | --------------------- | -------------------- | --------------- |
-| **PPRC (yeşil)**       | 50 yıl | Orta (donarsa çatlar) | Düşük — ek yerinden  | 800–1500 TL     |
-| **PVC (beyaz)**        | 25 yıl | Düşük                 | Orta — gövde çatlağı | 500–1000 TL     |
-| **PEX (kırmızı-mavi)** | 40 yıl | Yüksek (esner)        | Çok düşük            | 1200–2000 TL    |
-| **Galvaniz (eski)**    | 20 yıl | Yüksek                | Yüksek — korozyon    | 1500–3500 TL    |
-
-Detaylı boru seçim rehberi: [tesisat borusu çeşitleri karşılaştırması](/blog/tesisat-borusu-cesitleri-pprc-pvc-pex).
-
-## Kaçak Neden Oldu? 5 Belirti ile Erken Tespit
-
-![Su kaçağı 5 erken belirti](/blog-images/su-patlamasi-belirtiler.jpg)
-
-Su patlamadan önce boru genelde **7–14 gün** sinyal verir. Aşağıdakilerden 2'sini görürseniz [su kaçağı tespiti](/blog/su-kacagi-tespiti) uygulaması yaptırın:
-
-1. Su sayacında kimse kullanmıyorken dönme
-2. Duvarda nemli leke ya da boya kabarması
-3. Su faturasında %30+ ani artış
-4. Basınç düşüklüğü (duşta zayıf akış)
-5. Boru arkasından gelen sürekli tıslama sesi
-
-## Yapılan En Sık 6 Hata — Tesisatçı Ne Zaman Şart?
-
-![Su patlaması sebep dağılımı grafik](/blog-images/su-patlamasi-sebep-grafik.jpg)
-
-Sahada gördüğümüz can yakan hatalar:
-
-- Vanayı kapatmadan bant/tape ile boruyu sarmaya çalışmak (basınç bandı fırlatır)
-- Elektriği kesmeden suya basmak
-- Tavan patlamasında alçıpanı delerek suyu akıtmaya çalışmak (elektrik hattı olabilir)
-- "Yarın tesisatçı gelir" diyerek gece geçirmek (küf ve altındaki dairede tavan hasarı)
-- Patlayan boruyu kendin değiştirmeye kalkışmak (yeni patlama)
-- Sigortaya haber vermeden onarım başlatmak (poliçe iptal riski)
-
-**Tesisatçı çağırmalısınız çünkü:** patlayan boru %70 oranında duvar/zemin arkasındadır; profesyonel ekipman olmadan hem hasar büyür hem de yanlış noktayı kırma riski vardır. [Acil tesisatçı hizmetimiz](/hizmet/acil-tesisatci) 7/24 aktiftir; İstanbul genelinde 25–45 dk içindeyiz.
-
-## Otoriter Kaynaklar ve Referanslar
-
-- [İSKİ — İstanbul Su ve Kanalizasyon İdaresi](https://www.iski.istanbul/)
-- [AFAD — Afet ve Acil Durum Yönetimi](https://www.afad.gov.tr/)
-- [TSE — Türk Standartları Enstitüsü](https://www.tse.org.tr/)
-
-## Sonuç: 5 Dakika ile Onbinlerce TL Fark
-
-Su borusu patladığında sırayla: **ana vana kapat → elektriği kes → suyu tahliye et → değerli eşyayı kurtar → tesisatçı ara → sigortaya bildir.** Bu 6 adımlık disiplinli müdahale, ortalama bir daire su patlamasında hasarı 10 kat azaltır.
-
-Şu anda aktif bir patlamanız varsa vakit kaybetmeyin: **0533 896 05 03** — 7/24 acil tesisatçı, İstanbul içi 25–45 dakika içinde adresinizde.
-
-## Sıkça Sorulan Sorular (SSS)
-
-### Su borusu patladığında ilk ne yapmalıyım?
-
-Panik yapmadan 30 saniye içinde ana su vanasını kapatın (saat yönünde çevirin). Ardından suyla temas eden bölgenin elektrik sigortasını indirin. Bu iki adım hasarın %80'ini önler; sonrasında acil tesisatçıyı arayabilirsiniz (0533 896 05 03).
-
-### Ana su vanası nerede olur?
-
-Genelde üç yerden birindedir: daire girişindeki kolon dolabı, mutfak evyesi ya da banyo lavabosu altı, ya da apartman bodrumundaki ortak sayaç odası. Yeni binalarda daire içi vana standarttır; eski binalarda çoğunlukla bodrumdan kapatılır.
-
-### Elektriğe basmadan suyu paspaslayabilir miyim?
-
-Hayır. Su, tavan ışıklığı ya da priz seviyesine ulaştıysa mutlaka önce ana şalteri kapatın. Sigorta kutusu sudan uzaktaysa hemen kapatın; sigorta kutusuna su geliyorsa itfaiyeye (110) haber verin.
-
-### Tesisatçı gelene kadar suyu geçici olarak nasıl durdururum?
-
-Ana vana kapalıysa boruda kalan statik su 2–5 dakikada boşalır. Bant/tape ile sarmak kalıcı çözüm değildir ve basınç altında fırlatabilir; sadece ana vana kapalıyken damla düzeyindeki sızıntıya geçici olarak uygulanabilir.
-
-### Su patlaması sigortası karşılar mı?
-
-Konut sigortanız (özellikle 'iç su hasarı' teminatı varsa) hem kendi dairenize hem de komşu daireye verdiğiniz hasarı karşılayabilir. Şart: 48 saat içinde bildirim + fotoğraf/video kaydı + tesisatçı raporu. DASK sadece deprem hasarını kapsar.
-
-### İstanbul'da acil tesisatçı ortalama ne kadar sürede gelir?
-
-Ekibimiz İstanbul merkez ilçeler için 25–45 dakika arasında adresinizdedir. Çankaya, Yenimahalle, Keçiören, Etimesgut ve Mamak öncelikli servis bölgelerimizdir. 0533 896 05 03 üzerinden 7/24 ulaşabilirsiniz.

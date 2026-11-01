@@ -34,7 +34,7 @@
   --color-brand-gold: var(--brand-gold);
   --color-surface: var(--surface);
   --color-surface-2: var(--surface-2);
-  --font-display: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
+  --font-display: "Outfit", "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
   --color-foreground: var(--foreground);
   --color-card: var(--card);
   --color-card-foreground: var(--card-foreground);
@@ -79,15 +79,17 @@
 
 :root {
   --radius: 0.875rem;
-  --background: oklch(0.16 0.03 260);
+  --background: oklch(0.145 0.02 260);
   --foreground: oklch(0.98 0 0);
-  --brand-red: oklch(0.58 0.22 25);
+  --brand-red: oklch(0.60 0.22 25);
   --brand-red-foreground: oklch(0.99 0 0);
   --brand-green: oklch(0.55 0.16 150);
   --brand-green-foreground: oklch(0.99 0 0);
   --brand-gold: oklch(0.82 0.15 80);
-  --surface: oklch(0.20 0.03 260);
-  --surface-2: oklch(0.24 0.03 260);
+  --surface: oklch(0.175 0.02 260);
+  --surface-2: oklch(0.21 0.02 260);
+  --editorial-glow: oklch(0.64 0.23 29);
+  --editorial-warm: oklch(0.74 0.19 55);
   --card: oklch(0.20 0.03 260);
   --card-foreground: oklch(0.98 0 0);
   --popover: oklch(0.20 0.03 260);
@@ -118,6 +120,96 @@
   --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
   --sidebar-border: oklch(0.929 0.013 255.508);
   --sidebar-ring: oklch(0.704 0.04 256.788);
+}
+
+/* Bosch reset guide: technical editorial treatment based on the supplied mobile reference. */
+.bosch-editorial {
+  background-image:
+    linear-gradient(to right, color-mix(in oklab, var(--foreground) 3%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in oklab, var(--foreground) 3%, transparent) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+.bosch-editorial .bosch-topbar {
+  background-color: color-mix(in oklab, var(--background) 92%, transparent);
+}
+.bosch-editorial .bosch-headline {
+  max-width: 920px;
+}
+.bosch-editorial .bosch-headline::first-line {
+  color: var(--foreground);
+}
+.bosch-editorial .bosch-title-block > div:first-child span:first-child,
+.bosch-editorial .bosch-section h2 {
+  text-wrap: balance;
+}
+.bosch-editorial .bosch-hero {
+  position: relative;
+}
+.bosch-editorial .bosch-hero::after {
+  content: "BOSCH RESET REHBERİ";
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  border: 1px solid color-mix(in oklab, var(--brand-red) 55%, transparent);
+  border-radius: 999px;
+  background: color-mix(in oklab, var(--background) 80%, transparent);
+  padding: 7px 11px;
+  color: var(--foreground);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  backdrop-filter: blur(10px);
+}
+.bosch-editorial .bosch-section:nth-of-type(even) .bosch-inline-figure {
+  filter: saturate(.92) contrast(1.04);
+}
+.bosch-editorial .bosch-table thead {
+  color: var(--foreground);
+}
+.bosch-editorial .bosch-table th:first-child {
+  color: var(--brand-red);
+}
+
+/* Taharet musluğu guide: compact dark technical editorial layout. */
+.tm-editorial {
+  background-image:
+    linear-gradient(to right, color-mix(in oklab, var(--foreground) 2.5%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in oklab, var(--foreground) 2.5%, transparent) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+.tm-hot {
+  background-image: linear-gradient(105deg, var(--editorial-warm), var(--brand-red));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.tm-cta {
+  background: linear-gradient(120deg, color-mix(in oklab, var(--brand-red) 22%, var(--surface)), var(--surface));
+  box-shadow: 0 20px 50px -35px color-mix(in oklab, var(--brand-red) 80%, transparent);
+}
+
+@media (max-width: 639px) {
+  .bosch-editorial { background-size: 24px 24px; }
+  .bosch-editorial .bosch-headline {
+    background-image: linear-gradient(105deg, var(--foreground) 0 38%, var(--editorial-warm) 58%, var(--brand-red) 88%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .bosch-editorial .bosch-author {
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: color-mix(in oklab, var(--surface) 88%, transparent);
+    padding: 12px;
+  }
+  .bosch-editorial .bosch-hero {
+    margin-inline: -16px;
+  }
+  .bosch-editorial .bosch-hero figcaption { padding-inline: 16px; }
+  .bosch-editorial .bosch-section {
+    border-top: 1px solid var(--border);
+  }
+  .bosch-editorial .bosch-table table { min-width: 620px; }
 }
 
 .dark {
@@ -405,3 +497,254 @@
   .dh-scan { animation: dh-scan 5.5s ease-in-out infinite; }
 }
 
+
+/* Blog service promo card */
+:root {
+  --success: oklch(0.72 0.17 150);
+  --whatsapp: oklch(0.68 0.16 152);
+  --whatsapp-foreground: oklch(0.99 0 0);
+  --shadow-promo: 0 24px 60px -18px color-mix(in oklab, var(--brand-red) 45%, transparent), 0 8px 24px -12px color-mix(in oklab, var(--foreground) 30%, transparent);
+}
+@theme inline {
+  --color-success: var(--success);
+  --color-whatsapp: var(--whatsapp);
+  --color-whatsapp-foreground: var(--whatsapp-foreground);
+}
+@layer components {
+  @keyframes promo-in {
+    0% { opacity: 0; transform: translateX(120%) scale(0.96); }
+    70% { opacity: 1; transform: translateX(-6px) scale(1); }
+    100% { opacity: 1; transform: translateX(0) scale(1); }
+  }
+  @keyframes promo-zoom { from { transform: scale(1.12); } to { transform: scale(1); } }
+  @keyframes promo-live { 0%,100% { opacity: 1; } 50% { opacity: 0.35; } }
+  @keyframes promo-sheen { 0% { transform: translateX(-120%) skewX(-20deg); } 100% { transform: translateX(260%) skewX(-20deg); } }
+  .promo-card { animation: promo-in 0.75s cubic-bezier(0.22, 1, 0.36, 1) both; }
+  .promo-glow { box-shadow: var(--shadow-promo); }
+  .promo-zoom { animation: promo-zoom 6s ease-out both; }
+  .promo-live { animation: promo-live 1.6s ease-in-out infinite; }
+  .promo-btn-primary { position: relative; overflow: hidden; transition: transform .2s; }
+  .promo-btn-primary:hover { transform: translateY(-1px); }
+  .promo-btn-primary::after { content: ""; position: absolute; inset: 0; width: 40%; background: linear-gradient(90deg, transparent, color-mix(in oklab, white 35%, transparent), transparent); animation: promo-sheen 2.8s ease-in-out 1s infinite; }
+  @media (prefers-reduced-motion: reduce) {
+    .promo-card, .promo-zoom, .promo-live, .promo-btn-primary::after { animation: none; }
+  }
+}
+
+/* Su vanası editorial article (reference-matched layout) */
+:root {
+  --success-foreground: oklch(0.99 0 0);
+  --warning: oklch(0.78 0.16 70);
+  --sv-orange: oklch(0.74 0.17 55);
+}
+@theme inline {
+  --color-success-foreground: var(--success-foreground);
+  --color-warning: var(--warning);
+}
+.sv-editorial {
+  background-image:
+    linear-gradient(to right, color-mix(in oklab, var(--foreground) 3%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in oklab, var(--foreground) 3%, transparent) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+.sv-editorial h2, .sv-editorial h1 { text-wrap: balance; }
+.sv-grad {
+  background: linear-gradient(90deg, var(--sv-orange), var(--brand-red));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.sv-cta {
+  background: radial-gradient(120% 140% at 0% 0%, color-mix(in oklab, var(--brand-red) 38%, transparent), color-mix(in oklab, var(--brand-red) 8%, var(--surface)) 60%);
+  box-shadow: 0 0 40px -12px color-mix(in oklab, var(--brand-red) 60%, transparent);
+}
+.sv-fade { mask-image: linear-gradient(to bottom, black 75%, transparent); }
+.sv-fade-l { mask-image: linear-gradient(to right, transparent, black 30%); }
+
+/* ===== Command Center (homepage) ===== */
+@utility cc-grad {
+  background-image: linear-gradient(100deg, var(--brand-red) 0%, oklch(0.72 0.19 40) 45%, var(--brand-gold) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+@utility cc-card {
+  border: 1px solid rgb(255 255 255 / 0.07);
+  background: rgb(255 255 255 / 0.04);
+  border-radius: 1.25rem;
+  backdrop-filter: blur(14px);
+}
+@utility cc-sheen {
+  position: relative;
+  overflow: hidden;
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    transform: translateX(-120%) skewX(-18deg);
+    background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.22), transparent);
+    animation: cc-sheen-move 4.5s ease-in-out infinite;
+  }
+}
+@keyframes cc-sheen-move {
+  0%, 55% { transform: translateX(-120%) skewX(-18deg); }
+  85%, 100% { transform: translateX(140%) skewX(-18deg); }
+}
+@keyframes cc-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+.cc-float { animation: cc-float 5s ease-in-out infinite; }
+
+/* Reference-matched appointment panel */
+.appointment-panel {
+  background-color: var(--background);
+  background-image:
+    linear-gradient(to right, color-mix(in oklab, var(--brand-red) 10%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in oklab, var(--brand-red) 10%, transparent) 1px, transparent 1px),
+    radial-gradient(circle at 92% 8%, color-mix(in oklab, var(--brand-red) 24%, transparent), transparent 36%);
+  background-size: 36px 36px, 36px 36px, 100% 100%;
+  box-shadow: inset 0 0 50px color-mix(in oklab, var(--background) 70%, transparent), 0 24px 60px -36px color-mix(in oklab, var(--brand-red) 70%, transparent);
+}
+.appointment-submit {
+  box-shadow: 0 12px 34px -10px color-mix(in oklab, var(--brand-red) 80%, transparent), inset 0 1px 0 color-mix(in oklab, var(--brand-red-foreground) 35%, transparent);
+}
+
+/* Services showcase (homepage) */
+.svc2 { --svc2-bg: #0b1220; --svc2-card: #111a2b; --svc2-red: #ff2a2a; --svc2-orange: #ff7a1a; background: radial-gradient(120% 80% at 80% 0%, #13213a 0%, var(--svc2-bg) 55%); }
+.svc2-card { background: linear-gradient(180deg, #152036, var(--svc2-card)); box-shadow: inset 0 1px 0 rgba(255,255,255,.08), 0 20px 40px -24px rgba(0,0,0,.8); transition: transform .35s, border-color .35s, box-shadow .35s; }
+.svc2-card:hover { transform: translateY(-4px); border-color: rgba(255,42,42,.5); box-shadow: 0 24px 50px -24px rgba(255,42,42,.45); }
+.svc2-icon { background: radial-gradient(circle at 35% 30%, #5a1010, #2a0606); border: 2px solid var(--svc2-red); box-shadow: 0 0 18px rgba(255,42,42,.45); }
+.svc2-btn { background: linear-gradient(180deg, #ff3b3b, #e01010); color: #fff; box-shadow: 0 10px 24px -10px rgba(255,42,42,.9), inset 0 1px 0 rgba(255,255,255,.3); }
+.svc2-banner { background: linear-gradient(100deg, #b80f12 0%, #5a0a10 45%, #1a0f1a 100%); }
+@keyframes svc2-fade { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+.svc2-fade { animation: svc2-fade .7s cubic-bezier(.2,.7,.2,1) both; }
+@keyframes svc2-draw { from { stroke-dasharray: 220; stroke-dashoffset: 220; } to { stroke-dasharray: 220; stroke-dashoffset: 0; } }
+.svc2-draw { animation: svc2-draw 1.2s .6s ease-out both; }
+@keyframes svc2-drift { 0%,100% { transform: scale(1.04); } 50% { transform: scale(1.1) translateX(-1%); } }
+.svc2-drift { animation: svc2-drift 14s ease-in-out infinite; }
+@keyframes svc2-pulse { 0%,100% { box-shadow: 0 0 0 0 rgba(255,42,42,.55); } 50% { box-shadow: 0 0 0 10px rgba(255,42,42,0); } }
+.svc2-pulse { animation: svc2-pulse 2.2s infinite; }
+@media (prefers-reduced-motion: reduce) { .svc2-fade,.svc2-draw,.svc2-drift,.svc2-pulse { animation: none; } }
+
+/* Reference-matched shared service pages */
+:root {
+  --service-nav: oklch(0.12 0.018 255 / 94%);
+  --service-panel: oklch(0.17 0.022 255);
+  --service-panel-strong: oklch(0.20 0.028 255);
+  --service-shadow: 0 24px 70px -34px color-mix(in oklab, var(--brand-red) 48%, transparent);
+}
+.service-nav, .service-contact-bar { background: var(--service-nav); }
+.service-hero { min-height: 430px; }
+.service-hero-shade { background: linear-gradient(90deg, var(--background) 5%, color-mix(in oklab, var(--background) 86%, transparent) 48%, color-mix(in oklab, var(--background) 12%, transparent) 100%); }
+.service-feature-card { border-radius: 1.25rem; background: var(--service-panel); box-shadow: inset 3px 0 0 var(--brand-red), var(--service-shadow); }
+.service-card-shade { background: linear-gradient(90deg, var(--service-panel) 0%, var(--service-panel) 55%, color-mix(in oklab, var(--service-panel) 24%, transparent) 100%); }
+.service-all-button { border-radius: 1.15rem; background: linear-gradient(100deg, color-mix(in oklab, var(--brand-red) 24%, var(--service-panel)), var(--service-panel)); box-shadow: inset 0 1px 0 color-mix(in oklab, var(--foreground) 10%, transparent); }
+.service-panel { border: 1px solid var(--border); border-radius: 1.25rem; background: linear-gradient(145deg, var(--service-panel-strong), var(--service-panel)); padding: 1.25rem; }
+.service-panel h2 { margin-top: .3rem; font-family: var(--font-display); font-size: 1.35rem; font-weight: 900; line-height: 1.15; }
+.service-panel > p:not(.service-kicker), .service-step p, .service-faq p { margin-top: .55rem; color: var(--muted-foreground); font-size: .82rem; line-height: 1.6; }
+.service-kicker { color: var(--brand-red); font-size: .65rem; font-weight: 900; letter-spacing: .16em; text-transform: uppercase; }
+.service-check-grid { display: grid; gap: .5rem; margin-top: 1rem; }
+.service-check-grid li { display: flex; align-items: flex-start; gap: .55rem; border: 1px solid var(--border); border-radius: .7rem; background: color-mix(in oklab, var(--background) 48%, transparent); padding: .72rem; font-size: .78rem; }
+.service-check-grid svg { width: 1rem; height: 1rem; flex: none; margin-top: .05rem; color: var(--brand-red); }
+.service-step { display: flex; gap: .8rem; border: 1px solid var(--border); border-radius: .8rem; background: color-mix(in oklab, var(--background) 48%, transparent); padding: .9rem; scroll-margin-top: 6rem; }
+.service-step > span { display: flex; width: 2rem; height: 2rem; flex: none; align-items: center; justify-content: center; border-radius: 999px; background: var(--brand-red); color: var(--brand-red-foreground); font-size: .7rem; font-weight: 900; }
+.service-step h3 { font-size: .83rem; font-weight: 900; }
+.service-faq { border: 1px solid var(--border); border-radius: .75rem; background: color-mix(in oklab, var(--background) 48%, transparent); padding: .85rem; }
+.service-faq summary { display: flex; cursor: pointer; list-style: none; justify-content: space-between; gap: .75rem; font-size: .82rem; font-weight: 800; }
+.service-faq summary::-webkit-details-marker { display: none; }
+.service-faq summary span { color: var(--brand-red); font-size: 1.1rem; }
+.service-cta { border: 1px solid color-mix(in oklab, var(--brand-red) 55%, transparent); border-radius: 1.25rem; background: radial-gradient(100% 140% at 0% 0%, color-mix(in oklab, var(--brand-red) 36%, transparent), var(--service-panel) 66%); box-shadow: var(--service-shadow); }
+.service-live { animation: service-live 1.8s ease-in-out infinite; box-shadow: 0 0 14px var(--brand-red); }
+@keyframes service-live { 50% { opacity: .38; transform: scale(.82); } }
+@media (min-width: 768px) {
+  .service-hero { min-height: 560px; }
+  .service-panel { padding: 1.75rem; }
+  .service-panel h2 { font-size: 1.75rem; }
+  .service-check-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (prefers-reduced-motion: reduce) { .service-live { animation: none; } }
+
+/* Premium image rows for service list sections (circle-framed cut-out images) */
+.svc-premium { position: relative; overflow: hidden; background: radial-gradient(120% 90% at 100% 0%, color-mix(in oklab, var(--brand-red) 14%, transparent), transparent 55%), linear-gradient(145deg, var(--service-panel-strong), var(--service-panel)); box-shadow: inset 0 1px 0 color-mix(in oklab, var(--foreground) 8%, transparent), var(--service-shadow); }
+.svc-img-grid { display: grid; gap: .75rem; margin-top: 1.1rem; }
+.svc-img-row { display: flex; align-items: center; justify-content: space-between; gap: 1rem; border: 1px solid color-mix(in oklab, var(--foreground) 9%, transparent); border-radius: 1.1rem; background: linear-gradient(120deg, color-mix(in oklab, var(--background) 62%, transparent), color-mix(in oklab, var(--background) 30%, transparent)); padding: .9rem 1rem; scroll-margin-top: 6rem; transition: transform .35s ease, border-color .35s ease, box-shadow .35s ease; }
+.svc-img-row:hover { transform: translateY(-2px); border-color: color-mix(in oklab, var(--brand-red) 55%, transparent); box-shadow: 0 14px 34px -18px color-mix(in oklab, var(--brand-red) 60%, transparent); }
+.svc-img-row.is-reverse { flex-direction: row-reverse; }
+.svc-img-row.is-stacked { flex-direction: column-reverse; text-align: center; }
+.svc-img-text { min-width: 0; flex: 1; }
+.svc-img-num { display: inline-block; font-family: var(--font-display); font-size: .68rem; font-weight: 900; letter-spacing: .14em; color: var(--brand-red); }
+.svc-img-text h3 { margin-top: .2rem; font-size: .9rem; font-weight: 800; line-height: 1.35; }
+.svc-img-text p { margin-top: .35rem; color: var(--muted-foreground); font-size: .78rem; line-height: 1.55; }
+.svc-img-orb { position: relative; display: grid; place-items: center; width: 5.5rem; height: 5.5rem; flex: none; border-radius: 999px; padding: 3px; background: conic-gradient(from 210deg, var(--brand-red), var(--brand-gold, oklch(0.8 0.14 80)), color-mix(in oklab, var(--brand-red) 30%, transparent), var(--brand-red)); box-shadow: 0 0 0 6px color-mix(in oklab, var(--brand-red) 8%, transparent), 0 12px 30px -12px color-mix(in oklab, var(--brand-red) 70%, transparent); }
+.svc-img-orb::before { content: ""; position: absolute; inset: 3px; border-radius: 999px; background: radial-gradient(circle at 35% 30%, color-mix(in oklab, var(--foreground) 14%, var(--service-panel-strong)), var(--background) 78%); }
+.svc-img-orb img { position: relative; width: 82%; height: 82%; object-fit: contain; filter: drop-shadow(0 6px 10px color-mix(in oklab, var(--background) 80%, transparent)); transition: transform .45s ease; }
+.svc-img-row:hover .svc-img-orb img { transform: scale(1.08) rotate(-3deg); }
+.svc-img-orb svg { position: relative; width: 1.6rem; height: 1.6rem; color: var(--brand-red); }
+@media (min-width: 768px) {
+  .svc-img-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+  .svc-img-orb { width: 7rem; height: 7rem; }
+  .svc-img-row { padding: 1.1rem 1.25rem; }
+  .svc-img-text h3 { font-size: 1rem; }
+  .svc-img-grid.is-three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .svc-img-grid:not(.is-three) > :last-child:nth-child(odd) { grid-column: 1 / -1; }
+}
+.svc-info-grid { display: grid; gap: .75rem; margin-top: 1rem; }
+.svc-info-grid li { border: 1px solid color-mix(in oklab, var(--foreground) 9%, transparent); border-left: 3px solid var(--brand-red); border-radius: .9rem; background: color-mix(in oklab, var(--background) 45%, transparent); padding: .85rem 1rem; }
+.svc-info-grid h3 { font-size: .92rem; font-weight: 800; }
+.svc-info-grid p { margin-top: .3rem; font-size: .8rem; line-height: 1.55; color: var(--muted-foreground); }
+.svc-alert { border-color: color-mix(in oklab, var(--brand-red) 45%, transparent); }
+@media (min-width: 768px) { .svc-info-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } .svc-info-grid.is-steps { grid-template-columns: repeat(4, minmax(0,1fr)); } }
+
+/* ── Shadow Plumbing reference design ("sp") — scoped to redesigned pages ── */
+.sp {
+  --sp-ink: oklch(0.16 0.01 20);
+  --sp-ink-2: oklch(0.21 0.015 20);
+  --sp-edge: oklch(0.31 0.02 20);
+  --sp-red: oklch(0.55 0.22 27);
+  --sp-red-hot: oklch(0.68 0.2 25);
+  --sp-red-tint: oklch(0.95 0.025 20);
+  --sp-mist: oklch(0.97 0.004 30);
+  --sp-line: oklch(0.91 0.012 30);
+  --sp-muted: oklch(0.5 0.015 25);
+  --sp-paper: oklch(1 0 0);
+  --sp-green: oklch(0.76 0.18 150);
+  --sp-amber: oklch(0.8 0.16 85);
+  --sp-wa: oklch(0.64 0.16 150);
+  font-family: "Archivo", system-ui, sans-serif;
+  background: var(--sp-mist);
+  color: var(--sp-ink);
+}
+.sp-display { font-family: "Barlow Condensed", "Outfit", sans-serif; font-weight: 900; text-transform: uppercase; letter-spacing: -.01em; line-height: .92; }
+.sp-mono { font-family: "JetBrains Mono", ui-monospace, monospace; letter-spacing: .14em; text-transform: uppercase; }
+.sp-hero { background: radial-gradient(circle at 85% 0%, color-mix(in oklab, var(--sp-red) 45%, transparent), transparent 45%), linear-gradient(var(--sp-ink), var(--sp-ink)); color: var(--sp-paper); }
+.sp-grid-bg { background-image: linear-gradient(color-mix(in oklab, var(--sp-paper) 4%, transparent) 1px, transparent 1px), linear-gradient(90deg, color-mix(in oklab, var(--sp-paper) 4%, transparent) 1px, transparent 1px); background-size: 44px 44px; }
+.sp-btn-red { background: var(--sp-red); color: var(--sp-paper); box-shadow: 0 10px 24px -10px var(--sp-red); }
+.sp-btn-ink { background: var(--sp-ink); color: var(--sp-paper); }
+.sp-pipe { height: 10px; border-radius: 99px; background: repeating-linear-gradient(90deg, var(--sp-red) 0 22px, var(--sp-paper) 22px 30px); opacity: .9; }
+@keyframes sp-marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .sp [class*="sp-marquee"] { animation: none; } }
+/* Light reference theme for shared service pages */
+.sp.service-page {
+  --background: var(--sp-mist);
+  --foreground: var(--sp-ink);
+  --muted-foreground: var(--sp-muted);
+  --border: var(--sp-line);
+  --surface: var(--sp-paper);
+  --brand-red: var(--sp-red);
+  --service-nav: var(--sp-paper);
+  --service-panel: var(--sp-paper);
+  --service-panel-strong: var(--sp-paper);
+  --service-shadow: 0 20px 50px -34px color-mix(in oklab, var(--sp-ink) 40%, transparent);
+}
+.sp.service-page .service-panel { border-radius: 1.6rem; box-shadow: var(--service-shadow); }
+.sp.service-page .service-panel h2, .sp.service-page .service-cta h2 { font-family: "Barlow Condensed", sans-serif; font-weight: 900; text-transform: uppercase; font-size: 2rem; line-height: .95; }
+.sp.service-page .service-kicker { font-family: "JetBrains Mono", monospace; }
+.sp.service-page .font-display { font-family: "Barlow Condensed", sans-serif; text-transform: uppercase; }
+.sp.district-page main > section h2 { font-family: "Barlow Condensed", sans-serif; font-weight: 900; text-transform: uppercase; font-size: 1.75rem; line-height: .95; }
+.sp.district-page main > section { max-width: 72rem; margin-left: auto; margin-right: auto; }
+.sp-legal { color: var(--sp-muted); }
+.sp-legal > * + * { margin-top: 1rem; }
+.sp-legal h2 { font-family: "Barlow Condensed", sans-serif; font-weight: 900; text-transform: uppercase; font-size: 1.6rem; line-height: 1; color: var(--sp-ink); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--sp-line); }
+.sp-legal strong { color: var(--sp-ink); }
+.sp-legal ul { list-style: disc; padding-left: 1.2rem; }

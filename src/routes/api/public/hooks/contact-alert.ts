@@ -28,13 +28,15 @@ export const Route = createFileRoute("/api/public/hooks/contact-alert")({
         const resendApiKey = process.env.RESEND_API_KEY;
         const alertEmail = process.env.ALERT_EMAIL;
 
+        // Yapılandırma eksikse siteyi asla bozma: sessizce başarılı dön,
+        // sadece sunucu günlüğüne not düş (e-posta uyarısı atlanır).
         if (!lovableApiKey || !resendApiKey) {
-          console.error("contact-alert: missing gateway credentials");
-          return Response.json({ error: "not_configured" }, { status: 500 });
+          console.warn("contact-alert: missing gateway credentials — alert skipped");
+          return Response.json({ ok: true, skipped: "not_configured" });
         }
         if (!alertEmail) {
-          console.error("contact-alert: ALERT_EMAIL not set");
-          return Response.json({ error: "no_recipient" }, { status: 500 });
+          console.warn("contact-alert: ALERT_EMAIL not set — alert skipped");
+          return Response.json({ ok: true, skipped: "no_recipient" });
         }
 
         let parsed: z.infer<typeof BodySchema>;
@@ -103,13 +105,13 @@ export const Route = createFileRoute("/api/public/hooks/contact-alert")({
           if (!res.ok) {
             const errBody = await res.text();
             console.error(`contact-alert: resend failed [${res.status}]: ${errBody}`);
-            return Response.json({ error: "send_failed", status: res.status }, { status: 502 });
+            return Response.json({ ok: false, error: "send_failed", status: res.status });
           }
 
           return Response.json({ ok: true });
         } catch (err) {
           console.error("contact-alert: unexpected error", err);
-          return Response.json({ error: "send_failed" }, { status: 502 });
+          return Response.json({ ok: false, error: "send_failed" });
         }
       },
     },

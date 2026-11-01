@@ -30,6 +30,7 @@ export const Route = createFileRoute("/disavow")({
             "Content-Type": "text/plain; charset=utf-8",
             "Content-Disposition": 'attachment; filename="golgetesisat-disavow.txt"',
             "Cache-Control": "public, max-age=3600",
+            "X-Robots-Tag": "noindex, nofollow",
           },
         });
       },

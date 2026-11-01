@@ -303,6 +303,14 @@ function parseOne(path: string, raw: string): BlogPost | null {
     data.published = toText(data.published);
     if (data.updated !== undefined) data.updated = toText(data.updated);
     if (data.intro === undefined) data.intro = toText(data.excerpt);
+    // Frontmatter `featuredImage` is a plain path string; the route expects a
+    // BlogImage object ({ src, alt, caption? }). Map it here so MD posts render
+    // their hero image just like TS-defined posts.
+    if (typeof data.featuredImage === "string" && data.featuredImage.trim()) {
+      data.featuredImage = { src: data.featuredImage.trim(), alt: toText(data.title) };
+    } else if (!isRecord(data.featuredImage)) {
+      delete data.featuredImage;
+    }
 
     return data as unknown as BlogPost;
   } catch (err) {

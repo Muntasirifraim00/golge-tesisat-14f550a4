@@ -241,7 +241,7 @@ export const SEO_RESEARCH: ResearchEntry[] = [
   // ===== Güvenlik/teşhis yazısı: Doğalgaz kaçağı (dogalgaz-tesisati köprüsü) =====
   {
     title: "Doğalgaz Kaçağı Nasıl Anlaşılır? Belirtileri ve Yapılması Gerekenler",
-    slug: "dogalgaz-kacagi-nasil-anlasilir",
+    slug: "dogalgaz-kacagi",
     cluster: "dogalgaz",
     status: "completed",
     researchedOn: "2026-06-18",

@@ -1,400 +1,195 @@
 ---
-slug: "kombi-antifriz-kullanimi"
-title: "Kombi Suyuna Antifriz Konur mu? Ne Zaman, Hangi Oran, Hangi Ürün (2026)"
-seoTitle: "Kombi Suyuna Antifriz Konur mu? Ne Zaman"
-keyword: "kombi suyuna antifriz konur"
-volume: 200
-kdi: 30
-category: "Kombi & Kalorifer"
+slug: kombi-antifriz-kullanimi
+title: Kombi Suyuna Antifriz Konur mu? Ne Zaman, Hangi Oran, Hangi Ürün (2026)
+seoTitle: Kombi Suyuna Antifriz Konur mu? Ne Zaman, Hangi Oran
+keyword: kombi suyuna antifriz konur
+category: Kombi & Kalorifer
+serviceSlug: kombi-tamiri
 readMin: 10
-published: "2026-07-26"
-updated: "2026-07-26"
-excerpt: >
-  Kısa cevap: Evet — ama sadece belirli koşullarda ve mutlaka kombi için
-  üretilmiş glikol bazlı antifriz ile.
-metaDescription: "Propilen glikol vs etilen glikol farkı, doğru karışım oranı, dolum adımları ve 5 yaygın antifriz hatası. İstanbul geneli 7/24 servis: 0533 896 05 03. Gölge T..."
-serviceSlug: "kombi-tamiri"
+published: '2026-07-26'
+updated: '2026-10-03'
+excerpt: 'Kısa cevap: Evet — ama sadece belirli koşullarda ve mutlaka kombi için üretilmiş glikol bazlı antifriz ile. Ne zaman gerekir, hangi oran doğru, hangi hatalar kombiyi bozar?'
+metaDescription: Kombi suyuna antifriz konur mu? Propilen glikol ve etilen glikol farkı, doğru karışım oranı, dolum adımları ve yaygın antifriz hataları bu rehberde.
 featuredImage:
-  src: "/blog-images/kombi-antifriz-kullanimi-hero.jpg"
-  alt: "kombi suyuna antifriz konur — İstanbul saha rehberi görseli"
-  caption: "Gölge Tesisat İstanbul saha ekibi."
-intro: >
-  Kısa cevap: Evet — ama sadece belirli koşullarda ve mutlaka kombi için
-  üretilmiş glikol bazlı antifriz ile. Sürekli kullanılan şehir dairelerinde
-  antifriz gereksizdir, hatta ısı transfer verimini düşürür. Antifriz
-  yazlıklarda, uzun süre boş kalacak dairelerde ve dış mekân borusu geçen
-  tesisatlarda hayat kurtarır. Yanlış oran, yanlış ürün (araba antifrizi!) veya
-  normal kombiye antifriz koymak eşanjör paslanması, pompa arızası ve conta
-  erimesi ile sonuçlanır. Bu rehberde antifrizin ne zaman gerektiğini, hangi
-  ürünün kullanılacağını, doğru karışım oranını ve yaygın hataları net biçimde
-  anlatıyoruz.
+  src: /blog-images/kombi-antifriz-kullanimi-hero.jpg
+  alt: Kombi tesisatına antifriz dolumu yapan usta
+  caption: Gölge Tesisat İstanbul saha ekibi.
+intro: 'Kısa cevap: Evet — ama sadece belirli koşullarda ve mutlaka kombi için üretilmiş glikol bazlı antifriz ile. Sürekli kullanılan şehir dairelerinde antifriz gereksizdir, hatta ısı transfer verimini düşürür. Antifriz yazlıklarda, uzun süre boş kalacak dairelerde ve dış mekân borusu geçen tesisatlarda hayat kurtarır. Yanlış oran, yanlış ürün (araba antifrizi!) veya normal kombiye antifriz koymak eşanjör paslanması, pompa arızası ve conta erimesi ile sonuçlanır. Bu rehberde antifrizin ne zaman gerektiğini, hangi ürünün kullanılacağını, doğru karışım oranını ve yaygın hataları net biçimde anlatıyoruz.'
 sections:
-  - heading: "Kombi Antifrizi Nedir? Araba Antifrizinden Farkı"
+  - heading: Öne Çıkanlar
+    id: one-cikanlar
+    bullets:
+      - Kombi antifrizi propilen glikol bazlıdır; araba antifrizi (etilen glikol) zehirlidir ve kombide kesinlikle kullanılmaz.
+      - Antifriz yalnızca yazlık, uzun süre boş kalacak daire ve dış mekân borusu geçen tesisatlarda gereklidir; sürekli kullanılan şehir dairesinde don koruma modu yeterlidir.
+      - Antifriz saf kullanılmaz; hedef donma noktasına göre %20-40 oranında suyla karıştırılır, %50 üzerine çıkılmaz.
+      - Karışım ısı transferini %10-15 düşürür; gerçekten gerekmiyorsa kullanılmamalıdır.
+      - Kaliteli antifriz yaklaşık 5 yılda bir değiştirilir; yıllık bakımda oran ve pH kontrolü yaptırılır.
+  - id: nedir-araba-antifrizinden-farki
+    heading: Kombi Antifrizi Nedir? Araba Antifrizinden Farkı
     paragraphs:
-      - "Kombi antifrizi **propilen glikol (PG)** bazlıdır ve içme suyu ile temas etse bile toksik değildir. Araba antifrizi ise **etilen glikol (EG)** bazlıdır — **zehirlidir**, kombi contalarını ve pompayı bozar, kesinlikle kullanılmaz."
+      - Kombi antifrizi propilen glikol (PG) bazlıdır ve içme suyuyla kazaen temas etse bile düşük toksisitelidir. Araba antifrizi ise etilen glikol (EG) bazlıdır; zehirlidir, kombi contalarını ve pompayı bozar, kesinlikle kullanılmaz.
+      - Kombi etiketinde üretici hangi ürün tipini onaylıyorsa onu kullanın. Onaysız ürün kullanımı garanti kapsamını ortadan kaldırabilir.
+      - '**Kombi antifrizi ile araba antifrizinin temel farkları.**'
     image:
-      src: "/blog-images/kombi-antifriz-kullanimi-comparison.jpg"
-      alt: "Antifriz karşılaştırma"
-      caption: "Araba antifrizi vs kombi antifrizi karşılaştırması."
-  - heading: "Ne Zaman Antifriz Gerekir?"
+      src: /blog-images/kombi-antifriz-kullanimi-comparison.jpg
+      alt: Araba antifrizi ve kombi antifrizi karşılaştırması
+      caption: Araba antifrizi vs kombi antifrizi karşılaştırması.
+    bullets:
+      - '**Ana madde:** Propilen glikol — Etilen glikol'
+      - '**Toksisite:** Düşük (gıda uyumlu) — Zehirli'
+      - '**Conta uyumu:** EPDM ve viton contalarla uyumlu — Contayı şişirir'
+      - '**Renk:** Genelde pembe / mavi — Yeşil / turuncu / kırmızı'
+      - '**Kombide kullanım:** Onaylı ürünlerde uygun — Kesinlikle yasak'
+  - id: ne-zaman-gerekir
+    heading: Ne Zaman Antifriz Gerekir?
     paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Doğru Karışım Oranı"
+      - 'Modern kombilerin don koruma (frost protection) fonksiyonu vardır: dış sıcaklık düşünce pompa devreye girer, gerekirse brülör kısa süre yanar. Elektrik varken bu koruma yeterlidir; elektrik kesilirse çalışmaz. Antifriz asıl bu senaryo içindir.'
+    bullets:
+      - 'Antifriz konulacak durumlar: kışın haftalarca boş kalan yazlık veya dağ evi, uzun süre kapalı kalacak daire, dış cepheden geçen tesisat borusu, yalıtımsız garaj veya kilerdeki tesisat, merkezi ısıtması olmayan ve uzun süre boş kalan villa.'
+      - 'Antifriz konulmayacak durumlar: sürekli kullanılan şehir dairesi, merkezi ısıtmalı bina (karar yönetimindir), ilk yıllarında olan yeni yoğuşmalı kombi, 1-3 günlük kısa boş kalışlar (don koruma modu yeter).'
+  - id: dogru-karisim-orani
+    heading: Doğru Karışım Oranı
     paragraphs:
-      - "Antifriz **saf** kullanılmaz. Belirli oranda suyla karıştırılır. Oran, hedef donma noktasına göre belirlenir:"
-      - "**Kural:** **%50'nin üstüne çıkma.** %50 üzerindeki karışım ısı transferini dramatik düşürür, pompa yorulur ve yoğuşmalı verimi biter."
-      - "``` Toplam su: 100 L Antifriz miktarı: 100 × 0.30 = 30 L konsantre antifriz Kalan su: 70 L (yumuşatılmış / demineralize) ```"
-      - "Tesisat hacmi bilinmiyorsa yaklaşık hesap: **kombi + petek başına 3–4 L** kabul edin (12 petekli bir daire ≈ 40–50 L)."
+      - 'Antifriz saf kullanılmaz; hedef donma noktasına göre suyla karıştırılır. Kural basittir: %50''nin üstüne çıkmayın. %50 üzerindeki karışım ısı transferini belirgin düşürür, pompayı yorar ve yoğuşmalı kombinin verimini bitirir.'
+      - Tesisat hacmi bilinmiyorsa kaba hesap olarak kombi dahil petek başına 3-4 litre kabul edebilirsiniz; 12 petekli bir daire yaklaşık 40-50 litre su tutar. Örneğin 100 litrelik bir tesisatta %30 hedef için 30 litre konsantre antifriz ve 70 litre yumuşatılmış su kullanılır.
+      - '**Senaryoya göre önerilen antifriz oranları; kesin değer için ürün etiketine bakın.**'
     image:
-      src: "/blog-images/kombi-antifriz-kullanimi-infographic.jpg"
-      alt: "Antifriz koruma tablosu"
-      caption: "Propilen glikol antifriz koruma seviyeleri."
-  - heading: "Antifriz Nasıl Doldurulur? Adım Adım"
+      src: /blog-images/kombi-antifriz-kullanimi-infographic.jpg
+      alt: Antifriz koruma seviyeleri tablosu
+      caption: Propilen glikol antifriz koruma seviyeleri.
+    bullets:
+      - '**Ilıman kıyı bölgeleri:** %20 — yaklaşık -8 °C — Yazlıklar'
+      - '**İstanbul ve benzeri:** %25-30 — yaklaşık -12 ila -15 °C — Kesintili kullanım, standart'
+      - '**İç ve doğu bölgeler:** %35-40 — yaklaşık -18 ila -22 °C — Soğuk iklim, zorunlu'
+      - '**Ekstrem / dağ evi:** %50 — yaklaşık -33 °C — Sınır değer'
+  - id: nasil-doldurulur
+    heading: Antifriz Nasıl Doldurulur? Adım Adım
     paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Antifrizin Ömrü ve Bakımı"
+      - 'Antifriz dolumu tesisata müdahale gerektirir; deneyiminiz yoksa servis yaptırmanız daha güvenlidir. Genel işlem sırası şöyledir:'
+      - '**Karışım pH''ını takip edin: Antifriz karışımının pH''ı 7,5-9 arasında olmalıdır. Yıllık bakımda pH test şeridiyle kontrol edilir; pH düştüyse antifriz bozunmuştur ve değiştirilmelidir.**'
+    bullets:
+      - 1. **Gaz vanasını ve kombi enerjisini kapatın:** Cihaz tamamen devre dışı olmalı; dolum sırasında kombi çalışmamalıdır.
+      - 2. **Tesisatı boşaltın:** Kombinin alt tahliye vanasından ve en düşük noktadaki radyatörden sistem suyunu boşaltın.
+      - 3. **Sistemi yıkayın:** Eski inhibitör ve tortu kalıntılarını temizlemek için 1-2 tur temiz su dolaştırıp boşaltın.
+      - 4. **Karışımı ayrı kovada hazırlayın:** Hesaplanan su miktarını temiz bir kovaya koyun, antifrizi yavaşça ekleyin ve homojen olana kadar karıştırın. Antifrizi saf olarak veya peteklerden tek tek doldurmayın; karışım homojen olmaz.
+      - 5. **Karışımı sisteme basın:** Doldurma pompasıyla kombi doldurma vanasından sisteme yavaşça basın; basınç 1,5 bara ulaşınca durun.
+      - 6. **Havayı alın:** En üst kattan başlayarak her peteğin havasını alın; hava kalan sistemde karışım homojen dağılmaz.
+      - 7. **Sirkülasyonu çalıştırın:** Kombiyi açıp yaklaşık 30 dakika çalıştırın; karışım tüm sisteme dağılır.
+      - 8. **Konsantrasyonu ölçün:** Refraktometre veya test şeridiyle örnek alıp hedeflenen donma noktasına ulaşıldığını doğrulayın.
+      - 9. **Etiket bırakın:** Kombi panosuna 'Sistem antifrizli, oran ve tarih' notu yazın; sonraki servis bu bilgiye ihtiyaç duyar.
+  - id: omru-ve-bakimi
+    heading: Antifrizin Ömrü ve Bakımı
     paragraphs:
-      - "Yıllık kombi bakımında servis **antifriz oranı + pH** kontrol etmeli. Oran %15'in altına düşerse (dolum su eklendikçe) yeniden takviye edilir."
-  - heading: "Antifrizin Dezavantajları"
-    paragraphs:
-      - "Bu yüzden **gerçekten gerekmiyorsa antifriz kullanılmaz**. Şehir dairesinde don koruma modu + iyi yalıtım yeter."
-  - heading: "En Sık Yapılan 5 Hata"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Kimyasal Yapı ve Marka Karşılaştırması"
-    paragraphs:
-      - "Kombi antifrizinin iki ana kimyasal ailesi vardır:"
-      - "**Propilen glikol (PG)**: gıda güvenli, düşük toksisite. Kullanım suyuna kaza sızmasında sağlık riski minimum. Ancak viskozitesi yüksek, pompa yükü %10-15 artar."
-      - "**Etilen glikol (EG)**: viskozitesi düşük, verim yüksek, ancak toksik. Kullanım suyuyla teması yasak — sadece kapalı devre ısıtmada kullanılır."
-      - "Piyasada yaygın markalar:"
-  - heading: "Donma Noktası vs Konsantrasyon (Detaylı Tablo)"
-    paragraphs:
-      - "Türkiye iç kesim ve doğu için standart %30, Doğu Anadolu yüksek rakım için %35-40 önerilir. %40 üstü artık verim kaybı avantajı gölgeler."
+      - Kaliteli, inhibitörlü kombi antifrizleri genellikle 5 yıl, daha ekonomik propilen glikol ürünleri yaklaşık 3 yıl koruma sağlar. Yıllık kombi bakımında servis antifriz oranını ve pH'ı kontrol etmelidir; dolum suyu eklendikçe oran düşer, gerekirse takviye yapılır.
+      - 'Değişim zamanının geldiğini şu işaretlerden anlarsınız:'
+    bullets:
+      - 'Renk: berrak açık pembe/sarı tonundan koyu kahverengiye döndüyse değiştirin.'
+      - 'pH: 8''in altına düştüyse karışım asidikleşmiştir, sistem korozyonu başlar.'
+      - 'Koku: yanık plastik veya metalik koku inhibitörün tükendiğini gösterir.'
+      - 'Konsantrasyon: refraktometre değeri hedef orandan belirgin farklıysa su eklenmiş veya buharlaşma olmuştur.'
     image:
-      src: "/blog-images/kombi-antifriz-kullanimi-chart.jpg"
-      alt: "Donma noktası vs konsantrasyon"
-      caption: "Donma noktası vs antifriz konsantrasyonu grafiği."
-  - heading: "Sistem Hacmi Hesaplama"
+      src: /blog-images/kombi-antifriz-kullanimi-symptoms.jpg
+      alt: Antifriz değişim belirtileri
+      caption: Antifrizin değişmesi gereken belirtiler.
+  - id: dezavantajlari
+    heading: Antifrizin Dezavantajları
     paragraphs:
-      - "Doğru antifriz miktarı için sistem su hacmi bilinmeli. Kaba hesap:"
-      - "``` Toplam hacim (L) = Radyatör hacmi + Boru hacmi + Kombi eşanjör"
-      - "Panel radyatör 500x1000 mm: ~2.5 L Panel radyatör 600x1200 mm: ~3.8 L 22 mm bakır boru: 0.30 L/m 28 mm bakır boru: 0.50 L/m Yerden ısıtma 16 mm boru: 0.13 L/m Kombi eşanjör + ekipman: 3-6 L ```"
-      - "**Örnek — 100 m² daire:** - 7 adet 600x1200 radyatör: 26.6 L - 60 metre 22 mm boru: 18 L - Kombi: 4 L - Toplam: **48.6 L** - %30 konsantrasyon: 14.6 L antifriz + 34 L saf su"
-  - heading: "Doldurma Ekipmanları"
+      - Bu yüzden gerçekten gerekmiyorsa antifriz kullanılmaz; şehir dairesinde don koruma modu ve iyi yalıtım yeterlidir.
+    bullets:
+      - Isı transfer katsayısı sudan düşüktür; aynı sıcaklık için kombi daha çok çalışır.
+      - Viskozitesi yüksek olduğundan pompa daha fazla yük çeker.
+      - Zamanla bozunur ve asidik hâle gelir; değişimi ihmal edilirse eşanjörü paslandırır.
+      - Contalarda hafif genleşme yapabilir; periyodik değişim şarttır.
+  - id: en-sik-yapilan-5-hata
+    heading: En Sık Yapılan 5 Hata
+    bullets:
+      - 'Araba antifrizi (etilen glikol) koymak: contaları şişirir, pompayı bozar, toksiktir; kombi garantisi biter.'
+      - 'Konsantreyi seyreltmeden doldurmak: saf antifriz ısıyı iletmez, kombi arıza verir.'
+      - 'Antifrizi peteklere koyup üzerine su eklemek: karışım homojen olmaz, bazı bölgelerde donma devam eder.'
+      - 'Yıllarca değişim yapmamak: bozunan antifriz asidik olur ve eşanjörü paslandırır.'
+      - '''Ne kadar çok o kadar iyi'' düşüncesi: %50 üstü karışım ısı transferini ciddi düşürür, faturayı artırır.'
+  - id: kimyasal-yapi
+    heading: 'Kimyasal Yapı: Propilen mi, Etilen mi?'
     paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Antifrizin Ömür Sinyalleri"
+      - 'Propilen glikol (PG): gıda güvenli, düşük toksisiteli. Kullanım suyuna kaza sızmasında sağlık riski minimumdur; ancak viskozitesi yüksektir, pompa yükünü artırır.'
+      - 'Etilen glikol (EG): viskozitesi düşük, ısı iletimi daha iyi, ancak toksiktir. Kullanım suyuyla temas ihtimali olan sistemlerde yasaktır; yalnızca tam kapalı endüstriyel devrelerde kullanılır. Konut kombilerinde tercih her zaman propilen glikoldür.'
+  - id: donma-noktasi-konsantrasyon
+    heading: Donma Noktası ve Konsantrasyon İlişkisi
     paragraphs:
-      - "Ne zaman değiştirmeli? 1. **Renk**: berrak açık pembe/sarı → koyu kahverengi = değiştir. 2. **pH**: 8.0 altına düştüyse asitli, sistem korozyon yapıyor. 3. **Koku**: yanık plastik / metalik = inhibitör tükendi. 4. **Konsantrasyon**: refraktometre değeri fabrika değerinden %5+ farklıysa (su ekleme veya buharlaşma). 5. **Süre**: kalite antifriz 5-10 yıl, ucuz PG 2-3 yıl. Marka önerisini kaçırma."
-      - "Yılda bir kez ölçüm, 5 yılda bir yenileme standart uygulamadır."
+      - Konsantrasyon arttıkça donma noktası düşer ama viskozite artar ve ısı iletimi azalır. Türkiye'nin iç ve doğu kesimleri için standart %30, yüksek rakımlı soğuk bölgeler için %35-40 önerilir; %40 üstünde verim kaybı avantajı gölgeler.
+      - '**Değerler yaklaşıktır; kesin eğri için ürünün teknik bilgi föyüne bakın.**'
     image:
-      src: "/blog-images/kombi-antifriz-kullanimi-symptoms.jpg"
-      alt: "Antifriz değişim belirtileri"
-      caption: "Antifrizin değişmesi gereken 4 belirti."
-  - heading: "Antifriz Kullanan Sistemin Verim Kaybı"
+      src: /blog-images/kombi-antifriz-kullanimi-chart.jpg
+      alt: Donma noktası ve antifriz konsantrasyonu grafiği
+      caption: Donma noktası ve antifriz konsantrasyonu ilişkisi.
+    bullets:
+      - '**%10:** yaklaşık -3 °C — Hafif koruma'
+      - '**%20:** yaklaşık -7 °C — Ilıman bölgeler'
+      - '**%30:** yaklaşık -13 °C — Standart tercih'
+      - '**%40:** yaklaşık -22 °C — Soğuk bölgeler'
+      - '**%50:** yaklaşık -33 °C — Sınır; üstüne çıkmayın'
+  - id: sistem-hacmi-hesaplama
+    heading: Sistem Hacmi Hesaplama
     paragraphs:
-      - "Antifriz eklenmiş sistem saf suya göre: - Yıllık gaz tüketimi +%6-10 - Pompa elektrik tüketimi +%12-18 - Isınma süresi (soğuk başlangıç) +8-15 dk"
-      - "Bu maliyet donma hasarından çok ucuzdur. Patlak bir petek + tavan tamiri 15.000-40.000 ₺; antifriz sistemi ise yılda 3.000-4.500 ₺ ek işletme."
-  - heading: "Kaza Sızıntısı: Sağlık Riski"
+      - Doğru antifriz miktarı için sistemin toplam su hacmi bilinmelidir. Toplam hacim; radyatör hacmi, boru hacmi ve kombi eşanjörünün toplamıdır.
+      - 'Kaba değerler: standart bir panel radyatör birkaç litre, kombi eşanjörü ve ekipmanı birkaç litre tutar; boru hacmi çapa ve metraja göre eklenir. Örneğin 7 radyatörlü, orta metrajlı bir dairenin toplam hacmi kabaca 45-50 litre civarındadır. Kesin hesap için servis ölçümü yaptırın.'
+    image:
+      src: /blog-images/kombi-antifriz-kullanimi-chart.jpg
+      alt: kombi antifriz kullanimi — chart
+      caption: Durum değerlendirme grafiği
+  - id: verim-kaybi
+    heading: Antifriz Kullanan Sistemin Verim Kaybı
     paragraphs:
-      - "PG (propilen glikol) kullanım suyuna karışırsa 100 mg/kg gıda katkı sınırı altındadır — gıda güvenli. EG (etilen glikol) karışırsa **derhal** su içilmez, sağlık kuruluşuna başvurulur (100 mL ölümcül olabilir)."
-      - "Isıtma-kullanım suyu ısı eşanjörü çift cidarlı olmayan eski kombilerde bu risk gerçektir. 2018 sonrası satılan yoğuşmalı kombilerin çoğunda çift cidar zorunludur."
-  - heading: "Çevre ve İmha"
+      - Antifrizli sistem saf suya göre daha düşük ısı iletimiyle çalışır; bu, yıllık gaz tüketiminde ve pompa elektriğinde artış, soğuk başlangıçta daha uzun ısınma süresi demektir.
+      - 'Yine de bu maliyet, donma hasarının yanında küçük kalır: patlayan bir petek ve su basan bir daire çok daha büyük tadilat masrafı doğurur. Antifriz, riskli senaryolarda sigorta gibidir; risksiz senaryolarda ise gereksiz yüktür.'
+  - id: kaza-sizintisi-saglik-riski
+    heading: 'Kaza Sızıntısı: Sağlık Riski'
     paragraphs:
-      - "Kullanılmış antifriz **evsel atık kanalizasyona dökülmez**. Belediye tehlikeli atık merkezi veya yetkili servis ile teslim edilmelidir. 40 L antifriz doğaya döküldüğünde 400.000 L suyu içme suyu standardından çıkarır."
-  - heading: "Antifriz + Su Karışım Sırası ve Hataları"
+      - Propilen glikol kullanım suyuna karışırsa düşük toksisiteli kabul edilir; etilen glikol karışırsa su kesinlikle içilmez ve sağlık kuruluşuna başvurulur.
+      - Isıtma ve kullanım suyu eşanjörü çift cidarlı olmayan eski kombilerde bu risk gerçektir. Eski cihazlarda antifriz kararı mutlaka servis değerlendirmesiyle verilmelidir.
+  - id: cevre-ve-imha
+    heading: Çevre ve İmha
     paragraphs:
-      - "Antifriz sisteme **saf halde** basılırsa borularda tabakalanma yapar, verim düşer. Doğru sıra:"
-  - heading: "Kombi Kartı ve Sensör Uyumluluğu"
+      - Kullanılmış antifriz evsel kanalizasyona dökülmez. Belediyenin tehlikeli atık merkezine veya yetkili servise teslim edilmelidir; doğaya dökülen antifriz çok büyük hacimde suyu kirletebilir.
+  - id: sensor-uyumlulugu
+    heading: Kombi Kartı ve Sensör Uyumluluğu
     paragraphs:
-      - "Bazı yoğuşmalı kombilerin akış sensörleri (Grundfos, Wilo) antifriz viskozitesinden etkilenir. %30 üstü konsantrasyonda: - Debi sensörü %8-12 hata verir - Kombi \"düşük debi\" hatasıyla kapanır (E20, F04, E5) - Çözüm: yaz sonu debi sensörü kalibrasyonu (servis işi)"
-      - "Modern kombiler (2020 sonrası) glikol modu düğmesine sahiptir; menüden aktif edilirse sensör kalibrasyonu otomatik ayarlanır."
-  - heading: "Sıkça Sorulan Sorular"
+      - Bazı yoğuşmalı kombilerin debi sensörleri antifriz viskozitesinden etkilenir; yüksek konsantrasyonlarda cihaz 'düşük debi' hatasıyla kapanabilir. Çözüm, servis tarafından yapılan debi sensörü kalibrasyonudur.
+      - Yeni nesil kombilerin çoğunda glikol modu bulunur; menüden etkinleştirildiğinde sensör kalibrasyonu otomatik ayarlanır. Antifriz dolumu sonrası bu ayarın kontrol edilmesi gerekir.
+  - id: profesyonel-destek
+    heading: Gölge Tesisat İstanbul — Profesyonel Destek
     paragraphs:
-      - "---"
-      - "**Sonuç:** Antifriz kombi tesisatı için **koşullu bir çözümdür**, standart bir uygulama değil. Sürekli kullanılan şehir dairesinde don koruma modu yeter; yazlık, kesintili kullanım veya soğuk iklim + uzun süre boş kalış senaryolarında ise antifriz **kaçınılmaz**. Doğru ürünü (**propilen glikol bazlı, kombi onaylı**), doğru oranda (**%25–40**), doğru şekilde (yıkanmış sistem, homojen karışım, havası alınmış) uygulayın. 5 yılda bir değiştirin, yıllık bakımda pH kontrolü yaptırın. Araba antifrizi asla kullanılmaz — bu tek bilgi bile kombinizin ömrünü yıllarca uzatır."
-  - heading: "Otoriter Kaynaklar ve Referanslar"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Gölge Tesisat İstanbul — Acil Servis"
-    paragraphs:
-      - "İstanbul geneli 7/24 tesisat servisimiz Kadıköy, Beşiktaş, Ümraniye, Başakşehir dahil tüm ilçelerde 45 dakika içinde adresinize gelir. Fiyat aralıklarımız arıza türüne göre değişir; net teklif için telefonla ulaşın."
-    callout:
-      variant: "tip"
-      title: "Ustayı çağırmadan önce"
-      body: "Kombi/vana modelini ve fotoğrafı hazır edin; teşhis süresi kısalır, maliyet düşer."
+      - İstanbul genelinde kombi bakımı, antifriz dolumu, tesisat yıkama ve arıza servisi veriyoruz. Sisteminizin antifrize ihtiyacı olup olmadığını yerinde değerlendirir, gerekiyorsa doğru oran ve onaylı ürünle dolumu yaparız. Net ücret keşif sonrası belirlenir.
     cta:
-      title: "Acil tesisatçı mı arıyorsunuz?"
-      body: "İstanbul içi 45 dakikada saha ekibimizi adresinize yönlendiriyoruz."
+      title: Kombiniz kışa hazır mı?
+      body: Antifriz değerlendirmesi ve kombi bakımı için bize ulaşın.
       phone: true
       whatsapp: true
 faq:
-  - q: "Araba antifrizi kombide kullanılır mı?"
-    a: "Asla. Etilen glikol contaları bozar, toksiktir ve kombi garantisini iptal eder. Sadece propilen glikol bazlı kullanın."
-  - q: "Sadece antifriz doldurabilir miyim?"
-    a: "Hayır, saf antifriz ısıyı iletmez. Her zaman su ile %25-40 oranında karıştırılır."
-  - q: "Kaç yılda bir değişmeli?"
-    a: "Kaliteli marka (Sentinel, Fernox) 5 yıl, yerli PG bazlı 3 yıl."
+  - q: Araba antifrizi kombide kullanılır mı?
+    a: Asla. Etilen glikol contaları bozar, toksiktir ve kombi garantisini iptal eder. Sadece propilen glikol bazlı, kombi onaylı antifriz kullanın.
+  - q: Kombiye sadece antifriz doldurabilir miyim?
+    a: Hayır, saf antifriz ısıyı iletmez. Her zaman su ile %25-40 oranında karıştırılır.
+  - q: Antifriz kaç yılda bir değişmeli?
+    a: Kaliteli inhibitörlü ürünler yaklaşık 5 yılda bir, ekonomik propilen glikol ürünleri yaklaşık 3 yılda bir değiştirilir; yıllık bakımda oran ve pH kontrolü yaptırın.
+  - q: Antifriz kombi verimini düşürür mü?
+    a: Evet, ısı transferi azaldığı için kombi aynı sıcaklık için biraz daha çok çalışır. Bu yüzden gerçekten gerekli olmayan evlerde antifriz kullanılmaz.
+  - q: Kombinin don koruma modu antifriz yerine geçer mi?
+    a: Elektrik varken evet; cihaz düşük sıcaklıkta kendini korur. Elektrik kesilirse çalışmaz; uzun süre boş kalacak evlerde antifriz şarttır.
+  - q: Yazlığa antifriz koydum, yazın boşaltmalı mıyım?
+    a: Hayır, antifriz sistemde sürekli kalır; ömrü dolana kadar bir şey yapmanız gerekmez. Sadece yıllık bakımda oran ve pH kontrolü yaptırın.
+inlineLinks:
+  - anchor: kombi donma koruması
+    slug: kombi-donma-korumasi
+  - anchor: petek hava alma
+    slug: petekler-nasil-acilir
+  - anchor: kombi bakımı nasıl yapılır
+    slug: kombi-bakimi-nasil-yapilir
+  - anchor: kombi basıncı düşüyor
+    slug: kombi-basinci-dusuyor
+manualRelated:
+  - kombi-donma-korumasi
+  - kombi-bakimi-nasil-yapilir
+  - petekler-nasil-acilir
+  - kombi-basinci-dusuyor
 ---
-
-# Kombi Suyuna Antifriz Konur mu? Ne Zaman, Hangi Oran, Hangi Ürün (2026)
-
-**Kısa cevap:** Evet — ama sadece **belirli koşullarda** ve mutlaka **kombi için üretilmiş glikol bazlı** antifriz ile. Sürekli kullanılan şehir dairelerinde antifriz **gereksizdir**, hatta ısı transfer verimini düşürür. Antifriz **yazlıklarda**, **uzun süre boş kalacak dairelerde** ve **dış mekân borusu geçen tesisatlarda** hayat kurtarır. Yanlış oran, yanlış ürün (araba antifrizi!) veya normal kombiye antifriz koymak **eşanjör paslanması**, **pompa arızası** ve **conta erimesi** ile sonuçlanır.
-
-Bu rehberde antifrizin ne zaman gerektiğini, hangi ürünün kullanılacağını, doğru karışım oranını ve yaygın hataları net biçimde anlatıyoruz.
-
-## Kombi Antifrizi Nedir? Araba Antifrizinden Farkı
-
-Kombi antifrizi **propilen glikol (PG)** bazlıdır ve içme suyu ile temas etse bile toksik değildir. Araba antifrizi ise **etilen glikol (EG)** bazlıdır — **zehirlidir**, kombi contalarını ve pompayı bozar, kesinlikle kullanılmaz.
-
-| Özellik     | Kombi antifrizi (PG) | Araba antifrizi (EG)      |
-| ----------- | -------------------- | ------------------------- |
-| Ana madde   | Propilen glikol      | Etilen glikol             |
-| Toksisite   | Düşük (gıda uyumlu)  | **Zehirli**               |
-| Conta uyumu | EPDM, viton uyumlu   | Contayı şişirir           |
-| pH          | 8.5–9.5 (nötr)       | 6–7 (asidik olabilir)     |
-| Renk        | Genelde pembe / mavi | Yeşil / turuncu / kırmızı |
-| Kombiye     | ✅ Onaylı            | ❌ Yasak                  |
-
-> **Kural:** Kombi etiketinde üretici hangi ürünü öneriyorsa onu kullanın. Vaillant → Sentinel X500, Bosch → Alphi-11, Buderus → Fernox Alphi-11 gibi.
-
-## Ne Zaman Antifriz Gerekir?
-
-### ✅ Antifriz KONULACAK durumlar
-
-- **Yazlık / dağ evi:** Kışın haftalarca boş kalır, ısıtma kapalıdır.
-- **Kışın uzun süre kapalı kalacak daire:** 1 haftadan fazla, sıcaklık 0 °C altına inebilir.
-- **Dış cephede geçen boru:** Balkon üzerinden geçen kondens/tesisat borusu.
-- **Tesisat yalıtımsız garaj/kiler:** İç mekân ama ısınmıyor.
-- **Villa 2. konut:** Merkezi ısı yok, uzun süre boş.
-- **4. iklim bölgesi + kesintili kullanım:** Erzurum, Kars, Ardahan gibi.
-
-### ❌ Antifriz KONULMAYACAK durumlar
-
-- **Sürekli kullanılan şehir dairesi.** Antifriz ısı transferini %10–15 düşürür, faturayı artırır.
-- **Merkezi ısıtmalı bina.** Antifriz kararı yönetime aittir.
-- **Yeni kurulan yoğuşmalı kombi.** Fabrika suyu zaten inhibitörlü; ilk 5 yıl gerekmez.
-- **Kısa süreli boş kalış (1–3 gün).** Kombi "don koruma" moduna alınır, yeter.
-
-> Modern kombilerin **don koruma (frost protection)** fonksiyonu vardır: dış sıcaklık 5 °C altına düşünce pompa devreye girer, 3 °C'de brülör yakılır. Elektrik varken bu yeter. Elektrik kesilirse çalışmaz — antifriz asıl bu senaryo içindir. Detay: [kombi donma koruması](/preview/kombi-donma-korumasi).
-
-## Doğru Karışım Oranı
-
-Antifriz **saf** kullanılmaz. Belirli oranda suyla karıştırılır. Oran, hedef donma noktasına göre belirlenir:
-
-| İklim / senaryo            | Antifriz % | Donma noktası | Uygulama           |
-| -------------------------- | ---------- | ------------- | ------------------ |
-| 1. bölge (İzmir, Antalya)  | %20        | –8 °C         | Yazlıklar          |
-| 2. bölge (İstanbul, Bursa) | %25        | –12 °C        | Kesintili kullanım |
-| 3. bölge (İstanbul)        | %30        | –15 °C        | Standart           |
-| 4. bölge (Erzurum, Kars)   | %40        | –22 °C        | Zorunlu            |
-| Ekstrem / dağ evi          | %50        | –33 °C        | Sınır              |
-
-**Kural:** **%50'nin üstüne çıkma.** %50 üzerindeki karışım ısı transferini dramatik düşürür, pompa yorulur ve yoğuşmalı verimi biter.
-
-### Hesap örneği (100 L tesisat, %30 hedef)
-
-```
-Toplam su: 100 L
-Antifriz miktarı: 100 × 0.30 = 30 L konsantre antifriz
-Kalan su: 70 L (yumuşatılmış / demineralize)
-```
-
-Tesisat hacmi bilinmiyorsa yaklaşık hesap: **kombi + petek başına 3–4 L** kabul edin (12 petekli bir daire ≈ 40–50 L).
-
-## Antifriz Nasıl Doldurulur? Adım Adım
-
-1. **Gaz vanasını ve kombi enerjisini kapat.**
-2. **Tesisatı boşalt** — kombinin alt tahliye vanasından ve en düşük noktadaki radyatörden.
-3. **Sistemi yıka** — inhibitör kalıntılarını temizlemek için 1–2 tur temiz su dolaştır.
-4. **Antifrizi konsantre olarak doldur** (peteklere değil, doldurma vanasından).
-5. **Yumuşatılmış su ile 1.5 bar'a kadar tamamla.**
-6. **Havayı al** — her petekten havalık üzerinden, en üst kattan başla. Detay: [petek hava alma](/preview/petek-hava-alma-radyator-purj).
-7. **Kombiyi aç, sirkülasyon başlat**, 30 dk boyunca çalıştır — karışım homojenleşir.
-8. **Test kâğıdı / refraktometre ile kontrol et:** hedeflenen donma noktasında mı?
-9. **Etiket bırak** — panoya "Sistem antifrizli, %30, tarih:" yaz.
-
-> **Önemli:** Antifriz karışım pH'ı 7.5–9 arasında olmalı. Yıllık bakımda **pH test şeridi** ile kontrol edilir. pH 6 altına düşerse antifriz bozunmuştur, değiştirilmelidir.
-
-## Antifrizin Ömrü ve Bakımı
-
-| Ürün              | Değişim aralığı |
-| ----------------- | --------------- |
-| Sentinel X500     | 5 yıl           |
-| Fernox Alphi-11   | 5 yıl           |
-| Bosch Alphi-11    | 5 yıl           |
-| Vaillant orijinal | 5 yıl           |
-| Yerli PG bazlı    | 3 yıl           |
-
-Yıllık kombi bakımında servis **antifriz oranı + pH** kontrol etmeli. Oran %15'in altına düşerse (dolum su eklendikçe) yeniden takviye edilir.
-
-## Antifrizin Dezavantajları
-
-- Isı transfer katsayısı sudan **%10–15 düşük**. Aynı sıcaklık için kombi daha çok çalışır.
-- Viskozitesi yüksek → pompa daha çok yük çeker.
-- Zamanla bozunur, asidik hâle gelir → eşanjörü paslatır.
-- Contalarda hafif genleşme yapabilir → 5 yılda bir değişim şart.
-- Maliyet: 20 L kaliteli antifriz ≈ 2.500–4.000 TL (2026).
-
-Bu yüzden **gerçekten gerekmiyorsa antifriz kullanılmaz**. Şehir dairesinde don koruma modu + iyi yalıtım yeter.
-
-## En Sık Yapılan 5 Hata
-
-1. **Araba antifrizi (etilen glikol) koymak.** Contaları şişirir, pompayı bozar, toksiktir. Kombi garantisi biter.
-2. **Konsantreyi seyreltmeden doldurmak.** %100 antifriz ısıyı iletmez, kombi arıza verir.
-3. **Antifrizi peteklere koyup üzerine su eklemek.** Karışım homojen olmaz, bazı bölgelerde donar.
-4. **5 yıl geçmesine rağmen değişim yapmamak.** Bozunan antifriz asidik olur, eşanjörü paslatır.
-5. **"Ne kadar çok, o kadar iyi" düşüncesi.** %50 üstü karışım ısı transferini yarıya düşürür, faturayı uçurur.
-
-## Kimyasal Yapı ve Marka Karşılaştırması
-
-Kombi antifrizinin iki ana kimyasal ailesi vardır:
-
-**Propilen glikol (PG)**: gıda güvenli, düşük toksisite. Kullanım suyuna kaza sızmasında sağlık riski minimum. Ancak viskozitesi yüksek, pompa yükü %10-15 artar.
-
-**Etilen glikol (EG)**: viskozitesi düşük, verim yüksek, ancak toksik. Kullanım suyuyla teması yasak — sadece kapalı devre ısıtmada kullanılır.
-
-Piyasada yaygın markalar:
-
-| Marka                     | Baz            | Konsantrasyon      | Ömür    | 20L fiyat 2026 |
-| ------------------------- | -------------- | ------------------ | ------- | -------------- |
-| Fernox Alphi-11           | PG + inhibitor | %30 hazır          | 10 yıl  | 2.800-3.400 ₺  |
-| Sentinel X500             | PG             | %30 hazır          | 5 yıl   | 2.400-2.900 ₺  |
-| Cillit Boiler Frost       | EG             | %35 hazır          | 5 yıl   | 1.800-2.400 ₺  |
-| Genel yerli PG konsantre  | PG saf         | 100% (seyreltilir) | 3-5 yıl | 1.200-1.800 ₺  |
-| Baymak / DemirDöküm marka | PG + inhibitor | %30 hazır          | 5 yıl   | 2.100-2.700 ₺  |
-
-**Kesinlikle kullanılmaz**: araba antifrizi (silikat / fosfat içerir, kombi eşanjörünü yer), sanayi tipi EG (inhibitor yok, 6 ayda korozyon başlar), saf gliserin (donma noktası yeterli değil).
-
-## Donma Noktası vs Konsantrasyon (Detaylı Tablo)
-
-| Konsantrasyon (PG) | Donma noktası | Viskozite artışı | Isı iletim kaybı |
-| ------------------ | ------------- | ---------------- | ---------------- |
-| %10                | -3 °C         | +5%              | -3%              |
-| %20                | -7 °C         | +12%             | -6%              |
-| **%30**            | **-13 °C**    | **+18%**         | **-9%**          |
-| %35                | -18 °C        | +25%             | -12%             |
-| %40                | -22 °C        | +32%             | -15%             |
-| %50                | -33 °C        | +50%             | -22%             |
-
-Türkiye iç kesim ve doğu için standart %30, Doğu Anadolu yüksek rakım için %35-40 önerilir. %40 üstü artık verim kaybı avantajı gölgeler.
-
-## Sistem Hacmi Hesaplama
-
-Doğru antifriz miktarı için sistem su hacmi bilinmeli. Kaba hesap:
-
-```
-Toplam hacim (L) = Radyatör hacmi + Boru hacmi + Kombi eşanjör
-
-Panel radyatör 500x1000 mm: ~2.5 L
-Panel radyatör 600x1200 mm: ~3.8 L
-22 mm bakır boru: 0.30 L/m
-28 mm bakır boru: 0.50 L/m
-Yerden ısıtma 16 mm boru: 0.13 L/m
-Kombi eşanjör + ekipman: 3-6 L
-```
-
-**Örnek — 100 m² daire:**
-
-- 7 adet 600x1200 radyatör: 26.6 L
-- 60 metre 22 mm boru: 18 L
-- Kombi: 4 L
-- Toplam: **48.6 L**
-- %30 konsantrasyon: 14.6 L antifriz + 34 L saf su
-
-## Doldurma Ekipmanları
-
-- **Ekstra doldurma pompası**: kombi doldurma vanası yeterli değil, basıncı yenmek zor. Manuel el pompası (1.500 ₺) veya elektrikli (4.500 ₺) kullanılır.
-- **Refraktometre**: konsantrasyon ölçüm cihazı. Damla su üstüne düşer, ölçek 0-70% okur. Şart, 400-800 ₺.
-- **pH stripleri**: 5.5-8.5 aralığı, antifriz sağlığını gösterir. Yılda 1 test.
-- **TDS metre**: toplam çözünmüş katı, korozyon takibi.
-
-## Antifrizin Ömür Sinyalleri
-
-Ne zaman değiştirmeli?
-
-1. **Renk**: berrak açık pembe/sarı → koyu kahverengi = değiştir.
-2. **pH**: 8.0 altına düştüyse asitli, sistem korozyon yapıyor.
-3. **Koku**: yanık plastik / metalik = inhibitör tükendi.
-4. **Konsantrasyon**: refraktometre değeri fabrika değerinden %5+ farklıysa (su ekleme veya buharlaşma).
-5. **Süre**: kalite antifriz 5-10 yıl, ucuz PG 2-3 yıl. Marka önerisini kaçırma.
-
-Yılda bir kez ölçüm, 5 yılda bir yenileme standart uygulamadır.
-
-## Antifriz Kullanan Sistemin Verim Kaybı
-
-Antifriz eklenmiş sistem saf suya göre:
-
-- Yıllık gaz tüketimi +%6-10
-- Pompa elektrik tüketimi +%12-18
-- Isınma süresi (soğuk başlangıç) +8-15 dk
-
-Bu maliyet donma hasarından çok ucuzdur. Patlak bir petek + tavan tamiri 15.000-40.000 ₺; antifriz sistemi ise yılda 3.000-4.500 ₺ ek işletme.
-
-## Kaza Sızıntısı: Sağlık Riski
-
-PG (propilen glikol) kullanım suyuna karışırsa 100 mg/kg gıda katkı sınırı altındadır — gıda güvenli. EG (etilen glikol) karışırsa **derhal** su içilmez, sağlık kuruluşuna başvurulur (100 mL ölümcül olabilir).
-
-Isıtma-kullanım suyu ısı eşanjörü çift cidarlı olmayan eski kombilerde bu risk gerçektir. 2018 sonrası satılan yoğuşmalı kombilerin çoğunda çift cidar zorunludur.
-
-## Çevre ve İmha
-
-Kullanılmış antifriz **evsel atık kanalizasyona dökülmez**. Belediye tehlikeli atık merkezi veya yetkili servis ile teslim edilmelidir. 40 L antifriz doğaya döküldüğünde 400.000 L suyu içme suyu standardından çıkarır.
-
-## Antifriz + Su Karışım Sırası ve Hataları
-
-Antifriz sisteme **saf halde** basılırsa borularda tabakalanma yapar, verim düşer. Doğru sıra:
-
-1. Boş temiz plastik kovaya önce hesaplanan **su miktarı** (34 L örneğimizde) konulur.
-2. Yavaşça antifriz eklenir, kovada karıştırıcı ile 5 dk homojenize edilir.
-3. Elektrikli doldurma pompası ile kombi doldurma vanasından yavaşça sisteme basılır.
-4. Basınç 1.5 bar'a ulaştığında durulur.
-5. Sistem 15 dk çalıştırılır → radyatörlerden hava alınır → tekrar basınç ayarlanır.
-6. Refraktometre ile örnek alınıp konsantrasyon doğrulanır.
-
-## Kombi Kartı ve Sensör Uyumluluğu
-
-Bazı yoğuşmalı kombilerin akış sensörleri (Grundfos, Wilo) antifriz viskozitesinden etkilenir. %30 üstü konsantrasyonda:
-
-- Debi sensörü %8-12 hata verir
-- Kombi "düşük debi" hatasıyla kapanır (E20, F04, E5)
-- Çözüm: yaz sonu debi sensörü kalibrasyonu (servis işi)
-
-Modern kombiler (2020 sonrası) glikol modu düğmesine sahiptir; menüden aktif edilirse sensör kalibrasyonu otomatik ayarlanır.
-
-## Sıkça Sorulan Sorular
-
-### Kombide su yerine sadece antifriz kullanabilir miyim?
-
-**Hayır.** Saf antifriz ısıyı iletmez ve viskozdur. Her zaman su ile karıştırılır — genellikle %25–40 antifriz oranında.
-
-### Araba antifrizi (etilen glikol) kombide kullanılır mı?
-
-Asla. Etilen glikol contaları bozar, toksiktir ve kombi garantisini iptal eder. Sadece **propilen glikol bazlı kombi antifrizi** kullanın.
-
-### Antifriz kombi verimini düşürür mü?
-
-Evet, %10–15 arasında. Isı transferi azalır, pompa daha çok çalışır. Bu yüzden gereksiz kullanılmamalıdır.
-
-### Antifriz ne kadar sürede değişmeli?
-
-Kaliteli marka antifriz (Sentinel, Fernox, Alphi-11) **5 yılda bir**, yerli PG bazlı ürünler **3 yılda bir** değişmelidir.
-
-### Kombinin don koruma modu antifriz yerine geçer mi?
-
-Elektrik varsa evet — dış sıcaklık 3 °C'ye düştüğünde brülör devreye girer. Elektrik kesilirse çalışmaz; uzun süre boş kalacak evlerde antifriz şart.
-
-### Yazlığa antifriz koydum, yaz gelince boşaltayım mı?
-
-Hayır, antifriz sürekli kalır; 5 yıla kadar bir şey yapmanız gerekmez. Sadece yıllık bakımda oran + pH kontrolü yaptırın.
-
----
-
-**Sonuç:** Antifriz kombi tesisatı için **koşullu bir çözümdür**, standart bir uygulama değil. Sürekli kullanılan şehir dairesinde don koruma modu yeter; yazlık, kesintili kullanım veya soğuk iklim + uzun süre boş kalış senaryolarında ise antifriz **kaçınılmaz**. Doğru ürünü (**propilen glikol bazlı, kombi onaylı**), doğru oranda (**%25–40**), doğru şekilde (yıkanmış sistem, homojen karışım, havası alınmış) uygulayın. 5 yılda bir değiştirin, yıllık bakımda pH kontrolü yaptırın. Araba antifrizi asla kullanılmaz — bu tek bilgi bile kombinizin ömrünü yıllarca uzatır.
-
-## Otoriter Kaynaklar ve Referanslar
-
-- [Wikipedia — Propilen glikol](https://tr.wikipedia.org/wiki/Propilen_glikol)
-- [TSE — Türk Standartları Enstitüsü](https://www.tse.org.tr/)
-- [T.C. Çevre, Şehircilik ve İklim Değişikliği Bakanlığı](https://www.csb.gov.tr/)
-- [Wikipedia — Kombi](https://tr.wikipedia.org/wiki/Kombi)

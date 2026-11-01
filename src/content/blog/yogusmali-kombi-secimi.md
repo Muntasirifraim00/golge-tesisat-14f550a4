@@ -1,277 +1,162 @@
 ---
-slug: "yogusmali-kombi-secimi"
-title: "Yoğuşmalı Kombi Seçimi: Kapasite, Marka ve Tasarruf Rehberi (2026)"
-seoTitle: "Yoğuşmalı Kombi Seçimi: Marka + kW + Fiyat"
-keyword: "yoğuşmalı kombi seçimi kapasite"
-volume: 200
-kdi: 30
-category: "Kombi & Kalorifer"
-readMin: 5
-published: "2026-07-26"
-updated: "2026-07-26"
-excerpt: >
-  Yoğuşmalı kombi, egzoz gazındaki su buharını yoğuşturarak %20-30 daha az yakıt
-  tüketir.
-metaDescription: "Yoğuşmalı kombi: kW hesabı, marka × ömür × fiyat, geri ödeme süresi ve montaj kontrol listesi. İstanbul geneli 7/24 servis: 0533 896 05 03. Gölge Tesisat İst..."
-serviceSlug: "kombi-tamiri"
+slug: yogusmali-kombi-secimi
+title: 'Yoğuşmalı Kombi Seçimi: Kapasite, Marka ve Tasarruf Rehberi (2026)'
+seoTitle: 'Yoğuşmalı Kombi Seçimi: Doğru kW, Marka ve Montaj Rehberi'
+keyword: yoğuşmalı kombi seçimi kapasite
+category: Kombi & Kalorifer
+readMin: 8
+published: '2026-07-26'
+updated: '2026-10-03'
+excerpt: |
+  Yoğuşmalı kombi, egzoz gazındaki su buharını yoğuşturarak konvansiyonel modele göre belirgin ölçüde daha az yakıt tüketir. Doğru kW hesabı, marka karşılaştırması, baca ve yoğuşma suyu tahliyesi dahil tüm seçim kriterleri bu rehberde.
+metaDescription: 'Yoğuşmalı kombi seçimi: evinize uygun kW hesabı, marka ve ömür karşılaştırması, baca ve yoğuşma suyu gereksinimleri, montaj kontrol listesi. İstanbul geneli kombi montajı.'
+serviceSlug: kombi-montaji
 featuredImage:
-  src: "/blog-images/yogusmali-kombi-secimi-hero.jpg"
-  alt: "yoğuşmalı kombi seçimi kapasite — İstanbul saha rehberi görseli"
-  caption: "Gölge Tesisat İstanbul saha ekibi."
-intro: >
-  Yoğuşmalı kombi, egzoz gazındaki su buharını yoğuşturarak %20-30 daha az yakıt
-  tüketir. Bu rehber; ev m² × pencere sayısına göre doğru kW hesabı, marka ×
-  ömür × fiyat karşılaştırması ve 2026 doğalgaz tarifelerine göre geri ödeme
-  süresini içerir. > Kompakt karar: 100 m² normal yalıtımlı ev → 24 kW
-  yoğuşmalı. Marka önceliği: Vaillant / Bosch (10 yıl+ garanti) → Baymak /
-  DemirDöküm → ECA. İstanbul montaj + baca dahil 32.000–55.000 TL. Detaylı
-  danışma: 0533 896 05 03.
+  src: /blog-images/yogusmali-kombi-secimi-hero.jpg
+  alt: yoğuşmalı kombi seçimi kapasite — İstanbul saha rehberi görseli
+  caption: Gölge Tesisat İstanbul saha ekibi.
+intro: |
+  Yoğuşmalı kombi, egzoz gazındaki su buharını yoğuşturarak konvansiyonel kombiye göre belirgin ölçüde daha az yakıt tüketir. Bu rehber; evinizin metrekaresi ve sıcak su ihtiyacına göre doğru kW hesabını, marka ve ömür karşılaştırmasını, baca ve yoğuşma suyu tahliyesi gibi çoğu zaman atlanan teknik gereksinimleri ve montaj öncesi kontrol listesini kapsar. Amacımız, satış broşürü diliyle değil, saha deneyimiyle karar vermenizi sağlamak.
 sections:
-  - heading: "Yoğuşmalı vs Konvansiyonel — 6 Kritik Fark"
+  - heading: Öne Çıkanlar
+    id: one-cikanlar
+    bullets:
+      - 'Yoğuşmalı kombi, egzoz gazındaki su buharını yoğuşturarak konvansiyonel kombiye göre belirgin ölçüde daha az yakıt tüketir.'
+      - 'Doğru kapasiteyi belirleyen çoğu zaman ısıtma ihtiyacı değil, sıcak su talebidir; kişi sayısı ve banyo adedi hesabın temelidir.'
+      - 100 m² üstü ve günde uzun saat ısınan evlerde yoğuşmalı kombi hem yasal hem ekonomik olarak doğru tercihtir.
+      - Yoğuşmalı kombi PP plastik çift cidarlı baca ve yoğuşma suyu tahliye hattı ister; İGDAŞ projesi zorunludur.
+      - Manyetit filtre ve yıllık bakım atlanırsa eşanjör birkaç yılda tıkanır; garanti dışı onarım maliyeti yüksektir.
+  - id: yogusmali-vs-konvansiyonel
+    heading: Yoğuşmalı vs Konvansiyonel — Temel Farklar
     paragraphs:
-      - "**Karar:** 100 m² üstü, günde 8+ saat ısınma → **yoğuşmalı zorunlu** (yasal olarak da 2015'ten beri)."
-      - "Detay: [yoğuşmalı kombi vs konvansiyonel](/preview/yogusmali-kombi-vs-konvansiyonel)."
+      - 'Konvansiyonel kombi, yanma sonucu oluşan sıcak egzoz gazını doğrudan bacadan dışarı atar; gazın içindeki su buharı ve taşıdığı ısı da buharla birlikte kaybolur. Yoğuşmalı kombi ise bu gazı ikinci bir eşanjörden geçirerek su buharını yoğuşturur ve açığa çıkan gizli ısıyı sisteme geri kazandırır.'
+      - 'Bu fark pratikte şu anlama gelir: aynı evi ısıtmak için yoğuşmalı kombi daha az doğalgaz yakar. Tasarruf oranı; evin yalıtımına, peteklerin çalışma sıcaklığına ve kullanım alışkanlığına göre değişir, ancak düşük sıcaklıkta çalışan sistemlerde (yerden ısıtma, büyük petekler) verim en üst düzeye çıkar.'
+      - 'Karar kısa yolu: 100 m² üstü ve günde uzun saat ısınan bir evde yoğuşmalı kombi hem yasal zorunluluk hem de ekonomik tercihtir. Teknik karşılaştırmanın tamamı için [yoğuşmalı kombi vs konvansiyonel](/blog/yogusmali-kombi-vs-konvansiyonel) yazımıza bakın.'
     image:
-      src: "/blog-images/yogusmali-kombi-secimi-infographic.jpg"
-      alt: "Kombi seçim rehberi"
-      caption: "Yoğuşmalı kombi seçim rehberi."
-  - heading: "Kaç kW Alınmalı? Doğru Hesap"
+      src: /blog-images/yogusmali-kombi-secimi-infographic.jpg
+      alt: Yoğuşmalı kombi seçim rehberi infografiği
+      caption: Yoğuşmalı kombi seçiminde temel karar adımları.
+    bullets:
+      - '**Çalışma prensibi:** Egzoz gazındaki buharı yoğuşturur, ısıyı geri kazanır — Egzoz gazını doğrudan dışarı atar'
+      - '**Verim:** Düşük sıcaklıkta çok yüksek — Orta düzey'
+      - '**Baca:** PP plastik, çift cidarlı — Metal, tek cidarlı'
+      - '**Yoğuşma suyu:** Üretir, tahliye hattı gerekir — Yok'
+      - '**Ömür beklentisi:** Daha uzun (kaliteli eşanjör) — Daha kısa'
+      - '**İdeal kullanım:** Sürekli ve uzun süreli ısıtma — Kısa süreli, seyrek kullanım'
+  - id: kac-kw-almali
+    heading: Kaç kW Alınmalı? Doğru Kapasite Hesabı
     paragraphs:
-      - "Detay: [kombi kaç kW olmalı](/preview/kombi-kac-kw-olmali)."
+      - 'Kombi kapasitesinde en sık yapılan hata, yalnızca metrekareye bakmaktır. Oysa çoğu evde belirleyici olan ısıtma ihtiyacı değil, sıcak su talebidir: aynı anda iki musluk açıldığında suyu ısıtabilmek, petekleri ısıtmaktan daha yüksek anlık güç ister.'
+      - 'Isıtma tarafında kaba hesap şöyledir: evin alanı, yalıtım kalitesine göre değişen bir katsayıyla çarpılır. İyi yalıtımlı bir dairede metrekare başına düşen ısı kaybı düşük, yalıtımsız bir binada ise yüksektir. Çıkan değer, evi konfor sıcaklığında tutmak için gereken asgari gücü verir.'
+      - 'Sıcak su tarafında ise kişi sayısı ve banyo adedi esas alınır. Tek banyolu ve 3–4 kişilik bir evde orta kapasite yeterliyken, iki banyolu veya kalabalık evlerde daha yüksek kapasite gerekir. Sonuç olarak kombi kapasitesi, ısıtma ve sıcak su ihtiyacından büyük olanı karşılayacak şekilde, küçük bir emniyet payıyla seçilir.'
+      - 'Detaylı hesap tabloları ve örnek senaryolar için [kombi kaç kW olmalı](/blog/kombi-kac-kw-olmali) yazımızı inceleyin.'
     image:
-      src: "/blog-images/yogusmali-kombi-secimi-symptoms.jpg"
-      alt: "kW seçim rehberi"
-      caption: "kW kapasitesine göre daire büyüklüğü rehberi."
-  - heading: "Marka × Ömür × Fiyat (2026)"
+      src: /blog-images/yogusmali-kombi-secimi-symptoms.jpg
+      alt: kW kapasitesine göre daire büyüklüğü rehberi
+      caption: Kapasite seçiminde metrekare kadar sıcak su talebi de belirleyicidir.
+    bullets:
+      - '**1+1, 50–70 m²:** İyi — Isıtma düşük; sıcak su talebine göre orta kapasite'
+      - '**2+1, 80–100 m²:** Orta — Sıcak su belirleyici; orta-üst kapasite'
+      - '**3+1, 110–140 m²:** Orta — Üst kapasite; iki banyo varsa daha yüksek'
+      - '**Müstakil / villa:** Değişken — Isı kaybı hesabı şart; kaskad veya yüksek kapasite değerlendirilir'
+  - id: marka-karsilastirma
+    heading: Marka ve Ömür Karşılaştırması
     paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
+      - 'Marka seçiminde fiyat kadar önemli olan üç kriter vardır: eşanjör kalitesi, garanti koşulları ve yaşadığınız şehirdeki yetkili servis ağı. Uzun ömürlü bir kombi bile, servisi bulunamıyorsa arıza anında sorun yaratır.'
+      - 'Premium segmentteki markalar (Vaillant, Viessmann, Bosch, Buderus) daha uzun ömür beklentisi ve geniş garanti seçenekleri sunar. Orta segmentteki yerli üretim veya yerelleşmiş markalar (Baymak, DemirDöküm, ECA) ise Türkiye genelinde çok geniş servis ağı ve daha erişilebilir yedek parça avantajı sağlar.'
+      - 'İstanbul özelinde pratik önerimiz: servis ağı güçlü, yedek parçası kolay bulunan bir marka seçmek, uzun vadede marka prestijinden daha değerlidir. Kombi arızalarının büyük bölümü kış ortasında yaşanır ve o gün servis bulabilmek her şeydir.'
     image:
-      src: "/blog-images/yogusmali-kombi-secimi-comparison.jpg"
-      alt: "Kombi marka karşılaştırma"
-      caption: "Bosch, Vaillant, Baymak, Demirdöküm, Buderus karşılaştırması."
-  - heading: "Yakıt Tasarrufu Analizi (İstanbul 2026, 3,85 TL/m³)"
+      src: /blog-images/yogusmali-kombi-secimi-comparison.jpg
+      alt: Kombi marka karşılaştırma görseli
+      caption: 'Marka seçiminde servis ağı ve garanti, fiyat kadar önemlidir.'
+    bullets:
+      - '**Premium:** Vaillant, Viessmann, Bosch, Buderus — Uzun ömür, geniş garanti — Bazı modellerde servis ağı sınırlı olabilir'
+      - '**Orta:** Baymak, DemirDöküm — Türkiye''nin en geniş servis ağı — Ömür beklentisi premiuma göre daha kısa'
+      - '**Ekonomik:** ECA, Ariston — Erişilebilir fiyat, yaygın servis — Garanti süresi ve eşanjör kalitesi karşılaştırılmalı'
+  - id: yakit-tasarrufu
+    heading: Yakıt Tasarrufu Nasıl Gerçekleşir?
     paragraphs:
-      - "**Yıllık:** ~1.635 TL. **10 yıllık:** ~19.500 TL (enflasyonla ~30.000 TL)."
-      - "**Optimum:** 8.000–12.000 TL fiyat farkı (Baymak/DemirDöküm/ECA) → 5–7 yıl."
+      - 'Yoğuşmalı kombinin tasarrufu sihir değil, fiziktir: egzoz gazındaki su buharı yoğuşurken açığa çıkan ısı, sisteme geri kazandırılır. Bu kazanım, kombinin düşük gidiş suyu sıcaklığında çalıştığı durumlarda en yüksektir; petekler yeterince büyükse ve sistem düşük sıcaklıkta konfor sağlıyorsa yoğuşma sürekli gerçekleşir.'
+      - 'Tasarrufu belirleyen pratik faktörler şunlardır: evin yalıtımı, petek boyutları, oda termostatı kullanımı ve kombinin modülasyon aralığı. Termostatsız, petekleri küçük, kombiyi sürekli en yüksek ayarda çalıştıran bir evde yoğuşma verimi düşer.'
+      - 'Geri ödeme mantığıyla bakarsak: yoğuşmalı kombi ile konvansiyonel arasındaki yatırım farkı, kış aylarındaki fatura farkıyla zamanla kapanır. Uzun süre oturacağınız bir evde bu fark birkaç ısıtma sezonunda dengelenir; kısa süreli kullanımda ise ekonomik anlamı sınırlıdır.'
     image:
-      src: "/blog-images/yogusmali-kombi-secimi-chart.jpg"
-      alt: "10 yıllık maliyet grafiği"
-      caption: "10 yıllık maliyet: yoğuşmalı vs geleneksel kombi."
-  - heading: "Marka Seçim Kılavuzu"
+      src: /blog-images/yogusmali-kombi-secimi-chart.jpg
+      alt: Yoğuşmalı ve konvansiyonel kombi uzun dönem maliyet karşılaştırması
+      caption: 'Uzun dönemde yoğuşmalı kombi, yakıt tasarrufuyla yatırım farkını kapatır.'
+  - id: baca-yasal
+    heading: Baca ve Yasal Gereklilikler
     paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Baca × Yasal Gereklilik"
+      - 'Yoğuşmalı kombi, ürettiği asidik yoğuşma suyu nedeniyle standart metal baca kullanamaz; PP plastik çift cidarlı baca zorunludur. Hermetik (denge çekişli) modellerde baca doğrudan dış cepheye açılır ve yanma havasını dışarıdan alır.'
+      - Bina ortak bacasına bağlantı yapılacaksa bacanın ilgili standartlara uygunluğu kontrol edilmelidir. Uzun baca hatlarında markanın izin verdiği maksimum baca uzunluğu aşılmamalıdır; aksi halde cihaz arızaya geçer.
+      - 'Yasal tarafta İGDAŞ onaylı doğalgaz projesi zorunludur. Projesi olmayan veya projeye aykırı yapılan tesisat mühürlenme riski taşır. Süreçle ilgili ayrıntılar için [doğalgaz tesisatı yaptırma ve abonelik](/blog/dogalgaz-tesisati-yaptirma-abonelik) rehberimize bakın.'
+      - '**Güvenlik uyarısı:** Doğalgaz tesisatında herhangi bir işlem yalnızca yetkili firma ve sertifikalı ustalar tarafından yapılmalıdır. Gaz kokusu hissederseniz vanayı kapatın, elektrikli hiçbir alete dokunmayın, ortamı havalandırın ve 187 Doğalgaz Acil hattını arayın.'
+  - id: yogusma-suyu-tahliye
+    heading: Yoğuşma Suyu Tahliyesi
     paragraphs:
-      - "Yoğuşmalı kombi **PP plastik çift cidarlı baca**:"
-      - "**Yasal:** İGDAŞ / İGDAŞ **projesi zorunlu** (600–1.500 TL). Detay: [doğalgaz tesisatı yaptırma](/preview/dogalgaz-tesisati-yaptirma-abonelik)."
-  - heading: "Yoğuşma Suyu Tahliyesi"
+      - 'Yoğuşmalı kombi, çalışırken her gün birkaç litre asidik yoğuşma suyu üretir. Bu su, cihazın altındaki bir tahliye hattıyla en yakın gidere yönlendirilmelidir. Hat, yerçekimiyle akabilecek şekilde eğimli döşenir; eğim sağlanamıyorsa yoğuşma suyu pompası kullanılır.'
+      - 'Asidik suyun gider hattına ve çevreye zarar vermemesi için nötralizasyon kartuşu (kalsit) önerilir. Kartuş, suyun asiditesini nötralize eder ve birkaç yılda bir değiştirilir.'
+      - Balkon veya soğuk hacimlerden geçen tahliye hatları kışın donabilir; donan hat kombiyi arızaya düşürür. Bu nedenle hat mutlaka izole edilmeli veya ısıtıcı kablo ile korunmalıdır.
+  - id: ne-zaman-almamali
+    heading: Ne Zaman Yoğuşmalı Kombi Almamalısınız?
     paragraphs:
-      - "Yoğuşmalı kombi günde 2–5 lt asidik su üretir (pH 3–4). **Zorunlu:** - Nötralizasyon kartuşu (kalsit) — 400–800 TL, 2–3 yılda değişim - Tahliye hattı → gidere (yerçekimiyle veya pompa) - Donma önleyici izolasyon (kış)"
-  - heading: "Ne Zaman Yoğuşmalı Almamalısınız?"
+      - 'Her eve yoğuşmalı kombi doğru cevap değildir. Aşağıdaki durumlarda alternatifleri değerlendirmek daha mantıklıdır:'
+      - 'Bu durumlarda ısı pompası, klima ile ısıtma veya konvansiyonel çözümler değerlendirilebilir. Isı pompası seçeneğini merak ediyorsanız [ısı pompası nedir, nasıl çalışır](/blog/isi-pompasi-nedir-nasil-calisir) yazımıza göz atın.'
+    bullets:
+      - 'Haftada birkaç saat ısınan yazlık veya hafta sonu evleri: yatırım farkı kendini amorti etmez.'
+      - Baca yerleşiminin teknik olarak imkânsız olduğu daireler.
+      - Çok kısa süre oturulacak kiralık evler.
+      - 'Doğalgaz altyapısının olmadığı, elektrikli ısıtmanın daha uygun olduğu konutlar.'
+  - id: kurulum-kontrol-listesi
+    heading: Montaj Öncesi Kontrol Listesi
     paragraphs:
-      - "**Alternatif:** ısı pompası ([ısı pompası nedir](/preview/isi-pompasi-nedir-nasil-calisir)), soba, klima ısıtma."
-  - heading: "Kurulum Kontrol Listesi (Alım Öncesi)"
+      - 'Kombi satın almadan ve montaj randevusu almadan önce aşağıdaki maddeleri sırayla kontrol edin. Bu liste, sahada en sık karşılaştığımız sorunları henüz para harcamadan önler.'
+    checklist:
+      - İGDAŞ onaylı doğalgaz projesi hazır ve güncel
+      - Baca tipi ve güzergâhı belirlendi (hermetik veya ortak baca)
+      - Kapasite hesabı yapıldı (ısıtma + sıcak su birlikte)
+      - Petek boyutları ve hidrolik denge kontrol edildi
+      - Yoğuşma suyu tahliye hattı ve gider noktası planlandı
+      - Nötralizasyon kartuşu temin edildi
+      - Manyetit filtre (manyetik tortu tutucu) listeye eklendi
+      - Tesisat girişinde mekanik filtre mevcut
+      - Montajı yapacak ustanın sertifikası ve firma yetkisi doğrulandı
+      - 'Garanti belgesi, fatura ve servis kartı teslim alınacak'
+  - id: sik-yapilan-hatalar
+    heading: Sık Yapılan Hatalar
+    bullets:
+      - '1. **Yalnızca metrekareye bakarak kapasite seçmek:** Sıcak su talebi hesaba katılmazsa kombi banyoda yetersiz kalır; kişi sayısı ve banyo adedi mutlaka hesaba girmelidir.'
+      - '2. **Eski ve kirli tesisata yeni kombi takmak:** Eski peteklerdeki çamur ve tortu yeni kombinin eşanjörünü kısa sürede tıkar. Montaj öncesi sistem yıkaması ve manyetit filtre şarttır.'
+      - '3. **Manyetit filtreyi atlamak:** Filtresiz sistemde eşanjör birkaç yılda tıkanır ve garanti kapsamı dışında kalabilen pahalı bir onarım gerekir.'
+      - '4. **Baca projesini atlamak:** Projesiz veya standart dışı baca, İGDAŞ kontrolünde tesisatın mühürlenmesine yol açar.'
+      - '5. **Yalnızca etiket fiyatına göre karar vermek:** Servis ağı zayıf, yedek parçası bulunmayan ucuz bir cihaz, ilk ciddi arızada daha pahalıya gelir.'
+      - '6. **Yıllık bakımı ihmal etmek:** Bakımsız yoğuşmalı kombide verim düşer, yoğuşma suyu hattı tıkanır ve arıza riski artar.'
+  - id: bakim-ve-omur
+    heading: Bakım ve Uzun Ömür İçin Yapılacaklar
     paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "İstanbul 2026 Ekstra Maliyet"
+      - 'Yoğuşmalı kombinin ömrünü belirleyen en önemli faktör düzenli bakımdır. Yıllık bakımda eşanjör temizliği, yoğuşma suyu sifonu kontrolü, gaz ayarı ve emniyet donanımlarının testi yapılır.'
+      - 'Bakım dışında kullanıcı olarak yapabilecekleriniz: kombi su basıncını ara ara kontrol etmek, peteklerin havasını sezonda bir almak ve kombiyi sürekli kapatıp açmak yerine termostatla sabit konforda çalıştırmak.'
+      - 'Bakım ve servis ihtiyaçlarınız için [kombi servisi](/hizmet/kombi-servisi) sayfamızdan bize ulaşabilirsiniz.'
+  - id: sonuc
+    heading: 'Sonuç: Doğru Kombi, Doğru Montaj'
     paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Sık Yapılan 6 Hata"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Kaynaklar (E-E-A-T)"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Gölge Tesisat İstanbul — Acil Servis"
-    paragraphs:
-      - "İstanbul geneli 7/24 tesisat servisimiz Kadıköy, Beşiktaş, Ümraniye, Başakşehir dahil tüm ilçelerde 45 dakika içinde adresinize gelir. Fiyat aralıklarımız arıza türüne göre değişir; net teklif için telefonla ulaşın."
-    callout:
-      variant: "tip"
-      title: "Ustayı çağırmadan önce"
-      body: "Kombi/vana modelini ve fotoğrafı hazır edin; teşhis süresi kısalır, maliyet düşer."
-    cta:
-      title: "Acil tesisatçı mı arıyorsunuz?"
-      body: "İstanbul içi 45 dakikada saha ekibimizi adresinize yönlendiriyoruz."
-      phone: true
-      whatsapp: true
+      - 'Yoğuşmalı kombi seçimi üç ayaklı bir karardır: doğru kapasite (ısıtma + sıcak su), güvenilir marka (servis ağı + garanti) ve kurallarına uygun montaj (baca, yoğuşma tahliyesi, filtre, proje). Bu üçü bir aradaysa kombi yıllarca sessiz ve ekonomik çalışır.'
+      - Kararsız kaldığınız noktalarda evinizin fotoğraflarını ve mevcut tesisat bilgilerini bizimle paylaşın; kapasite hesabından montaj planlamasına kadar birlikte ilerleyelim.
 faq:
-  - q: "100 m² ev için kaç kW yoğuşmalı kombi?"
-    a: "24-35 kW aralığı. Sıcak su talebi belirleyici (4 kişi için 30 kW). Detay: [kombi kaç kW olmalı]."
-  - q: "Hangi marka daha uzun ömürlü?"
-    a: "Vaillant (18-22 yıl), Viessmann (20-25 yıl), Bosch (15-18 yıl). Türkiye servis için Bosch/Baymak avantajlı."
-  - q: "Yoğuşmalı vs konvansiyonel fark?"
-    a: "%20-30 yakıt tasarrufu. 100 m² için yıllık ~1.635 TL, 10 yılda ~19.500 TL (enflasyonla 30k+)."
-  - q: "Baca özel mi?"
-    a: "PP plastik çift cidarlı zorunlu. Hermetik (denge çekişli) veya bina bacası (TS 11384 uyumlu)."
-  - q: "Manyetit filtre şart mı?"
-    a: "EVET. Yoksa 2-3 yılda eşanjör tıkanır, 8.000+ TL onarım. 500-1.200 TL yatırım."
+  - question: 100 m² ev için kaç kW yoğuşmalı kombi gerekir?
+    answer: 'Isıtma ihtiyacı genellikle düşük çıkar; belirleyici olan sıcak su talebidir. Tek banyolu ve 3–4 kişilik bir evde orta-üst kapasite yeterli olur. Kesin hesap için [kombi kaç kW olmalı](/blog/kombi-kac-kw-olmali) yazımızdaki tablolara bakın.'
+  - question: Hangi marka daha uzun ömürlüdür?
+    answer: 'Premium segmentteki markalar daha uzun ömür beklentisi sunar; ancak Türkiye''de pratik ömür, servis ağı ve düzenli bakımla belirlenir. Servisi güçlü bir orta segment marka, bakımsız bir premium markadan daha uzun sorunsuz çalışabilir.'
+  - question: Yoğuşmalı kombi gerçekten tasarruf sağlar mı?
+    answer: 'Evet; özellikle düşük gidiş suyu sıcaklığında çalışan, yalıtımlı ve termostatlı sistemlerde tasarruf belirgindir. Tasarruf oranı evin yalıtımına, petek boyutlarına ve kullanım alışkanlığına göre değişir.'
+  - question: Baca özel mi olmalı?
+    answer: 'Evet. Yoğuşmalı kombi PP plastik çift cidarlı baca ister; standart metal baca kullanılamaz. Hermetik modellerde baca dış cepheye açılır, ortak bacaya bağlantıda ise ilgili standartlara uygunluk şarttır.'
+  - question: Manyetit filtre gerçekten şart mı?
+    answer: 'Evet. Filtresiz sistemde tesisattaki manyetit tortu eşanjörü birkaç yılda tıkar ve garanti dışı kalabilen pahalı bir onarım gerekir. Filtre, küçük bir yatırımla büyük bir riski ortadan kaldırır.'
+  - question: Yoğuşma suyu nereye gider?
+    answer: Cihazın altındaki tahliye hattıyla en yakın gidere yönlendirilir. Hat eğimli döşenir; eğim yoksa yoğuşma suyu pompası kullanılır. Asidik su için nötralizasyon kartuşu önerilir.
+manualRelated:
+  - yogusmali-kombi-vs-konvansiyonel
+  - kombi-kac-kw-olmali
+  - dogalgaz-tesisati-yaptirma-abonelik
+  - isi-pompasi-nedir-nasil-calisir
 ---
-
-# Yoğuşmalı Kombi Seçimi: Kapasite, Marka ve Tasarruf Rehberi (2026)
-
-**Yoğuşmalı kombi**, egzoz gazındaki su buharını yoğuşturarak %20-30 daha az yakıt tüketir. Bu rehber; ev m² × pencere sayısına göre doğru **kW hesabı**, marka × ömür × fiyat karşılaştırması ve 2026 doğalgaz tarifelerine göre geri ödeme süresini içerir.
-
-> **Kompakt karar:** 100 m² normal yalıtımlı ev → **24 kW yoğuşmalı**. Marka önceliği: **Vaillant / Bosch (10 yıl+ garanti) → Baymak / DemirDöküm → ECA**. İstanbul montaj + baca dahil 32.000–55.000 TL. **Detaylı danışma: 0533 896 05 03**.
-
-## Yoğuşmalı vs Konvansiyonel — 6 Kritik Fark
-
-| Kriter                | Yoğuşmalı                | Konvansiyonel      |
-| --------------------- | ------------------------ | ------------------ |
-| **Verim**             | %98–110                  | %75–85             |
-| **Yakıt Tüketimi**    | 100 birim                | 130–145 birim      |
-| **Fiyat (24 kW)**     | 32.000–55.000            | 22.000–35.000      |
-| **Baca**              | PP plastik, çift cidarlı | Metal, tek cidarlı |
-| **Sıvı Yoğuşma Suyu** | 2–5 lt/gün               | Yok                |
-| **Ömür**              | 15–20 yıl                | 10–15 yıl          |
-
-**Karar:** 100 m² üstü, günde 8+ saat ısınma → **yoğuşmalı zorunlu** (yasal olarak da 2015'ten beri).
-
-Detay: [yoğuşmalı kombi vs konvansiyonel](/preview/yogusmali-kombi-vs-konvansiyonel).
-
-## Kaç kW Alınmalı? Doğru Hesap
-
-Detay: [kombi kaç kW olmalı](/preview/kombi-kac-kw-olmali).
-
-### Kısayol Formül
-
-```
-Isı Kaybı (kW) = Alan (m²) × Faktör
-Sıcak Su Talebi (kW) = Kişi Sayısı × 6 + 6
-Kombi kW = MAX(Isı Kaybı, Sıcak Su) + %10 emniyet
-```
-
-### Faktör Tablosu
-
-| Yalıtım                 | Faktör (İstanbul) |
-| ----------------------- | ----------------- |
-| Çok iyi (2015+ mantolu) | 0,06              |
-| İyi                     | 0,08              |
-| Orta                    | 0,10              |
-| Zayıf                   | 0,13              |
-| Yok                     | 0,17              |
-
-### Örnek: 100 m² Mantolu Daire (4 kişi)
-
-- Isı: 100 × 0,08 = 8 kW
-- Sıcak su: 4 × 6 + 6 = 30 kW
-- Emniyet: 30 × 1,1 = 33 kW
-- **Sonuç:** **35 kW yoğuşmalı** (sıcak su belirleyici)
-
-## Marka × Ömür × Fiyat (2026)
-
-| Marka Model                  | kW  | Fiyat (TL)    | Garanti | Ömür Beklentisi | Servis Ağı            |
-| ---------------------------- | --- | ------------- | ------- | --------------- | --------------------- |
-| **Vaillant EcoTEC**          | 24  | 48.000–58.000 | 3+7     | 18–22 yıl       | Geniş                 |
-| **Bosch Condens 4000W**      | 24  | 45.000–55.000 | 3+7     | 15–18 yıl       | Çok geniş             |
-| **Buderus GB172i**           | 24  | 42.000–52.000 | 3+5     | 15–18 yıl       | Orta                  |
-| **Baymak Duotec**            | 24  | 32.000–42.000 | 2+3     | 12–15 yıl       | Türkiye'nin en genişi |
-| **DemirDöküm Nitromix**      | 24  | 30.000–40.000 | 2+3     | 12–15 yıl       | Geniş                 |
-| **ECA Confeo Premix**        | 24  | 28.000–38.000 | 2+3     | 10–12 yıl       | Geniş                 |
-| **Ariston Cares X**          | 24  | 30.000–38.000 | 2+2     | 10–12 yıl       | Orta                  |
-| **Viessmann Vitodens 100-W** | 25  | 55.000–68.000 | 5+5     | 20–25 yıl       | Sınırlı               |
-
-## Yakıt Tasarrufu Analizi (İstanbul 2026, 3,85 TL/m³)
-
-### 100 m² Örnek Aile (Aylık Kış Ortalama)
-
-| Sistem             | Aylık m³ | Aylık TL | 5 Aylık Fatura |
-| ------------------ | -------- | -------- | -------------- |
-| Konvansiyonel A    | 320      | 1.232    | 6.160          |
-| Yoğuşmalı A+++     | 235      | 905      | 4.525          |
-| **Aylık Tasarruf** | 85       | 327      | 1.635          |
-
-**Yıllık:** ~1.635 TL. **10 yıllık:** ~19.500 TL (enflasyonla ~30.000 TL).
-
-### Geri Ödeme Süresi
-
-| Kombi Farkı (TL) | Yıllık Tasarruf | Geri Ödeme |
-| ---------------- | --------------- | ---------- |
-| 8.000            | 1.635           | ~5 yıl     |
-| 12.000           | 1.635           | ~7 yıl     |
-| 20.000           | 1.635           | ~12 yıl    |
-
-**Optimum:** 8.000–12.000 TL fiyat farkı (Baymak/DemirDöküm/ECA) → 5–7 yıl.
-
-## Marka Seçim Kılavuzu
-
-- **Bütçe kısıtlı** → ECA Confeo Premix (yeterli, ancak 10–12 yıl beklentisi)
-- **Denge fiyat/kalite** → Baymak Duotec (Türkiye servis ağı en geniş)
-- **Uzun ömür** → Vaillant EcoTEC (10 yıl+ garanti, 20+ yıl)
-- **Premium** → Viessmann Vitodens (25 yıl, ancak servis sınırlı)
-- **İstanbul için** → **Bosch Condens** (servis ağı + fiyat)
-
-## Baca × Yasal Gereklilik
-
-Yoğuşmalı kombi **PP plastik çift cidarlı baca**:
-
-- **Hermetik (denge çekişli):** Duvardan dışarı, 40–60 cm mesafe
-- **Bina bacası:** Ortak baca, TS 11384 uyumlu (mansard/tip B)
-- **Uzun baca:** 5–8 m max (marka bağlı)
-
-**Yasal:** İGDAŞ / İGDAŞ **projesi zorunlu** (600–1.500 TL). Detay: [doğalgaz tesisatı yaptırma](/preview/dogalgaz-tesisati-yaptirma-abonelik).
-
-## Yoğuşma Suyu Tahliyesi
-
-Yoğuşmalı kombi günde 2–5 lt asidik su üretir (pH 3–4). **Zorunlu:**
-
-- Nötralizasyon kartuşu (kalsit) — 400–800 TL, 2–3 yılda değişim
-- Tahliye hattı → gidere (yerçekimiyle veya pompa)
-- Donma önleyici izolasyon (kış)
-
-## Ne Zaman Yoğuşmalı Almamalısınız?
-
-- Kısa süreli ısınma (haftada 10 saat altı)
-- Yazlık / hafta sonu evi
-- Baca yerleşimi imkânsız
-- Ana su + gaz projesi eski / bilinmiyor
-- Bütçe 22.000 TL altı
-
-**Alternatif:** ısı pompası ([ısı pompası nedir](/preview/isi-pompasi-nedir-nasil-calisir)), soba, klima ısıtma.
-
-## Kurulum Kontrol Listesi (Alım Öncesi)
-
-- [ ] İGDAŞ onaylı proje
-- [ ] MMO onaylı çizim (bacalar)
-- [ ] Ustanın MYK sertifikası
-- [ ] Doğru boyut petek + hidrolik denge
-- [ ] Yoğuşma su nötralizasyon kartuşu
-- [ ] 5 mikron filtre
-- [ ] Manyetit tutucu (500–1.200 TL, kritik!)
-- [ ] Akıllı termostat (opsiyonel)
-- [ ] Baca ölçüm raporu
-- [ ] Garanti + servis kartı
-- [ ] Fatura + garanti belgesi
-
-## İstanbul 2026 Ekstra Maliyet
-
-| Kalem                      | Fiyat (TL)     |
-| -------------------------- | -------------- |
-| Standart montaj            | 3.500 – 6.500  |
-| Baca (hermetik)            | 2.500 – 5.500  |
-| Baca (dikey uzun)          | 5.000 – 12.000 |
-| İGDAŞ projesi              | 1.500 – 3.500  |
-| MMO çizim + kontrol        | 800 – 1.800    |
-| Manyetit filtre            | 500 – 1.200    |
-| Akıllı termostat           | 1.800 – 5.500  |
-| Nötralizasyon kartuşu      | 400 – 800      |
-| Sistem yıkama (eski petek) | 4.500 – 9.000  |
-| İnhibitor                  | 800 – 1.500    |
-
-## Sık Yapılan 6 Hata
-
-1. Yalıtımsız evde 24 kW alıp yetersiz kalmak
-2. Ana kolonu değiştirmeden yeni kombi (eski çamur → yeni eşanjör)
-3. Manyetit filtre atlamak (garanti bitince 8.000 TL eşanjör)
-4. Baca projesini atlamak (mühürlenir)
-5. Ucuz Çin damping kombi
-6. Yıllık bakım atlamak
-
-## Kaynaklar (E-E-A-T)
-
-- EPDK — Doğalgaz Yönetmeliği
-- İGDAŞ / İGDAŞ — Yoğuşmalı zorunluluk
-- Bosch / Vaillant / Baymak teknik kılavuzları
-- TS EN 15502 — Gazlı ısı jeneratörleri
-- MMO — Isıtma tesisat mühendisliği
-- TS 11384 — Baca sistemleri
-- Sanayi Bakanlığı ErP direktifi

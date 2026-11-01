@@ -1,230 +1,193 @@
 ---
-slug: "kombi-neden-calismiyor"
-title: "Kombi Neden Çalışmıyor? Marka Bazlı Arıza Kodları ve Çözüm Rehberi (2026)"
-seoTitle: "Kombi Neden Çalışmıyor? Marka × Kod Rehberi"
-keyword: "kombi neden çalışmıyor marka"
-volume: 200
-kdi: 30
-category: "Kombi & Kalorifer"
-readMin: 3
-published: "2026-07-26"
-updated: "2026-07-26"
-excerpt: >
-  Kombi ekranında E01, F28, A02 ya da yanıp sönen bir kırmızı ışık gördünüz ve
-  cihaz çalışmıyor.
-metaDescription: "Kombi arıza kodları (Bosch, Baymak, Vaillant, DemirDöküm, ECA, Viessmann) ve evde 5 kontrol. İstanbul geneli 7/24 servis: 0533 896 05 03. Gölge Tesisat İstan..."
-serviceSlug: "kombi-tamiri"
+slug: kombi-neden-calismiyor
+title: Kombi Neden Çalışmıyor? Marka Bazlı Arıza Kodları ve Çözüm Rehberi
+seoTitle: Kombi Neden Çalışmıyor? Marka × Kod Rehberi
+keyword: kombi neden çalışmıyor
+category: Kombi & Kalorifer
+serviceSlug: kombi-tamiri
+readMin: 11
+published: '2026-07-26'
+updated: '2026-10-03'
+excerpt: Kombi ekranında E01, F28, A02 ya da yanıp sönen bir kırmızı ışık mı var? Çalışmamanın gerçek nedenlerini, marka bazlı arıza kodlarını ve evde yapabileceğiniz kontrolleri anlatıyoruz.
 featuredImage:
-  src: "/blog-images/kombi-neden-calismiyor-hero.jpg"
-  alt: "kombi neden çalışmıyor marka — İstanbul saha rehberi görseli"
-  caption: "Gölge Tesisat İstanbul saha ekibi."
-intro: >
-  Kombi ekranında E01, F28, A02 ya da yanıp sönen bir kırmızı ışık gördünüz ve
-  cihaz çalışmıyor. Bu yazıda 15 yıllık İstanbul acil kombi servisi
-  tecrübemizle: (1) kombinin çalışmamasının 8 gerçek nedenini, (2) Bosch,
-  Baymak, DemirDöküm, Vaillant, ECA, Buderus, Viessmann markalarında en sık
-  görülen arıza kodlarının tam listesini, (3) hangisini evde çözebileceğinizi ve
-  (4) hangisinde derhal servis çağırmanız gerektiğini adım adım anlatıyoruz. >
-  Kombiniz şu an çalışmıyor mu? Önce ekrandaki hata kodunu fotoğraflayın →
-  aşağıdaki tabloda markanızı bulun → belirtilen ilk müdahaleyi uygulayın.
-  İstanbul 7/24: 0533 896 05 03.
+  src: /blog-images/kombi-neden-calismiyor-hero.jpg
+  alt: Çalışmayan kombinin ekranında arıza kodu
+  caption: Kombi çalışmıyorsa ilk adım ekrandaki arıza kodunu not etmektir.
+metaDescription: Kombi neden çalışmıyor? Bosch, Baymak, Vaillant, DemirDöküm, ECA ve Viessmann arıza kodları, evde yapabileceğiniz kontroller ve servis gerektiren durumlar.
+intro: 'Kombi ekranında E01, F28, A02 ya da yanıp sönen bir kırmızı ışık gördünüz ve cihaz çalışmıyor. Bu rehberde kombinin çalışmamasının en sık nedenlerini, Bosch, Baymak, DemirDöküm, Vaillant, ECA ve Viessmann markalarında sık görülen arıza kodlarını, hangisini evde çözebileceğinizi ve hangisinde servis çağırmanız gerektiğini adım adım anlatıyoruz. İlk yapmanız gereken: ekrandaki hata kodunu fotoğraflayın, aşağıdaki tabloda markanızı bulun ve belirtilen ilk müdahaleyi uygulayın.'
+keyTakeaways:
+- 'Kısa cevap: Kombi çalışmıyorsa önce ekrandaki arıza kodunu not edin, su basıncını ve gaz vanasını kontrol edin, bir kez reset deneyin. Kod tekrar ederse servis çağırın.'
+- En sık nedenler düşük su basıncı, gaz gelmemesi, ateşleme arızası ve kondens borusu donmasıdır.
+- Arka arkaya reset yapmayın; geçici arızada bir reset yeterlidir, tekrarlayan kod kalıcı arıza demektir.
+- Gaz kokusu varsa kombiye dokunmayın; ortamı havalandırıp dışarıdan 187 Doğalgaz Acil'i arayın.
 sections:
-  - heading: "Kombi Neden Çalışmaz? 8 Gerçek Neden"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-    image:
-      src: "/blog-images/kombi-neden-calismiyor-infographic.jpg"
-      alt: "Kombi teşhis akış şeması"
-      caption: "Kombi çalışmıyor teşhis akış şeması."
-  - heading: "Arıza Kodları — Marka Bazlı Tam Liste"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-    image:
-      src: "/blog-images/kombi-neden-calismiyor-comparison.jpg"
-      alt: "Marka bazlı arıza karşılaştırması"
-      caption: "Bosch, Vaillant, Baymak, Demirdöküm arıza karşılaştırması."
-  - heading: "Evde Yapabileceğiniz 5 Kontrol"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-    image:
-      src: "/blog-images/kombi-neden-calismiyor-symptoms.jpg"
-      alt: "Kombi çalışmama nedenleri"
-      caption: "Kombinin çalışmamasının 4 ana nedeni."
-  - heading: "Ne Zaman Kesinlikle Servis?"
-    paragraphs:
-      - "Detay: [evde gaz kokusu](/preview/gaz-kokusu-acil-mudahale)."
-  - heading: "Kombi Yaşı ve Onarım / Değişim"
-    paragraphs:
-      - "Yoğuşmalı seçimi: [yoğuşmalı kombi seçimi](/preview/yogusmali-kombi-secimi)."
-  - heading: "En Sık 5 Yanlış Anlama"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Otoriter Kaynaklar"
-    paragraphs:
-      - "Detaylar için aşağıdaki bölümü inceleyin."
-  - heading: "Sonuç"
-    paragraphs:
-      - "**Hata kodunu fotoğrafla → markanı bul → basınç + gaz + reset (1 kez).** İstanbul 7/24: **0533 896 05 03**."
-    image:
-      src: "/blog-images/kombi-neden-calismiyor-chart.jpg"
-      alt: "Kombi arıza yüzdeleri"
-      caption: "Kombi arıza nedenlerinin yüzdelik dağılımı."
-  - heading: "Gölge Tesisat İstanbul — Acil Servis"
-    paragraphs:
-      - "İstanbul geneli 7/24 tesisat servisimiz Kadıköy, Beşiktaş, Ümraniye, Başakşehir dahil tüm ilçelerde 45 dakika içinde adresinize gelir. Fiyat aralıklarımız arıza türüne göre değişir; net teklif için telefonla ulaşın."
-    callout:
-      variant: "tip"
-      title: "Ustayı çağırmadan önce"
-      body: "Kombi/vana modelini ve fotoğrafı hazır edin; teşhis süresi kısalır, maliyet düşer."
-    cta:
-      title: "Acil tesisatçı mı arıyorsunuz?"
-      body: "İstanbul içi 45 dakikada saha ekibimizi adresinize yönlendiriyoruz."
-      phone: true
-      whatsapp: true
+- heading: Kombi Neden Çalışmaz? En Sık Nedenler
+  id: nedenler
+  paragraphs:
+  - 'Kombinin çalışmaması tek bir arızaya işaret etmez; nedeni bulmak için ekrandaki kodu ve belirtileri birlikte değerlendirmek gerekir. Saha deneyimimizde en sık karşılaştığımız nedenler şunlardır:'
+  image:
+    src: /blog-images/kombi-neden-calismiyor-infographic.jpg
+    alt: Kombi teşhis akış şeması
+    caption: Kombi çalışmıyor teşhis akış şeması.
+- heading: Arıza Kodları — Marka Bazlı Liste
+  id: ariza-kodlari
+  paragraphs:
+  - Aşağıdaki tablolarda markanıza göre sık görülen kodları ve ilk müdahaleyi bulabilirsiniz. Kodlar modele göre değişebilir; kesin bilgi için cihazınızın kullanım kılavuzuna bakın.
+  table:
+    caption: Bosch / Buderus arıza kodları
+    headers:
+    - Kod
+    - Anlamı
+    - İlk Müdahale
+    rows:
+    - - EA
+      - Alev tespit edilmiyor
+      - Gaz vanası açık mı? Bir kez reset
+    - - E9
+      - Aşırı ısınma
+      - Basınç kontrol, servis
+    - - C6
+      - Fan hız hatası
+      - Servis
+    - - F28
+      - Ateşleme yok / kondens donmuş
+      - Kondens borusuna ılık su
+    - - E1
+      - NTC gidiş sensörü
+      - Servis
+  image:
+    src: /blog-images/kombi-neden-calismiyor-comparison.jpg
+    alt: Marka bazlı arıza karşılaştırması
+    caption: Bosch, Vaillant, Baymak ve DemirDöküm arıza karşılaştırması.
+- heading: Baymak Arıza Kodları
+  id: baymak
+  paragraphs:
+  - 'Baymak cihazlarda A ile başlayan kodlar görülür:'
+  table:
+    caption: Baymak arıza kodları
+    headers:
+    - Kod
+    - Anlamı
+    - İlk Müdahale
+    rows:
+    - - A01
+      - Ateşleme arızası
+      - Gaz kontrol, reset
+    - - A02
+      - Alev sönmesi
+      - Gaz basıncı kontrolü
+    - - A03
+      - Aşırı ısınma
+      - Basınç kontrol
+    - - A04
+      - Düşük su basıncı
+      - Doldurma musluğuyla basınç tamamlayın
+    - - A06
+      - NTC sensör
+      - Servis
+- heading: DemirDöküm / Vaillant Arıza Kodları
+  id: demirdokum-vaillant
+  paragraphs:
+  - 'DemirDöküm ve Vaillant cihazlarda F ile başlayan kodlar görülür:'
+  - ECA cihazlarda E01 ateşleme arızası, E02 aşırı ısınma, E04 düşük su basıncı, E05 NTC sensör ve E09 fan hatası anlamına gelir. Viessmann cihazlarda F2/F4 ateşleme, F5 baca ve hava akış arızasıdır; model bazında reset adımları için Viessmann kombi resetleme yazımıza bakabilirsiniz.
+  table:
+    caption: DemirDöküm / Vaillant arıza kodları
+    headers:
+    - Kod
+    - Anlamı
+    - İlk Müdahale
+    rows:
+    - - F.22
+      - Düşük su basıncı
+      - Basınç tamamlayın
+    - - F.28
+      - Ateşleme yok
+      - Gaz + kondens kontrol
+    - - F.29
+      - Alev sönmesi
+      - Servis
+    - - F.10 / F.11
+      - NTC gidiş/dönüş sensörü
+      - Servis
+    - - F.75
+      - Pompa basınç algılamıyor
+      - Hava alma, servis
+- heading: Evde Yapabileceğiniz 5 Kontrol
+  id: evde-kontrol
+  paragraphs:
+  - 'Servis çağırmadan önce şu beş kontrolü sırayla yapın; çalışmamanın önemli bir kısmı bu adımlarla çözülür:'
+  steps:
+  - title: Su basıncını kontrol edin
+    body: Gösterge alt sınırın altındaysa doldurma musluğuyla basıncı tamamlayın. Detay için kombi basıncı düşüyor yazımıza bakın.
+  - title: Gaz geldiğinden emin olun
+    body: Ocağı yakarak gaz akışını test edin. Ocak da yanmıyorsa sayaç vanasını kontrol edin; gaz kokusu varsa hiçbir şeye dokunmayın.
+  - title: Bir kez reset yapın
+    body: Reset düğmesine birkaç saniye basın. Kod tekrar ederse resetlemeyi bırakın; arka arkaya reset arızayı büyütür.
+  - title: Peteklerin havasını alın
+    body: Peteklerin üstü soğuk kalıyorsa pürjörden hava alın. Detay için petek hava alma yazımıza bakın.
+  - title: Elektriği kısa süre kesin
+    body: Cihazı şalterinden kapatıp yarım dakika bekleyip açın; elektronik kart yeniden başlar.
+  image:
+    src: /blog-images/kombi-neden-calismiyor-symptoms.jpg
+    alt: Kombi çalışmama nedenleri
+    caption: Kombinin çalışmamasının ana nedenleri.
+- heading: Ne Zaman Kesinlikle Servis Çağırmalısınız?
+  id: servis
+  paragraphs:
+  - 'Şu durumlarda evde müdahale etmeyin, doğrudan servis çağırın:'
+  - Gaz kokusu durumunda yapılacakların tam listesi için evde gaz kokusu yazımızı okuyun.
+- heading: Kombi Yaşı ve Onarım / Değişim Kararı
+  id: onarim-degisim
+  paragraphs:
+  - Arıza tekrarlıyorsa cihazın yaşı kararı etkiler. Garanti kapsamındaki cihazlarda mutlaka yetkili servis çağırın; garanti dışı müdahale garantiyi geçersiz kılar.
+  - Orta yaşlı cihazlarda küçük parça arızaları (sensör, elektrot) genellikle onarımla çözülür. Eşanjör veya anakart gibi büyük parça arızalarında, cihaz eskiyse ve arızalar sıklaşıyorsa değişim daha mantıklı olabilir. Net karar, yerinde tespit sonrası verilir. Yeni cihaz düşünüyorsanız yoğuşmalı kombi seçimi yazımız size yol gösterir.
+- heading: Sık Yapılan Yanlışlar
+  id: yanlislar
+  paragraphs:
+  - 'Kombi arızalarında şu yaygın hatalar sorunu büyütür:'
+  image:
+    src: /blog-images/kombi-neden-calismiyor-chart.jpg
+    alt: kombi neden calismiyor — chart
+    caption: Durum değerlendirme grafiği
+- heading: Sonuç
+  id: sonuc
+  paragraphs:
+  - 'Kombi çalışmıyorsa panik yapmayın: hata kodunu fotoğraflayın, markanızın tablosundan anlamını bulun, basınç ve gaz kontrolünü yapıp bir kez reset deneyin. Kod tekrar ederse ya da gaz kokusu, su sızıntısı gibi ciddi bir belirti varsa cihazı kapatıp servis çağırın.'
+  - Gölge Tesisat olarak İstanbul'un her iki yakasında kombi tamiri, bakımı ve arıza tespiti için 7/24 hizmet veriyoruz.
 faq:
-  - q: "Kombi çalışmıyor, ilk ne yapmalıyım?"
-    a: "Ekrandaki hata kodunu fotoğrafla, markanın tablosundan anlamı bul, basınç + gaz + 1 kez reset."
-  - q: "Reset kaç kez atılır?"
-    a: "Maksimum 1. Peş peşe reset anakartı yakar, garantiyi geçersiz kılar."
-  - q: "En sık arıza kodu nedir?"
-    a: "Bosch EA / F28, Baymak A01, Vaillant F.22 / F.28. Genelde ateşleme veya düşük basınç."
-  - q: "Kombi 12 yaş üstü, tamir mi değiştirme mi?"
-    a: "12+ yaş → değişim mantıklı. 8-12 yaş sınırda (eşanjör 5-8k TL). 3-8 yaş tamir uygundur."
-  - q: "Kondens borusu donarsa ne olur?"
-    a: "F28/A02 hatası, ateşleme yok. Boruya ILIK (kaynar değil) su döküp çözün."
+- q: Kombi çalışmıyor, ilk ne yapmalıyım?
+  a: Ekrandaki hata kodunu fotoğraflayın, markanızın tablosundan anlamını bulun, su basıncını ve gaz vanasını kontrol edip bir kez reset deneyin.
+- q: Reset kaç kez atılır?
+  a: Geçici arızada bir kez yeterlidir. Kod tekrar ediyorsa arıza kalıcıdır; arka arkaya reset cihazı kilitleyebilir veya arızayı büyütebilir.
+- q: En sık görülen arıza kodları hangileri?
+  a: Bosch'ta EA ve F28, Baymak'ta A01, Vaillant'ta F.22 ve F.28 sık görülür. Bunlar genellikle ateşleme veya düşük basınç kaynaklıdır.
+- q: Eski kombiyi tamir mi ettirmeli, değiştirmeli mi?
+  a: Küçük parça arızalarında onarım mantıklıdır. Eşanjör veya anakart gibi büyük parça arızalarında, cihaz eskiyse ve arızalar sıklaşıyorsa değişim düşünülebilir. Net karar yerinde tespitle verilir.
+- q: Kondens borusu donarsa ne olur?
+  a: Yoğuşmalı kombide atık su dışarı atılamaz ve cihaz ateşleme hatası verir. Boruya ılık (kaynar değil) su dökerek buzu çözebilirsiniz; tekrarlamaması için borunun yalıtımını yaptırın.
+- q: Kombi hiç tepki vermiyor, ekran kapalı, ne yapmalıyım?
+  a: Önce sigortayı ve cihazın fişini kontrol edin. Elektrik geldiği halde ekran açılmıyorsa anakart arızası olabilir; servis çağırın.
+- q: Gaz kokusu varken kombiyi kapatmalı mıyım?
+  a: Kombiye ve hiçbir elektrikli düğmeye dokunmayın. Ortamı havalandırın, binayı terk edin ve dışarıdan 187 Doğalgaz Acil'i arayın.
+cta:
+  title: Kombi tamiri için yanınızdayız
+  body: Arıza tespiti, onarım ve bakım için İstanbul genelinde 7/24 hizmetinizdeyiz.
+  phone: 0533 896 05 03
+  whatsapp: '905338960503'
+inlineLinks:
+- anchor: kombi basıncı düşüyor
+  slug: kombi-basinci-dusuyor
+- anchor: petek hava alma
+  slug: petekler-nasil-acilir
+- anchor: Viessmann kombi resetleme
+  slug: viessmann-kombi-resetleme
+- anchor: evde gaz kokusu
+  slug: gaz-kokusu-acil-mudahale
+- anchor: yoğuşmalı kombi seçimi
+  slug: yogusmali-kombi-secimi
+manualRelated:
+- bosch-kombi-resetleme
+- vaillant-kombi-resetleme
+- viessmann-kombi-resetleme
+- kombi-basinci-dusuyor
 ---
-
-# Kombi Neden Çalışmıyor? Marka Bazlı Arıza Kodları ve Çözüm Rehberi (2026)
-
-Kombi ekranında **E01**, **F28**, **A02** ya da yanıp sönen bir kırmızı ışık gördünüz ve cihaz çalışmıyor. Bu yazıda 15 yıllık İstanbul acil kombi servisi tecrübemizle: (1) kombinin çalışmamasının **8 gerçek nedenini**, (2) **Bosch, Baymak, DemirDöküm, Vaillant, ECA, Buderus, Viessmann** markalarında en sık görülen arıza kodlarının **tam listesini**, (3) hangisini evde çözebileceğinizi ve (4) hangisinde **derhal** servis çağırmanız gerektiğini adım adım anlatıyoruz.
-
-> **Kombiniz şu an çalışmıyor mu?** Önce ekrandaki hata kodunu fotoğraflayın → aşağıdaki tabloda markanızı bulun → belirtilen ilk müdahaleyi uygulayın. İstanbul 7/24: **0533 896 05 03**.
-
-## Kombi Neden Çalışmaz? 8 Gerçek Neden
-
-1. **Düşük su basıncı** (1 bar altı) — %28
-2. **Kondens borusu donması** (yoğuşmalıda kış) — %17
-3. **Ateşleme / iyonizasyon arızası** — %14
-4. **Gaz gelmemesi** — %11
-5. **NTC sensör arızası** — %9
-6. **Pompa arızası** — %7
-7. **Fan / baca / hava akış presostatı** — %6
-8. **Elektronik kart (anakart) arızası** — %5
-
-## Arıza Kodları — Marka Bazlı Tam Liste
-
-### Bosch / Buderus
-
-| Kod     | Anlamı                        | İlk Müdahale              |
-| ------- | ----------------------------- | ------------------------- |
-| **EA**  | Alev tespit edilmiyor         | Gaz vanası açık mı? Reset |
-| **E9**  | Aşırı ısınma                  | Basınç kontrol, servis    |
-| **C6**  | Fan hız hatası                | Servis                    |
-| **F28** | Ateşleme yok / kondens donmuş | Kondens borusuna ılık su  |
-| **A01** | Baca akışı yetersiz           | Servis                    |
-| **E1**  | NTC gidiş sensörü             | Servis                    |
-
-### Baymak
-
-| Kod     | Anlamı           | İlk Müdahale       |
-| ------- | ---------------- | ------------------ |
-| **A01** | Ateşleme arızası | Gaz kontrol, reset |
-| **A02** | Alev sönmesi     | Gaz basıncı        |
-| **A03** | Aşırı ısınma     | Basınç kontrol     |
-| **A04** | Düşük su basıncı | 1.5 bar'a doldur   |
-| **A06** | NTC sensör       | Servis             |
-| **A99** | Genel arıza      | Elektrik 30 sn kes |
-
-### DemirDöküm / Vaillant
-
-| Kod             | Anlamı                   | İlk Müdahale          |
-| --------------- | ------------------------ | --------------------- |
-| **F.22**        | Düşük su basıncı         | 1.5 bar               |
-| **F.28**        | Ateşleme yok             | Gaz + kondens kontrol |
-| **F.29**        | Alev sönmesi             | Servis                |
-| **F.10 / F.11** | NTC gidiş/dönüş          | Servis                |
-| **F.75**        | Pompa basınç algılamıyor | Purj, servis          |
-
-### ECA
-
-| Kod     | Anlamı           |
-| ------- | ---------------- |
-| **E01** | Ateşleme arızası |
-| **E02** | Aşırı ısınma     |
-| **E04** | Düşük su basıncı |
-| **E05** | NTC sensör       |
-| **E09** | Fan hatası       |
-
-### Viessmann
-
-| Kod      | Anlamı           |
-| -------- | ---------------- |
-| **F.4**  | Alev yok         |
-| **F.5**  | Baca / hava akış |
-| **F.10** | Gidiş sensörü    |
-| **F.20** | Güvenlik kilit   |
-| **F.38** | Anakart iletişim |
-
-## Evde Yapabileceğiniz 5 Kontrol
-
-### 1. Su Basıncını Kontrol Edin
-
-1.0–1.5 bar. Detay: [kombi basıncı düşüyor](/preview/kombi-basinci-dusuyor).
-
-### 2. Gaz Geliyor mu?
-
-Ocağı açıp mavi alev.
-
-### 3. Reset — Sadece 1 Kez
-
-3'ten fazla ASLA.
-
-### 4. Radyatör Havasını Alın
-
-Bkz: [petek hava alma](/preview/petek-hava-alma-radyator-purj).
-
-### 5. Elektriği 30 Saniye Kesin
-
-Anakart RAM sıfırlanır.
-
-## Ne Zaman Kesinlikle Servis?
-
-- **Gaz kokusu** → 187
-- **Kombi altından su** → servis
-- **Baca / duman içeri** → 112
-- **3 reset sonrası** → servis
-- **Ekran sürekli sönüyor** → servis
-- **Yüksek metalik ses** → pompa kavitasyonu
-
-Detay: [evde gaz kokusu](/preview/gaz-kokusu-acil-mudahale).
-
-## Kombi Yaşı ve Onarım / Değişim
-
-| Yaş      | Öneri                                  |
-| -------- | -------------------------------------- |
-| 0–2 yıl  | Garanti — yetkili servis               |
-| 3–8 yıl  | **Tamir mantıklı** (500–3.500 TL)      |
-| 8–12 yıl | Esanjör tamir 5.000–8.000 TL — sınırda |
-| 12+ yıl  | **Yeni cihaz** (25.000–45.000 TL)      |
-| 15+ yıl  | **Değişim şart**                       |
-
-Yoğuşmalı seçimi: [yoğuşmalı kombi seçimi](/preview/yogusmali-kombi-secimi).
-
-## En Sık 5 Yanlış Anlama
-
-1. "Reset atarsam düzelir"
-2. "Basıncı 3 bar'a çıkarayım"
-3. "YouTube'dan bakarım"
-4. "Yaz boyu kapatayım"
-5. "Sertifikasız tesisatçı ucuz"
-
-## Otoriter Kaynaklar
-
-- [EPDK](https://www.epdk.gov.tr/)
-- [İGDAŞ 187](https://www.baskentdogalgaz.com.tr/)
-- [Sanayi Bakanlığı — TS EN 483](https://www.sanayi.gov.tr/)
-- [Sağlık Bakanlığı — CO](https://www.saglik.gov.tr/)
-
-## Sonuç
-
-**Hata kodunu fotoğrafla → markanı bul → basınç + gaz + reset (1 kez).** İstanbul 7/24: **0533 896 05 03**.
