@@ -24,6 +24,9 @@ import { Route as HizmetlerRouteImport } from './routes/hizmetler'
 import { Route as IndexDurumuBanglaRouteImport } from './routes/index-durumu-bangla'
 import { Route as KvkkRouteImport } from './routes/kvkk'
 import { Route as FiyatlarRouteImport } from './routes/fiyatlar'
+import { Route as KullanimKosullariRouteImport } from './routes/kullanim-kosullari'
+import { Route as GizlilikPolitikasiRouteImport } from './routes/gizlilik-politikasi'
+import { Route as TesekkurlerRouteImport } from './routes/tesekkurler'
 import { Route as OgImageDotjpgRouteImport } from './routes/og-image[.]jpg'
 import { Route as RandevuRouteImport } from './routes/randevu'
 import { Route as SearchConsoleAnalizBanglaRouteImport } from './routes/search-console-analiz-bangla'
@@ -136,6 +139,21 @@ const KvkkRoute = KvkkRouteImport.update({
 const FiyatlarRoute = FiyatlarRouteImport.update({
   id: '/fiyatlar',
   path: '/fiyatlar',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const KullanimKosullariRoute = KullanimKosullariRouteImport.update({
+  id: '/kullanim-kosullari',
+  path: '/kullanim-kosullari',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GizlilikPolitikasiRoute = GizlilikPolitikasiRouteImport.update({
+  id: '/gizlilik-politikasi',
+  path: '/gizlilik-politikasi',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TesekkurlerRoute = TesekkurlerRouteImport.update({
+  id: '/tesekkurler',
+  path: '/tesekkurler',
   getParentRoute: () => rootRouteImport,
 } as any)
 const OgImageDotjpgRoute = OgImageDotjpgRouteImport.update({
@@ -355,6 +373,9 @@ export interface FileRoutesByFullPath {
   '/index-durumu-bangla': typeof IndexDurumuBanglaRoute
   '/kvkk': typeof KvkkRoute
   '/fiyatlar': typeof FiyatlarRoute
+  '/kullanim-kosullari': typeof KullanimKosullariRoute
+  '/gizlilik-politikasi': typeof GizlilikPolitikasiRoute
+  '/tesekkurler': typeof TesekkurlerRoute
   '/og-image.jpg': typeof OgImageDotjpgRoute
   '/randevu': typeof RandevuRoute
   '/search-console-analiz-bangla': typeof SearchConsoleAnalizBanglaRoute
@@ -409,6 +430,9 @@ export interface FileRoutesByTo {
   '/index-durumu-bangla': typeof IndexDurumuBanglaRoute
   '/kvkk': typeof KvkkRoute
   '/fiyatlar': typeof FiyatlarRoute
+  '/kullanim-kosullari': typeof KullanimKosullariRoute
+  '/gizlilik-politikasi': typeof GizlilikPolitikasiRoute
+  '/tesekkurler': typeof TesekkurlerRoute
   '/og-image.jpg': typeof OgImageDotjpgRoute
   '/randevu': typeof RandevuRoute
   '/search-console-analiz-bangla': typeof SearchConsoleAnalizBanglaRoute
@@ -463,6 +487,9 @@ export interface FileRoutesById {
   '/index-durumu-bangla': typeof IndexDurumuBanglaRoute
   '/kvkk': typeof KvkkRoute
   '/fiyatlar': typeof FiyatlarRoute
+  '/kullanim-kosullari': typeof KullanimKosullariRoute
+  '/gizlilik-politikasi': typeof GizlilikPolitikasiRoute
+  '/tesekkurler': typeof TesekkurlerRoute
   '/og-image.jpg': typeof OgImageDotjpgRoute
   '/randevu': typeof RandevuRoute
   '/search-console-analiz-bangla': typeof SearchConsoleAnalizBanglaRoute
@@ -520,6 +547,9 @@ export interface FileRouteTypes {
     | '/index-durumu-bangla'
     | '/kvkk'
     | '/fiyatlar'
+    | '/kullanim-kosullari'
+    | '/gizlilik-politikasi'
+    | '/tesekkurler'
     | '/og-image.jpg'
     | '/randevu'
     | '/search-console-analiz-bangla'
@@ -574,6 +604,9 @@ export interface FileRouteTypes {
     | '/index-durumu-bangla'
     | '/kvkk'
     | '/fiyatlar'
+    | '/kullanim-kosullari'
+    | '/gizlilik-politikasi'
+    | '/tesekkurler'
     | '/og-image.jpg'
     | '/randevu'
     | '/search-console-analiz-bangla'
@@ -627,6 +660,9 @@ export interface FileRouteTypes {
     | '/index-durumu-bangla'
     | '/kvkk'
     | '/fiyatlar'
+    | '/kullanim-kosullari'
+    | '/gizlilik-politikasi'
+    | '/tesekkurler'
     | '/og-image.jpg'
     | '/randevu'
     | '/search-console-analiz-bangla'
@@ -683,6 +719,9 @@ export interface RootRouteChildren {
   IndexDurumuBanglaRoute: typeof IndexDurumuBanglaRoute
   KvkkRoute: typeof KvkkRoute
   FiyatlarRoute: typeof FiyatlarRoute
+  KullanimKosullariRoute: typeof KullanimKosullariRoute
+  GizlilikPolitikasiRoute: typeof GizlilikPolitikasiRoute
+  TesekkurlerRoute: typeof TesekkurlerRoute
   OgImageDotjpgRoute: typeof OgImageDotjpgRoute
   RandevuRoute: typeof RandevuRoute
   SearchConsoleAnalizBanglaRoute: typeof SearchConsoleAnalizBanglaRoute
@@ -810,6 +849,27 @@ declare module '@tanstack/react-router' {
       path: '/fiyatlar'
       fullPath: '/fiyatlar'
       preLoaderRoute: typeof FiyatlarRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/kullanim-kosullari': {
+      id: '/kullanim-kosullari'
+      path: '/kullanim-kosullari'
+      fullPath: '/kullanim-kosullari'
+      preLoaderRoute: typeof KullanimKosullariRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/gizlilik-politikasi': {
+      id: '/gizlilik-politikasi'
+      path: '/gizlilik-politikasi'
+      fullPath: '/gizlilik-politikasi'
+      preLoaderRoute: typeof GizlilikPolitikasiRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/tesekkurler': {
+      id: '/tesekkurler'
+      path: '/tesekkurler'
+      fullPath: '/tesekkurler'
+      preLoaderRoute: typeof TesekkurlerRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/og-image.jpg': {
@@ -1170,6 +1230,9 @@ const rootRouteChildren: RootRouteChildren = {
   IndexDurumuBanglaRoute: IndexDurumuBanglaRoute,
   KvkkRoute: KvkkRoute,
   FiyatlarRoute: FiyatlarRoute,
+  KullanimKosullariRoute: KullanimKosullariRoute,
+  GizlilikPolitikasiRoute: GizlilikPolitikasiRoute,
+  TesekkurlerRoute: TesekkurlerRoute,
   OgImageDotjpgRoute: OgImageDotjpgRoute,
   RandevuRoute: RandevuRoute,
   SearchConsoleAnalizBanglaRoute: SearchConsoleAnalizBanglaRoute,

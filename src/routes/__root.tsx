@@ -1,3 +1,4 @@
+import { GtBookingHost, useBookingHostVisible } from "@/components/booking/GtBookingHost";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import {
   Outlet,
@@ -206,6 +207,8 @@ function RootComponent() {
   // so hide the global floating one there to avoid a duplicate / overlap.
   const hasOwnToggle = location.pathname === "/" || location.pathname.startsWith("/google-ads") || location.pathname === "/blog/bosch-kombi-resetleme" || location.pathname === "/blog/su-vanasi-nasil-kapatilir-acilir" || location.pathname === "/blog/taharet-muslugu-nasil-takilir-degistirilir" || location.pathname === "/blog/camasir-makinesi-nasil-baglanir" || location.pathname === "/blog/lavabo-sifonu-nasil-takilir" || location.pathname === "/blog/dogalgaz-sayaci-nasil-okunur" || location.pathname === "/blog/musluk-batarya-tamiri-baslik-kartus-degisimi" || location.pathname === "/blog/banyoya-sicak-su-az-akiyor-nedenleri" || location.pathname === "/blog/klozet-montaji-nasil-yapilir" || location.pathname === "/blog/klozet-ic-takimi-degisimi" || location.pathname === "/blog/viessmann-kombi-resetleme" || location.pathname === "/blog/su-sayaci-nasil-okunur" || location.pathname === "/blog/yer-suzgeci-nedir-cesitleri-koku-onleme" || location.pathname === "/blog/tuvalet-klozet-kokusu-nasil-giderilir" || location.pathname === "/blog/kombi-genlesme-tanki-ne-ise-yarar" || location.pathname === "/blog/dusakabin-montaji-nasil-yapilir" || location.pathname === "/blog/kombi-basinci-dusuyor" || location.pathname === "/blog/petek-isinmiyor-hava-alma" || location.pathname === "/blog/kirmadan-su-kacagi-tespiti" || location.pathname === "/blog/camasir-makinesi-su-bosaltmiyor" || location.pathname === "/blog/gider-tikanikligi-nasil-acilir" || location.pathname === "/blog/petek-alttan-sicak-ustten-soguk" || location.pathname === "/blog/mutfak-tikanikligi-nasil-acilir" || location.pathname === "/blog/lavabo-tikanikligi-nasil-acilir" || location.pathname === "/blog/giderden-gelen-lagim-kokusu-nasil-giderilir" || location.pathname === "/blog/kombi-neden-calismiyor" || location.pathname === "/blog/kombi-sicak-su-vermiyor" || location.pathname === "/blog/kombi-calisiyor-ama-petekler-isinmiyor";
 
+  const showBooking = useBookingHostVisible();
+
   return (
     <QueryClientProvider client={queryClient}>
       <LanguageProvider>
@@ -215,6 +218,7 @@ function RootComponent() {
         {!isAdmin && <GA4Tracker />}
         {!isAdmin && <AdTrafficRedirect />}
         <Outlet />
+        {showBooking && <GtBookingHost autoOpen={location.pathname.replace(/\/$/, "") === "/randevu"} />}
       </LanguageProvider>
     </QueryClientProvider>
   );

@@ -27,7 +27,7 @@ if(!window.__gtBootOnce)D.addEventListener('click',e=>{const path=e.composedPath
   const a=path.find(n=>n.nodeType===1&&(n.tagName==='A'||n.hasAttribute&&n.hasAttribute('data-book')));if(!a)return;
   const t=((a.textContent||'')+' '+(a.getAttribute('aria-label')||'')).replace(/\s+/g,' ');
   if(!a.hasAttribute('data-book')&&!BOOK.test(t))return;
-  if(typeof window.openBooking!=='function')return;
+  if(typeof window.openBooking!=='function'||!D.getElementById('s-booking'))return;
   e.preventDefault();window.openBooking({});},true);
 /* in-page navigation across sections */
 const MAP=[['fiyat','quote'],['teklif','quote'],['filo','fleet'],['hizmet','services'],['bölge','coverage'],['nasıl çalış','how'],['paket','plans'],['enerji','energy'],['yorum','reviews'],['işlerimiz','gallery'],['saha','proof'],['ekip','team'],['süreç','process'],['dosya','cases'],['belge','docs'],['neden','why'],['sss','faq'],['soru','faq'],['iletişim','contact'],['acil','hotline'],['ana sayfa','TOP'],['price','quote'],['quote','quote'],['fleet','fleet'],['service','services'],['coverage','coverage'],['how it works','how'],['plan','plans'],['energy','energy'],['comment','reviews'],['testimonial','reviews'],['our work','gallery'],['gallery','gallery'],['field','proof'],['team','team'],['brand','brands'],['process','process'],['case','cases'],['blog','blog'],['certific','docs'],['document','docs'],['why','why'],['faq','faq'],['question','faq'],['review','faq'],['contact','contact'],['communication','contact'],['emergency','hotline'],['hotline','hotline'],['home','TOP']];
@@ -1497,7 +1497,7 @@ $('#bBack').addEventListener('click',()=>go(step-1));
 $$('#pipe .vs').forEach((v,i)=>v.addEventListener('click',()=>{if(i<=step||valid(i-1))go(i);}));
 
 /* ---------- finish ---------- */
-function msg(){const r=rows();return ["Merhaba Gölge Tesisat, randevu almak istiyorum.","İş emri: "+woNo,...r.map(([k,v])=>k.charAt(0)+k.slice(1).toLowerCase()+': '+v),st.note?'Not: '+st.note:''].filter(Boolean).join('\n');}
+function msg(){const r=rows();return ["Merhaba Gölge Tesisat, randevu almak istiyorum.","İş emri: "+woNo,...r.map(([k,v])=>k.charAt(0)+k.slice(1).toLocaleLowerCase('tr')+': '+v),st.note?'Not: '+st.note:''].filter(Boolean).join('\n');}
 function ics(){if(st.u==='now'||st.slot===null)return null;const d=dayDate(st.day);d.setHours(st.slot);const e=new Date(d.getTime()+2*3600e3);
   const f=x=>x.getFullYear()+String(x.getMonth()+1).padStart(2,'0')+String(x.getDate()).padStart(2,'0')+'T'+String(x.getHours()).padStart(2,'0')+'0000';
   return ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Golge Tesisat//Booking//EN','BEGIN:VEVENT','UID:'+woNo+'@golgetesisat','DTSTAMP:'+f(now()),'DTSTART:'+f(d),'DTEND:'+f(e),'SUMMARY:Gölge Tesisat · '+st.svc,'LOCATION:'+(st.addr+', '+st.dist+', İstanbul').replace(/,/g,'\\,'),'DESCRIPTION:İş emri '+woNo+' · Varış aralığı. Arayın: 0533 896 05 03','END:VEVENT','END:VCALENDAR'].join('\r\n');}
@@ -1515,7 +1515,7 @@ $('#bWa').addEventListener('click',()=>{
   try{sessionStorage.setItem('gt-last-request',JSON.stringify(rec));}catch(e){} try{window.GT_SAVE_BOOKING&&window.GT_SAVE_BOOKING(rec);}catch(e){}
   try{localStorage.removeItem(KEY);}catch(e){}
   const url=window.GT_THANKYOU_URL===undefined?'booking-confirmed.html':window.GT_THANKYOU_URL;
-  if(url)setTimeout(()=>{location.href=url;},700);
+  if(url)setTimeout(()=>{close();(window.GT_NAVIGATE||function(u){location.href=u;})(url);},700);
 });
 
 /* ---------- draft ---------- */

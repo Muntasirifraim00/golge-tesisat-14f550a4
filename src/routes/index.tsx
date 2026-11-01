@@ -45,7 +45,7 @@ export const Route = createFileRoute("/")({
     links: [
       { rel: "canonical", href: SITE_URL },
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" },
-      { rel: "preload", as: "script", href: "/home/gt-home.js?v=4" },
+      { rel: "preload", as: "script", href: "/home/gt-home.js?v=5" },
     ],
     scripts: [
       { type: "application/ld+json", children: JSON.stringify(FAQ_JSONLD) },

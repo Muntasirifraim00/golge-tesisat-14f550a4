@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import { HOME_HTML } from "./gt-home/home-html";
-import { supabase } from "@/integrations/supabase/client";
-import { trackEvent } from "@/lib/analytics";
+import { saveBooking, type BookingRecord } from "@/lib/save-booking";
+import { useRouter } from "@tanstack/react-router";
 import { SERVICES } from "@/data/services";
-import { DISTRICTS, slugifyTr } from "@/data/districts";
+import { DISTRICTS } from "@/data/districts";
 import { FEATURED_POSTS } from "@/data/featured-posts";
 import type { HomePost } from "@/lib/home-latest-posts.functions";
 
@@ -93,48 +93,12 @@ function buildLinks() {
   return L;
 }
 
-function serviceKey(label: string) {
-  const s = label.toLocaleLowerCase("tr");
-  if (s.includes("kaçak")) return "leak";
-  if (s.includes("tıkan") || s.includes("gider") || s.includes("tuvalet")) return "clog";
-  if (s.includes("kamera") || s.includes("görüntü")) return "camera";
-  if (s.includes("petek")) return "radiator";
-  if (s.includes("boru") || s.includes("tesisat")) return "pipe";
-  return "other";
-}
-
-type BookingRecord = {
-  wo?: string; svc?: string; when?: string; urgent?: boolean; start?: string | null;
-  dist?: string; addr?: string; name?: string; phone?: string; note?: string;
-};
-
-async function saveBooking(rec: BookingRecord) {
-  const dName = (rec.dist || "").trim();
-  const d = DISTRICTS.find((x) => x.name.toLocaleLowerCase("tr") === dName.toLocaleLowerCase("tr"));
-  const start = rec.start ? new Date(rec.start) : null;
-  const pad = (n: number) => String(n).padStart(2, "0");
-  const { error } = await supabase.from("bookings").insert({
-    name: (rec.name || "").trim(),
-    phone: (rec.phone || "").replace(/\s/g, ""),
-    district_slug: d?.slug || slugifyTr(dName) || "istanbul",
-    district_name: d?.name || dName || "İstanbul",
-    service_key: serviceKey(rec.svc || ""),
-    service_label: rec.svc || "Diğer",
-    preferred_date: start ? `${start.getFullYear()}-${pad(start.getMonth() + 1)}-${pad(start.getDate())}` : null,
-    time_slot: rec.urgent ? "ACİL — hemen" : rec.when || null,
-    address: `${rec.addr || ""}, ${d?.name || dName} / İstanbul`,
-    notes: [rec.wo ? `İş emri ${rec.wo}` : "", rec.note || ""].filter(Boolean).join(" · ") || null,
-  });
-  if (error) console.warn("[home booking insert]", error.message);
-  else trackEvent("booking_submit", serviceKey(rec.svc || ""), { district: d?.slug, source: "home_popup" });
-}
-
 let scriptPromise: Promise<void> | null = null;
 function loadRuntime() {
   if (scriptPromise) return scriptPromise;
   scriptPromise = new Promise((resolve, reject) => {
     const s = document.createElement("script");
-    s.src = "/home/gt-home.js?v=4";
+    s.src = "/home/gt-home.js?v=5";
     s.async = true;
     s.onload = () => resolve();
     s.onerror = () => { scriptPromise = null; reject(new Error("gt-home runtime failed to load")); };
@@ -144,14 +108,16 @@ function loadRuntime() {
 }
 
 export function GtHome({ posts = [] }: { posts?: HomePost[] }) {
+  const router = useRouter();
   useEffect(() => {
     const w = window as unknown as Record<string, unknown> & { GTHome?: { init: () => void } };
     w.__IMG = [boilerShell];
     w.__GT_IMG = IMG;
     w.__GT_LINKS = buildLinks();
     w.__GT_POSTS = posts;
-    w.GT_THANKYOU_URL = "";
-    w.GT_SAVE_BOOKING = (rec: BookingRecord) => { void saveBooking(rec); };
+    w.GT_THANKYOU_URL = "/tesekkurler";
+    w.GT_NAVIGATE = (u: string) => { router.history.push(u); };
+    w.GT_SAVE_BOOKING = (rec: BookingRecord) => saveBooking(rec, "home_popup");
     w.__gtHomeAuto = false;
     let alive = true;
     loadRuntime()

@@ -40,6 +40,8 @@ export const Route = createFileRoute("/sitemap.xml")({
           { path: "/randevu", changefreq: "monthly", priority: "0.8", lastmod },
           { path: "/kvkk", changefreq: "yearly", priority: "0.3", lastmod },
           { path: "/cerez-politikasi", changefreq: "yearly", priority: "0.3", lastmod },
+          { path: "/gizlilik-politikasi", changefreq: "yearly", priority: "0.3", lastmod },
+          { path: "/kullanim-kosullari", changefreq: "yearly", priority: "0.3", lastmod },
           { path: "/blog", changefreq: "weekly", priority: "0.7", lastmod },
           ...BLOG_POSTS.map((p) => ({
             path: `/blog/${p.slug}`,

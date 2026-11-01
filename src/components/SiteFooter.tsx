@@ -128,6 +128,8 @@ export function SiteFooter() {
             <Link to="/acil-tesisatci">Acil Tesisatçı</Link>
             <Link to="/kvkk">KVKK</Link>
             <Link to="/cerez-politikasi">Çerez Politikası</Link>
+            <Link to="/gizlilik-politikasi">Gizlilik</Link>
+            <Link to="/kullanim-kosullari">Kullanım Koşulları</Link>
           </nav>
           <span>© {year} {BUSINESS.name}. Tüm hakları saklıdır.</span>
         </div>
