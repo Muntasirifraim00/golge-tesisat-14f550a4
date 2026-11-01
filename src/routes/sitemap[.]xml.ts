@@ -5,8 +5,12 @@ import { SERVICES } from "@/data/services";
 import { BLOG_POSTS } from "@/data/blog";
 import { matrixTier, matrixPriority, NEIGHBORHOOD_INDEXABLE } from "@/lib/matrix-tier";
 import { findEnrichment } from "@/data/matrix-enrichment";
+import { listGeneratedPosts } from "@/lib/seo-writer/blog-public.functions";
 
 const BASE_URL = "https://golgetesisat.com";
+// Share images that exist in public/og — anything else falls back to the blog image.
+const OG = new Set(["acil-tesisatci","blog","dogalgaz-tesisati","dusakabin-vitrifiye-montaji","hidrofor-kurulumu","kanal-goruntuleme","kanalizasyon-acma","klima-servisi","kombi-montaji","kombi-servisi","kombi-tamiri","musluk-batarya-degisimi","mutfak-gider-acma","petek-temizligi","su-kacagi-tespiti","su-tesisati","tikaniklik-acma","tuvalet-tikanikligi-acma"]);
+const og = (slug?: string) => `${BASE_URL}/og/${slug && OG.has(slug) ? slug : "blog"}.jpg`;
 
 interface SitemapEntry {
   path: string;
@@ -30,7 +34,11 @@ export const Route = createFileRoute("/sitemap.xml")({
       GET: async () => {
         // Fixed date for static pages: an always-"today" lastmod is ignored by
         // Google (it looks like spam). Bump this when static pages actually change.
-        const lastmod = "2026-10-01";
+        const lastmod = "2026-11-01";
+        // AI-written posts published from the admin (database) — same list the /blog page merges in.
+        const staticSlugs = new Set(BLOG_POSTS.map((p) => p.slug));
+        const { posts: generated } = await listGeneratedPosts().catch(() => ({ posts: [] as typeof BLOG_POSTS }));
+        const dbPosts = (generated || []).filter((p) => p?.slug && !staticSlugs.has(p.slug));
         const entries: SitemapEntry[] = [
           { path: "/", changefreq: "weekly", priority: "1.0", lastmod },
           { path: "/hizmetler", changefreq: "monthly", priority: "0.8", lastmod },
@@ -47,15 +55,22 @@ export const Route = createFileRoute("/sitemap.xml")({
             path: `/blog/${p.slug}`,
             changefreq: "monthly" as const,
             priority: "0.6",
-            lastmod: p.updated ?? p.published,
-            image: { loc: `${BASE_URL}/og/${p.serviceSlug}.jpg`, title: p.title },
+            lastmod: String(p.updated ?? p.published).slice(0, 10),
+            image: { loc: og(p.serviceSlug), title: p.title },
+          })),
+          ...dbPosts.map((p) => ({
+            path: `/blog/${p.slug}`,
+            changefreq: "monthly" as const,
+            priority: "0.6",
+            lastmod: String(p.updated ?? p.published ?? lastmod).slice(0, 10),
+            image: { loc: og(p.serviceSlug), title: p.title },
           })),
           ...SERVICES.map((s) => ({
             path: `/hizmet/${s.slug}`,
             changefreq: "monthly" as const,
             priority: "0.8",
             lastmod,
-            image: { loc: `${BASE_URL}/og/${s.slug}.jpg`, title: `${s.name} — İstanbul` },
+            image: { loc: og(s.slug), title: `${s.name} — İstanbul` },
           })),
           // Dedicated pricing pages — high commercial "fiyat/ücret" intent
           ...SERVICES.map((s) => ({
@@ -83,7 +98,7 @@ export const Route = createFileRoute("/sitemap.xml")({
                   changefreq: "monthly" as const,
                   priority: matrixPriority(tier),
                   lastmod,
-                  image: { loc: `${BASE_URL}/og/${s.slug}.jpg`, title: `${d.name} ${s.name}` },
+                  image: { loc: og(s.slug), title: `${d.name} ${s.name}` },
                 },
               ];
             }),
@@ -128,6 +143,7 @@ export const Route = createFileRoute("/sitemap.xml")({
           headers: {
             "Content-Type": "application/xml",
             "Cache-Control": "public, max-age=3600",
+            "X-Robots-Tag": "noindex",
           },
         });
       },

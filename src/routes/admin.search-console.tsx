@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useServerFn } from "@tanstack/react-start";
 import { useEffect, useMemo, useState } from "react";
 import { Search, MousePointerClick, Eye, Percent, Gauge, ArrowUpRight } from "lucide-react";
-import { getSearchConsoleStats, type SearchConsoleStats } from "@/lib/search-console.functions";
+import { getSearchConsoleStats, getSitemapStatus, submitSitemap, type SearchConsoleStats, type SitemapStatus } from "@/lib/search-console.functions";
 
 export const Route = createFileRoute("/admin/search-console")({
   component: SearchConsolePage,
@@ -16,6 +16,43 @@ function fmtPct(n: number): string {
 }
 function fmtPos(n: number): string {
   return n ? n.toFixed(1) : "—";
+}
+
+function SitemapCard() {
+  const getStatus = useServerFn(getSitemapStatus);
+  const submit = useServerFn(submitSitemap);
+  const [st, setSt] = useState<SitemapStatus | null>(null);
+  const [busy, setBusy] = useState(false);
+  const [err, setErr] = useState<string | null>(null);
+  useEffect(() => { void getStatus().then(setSt).catch((e) => setErr(e instanceof Error ? e.message : String(e))); }, [getStatus]);
+  const fmt = (d?: string) => (d ? new Date(d).toLocaleString("tr-TR") : "—");
+  return (
+    <div className="rounded-2xl border border-border/60 bg-card/40 p-5 text-sm">
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <div>
+          <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-muted-foreground">Sitemap</div>
+          <a href="https://golgetesisat.com/sitemap.xml" target="_blank" rel="noreferrer" className="font-semibold underline">golgetesisat.com/sitemap.xml</a>
+        </div>
+        <button
+          type="button"
+          disabled={busy}
+          onClick={async () => { setBusy(true); setErr(null); try { setSt(await submit()); } catch (e) { setErr(e instanceof Error ? e.message : String(e)); } finally { setBusy(false); } }}
+          className="rounded-xl bg-brand-red px-4 py-2 font-bold text-white disabled:opacity-60"
+        >
+          {busy ? "Gönderiliyor…" : "Sitemap’i Google’a gönder"}
+        </button>
+      </div>
+      {st && (
+        <div className="mt-3 grid gap-1 text-muted-foreground">
+          <p className={st.submitted ? "text-brand-green" : ""}>{st.message}</p>
+          {st.configured && (
+            <p>Son gönderim: {fmt(st.lastSubmitted)} · Google son okuma: {fmt(st.lastDownloaded)}{st.isPending ? " · işleniyor" : ""} · URL: {st.urls ?? "—"} · Uyarı: {st.warnings ?? 0} · Hata: {st.errors ?? 0}</p>
+          )}
+        </div>
+      )}
+      {err && <p className="mt-3 break-words text-destructive">{err}</p>}
+    </div>
+  );
 }
 
 function SearchConsolePage() {
@@ -56,6 +93,8 @@ function SearchConsolePage() {
           golgetesisat.com — Clicks, impressions, and rankings on Google.
         </p>
       </header>
+
+      <SitemapCard />
 
       {loading && (
         <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">

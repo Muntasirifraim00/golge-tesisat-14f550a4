@@ -104,3 +104,71 @@ export const getSearchConsoleStats = createServerFn({ method: "GET" })
       topPages,
     };
   });
+
+// ---------------------------------------------------------------------------
+// Sitemap submission — tells Google to (re)read https://golgetesisat.com/sitemap.xml
+// via the same Lovable Search Console connector. Admin only.
+// ---------------------------------------------------------------------------
+const SITEMAP_URL = "https://golgetesisat.com/sitemap.xml";
+
+export type SitemapStatus = {
+  configured: boolean;
+  submitted: boolean;
+  message: string;
+  lastSubmitted?: string;
+  lastDownloaded?: string;
+  isPending?: boolean;
+  warnings?: number;
+  errors?: number;
+  urls?: number;
+};
+
+type AdminCtx = {
+  userId: string;
+  supabase: { from: (t: string) => { select: (c: string) => { eq: (k: string, v: string) => { eq: (k: string, v: string) => { maybeSingle: () => Promise<{ data: unknown }> } } } } };
+};
+
+async function assertAdmin(context: unknown) {
+  const { userId, supabase } = context as AdminCtx;
+  const { data } = await supabase.from("app_roles").select("role").eq("user_id", userId).eq("role", "admin").maybeSingle();
+  if (!data) throw new Response("Forbidden", { status: 403 });
+}
+
+async function sitemapCall(submit: boolean): Promise<SitemapStatus> {
+  const LOVABLE_API_KEY = process.env.LOVABLE_API_KEY;
+  const GSC_KEY = process.env.GOOGLE_SEARCH_CONSOLE_API_KEY;
+  if (!LOVABLE_API_KEY || !GSC_KEY) return { configured: false, submitted: false, message: "Search Console bağlantısı yapılandırılmamış." };
+  const url = `${GATEWAY}/webmasters/v3/sites/${encodeURIComponent(SITE_URL)}/sitemaps/${encodeURIComponent(SITEMAP_URL)}`;
+  const headers = { Authorization: `Bearer ${LOVABLE_API_KEY}`, "X-Connection-Api-Key": GSC_KEY };
+  let submitted = false;
+  let message = "";
+  if (submit) {
+    const put = await fetch(url, { method: "PUT", headers });
+    if (put.ok) { submitted = true; message = "Sitemap Google Search Console’a gönderildi."; }
+    else {
+      const t = (await put.text()).slice(0, 300);
+      message = put.status === 403
+        ? `Google gönderimi reddetti (403). Bağlantının yalnızca okuma izni olabilir — sitemap’i Search Console’da elle gönderin. ${t}`
+        : `Gönderim başarısız (${put.status}): ${t}`;
+    }
+  }
+  const get = await fetch(url, { headers });
+  if (get.ok) {
+    const j = (await get.json()) as { lastSubmitted?: string; lastDownloaded?: string; isPending?: boolean; warnings?: string; errors?: string; contents?: { submitted?: string }[] };
+    return {
+      configured: true, submitted, message: message || "Sitemap durumu alındı.",
+      lastSubmitted: j.lastSubmitted, lastDownloaded: j.lastDownloaded, isPending: j.isPending,
+      warnings: Number(j.warnings ?? 0), errors: Number(j.errors ?? 0),
+      urls: (j.contents ?? []).reduce((a, c) => a + Number(c.submitted ?? 0), 0),
+    };
+  }
+  return { configured: true, submitted, message: message || `Sitemap durumu alınamadı (${get.status}).` };
+}
+
+export const getSitemapStatus = createServerFn({ method: "GET" })
+  .middleware([requireSupabaseAuth])
+  .handler(async ({ context }): Promise<SitemapStatus> => { await assertAdmin(context); return sitemapCall(false); });
+
+export const submitSitemap = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .handler(async ({ context }): Promise<SitemapStatus> => { await assertAdmin(context); return sitemapCall(true); });
