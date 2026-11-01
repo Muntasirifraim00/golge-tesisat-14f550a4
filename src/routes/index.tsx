@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { GtHome } from "@/components/home/GtHome";
+import { listLatestHomePosts, type HomePost } from "@/lib/home-latest-posts.functions";
 
 // Same questions and answers as the FAQ section in the homepage design (keep them identical).
 const HOME_FAQ = [
@@ -18,6 +19,10 @@ const FAQ_JSONLD = {
 };
 
 export const Route = createFileRoute("/")({
+  loader: async () => {
+    const { posts } = await listLatestHomePosts().catch(() => ({ posts: [] as HomePost[] }));
+    return { posts };
+  },
   head: () => ({
     meta: [
       { title: "İstanbul Tesisatçı | 7/24 Acil Servis - Gölge Tesisat" },
@@ -40,7 +45,7 @@ export const Route = createFileRoute("/")({
     links: [
       { rel: "canonical", href: SITE_URL },
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" },
-      { rel: "preload", as: "script", href: "/home/gt-home.js?v=1" },
+      { rel: "preload", as: "script", href: "/home/gt-home.js?v=2" },
     ],
     scripts: [
       { type: "application/ld+json", children: JSON.stringify(FAQ_JSONLD) },
@@ -50,9 +55,10 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
+  const { posts } = Route.useLoaderData();
   return (
     <main className="w-full">
-      <GtHome />
+      <GtHome posts={posts} />
     </main>
   );
 }

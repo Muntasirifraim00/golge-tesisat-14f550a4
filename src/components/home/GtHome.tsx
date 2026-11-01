@@ -5,6 +5,7 @@ import { trackEvent } from "@/lib/analytics";
 import { SERVICES } from "@/data/services";
 import { DISTRICTS, slugifyTr } from "@/data/districts";
 import { FEATURED_POSTS } from "@/data/featured-posts";
+import type { HomePost } from "@/lib/home-latest-posts.functions";
 
 import logo from "@/assets/logo.jpg";
 // Real field photos, each placed where its subject fits (hero slides, gallery, proof feed).
@@ -133,7 +134,7 @@ function loadRuntime() {
   if (scriptPromise) return scriptPromise;
   scriptPromise = new Promise((resolve, reject) => {
     const s = document.createElement("script");
-    s.src = "/home/gt-home.js?v=1";
+    s.src = "/home/gt-home.js?v=2";
     s.async = true;
     s.onload = () => resolve();
     s.onerror = () => { scriptPromise = null; reject(new Error("gt-home runtime failed to load")); };
@@ -142,12 +143,13 @@ function loadRuntime() {
   return scriptPromise;
 }
 
-export function GtHome() {
+export function GtHome({ posts = [] }: { posts?: HomePost[] }) {
   useEffect(() => {
     const w = window as unknown as Record<string, unknown> & { GTHome?: { init: () => void } };
     w.__IMG = [boilerShell];
     w.__GT_IMG = IMG;
     w.__GT_LINKS = buildLinks();
+    w.__GT_POSTS = posts;
     w.GT_THANKYOU_URL = "";
     w.GT_SAVE_BOOKING = (rec: BookingRecord) => { void saveBooking(rec); };
     w.__gtHomeAuto = false;
@@ -156,7 +158,7 @@ export function GtHome() {
       .then(() => { if (alive) w.GTHome?.init(); })
       .catch((e) => console.warn(e));
     return () => { alive = false; };
-  }, []);
+  }, [posts]);
 
   return <div className="gt-home" suppressHydrationWarning dangerouslySetInnerHTML={{ __html: HTML }} />;
 }
