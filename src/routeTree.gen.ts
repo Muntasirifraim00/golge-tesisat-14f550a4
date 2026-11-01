@@ -18,20 +18,20 @@ import { Route as AdminRouteImport } from './routes/admin'
 import { Route as BlogYazmaRehberiRouteImport } from './routes/blog-yazma-rehberi'
 import { Route as CerezPolitikasiRouteImport } from './routes/cerez-politikasi'
 import { Route as DisavowRouteImport } from './routes/disavow'
+import { Route as FiyatlarRouteImport } from './routes/fiyatlar'
+import { Route as GizlilikPolitikasiRouteImport } from './routes/gizlilik-politikasi'
 import { Route as GoogleAdsRouteImport } from './routes/google-ads'
 import { Route as GoogleAdsKurulumRouteImport } from './routes/google-ads-kurulum'
 import { Route as HizmetlerRouteImport } from './routes/hizmetler'
 import { Route as IndexDurumuBanglaRouteImport } from './routes/index-durumu-bangla'
-import { Route as KvkkRouteImport } from './routes/kvkk'
-import { Route as FiyatlarRouteImport } from './routes/fiyatlar'
 import { Route as KullanimKosullariRouteImport } from './routes/kullanim-kosullari'
-import { Route as GizlilikPolitikasiRouteImport } from './routes/gizlilik-politikasi'
-import { Route as TesekkurlerRouteImport } from './routes/tesekkurler'
+import { Route as KvkkRouteImport } from './routes/kvkk'
 import { Route as OgImageDotjpgRouteImport } from './routes/og-image[.]jpg'
 import { Route as RandevuRouteImport } from './routes/randevu'
 import { Route as SearchConsoleAnalizBanglaRouteImport } from './routes/search-console-analiz-bangla'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as StudioRouteImport } from './routes/studio'
+import { Route as TesekkurlerRouteImport } from './routes/tesekkurler'
 import { Route as AdminIndexRouteImport } from './routes/admin.index'
 import { Route as AdminBookingsRouteImport } from './routes/admin.bookings'
 import { Route as AdminCallbacksRouteImport } from './routes/admin.callbacks'
@@ -111,6 +111,16 @@ const DisavowRoute = DisavowRouteImport.update({
   path: '/disavow',
   getParentRoute: () => rootRouteImport,
 } as any)
+const FiyatlarRoute = FiyatlarRouteImport.update({
+  id: '/fiyatlar',
+  path: '/fiyatlar',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GizlilikPolitikasiRoute = GizlilikPolitikasiRouteImport.update({
+  id: '/gizlilik-politikasi',
+  path: '/gizlilik-politikasi',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const GoogleAdsRoute = GoogleAdsRouteImport.update({
   id: '/google-ads',
   path: '/google-ads',
@@ -131,29 +141,14 @@ const IndexDurumuBanglaRoute = IndexDurumuBanglaRouteImport.update({
   path: '/index-durumu-bangla',
   getParentRoute: () => rootRouteImport,
 } as any)
-const KvkkRoute = KvkkRouteImport.update({
-  id: '/kvkk',
-  path: '/kvkk',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const FiyatlarRoute = FiyatlarRouteImport.update({
-  id: '/fiyatlar',
-  path: '/fiyatlar',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const KullanimKosullariRoute = KullanimKosullariRouteImport.update({
   id: '/kullanim-kosullari',
   path: '/kullanim-kosullari',
   getParentRoute: () => rootRouteImport,
 } as any)
-const GizlilikPolitikasiRoute = GizlilikPolitikasiRouteImport.update({
-  id: '/gizlilik-politikasi',
-  path: '/gizlilik-politikasi',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const TesekkurlerRoute = TesekkurlerRouteImport.update({
-  id: '/tesekkurler',
-  path: '/tesekkurler',
+const KvkkRoute = KvkkRouteImport.update({
+  id: '/kvkk',
+  path: '/kvkk',
   getParentRoute: () => rootRouteImport,
 } as any)
 const OgImageDotjpgRoute = OgImageDotjpgRouteImport.update({
@@ -180,6 +175,11 @@ const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
 const StudioRoute = StudioRouteImport.update({
   id: '/studio',
   path: '/studio',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TesekkurlerRoute = TesekkurlerRouteImport.update({
+  id: '/tesekkurler',
+  path: '/tesekkurler',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AdminIndexRoute = AdminIndexRouteImport.update({
@@ -367,20 +367,20 @@ export interface FileRoutesByFullPath {
   '/blog-yazma-rehberi': typeof BlogYazmaRehberiRoute
   '/cerez-politikasi': typeof CerezPolitikasiRoute
   '/disavow': typeof DisavowRoute
+  '/fiyatlar': typeof FiyatlarRoute
+  '/gizlilik-politikasi': typeof GizlilikPolitikasiRoute
   '/google-ads': typeof GoogleAdsRoute
   '/google-ads-kurulum': typeof GoogleAdsKurulumRoute
   '/hizmetler': typeof HizmetlerRoute
   '/index-durumu-bangla': typeof IndexDurumuBanglaRoute
-  '/kvkk': typeof KvkkRoute
-  '/fiyatlar': typeof FiyatlarRoute
   '/kullanim-kosullari': typeof KullanimKosullariRoute
-  '/gizlilik-politikasi': typeof GizlilikPolitikasiRoute
-  '/tesekkurler': typeof TesekkurlerRoute
+  '/kvkk': typeof KvkkRoute
   '/og-image.jpg': typeof OgImageDotjpgRoute
   '/randevu': typeof RandevuRoute
   '/search-console-analiz-bangla': typeof SearchConsoleAnalizBanglaRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/studio': typeof StudioRouteWithChildren
+  '/tesekkurler': typeof TesekkurlerRoute
   '/admin/bookings': typeof AdminBookingsRoute
   '/admin/callbacks': typeof AdminCallbacksRoute
   '/admin/contact-clicks': typeof AdminContactClicksRoute
@@ -424,20 +424,20 @@ export interface FileRoutesByTo {
   '/blog-yazma-rehberi': typeof BlogYazmaRehberiRoute
   '/cerez-politikasi': typeof CerezPolitikasiRoute
   '/disavow': typeof DisavowRoute
+  '/fiyatlar': typeof FiyatlarRoute
+  '/gizlilik-politikasi': typeof GizlilikPolitikasiRoute
   '/google-ads': typeof GoogleAdsRoute
   '/google-ads-kurulum': typeof GoogleAdsKurulumRoute
   '/hizmetler': typeof HizmetlerRoute
   '/index-durumu-bangla': typeof IndexDurumuBanglaRoute
-  '/kvkk': typeof KvkkRoute
-  '/fiyatlar': typeof FiyatlarRoute
   '/kullanim-kosullari': typeof KullanimKosullariRoute
-  '/gizlilik-politikasi': typeof GizlilikPolitikasiRoute
-  '/tesekkurler': typeof TesekkurlerRoute
+  '/kvkk': typeof KvkkRoute
   '/og-image.jpg': typeof OgImageDotjpgRoute
   '/randevu': typeof RandevuRoute
   '/search-console-analiz-bangla': typeof SearchConsoleAnalizBanglaRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/studio': typeof StudioRouteWithChildren
+  '/tesekkurler': typeof TesekkurlerRoute
   '/admin/bookings': typeof AdminBookingsRoute
   '/admin/callbacks': typeof AdminCallbacksRoute
   '/admin/contact-clicks': typeof AdminContactClicksRoute
@@ -481,20 +481,20 @@ export interface FileRoutesById {
   '/blog-yazma-rehberi': typeof BlogYazmaRehberiRoute
   '/cerez-politikasi': typeof CerezPolitikasiRoute
   '/disavow': typeof DisavowRoute
+  '/fiyatlar': typeof FiyatlarRoute
+  '/gizlilik-politikasi': typeof GizlilikPolitikasiRoute
   '/google-ads': typeof GoogleAdsRoute
   '/google-ads-kurulum': typeof GoogleAdsKurulumRoute
   '/hizmetler': typeof HizmetlerRoute
   '/index-durumu-bangla': typeof IndexDurumuBanglaRoute
-  '/kvkk': typeof KvkkRoute
-  '/fiyatlar': typeof FiyatlarRoute
   '/kullanim-kosullari': typeof KullanimKosullariRoute
-  '/gizlilik-politikasi': typeof GizlilikPolitikasiRoute
-  '/tesekkurler': typeof TesekkurlerRoute
+  '/kvkk': typeof KvkkRoute
   '/og-image.jpg': typeof OgImageDotjpgRoute
   '/randevu': typeof RandevuRoute
   '/search-console-analiz-bangla': typeof SearchConsoleAnalizBanglaRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/studio': typeof StudioRouteWithChildren
+  '/tesekkurler': typeof TesekkurlerRoute
   '/admin/bookings': typeof AdminBookingsRoute
   '/admin/callbacks': typeof AdminCallbacksRoute
   '/admin/contact-clicks': typeof AdminContactClicksRoute
@@ -541,20 +541,20 @@ export interface FileRouteTypes {
     | '/blog-yazma-rehberi'
     | '/cerez-politikasi'
     | '/disavow'
+    | '/fiyatlar'
+    | '/gizlilik-politikasi'
     | '/google-ads'
     | '/google-ads-kurulum'
     | '/hizmetler'
     | '/index-durumu-bangla'
-    | '/kvkk'
-    | '/fiyatlar'
     | '/kullanim-kosullari'
-    | '/gizlilik-politikasi'
-    | '/tesekkurler'
+    | '/kvkk'
     | '/og-image.jpg'
     | '/randevu'
     | '/search-console-analiz-bangla'
     | '/sitemap.xml'
     | '/studio'
+    | '/tesekkurler'
     | '/admin/bookings'
     | '/admin/callbacks'
     | '/admin/contact-clicks'
@@ -598,20 +598,20 @@ export interface FileRouteTypes {
     | '/blog-yazma-rehberi'
     | '/cerez-politikasi'
     | '/disavow'
+    | '/fiyatlar'
+    | '/gizlilik-politikasi'
     | '/google-ads'
     | '/google-ads-kurulum'
     | '/hizmetler'
     | '/index-durumu-bangla'
-    | '/kvkk'
-    | '/fiyatlar'
     | '/kullanim-kosullari'
-    | '/gizlilik-politikasi'
-    | '/tesekkurler'
+    | '/kvkk'
     | '/og-image.jpg'
     | '/randevu'
     | '/search-console-analiz-bangla'
     | '/sitemap.xml'
     | '/studio'
+    | '/tesekkurler'
     | '/admin/bookings'
     | '/admin/callbacks'
     | '/admin/contact-clicks'
@@ -654,20 +654,20 @@ export interface FileRouteTypes {
     | '/blog-yazma-rehberi'
     | '/cerez-politikasi'
     | '/disavow'
+    | '/fiyatlar'
+    | '/gizlilik-politikasi'
     | '/google-ads'
     | '/google-ads-kurulum'
     | '/hizmetler'
     | '/index-durumu-bangla'
-    | '/kvkk'
-    | '/fiyatlar'
     | '/kullanim-kosullari'
-    | '/gizlilik-politikasi'
-    | '/tesekkurler'
+    | '/kvkk'
     | '/og-image.jpg'
     | '/randevu'
     | '/search-console-analiz-bangla'
     | '/sitemap.xml'
     | '/studio'
+    | '/tesekkurler'
     | '/admin/bookings'
     | '/admin/callbacks'
     | '/admin/contact-clicks'
@@ -713,20 +713,20 @@ export interface RootRouteChildren {
   BlogYazmaRehberiRoute: typeof BlogYazmaRehberiRoute
   CerezPolitikasiRoute: typeof CerezPolitikasiRoute
   DisavowRoute: typeof DisavowRoute
+  FiyatlarRoute: typeof FiyatlarRoute
+  GizlilikPolitikasiRoute: typeof GizlilikPolitikasiRoute
   GoogleAdsRoute: typeof GoogleAdsRoute
   GoogleAdsKurulumRoute: typeof GoogleAdsKurulumRoute
   HizmetlerRoute: typeof HizmetlerRoute
   IndexDurumuBanglaRoute: typeof IndexDurumuBanglaRoute
-  KvkkRoute: typeof KvkkRoute
-  FiyatlarRoute: typeof FiyatlarRoute
   KullanimKosullariRoute: typeof KullanimKosullariRoute
-  GizlilikPolitikasiRoute: typeof GizlilikPolitikasiRoute
-  TesekkurlerRoute: typeof TesekkurlerRoute
+  KvkkRoute: typeof KvkkRoute
   OgImageDotjpgRoute: typeof OgImageDotjpgRoute
   RandevuRoute: typeof RandevuRoute
   SearchConsoleAnalizBanglaRoute: typeof SearchConsoleAnalizBanglaRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   StudioRoute: typeof StudioRouteWithChildren
+  TesekkurlerRoute: typeof TesekkurlerRoute
   BlogSlugRoute: typeof BlogSlugRoute
   HizmetSlugRoute: typeof HizmetSlugRouteWithChildren
   TesisatciSlugRoute: typeof TesisatciSlugRouteWithChildren
@@ -809,6 +809,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DisavowRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/fiyatlar': {
+      id: '/fiyatlar'
+      path: '/fiyatlar'
+      fullPath: '/fiyatlar'
+      preLoaderRoute: typeof FiyatlarRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/gizlilik-politikasi': {
+      id: '/gizlilik-politikasi'
+      path: '/gizlilik-politikasi'
+      fullPath: '/gizlilik-politikasi'
+      preLoaderRoute: typeof GizlilikPolitikasiRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/google-ads': {
       id: '/google-ads'
       path: '/google-ads'
@@ -837,20 +851,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexDurumuBanglaRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/kvkk': {
-      id: '/kvkk'
-      path: '/kvkk'
-      fullPath: '/kvkk'
-      preLoaderRoute: typeof KvkkRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/fiyatlar': {
-      id: '/fiyatlar'
-      path: '/fiyatlar'
-      fullPath: '/fiyatlar'
-      preLoaderRoute: typeof FiyatlarRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/kullanim-kosullari': {
       id: '/kullanim-kosullari'
       path: '/kullanim-kosullari'
@@ -858,18 +858,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof KullanimKosullariRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/gizlilik-politikasi': {
-      id: '/gizlilik-politikasi'
-      path: '/gizlilik-politikasi'
-      fullPath: '/gizlilik-politikasi'
-      preLoaderRoute: typeof GizlilikPolitikasiRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/tesekkurler': {
-      id: '/tesekkurler'
-      path: '/tesekkurler'
-      fullPath: '/tesekkurler'
-      preLoaderRoute: typeof TesekkurlerRouteImport
+    '/kvkk': {
+      id: '/kvkk'
+      path: '/kvkk'
+      fullPath: '/kvkk'
+      preLoaderRoute: typeof KvkkRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/og-image.jpg': {
@@ -905,6 +898,13 @@ declare module '@tanstack/react-router' {
       path: '/studio'
       fullPath: '/studio'
       preLoaderRoute: typeof StudioRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/tesekkurler': {
+      id: '/tesekkurler'
+      path: '/tesekkurler'
+      fullPath: '/tesekkurler'
+      preLoaderRoute: typeof TesekkurlerRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/admin/': {
@@ -1224,20 +1224,20 @@ const rootRouteChildren: RootRouteChildren = {
   BlogYazmaRehberiRoute: BlogYazmaRehberiRoute,
   CerezPolitikasiRoute: CerezPolitikasiRoute,
   DisavowRoute: DisavowRoute,
+  FiyatlarRoute: FiyatlarRoute,
+  GizlilikPolitikasiRoute: GizlilikPolitikasiRoute,
   GoogleAdsRoute: GoogleAdsRoute,
   GoogleAdsKurulumRoute: GoogleAdsKurulumRoute,
   HizmetlerRoute: HizmetlerRoute,
   IndexDurumuBanglaRoute: IndexDurumuBanglaRoute,
-  KvkkRoute: KvkkRoute,
-  FiyatlarRoute: FiyatlarRoute,
   KullanimKosullariRoute: KullanimKosullariRoute,
-  GizlilikPolitikasiRoute: GizlilikPolitikasiRoute,
-  TesekkurlerRoute: TesekkurlerRoute,
+  KvkkRoute: KvkkRoute,
   OgImageDotjpgRoute: OgImageDotjpgRoute,
   RandevuRoute: RandevuRoute,
   SearchConsoleAnalizBanglaRoute: SearchConsoleAnalizBanglaRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   StudioRoute: StudioRouteWithChildren,
+  TesekkurlerRoute: TesekkurlerRoute,
   BlogSlugRoute: BlogSlugRoute,
   HizmetSlugRoute: HizmetSlugRouteWithChildren,
   TesisatciSlugRoute: TesisatciSlugRouteWithChildren,
